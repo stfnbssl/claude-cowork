@@ -1,0 +1,13 @@
+version: "3"
+
+authtoken: 3CFa1iQqMOMVtOEkyndHVvmCA5M_6ZxVK5WWFM2Qv2iS39aLd
+
+agent:
+  connect_timeout: 30s
+  update_channel: stable
+
+tunnels:
+  hcaire-blog:
+    proto: http
+    addr: 3018
+    domain: depict-gravitate-scrimmage.ngrok-free.dev

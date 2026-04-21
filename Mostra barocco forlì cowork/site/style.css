@@ -1,0 +1,302 @@
+/* === RESET E BASE === */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  font-family: -apple-system, 'Segoe UI', system-ui, sans-serif;
+  color: #1a1a1a;
+  background: #fff;
+  line-height: 1.6;
+}
+
+/* === COLORI === */
+:root {
+  --primario: #5A2A00;
+  --secondario: #8A6A4A;
+  --avorio: #FBF1E4;
+  --bordo: #D8B48C;
+  --testo-attenuato: #666;
+}
+
+/* === COLONNA CENTRALE === */
+.contenuto {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* === HEADER E NAV === */
+header {
+  border-bottom: 2px solid var(--bordo);
+  background: var(--avorio);
+  padding: 12px 0;
+}
+
+header .contenuto {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-family: 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--primario);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+}
+
+nav a {
+  font-size: 0.82rem;
+  color: var(--secondario);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+
+nav a:hover { border-color: var(--secondario); }
+nav a.attiva { color: var(--primario); font-weight: 600; }
+
+/* === HERO (HOME) === */
+.hero {
+  background: var(--avorio);
+  border-bottom: 1px solid var(--bordo);
+  padding: 48px 0 40px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  font-size: clamp(1.8rem, 5vw, 2.8rem);
+  color: var(--primario);
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+}
+
+.hero .sottotitolo {
+  font-size: 1rem;
+  color: var(--secondario);
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.hero .occhiello {
+  font-size: 0.85rem;
+  color: var(--testo-attenuato);
+  margin-top: 6px;
+}
+
+/* === CORPO PAGINE === */
+main { padding: 36px 0 48px; }
+
+/* === TITOLO PAGINE INTERNE === */
+.titolo-pagina {
+  padding: 32px 0 28px;
+  border-bottom: 1px solid var(--bordo);
+  margin-bottom: 32px;
+}
+
+.titolo-pagina h1 {
+  font-family: 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  font-size: clamp(1.5rem, 4vw, 2.1rem);
+  color: var(--primario);
+  line-height: 1.2;
+}
+
+.titolo-pagina .sottotitolo-pagina {
+  font-size: 0.95rem;
+  color: var(--secondario);
+  margin-top: 6px;
+  font-style: italic;
+}
+
+/* === TIPOGRAFIA === */
+h2 {
+  font-family: 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  font-size: 1.35rem;
+  color: var(--primario);
+  margin: 2.2em 0 0.6em;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 1.05rem;
+  color: var(--secondario);
+  margin: 1.6em 0 0.5em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 0.95rem;
+  color: var(--primario);
+  margin: 1.4em 0 0.4em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p { margin-bottom: 0.9em; }
+
+ul, ol {
+  margin: 0.5em 0 1em 1.4em;
+}
+
+li { margin-bottom: 0.35em; }
+
+strong { color: var(--primario); }
+
+em { color: var(--secondario); }
+
+blockquote {
+  border-left: 3px solid var(--bordo);
+  padding: 0.5em 1em;
+  margin: 1.2em 0;
+  color: var(--secondario);
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--bordo);
+  margin: 2em 0;
+}
+
+a { color: var(--primario); }
+a:hover { text-decoration: underline; }
+
+/* === BOX CHIAVE ("Cosa cercare") === */
+.box-chiave {
+  background: var(--avorio);
+  border: 1px solid var(--bordo);
+  border-left: 4px solid var(--secondario);
+  padding: 1.5em;
+  margin: 2.2em 0;
+  border-radius: 2px;
+}
+
+.box-chiave h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+/* === BOX CHECKLIST (HOME) === */
+.box-checklist {
+  background: var(--avorio);
+  border: 1px solid var(--bordo);
+  border-radius: 3px;
+  padding: 1.6em 1.8em;
+  margin: 2.2em 0;
+  text-align: center;
+}
+
+.box-checklist h2 {
+  margin-top: 0;
+  font-size: 1.15rem;
+  color: var(--primario);
+}
+
+.box-checklist p { margin: 0.5em 0 1em; font-size: 0.9rem; color: var(--secondario); }
+
+.btn-scarica {
+  display: inline-block;
+  background: var(--primario);
+  color: #fff !important;
+  text-decoration: none !important;
+  padding: 0.65em 1.6em;
+  border-radius: 2px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: background 0.15s;
+}
+
+.btn-scarica:hover { background: #7a3a00; }
+
+/* === CARD APPROFONDIMENTI === */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 1.5em 0 2em;
+}
+
+.card {
+  border: 1px solid var(--bordo);
+  border-radius: 3px;
+  padding: 1.2em 1.4em;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: background 0.15s;
+}
+
+.card:hover {
+  background: var(--avorio);
+  text-decoration: none;
+}
+
+.card h3 {
+  font-family: 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  color: var(--primario);
+  margin: 0 0 0.4em;
+  font-size: 1rem;
+}
+
+.card p { font-size: 0.88rem; color: var(--secondario); margin: 0; }
+
+/* === FOOTER NAVIGAZIONE (pagine interne) === */
+.footer-nav {
+  border-top: 1px solid var(--bordo);
+  padding: 1.2em 0;
+  margin-top: 2.5em;
+  font-size: 0.88rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  align-items: center;
+}
+
+.footer-nav a { color: var(--secondario); }
+
+/* === FOOTER PRINCIPALE === */
+footer {
+  border-top: 2px solid var(--bordo);
+  background: var(--avorio);
+  padding: 20px 0;
+  font-size: 0.82rem;
+  color: var(--testo-attenuato);
+}
+
+footer .contenuto { text-align: center; }
+footer a { color: var(--testo-attenuato); }
+
+/* === SECTION HEADINGS (HOME) === */
+.home-section-title {
+  font-family: 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  font-size: 1.2rem;
+  color: var(--secondario);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+  border-bottom: 1px solid var(--bordo);
+  padding-bottom: 6px;
+  margin: 2em 0 1em;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 600px) {
+  header .contenuto { flex-direction: column; align-items: flex-start; }
+  .hero { padding: 32px 0 28px; }
+  .card-grid { grid-template-columns: 1fr; }
+  .footer-nav { flex-direction: column; gap: 6px; }
+}

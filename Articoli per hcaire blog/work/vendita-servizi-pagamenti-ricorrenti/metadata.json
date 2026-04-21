@@ -1,0 +1,18 @@
+{
+  "slug": "vendita-servizi-pagamenti-ricorrenti-minimizzare-costi-responsabilita",
+  "titolo": "Vendere Servizi Online con Pagamenti Ricorrenti: Come Minimizzare Costi e Responsabilità",
+  "descrizione": "Guida pratica per gestire abbonamenti dal proprio sito: hosted checkout, Merchant of Record e GDPR per ridurre costi e responsabilità legali.",
+  "categoria": "Business Digitale",
+  "tags": ["pagamenti-ricorrenti", "abbonamenti-online", "stripe", "merchant-of-record", "gdpr"],
+  "data_creazione": "2026-04-13",
+  "lunghezza_parole": 1050,
+  "autore": "Cowork",
+  "fonti_usate": [
+    "https://stripe.com/resources/more/hosted-payment-pages",
+    "https://q-81-hse.it/hse-hub/sicurezza-dati-e-privacy/la-sicurezza-dei-pagamenti-digitali-cosa-dice-il-gdpr/",
+    "https://www.agendadigitale.eu/mercati-digitali/ecommerce/ecommerce-guida-2025-ai-fornitori-di-servizi-di-pagamento-in-italia/",
+    "https://dev.to/jettfu/stripe-vs-paddle-vs-lemon-squeezy-fee-comparison-2026-2c77",
+    "https://www.partitaiva.it/iva-digitale-vida/",
+    "https://www.paymart.it/come-vendere-servizi-in-abbonamento-creare-piani-ricorrenti-e-subscription/"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "flusso-lavoro-cloud-cowork",
+  "titolo": "Oltre il Desktop: Tutti i Modi per Organizzare il Tuo Flusso di Lavoro con Claude Cowork",
+  "descrizione": "Desktop, mobile con Dispatch, Projects, task schedulati, Zapier MCP: ecco tutti i modi per organizzare un workflow professionale con Claude Cowork.",
+  "categoria": "Produttività",
+  "tags": ["claude cowork", "workflow", "produttività AI", "dispatch", "automazione"],
+  "data_creazione": "2026-04-13",
+  "lunghezza_parole": 750,
+  "autore": "Cowork",
+  "fonti_usate": [
+    "https://support.claude.com/en/articles/13947068-assign-tasks-to-claude-from-anywhere-in-cowork",
+    "https://pasqualepillitteri.it/en/news/418/claude-cowork-dispatch-guide",
+    "https://zapier.com/blog/claude-cowork/",
+    "https://marketingagent.blog/2026/03/22/tutorial-set-up-claude-cowork-projects-for-beginners/",
+    "https://fabiolalli.com/2026/01/18/claude-cowork-guida-definitiva-tecnica-e-operativa-al-nuovo-agente-ia-di-anthropic/",
+    "https://marketingagent.blog/2026/03/12/tutorial-automate-daily-workflows-with-claude-cowork/",
+    "https://www.analyticsvidhya.com/blog/2026/03/claude-cowork-dispatch/"
+  ]
+}

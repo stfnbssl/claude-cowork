@@ -1,0 +1,19 @@
+{
+  "slug": "claude-cowork-skills-generazione-articoli-ai",
+  "titolo": "Come usare le Skill di Claude Cowork per costruire un sistema automatico di generazione articoli",
+  "descrizione": "Guida pratica per costruire un sistema automatico di generazione articoli con le Skill di Claude Cowork: workflow, pipeline e best practice.",
+  "categoria": "Intelligenza Artificiale",
+  "tags": ["claude-code", "skill-ai", "content-automation", "generazione-articoli", "workflow-ai"],
+  "data_creazione": "2026-04-13",
+  "lunghezza_parole": 1100,
+  "autore": "stfnbssl",
+  "fonti_usate": [
+    "https://code.claude.com/docs/en/skills",
+    "https://www.castaldosolutions.it/articles/blog/come-creare-skill-claude-code",
+    "https://alexop.dev/posts/claude-code-customization-guide-claudemd-skills-subagents/",
+    "https://www.trysight.ai/blog/content-generation-workflow-automation",
+    "https://dev.to/whoffagents/how-to-build-claude-code-skills-custom-slash-commands-that-actually-work-1nje",
+    "https://www.martes-ai.com/blog/claude-cowork-guida-completa-automazione-aziendale/",
+    "https://blog.brightcoding.dev/2026/04/02/claude-skills-51-ai-skills-that-actually-build-things"
+  ]
+}

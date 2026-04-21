@@ -1,0 +1,18 @@
+{
+  "slug": "claude-code-portale-master-subprogetti",
+  "titolo": "Claude Code e i Portali Complessi: la Strategia Master + Sotto-Progetti",
+  "descrizione": "Come strutturare un portale web con Claude Code usando un progetto master e sotto-progetti per funzionalità: CLAUDE.md gerarchici, subagenti e Agent Teams.",
+  "categoria": "Sviluppo Software",
+  "tags": ["claude-code", "portale-web", "monorepo", "subagenti", "intelligenza-artificiale"],
+  "data_creazione": "2026-04-12",
+  "lunghezza_parole": 1250,
+  "autore": "Cowork",
+  "fonti_usate": [
+    "https://code.claude.com/docs/en/best-practices",
+    "https://claudelab.net/en/articles/claude-code/claude-code-monorepo-turborepo-workspace-guide",
+    "https://code.claude.com/docs/en/agent-teams",
+    "https://medium.com/devops-ai/the-virtual-monorepo-pattern-how-i-gave-claude-code-full-system-context-across-35-repos-43b310c97db8",
+    "https://claudearchitect.com/docs/claude-code/claude-code-monorepo/",
+    "https://shipyard.build/blog/claude-code-multi-agent/"
+  ]
+}
