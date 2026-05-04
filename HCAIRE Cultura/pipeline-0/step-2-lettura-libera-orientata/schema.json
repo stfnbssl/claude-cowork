@@ -1,0 +1,149 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LetturaLiberaOrientata",
+  "description": "Output dello Step 2 della pipeline HCAIRE Cultura: prima lettura interpretativa libera, orientata a individuare la configurazione umana dominante dell'opera. Non ancora applicazione sistematica degli assi strutturali.",
+  "type": "object",
+  "required": [
+    "opera_riferimento",
+    "nucleo_tematico_centrale",
+    "ipotesi_critica_provvisoria",
+    "tensioni_principali",
+    "domande_critiche_aperte",
+    "aree_di_rilevanza"
+  ],
+  "properties": {
+    "opera_riferimento": {
+      "type": "object",
+      "description": "Riferimento all'opera analizzata (collegamento al dossier Step 1).",
+      "required": ["titolo", "autore"],
+      "properties": {
+        "titolo": { "type": "string" },
+        "autore": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "nucleo_tematico_centrale": {
+      "type": "object",
+      "description": "La questione umana fondamentale attorno a cui l'opera si organizza.",
+      "required": ["formulazione", "motivazione"],
+      "properties": {
+        "formulazione": {
+          "type": "string",
+          "description": "Enunciazione sintetica del nucleo tematico (1-2 frasi)."
+        },
+        "motivazione": {
+          "type": "string",
+          "description": "Spiegazione di come il nucleo emerge dagli elementi del dossier."
+        }
+      },
+      "additionalProperties": false
+    },
+    "ipotesi_critica_provvisoria": {
+      "type": "object",
+      "description": "Tesi interpretativa di partenza: risposta possibile, non definitiva, alla questione centrale.",
+      "required": ["tesi", "basi_nel_dossier", "carattere_provvisorio"],
+      "properties": {
+        "tesi": {
+          "type": "string",
+          "description": "Formulazione dell'ipotesi interpretativa. Deve essere sufficientemente specifica e falsificabile."
+        },
+        "basi_nel_dossier": {
+          "type": "array",
+          "description": "Elementi del dossier (Step 1) su cui si fonda l'ipotesi.",
+          "items": { "type": "string" }
+        },
+        "carattere_provvisorio": {
+          "type": "string",
+          "description": "Esplicitazione di ciò che potrebbe smentire o modificare l'ipotesi in una lettura più attenta."
+        }
+      },
+      "additionalProperties": false
+    },
+    "tensioni_principali": {
+      "type": "array",
+      "description": "Polarità, conflitti e contraddizioni che strutturano l'opera nella sua configurazione umana. Distinte dai temi espliciti dello Step 1.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["descrizione"],
+        "properties": {
+          "descrizione": {
+            "type": "string",
+            "description": "Formulazione della tensione come polarità o conflitto strutturale."
+          },
+          "polo_a": {
+            "type": "string",
+            "description": "Primo polo della tensione, se formulabile come bipolarità."
+          },
+          "polo_b": {
+            "type": "string",
+            "description": "Secondo polo della tensione, se formulabile come bipolarità."
+          },
+          "dove_si_manifesta": {
+            "type": "string",
+            "description": "Indicazione di dove questa tensione è visibile nell'opera."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "domande_critiche_aperte": {
+      "type": "array",
+      "description": "Aspetti dell'opera che richiedono ancora interpretazione e guideranno il lavoro dello Step 3.",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["domanda"],
+        "properties": {
+          "domanda": {
+            "type": "string",
+            "description": "Formulazione della domanda critica."
+          },
+          "motivazione": {
+            "type": "string",
+            "description": "Perché questa domanda è rilevante per la comprensione dell'opera."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "aree_di_rilevanza": {
+      "type": "object",
+      "description": "Prime aree di pertinenza critica dell'opera, senza ancora applicare gli assi strutturali.",
+      "properties": {
+        "antropologica": {
+          "type": "string",
+          "description": "Che cosa sembra dire l'opera sull'essere umano in quanto tale."
+        },
+        "esistenziale": {
+          "type": "string",
+          "description": "Che cosa sembra dire l'opera sull'esperienza del vivere."
+        },
+        "storica": {
+          "type": "string",
+          "description": "Che cosa sembra dire l'opera del contesto storico in cui si produce o che descrive."
+        },
+        "simbolica": {
+          "type": "string",
+          "description": "Che cosa sembra dire l'opera attraverso immagini, metafore e simboli."
+        }
+      },
+      "additionalProperties": false
+    },
+    "note_metodologiche": {
+      "type": "string",
+      "description": "Eventuali osservazioni sul processo di lettura: limiti, punti di resistenza dell'opera, elementi che sembrano sottrarsi all'interpretazione."
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Metadati sul processo di compilazione.",
+      "properties": {
+        "data_compilazione": { "type": "string", "format": "date" },
+        "compilato_da": { "type": "string" },
+        "versione": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

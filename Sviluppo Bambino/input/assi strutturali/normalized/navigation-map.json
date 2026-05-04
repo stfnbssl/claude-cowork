@@ -1,0 +1,434 @@
+{
+  "Asse 1 - Ontologico - fenomenologico": {
+    "asse": "Asse 1 - Ontologico - fenomenologico",
+    "total_chapters": 8,
+    "chapters": [
+      {
+        "file": "Capitolo 1 - Statuto dell’Asse ontologico – fenomenologico.md",
+        "title": "Statuto dell’Asse ontologico – fenomenologico",
+        "chapter": "1",
+        "order": "1",
+        "slug": "capitolo-1-statuto-dell-asse-ontologico-fenomenologico",
+        "prev": null,
+        "next": "capitolo-2-il-soggetto-come-processo-di-costituzione"
+      },
+      {
+        "file": "Capitolo 2 - Il soggetto come processo di costituzione.md",
+        "title": "Il soggetto come processo di costituzione",
+        "chapter": "2",
+        "order": "2",
+        "slug": "capitolo-2-il-soggetto-come-processo-di-costituzione",
+        "prev": "capitolo-1-statuto-dell-asse-ontologico-fenomenologico",
+        "next": "capitolo-3-temporalita-vissuta-come-struttura-della-soggettivita"
+      },
+      {
+        "file": "Capitolo 3 - Temporalità vissuta come struttura della soggettività.md",
+        "title": "Temporalità vissuta come struttura della soggettività",
+        "chapter": "3",
+        "order": "3",
+        "slug": "capitolo-3-temporalita-vissuta-come-struttura-della-soggettivita",
+        "prev": "capitolo-2-il-soggetto-come-processo-di-costituzione",
+        "next": "capitolo-4-la-corporeita-come-luogo-originario-di-senso"
+      },
+      {
+        "file": "Capitolo 4 - La corporeità come luogo originario di senso.md",
+        "title": "La corporeità come luogo originario di senso",
+        "chapter": "4",
+        "order": "4",
+        "slug": "capitolo-4-la-corporeita-come-luogo-originario-di-senso",
+        "prev": "capitolo-3-temporalita-vissuta-come-struttura-della-soggettivita",
+        "next": "capitolo-5-la-regolazione-come-principio-ontologico"
+      },
+      {
+        "file": "Capitolo 5 - La regolazione come principio ontologico.md",
+        "title": "La regolazione come principio ontologico",
+        "chapter": "5",
+        "order": "5",
+        "slug": "capitolo-5-la-regolazione-come-principio-ontologico",
+        "prev": "capitolo-4-la-corporeita-come-luogo-originario-di-senso",
+        "next": "capitolo-6-la-relazione-come-condizione-strutturale-della-soggettivita"
+      },
+      {
+        "file": "Capitolo 6 - La relazione come condizione strutturale della soggettività.md",
+        "title": "La relazione come condizione strutturale della soggettività",
+        "chapter": "6",
+        "order": "6",
+        "slug": "capitolo-6-la-relazione-come-condizione-strutturale-della-soggettivita",
+        "prev": "capitolo-5-la-regolazione-come-principio-ontologico",
+        "next": "capitolo-7-il-campo-intenzionale-come-struttura-dell-esperienza"
+      },
+      {
+        "file": "Capitolo 7 - Il campo intenzionale come struttura dell’esperienza.md",
+        "title": "Il campo intenzionale come struttura dell’esperienza",
+        "chapter": "7",
+        "order": "7",
+        "slug": "capitolo-7-il-campo-intenzionale-come-struttura-dell-esperienza",
+        "prev": "capitolo-6-la-relazione-come-condizione-strutturale-della-soggettivita",
+        "next": "capitolo-8-soglia-tra-ontologia-e-genesi-morale"
+      },
+      {
+        "file": "Capitolo 8 - Soglia tra ontologia e genesi morale.md",
+        "title": "Soglia tra ontologia e genesi morale",
+        "chapter": "8",
+        "order": "8",
+        "slug": "capitolo-8-soglia-tra-ontologia-e-genesi-morale",
+        "prev": "capitolo-7-il-campo-intenzionale-come-struttura-dell-esperienza",
+        "next": null
+      }
+    ]
+  },
+  "Asse 2 - Affettivo -morale": {
+    "asse": "Asse 2 - Affettivo -morale",
+    "total_chapters": 8,
+    "chapters": [
+      {
+        "file": "Capitolo 1 – Statuto dell’asse affettivo–morale.md",
+        "title": "Statuto dell’asse affettivo–morale",
+        "chapter": "1",
+        "order": "1",
+        "slug": "capitolo-1-statuto-dell-asse-affettivo-morale",
+        "prev": null,
+        "next": "capitolo-2-l-altro-come-istanza-interna"
+      },
+      {
+        "file": "Capitolo 2 – L’altro come istanza interna.md",
+        "title": "L’altro come istanza interna",
+        "chapter": "2",
+        "order": "2",
+        "slug": "capitolo-2-l-altro-come-istanza-interna",
+        "prev": "capitolo-1-statuto-dell-asse-affettivo-morale",
+        "next": "capitolo-3-la-colpa-come-esperienza-affettiva-strutturante"
+      },
+      {
+        "file": "Capitolo 3 – La colpa come esperienza affettiva strutturante.md",
+        "title": "La colpa come esperienza affettiva strutturante",
+        "chapter": "3",
+        "order": "3",
+        "slug": "capitolo-3-la-colpa-come-esperienza-affettiva-strutturante",
+        "prev": "capitolo-2-l-altro-come-istanza-interna",
+        "next": "capitolo-4-riparazione-e-responsabilita"
+      },
+      {
+        "file": "Capitolo 4 – Riparazione e responsabilità.md",
+        "title": "Riparazione e responsabilità",
+        "chapter": "4",
+        "order": "4",
+        "slug": "capitolo-4-riparazione-e-responsabilita",
+        "prev": "capitolo-3-la-colpa-come-esperienza-affettiva-strutturante",
+        "next": "capitolo-5-confronto-psicoanalitico-strutturale"
+      },
+      {
+        "file": "Capitolo 5 – Confronto psicoanalitico strutturale.md",
+        "title": "Confronto psicoanalitico strutturale",
+        "chapter": "5",
+        "order": "5",
+        "slug": "capitolo-5-confronto-psicoanalitico-strutturale",
+        "prev": "capitolo-4-riparazione-e-responsabilita",
+        "next": "capitolo-6-temporalita-dello-sviluppo-morale"
+      },
+      {
+        "file": "Capitolo 6 – Temporalità dello sviluppo morale.md",
+        "title": "Temporalità dello sviluppo morale",
+        "chapter": "6",
+        "order": "6",
+        "slug": "capitolo-6-temporalita-dello-sviluppo-morale",
+        "prev": "capitolo-5-confronto-psicoanalitico-strutturale",
+        "next": "capitolo-7-dove-l-asse-affettivo-morale-puo-fallire"
+      },
+      {
+        "file": "Capitolo 7 – Dove l’Asse affettivo–morale può fallire.md",
+        "title": "Dove l’Asse affettivo–morale può fallire",
+        "chapter": "7",
+        "order": "7",
+        "slug": "capitolo-7-dove-l-asse-affettivo-morale-puo-fallire",
+        "prev": "capitolo-6-temporalita-dello-sviluppo-morale",
+        "next": "capitolo-8-raccordo-con-l-asse-normativo-educativo"
+      },
+      {
+        "file": "Capitolo 8 – Raccordo con l’Asse normativo–educativo.md",
+        "title": "Raccordo con l’Asse normativo–educativo",
+        "chapter": "8",
+        "order": "8",
+        "slug": "capitolo-8-raccordo-con-l-asse-normativo-educativo",
+        "prev": "capitolo-7-dove-l-asse-affettivo-morale-puo-fallire",
+        "next": null
+      }
+    ]
+  },
+  "Asse 3 - Normativo - educativo": {
+    "asse": "Asse 3 - Normativo - educativo",
+    "total_chapters": 6,
+    "chapters": [
+      {
+        "file": "Capitolo 1 - Norma, normatività, giudizio_ distinzione concettuale.md",
+        "title": "Norma, normatività, giudizio: distinzione concettuale",
+        "chapter": "1",
+        "order": "1",
+        "slug": "capitolo-1-norma-normativita-giudizio-distinzione-concettuale",
+        "prev": null,
+        "next": "capitolo-2-dalla-colpa-asse-2-al-giudizio"
+      },
+      {
+        "file": "Capitolo 2 - Dalla colpa (Asse 2) al giudizio.md",
+        "title": "Dalla colpa (Asse 2) al giudizio",
+        "chapter": "2",
+        "order": "2",
+        "slug": "capitolo-2-dalla-colpa-asse-2-al-giudizio",
+        "prev": "capitolo-1-norma-normativita-giudizio-distinzione-concettuale",
+        "next": "capitolo-3-verita-educativa-orientamento-senza-arbitrarieta"
+      },
+      {
+        "file": "Capitolo 3 - Verità educativa_ orientamento senza arbitrarietà.md",
+        "title": "Verità educativa: orientamento senza arbitrarietà",
+        "chapter": "3",
+        "order": "3",
+        "slug": "capitolo-3-verita-educativa-orientamento-senza-arbitrarieta",
+        "prev": "capitolo-2-dalla-colpa-asse-2-al-giudizio",
+        "next": "capitolo-4-educare-senza-manipolare-autorita-e-responsabilita"
+      },
+      {
+        "file": "Capitolo 4 - Educare senza manipolare_ autorità e responsabilità.md",
+        "title": "Educare senza manipolare: autorità e responsabilità",
+        "chapter": "4",
+        "order": "4",
+        "slug": "capitolo-4-educare-senza-manipolare-autorita-e-responsabilita",
+        "prev": "capitolo-3-verita-educativa-orientamento-senza-arbitrarieta",
+        "next": "capitolo-5-i-fallimenti-della-normativita-relativismo-moralismo-e-prestazione"
+      },
+      {
+        "file": "Capitolo 5 - I fallimenti della normatività_ relativismo, moralismo e prestazione.md",
+        "title": "I fallimenti della normatività: relativismo, moralismo e prestazione",
+        "chapter": "5",
+        "order": "5",
+        "slug": "capitolo-5-i-fallimenti-della-normativita-relativismo-moralismo-e-prestazione",
+        "prev": "capitolo-4-educare-senza-manipolare-autorita-e-responsabilita",
+        "next": "capitolo-6-il-limite-del-giudizio-quando-la-norma-non-e-sovrana"
+      },
+      {
+        "file": "Capitolo 6 - Il limite del giudizio_ quando la norma non è sovrana.md",
+        "title": "Il limite del giudizio: quando la norma non è sovrana",
+        "chapter": "6",
+        "order": "6",
+        "slug": "capitolo-6-il-limite-del-giudizio-quando-la-norma-non-e-sovrana",
+        "prev": "capitolo-5-i-fallimenti-della-normativita-relativismo-moralismo-e-prestazione",
+        "next": null
+      }
+    ]
+  },
+  "Asse 4 - Separazione e Limite": {
+    "asse": "Asse 4 - Separazione e Limite",
+    "total_chapters": 8,
+    "chapters": [
+      {
+        "file": "Capitolo 1 - Lo statuto del limite reale.md",
+        "title": "Lo statuto del limite reale",
+        "chapter": "1",
+        "order": "1",
+        "slug": "capitolo-1-lo-statuto-del-limite-reale",
+        "prev": null,
+        "next": "capitolo-2-l-eccedenza"
+      },
+      {
+        "file": "Capitolo 2 - L’eccedenza.md",
+        "title": "L’eccedenza",
+        "chapter": "2",
+        "order": "2",
+        "slug": "capitolo-2-l-eccedenza",
+        "prev": "capitolo-1-lo-statuto-del-limite-reale",
+        "next": "capitolo-3-la-perdita"
+      },
+      {
+        "file": "Capitolo 3 - La perdita.md",
+        "title": "La perdita",
+        "chapter": "3",
+        "order": "3",
+        "slug": "capitolo-3-la-perdita",
+        "prev": "capitolo-2-l-eccedenza",
+        "next": "capitolo-4-la-separazione"
+      },
+      {
+        "file": "Capitolo 4 - La separazione.md",
+        "title": "La separazione",
+        "chapter": "4",
+        "order": "4",
+        "slug": "capitolo-4-la-separazione",
+        "prev": "capitolo-3-la-perdita",
+        "next": "capitolo-5-il-rischio-educativo"
+      },
+      {
+        "file": "Capitolo 5 - Il rischio educativo.md",
+        "title": "Il rischio educativo",
+        "chapter": "5",
+        "order": "5",
+        "slug": "capitolo-5-il-rischio-educativo",
+        "prev": "capitolo-4-la-separazione",
+        "next": "capitolo-6-temporalita-del-limite"
+      },
+      {
+        "file": "Capitolo 6 - Temporalità del limite.md",
+        "title": "Temporalità del limite",
+        "chapter": "6",
+        "order": "6",
+        "slug": "capitolo-6-temporalita-del-limite",
+        "prev": "capitolo-5-il-rischio-educativo",
+        "next": "capitolo-7-statuto-simbolico-della-perdita"
+      },
+      {
+        "file": "Capitolo 7 - Statuto simbolico della perdita.md",
+        "title": "Statuto simbolico della perdita",
+        "chapter": "7",
+        "order": "7",
+        "slug": "capitolo-7-statuto-simbolico-della-perdita",
+        "prev": "capitolo-6-temporalita-del-limite",
+        "next": "capitolo-8-raccordo-con-l-asse-del-desiderio"
+      },
+      {
+        "file": "Capitolo 8 - Raccordo con l’asse del desiderio.md",
+        "title": "Raccordo con l’asse del desiderio",
+        "chapter": "8",
+        "order": "8",
+        "slug": "capitolo-8-raccordo-con-l-asse-del-desiderio",
+        "prev": "capitolo-7-statuto-simbolico-della-perdita",
+        "next": null
+      }
+    ]
+  },
+  "Asse 5 - Desiderio": {
+    "asse": "Asse 5 - Desiderio",
+    "total_chapters": 7,
+    "chapters": [
+      {
+        "file": "Capitolo 1 - Statuto filosofico del desiderio.md",
+        "title": "Statuto filosofico del desiderio",
+        "chapter": "1",
+        "order": "1",
+        "slug": "capitolo-1-statuto-filosofico-del-desiderio",
+        "prev": null,
+        "next": "capitolo-2-genealogia-filosofica-del-desiderio"
+      },
+      {
+        "file": "Capitolo 2 - Genealogia filosofica del desiderio.md",
+        "title": "Genealogia filosofica del desiderio",
+        "chapter": "2",
+        "order": "2",
+        "slug": "capitolo-2-genealogia-filosofica-del-desiderio",
+        "prev": "capitolo-1-statuto-filosofico-del-desiderio",
+        "next": "capitolo-3-fenomenologia-del-desiderio-incarnato"
+      },
+      {
+        "file": "Capitolo 3 - Fenomenologia del desiderio incarnato.md",
+        "title": "Fenomenologia del desiderio incarnato",
+        "chapter": "3",
+        "order": "3",
+        "slug": "capitolo-3-fenomenologia-del-desiderio-incarnato",
+        "prev": "capitolo-2-genealogia-filosofica-del-desiderio",
+        "next": "capitolo-4-dal-campo-desiderabile-alla-soggettivazione-del-desiderio"
+      },
+      {
+        "file": "Capitolo 4 - Dal campo desiderabile alla soggettivazione del desiderio.md",
+        "title": "Dal campo desiderabile alla soggettivazione del desiderio",
+        "chapter": "4",
+        "order": "4",
+        "slug": "capitolo-4-dal-campo-desiderabile-alla-soggettivazione-del-desiderio",
+        "prev": "capitolo-3-fenomenologia-del-desiderio-incarnato",
+        "next": "capitolo-5-desiderio-norma-e-giudizio"
+      },
+      {
+        "file": "Capitolo 5 - Desiderio, norma e giudizio.md",
+        "title": "Desiderio, norma e giudizio",
+        "chapter": "5",
+        "order": "5",
+        "slug": "capitolo-5-desiderio-norma-e-giudizio",
+        "prev": "capitolo-4-dal-campo-desiderabile-alla-soggettivazione-del-desiderio",
+        "next": "capitolo-6-patologie-strutturali-del-desiderio"
+      },
+      {
+        "file": "Capitolo 6 - Patologie strutturali del desiderio.md",
+        "title": "Patologie strutturali del desiderio",
+        "chapter": "6",
+        "order": "6",
+        "slug": "capitolo-6-patologie-strutturali-del-desiderio",
+        "prev": "capitolo-5-desiderio-norma-e-giudizio",
+        "next": "capitolo-7-raccordo-con-l-asse-6"
+      },
+      {
+        "file": "Capitolo 7 - Raccordo con l’Asse 6.md",
+        "title": "Raccordo con l’Asse 6",
+        "chapter": "7",
+        "order": "7",
+        "slug": "capitolo-7-raccordo-con-l-asse-6",
+        "prev": "capitolo-6-patologie-strutturali-del-desiderio",
+        "next": null
+      }
+    ]
+  },
+  "Asse 6 - Storico - culturale": {
+    "asse": "Asse 6 - Storico - culturale",
+    "total_chapters": 7,
+    "chapters": [
+      {
+        "file": "Capitolo 1 – Il mondo storico-culturale come mediazione, non come sfondo.md",
+        "title": "Il mondo storico-culturale come mediazione, non come sfondo",
+        "chapter": "1",
+        "order": "1",
+        "slug": "capitolo-1-il-mondo-storico-culturale-come-mediazione-non-come-sfondo",
+        "prev": null,
+        "next": "capitolo-2-costituzione-storica-del-soggetto-senza-relativismo"
+      },
+      {
+        "file": "Capitolo 2 – Costituzione storica del soggetto senza relativismo.md",
+        "title": "Costituzione storica del soggetto, senza relativismo",
+        "chapter": "2",
+        "order": "2",
+        "slug": "capitolo-2-costituzione-storica-del-soggetto-senza-relativismo",
+        "prev": "capitolo-1-il-mondo-storico-culturale-come-mediazione-non-come-sfondo",
+        "next": "capitolo-3-mediazione-simbolica-e-sviluppo"
+      },
+      {
+        "file": "Capitolo 3 – Mediazione simbolica e sviluppo.md",
+        "title": "Mediazione simbolica e sviluppo",
+        "chapter": "3",
+        "order": "3",
+        "slug": "capitolo-3-mediazione-simbolica-e-sviluppo",
+        "prev": "capitolo-2-costituzione-storica-del-soggetto-senza-relativismo",
+        "next": "capitolo-4-istituzioni-come-dispositivi-di-esperienza"
+      },
+      {
+        "file": "Capitolo 4 – Istituzioni come dispositivi di esperienza.md",
+        "title": "Istituzioni come dispositivi di esperienza",
+        "chapter": "4",
+        "order": "4",
+        "slug": "capitolo-4-istituzioni-come-dispositivi-di-esperienza",
+        "prev": "capitolo-3-mediazione-simbolica-e-sviluppo",
+        "next": "capitolo-5-tecnica-performance-e-temporalita-contemporanea"
+      },
+      {
+        "file": "Capitolo 5 – Tecnica, performance e temporalità contemporanea.md",
+        "title": "Tecnica, performance e temporalità contemporanea",
+        "chapter": "5",
+        "order": "5",
+        "slug": "capitolo-5-tecnica-performance-e-temporalita-contemporanea",
+        "prev": "capitolo-4-istituzioni-come-dispositivi-di-esperienza",
+        "next": "capitolo-6-rischi-strutturali-e-deformazioni-dello-sviluppo"
+      },
+      {
+        "file": "Capitolo 6 – Rischi strutturali e deformazioni dello sviluppo.md",
+        "title": "Rischi strutturali e deformazioni dello sviluppo",
+        "chapter": "6",
+        "order": "6",
+        "slug": "capitolo-6-rischi-strutturali-e-deformazioni-dello-sviluppo",
+        "prev": "capitolo-5-tecnica-performance-e-temporalita-contemporanea",
+        "next": "capitolo-7-raccordo-con-l-intero-modello-e-funzione-dell-asse-6"
+      },
+      {
+        "file": "Capitolo 7 – Raccordo con l’intero modello e funzione dell’Asse 6.md",
+        "title": "Raccordo con l’intero modello e funzione dell’Asse 6",
+        "chapter": "7",
+        "order": "7",
+        "slug": "capitolo-7-raccordo-con-l-intero-modello-e-funzione-dell-asse-6",
+        "prev": "capitolo-6-rischi-strutturali-e-deformazioni-dello-sviluppo",
+        "next": null
+      }
+    ]
+  }
+}

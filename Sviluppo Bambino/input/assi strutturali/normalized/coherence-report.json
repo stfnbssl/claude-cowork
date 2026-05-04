@@ -1,0 +1,13 @@
+{
+  "summary": {
+    "total_files": 44,
+    "total_unique_slugs": 44,
+    "broken_links": 0,
+    "reciprocity_issues": 0,
+    "order_gaps": 0
+  },
+  "status": "OK",
+  "broken_links": [],
+  "reciprocity_issues": [],
+  "order_gaps": {}
+}

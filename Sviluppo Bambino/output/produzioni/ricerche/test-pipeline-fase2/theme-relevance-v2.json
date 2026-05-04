@@ -1,0 +1,459 @@
+{
+  "step": "step_2",
+  "results": [
+    {
+      "theme_id": "tema_01_technoference",
+      "candidate_axes": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "forte",
+          "reason": "La technoference incide direttamente sulla qualità della co-regolazione e della co-presenza come condizioni ontologiche dell'esperienza diadica precoce: la presenza divisa del caregiver modifica la tessitura del campo intenzionale e la temporalizzazione condivisa, alterando la struttura stessa dell'essere-con prima di qualsiasi contenuto comunicativo. Senza questo asse il tema perde il suo nucleo strutturale."
+        },
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo–morale",
+          "relevance_level": "plausibile",
+          "reason": "La continuità e responsività della presenza sono condizioni strutturali per l'interiorizzazione dell'altro come istanza. Una distrazione cronica non spiega da sola gli esiti dell'Asse 2, ma può alterare le condizioni in cui l'altro diventa una presenza affettiva persistente: l'altro divisivamente-presente offre una struttura di continuità che differisce strutturalmente dall'altro pienamente disponibile."
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico–culturale",
+          "relevance_level": "forte",
+          "reason": "La technoference non è errore individuale ma configurazione storica dell'attenzione prodotta dall'ecosistema tecnologico contemporaneo. Senza questo asse il fenomeno collassa nella psicologizzazione del caregiver: l'Asse 6 è ciò che impedisce di leggere la distrazione tecnica come tratto del genitore anziché come forma storica della mediazione."
+        }
+      ],
+      "candidate_nodes": [
+        {
+          "node_id": "co-regolazione",
+          "node_label": "Co-regolazione",
+          "source_axis": "asse_1",
+          "source_axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "La co-regolazione è il nodo direttamente attivato dal tema: la qualità della tenuta diadica nel tempo dipende dalla disponibilità affettiva continua del caregiver, che la presenza tecnologica frammenta. Discriminante perché distingue la technoference da temi più ampi sull'attenzione adulta: la posta in gioco è la base intersoggettiva originaria, non una funzione cognitiva."
+        },
+        {
+          "node_id": "campo-intenzionale",
+          "node_label": "Campo intenzionale",
+          "source_axis": "asse_1",
+          "source_axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Il campo intenzionale del bambino si costituisce attraverso la qualità della relazione: la presenza divisa modifica l'orizzonte di possibilità accessibili senza ancora produrre sintomi osservabili. Discriminante perché lega la technoference a una dimensione strutturale (l'orizzonte) e non solo a interazioni puntuali."
+        },
+        {
+          "node_id": "temporalità-vissuta",
+          "node_label": "Temporalità vissuta",
+          "source_axis": "asse_1",
+          "source_axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "Le notifiche e gli scarti attentivi del caregiver introducono micro-discontinuità nel presente vissuto della diade, alterando lo spessore del presente e l'anticipazione condivisa. Discriminante perché distingue la technoference dall'assenza/abbandono: la temporalità non si interrompe ma si frammenta in modo specifico."
+        },
+        {
+          "node_id": "interiorizzazione-dell-altro",
+          "node_label": "Interiorizzazione dell'altro",
+          "source_axis": "asse_2",
+          "source_axis_name": "Affettivo–morale",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "Il bambino interiorizza la qualità della presenza che incontra: una presenza cronicamente divisa non rende impossibile l'interiorizzazione, ma costituisce un altro-interiore con caratteristiche specifiche di intermittenza e disponibilità incompleta. Discriminante perché identifica la posta strutturale di lungo periodo della technoference."
+        },
+        {
+          "node_id": "tecnica-come-forma-storica",
+          "node_label": "Tecnica come forma storica",
+          "source_axis": "asse_6",
+          "source_axis_name": "Storico–culturale",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "La technoference non è un comportamento sostituibile con altri ma una configurazione storica dell'attenzione prodotta da dispositivi specifici (notifiche, ricompense intermittenti). Discriminante perché senza questo nodo il tema collassa nell'individualizzazione del fenomeno."
+        },
+        {
+          "node_id": "deformazione-strutturale",
+          "node_label": "Deformazione strutturale",
+          "source_axis": "asse_6",
+          "source_axis_name": "Storico–culturale",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "La technoference è esempio paradigmatico di configurazione sbilanciata che emerge dall'incontro tra strutture fondative (co-regolazione) e forme storiche (ecosistema attentivo): non patologia individuale, non errore educativo, ma esito sistemico."
+        },
+        {
+          "node_id": "mediazione-strutturale",
+          "node_label": "Mediazione strutturale",
+          "source_axis": "asse_6",
+          "source_axis_name": "Storico–culturale",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "L'ecosistema tecnologico non influenza dall'esterno la diade: entra nella struttura stessa del campo di esperienza del caregiving, organizzando ciò che appare urgente, rilevante e da rispondere prima di qualsiasi scelta consapevole del caregiver."
+        }
+      ],
+      "candidate_bridge_concepts": [
+        {
+          "concept_label": "Riorganizzazione tecnica della co-presenza",
+          "linked_axes": ["asse_1", "asse_6"],
+          "linked_nodes": ["co-regolazione", "tecnica-come-forma-storica", "campo-intenzionale"],
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Descrive la trasformazione strutturale: la forma tecnica contemporanea (ecosistema delle notifiche e della ricompensa intermittente) riconfigura la struttura della co-presenza del caregiver, producendo una co-regolazione frammentata che non è semplice riduzione quantitativa di interazione ma riorganizzazione qualitativa del campo intenzionale diadico. Risponde a 'chi trasforma cosa, attraverso quale processo' senza limitarsi a nominare la co-presenza dei due assi."
+        },
+        {
+          "concept_label": "Discontinuità della disponibilità come struttura interiorizzabile",
+          "linked_axes": ["asse_1", "asse_2"],
+          "linked_nodes": ["co-regolazione", "interiorizzazione-dell-altro", "temporalità-vissuta"],
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "Descrive il passaggio: la frammentazione della disponibilità affettiva nel presente vissuto (Asse 1) non resta evento puntuale ma diventa qualità dell'altro che il bambino interiorizza (Asse 2). Trasformazione: la struttura del tempo della diade modula la struttura dell'altro-interiore che il bambino porta con sé."
+        }
+      ],
+      "theme_structure_assessment": {
+        "type": "multi_assiale",
+        "notes": "Tema distribuito su Asse 1 e Asse 6 come co-dominanti, con Asse 2 secondario. Funzione di Asse 1: dimensione esperienziale e diadica della co-presenza alterata (qualità del campo intenzionale e della temporalizzazione condivisa). Funzione di Asse 6: dimensione storico-strutturale della tecnica come forma di organizzazione dell'attenzione, che impedisce la lettura individualizzata del fenomeno. Asse 2 entra come effetto di secondo livello, in quanto la qualità della disponibilità modifica le condizioni di interiorizzazione."
+      },
+      "selection_rationale": "Asse 1 e Asse 6 sono entrambi forti perché il tema vive precisamente nella loro tensione: senza Asse 1 il fenomeno perde il suo nucleo (la co-regolazione), senza Asse 6 si individualizza nel comportamento del genitore. L'Asse 2 è incluso come plausibile perché la qualità dell'interiorizzazione dipende strutturalmente dalla qualità della presenza, ma non è il fuoco del fenomeno. Sono stati esclusi: Asse 3 (la technoference non investe la genesi del giudizio normativo), Asse 4 (non si tratta dell'incontro con il limite reale ma della discontinuità della relazione), Asse 5 (riservato al tema gemello dell'ecosistema digitale dal lato del bambino).",
+      "notes_for_review": "AVVERTENZA DI ESECUZIONE: il file scelta_tema è risultato mancante (ENOENT) al momento dell'esecuzione. In assenza di nomina esplicita da parte del ricercatore, sono stati selezionati i quattro temi con priorità esplorativa alta E pilot_suitability alta da theme-discovery-v1.json. Questa selezione è una scelta automatica e va validata dal ricercatore. Punto di incertezza: l'inclusione dell'Asse 2 come plausibile va verificata. Il rischio è di sovrapporre questo tema a quello della funzione riflessiva genitoriale (PRF interroga la disposizione mentalizzante del caregiver; technoference la struttura tecnica della sua presenza). Da segnalare per STEP 3: la sovrapposizione con il tema 'ecosistema digitale' richiede mantenimento esplicito della distinzione (caregiver vs campo desiderabile del bambino)."
+    },
+    {
+      "theme_id": "tema_02_lettura_dialogica",
+      "candidate_axes": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "forte",
+          "reason": "La lettura condivisa è un contesto in cui ritmo, contatto corporeo, voce, attesa e contingenza si tessono in una forma specifica di co-regolazione mediata da un terzo termine (il libro). La struttura della co-presenza diadica è qui modulata da un oggetto culturale che ne riorganizza la temporalizzazione e l'attenzione condivisa. Senza Asse 1 il tema collassa in literacy precoce."
+        },
+        {
+          "axis_id": "asse_3",
+          "axis_name": "Normativo–educativo",
+          "relevance_level": "da_verificare",
+          "reason": "I testi letti veicolano orizzonti di significato e valori impliciti. Nella fascia 0–3, tuttavia, il livello opportuno è la strutturazione di primi orizzonti di senso più che la trasmissione normativa propriamente detta: l'asse è plausibile come livello pre-normativo (cosa appare significativo, nominabile, raccontabile) e va verificato in STEP 3 perché in questa fascia la normatività in senso proprio non è ancora attiva."
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "relevance_level": "plausibile",
+          "reason": "Il libro condiviso introduce il bambino al campo del simbolico come orizzonte di possibilità: la narrazione apre direzioni di significato già cariche di valore prima della scelta riflessiva. Il campo del desiderabile si articola attraverso ciò che la cultura rende immaginabile e raccontabile."
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico–culturale",
+          "relevance_level": "forte",
+          "reason": "La lettura condivisa è il caso paradigmatico della mediazione simbolica vygotskijana: la cultura entra nella struttura delle funzioni psichiche superiori attraverso lo strumento del libro e del linguaggio narrativo, co-costituendo attenzione, memoria e linguaggio anziché solo influenzarli. Senza Asse 6 il tema si riduce a interazione diadica generica."
+        }
+      ],
+      "candidate_nodes": [
+        {
+          "node_id": "co-regolazione",
+          "node_label": "Co-regolazione",
+          "source_axis": "asse_1",
+          "source_axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "La lettura dialogica funziona come dispositivo co-regolativo: voce, ritmo, attesa del giro di pagina, contingenza dello sguardo. Discriminante perché distingue la lettura come dispositivo relazionale dalla lettura come trasmissione di linguaggio o di contenuto."
+        },
+        {
+          "node_id": "corporeità-vissuta",
+          "node_label": "Corporeità vissuta",
+          "source_axis": "asse_1",
+          "source_axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "La situazione di lettura è strutturata corporeamente prima che simbolicamente: posizione, contatto, postura, prossimità della voce. Discriminante perché distingue lo specifico della lettura condivisa dalla lettura solitaria o dall'ascolto di una storia in audio."
+        },
+        {
+          "node_id": "temporalità-vissuta",
+          "node_label": "Temporalità vissuta",
+          "source_axis": "asse_1",
+          "source_axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "La lettura condivisa struttura una temporalità specifica fatta di ritenzione (il già detto), spessore del presente (la pagina aperta) e protensione (l'attesa di ciò che segue). Discriminante perché il tempo della lettura è qualitativamente distinto da altri tempi diadici di co-regolazione."
+        },
+        {
+          "node_id": "mediazione-simbolica",
+          "node_label": "Mediazione simbolica",
+          "source_axis": "asse_6",
+          "source_axis_name": "Storico–culturale",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Il libro è strumento culturalmente codificato che entra nella struttura dell'esperienza del bambino: nominare, raccontare, simbolizzare avvengono qui come funzioni co-costituite (Vygotskij). Discriminante perché senza questo nodo il tema si riduce a interazione diadica senza specificità storico-culturale."
+        },
+        {
+          "node_id": "istituzione-come-dispositivo",
+          "node_label": "Istituzione come dispositivo",
+          "source_axis": "asse_6",
+          "source_axis_name": "Storico–culturale",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "Il libro per l'infanzia è prodotto da un'istituzione culturale (editoria, biblioteca, servizi educativi) che organizza ciò che si racconta ai bambini: il dispositivo non è solo nella diade ma nel campo di selezione narrativa che la precede e la rende possibile."
+        },
+        {
+          "node_id": "orizzonti-di-senso",
+          "node_label": "Orizzonti di senso",
+          "source_axis": "asse_3",
+          "source_axis_name": "Normativo–educativo",
+          "relevance_level": "da_verificare",
+          "is_derived": false,
+          "reason": "Le narrazioni veicolate dai libri costituiscono orizzonti di significato in cui si collocano i primi giudizi valutativi del bambino. In fascia 0–3 va trattato come strutturazione di primi orizzonti significativi più che come normatività esplicita: richiede verifica in STEP 3 sul livello di attivazione effettivo."
+        },
+        {
+          "node_id": "campo-desiderabile",
+          "node_label": "Campo desiderabile",
+          "source_axis": "asse_5",
+          "source_axis_name": "Desiderio",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "Le storie aprono direzioni del possibile cariche di valore: certi personaggi, certi luoghi, certi gesti diventano già orientativi prima di ogni scelta riflessa. Discriminante perché distingue la lettura condivisa da letture orientate solo alla performance linguistica."
+        }
+      ],
+      "candidate_bridge_concepts": [
+        {
+          "concept_label": "Triangolazione semiotica caregiver–libro–bambino",
+          "linked_axes": ["asse_1", "asse_6"],
+          "linked_nodes": ["co-regolazione", "mediazione-simbolica", "corporeità-vissuta"],
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Descrive la trasformazione strutturale: la diade co-regolativa (Asse 1) si apre in struttura triadica con un terzo termine simbolico (Asse 6); la corporeità co-regolativa diventa veicolo della mediazione simbolica e, reciprocamente, il libro acquista peso affettivo dalla cornice co-regolativa. Non è co-presenza ma incarnazione reciproca dei due piani: la corporeità si simbolizza, il simbolo si incarna."
+        },
+        {
+          "concept_label": "Apertura narrativa dell'orizzonte del possibile",
+          "linked_axes": ["asse_5", "asse_6"],
+          "linked_nodes": ["campo-desiderabile", "mediazione-simbolica", "orizzonti-di-senso"],
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "Descrive il processo: la mediazione storico-culturale del libro (Asse 6) modula il campo del desiderabile (Asse 5) attraverso la narrazione di possibilità incarnate da personaggi e situazioni. La cultura non si aggiunge al desiderio: organizza l'orizzonte in cui può orientarsi prima di ogni tematizzazione."
+        }
+      ],
+      "theme_structure_assessment": {
+        "type": "multi_assiale",
+        "notes": "Co-dominanza di Asse 1 (dimensione corporeo-relazionale: ritmo, contatto, attenzione condivisa) e Asse 6 (dimensione simbolico-culturale: il libro come strumento e l'editoria come istituzione-dispositivo). Asse 5 entra come ampliamento dell'orizzonte del desiderabile attraverso la narrazione. Asse 3 è da verificare: in fascia 0–3 la sua attivazione resta sub-soglia rispetto alla normatività esplicita."
+      },
+      "selection_rationale": "Asse 1 è forte perché la lettura dialogica è prima di tutto co-regolazione corporea e temporale; Asse 6 è forte perché il libro è il caso paradigmatico di mediazione simbolica vygotskijana. Asse 5 è plausibile perché la narrazione apre orizzonti di possibilità ma non costituisce ancora soggettivazione del desiderio in senso pieno. Asse 3 è da verificare per la fascia 0–3, dove la normatività propriamente detta non è ancora attivata. Sono stati esclusi: Asse 2 (l'interiorizzazione dell'altro non è il fuoco specifico del tema, anche se la lettura ne offre condizioni favorevoli) e Asse 4 (non è prevista qui un'analisi specifica dell'incontro con il limite reale).",
+      "notes_for_review": "Da chiarire in STEP 3: il livello a cui includere Asse 3 nella fascia 0–3 — strutturazione di primi orizzonti di significato vs. trasmissione normativa propriamente detta. Verificare se 'orizzonti-di-senso' funziona meglio come nodo di Asse 3 o come concetto-ponte tra Asse 3 e Asse 6. Il tema è candidato pilota privilegiato per micro-matrice in Fase 2: forte densità strutturale, alta osservabilità, RCT italiano in corso che lo rende particolarmente rilevante per il contesto del progetto. Rischio principale di traduzione: collasso in raccomandazione di literacy prevention."
+    },
+    {
+      "theme_id": "tema_03_funzione_riflessiva_genitoriale",
+      "candidate_axes": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "forte",
+          "reason": "La PRF si esprime e si esercita nella co-regolazione: leggere gli stati mentali del bambino consente al caregiver una sintonizzazione fine e contingente che è la forma specifica della tenuta diadica dell'esperienza. Senza Asse 1 il tema diventa cognitivismo del genitore e perde la sua dimensione incarnata."
+        },
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo–morale",
+          "relevance_level": "forte",
+          "reason": "Fuoco strutturale del tema: il caregiver che vede il bambino come portatore di stati mentali offre la condizione perché il bambino possa interiorizzare l'altro come istanza dotata di interiorità. Essere visto come soggetto è condizione strutturale del divenire-soggetto-che-porta-dentro-un-altro."
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "relevance_level": "da_verificare",
+          "reason": "Il caregiver con alta PRF distingue il desiderio del bambino come orientamento (verso qualcosa di proprio) dal bisogno (da soddisfare). Questa distinzione ha implicazioni strutturali per la successiva soggettivazione del desiderio, ma il livello di attivazione dell'asse nel tema specifico è da verificare in STEP 3 per evitare anticipazione."
+        }
+      ],
+      "candidate_nodes": [
+        {
+          "node_id": "co-regolazione",
+          "node_label": "Co-regolazione",
+          "source_axis": "asse_1",
+          "source_axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "La PRF è la forma riflessiva (ma non solo cognitiva) della co-regolazione: la lettura degli stati interni del bambino permette risposte contingenti che sostengono la tenuta dell'esperienza nel tempo. Discriminante perché distingue la PRF dall'empatia generica e dalla sensibilità non specifica."
+        },
+        {
+          "node_id": "relazione-costitutiva",
+          "node_label": "Relazione costitutiva",
+          "source_axis": "asse_1",
+          "source_axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "La PRF presuppone e attiva la relazione come condizione strutturale della soggettività: il bambino si costituisce attraverso la qualità del riconoscimento. Discriminante perché distingue la PRF da una capacità tecnica del genitore: la mentalizzazione non è uno strumento ma una qualità della relazione costitutiva."
+        },
+        {
+          "node_id": "soggetto-come-processo",
+          "node_label": "Soggetto come processo",
+          "source_axis": "asse_1",
+          "source_axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "La PRF tratta il bambino come processo di costituzione (con stati mentali in formazione, non già strutturati) e non come oggetto di gestione. Discriminante perché il vedere-come-soggetto presuppone una concezione processuale della soggettività: senza di essa la PRF si riduce a lettura comportamentale."
+        },
+        {
+          "node_id": "interiorizzazione-dell-altro",
+          "node_label": "Interiorizzazione dell'altro",
+          "source_axis": "asse_2",
+          "source_axis_name": "Affettivo–morale",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Cuore strutturale del tema: la PRF è la condizione, dal lato del caregiver, perché il bambino possa interiorizzare l'altro come istanza dotata di interiorità riconosciuta. Discriminante perché senza questo nodo il tema collassa nella psicologizzazione del genitore senza implicazioni sulla genesi del soggetto."
+        },
+        {
+          "node_id": "istanza-interna",
+          "node_label": "Istanza interna",
+          "source_axis": "asse_2",
+          "source_axis_name": "Affettivo–morale",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "L'istanza interna che si costituisce nel bambino assume la qualità del riconoscimento ricevuto: un altro che vede stati mentali si interiorizza come istanza che riconosce, non solo che giudica o gratifica. Discriminante perché differenzia strutturalmente la PRF dalle teorie classiche del Super-io come voce giudicante."
+        },
+        {
+          "node_id": "sopravvivenza-dell-oggetto",
+          "node_label": "Sopravvivenza dell'oggetto",
+          "source_axis": "asse_2",
+          "source_axis_name": "Affettivo–morale",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "La PRF richiede al caregiver di sopravvivere alle proiezioni e all'aggressività del bambino senza ritrarsi né ritorcerle: la lettura mentalizzante è precisamente ciò che permette di non rispondere reattivamente. Discriminante perché connette la PRF a una struttura specifica winnicottiana, non a una semplice tolleranza emotiva."
+        },
+        {
+          "node_id": "desiderio-come-struttura",
+          "node_label": "Desiderio come struttura",
+          "source_axis": "asse_5",
+          "source_axis_name": "Desiderio",
+          "relevance_level": "da_verificare",
+          "is_derived": false,
+          "reason": "La PRF distingue desiderio (orientamento del bambino verso qualcosa di proprio) da bisogno (carenza da colmare): questa distinzione ha implicazioni per la futura soggettivazione del desiderio, ma il livello di attivazione effettivo nel tema PRF richiede verifica in STEP 3."
+        }
+      ],
+      "candidate_bridge_concepts": [
+        {
+          "concept_label": "Reciprocità mentalizzante come condizione dell'istanza interna",
+          "linked_axes": ["asse_1", "asse_2"],
+          "linked_nodes": ["co-regolazione", "interiorizzazione-dell-altro", "istanza-interna"],
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Descrive il movimento strutturale: il caregiver che legge il bambino come dotato di stati mentali (Asse 1, co-regolazione fine e contingente) consente al bambino di interiorizzare un altro che riconosce interiorità (Asse 2, istanza interna come presenza che riconosce). Trasformazione: la qualità del riconoscimento del caregiver determina la qualità dell'altro-interiore che il bambino porta con sé."
+        },
+        {
+          "concept_label": "Riconoscimento dell'orientamento del bambino",
+          "linked_axes": ["asse_2", "asse_5"],
+          "linked_nodes": ["interiorizzazione-dell-altro", "desiderio-come-struttura"],
+          "relevance_level": "plausibile",
+          "is_derived": true,
+          "reason": "Concetto-ponte derivato. Descrive il passaggio per cui un caregiver che riconosce il bambino come soggetto (Asse 2) ne vede anche il desiderio come direzione propria e non solo come bisogno (Asse 5). Trasformazione: il riconoscimento di stati mentali si specifica come riconoscimento di un orientamento desiderante che precede la scelta. Necessario perché collega specificamente PRF e Asse 5 senza confondersi con la co-regolazione generica già coperta dal primo concetto-ponte."
+        }
+      ],
+      "theme_structure_assessment": {
+        "type": "asse_dominante",
+        "notes": "Asse dominante: Asse 2 (genesi affettivo-morale dell'altro come istanza). L'Asse 1 funziona come livello di esercizio e mediazione (la PRF è co-regolazione fine), ma il fuoco strutturale è la qualità del riconoscimento che il caregiver offre al bambino come soggetto interiore — esattamente il meccanismo dell'interiorizzazione descritto in Asse 2. L'Asse 5 entra come implicazione laterale che riguarda la distinzione strutturale desiderio/bisogno."
+      },
+      "selection_rationale": "Asse 2 è dominante perché il tema interroga precisamente la condizione strutturale dell'interiorizzazione dell'altro come istanza: un caregiver che vede il bambino come soggetto rende possibile che il bambino interiorizzi un altro che riconosce. Asse 1 è forte come livello operativo della PRF (co-regolazione fine, contingenza, sintonizzazione). Asse 5 è da verificare. Sono stati esclusi: Asse 3 (la PRF non investe direttamente la genesi del giudizio normativo), Asse 4 (non è il tema dell'incontro con il limite reale, anche se la sopravvivenza dell'oggetto vi è implicata), Asse 6 (le condizioni storico-culturali della PRF — supporto sociale, salute mentale del caregiver — sono trattate da temi affini ma non sono il fuoco specifico di questo tema).",
+      "notes_for_review": "Verifica in STEP 3 dell'inclusione dell'Asse 5: la distinzione desiderio/bisogno è teoricamente significativa ma operativamente sub-soglia per il fenomeno PRF in senso stretto. Il concetto-ponte 'Riconoscimento dell'orientamento del bambino' è derivato (is_derived=true) e va validato in revisione umana: rischia di essere già coperto dalla reciprocità mentalizzante. Sovrapposizione potenziale con il tema technoference: distinzione strutturale — PRF interroga la disposizione mentalizzante del caregiver (asse-dominante 2), technoference la struttura tecnica della sua presenza (multi-assiale 1+6). Verificare raccordo con scheda di interlocuzione sull'attaccamento."
+    },
+    {
+      "theme_id": "tema_09_gioco_libero",
+      "candidate_axes": [
+        {
+          "axis_id": "asse_4",
+          "axis_name": "Separazione e Limite",
+          "relevance_level": "forte",
+          "reason": "Il gioco libero include incontri non mediati con eccedenza, perdita e impossibilità: la cosa che non funziona, il pari che non risponde come atteso, il gioco che fallisce. È un contesto strutturale di esercizio dell'incontro con il limite reale prima di qualsiasi mediazione adulta sistematica. Senza Asse 4 il tema perde la dimensione dell'incontro non mediato col reale."
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "relevance_level": "forte",
+          "reason": "Il gioco libero è il contesto in cui il campo del desiderabile si esercita senza prescrizioni adulte: il bambino esplora possibilità senza che l'obiettivo sia definito dall'esterno. È la forma incarnata della soggettivazione del desiderio come orientamento e non come motivazione esterna o reattività a stimoli."
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico–culturale",
+          "relevance_level": "forte",
+          "reason": "La progressiva scomparsa del gioco libero non è scelta individuale ma deformazione strutturale storica: la prestazionalizzazione contemporanea del contesto educativo colonizza il tempo non produttivo. Senza Asse 6 il tema diventa raccomandazione pedagogica anziché diagnosi strutturale del macrosistema."
+        }
+      ],
+      "candidate_nodes": [
+        {
+          "node_id": "campo-desiderabile",
+          "node_label": "Campo desiderabile",
+          "source_axis": "asse_5",
+          "source_axis_name": "Desiderio",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Il gioco libero è la forma in cui il campo del desiderabile si articola attraverso l'azione senza obiettivi assegnati: alcune direzioni appaiono cariche di valore prima di qualsiasi scopo educativo. Discriminante perché distingue il gioco libero dal gioco guidato, dove il campo è già pre-orientato dall'adulto."
+        },
+        {
+          "node_id": "desiderio-come-struttura",
+          "node_label": "Desiderio come struttura",
+          "source_axis": "asse_5",
+          "source_axis_name": "Desiderio",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Il gioco libero permette al desiderio di funzionare come orientamento (forma del rapporto con il possibile) e non come reattività a stimoli esterni. Discriminante perché distingue strutturalmente il gioco libero dalle attività ricreative orientate al rinforzo o all'engagement."
+        },
+        {
+          "node_id": "soggettivazione-del-desiderio",
+          "node_label": "Soggettivazione del desiderio",
+          "source_axis": "asse_5",
+          "source_axis_name": "Desiderio",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "Nel gioco libero il bambino torna verso certe esperienze, insiste su certi gesti, mantiene certi investimenti: queste continuità vissute sono la forma incarnata in cui il desiderio diventa progressivamente proprio senza ancora essere scelta riflessiva."
+        },
+        {
+          "node_id": "eccedenza",
+          "node_label": "Eccedenza",
+          "source_axis": "asse_4",
+          "source_axis_name": "Separazione e Limite",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Nel gioco il mondo eccede l'intenzione del bambino: il pezzo non si incastra, il pari non collabora, l'oggetto resiste. L'eccedenza qui non viene preventivamente neutralizzata dall'adulto. Discriminante perché l'eccedenza nel gioco libero è strutturalmente diversa da quella in contesti iper-regolati o pre-organizzati."
+        },
+        {
+          "node_id": "limite-reale",
+          "node_label": "Limite reale",
+          "source_axis": "asse_4",
+          "source_axis_name": "Separazione e Limite",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "Il gioco libero include la forma 'non è possibile' che non ha la qualità della norma né quella della frustrazione regolata: alcune cose semplicemente non riescono. Discriminante per distinguere il gioco libero dal gioco a regole esplicite, dove la struttura del limite è normativa."
+        },
+        {
+          "node_id": "prestazionalizzazione-del-valore",
+          "node_label": "Prestazionalizzazione del valore",
+          "source_axis": "asse_6",
+          "source_axis_name": "Storico–culturale",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Il tema acquista densità solo in contrasto con la configurazione storica contemporanea che misura il valore in termini di rendimento e obiettivi raggiunti, riducendo strutturalmente lo spazio del gioco non finalizzato. Discriminante: senza questo nodo il tema diventa nostalgia educativa."
+        },
+        {
+          "node_id": "deformazione-strutturale",
+          "node_label": "Deformazione strutturale",
+          "source_axis": "asse_6",
+          "source_axis_name": "Storico–culturale",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "La scomparsa progressiva del gioco libero è esempio paradigmatico di configurazione sistemica sbilanciata, non patologia individuale né errore educativo del singolo educatore o genitore. Discriminante perché impedisce l'attribuzione individualistica della deformazione."
+        }
+      ],
+      "candidate_bridge_concepts": [
+        {
+          "concept_label": "Esplorazione del possibile attraverso l'eccedenza",
+          "linked_axes": ["asse_4", "asse_5"],
+          "linked_nodes": ["eccedenza", "campo-desiderabile", "desiderio-come-struttura"],
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Descrive la trasformazione strutturale: l'incontro non mediato con l'eccedenza nel gioco (Asse 4) riorganizza il campo del desiderabile (Asse 5) trasformando l'impulso indifferenziato in orientamento. Non è co-presenza ma processo: l'eccedenza è ciò attraverso cui il desiderio diventa direzione invece che reazione. Risponde alla domanda 'chi trasforma cosa, attraverso quale processo'."
+        },
+        {
+          "concept_label": "Saturazione prestazionale del campo desiderabile",
+          "linked_axes": ["asse_5", "asse_6"],
+          "linked_nodes": ["campo-desiderabile", "prestazionalizzazione-del-valore", "deformazione-strutturale"],
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Descrive il movimento opposto: la configurazione storica della prestazione (Asse 6) colonizza il campo del desiderabile del bambino (Asse 5) sostituendo l'orientamento con la motivazione esterna e l'obiettivo assegnato. Trasformazione: ciò che strutturalmente dovrebbe restare aperto al possibile viene chiuso dalla forma performativa contemporanea, producendo desiderio sostituito da motivazione."
+        }
+      ],
+      "theme_structure_assessment": {
+        "type": "multi_assiale",
+        "notes": "Co-dominanza di Asse 4, Asse 5 e Asse 6. Funzione di Asse 5: il gioco libero è la forma in cui si esercita il desiderio come struttura di orientamento autonoma rispetto agli obiettivi adulti. Funzione di Asse 4: il gioco libero include incontri non mediati con eccedenza e limite reale, prima della loro neutralizzazione educativa. Funzione di Asse 6: la diagnosi della scomparsa del gioco libero è leggibile solo come deformazione storico-culturale del contesto. I tre assi non sono ridondanti ma articolano dimensioni distinte della stessa configurazione."
+      },
+      "selection_rationale": "I tre assi (4, 5, 6) sono tutti forti perché ciascuno presidia una dimensione che gli altri non coprono: senza Asse 5 il tema collassa nello sviluppo motorio o cognitivo; senza Asse 4 perde la dimensione dell'incontro non mediato con l'eccedenza; senza Asse 6 diventa raccomandazione pedagogica individuale anziché diagnosi strutturale del macrosistema. Sono stati esclusi: Asse 1 (la co-regolazione di base permane ma non è il fuoco; il gioco libero diminuisce strutturalmente la mediazione adulta diretta), Asse 2 (l'interiorizzazione dell'altro non è specificamente attivata), Asse 3 (la normatività non è in gioco perché il gioco libero precisamente non ha regole imposte dall'esterno).",
+      "notes_for_review": "Tema strutturalmente ricco e ad alta osservabilità. Da verificare in STEP 3: la rilevanza dell'Asse 1 (la co-regolazione di base permane anche nel gioco libero, ma in forma ridotta e non come fuoco). Il rischio di operativizzazione è elevato: il tema deve essere preservato come 'struttura del campo desiderabile' e non collassato in 'metodologia didattica del gioco libero' o in 'play-based learning'. Connessione esplicita da mantenere con il tema dell'ecosistema digitale: i due temi convergono sull'Asse 5 da prospettive diverse (saturazione prestazionale vs saturazione tecnica)."
+    }
+  ]
+}

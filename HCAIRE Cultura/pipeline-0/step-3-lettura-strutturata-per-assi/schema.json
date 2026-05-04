@@ -1,0 +1,237 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LetturaStrutturataPerAssi",
+  "description": "Output dello Step 3 della pipeline HCAIRE Cultura: applicazione metodologica degli assi strutturali fenomenologici all'opera. Traduce l'intuizione critica in scheda interpretativa controllata.",
+  "type": "object",
+  "required": [
+    "opera_riferimento",
+    "assi_implicati",
+    "nodi_trasversali_attivati",
+    "evidenze",
+    "configurazione_strutturale_dominante",
+    "dinamica_opera",
+    "rischi_di_forzatura"
+  ],
+  "properties": {
+    "opera_riferimento": {
+      "type": "object",
+      "description": "Riferimento all'opera analizzata.",
+      "required": ["titolo", "autore"],
+      "properties": {
+        "titolo": { "type": "string" },
+        "autore": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "assi_implicati": {
+      "type": "array",
+      "description": "Valutazione del grado di implicazione di ciascuno dei 6 assi strutturali nell'opera.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["axis_id", "axis_name", "grado_implicazione", "motivazione"],
+        "properties": {
+          "axis_id": {
+            "type": "string",
+            "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"],
+            "description": "Identificatore dell'asse strutturale."
+          },
+          "axis_name": {
+            "type": "string",
+            "description": "Nome dell'asse (es. 'Ontologico–fenomenologico')."
+          },
+          "grado_implicazione": {
+            "type": "string",
+            "enum": ["alto", "medio", "basso", "assente"],
+            "description": "Quanto profondamente l'asse è implicato nell'opera."
+          },
+          "motivazione": {
+            "type": "string",
+            "description": "Spiegazione del perché e come l'asse è (o non è) implicato. Usa i nodi e i concetti-ponte dell'asse come vocabolario tecnico."
+          },
+          "nodi_attivati_in_questo_asse": {
+            "type": "array",
+            "description": "Nodi strutturali di questo asse attivati nell'opera.",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "nodi_trasversali_attivati": {
+      "type": "array",
+      "description": "Nodi strutturali dei file degli assi che l'opera mette in gioco con maggiore intensità. Solo nodi con evidenza concreta nell'opera.",
+      "items": {
+        "type": "object",
+        "required": ["nodo", "asse_di_appartenenza", "definizione_breve", "evidenza_nell_opera"],
+        "properties": {
+          "nodo": {
+            "type": "string",
+            "description": "Identificatore del nodo strutturale (es. 'campo-intenzionale', 'colpa-integrativa')."
+          },
+          "asse_di_appartenenza": {
+            "type": "string",
+            "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+          },
+          "definizione_breve": {
+            "type": "string",
+            "description": "Definizione sintetica del nodo (tratta dal file JSON dell'asse)."
+          },
+          "evidenza_nell_opera": {
+            "type": "string",
+            "description": "Evidenza concreta nell'opera che attiva questo nodo."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "nodi_assenti": {
+      "type": "array",
+      "description": "Nodi attesi per gli assi implicati ma non trovati nell'opera: registrazione critica delle assenze significative.",
+      "items": {
+        "type": "object",
+        "required": ["nodo", "asse_di_appartenenza", "motivazione_assenza"],
+        "properties": {
+          "nodo": { "type": "string" },
+          "asse_di_appartenenza": {
+            "type": "string",
+            "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+          },
+          "motivazione_assenza": {
+            "type": "string",
+            "description": "Perché il nodo era atteso ma non si riscontra nell'opera: dato critico, non lacuna."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "evidenze": {
+      "type": "array",
+      "description": "Evidenze concrete nell'opera (scene, dialoghi, immagini, strutture narrative) che supportano l'analisi per assi. Tratte dal dossier Step 1.",
+      "items": {
+        "type": "object",
+        "required": ["tipo", "descrizione", "assi_connessi"],
+        "properties": {
+          "tipo": {
+            "type": "string",
+            "enum": ["scena", "dialogo", "immagine", "struttura_narrativa", "elemento_formale", "citazione_testuale", "altro"]
+          },
+          "descrizione": {
+            "type": "string",
+            "description": "Descrizione dell'evidenza nell'opera."
+          },
+          "localizzazione": {
+            "type": "string",
+            "description": "Dove nell'opera si trova (capitolo, scena, minuto, ecc.)."
+          },
+          "assi_connessi": {
+            "type": "array",
+            "description": "Assi strutturali che questa evidenza supporta.",
+            "items": {
+              "type": "string",
+              "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+            }
+          },
+          "interpretazione_sintetica": {
+            "type": "string",
+            "description": "In che modo questa evidenza attiva il nodo o l'asse pertinente."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "configurazione_strutturale_dominante": {
+      "type": "object",
+      "description": "Il pattern interpretativo d'insieme che emerge dall'interazione degli assi attivati. Non è la somma degli assi.",
+      "required": ["descrizione"],
+      "properties": {
+        "descrizione": {
+          "type": "string",
+          "description": "Descrizione della configurazione strutturale dominante dell'opera."
+        },
+        "relazione_con_ipotesi_step2": {
+          "type": "string",
+          "description": "Come la configurazione strutturata conferma, precisa, complica o smentisce l'ipotesi critica provvisoria dello Step 2."
+        }
+      },
+      "additionalProperties": false
+    },
+    "dinamica_opera": {
+      "type": "object",
+      "description": "Il movimento complessivo dell'opera descritto attraverso il vocabolario degli assi.",
+      "required": ["forma_prevalente", "descrizione"],
+      "properties": {
+        "forma_prevalente": {
+          "type": "array",
+          "description": "Forma o forme dinamiche prevalenti nell'opera.",
+          "items": {
+            "type": "string",
+            "enum": ["espansione", "resistenza", "restringimento", "collasso", "trasformazione", "sospensione"]
+          },
+          "minItems": 1
+        },
+        "descrizione": {
+          "type": "string",
+          "description": "Descrizione dettagliata della dinamica: come il movimento si sviluppa nell'opera."
+        },
+        "articolazione_in_fasi": {
+          "type": "array",
+          "description": "Se l'opera combina più dinamiche in fasi successive, descrivere ogni fase.",
+          "items": {
+            "type": "object",
+            "required": ["fase", "forma", "descrizione"],
+            "properties": {
+              "fase": { "type": "string" },
+              "forma": {
+                "type": "string",
+                "enum": ["espansione", "resistenza", "restringimento", "collasso", "trasformazione", "sospensione"]
+              },
+              "descrizione": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "rischi_di_forzatura": {
+      "type": "array",
+      "description": "Segnalazione esplicita dei rischi di proiezione della griglia sull'opera invece di leggerla. Basati sulla sezione reduction_risks dei file degli assi.",
+      "items": {
+        "type": "object",
+        "required": ["descrizione"],
+        "properties": {
+          "asse_coinvolto": {
+            "type": "string",
+            "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"],
+            "description": "Asse rispetto a cui si rileva il rischio di forzatura."
+          },
+          "tipo_di_rischio": {
+            "type": "string",
+            "description": "Categoria del rischio (es. 'psicologizzazione', 'anticipazione normativa', 'riduzione funzionalistica')."
+          },
+          "descrizione": {
+            "type": "string",
+            "description": "In che modo specifico questo rischio si presenta nella lettura di questa opera."
+          },
+          "cautela_adottata": {
+            "type": "string",
+            "description": "Come si è cercato di evitare la forzatura nell'analisi."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Metadati sul processo di compilazione.",
+      "properties": {
+        "data_compilazione": { "type": "string", "format": "date" },
+        "compilato_da": { "type": "string" },
+        "versione": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

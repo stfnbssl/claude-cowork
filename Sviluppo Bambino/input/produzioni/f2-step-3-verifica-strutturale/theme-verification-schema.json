@@ -1,0 +1,323 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Schema derivato dalla pipeline di theme discovery — STEP 3 (aprile 2026). Descrive la struttura dell'output di verifica strutturale per uno o più temi.",
+  "title": "ThemeVerificationOutput",
+  "description": "Output dello STEP 3: configurazione strutturale verificata e selezionata a partire dall'ipotesi di STEP 2.",
+
+  "type": "object",
+  "required": ["step", "results"],
+  "properties": {
+
+    "step": {
+      "type": "string",
+      "const": "step_3",
+      "description": "Identificatore dello step di pipeline. Valore fisso."
+    },
+
+    "results": {
+      "type": "array",
+      "description": "Array di oggetti, uno per ogni tema elaborato.",
+      "items": { "$ref": "#/definitions/ThemeVerification" }
+    }
+
+  },
+
+  "definitions": {
+
+    "ThemeVerification": {
+      "type": "object",
+      "required": [
+        "theme_id",
+        "confirmed_axes",
+        "rejected_axes",
+        "confirmed_nodes",
+        "secondary_nodes",
+        "rejected_nodes",
+        "confirmed_bridge_concepts",
+        "rejected_bridge_concepts",
+        "structural_configuration",
+        "synthetic_formulation",
+        "selection_rationale",
+        "critical_notes"
+      ],
+      "properties": {
+
+        "theme_id": {
+          "type": "string",
+          "description": "ID del tema, corrispondente al theme_id in theme-discovery-v1.json e theme-relevance-v1.json.",
+          "examples": ["tema_02_lettura_dialogica"]
+        },
+
+        "confirmed_axes": {
+          "type": "array",
+          "description": "Assi strutturalmente confermati per il tema. Massimo 2–3. Un asse è confermato se il tema non è pensabile senza di esso, ha più di un nodo rilevante, ha funzione strutturale non accessoria.",
+          "maxItems": 3,
+          "items": { "$ref": "#/definitions/ConfirmedAxis" }
+        },
+
+        "rejected_axes": {
+          "type": "array",
+          "description": "Assi candidati in STEP 2 che non sono stati confermati. Include assi secondari (contribuiscono ma non sono indispensabili) e assi non necessari. Usare rejection_reason per distinguere.",
+          "items": { "$ref": "#/definitions/RejectedAxis" }
+        },
+
+        "confirmed_nodes": {
+          "type": "array",
+          "description": "Nodi strutturali confermati. Target: 4–7. Ogni nodo deve superare i tre test: necessità, specificità, non ridondanza.",
+          "minItems": 4,
+          "maxItems": 7,
+          "items": { "$ref": "#/definitions/ConfirmedNode" }
+        },
+
+        "secondary_nodes": {
+          "type": "array",
+          "description": "Nodi utili ma non strutturalmente necessari. Se rimossi, il tema resta leggibile. Non accumulare per prudenza: se superano 2, rivalutare la selezione.",
+          "maxItems": 2,
+          "items": { "$ref": "#/definitions/SecondaryNode" }
+        },
+
+        "rejected_nodes": {
+          "type": "array",
+          "description": "Nodi candidati in STEP 2 che non hanno superato la verifica.",
+          "items": { "$ref": "#/definitions/RejectedNode" }
+        },
+
+        "confirmed_bridge_concepts": {
+          "type": "array",
+          "description": "Concetti-ponte confermati. Massimo 2–3. Devono collegare assi confermati e aggiungere valore rispetto ai soli nodi.",
+          "maxItems": 3,
+          "items": { "$ref": "#/definitions/ConfirmedBridgeConcept" }
+        },
+
+        "rejected_bridge_concepts": {
+          "type": "array",
+          "description": "Concetti-ponte candidati in STEP 2 che non hanno superato la verifica.",
+          "items": { "$ref": "#/definitions/RejectedBridgeConcept" }
+        },
+
+        "structural_configuration": {
+          "$ref": "#/definitions/StructuralConfiguration"
+        },
+
+        "synthetic_formulation": {
+          "type": "string",
+          "description": "Frase compatta che descrive la struttura del tema. Deve essere leggibile senza i JSON degli assi (es. 'configurazione triadica di mediazione simbolica e regolazione incarnata')."
+        },
+
+        "selection_rationale": {
+          "type": "string",
+          "description": "Spiegazione sintetica delle scelte di selezione: perché questi assi e nodi sono stati confermati, perché gli altri sono stati eliminati."
+        },
+
+        "critical_notes": {
+          "type": "array",
+          "description": "Note critiche per la revisione umana: ambiguità non risolte, elementi al limite, punti da verificare in STEP 4.",
+          "items": { "type": "string" }
+        }
+
+      }
+    },
+
+    "ConfirmedAxis": {
+      "type": "object",
+      "required": ["axis_id", "axis_name", "role", "reason"],
+      "properties": {
+
+        "axis_id": {
+          "type": "string",
+          "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+        },
+
+        "axis_name": {
+          "type": "string",
+          "enum": [
+            "Ontologico–fenomenologico",
+            "Affettivo–morale",
+            "Normativo–educativo",
+            "Separazione e Limite",
+            "Desiderio",
+            "Storico–culturale"
+          ]
+        },
+
+        "role": {
+          "type": "string",
+          "description": "Funzione strutturale dell'asse nel tema specifico. Argomentare caso per caso (es. 'asse esperienziale e regolativo', 'asse della mediazione simbolica e culturale')."
+        },
+
+        "reason": {
+          "type": "string",
+          "description": "Motivazione della conferma. Deve indicare perché il tema non è pensabile senza questo asse."
+        }
+
+      }
+    },
+
+    "RejectedAxis": {
+      "type": "object",
+      "required": ["axis_id", "axis_name", "rejection_reason"],
+      "properties": {
+
+        "axis_id": {
+          "type": "string",
+          "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+        },
+
+        "axis_name": {
+          "type": "string"
+        },
+
+        "rejection_reason": {
+          "type": "string",
+          "description": "Motivazione dell'esclusione. Usare 'secondario' per assi che contribuiscono ma non sono indispensabili; motivazione esplicita per assi non necessari."
+        }
+
+      }
+    },
+
+    "ConfirmedNode": {
+      "type": "object",
+      "required": ["node_id", "node_label", "source_axis", "source_axis_name", "reason"],
+      "properties": {
+
+        "node_id": {
+          "type": "string",
+          "description": "Identificatore del nodo, coerente con il node_id in theme-relevance-v1.json."
+        },
+
+        "node_label": {
+          "type": "string"
+        },
+
+        "source_axis": {
+          "type": "string",
+          "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+        },
+
+        "source_axis_name": {
+          "type": "string"
+        },
+
+        "reason": {
+          "type": "string",
+          "description": "Motivazione della conferma. Deve indicare perché supera i tre test (necessità, specificità, non ridondanza)."
+        }
+
+      }
+    },
+
+    "SecondaryNode": {
+      "type": "object",
+      "required": ["node_id", "node_label", "source_axis", "source_axis_name", "reason"],
+      "properties": {
+
+        "node_id": { "type": "string" },
+        "node_label": { "type": "string" },
+
+        "source_axis": {
+          "type": "string",
+          "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+        },
+
+        "source_axis_name": { "type": "string" },
+
+        "reason": {
+          "type": "string",
+          "description": "Motivazione della classificazione come secondario: perché è utile ma non strutturalmente necessario per questo tema."
+        }
+
+      }
+    },
+
+    "RejectedNode": {
+      "type": "object",
+      "required": ["node_id", "node_label", "source_axis", "rejection_reason"],
+      "properties": {
+
+        "node_id": { "type": "string" },
+        "node_label": { "type": "string" },
+
+        "source_axis": {
+          "type": "string",
+          "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+        },
+
+        "rejection_reason": {
+          "type": "string",
+          "description": "Test fallito e motivazione (es. 'TEST 2 — troppo generale per distinguere questo tema da altri')."
+        }
+
+      }
+    },
+
+    "ConfirmedBridgeConcept": {
+      "type": "object",
+      "required": ["concept_label", "linked_axes", "linked_nodes", "reason"],
+      "properties": {
+
+        "concept_label": {
+          "type": "string",
+          "description": "Etichetta del concetto-ponte, coerente con theme-relevance-v1.json."
+        },
+
+        "linked_axes": {
+          "type": "array",
+          "description": "Assi confermati collegati dal concetto-ponte. Devono essere un sottoinsieme di confirmed_axes.",
+          "minItems": 2,
+          "items": {
+            "type": "string",
+            "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+          }
+        },
+
+        "linked_nodes": {
+          "type": "array",
+          "description": "Nodi confermati attraverso cui passa la connessione. Devono essere un sottoinsieme di confirmed_nodes.",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+
+        "reason": {
+          "type": "string",
+          "description": "Motivazione della conferma. Deve indicare quale relazione nuova aggiunge rispetto ai soli nodi."
+        }
+
+      }
+    },
+
+    "RejectedBridgeConcept": {
+      "type": "object",
+      "required": ["concept_label", "rejection_reason"],
+      "properties": {
+
+        "concept_label": { "type": "string" },
+
+        "rejection_reason": {
+          "type": "string",
+          "description": "Test fallito e motivazione (es. 'TEST 3 — riformula la stessa connessione di mediazione-simbolica-condivisa')."
+        }
+
+      }
+    },
+
+    "StructuralConfiguration": {
+      "type": "object",
+      "required": ["type", "description"],
+      "properties": {
+
+        "type": {
+          "type": "string",
+          "enum": ["asse_dominante", "multi_assiale", "soglia_tra_assi"],
+          "description": "Tipo di struttura del tema, con maggiore precisione rispetto a STEP 2."
+        },
+
+        "description": {
+          "type": "string",
+          "description": "Descrizione della struttura. Se multi_assiale, specificare la funzione di ciascun asse confermato (es. 'Asse 1 → strutturazione del campo esperienziale; Asse 6 → mediazione simbolica e culturale'). Non solo nominare gli assi."
+        }
+
+      }
+    }
+
+  }
+}

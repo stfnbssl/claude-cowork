@@ -1,0 +1,168 @@
+{
+  "axis_id": "asse_6",
+  "axis_name": "Storico–culturale",
+  "version": "v1.0",
+  "status": "bozza",
+  "source_document": {
+    "title": "Asse 6 - Storico-culturale (Capitoli 1–7)",
+    "format": "markdown",
+    "language": "it"
+  },
+  "structural_function": "Mostrare come le strutture fondative degli assi precedenti — corporeità, alterità interiorizzata, giudizio normativo, incontro con il limite, orientamento del desiderio — prendano forma concreta in un mondo storicamente determinato che non è sfondo neutro né contesto che influenza dall'esterno, ma mediazione strutturale dell'esperienza. L'asse non introduce nuove strutture dello sviluppo ma svolge una funzione di traduzione e verifica: descrive attraverso quali mediazioni storiche (pratiche, linguaggi, istituzioni, dispositivi tecnici) il campo del possibile si organizza per il soggetto prima di qualsiasi riflessione esplicita; identifica le deformazioni strutturali che emergono quando queste mediazioni entrano in tensione con le strutture fondative; impedisce al modello di restare astratto senza dissolverlo in determinismo culturale.",
+  "core_processes": [
+    {
+      "name": "Mediazione storica dell'esperienza",
+      "description": "Il mondo storico-culturale non influenza lo sviluppo dall'esterno ma entra nella struttura stessa dell'esperienza attraverso pratiche, linguaggi, dispositivi e istituzioni che organizzano ciò che appare rilevante, possibile, pensabile, desiderabile — molto prima di qualsiasi riflessione esplicita del soggetto. Il bambino non entra in un mondo neutro che successivamente interpreta: si trova fin dall'inizio in un campo di esperienza già strutturato (Lebenswelt) in cui alcune cose sono ovvie e altre impensabili."
+    },
+    {
+      "name": "Costituzione storica del soggetto senza relativismo",
+      "description": "Il soggetto è sempre storicamente situato senza per questo dissolversi nella storia. La storicità non è aggiunta accidentale ma forma concreta in cui le strutture del soggetto (corporeità, giudizio, desiderio) prendono corpo: non esiste soggettività umana che non sia già situata in un mondo storicamente configurato. Non è determinismo: le strutture fondative degli assi 1-5 mantengono una consistenza propria che il mondo storico modula ma non produce."
+    },
+    {
+      "name": "Mediazione simbolica come co-costituzione delle funzioni superiori",
+      "description": "Le funzioni psichiche superiori — attenzione intenzionale, memoria volontaria, giudizio, anticipazione — non precedono la mediazione culturale ma nascono attraverso di essa. Tra stimolo e risposta vi è sempre l'interposizione di segni, linguaggi, gesti condivisi e strumenti culturalmente codificati che non facilitano l'azione ma riconfigurano il campo dell'esperienza (Vygotskij). La zona di sviluppo prossimale descrive come questa mediazione avvenga sempre in relazione con un altro culturalmente competente."
+    },
+    {
+      "name": "Deformazione strutturale nel mondo contemporaneo",
+      "description": "Configurazioni storiche dell'esperienza che producono effetti sistematici sul soggetto in sviluppo, senza essere patologie individuali né errori educativi. Tre forme principali nel contesto contemporaneo: prestazionalizzazione del valore (ciò che non è misurabile diventa invisibile; il giudizio viene sostituito dalla valutazione), colonizzazione del tempo da parte della prestazione (accelerazione che neutralizza l'attesa e il tempo non produttivo), saturazione del desiderio (la tecnica trasforma il desiderio in reattività immediata; Stiegler: proletarizzazione dell'esperienza)."
+    }
+  ],
+  "bridge_concepts": [
+    {
+      "concept": "Mediazione strutturale",
+      "definition": "Il modo concreto in cui il reale, il simbolico, la norma e il valore entrano nella vita del soggetto attraverso il mondo storico-culturale. Non è influenza esterna su uno sviluppo già autonomo: è la forma concreta attraverso cui le strutture fondative del soggetto si incarnano. Distinta da 'contesto' (sfondo esterno) e da 'ambiente' (insieme di stimoli): è il campo di esperienza già organizzato in cui il soggetto è sempre già immerso.",
+      "linked_nodes": ["orizzonte-di-senso", "istituzione-come-dispositivo", "mediazione-simbolica"]
+    },
+    {
+      "concept": "Istituzione come dispositivo di esperienza",
+      "definition": "Non edificio né apparato normativo esterno, ma configurazione relativamente stabile di pratiche, ruoli, linguaggi, aspettative e criteri di valutazione attraverso cui il mondo storico entra nella vita quotidiana del soggetto. Famiglia, scuola, servizi, sistemi di valutazione, calendari, narrazioni sociali del successo sono istituzioni in questo senso ampio: organizzano ciò che conta, ciò che vale, ciò che è possibile attendersi. L'Altro impersonale e durevole che eccede le singole relazioni.",
+      "linked_nodes": ["mediazione-strutturale", "orizzonte-di-senso", "deformazione-strutturale"]
+    },
+    {
+      "concept": "Mediazione simbolica",
+      "definition": "Struttura antropologica fondamentale: il soggetto umano non entra mai in rapporto diretto con il mondo ma sempre attraverso segni, linguaggi, strumenti culturalmente codificati che riconfigurano il campo dell'esperienza rendendola organizzabile, ricordabile, anticipabile. Non semplice comunicazione né strumento: co-costitutiva delle funzioni psichiche superiori (Vygotskij). Attraverso di essa la cultura non influenza lo sviluppo: entra nella struttura stessa delle funzioni psichiche.",
+      "linked_nodes": ["mediazione-strutturale", "zona-di-sviluppo-prossimale", "istituzione-come-dispositivo"]
+    },
+    {
+      "concept": "Deformazione strutturale",
+      "definition": "Configurazione sbilanciata dello sviluppo in cui una dimensione prende il sopravvento sulle altre per effetto di mediazioni storiche. Non deficit individuale, non errore educativo puntuale, non patologia clinica: esito strutturale dell'incontro tra soggetto in sviluppo e forme storiche del mondo che entrano in tensione con le strutture fondative degli assi precedenti. Richiede lettura storica e non psicologica delle difficoltà di sviluppo.",
+      "linked_nodes": ["mediazione-strutturale", "prestazionalizzazione-del-valore", "istituzione-come-dispositivo"]
+    }
+  ],
+  "structural_nodes": [
+    {
+      "node": "mediazione-strutturale",
+      "short_definition": "Il mondo storico-culturale entra nella struttura dell'esperienza, non come sfondo ma come campo già organizzato."
+    },
+    {
+      "node": "orizzonte-di-senso",
+      "short_definition": "Ciò che appare ovvio, dato per scontato, non messo in questione: la struttura implicita del campo storico."
+    },
+    {
+      "node": "storicità-del-soggetto",
+      "short_definition": "Forma concreta in cui le strutture fondative del soggetto prendono corpo; non relativismo né determinismo."
+    },
+    {
+      "node": "mediazione-simbolica",
+      "short_definition": "Struttura antropologica: segni, linguaggi e strumenti culturali co-costituiscono le funzioni psichiche superiori."
+    },
+    {
+      "node": "istituzione-come-dispositivo",
+      "short_definition": "Forma stabile di esperienza che organizza ciò che conta e ciò che vale; l'Altro impersonale e durevole."
+    },
+    {
+      "node": "lebenswelt",
+      "short_definition": "Il mondo della vita già strutturato in cui il soggetto è sempre già immerso prima di qualsiasi riflessione."
+    },
+    {
+      "node": "zona-di-sviluppo-prossimale",
+      "short_definition": "Spazio in cui le funzioni emergono attraverso la mediazione di un altro culturalmente competente (Vygotskij)."
+    },
+    {
+      "node": "tecnica-come-forma-storica",
+      "short_definition": "La tecnica non è strumento neutro ma forma storica di organizzazione dell'esperienza che incide su tempo e desiderio."
+    },
+    {
+      "node": "prestazionalizzazione-del-valore",
+      "short_definition": "Configurazione storica in cui ciò che vale coincide con ciò che è misurabile; il giudizio diventa valutazione."
+    },
+    {
+      "node": "deformazione-strutturale",
+      "short_definition": "Configurazione sbilanciata prodotta dall'incontro tra strutture fondative del soggetto e forme storiche del mondo."
+    }
+  ],
+  "internal_articulations": [
+    {
+      "section": "Capitolo 1 — Il mondo come mediazione, non come sfondo",
+      "function": "Chiarimento fondativo: il mondo storico-culturale non è sfondo neutro né contesto che influenza dall'esterno ma campo di esperienza già strutturato (Lebenswelt husserliana). Introduce il concetto di orizzonte di senso come struttura implicita che organizza il possibile prima di qualsiasi riflessione esplicita."
+    },
+    {
+      "section": "Capitolo 2 — Costituzione storica del soggetto senza relativismo",
+      "function": "Risolve il nodo teorico centrale: il soggetto è storicamente situato (Dilthey; Gadamer) senza dissolversi nella storia. Argomenta contro l'universalismo astratto (soggetto senza storia) e contro il determinismo culturale (soggetto come prodotto). La storicità è modalità costitutiva, non aggiunta."
+    },
+    {
+      "section": "Capitolo 3 — Mediazione simbolica e sviluppo",
+      "function": "Mostra come la cultura entri nella struttura dell'esperienza attraverso mediazione simbolica (Vygotskij). Le funzioni psichiche superiori nascono attraverso la mediazione culturale, non precedono. Introduce la zona di sviluppo prossimale come struttura relazionale della mediazione."
+    },
+    {
+      "section": "Capitolo 4 — Istituzioni come dispositivi di esperienza",
+      "function": "Descrive le istituzioni come forme storicamente stabilizzate di esperienza che organizzano tempo, valore, sapere e riconoscimento. L'Altro impersonale e durevole che eccede le relazioni individuali. Scuola, famiglia, sistemi valutativi come istituzioni in senso ampio del modello."
+    },
+    {
+      "section": "Capitolo 5 — Tecnica, performance e temporalità contemporanea",
+      "function": "Analisi del mondo storico contemporaneo: Stiegler (tecnica come mediazione della soggettività; proletarizzazione dell'esperienza), Rosa (accelerazione). La tecnica ridefinisce il 'tempo valido', comprime l'attesa, trasforma il desiderio in reattività immediata."
+    },
+    {
+      "section": "Capitolo 6 — Rischi strutturali e deformazioni",
+      "function": "Descrive tre deformazioni strutturali sistemiche del mondo contemporaneo (non patologie individuali): prestazionalizzazione del valore, colonizzazione del tempo, saturazione del desiderio. Mostra come nascano dall'incontro tra strutture fondative e mediazioni storiche, non da errori educativi."
+    },
+    {
+      "section": "Capitolo 7 — Raccordo con l'intero modello",
+      "function": "Funzione di sintesi e verifica: l'Asse 6 come asse di traduzione, non di origine. Mostra la circolazione degli assi nel mondo storico e la doppia protezione che il raccordo garantisce: impedisce al modello di restare astratto e al mondo storico di diventare principio assoluto."
+    }
+  ],
+  "reduction_risks": [
+    {
+      "type": "Sociologizzazione dello sviluppo",
+      "description": "Ridurre il soggetto a prodotto delle condizioni storiche o culturali, perdendo la consistenza strutturale degli assi 1-5. Il mondo storico modula le strutture fondative ma non le produce: trattarle come effetti del contesto inverte il rapporto tra fondazione e mediazione."
+    },
+    {
+      "type": "Sfondo neutro",
+      "description": "Trattare il mondo storico-culturale come semplice contesto che influenza uno sviluppo altrimenti autonomo. Perde la funzione di mediazione strutturale: il campo di esperienza già organizzato non è separabile da ciò che in esso si sviluppa."
+    },
+    {
+      "type": "Universalismo astratto",
+      "description": "Trattare le strutture fondative degli assi 1-5 come indipendenti dal contesto storico, producendo un modello di sviluppo decontestualizzato. Le strutture hanno consistenza propria, ma si esercitano sempre in mondi storicamente configurati che ne determinano le forme concrete."
+    },
+    {
+      "type": "Riduzione tecnica della tecnica",
+      "description": "Trattare la tecnica contemporanea come strumento neutro da usare bene o male, o come minaccia da limitare. Perde la comprensione della tecnica come forma storica di organizzazione dell'esperienza che incide strutturalmente su temporalità, desiderio e valore prima di qualsiasi uso consapevole."
+    },
+    {
+      "type": "Patologizzazione delle deformazioni strutturali",
+      "description": "Trattare i rischi strutturali (prestazionalizzazione, accelerazione, saturazione del desiderio) come patologie individuali o come errori educativi attribuibili a singoli adulti o istituzioni. Perdendo la natura sistemica delle deformazioni si producono diagnosi che non possono migliorare le condizioni strutturali."
+    }
+  ],
+  "structural_questions": [
+    "Come si distingue strutturalmente la mediazione storica che sostiene lo sviluppo (condizione del possibile) da quella che lo deforma (ostacolo alle strutture fondative) — e quali criteri consentono questa distinzione senza cadere in normativismo culturale?",
+    "In quale senso l'istituzione come dispositivo di esperienza è irriducibile alla somma delle relazioni individuali che la compongono, e quali implicazioni ha questo per la progettazione dei servizi per l'infanzia?",
+    "Come interagisce la mediazione tecnica contemporanea (compressione del tempo, saturazione del desiderio) con la temporalità vissuta e il campo intenzionale del bambino piccolo — e quali condizioni strutturali rendono possibile resistere a questa deformazione?",
+    "Dove si trova il confine tra storicità costitutiva del soggetto (che non è relativismo) e determinismo culturale (che dissolve il soggetto nelle condizioni storiche) — e come questo confine si mantiene operativo nella pratica della traduzione interdisciplinare?"
+  ],
+  "methodological_constraints": [
+    "Non ridurre l'Asse 6 a una teoria sociologica dello sviluppo né a una critica culturale generalizzata: il suo ruolo è di traduzione e verifica degli assi precedenti, non di fondazione autonoma. Le strutture dello sviluppo non derivano dal contesto storico: il contesto le media.",
+    "Non trattare le deformazioni strutturali come diagnosi individuali né come errori educativi attribuibili: sono configurazioni sistemiche che emergono dall'incontro tra soggetto in sviluppo e forme storiche del mondo; richiedono lettura sistemica, non imputazione.",
+    "Non applicare l'asse come strumento di critica culturale senza ancorarlo alle strutture degli assi precedenti: la valutazione del mondo storico deve essere fondata sul rapporto con la corporeità, la norma, il limite e il desiderio — non su criteri culturali autonomi.",
+    "Non derivare dall'asse raccomandazioni normative sul 'buon contesto' di sviluppo senza passare attraverso i vincoli metodologici della traduzione interdisciplinare (F2-F3): l'asse descrive struttura della mediazione, non modelli di organizzazione sociale da perseguire."
+  ],
+  "compilation_notes": {
+    "confidence_level": "alta",
+    "needs_human_review": true,
+    "notes": "L'asse è strutturalmente il più ricco di riferimenti interdisciplinari (Husserl, Dilthey, Gadamer, Vygotskij, Stiegler, Rosa) e si presta naturalmente alla traduzione verso i professionisti dei servizi. Il capitolo 6 (deformazioni strutturali) è il più direttamente collegabile all'agenda del progetto sul presente storico. Il nodo metodologico più delicato è il confine tra storicità costitutiva e determinismo: il testo sorgente lo afferma chiaramente (Cap. 2) ma la sua tenuta operativa nella traduzione interdisciplinare (F2) richiede attenzione specifica.",
+    "open_issues": [
+      "Il rapporto tra 'zona di sviluppo prossimale' (Vygotskij, Cap. 3) e 'co-regolazione' (Asse 1) è funzionalmente molto vicino ma epistemologicamente distinto: va chiarito in F2 se sono concetti-ponte sovrapposti o complementari a livelli diversi.",
+      "Hartmut Rosa è citato (Cap. 5) come riferimento per l'accelerazione contemporanea ma non sviluppato sistematicamente: il raccordo con la temporalità vissuta (Asse 1) e con la deformazione del campo intenzionale è implicito ma non esplicitato — richiede elaborazione in F2.",
+      "L'Asse 6 è quello con il maggior numero di connessioni esplicite con le schede di interlocuzione (Bronfenbrenner, Psicologia di Comunità, Epistemologia della Complessità): queste connessioni andrebbero mappate sistematicamente prima della fase F2."
+    ]
+  }
+}

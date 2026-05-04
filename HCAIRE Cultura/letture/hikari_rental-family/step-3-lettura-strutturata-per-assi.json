@@ -1,0 +1,357 @@
+{
+  "opera_riferimento": {
+    "titolo": "Rental Family",
+    "autore": "Hikari"
+  },
+  "assi_implicati": [
+    {
+      "axis_id": "asse_1",
+      "axis_name": "Ontologico–fenomenologico",
+      "grado_implicazione": "medio",
+      "motivazione": "L'asse è attivato dalla coincidenza fra mestiere del protagonista (attore) e mansione (interprete di ruoli relazionali): la professione fa coincidere il piano della vita con il piano dell'interpretazione. La citazione riportata dall'utente — 'a Roma fai come i romani… significa anche essere un po' di più di quello che sei' — può essere letta come una formulazione, in chiave non tecnica, dell'ipseità in divenire come continuità dinamica del soggetto che si mantiene attraverso, non nonostante, le sue prestazioni di ruolo. Il film tematizza inoltre la corporeità vissuta dell'outsider — il corpo di Phillip in Giappone come punto zero di un orientamento che deve continuamente ri-apprendere i codici. Tuttavia il film non lavora sistematicamente sulla temporalità vissuta come spessore del presente né sulla regolazione come tenuta dell'esperienza: i temi ontologici sono presenti come condizione, non come oggetto esplicito di riflessione.",
+      "nodi_attivati_in_questo_asse": [
+        "soggetto-come-processo",
+        "ipseità-dinamica",
+        "corporeità-vissuta",
+        "relazione-costitutiva"
+      ]
+    },
+    {
+      "axis_id": "asse_2",
+      "axis_name": "Affettivo–morale",
+      "grado_implicazione": "alto",
+      "motivazione": "È l'asse più direttamente e profondamente implicato. Il dispositivo della rental family produce esattamente, in forma esplicita e laboratoriale, il processo di interiorizzazione dell'altro come istanza: ogni incarico parte come prestazione contrattuale — l'altro è committente, oggetto di servizio — e progressivamente l'altro diventa una presenza affettiva persistente che vincola Phillip dall'interno anche quando il contratto è scaduto o starebbe per esserlo. Negli archi di Mia e di Kikuo questa interiorizzazione è esplicita: Phillip rinuncia a un'occasione di lavoro maggiore pur di restare disponibile per Mia, e contravviene al protocollo aziendale per accompagnare Kikuo ad Amakusa. Sono entrambe forme di responsabilità affettiva pre-normativa: Phillip non risponde a una norma né a un giudizio universale, risponde a Mia e a Kikuo come istanze interne. Aiko incarna il contrappunto strutturale: la sua interrogazione etica e le sue dimissioni mostrano che il film tiene la domanda morale aperta. La distinzione strutturale fra colpa integrativa e moralità adattiva è centrale: il film mette in scena precisamente il rischio della moralità adattiva (il servizio funziona, il cliente è soddisfatto, l'agenzia prospera) e la richiede — con Aiko, con la riformulazione finale dell'agenzia — a un livello superiore di responsabilità.",
+      "nodi_attivati_in_questo_asse": [
+        "interiorizzazione-dell-altro",
+        "istanza-interna",
+        "colpa-affettiva",
+        "colpa-integrativa",
+        "sopravvivenza-dell-oggetto",
+        "riparazione",
+        "responsabilità-pre-normativa",
+        "moralità-adattiva"
+      ]
+    },
+    {
+      "axis_id": "asse_3",
+      "axis_name": "Normativo–educativo",
+      "grado_implicazione": "medio",
+      "motivazione": "L'asse è implicato nella dialettica fra protocollo aziendale (norma esplicita: 'non portare i clienti fuori dal contesto stabilito', 'rispettare il mandato') e giudizio situato del soggetto. Phillip esercita un giudizio situato — incarnato, fallibile, non delegabile — quando porta Kikuo ad Amakusa contravvenendo al regolamento: è una presa di posizione che eccede il mandato e che il dispositivo aziendale non sa contenere. Aiko esercita parallelamente un giudizio sul senso complessivo del servizio. La risoluzione finale — l'agenzia che ridimensiona i servizi più moralmente discutibili — è una forma di riposizionamento normativo dell'istituzione. Tuttavia il film non sviluppa il piano della verità educativa né dell'autorità educativa nei termini precisi dell'asse: rimane più sul registro della responsabilità affettiva che si traduce in una piccola riforma normativa che su quello del giudizio orientato al vero senza arbitrarietà.",
+      "nodi_attivati_in_questo_asse": [
+        "distinzione-norma-normativita",
+        "giudizio-situato",
+        "responsabilità-come-imputazione",
+        "fallimento-normativo",
+        "limite-del-giudizio"
+      ]
+    },
+    {
+      "axis_id": "asse_4",
+      "axis_name": "Separazione e Limite",
+      "grado_implicazione": "alto",
+      "motivazione": "L'asse è strutturalmente attivato lungo l'intero film. Il primo incarico mostrato — la presenza affittata a un funerale — colloca subito la finzione presso il bordo del lutto. L'arco di Kikuo è costruito esplicitamente attorno alla perdita: la demenza incipiente è perdita progressiva (irreversibilità che chiude possibilità giorno per giorno), il viaggio ad Amakusa è un confronto con la perdita irreversibile della prima moglie defunta, la morte di Kikuo è perdita conclusiva dell'arco. La finzione del finto giornalista è un dispositivo di simbolizzazione della perdita: tenta di raccogliere la memoria prima della sua dissoluzione. Il film lavora sulla tensione fra simbolizzazione che accompagna (il 'tenere' la presenza di Kikuo prima di nominarla) e neutralizzazione prematura (il rischio che la finzione consolatoria copra il reale invece di accompagnarlo). Lo svelamento a Mia è un evento di perdita per la bambina (perde il padre che credeva di avere), ma il finale registra che il legame può ricostituirsi sulla base della trasparenza: la separazione dall'onnipotenza della finzione è ciò che rende possibile un rapporto reale. Il rischio educativo dell'agenzia (iper-regolazione del reale tramite finzione, spiegazionismo, riparazione forzata della solitudine) è un riferimento implicito ma costante.",
+      "nodi_attivati_in_questo_asse": [
+        "limite-reale",
+        "eccedenza",
+        "perdita",
+        "irreversibilità",
+        "lavoro-del-lutto",
+        "resto-non-simbolizzabile",
+        "rischio-educativo",
+        "separazione-dall-onnipotenza"
+      ]
+    },
+    {
+      "axis_id": "asse_5",
+      "axis_name": "Desiderio",
+      "grado_implicazione": "medio",
+      "motivazione": "Il desiderio entra nell'opera non come tema esplicito ma come problema strutturale del protagonista. Phillip arriva al film come soggetto dal desiderio ritratto: l'effimero successo pubblicitario di sette anni prima e la successiva carriera arenata configurano un soggetto la cui direzione è bloccata. La rental family inizialmente funziona per lui come motivazione-come-sostituto: incarico esterno che produce azione efficace senza orientamento interno. Il punto di svolta è l'arco di Mia: la rinuncia all'occasione di lavoro maggiore non è scelta razionale ma riorganizzazione del campo desiderabile — Phillip riconosce che alcune direzioni sono diventate per lui più cariche di valore di altre. È un caso paradigmatico di soggettivazione del desiderio per continuità vissuta: non sceglie deliberatamente Mia, semplicemente non riesce più a non averla nel campo. La relazione con Kikuo aggiunge una direzione: l'ascolto come orientamento. Il film mostra che la mancanza strutturale del protagonista (il suo essere fuori posto, la sua carriera fallita) è la condizione, non il deficit, da cui può ricostituirsi un orientamento.",
+      "nodi_attivati_in_questo_asse": [
+        "desiderio-ritratto",
+        "motivazione-come-sostituto",
+        "soggettivazione-del-desiderio",
+        "mancanza-strutturale",
+        "campo-desiderabile"
+      ]
+    },
+    {
+      "axis_id": "asse_6",
+      "axis_name": "Storico–culturale",
+      "grado_implicazione": "alto",
+      "motivazione": "L'asse è centralissimo. La rental family è esplicitamente un'istituzione storica giapponese reale, attiva dai primi anni '90, che il film non osserva come folclore ma come dispositivo di esperienza: un'istituzione che organizza il modo in cui certi vuoti relazionali (lutto, padre assente, riconoscimento sociale) vengono trattati nel mondo storico contemporaneo. Il film legge questo dispositivo come prodotto della 'epidemia di solitudine' giapponese — fenomeno storico-culturale tematizzato anche in politiche pubbliche. È un'esemplificazione paradigmatica della prestazionalizzazione del valore: il legame familiare, che era forma di vita, diventa servizio acquistabile e valutabile (recensioni dei clienti, contratti, mansionari). La saturazione del desiderio per via tecnica — segnalata dall'asse come deformazione contemporanea — qui prende la forma di una soluzione di mercato per la mancanza relazionale. Lo sguardo dell'outsider occidentale (Phillip; il pubblico americano del film) è esso stesso una mediazione storico-culturale: la coproduzione USA-Giappone con regista giapponese-americana e co-sceneggiatore americano organizza il dispositivo come traduzione fra orizzonti culturali. Il film tiene insieme — senza risolverla — la tensione fra il riconoscere una funzione reale di cura nell'istituzione e il segnalarne la deformazione strutturale.",
+      "nodi_attivati_in_questo_asse": [
+        "mediazione-strutturale",
+        "istituzione-come-dispositivo",
+        "deformazione-strutturale",
+        "prestazionalizzazione-del-valore",
+        "tecnica-come-forma-storica",
+        "lebenswelt"
+      ]
+    }
+  ],
+  "nodi_trasversali_attivati": [
+    {
+      "nodo": "interiorizzazione-dell-altro",
+      "asse_di_appartenenza": "asse_2",
+      "definizione_breve": "Processo per cui l'altro cessa di essere solo presenza esterna e diventa struttura affettiva interna vincolante.",
+      "evidenza_nell_opera": "L'arco di Mia e l'arco di Kikuo mostrano in modo esplicito il processo: l'altro (cliente, oggetto di servizio) diventa istanza che vincola Phillip indipendentemente dalla presenza reale e dal mandato contrattuale. La rinuncia all'opportunità di lavoro maggiore per restare con Mia è il segno strutturale dell'avvenuta interiorizzazione."
+    },
+    {
+      "nodo": "istanza-interna",
+      "asse_di_appartenenza": "asse_2",
+      "definizione_breve": "Presenza persistente dell'altro come riferimento affettivo che vincola il soggetto indipendentemente dalla presenza reale.",
+      "evidenza_nell_opera": "Il viaggio ad Amakusa con Kikuo avviene fuori protocollo, contro il mandato aziendale, motivato dalla presenza interna che Kikuo è diventato per Phillip. È il caso paradigmatico di un'istanza che vincola anche quando — anzi: proprio quando — la cornice contrattuale richiederebbe il contrario."
+    },
+    {
+      "nodo": "responsabilità-pre-normativa",
+      "asse_di_appartenenza": "asse_2",
+      "definizione_breve": "Capacità di riconoscersi causa di effetti sull'altro e rispondervi, prima di qualsiasi criterio universale.",
+      "evidenza_nell_opera": "Phillip risponde a Mia e a Kikuo 'per qualcuno', non 'secondo una legge': non sta applicando un codice etico né rispettando un protocollo, sta rispondendo a queste persone specifiche. Il rischio di arresto per presunto rapimento mostra che la sua responsabilità affettiva è sganciata dalla legalità contrattuale e contiene quindi il tratto strutturale della responsabilità pre-normativa."
+    },
+    {
+      "nodo": "moralità-adattiva",
+      "asse_di_appartenenza": "asse_2",
+      "definizione_breve": "Comportamento corretto fondato su paura o rinforzo, senza istanza interna; falso esito dell'Asse 2.",
+      "evidenza_nell_opera": "Il funzionamento standard dell'agenzia descrive una moralità adattiva: il servizio è efficace, i clienti sono soddisfatti, il protocollo è rispettato — ma non c'è (o non deve esserci) istanza interna del lavoratore verso il cliente. L'arco di Phillip mostra precisamente l'eccedenza rispetto a questa moralità adattiva; le dimissioni di Aiko mostrano il riconoscimento esplicito che l'adattività non è ancora responsabilità."
+    },
+    {
+      "nodo": "perdita",
+      "asse_di_appartenenza": "asse_4",
+      "definizione_breve": "Irreversibilità strutturale: ciò che non torna e non ha sostituto equivalente.",
+      "evidenza_nell_opera": "La demenza incipiente di Kikuo è perdita progressiva: ogni giorno qualcosa non torna. La morte della prima moglie di Kikuo è perdita irreversibile che il viaggio ad Amakusa fa riemergere. La morte di Kikuo nel finale è perdita conclusiva. Lo svelamento a Mia è perdita per la bambina del 'padre' che credeva di avere. L'asse della perdita attraversa l'intero film come orizzonte."
+    },
+    {
+      "nodo": "rischio-educativo",
+      "asse_di_appartenenza": "asse_4",
+      "definizione_breve": "Iper-regolazione, spiegazionismo, riparazione forzata: strategie dell'adulto che non tollera il reale.",
+      "evidenza_nell_opera": "L'agenzia di rental family può essere letta come istituzionalizzazione di una riparazione forzata della solitudine: la presenza affittata al funerale, il padre prestato alla bambina, il giornalista finto al posto della testimonianza diretta. Il film tiene aperta la domanda se questa riparazione accompagni il reale o lo neutralizzi prematuramente; la risoluzione finale segnala una limitazione strutturale di questa logica."
+    },
+    {
+      "nodo": "resto-non-simbolizzabile",
+      "asse_di_appartenenza": "asse_4",
+      "definizione_breve": "Ciò che in ogni perdita non può essere integralmente ricondotto a senso; condizione del desiderio strutturale.",
+      "evidenza_nell_opera": "Il fatto che il film si chiuda sulla morte di Kikuo e su un rapporto fra Phillip e Mia ricostituito sulla trasparenza, ma non su una pacificazione totale, indica che l'opera lascia un residuo non simbolizzato. La citazione riportata dall'utente ('ci rivedremo ancora' detto a un vecchio attore nella bara) tiene apertamente questa dimensione: la finzione consolatoria non chiude il senso della perdita."
+    },
+    {
+      "nodo": "soggettivazione-del-desiderio",
+      "asse_di_appartenenza": "asse_5",
+      "definizione_breve": "Processo graduale per cui il desiderio diventa riconoscibile come proprio attraverso continuità vissuta, non scelta riflessiva.",
+      "evidenza_nell_opera": "Phillip non decide riflessivamente di tenere a Mia: torna verso di lei, insiste sulla relazione, rifiuta l'occasione di lavoro che lo allontanerebbe. La direzione si manifesta come continuità vissuta, non come scelta morale articolata. È il punto in cui il personaggio cessa di essere puro ricettore di incarichi e diventa soggetto orientato."
+    },
+    {
+      "nodo": "motivazione-come-sostituto",
+      "asse_di_appartenenza": "asse_5",
+      "definizione_breve": "L'azione efficace sostenuta da stimoli esterni senza orientamento interno; produce adattamento, non responsabilità.",
+      "evidenza_nell_opera": "Nei primi episodi (funerale, finto fidanzato) Phillip è soggetto a motivazione esterna: l'incarico arriva, lo svolge, riceve il compenso. L'azione è efficace ma non orientata. Il film documenta esattamente la trasformazione da motivazione-come-sostituto a desiderio soggettivato negli archi di lungo periodo."
+    },
+    {
+      "nodo": "istituzione-come-dispositivo",
+      "asse_di_appartenenza": "asse_6",
+      "definizione_breve": "Forma stabile di esperienza che organizza ciò che conta e ciò che vale; l'Altro impersonale e durevole.",
+      "evidenza_nell_opera": "L'agenzia 'Rental Family' è un'istituzione in senso pieno: pratiche, ruoli (Shinji proprietario, Phillip/Aiko/Kota esecutori), linguaggi (il lessico del servizio), aspettative, criteri di valutazione. Organizza ciò che conta nel rapporto con i clienti — non solo le singole prestazioni, ma il modo in cui certi vuoti relazionali vengono pensati come oggetti di servizio."
+    },
+    {
+      "nodo": "prestazionalizzazione-del-valore",
+      "asse_di_appartenenza": "asse_6",
+      "definizione_breve": "Configurazione storica in cui ciò che vale coincide con ciò che è misurabile; il giudizio diventa valutazione.",
+      "evidenza_nell_opera": "Il film mette in scena la trasformazione del legame familiare in prestazione misurabile: durata dell'incarico, tariffa, performance, soddisfazione del cliente. Il fatto che la madre di Mia commissioni un padre 'per favorirne l'ammissione a una scuola d'élite che valuta anche la composizione del nucleo familiare' è il caso paradigmatico in cui la composizione familiare entra nei criteri di valutazione di un'istituzione (la scuola), che a sua volta produce la domanda sull'agenzia."
+    },
+    {
+      "nodo": "deformazione-strutturale",
+      "asse_di_appartenenza": "asse_6",
+      "definizione_breve": "Configurazione sbilanciata prodotta dall'incontro tra strutture fondative del soggetto e forme storiche del mondo.",
+      "evidenza_nell_opera": "La rental family come fenomeno è esplicitamente letta dal film come risposta storica a una configurazione contemporanea (solitudine, denatalità, urbanizzazione, prestazionalizzazione del riconoscimento). Non è patologia individuale dei clienti: è esito strutturale dell'incontro fra il bisogno fondativo di alterità interiorizzata e forme storiche che lo trasformano in domanda di servizio."
+    },
+    {
+      "nodo": "giudizio-situato",
+      "asse_di_appartenenza": "asse_3",
+      "definizione_breve": "Atto incarnato e fallibile del soggetto nel mondo; non delegabile né automatizzabile; luogo della responsabilità.",
+      "evidenza_nell_opera": "La decisione di Phillip di portare Kikuo ad Amakusa è un atto situato non riconducibile a regola: nessun protocollo aziendale lo autorizza, nessuna norma universale lo prescrive, ed è esposto a conseguenze reali (l'arresto). Le dimissioni di Aiko sono un altro atto di giudizio situato, in posizione opposta: anche lì non c'è applicazione di regola, c'è presa di posizione."
+    }
+  ],
+  "nodi_assenti": [
+    {
+      "nodo": "co-regolazione",
+      "asse_di_appartenenza": "asse_1",
+      "motivazione_assenza": "Il concetto strutturale di co-regolazione — forma originaria intersoggettiva della tenuta dell'esperienza — non trova nell'opera un trattamento riconoscibile, dato che l'opera lavora su soggetti adulti e su una bambina già strutturata. Va segnalato per evitare la tentazione di leggere la 'presenza affittata' come co-regolazione: si tratta di forme strutturalmente diverse."
+    },
+    {
+      "nodo": "autorità-educativa",
+      "asse_di_appartenenza": "asse_3",
+      "motivazione_assenza": "Il film non costruisce esplicitamente la figura dell'autorità educativa nei termini dell'asimmetria storico-simbolica fra adulto e bambino orientata al giudizio. Phillip non assume il ruolo di figura educativa di Mia in senso forte: la relazione si dà come falsa paternità prima e come amicizia trasparente poi. La cornice educativa esplicita è altrove — nella scuola d'élite — e non viene tematizzata dal film."
+    },
+    {
+      "nodo": "verità-educativa",
+      "asse_di_appartenenza": "asse_3",
+      "motivazione_assenza": "L'asse della verità educativa come condizione riconosciuta interiormente nel giudizio non è tematizzato dall'opera. Il film lavora più sul registro affettivo (responsabilità per qualcuno) che su quello del riconoscimento di una verità che orienta senza imporsi: applicarlo qui rischierebbe di essere proiezione."
+    },
+    {
+      "nodo": "sopravvivenza-dell-oggetto",
+      "asse_di_appartenenza": "asse_2",
+      "motivazione_assenza": "Sebbene il film tocchi il tema dell'aggressività e della riparazione (lo svelamento, l'arresto, le dimissioni di Aiko), la struttura winnicottiana della sopravvivenza dell'oggetto come condizione della riparazione non è riconoscibile in modo univoco: il legame fra Phillip e Mia sopravvive, ma per via dello smascheramento e della trasparenza, non per via di un test di sopravvivenza dell'altro all'aggressività del soggetto. Registrarlo come parzialmente assente è più prudente che forzare l'applicazione."
+    }
+  ],
+  "evidenze": [
+    {
+      "tipo": "scena",
+      "descrizione": "Phillip è ingaggiato per partecipare a un funerale come dolente. È uno dei primi incarichi mostrati e introduce la natura del lavoro di rental family.",
+      "localizzazione": "Primi episodi, parte iniziale del film",
+      "assi_connessi": ["asse_4", "asse_6", "asse_2"],
+      "interpretazione_sintetica": "Il funerale come prima scena di lavoro mostrata colloca subito la finzione presso il bordo del lutto: l'istituzione (Asse 6) si presenta come dispositivo di gestione del rischio educativo (Asse 4) di lasciare la perdita non accompagnata, e al tempo stesso pone la domanda dell'Asse 2 sull'eticità di una presenza affittata davanti al lutto reale di altri."
+    },
+    {
+      "tipo": "struttura_narrativa",
+      "descrizione": "Struttura episodica che alterna incarichi brevi auto-conclusivi con due archi maggiori (Mia, Kikuo) sviluppati lungo l'intero film.",
+      "localizzazione": "Architettura complessiva dell'opera",
+      "assi_connessi": ["asse_2", "asse_5"],
+      "interpretazione_sintetica": "L'alternanza è funzionale a mostrare la differenza strutturale fra prestazione contrattuale (incarichi brevi, motivazione-come-sostituto) e processo di interiorizzazione dell'altro come istanza (archi lunghi, soggettivazione del desiderio). La forma non è ornamentale: organizza la dimostrazione del passaggio."
+    },
+    {
+      "tipo": "scena",
+      "descrizione": "Phillip rifiuta una significativa opportunità di lavoro come attore per non venire meno alla relazione con Mia.",
+      "localizzazione": "Secondo atto avanzato",
+      "assi_connessi": ["asse_2", "asse_5"],
+      "interpretazione_sintetica": "Il rifiuto è il segno strutturale dell'avvenuta interiorizzazione di Mia come istanza interna (Asse 2) e della soggettivazione del desiderio per continuità vissuta (Asse 5). Phillip non sceglie sulla base di un calcolo né di un principio: la direzione si è già stabilita come priorità del campo desiderabile."
+    },
+    {
+      "tipo": "scena",
+      "descrizione": "Phillip porta Kikuo ad Amakusa contro il protocollo aziendale; Kikuo si confronta con i ricordi della prima moglie defunta; Phillip viene arrestato per presunto rapimento.",
+      "localizzazione": "Terzo atto",
+      "assi_connessi": ["asse_2", "asse_3", "asse_4"],
+      "interpretazione_sintetica": "Atto plurivalente: responsabilità affettiva pre-normativa che eccede il mandato (Asse 2), giudizio situato non delegabile a procedura (Asse 3), incontro con la perdita irreversibile e il resto non simbolizzabile (Asse 4). La sproporzione fra l'atto di accompagnamento e la sua riqualificazione legale come 'rapimento' espone esattamente lo iato fra responsabilità pre-normativa e norma."
+    },
+    {
+      "tipo": "scena",
+      "descrizione": "Mia scopre la vera identità di Phillip e la natura mercenaria del rapporto inscenato.",
+      "localizzazione": "Terzo atto",
+      "assi_connessi": ["asse_4", "asse_2"],
+      "interpretazione_sintetica": "Evento di perdita per Mia (chiusura definitiva della possibilità di credere al padre prestato) e contemporaneamente condizione perché il legame possa ricostituirsi su base trasparente. Caso paradigmatico di separazione dall'onnipotenza della finzione consolatoria come condizione, non negazione, del legame."
+    },
+    {
+      "tipo": "scena",
+      "descrizione": "Aiko si dimette dall'agenzia, interrogandosi sull'eticità del servizio.",
+      "localizzazione": "Terzo atto",
+      "assi_connessi": ["asse_2", "asse_3"],
+      "interpretazione_sintetica": "Le dimissioni segnalano un giudizio situato (Asse 3) che assume il peso della responsabilità senza essere riducibile ad applicazione di regola, e tengono aperta la domanda morale dell'Asse 2: il film non chiude la questione dell'istanza interna riducendola al lieto fine di Phillip ma la fa restare attiva attraverso il personaggio che si congeda."
+    },
+    {
+      "tipo": "struttura_narrativa",
+      "descrizione": "Risoluzione: morte di Kikuo, riformulazione del rapporto Phillip-Mia su base di trasparenza, ridefinizione dei servizi dell'agenzia.",
+      "localizzazione": "Finale",
+      "assi_connessi": ["asse_4", "asse_3", "asse_6"],
+      "interpretazione_sintetica": "La triplice chiusura tiene insieme tre piani: la perdita irreversibile (Kikuo morto: Asse 4), il riposizionamento normativo dell'istituzione (Asse 3), la trasformazione del dispositivo storico (Asse 6) come limite all'estensione delle prestazioni più moralmente discutibili. Il limite reale entra dunque nell'istituzione e ne riconfigura il perimetro."
+    },
+    {
+      "tipo": "citazione_testuale",
+      "descrizione": "'A Roma fai come i romani… significa anche essere un po' di più di quello che sei' (citazione riferita dall'utente).",
+      "localizzazione": "Non determinata; testimonianza di spettatore non verificata filologicamente",
+      "assi_connessi": ["asse_1", "asse_5"],
+      "interpretazione_sintetica": "Formulazione, in chiave non tecnica, dell'ipseità in divenire (Asse 1): il soggetto si mantiene attraverso le prestazioni di ruolo, e l'imitazione delle convenzioni locali è anche eccedenza dell'identità, non maschera che la copre. Tocca anche l'Asse 5 nel senso che 'essere di più di quello che sei' è formulazione vicina alla mancanza strutturale come condizione del desiderio."
+    },
+    {
+      "tipo": "elemento_formale",
+      "descrizione": "Coproduzione USA-Giappone, dialoghi in inglese e in giapponese, protagonista occidentale dichiaratamente outsider linguistico e culturale, riferimento critico ricorrente a 'Lost in Translation'.",
+      "localizzazione": "Impianto generale dell'opera",
+      "assi_connessi": ["asse_6", "asse_1"],
+      "interpretazione_sintetica": "L'opera è essa stessa atto di mediazione storico-culturale (Asse 6): un fenomeno giapponese letto attraverso un punto di vista transculturale, prodotto da regista giapponese-americana e co-sceneggiatore americano per distribuzione major. La condizione di outsider del protagonista (Asse 1, corporeità vissuta) duplica e tematizza la condizione di mediazione del film stesso."
+    },
+    {
+      "tipo": "elemento_formale",
+      "descrizione": "Movimento spaziale dalla metropoli (Tokyo) alla periferia rurale e natale (Amakusa, prefettura di Kumamoto).",
+      "localizzazione": "Terzo atto, viaggio con Kikuo",
+      "assi_connessi": ["asse_4", "asse_6"],
+      "interpretazione_sintetica": "Il movimento geografico duplica un movimento simbolico: dalla finzione codificata della metropoli al luogo natale come spazio in cui memoria e perdita possono tornare a dirsi. Tokyo è il luogo dell'istituzione (Asse 6); Amakusa è il luogo del confronto con la perdita irreversibile (Asse 4)."
+    },
+    {
+      "tipo": "elemento_formale",
+      "descrizione": "Professione del protagonista (attore) coincidente con la sua mansione (interprete di ruoli relazionali a pagamento).",
+      "localizzazione": "Premessa dell'opera",
+      "assi_connessi": ["asse_1", "asse_5"],
+      "interpretazione_sintetica": "La coincidenza non è ironia di mestiere ma metafora trasparente del soggetto come essere che si costituisce nel ruolo (Asse 1, soggetto-come-processo). La crisi di carriera di Phillip è anche desiderio ritratto (Asse 5): la sospensione professionale è la condizione da cui può ricostituirsi un orientamento."
+    }
+  ],
+  "configurazione_strutturale_dominante": {
+    "descrizione": "L'opera si organizza come messa alla prova di un'istituzione storica (l'agenzia di rental family) che fornisce — per via contrattuale e prestazionale — ciò che un asse fondativo dello sviluppo del soggetto (Asse 2: l'altro come istanza interna) richiede strutturalmente. La configurazione dominante è quindi la dialettica fra Asse 6 (istituzione storica come dispositivo che organizza l'esperienza del legame mancato) e Asse 2 (genesi dell'istanza interna come processo affettivo non riducibile a prestazione). Il dispositivo storico tenta di sostituire la genesi affettiva con una sua simulazione efficace, ma il film mostra che la prestazione, se sostenuta nel tempo e nella presenza piena, produce effetti reali che eccedono la cornice contrattuale: l'altro diventa istanza, e l'istanza, una volta interiorizzata, riconfigura la responsabilità del soggetto al di là del mandato (Asse 3, giudizio situato) e contro l'illusione di onnipotenza del dispositivo (Asse 4, separazione). L'Asse 5 (desiderio) attraversa l'intera configurazione come condizione di possibilità: solo perché il soggetto Phillip può ri-orientarsi (passare da motivazione esterna a soggettivazione del desiderio) la dialettica fra istituzione e istanza diventa visibile dall'interno e produce una trasformazione. La forma d'insieme che emerge è quella di un esperimento controllato sull'eccedenza dell'affetto rispetto al contratto, condotto dentro l'istituzione che del contratto fa il proprio principio operativo.",
+    "relazione_con_ipotesi_step2": "L'analisi per assi conferma la tesi centrale dello Step 2 — che la finzione relazionale sia, paradossalmente, una rivelazione del legame e non la sua perversione — ma la precisa in due direzioni. (1) La precisa sotto il profilo strutturale: l'effetto rivelativo non viene dalla finzione in sé ma dall'incontro fra prestazione contrattuale e processo di interiorizzazione affettiva; senza l'Asse 2 attivo, la prestazione resta moralità adattiva. (2) La complica sotto il profilo storico: la lettura per assi mostra che l'opera non è solo riflessione antropologica sulla natura del legame, ma è anche diagnosi strutturale di una specifica deformazione contemporanea (Asse 6: prestazionalizzazione del valore, istituzionalizzazione del legame). La 'rivelazione' della finzione opera dentro un orizzonte storico determinato — quello in cui l'altro è già diventato una funzione misurabile — e la sua portata non è universale ma situata. La risoluzione finale (riformulazione dell'agenzia, apertura del rapporto trasparente Phillip-Mia) è esattamente il punto in cui la lettura ontologica e la lettura storica devono entrambe operare: la trasparenza non è soluzione filosofica della finzione, è risposta storica situata a una specifica deformazione."
+  },
+  "dinamica_opera": {
+    "forma_prevalente": ["trasformazione", "resistenza"],
+    "descrizione": "L'opera procede come trasformazione qualitativa di una configurazione: il protagonista entra come soggetto dal desiderio ritratto e dall'identità professionale erosa, dentro un'istituzione che opera per moralità adattiva, e ne esce come soggetto orientato che ha interiorizzato due istanze (Mia, Kikuo) e che ha esercitato giudizio situato. La trasformazione non è solo individuale: anche l'istituzione si trasforma (l'agenzia ridefinisce i propri servizi). La componente di resistenza è strutturale e attraversa il movimento di trasformazione: l'eccedenza affettiva resiste alla cornice contrattuale, Aiko resiste al funzionamento adattivo del servizio, il reale (la demenza, la morte di Kikuo, lo svelamento a Mia) resiste alla finzione consolatoria. La resistenza non blocca la trasformazione: ne è la condizione.",
+    "articolazione_in_fasi": [
+      {
+        "fase": "Esposizione e ingaggio",
+        "forma": "restringimento",
+        "descrizione": "Punto di partenza: campo desiderabile chiuso (carriera arenata), ingresso in un'istituzione che fornisce motivazione esterna come sostituto del desiderio."
+      },
+      {
+        "fase": "Episodi brevi di servizio",
+        "forma": "sospensione",
+        "descrizione": "Il dispositivo opera senza trasformazione del soggetto: prestazione efficace, ma il processo di interiorizzazione non è ancora innescato. La dinamica resta sospesa fra adattamento e possibilità."
+      },
+      {
+        "fase": "Archi di Mia e Kikuo",
+        "forma": "trasformazione",
+        "descrizione": "L'altro diventa istanza interna; il desiderio si soggettivizza per continuità vissuta; la responsabilità si stacca dal mandato. Trasformazione qualitativa del soggetto e progressivamente del campo."
+      },
+      {
+        "fase": "Crisi e svelamento",
+        "forma": "resistenza",
+        "descrizione": "Il reale resiste alla finzione: arresto, scoperta da parte di Mia, dimissioni di Aiko. La cornice istituzionale entra in crisi sotto la pressione dell'eccedenza affettiva e dell'irreversibilità della perdita."
+      },
+      {
+        "fase": "Risoluzione",
+        "forma": "trasformazione",
+        "descrizione": "Morte di Kikuo (perdita assunta), rapporto Phillip-Mia rifondato sulla trasparenza, agenzia che riformula i propri servizi. La trasformazione non risolve la tensione strutturale ma la riposiziona a un livello superiore di responsabilità."
+      }
+    ]
+  },
+  "rischi_di_forzatura": [
+    {
+      "asse_coinvolto": "asse_2",
+      "tipo_di_rischio": "moralizzazione dell'affettivo",
+      "descrizione": "Leggere l'arco di Phillip come maturazione morale univoca rischia di trasformare la genesi affettiva dell'istanza interna in un percorso edificante. Il film, in alcune valutazioni critiche raccolte nel dossier (in particolare Variety), è già accusato di sentimentalità: applicare l'Asse 2 come griglia di lettura senza cautela rischierebbe di replicare proprio l'operazione che la recensione critica.",
+      "cautela_adottata": "Ho mantenuto attivo il polo della moralità adattiva come rischio strutturale che il film stesso espone (Aiko, riformulazione dell'agenzia), evitando di leggere il movimento di Phillip come semplice esito morale positivo. Ho registrato la tensione fra responsabilità affettiva e moralità adattiva come problema aperto e non come progresso compiuto."
+    },
+    {
+      "asse_coinvolto": "asse_4",
+      "tipo_di_rischio": "neutralizzazione simbolica prematura",
+      "descrizione": "Applicare l'asse della perdita rischia di leggere la chiusura del film (morte di Kikuo, svelamento a Mia, trasparenza ricostituita) come simbolizzazione riuscita del reale, mentre il film potrebbe lasciare aperti residui che la lettura per assi tenderebbe a chiudere troppo presto. Il rischio è quello del 'senso che copre il reale' di cui parla l'asse stesso.",
+      "cautela_adottata": "Ho registrato il nodo 'resto-non-simbolizzabile' come attivato e ho riportato la dinamica come 'trasformazione + resistenza', evitando di descriverla come risoluzione compiuta. Il rilievo critico di Variety sulla sentimentalità è stato considerato come segnale che il film stesso potrebbe oscillare fra le due posizioni (simbolizzazione che accompagna vs. che neutralizza), e questa oscillazione è stata mantenuta nella lettura come problema, non risolta a favore di una delle due."
+    },
+    {
+      "asse_coinvolto": "asse_3",
+      "tipo_di_rischio": "anticipazione normativa",
+      "descrizione": "Leggere la riformulazione finale dell'agenzia come 'presa di posizione etica del film' rischia di anticipare un livello normativo (il film giudica il dispositivo) che potrebbe non essere effettivamente esercitato dall'opera, ma proiettato dall'analisi. Lo Step 2 ha già segnalato che si tratta di una domanda aperta.",
+      "cautela_adottata": "Ho descritto la riformulazione come 'riposizionamento normativo dell'istituzione' attivato dentro la dinamica del film, evitando di affermare che il film 'esprime un giudizio': mantenuta la sezione 'verità-educativa' fra i nodi assenti, e segnalato che l'asse 3 è implicato in misura media e non alta."
+    },
+    {
+      "asse_coinvolto": "asse_6",
+      "tipo_di_rischio": "patologizzazione delle deformazioni strutturali / sociologizzazione dello sviluppo",
+      "descrizione": "Applicare l'Asse 6 al film come puro discorso critico sulla società giapponese contemporanea (solitudine, denatalità, prestazionalizzazione) rischia di leggere l'opera come trattato sociologico, perdendo la dimensione antropologica e affettiva che la attraversa. Specularmente, rischia di patologizzare i clienti del servizio come effetti del contesto, contro la cautela dell'asse stesso.",
+      "cautela_adottata": "Ho mantenuto la centralità simultanea dell'Asse 2 (genesi affettiva non riducibile al contesto) e dell'Asse 6 (deformazione storica), e ho descritto la configurazione dominante come dialettica fra i due piani, non come riduzione di uno all'altro. I clienti del servizio non sono stati letti come patologie ma come configurazioni soggettive dentro un'istituzione storica."
+    },
+    {
+      "asse_coinvolto": "asse_5",
+      "tipo_di_rischio": "psicologizzazione del desiderio",
+      "descrizione": "Leggere la rinuncia di Phillip al lavoro maggiore come 'scelta motivata da preferenza' rischia di psicologizzare il desiderio come stato interno posseduto, perdendo la sua dimensione strutturale di orientamento del campo che opera a livello pre-riflessivo.",
+      "cautela_adottata": "Ho descritto il movimento di Phillip come soggettivazione del desiderio per continuità vissuta — cioè come trasformazione del campo desiderabile, non come decisione razionale né come preferenza motivata. La distinzione fra 'motivazione-come-sostituto' e 'desiderio soggettivato' è stata mantenuta come asse interno alla lettura del personaggio."
+    },
+    {
+      "asse_coinvolto": "asse_1",
+      "tipo_di_rischio": "individualismo metodologico",
+      "descrizione": "Trattare Phillip come un soggetto autonomo che incontra l'istituzione dall'esterno rischia di perdere la dimensione costitutivamente relazionale del soggetto e di leggere la trasformazione come maturazione individuale invece che come riconfigurazione di una relazione strutturale.",
+      "cautela_adottata": "Ho mantenuto il nodo 'relazione-costitutiva' attivo nella lettura dell'Asse 1 e ho segnalato che la trasformazione di Phillip è inseparabile dall'interiorizzazione di Mia e Kikuo come istanze: non maturazione di un soggetto solitario, ma trasformazione di un campo relazionale."
+    },
+    {
+      "asse_coinvolto": "asse_2",
+      "tipo_di_rischio": "identificazione con un singolo modello psicoanalitico",
+      "descrizione": "L'arco di Mia (svelamento, riparazione del legame su base trasparente) sollecita una lettura winnicottiana (sopravvivenza dell'oggetto), mentre l'arco di Kikuo (perdita progressiva, lavoro del lutto) sollecita una lettura freudiana. Applicare l'uno o l'altro modello come fondamento esclusivo dell'analisi rischia di omogeneizzare archi che il film mantiene strutturalmente distinti.",
+      "cautela_adottata": "Ho registrato la 'sopravvivenza-dell-oggetto' come nodo parzialmente assente (cautela rispetto a una sua applicazione automatica all'arco di Mia) e ho mantenuto distinte le evidenze relative all'arco di Mia e all'arco di Kikuo, lasciando in tensione i due registri senza armonizzarli."
+    }
+  ],
+  "metadata": {
+    "data_compilazione": "2026-04-28",
+    "compilato_da": "Cowork (pipeline HCAIRE Cultura, step 3)",
+    "versione": "1.0"
+  }
+}

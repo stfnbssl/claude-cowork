@@ -1,0 +1,260 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DossierContenutistico",
+  "description": "Output dello Step 1 della pipeline HCAIRE Cultura: raccolta fattuale e neutra sull'opera, senza interpretazione né applicazione degli assi strutturali.",
+  "type": "object",
+  "required": [
+    "opera",
+    "sintesi_contenutistica",
+    "struttura_formale",
+    "personaggi_figure_gruppi",
+    "scene_momenti_chiave",
+    "temi_espliciti",
+    "tensioni_emergenti",
+    "contesto_storico_culturale",
+    "avvertenze_anti_confabulazione"
+  ],
+  "properties": {
+    "opera": {
+      "type": "object",
+      "description": "Dati identificativi essenziali dell'opera.",
+      "required": ["titolo", "autore", "macrotipologia", "anno"],
+      "properties": {
+        "titolo": {
+          "type": "string",
+          "description": "Titolo completo dell'opera."
+        },
+        "titolo_originale": {
+          "type": "string",
+          "description": "Titolo originale se diverso dal titolo in uso."
+        },
+        "autore": {
+          "type": "string",
+          "description": "Nome dell'autore, regista o creatore principale."
+        },
+        "altri_autori": {
+          "type": "array",
+          "description": "Coautori, sceneggiatori, compositori, o altri creatori rilevanti.",
+          "items": { "type": "string" }
+        },
+        "macrotipologia": {
+          "type": "string",
+          "description": "Categoria generale dell'opera.",
+          "enum": [
+            "romanzo",
+            "racconto",
+            "poesia",
+            "film",
+            "opera_teatrale",
+            "serie_televisiva",
+            "fumetto",
+            "saggio_narrativo",
+            "opera_lirica",
+            "album_musicale",
+            "videogioco",
+            "altro"
+          ]
+        },
+        "genere": {
+          "type": "string",
+          "description": "Genere specifico (es. thriller psicologico, commedia, dramma storico)."
+        },
+        "anno": {
+          "type": "integer",
+          "description": "Anno di prima pubblicazione, uscita o messa in scena."
+        },
+        "paese": {
+          "type": "string",
+          "description": "Paese o paesi di produzione/pubblicazione."
+        },
+        "editore_produttore": {
+          "type": "string",
+          "description": "Casa editrice, casa di produzione o ente produttore."
+        },
+        "serie_o_ciclo": {
+          "type": "string",
+          "description": "Serie, ciclo o raccolta di appartenenza, se pertinente."
+        },
+        "materiali_disponibili": {
+          "type": "array",
+          "description": "Tipologia di materiali su cui si basa il dossier.",
+          "items": { "type": "string" }
+        },
+        "fonti_utilizzate": {
+          "type": "array",
+          "description": "Fonti consultate per la compilazione del dossier.",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "sintesi_contenutistica": {
+      "type": "string",
+      "description": "Riassunto neutro del contenuto dell'opera: trama, argomento, svolgimento. Nessuna valutazione né interpretazione. Usa il condizionale per elementi incerti."
+    },
+    "struttura_formale": {
+      "type": "object",
+      "description": "Descrizione dell'organizzazione formale dell'opera.",
+      "properties": {
+        "descrizione": {
+          "type": "string",
+          "description": "Come è organizzata l'opera (capitoli, atti, sequenze, episodi, parti)."
+        },
+        "unita": {
+          "type": "array",
+          "description": "Elenco delle unità strutturali principali.",
+          "items": {
+            "type": "object",
+            "required": ["nome", "descrizione_sintetica"],
+            "properties": {
+              "nome": { "type": "string" },
+              "descrizione_sintetica": { "type": "string" }
+            }
+          }
+        },
+        "scelte_formali_rilevanti": {
+          "type": "string",
+          "description": "Eventuali irregolarità, scelte formali particolari o caratteristiche strutturali notevoli."
+        }
+      },
+      "additionalProperties": false
+    },
+    "personaggi_figure_gruppi": {
+      "type": "array",
+      "description": "Entità principali dell'opera (personaggi, figure simboliche, gruppi, voci narrative). Descrivere ruoli e funzioni, non psicologia.",
+      "items": {
+        "type": "object",
+        "required": ["nome", "ruolo"],
+        "properties": {
+          "nome": { "type": "string" },
+          "tipo": {
+            "type": "string",
+            "enum": ["personaggio", "figura_simbolica", "gruppo", "voce_narrativa", "altro"]
+          },
+          "ruolo": {
+            "type": "string",
+            "description": "Funzione narrativa o drammaturgica nell'opera."
+          },
+          "relazioni_principali": {
+            "type": "array",
+            "description": "Relazioni con altre entità rilevanti.",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "scene_momenti_chiave": {
+      "type": "array",
+      "description": "Momenti strutturalmente significativi dell'opera: snodi narrativi, scene ad alta intensità, passaggi formali rilevanti. Descrivere senza interpretare.",
+      "items": {
+        "type": "object",
+        "required": ["titolo_sintetico", "descrizione"],
+        "properties": {
+          "titolo_sintetico": {
+            "type": "string",
+            "description": "Breve etichetta identificativa del momento."
+          },
+          "posizione_nell_opera": {
+            "type": "string",
+            "description": "Collocazione nell'opera (es. 'capitolo 3', 'scena finale', 'primo atto')."
+          },
+          "descrizione": {
+            "type": "string",
+            "description": "Descrizione neutra del momento."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "temi_espliciti": {
+      "type": "array",
+      "description": "Temi dichiarati o facilmente riconoscibili nell'opera, basati su quanto è manifesto, non su inferenze.",
+      "items": {
+        "type": "object",
+        "required": ["tema", "manifestazione"],
+        "properties": {
+          "tema": { "type": "string" },
+          "manifestazione": {
+            "type": "string",
+            "description": "Come il tema si manifesta nell'opera (a livello di trama, dialogo, immagine, struttura)."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "tensioni_emergenti": {
+      "type": "array",
+      "description": "Elementi in conflitto, irrisolti o problematici nell'opera che potrebbero richiedere interpretazione. Nominarli senza interpretarli.",
+      "items": {
+        "type": "object",
+        "required": ["descrizione"],
+        "properties": {
+          "descrizione": {
+            "type": "string",
+            "description": "Descrizione della tensione identificata."
+          },
+          "localizzazione": {
+            "type": "string",
+            "description": "Dove si manifesta nell'opera."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "contesto_storico_culturale": {
+      "type": "object",
+      "description": "Contesto di produzione e ricezione dell'opera.",
+      "properties": {
+        "clima_culturale": {
+          "type": "string",
+          "description": "Clima culturale e storico al momento della produzione."
+        },
+        "riferimenti_storici": {
+          "type": "string",
+          "description": "Eventuali riferimenti storici rilevanti esplicitamente presenti nell'opera."
+        },
+        "tradizione_di_appartenenza": {
+          "type": "string",
+          "description": "Tradizione letteraria, cinematografica, teatrale o artistica di appartenenza."
+        },
+        "ricezione_critica": {
+          "type": "string",
+          "description": "Principali linee della ricezione critica, senza adesione né confutazione."
+        }
+      },
+      "additionalProperties": false
+    },
+    "avvertenze_anti_confabulazione": {
+      "type": "array",
+      "description": "Segnalazione esplicita del livello di attendibilità delle informazioni raccolte.",
+      "items": {
+        "type": "object",
+        "required": ["tipo", "descrizione"],
+        "properties": {
+          "tipo": {
+            "type": "string",
+            "enum": ["informazione_certa", "informazione_probabile", "informazione_incerta", "informazione_non_reperibile", "accesso_limitato_ai_materiali"],
+            "description": "Categoria dell'avvertenza."
+          },
+          "descrizione": {
+            "type": "string",
+            "description": "Dettaglio dell'avvertenza: cosa non è certo e perché."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Metadati sul processo di compilazione.",
+      "properties": {
+        "data_compilazione": { "type": "string", "format": "date" },
+        "compilato_da": { "type": "string" },
+        "versione": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

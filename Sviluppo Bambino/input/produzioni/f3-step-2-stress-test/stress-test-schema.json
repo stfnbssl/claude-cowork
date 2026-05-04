@@ -1,0 +1,205 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Schema per F3 STEP 2 (aprile 2026). Descrive la struttura dello stress test strutturale applicato al dispositivo di lettura configurazionale prodotto in F3 STEP 1.",
+  "title": "StressTestOutput",
+  "description": "Output di F3 STEP 2: stress test del dispositivo di lettura configurazionale su casi limite controllati. Non verifica che il dispositivo funzioni — verifica dove smette di funzionare e perché.",
+
+  "type": "object",
+  "required": ["step", "theme_id", "domain", "device_id", "stress_test_results"],
+  "properties": {
+
+    "step": {
+      "type": "string",
+      "const": "f3_step_2",
+      "description": "Identificatore dello step di pipeline. Valore fisso."
+    },
+
+    "theme_id": {
+      "type": "string",
+      "description": "ID del tema, coerente con theme-discovery e theme-verification.",
+      "examples": ["tema_01_pointing_precoce"]
+    },
+
+    "domain": {
+      "type": "string",
+      "description": "Dominio professionale del dispositivo sottoposto a stress test, coerente con domain_selected in F3 STEP 1."
+    },
+
+    "device_id": {
+      "type": "string",
+      "description": "Identificatore del dispositivo F3 STEP 1 sottoposto a stress test, coerente con device_id in lettura-configurazionale-{domain}-v2.json."
+    },
+
+    "stress_test_results": {
+      "type": "array",
+      "description": "Array di casi strutturali. Minimo 5, uno per tipo. Deve includere obbligatoriamente almeno un caso in cui il dispositivo è in difficoltà o produce ambiguità significativa.",
+      "minItems": 5,
+      "items": { "$ref": "#/definitions/StressTestCase" }
+    }
+
+  },
+
+  "definitions": {
+
+    "StressTestCase": {
+      "type": "object",
+      "required": [
+        "case_id",
+        "case_type",
+        "case_description",
+        "observed_configuration",
+        "device_performance",
+        "breaking_point",
+        "discriminative_value",
+        "misreading_risks"
+      ],
+      "properties": {
+
+        "case_id": {
+          "type": "string",
+          "description": "Identificatore del caso in formato case_NN (es. 'case_01')."
+        },
+
+        "case_type": {
+          "type": "string",
+          "enum": [
+            "assenza_configurazione",
+            "configurazione_parziale",
+            "configurazione_distorta",
+            "configurazione_oscillante",
+            "configurazione_apparente"
+          ],
+          "description": "Tipologia strutturale del caso. assenza_configurazione: nessun livello della configurazione si attiva. configurazione_parziale: alcuni livelli presenti, altri assenti. configurazione_distorta: i livelli si attivano ma in forma alterata. configurazione_oscillante: la configurazione si costituisce in modo intermittente e non stabilizzato. configurazione_apparente: la configurazione ha forma piena in superficie ma non struttura genuina (falso positivo)."
+        },
+
+        "case_description": {
+          "type": "string",
+          "description": "Descrizione situazionale concreta e plausibile: cosa accade nell'interazione, chi è coinvolto, in quale contesto. Osservabile e non astratta. Non deve pregiudicare la lettura strutturale — descrive la situazione, non la interpreta."
+        },
+
+        "observed_configuration": {
+          "$ref": "#/definitions/ObservedConfiguration"
+        },
+
+        "device_performance": {
+          "$ref": "#/definitions/DevicePerformance"
+        },
+
+        "breaking_point": {
+          "$ref": "#/definitions/BreakingPoint"
+        },
+
+        "discriminative_value": {
+          "$ref": "#/definitions/DiscriminativeValue"
+        },
+
+        "misreading_risks": {
+          "$ref": "#/definitions/MisreadingRisks"
+        }
+
+      }
+    },
+
+    "ObservedConfiguration": {
+      "type": "object",
+      "required": ["corporeita", "campo_intenzionale", "co_regolazione", "mediazione_simbolica"],
+      "description": "Descrizione di cosa accade a livello di ciascun nodo confermato della configurazione nel caso specifico. Non valutativa: descrive la struttura osservata.",
+      "properties": {
+        "corporeita": {
+          "type": "string",
+          "description": "Stato della corporeità vissuta nel caso: come si manifesta (o non si manifesta) la base corporea del gesto."
+        },
+        "campo_intenzionale": {
+          "type": "string",
+          "description": "Stato del campo intenzionale nel caso: se e come si apre una struttura di orientamento condiviso."
+        },
+        "co_regolazione": {
+          "type": "string",
+          "description": "Stato della co-regolazione nel caso: se e come la risposta dell'altro entra nella configurazione."
+        },
+        "mediazione_simbolica": {
+          "type": "string",
+          "description": "Stato della mediazione simbolica nel caso: se e come il percepito diventa condiviso e significabile."
+        }
+      }
+    },
+
+    "DevicePerformance": {
+      "type": "object",
+      "required": ["readable", "what_it_reads", "what_becomes_unclear", "ambiguity_level"],
+      "description": "Comportamento del dispositivo sul caso: cosa riesce a leggere, cosa diventa ambiguo, con quale livello di ambiguità complessiva.",
+      "properties": {
+        "readable": {
+          "type": "boolean",
+          "description": "true se il dispositivo riesce a leggere il caso in modo strutturalmente significativo; false se il caso eccede o svuota il dispositivo."
+        },
+        "what_it_reads": {
+          "type": "string",
+          "description": "Cosa il dispositivo rende leggibile nel caso: quali dimensioni, quali domande strutturali si attivano."
+        },
+        "what_becomes_unclear": {
+          "type": "string",
+          "description": "Cosa diventa ambiguo, opaco o indistinguibile quando il dispositivo viene applicato a questo caso. Non omettere se il dispositivo funziona bene: anche i casi 'riusciti' hanno zone di opacità."
+        },
+        "ambiguity_level": {
+          "type": "string",
+          "enum": ["basso", "medio", "alto"],
+          "description": "Livello complessivo di ambiguità prodotta dal dispositivo su questo caso."
+        }
+      }
+    },
+
+    "BreakingPoint": {
+      "type": "object",
+      "required": ["present"],
+      "description": "Punto di rottura del dispositivo, se presente. Se present è false, where e why sono omessi.",
+      "properties": {
+        "present": {
+          "type": "boolean",
+          "description": "true se il dispositivo mostra un punto di rottura su questo caso — un passaggio non leggibile o una distinzione che non riesce a fare."
+        },
+        "where": {
+          "type": "string",
+          "description": "Dove si localizza la rottura: quale dimensione, quale passaggio strutturale, quale domanda il dispositivo non riesce a formulare o rispondere. Obbligatorio se present è true."
+        },
+        "why": {
+          "type": "string",
+          "description": "Perché il dispositivo si rompe in quel punto: limite strutturale del dispositivo, ambiguità concettuale, insufficienza del nodo o del bridge. Obbligatorio se present è true."
+        }
+      }
+    },
+
+    "DiscriminativeValue": {
+      "type": "object",
+      "required": ["what_distinguishes_this_case", "device_can_distinguish"],
+      "description": "Valore discriminante del dispositivo su questo caso: cosa rende il caso strutturalmente unico e se il dispositivo riesce a coglierlo.",
+      "properties": {
+        "what_distinguishes_this_case": {
+          "type": "string",
+          "description": "Cosa rende questo caso strutturalmente diverso da altri simili in superficie: la specificità strutturale che un osservatore non strutturale non coglierebbe."
+        },
+        "device_can_distinguish": {
+          "type": "boolean",
+          "description": "true se il dispositivo riesce a distinguere questo caso da altri simili; false se tende a uniformarli."
+        }
+      }
+    },
+
+    "MisreadingRisks": {
+      "type": "object",
+      "required": ["without_device", "with_device_misused"],
+      "description": "Rischi di mislettura del caso: cosa sbaglia un operatore senza dispositivo e cosa può sbagliare con il dispositivo usato male.",
+      "properties": {
+        "without_device": {
+          "type": "string",
+          "description": "Quale errore farebbe un operatore che legge il caso senza il dispositivo strutturale: quale livello non vede, quale distinzione non fa."
+        },
+        "with_device_misused": {
+          "type": "string",
+          "description": "Quale errore potrebbe fare un operatore che usa il dispositivo in modo scorretto (es. come checklist, in modo normativo, senza il bridge): quale scivolamento specifico questo caso facilita."
+        }
+      }
+    }
+
+  }
+}

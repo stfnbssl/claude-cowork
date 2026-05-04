@@ -1,0 +1,149 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ScalettaEditoriale",
+  "description": "Output dello Step 5B della pipeline editoriale HCAIRE Cultura: scaletta dettagliata per la stesura del prodotto editoriale finale.",
+  "type": "object",
+  "required": [
+    "opera_riferimento",
+    "titolo_definitivo",
+    "sottotitolo",
+    "scaletta",
+    "verifica_coerenza",
+    "lunghezza_totale_prevista"
+  ],
+  "properties": {
+    "opera_riferimento": {
+      "type": "object",
+      "description": "Riferimento all'opera analizzata.",
+      "required": ["titolo", "autore"],
+      "properties": {
+        "titolo": { "type": "string" },
+        "autore": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "titolo_definitivo": {
+      "type": "string",
+      "description": "Titolo definitivo confermato per il prodotto editoriale. Può coincidere con il titolo principale dello Step 5A o essere una variante migliorata."
+    },
+    "sottotitolo": {
+      "type": "string",
+      "description": "Sottotitolo definitivo."
+    },
+    "scaletta": {
+      "type": "array",
+      "description": "Scaletta dettagliata dell'articolo, sezione per sezione.",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "numero",
+          "titolo_provvisorio",
+          "funzione",
+          "materiali_di_riferimento",
+          "tesi_locale",
+          "lunghezza_indicativa",
+          "transizione_verso_sezione_successiva"
+        ],
+        "properties": {
+          "numero": {
+            "type": "integer",
+            "description": "Numero progressivo della sezione."
+          },
+          "titolo_provvisorio": {
+            "type": "string",
+            "description": "Formula interna di lavoro per questa sezione. Può essere sostituita nella stesura."
+          },
+          "funzione": {
+            "type": "string",
+            "description": "Cosa deve fare questa sezione per il lettore: orientarlo, introdurre la tesi, mostrare un'evidenza, aprire una domanda, chiudere il ragionamento, ecc."
+          },
+          "materiali_di_riferimento": {
+            "type": "array",
+            "description": "Step e/o elementi specifici da cui attinge questa sezione.",
+            "items": { "type": "string" }
+          },
+          "tesi_locale": {
+            "type": "string",
+            "description": "L'affermazione che questa sezione argomenta o illustra. Deve essere coerente con la tesi editoriale complessiva."
+          },
+          "contenuti_chiave": {
+            "type": "array",
+            "description": "Elementi concreti da includere in questa sezione: scene, dati, citazioni, nodi, evidenze.",
+            "items": { "type": "string" }
+          },
+          "lunghezza_indicativa": {
+            "type": "string",
+            "description": "Lunghezza stimata in parole con un margine ragionevole. Es: '150-200 parole', '300-400 parole'."
+          },
+          "transizione_verso_sezione_successiva": {
+            "type": "string",
+            "description": "Come si chiude questa sezione e cosa apre nella successiva. Garantisce la coesione del testo."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "verifica_coerenza": {
+      "type": "object",
+      "description": "Controllo di coerenza della scaletta prima della stesura.",
+      "required": [
+        "sequenza_logica_tiene",
+        "tesi_emerge_progressivamente",
+        "sezione_limiti_presente",
+        "sezione_contro_lettura_presente",
+        "nota_metodo_prevista",
+        "lunghezza_nei_limiti"
+      ],
+      "properties": {
+        "sequenza_logica_tiene": {
+          "type": "boolean",
+          "description": "Il lettore riesce a seguire senza conoscere l'opera né il modello?"
+        },
+        "tesi_emerge_progressivamente": {
+          "type": "boolean",
+          "description": "La tesi è introdotta progressivamente, né troppo presto né troppo tardi?"
+        },
+        "sezione_limiti_presente": {
+          "type": "boolean",
+          "description": "È prevista una sezione esplicita sui limiti della lettura?"
+        },
+        "sezione_contro_lettura_presente": {
+          "type": "boolean",
+          "description": "La contro-lettura è presente nella scaletta?"
+        },
+        "nota_metodo_prevista": {
+          "type": "boolean",
+          "description": "La nota sul metodo è prevista in coda al testo?"
+        },
+        "lunghezza_nei_limiti": {
+          "type": "boolean",
+          "description": "La lunghezza totale stimata è tra 1500 e 2500 parole?"
+        },
+        "note": {
+          "type": "string",
+          "description": "Eventuali note sui problemi riscontrati o sugli aggiustamenti effettuati rispetto alla struttura proposta nello Step 5A."
+        }
+      },
+      "additionalProperties": false
+    },
+    "lunghezza_totale_prevista": {
+      "type": "string",
+      "description": "Stima della lunghezza totale dell'articolo in parole. Deve essere tra 1500 e 2500 parole, nota sul metodo inclusa."
+    },
+    "note_di_stesura": {
+      "type": "string",
+      "description": "Indicazioni libere per lo Step 5C: tono, registro, formule da usare o evitare, problemi aperti."
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "data_compilazione": { "type": "string", "format": "date" },
+        "compilato_da": { "type": "string" },
+        "versione": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

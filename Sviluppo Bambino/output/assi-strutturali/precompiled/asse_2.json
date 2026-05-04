@@ -1,0 +1,172 @@
+{
+  "axis_id": "asse_2",
+  "axis_name": "Affettivo–morale",
+  "version": "v1.0",
+  "status": "bozza",
+  "source_document": {
+    "title": "Asse 2 - Affettivo-morale (Capitoli 1–8)",
+    "format": "markdown",
+    "language": "it"
+  },
+  "structural_function": "Descrivere la genesi del fatto che l'altro diventi interiormente vincolante per il soggetto: non ancora norma, giudizio o responsabilità riflessiva, ma la trasformazione per cui l'altro smette di essere solo condizione della soggettività (Asse 1) e diventa istanza affettiva persistente che vincola anche in assenza. L'asse elabora i passaggi strutturali di questa trasformazione — interiorizzazione dell'istanza, colpa come esperienza affettiva, riparazione come evento trasformativo, responsabilità pre-normativa — rendendo possibile che gli assi successivi (norma, limite, desiderio) abbiano un peso interno per il soggetto invece di restare imposizioni esterne.",
+  "core_processes": [
+    {
+      "name": "Interiorizzazione dell'altro come istanza",
+      "description": "L'altro cessa di essere solo partner di co-regolazione o figura protettiva e diventa una presenza affettiva persistente che vincola il soggetto dall'interno indipendentemente dalla presenza reale. Questa trasformazione non è cognitiva né simbolica, ma un processo affettivo-relazionale che modifica la struttura stessa dell'esperienza: l'altro continua a 'valere' anche in assenza, non come ricordo o rappresentazione, ma come struttura affettiva di continuità."
+    },
+    {
+      "name": "Colpa come esperienza affettiva strutturante",
+      "description": "L'esperienza affettiva attraverso cui il soggetto avverte che la propria azione ha inciso negativamente su un altro che conta interiormente per lui. Richiede quattro elementi strutturali: un altro interiormente rilevante, un nesso causale vissuto, un'affezione affettiva, l'assenza iniziale di giudizio riflessivo. Può essere integrativa — se tollerabile e orientata alla riparazione — o persecutoria — se schiacciante e senza possibilità di rimedio. Solo la colpa integrativa svolge funzione strutturante."
+    },
+    {
+      "name": "Riparazione come evento trasformativo",
+      "description": "L'evento affettivo in cui il soggetto scopre che il legame con l'altro può essere ristabilito dopo l'aggressività senza annullare né l'altro né se stesso, senza cancellare la frattura ma integrandola. Non è un atto simbolico prescritto né una tecnica relazionale, ma una trasformazione della funzione della colpa: da perturbazione cronica a forza generativa. Presuppone che l'altro sopravviva all'aggressività — non per indifferenza, ma senza ritirare il legame."
+    },
+    {
+      "name": "Costituzione della responsabilità affettiva pre-normativa",
+      "description": "La capacità del soggetto di riconoscersi come causa di effetti sull'altro e di rispondervi senza annullare né il legame né se stesso, prima di qualsiasi norma o criterio universale. È una responsabilità 'per qualcuno', non 'secondo una legge': vincola senza ancora orientare verso il bene. Non garantisce comportamenti morali, ma rende possibile che la domanda su come vivere abbia un peso interno per il soggetto. Condizione necessaria ma non sufficiente per l'assunzione della norma."
+    }
+  ],
+  "bridge_concepts": [
+    {
+      "concept": "Istanza interna",
+      "definition": "Presenza persistente dell'altro come riferimento affettivo che vincola il soggetto anche in assenza di relazione immediata. Non è autorità interiorizzata, non è voce giudicante, non è norma introiettata: è una struttura affettiva di continuità che rende possibile la colpa senza trasgressione visibile e la responsabilità senza testimoni. Diversa dal Super-io freudiano: non formula giudizi né comandi.",
+      "linked_nodes": ["interiorizzazione-dell-altro", "colpa-affettiva", "vincolo-interno"]
+    },
+    {
+      "concept": "Colpa integrativa",
+      "definition": "Forma di colpa tollerabile che trasforma l'aggressività in legame piuttosto che distruggerlo. Presuppone un altro sufficientemente stabile capace di sopravvivere, una colpa non persecutoria e la possibilità della riparazione. Non annienta il soggetto ma lo mobilita: segnala che il legame conta, che l'altro non è indifferente, che l'azione ha conseguenze. Condizione affettiva della responsabilità.",
+      "linked_nodes": ["colpa-affettiva", "riparazione", "sopravvivenza-dell-oggetto"]
+    },
+    {
+      "concept": "Riparazione",
+      "definition": "Evento affettivo attraverso cui il soggetto scopre che il legame può essere ristabilito dopo l'aggressività senza cancellarla. Non coincide con chiedere scusa né con compensare un danno: è la scoperta che la frattura può essere integrata mantenendo la memoria di ciò che è accaduto. Trasforma la funzione della colpa da perturbazione a disponibilità alla risposta. Spesso pre-verbale e corporea.",
+      "linked_nodes": ["colpa-integrativa", "responsabilità-pre-normativa", "sopravvivenza-dell-oggetto"]
+    },
+    {
+      "concept": "Sopravvivenza dell'altro",
+      "definition": "Condizione strutturale della riparazione e della colpa integrativa: l'altro deve mantenere il legame dopo l'aggressività del soggetto, segnalando la frattura senza ritirarsi. Non è passività né indifferenza, ma resistenza che non si trasforma in vendetta. Quando l'altro sopravvive, la colpa può diventare tollerabile; quando non sopravvive, la colpa diventa persecutoria o scompare.",
+      "linked_nodes": ["riparazione", "colpa-integrativa", "istanza-interna"]
+    }
+  ],
+  "structural_nodes": [
+    {
+      "node": "interiorizzazione-dell-altro",
+      "short_definition": "Processo per cui l'altro cessa di essere solo presenza esterna e diventa struttura affettiva interna vincolante."
+    },
+    {
+      "node": "istanza-interna",
+      "short_definition": "Presenza persistente dell'altro come riferimento affettivo che vincola il soggetto indipendentemente dalla presenza reale."
+    },
+    {
+      "node": "colpa-affettiva",
+      "short_definition": "Esperienza affettiva pre-giudiziale che segnala che l'altro è diventato interiormente rilevante; precede norma e giudizio."
+    },
+    {
+      "node": "colpa-integrativa",
+      "short_definition": "Forma tollerabile di colpa orientata alla riparazione; condizione affettiva della responsabilità."
+    },
+    {
+      "node": "colpa-persecutoria",
+      "short_definition": "Forma schiacciante di colpa che produce paralisi o difesa; blocca la riparazione e la responsabilità."
+    },
+    {
+      "node": "sopravvivenza-dell-oggetto",
+      "short_definition": "L'altro mantiene il legame dopo l'aggressività senza ritrarsi; condizione strutturale della riparazione."
+    },
+    {
+      "node": "riparazione",
+      "short_definition": "Evento affettivo che integra la frattura senza cancellarla; trasforma la colpa in responsabilità."
+    },
+    {
+      "node": "responsabilità-pre-normativa",
+      "short_definition": "Capacità di riconoscersi causa di effetti sull'altro e rispondervi, prima di qualsiasi criterio universale."
+    },
+    {
+      "node": "aggressività-come-condizione",
+      "short_definition": "L'aggressività non è difetto ma condizione strutturale della moralità: senza possibilità di danneggiare non esiste responsabilità."
+    },
+    {
+      "node": "moralità-adattiva",
+      "short_definition": "Comportamento corretto fondato su paura o rinforzo, senza istanza interna; falso esito dell'Asse 2."
+    }
+  ],
+  "internal_articulations": [
+    {
+      "section": "Capitolo 1 — Statuto dell'asse",
+      "function": "Definisce lo spazio concettuale: moralità in senso genetico come genesi del vincolo affettivo, non come norma, giudizio o conformità. Introduce il controllo lessicale (colpa ≠ valutazione morale; responsabilità ≠ applicazione di regole) necessario per mantenere la coerenza dell'asse."
+    },
+    {
+      "section": "Capitolo 2 — L'altro come istanza interna",
+      "function": "Descrive la trasformazione centrale dell'asse: dalla relazione vissuta (Asse 1) alla presenza interiorizzata vincolante. Distingue interiorizzazione da introiezione e identifica la soglia morale nella scoperta che il soggetto può fare male all'altro."
+    },
+    {
+      "section": "Capitolo 3 — La colpa come esperienza affettiva strutturante",
+      "function": "Analizza la colpa come primo manifestarsi dell'istanza interna. Definisce i quattro elementi strutturali, distingue colpa integrativa da persecutoria, identifica le tre forme di fallimento della colpa (assenza, eccesso, adattività)."
+    },
+    {
+      "section": "Capitolo 4 — Riparazione e responsabilità",
+      "function": "Mostra la riparazione come evento affettivo trasformativo (non prescrizione educativa) e ne deriva la responsabilità pre-normativa come capacità di rispondere all'altro senza criterio universale. La responsabilità precede la norma, non ne deriva."
+    },
+    {
+      "section": "Capitolo 5 — Confronto psicoanalitico strutturale",
+      "function": "Posiziona l'asse rispetto a Freud (moralità come rinuncia), Klein (colpa depressiva precoce) e Winnicott (maturazione relazionale). Mostra che i tre modelli sono incompatibili e parziali; l'asse assume da ciascuno elementi distinti senza armonizzarli."
+    },
+    {
+      "section": "Capitolo 6 — Temporalità dello sviluppo morale",
+      "function": "Articola la temporalità strutturale (non cronologica) dell'asse: prerequisiti affettivi, soglia della colpa tollerabile, fase decisiva della riparazione, consolidamento della responsabilità, possibilità di regressioni e blocchi."
+    },
+    {
+      "section": "Capitolo 7 — Dove l'asse può fallire",
+      "function": "Descrive le cinque derive strutturali (assenza di colpa, colpa persecutoria, colpa adattiva, riparazione impossibile, anticipazione morale) e i falsi esiti della moralità. Mantiene la descrizione non patologizzante: le derive sono possibilità strutturali, non errori."
+    },
+    {
+      "section": "Capitolo 8 — Raccordo con l'Asse normativo–educativo",
+      "function": "Funzione delimitativa: la responsabilità affettiva non fonda il giudizio né produce criteri universali. Il passaggio all'Asse 3 è necessità interna, non aggiunta esterna. Mostra i rischi della chiusura affettiva (primato dell'empatia sul giudizio) e la continuità/discontinuità con l'Asse 3."
+    }
+  ],
+  "reduction_risks": [
+    {
+      "type": "Moralizzazione dell'affettivo",
+      "description": "Trattare la genesi affettiva della moralità come se fosse già norma, giudizio o valore condiviso. Produce anticipazione morale: il linguaggio del giusto/sbagliato viene introdotto prima che il processo affettivo sia maturo, sostituendo la responsabilità con il conformismo."
+    },
+    {
+      "type": "Psicologizzazione della colpa",
+      "description": "Ridurre la colpa a esperienza psicologica individuale da gestire o eliminare, perdendo la sua funzione strutturale di segnale dell'interiorizzazione. Il tentativo educativo di 'liberare' il bambino dalla colpa può impedire la costituzione dell'istanza interna."
+    },
+    {
+      "type": "Normalizzazione della moralità adattiva",
+      "description": "Scambiare il comportamento corretto fondato su paura o rinforzo per una moralità riuscita. I falsi esiti dell'Asse 2 (bambino bravo per paura, conformismo precoce) possono sembrare esiti positivi se non si distingue strutturalmente responsabilità affettiva da adattamento."
+    },
+    {
+      "type": "Identificazione con un singolo modello psicoanalitico",
+      "description": "Applicare Freud, Klein o Winnicott come fondamento esclusivo dell'asse, perdendo la tensione produttiva tra modelli incompatibili. Ciascun modello coglie una verità reale ma parziale; la loro armonizzazione ecletttica produce confusione concettuale."
+    },
+    {
+      "type": "Chiusura affettiva come fondamento etico",
+      "description": "Assumere la responsabilità affettiva pre-normativa come fondamento ultimo della moralità, producendo un'etica relazionale ristretta (primato dell'empatia sul giudizio, rifiuto della norma come violenza astratta). Il soggetto può restare vincolato 'per qualcuno' senza mai diventare responsabile 'secondo un criterio'."
+    }
+  ],
+  "structural_questions": [
+    "In quali condizioni la colpa può trasformarsi da perturbazione affettiva a disposizione stabile di responsabilità, e quale ruolo ha la qualità della relazione con l'altro in questo passaggio?",
+    "Come si distingue strutturalmente una responsabilità affettiva genuina da una moralità adattiva fondata sul timore della perdita del legame?",
+    "In quale senso la sopravvivenza dell'altro è condizione strutturale della riparazione, e non semplicemente una qualità relazionale contingente o una competenza dell'adulto?",
+    "Come interagisce la temporalità strutturale dell'Asse 2 con la regolazione dell'Asse 1 — in che misura la capacità di colpa integrativa dipende dalla qualità della regolazione affettiva precoce?"
+  ],
+  "methodological_constraints": [
+    "Non dedurre dall'Asse 2 criteri normativi, indicazioni educative o obiettivi di sviluppo: l'asse descrive la condizione affettiva che rende possibile la responsabilità, non il suo contenuto né i comportamenti che ne derivano.",
+    "Non identificare la moralità genetica con l'acquisizione di regole, norme o valori: il processo affettivo di interiorizzazione precede logicamente la normatività e non può essere sostituito da essa.",
+    "Non armonizzare i modelli psicoanalitici di riferimento (Freud/Klein/Winnicott) in un eclettismo sintetico: le loro differenze strutturali sono produttive e devono essere mantenute come tensioni irrisolte.",
+    "Non utilizzare le derive dell'Asse 2 (colpa persecutoria, moralità adattiva, assenza di colpa) come criteri diagnostici del comportamento morale del bambino: sono possibilità strutturali del processo, non patologie individuali attribuibili a errori educativi."
+  ],
+  "compilation_notes": {
+    "confidence_level": "alta",
+    "needs_human_review": true,
+    "notes": "L'asse è strutturalmente ben articolato e internamente coerente. Il confronto psicoanalitico (Cap. 5) è trattato con cura metodologica rara: i tre modelli vengono tenuti in tensione invece di essere fusi. Il punto metodologico più delicato è la distinzione tra interiorizzazione (senso dell'asse) e introiezione (senso psicoanalitico classico): va mantenuta con rigore nella traduzione interdisciplinare. Il capitolo 8 è cruciale per il corretto posizionamento dell'asse nel modello complessivo.",
+    "open_issues": [
+      "Il concetto di 'sopravvivenza dell'oggetto' (Winnicott) è centrale ma il suo statuto epistemologico rispetto al modello (è un concetto-ponte o un nodo strutturale?) richiede una decisione esplicita in F2.",
+      "La distinzione tra colpa integrativa e colpa persecutoria è strutturalmente fondamentale ma difficilmente osservabile in contesti ordinari: la sua traduzione in indicatori di sorveglianza richiede lavoro specifico in F2-F3.",
+      "Il raccordo con l'Asse 1 sulla regolazione come prerequisito della colpa tollerabile è affermato (Cap. 6) ma non sviluppato concettualmente: richiederebbe un approfondimento nella fase di traduzione."
+    ]
+  }
+}

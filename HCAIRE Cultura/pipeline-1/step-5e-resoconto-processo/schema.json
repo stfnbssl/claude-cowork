@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ResocontoProcesso",
+  "description": "Output dello Step 5E della pipeline editoriale HCAIRE Cultura: resoconto discorsivo del processo analitico. Racconta come si è arrivati alla proposta interpretativa, attraverso quali scelte, scoperte e resistenze.",
+  "type": "object",
+  "required": [
+    "opera_riferimento",
+    "domanda_di_partenza",
+    "momenti_salienti",
+    "testo_resoconto"
+  ],
+  "properties": {
+    "opera_riferimento": {
+      "type": "object",
+      "required": ["titolo", "autore"],
+      "properties": {
+        "titolo": { "type": "string" },
+        "autore": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "domanda_di_partenza": {
+      "type": "string",
+      "description": "La domanda critica che ha orientato l'intero percorso analitico, formulata in modo sintetico."
+    },
+    "momenti_salienti": {
+      "type": "array",
+      "description": "3-5 momenti in cui l'analisi ha compiuto uno scarto significativo: un'intuizione, una scoperta inattesa, un problema che ha richiesto una scelta interpretativa.",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["titolo_sintetico", "step_di_provenienza", "descrizione", "impatto_sul_percorso"],
+        "properties": {
+          "titolo_sintetico": { "type": "string" },
+          "step_di_provenienza": {
+            "type": "string",
+            "enum": ["step_1", "step_2", "step_3", "step_4"]
+          },
+          "descrizione": {
+            "type": "string",
+            "description": "Cosa è accaduto in questo momento del percorso analitico."
+          },
+          "impatto_sul_percorso": {
+            "type": "string",
+            "description": "Come questo momento ha cambiato o orientato i passi successivi."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "testo_resoconto": {
+      "type": "string",
+      "description": "Testo completo del resoconto in formato Markdown. Tra 1000 e 1800 parole. Forma discorsiva, non lista di step. Racconta il percorso, non ribatte l'interpretazione."
+    },
+    "nota_tecnica": {
+      "type": "string",
+      "description": "Facoltativa. Nota tecnica per lettori esperti del modello: terminologia degli assi, decisioni metodologiche specifiche, punti in cui la traduzione fenomenologia→analisi letteraria ha richiesto aggiustamenti."
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "data_compilazione": { "type": "string", "format": "date" },
+        "compilato_da": { "type": "string" },
+        "versione": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PrimaStesura",
+  "description": "Output dello Step 5C della pipeline editoriale HCAIRE Cultura: prima stesura completa del prodotto editoriale, pronta per la revisione dello Step 5D.",
+  "type": "object",
+  "required": [
+    "opera_riferimento",
+    "testo_prima_stesura"
+  ],
+  "properties": {
+    "opera_riferimento": {
+      "type": "object",
+      "description": "Riferimento all'opera analizzata.",
+      "required": ["titolo", "autore"],
+      "properties": {
+        "titolo": { "type": "string" },
+        "autore": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "testo_prima_stesura": {
+      "type": "object",
+      "description": "Prima stesura completa del prodotto editoriale.",
+      "required": ["titolo", "sottotitolo", "corpo_del_testo", "nota_sul_metodo"],
+      "properties": {
+        "titolo": {
+          "type": "string",
+          "description": "Titolo editoriale del prodotto."
+        },
+        "sottotitolo": {
+          "type": "string",
+          "description": "Sottotitolo editoriale."
+        },
+        "corpo_del_testo": {
+          "type": "string",
+          "description": "Testo completo dell'articolo/saggio in formato Markdown. Non include la nota sul metodo, che è separata. Deve essere tra 1300 e 2200 parole."
+        },
+        "nota_sul_metodo": {
+          "type": "string",
+          "description": "Nota redazionale di 8-10 righe che spiega il metodo usato: pipeline in quattro step, uso degli assi come lente non come schema dimostrativo, obiettivo di apertura interpretativa. In formato Markdown."
+        }
+      },
+      "additionalProperties": false
+    },
+    "lunghezza_stimata": {
+      "type": "object",
+      "description": "Stima delle lunghezze del testo prodotto.",
+      "properties": {
+        "corpo_del_testo_parole": {
+          "type": "integer",
+          "description": "Numero approssimativo di parole del corpo del testo."
+        },
+        "nota_sul_metodo_parole": {
+          "type": "integer",
+          "description": "Numero approssimativo di parole della nota sul metodo."
+        },
+        "totale_parole": {
+          "type": "integer",
+          "description": "Totale parole (corpo + nota)."
+        }
+      },
+      "additionalProperties": false
+    },
+    "aderenza_alla_scaletta": {
+      "type": "object",
+      "description": "Valutazione dell'aderenza alla scaletta dello Step 5B.",
+      "properties": {
+        "struttura_rispettata": {
+          "type": "boolean",
+          "description": "La scaletta è stata seguita senza deviazioni significative?"
+        },
+        "deviazioni": {
+          "type": "array",
+          "description": "Elenco delle deviazioni dalla scaletta, se presenti.",
+          "items": {
+            "type": "object",
+            "required": ["sezione", "deviazione", "motivazione"],
+            "properties": {
+              "sezione": { "type": "string" },
+              "deviazione": { "type": "string" },
+              "motivazione": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "note_per_revisione": {
+      "type": "array",
+      "description": "Note dell'agente per lo Step 5D: punti deboli, formule da migliorare, rischi percepiti durante la stesura.",
+      "items": {
+        "type": "object",
+        "required": ["localizzazione", "tipo", "nota"],
+        "properties": {
+          "localizzazione": {
+            "type": "string",
+            "description": "Dove nel testo si trova il problema segnalato (es. 'sezione 3', 'paragrafo finale', 'transizione tra sezioni 5 e 6')."
+          },
+          "tipo": {
+            "type": "string",
+            "enum": [
+              "punto_debole",
+              "formula_da_migliorare",
+              "rischio_di_forzatura",
+              "deviazione_dalla_scaletta",
+              "verifica_necessaria",
+              "tono_da_correggere"
+            ]
+          },
+          "nota": {
+            "type": "string",
+            "description": "Descrizione del problema e indicazione per la revisione."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "data_compilazione": { "type": "string", "format": "date" },
+        "compilato_da": { "type": "string" },
+        "versione": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

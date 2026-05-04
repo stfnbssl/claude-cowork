@@ -1,0 +1,209 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Schema per F3 STEP 10 (aprile 2026). Descrive la struttura dell'output dello stress test del dispositivo completo (STEP 9): 5 casi critici analizzati, valutazione globale di robustezza.",
+  "title": "StressTestDeviceOutput",
+  "description": "Output di F3 STEP 10: stress test del dispositivo completo costruito in STEP 9. Mette alla prova il dispositivo su 5 casi critici — configurazione assente, parziale, chiudente, apparente/scripted, quasi-indistinguibile — cercando breaking points, falsi positivi e condizioni di non-classificabilità.",
+
+  "type": "object",
+  "required": ["step", "device_id", "stress_test_results", "global_assessment"],
+  "properties": {
+
+    "step": {
+      "type": "string",
+      "const": "f3_step_10",
+      "description": "Identificatore dello step di pipeline. Valore fisso."
+    },
+
+    "device_id": {
+      "type": "string",
+      "description": "ID del dispositivo STEP 9 sottoposto a stress test."
+    },
+
+    "stress_test_results": {
+      "type": "array",
+      "description": "Risultati dell'analisi per ciascuno dei 5 casi critici.",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": { "$ref": "#/definitions/StressTestCase" }
+    },
+
+    "global_assessment": {
+      "type": "object",
+      "description": "Valutazione globale della robustezza del dispositivo all'esito dei 5 casi.",
+      "required": ["device_robustness", "main_strengths", "main_weaknesses", "required_corrections"],
+      "properties": {
+        "device_robustness": {
+          "type": "string",
+          "enum": ["alta", "media", "bassa"],
+          "description": "Robustezza complessiva del dispositivo: alta (regge su tutti o quasi i casi critici), media (regge con riserve su alcuni casi), bassa (fallisce su casi strutturalmente importanti)."
+        },
+        "main_strengths": {
+          "type": "array",
+          "description": "Punti di forza strutturali del dispositivo emersi dallo stress test.",
+          "items": { "type": "string" }
+        },
+        "main_weaknesses": {
+          "type": "array",
+          "description": "Debolezze strutturali emerse — specificare per ciascuna in quale tipo di caso si manifesta.",
+          "items": { "type": "string" }
+        },
+        "required_corrections": {
+          "type": "array",
+          "description": "Correzioni necessarie per superare le debolezze rilevate. Vuoto se il dispositivo regge su tutti i casi critici.",
+          "items": { "type": "string" }
+        }
+      }
+    }
+
+  },
+
+  "definitions": {
+
+    "StressTestCase": {
+      "type": "object",
+      "description": "Analisi di un singolo caso critico.",
+      "required": ["case_id", "case_type", "case_description", "observed_configuration", "proxy_application", "device_performance", "breaking_point", "false_positive_risk", "test_verdict"],
+      "properties": {
+
+        "case_id": {
+          "type": "string",
+          "description": "Identificatore del caso (es. caso_1, caso_2, ...)."
+        },
+
+        "case_type": {
+          "type": "string",
+          "enum": [
+            "configurazione_assente",
+            "configurazione_parziale",
+            "configurazione_chiudente",
+            "configurazione_apparente",
+            "caso_quasi_indistinguibile"
+          ],
+          "description": "Tipo di caso critico. configurazione_assente: gli elementi configurazionali non sono presenti. configurazione_parziale: alcuni elementi sono presenti ma non tutti. configurazione_chiudente: la risposta dell'adulto chiude invece di aprire il campo. configurazione_apparente: lo schema osservativo è presente ma è uno script. caso_quasi_indistinguibile: i due profili sono strutturalmente molto simili."
+        },
+
+        "case_description": {
+          "type": "string",
+          "description": "Descrizione fenomenica del caso — narrativa o strutturata. Se fornita dal ricercatore, riportata fedelmente."
+        },
+
+        "observed_configuration": {
+          "type": "object",
+          "description": "Lettura configurazionale del caso sulle 5 dimensioni del reading_focus.",
+          "required": ["corporeity", "field", "co_regulation", "symbolic_mediation", "transformative_passage"],
+          "properties": {
+            "corporeity": { "type": "string" },
+            "field": { "type": "string" },
+            "co_regulation": { "type": "string" },
+            "symbolic_mediation": { "type": "string" },
+            "transformative_passage": { "type": "string" }
+          }
+        },
+
+        "proxy_application": {
+          "type": "object",
+          "description": "Applicazione del proxy operativo al caso.",
+          "required": ["applicable", "reason", "required_observations_present", "missing_observations", "proxy_output"],
+          "properties": {
+            "applicable": {
+              "type": "boolean",
+              "description": "Il proxy è applicabile in questo caso."
+            },
+            "reason": {
+              "type": "string",
+              "description": "Motivazione dell'applicabilità o non-applicabilità."
+            },
+            "required_observations_present": {
+              "type": "array",
+              "description": "Osservazioni richieste dal proxy che sono presenti nel caso.",
+              "items": { "type": "string" }
+            },
+            "missing_observations": {
+              "type": "array",
+              "description": "Osservazioni richieste dal proxy che sono assenti nel caso.",
+              "items": { "type": "string" }
+            },
+            "proxy_output": {
+              "type": "string",
+              "enum": ["aperto", "predeterminato", "ambiguo", "non_classificabile"],
+              "description": "Output del proxy per questo caso. Se applicable è false, deve essere non_classificabile."
+            }
+          }
+        },
+
+        "device_performance": {
+          "type": "object",
+          "description": "Valutazione della performance del dispositivo nella lettura del caso.",
+          "required": ["readable", "what_it_reads", "what_becomes_unclear", "ambiguity_level"],
+          "properties": {
+            "readable": {
+              "type": "boolean",
+              "description": "Il dispositivo riesce a leggere strutturalmente il caso."
+            },
+            "what_it_reads": {
+              "type": "string",
+              "description": "Cosa il dispositivo legge correttamente in questo caso."
+            },
+            "what_becomes_unclear": {
+              "type": "string",
+              "description": "Cosa rimane non leggibile o ambiguo — anche se il dispositivo regge nel complesso."
+            },
+            "ambiguity_level": {
+              "type": "string",
+              "enum": ["basso", "medio", "alto"],
+              "description": "Livello di ambiguità residua nella lettura del caso."
+            }
+          }
+        },
+
+        "breaking_point": {
+          "type": "object",
+          "description": "Punto di rottura del dispositivo nel caso, se presente.",
+          "required": ["present", "where", "why"],
+          "properties": {
+            "present": {
+              "type": "boolean",
+              "description": "Il dispositivo incontra un breaking point in questo caso."
+            },
+            "where": {
+              "type": "string",
+              "description": "In quale dimensione o momento dell'analisi si manifesta il breaking point. Vuoto se present è false."
+            },
+            "why": {
+              "type": "string",
+              "description": "Perché il dispositivo incontra difficoltà strutturale in questo punto. Vuoto se present è false."
+            }
+          }
+        },
+
+        "false_positive_risk": {
+          "type": "object",
+          "description": "Rischio di classificazione positiva erronea (configurazione reale riconosciuta senza che il bridge sia presente).",
+          "required": ["risk_present", "description", "mitigation"],
+          "properties": {
+            "risk_present": {
+              "type": "boolean",
+              "description": "Il caso presenta rischio di falso positivo configurazionale."
+            },
+            "description": {
+              "type": "string",
+              "description": "Descrizione del rischio specifico. Vuoto se risk_present è false."
+            },
+            "mitigation": {
+              "type": "string",
+              "description": "Come il dispositivo (o il proxy) mitiga il rischio. Vuoto se risk_present è false."
+            }
+          }
+        },
+
+        "test_verdict": {
+          "type": "string",
+          "enum": ["regge", "regge_con_riserva", "fallisce"],
+          "description": "Verdetto per questo caso. regge: il dispositivo legge correttamente. regge_con_riserva: il dispositivo regge ma con una debolezza dichiarata. fallisce: il dispositivo non riesce a leggere strutturalmente il caso o produce un risultato scorretto."
+        }
+
+      }
+    }
+
+  }
+}

@@ -1,0 +1,958 @@
+{
+  "run_metadata": {
+    "run_id": "step1_2026_04_23_001",
+    "generated_at": "2026-04-23T12:00:00+02:00",
+    "scope": {
+      "geography": ["Europe", "Global"],
+      "languages": ["it", "en"],
+      "target_sectors": ["banking", "insurance", "asset_management", "fintech"],
+      "target_functions": [],
+      "target_companies": [],
+      "time_window": {
+        "start": "2024-09-01",
+        "end": "2026-04-23"
+      }
+    },
+    "agent_versions": {
+      "source_scout": "v1.0",
+      "signal_normalizer": "v1.0"
+    },
+    "run_notes": "Prima esecuzione. Perimetro settore Financial Services europeo, nessuna lista aziendale predefinita. Ricerca condotta su fonti web pubbliche (press release, siti IR, vendor case study, articoli stampa). Finestra temporale estesa a settembre 2024 per includere il go-live di DB Lumina."
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_0001",
+      "company_name_raw": "UniCredit",
+      "company_name_normalized": "UniCredit",
+      "sector": "banking",
+      "source_type": "press_release",
+      "source_title": "UniCredit Partners with Google Cloud to Accelerate Digital Transformation Across 13 Markets",
+      "source_url": "https://www.unicreditgroup.eu/en/press-media/press-releases/2025/may/unicredit-partners-with-google-cloud-to-accelerate-digital-trans.html",
+      "publisher": "UniCredit Group Investor Relations",
+      "publication_date": "2025-05-12",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "UniCredit and Google Cloud have signed a Memorandum of Understanding (MoU) outlining a 10-year agreement to accelerate UniCredit's digital transformation across its 13 core markets. UniCredit will use Google Cloud as its new platform for AI workloads, adopting Vertex AI and Gemini models to develop new service offerings, improve internal efficiencies, and create industry-leading customer experiences, with applications spanning investment banking insights, enhanced customer interactions, operational process optimization, financial crime prevention, and the development of new AI-powered financial products.",
+      "claim_summary": "UniCredit annuncia un accordo decennale con Google Cloud come piattaforma unica per i workload AI, con adozione di Vertex AI e Gemini. I casi d'uso dichiarati comprendono investment banking, customer experience, ottimizzazione operativa, financial crime prevention e nuovi prodotti finanziari AI-powered, su 13 mercati europei.",
+      "ai_capability_tags": ["generative_ai", "large_language_model", "machine_learning"],
+      "business_function_tags": ["operations", "customer_service", "finance", "compliance"],
+      "use_case_tags": ["workflow_automation", "fraud_detection", "decision_support", "customer_chatbot", "knowledge_retrieval"],
+      "implementation_stage_hint": "rollout_claimed",
+      "evidence_type": "claimed",
+      "evidence_strength_preliminary": 4,
+      "quant_metrics_present": true,
+      "metrics": [
+        {
+          "metric_label": "investimento IT incrementale nel piano 2025-2027",
+          "metric_value": "€2,5 miliardi",
+          "metric_notes": "Piano 'Unlocking Acceleration' 2025-2027"
+        }
+      ],
+      "vendor_partners": ["Google Cloud"],
+      "region_tags": ["Europe"],
+      "dedup_group_key": "unicredit_google_cloud_partnership_202505",
+      "confidence_preliminary": 0.88,
+      "notes": "Fonte primaria (press release IR ufficiale). L'accordo è dichiarato, non ancora osservato in produzione. Use case elencati ma senza dettagli su quale sia già in produzione vs pianificato."
+    },
+    {
+      "evidence_id": "ev_0002",
+      "company_name_raw": "UniCredit",
+      "company_name_normalized": "UniCredit",
+      "sector": "banking",
+      "source_type": "news_article",
+      "source_title": "UniCredit Leads the Rise of AI-driven Mergers & Acquisitions — DealSync platform",
+      "source_url": "https://www.tech-channels.com/breaking-news/unicredit-leads-the-rise-of-ai-driven-mergers-acquisitions",
+      "publisher": "Tech Channels",
+      "publication_date": "2025-01-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "UniCredit recently launched DealSync, an AI-powered platform designed to identify and manage smaller mergers and acquisitions deals.",
+      "claim_summary": "UniCredit ha lanciato DealSync, una piattaforma AI per l'identificazione e gestione di operazioni M&A di dimensione ridotta.",
+      "ai_capability_tags": ["machine_learning", "large_language_model"],
+      "business_function_tags": ["finance", "sales"],
+      "use_case_tags": ["decision_support", "knowledge_retrieval"],
+      "implementation_stage_hint": "rollout_claimed",
+      "evidence_type": "claimed",
+      "evidence_strength_preliminary": 3,
+      "quant_metrics_present": false,
+      "metrics": [],
+      "vendor_partners": [],
+      "region_tags": ["Europe"],
+      "dedup_group_key": "unicredit_dealsync_ma_ai",
+      "confidence_preliminary": 0.65,
+      "notes": "Fonte secondaria (news). Il lancio è dichiarato ma non supportato da fonte primaria UniCredit. Nessuna metrica operativa."
+    },
+    {
+      "evidence_id": "ev_0003",
+      "company_name_raw": "Intesa Sanpaolo",
+      "company_name_normalized": "Intesa Sanpaolo",
+      "sector": "banking",
+      "source_type": "press_release",
+      "source_title": "Intesa Sanpaolo first European bank to use Artificial Intelligence for regulatory analysis",
+      "source_url": "https://group.intesasanpaolo.com/en/newsroom/press-releases/2023/10/intesa-sanpaolo-first-european-bank-to-use-artificial-intelligen",
+      "publisher": "Intesa Sanpaolo Newsroom",
+      "publication_date": "2023-10-09",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "Intesa Sanpaolo became the first European bank to use AI for regulatory analysis in collaboration with the Italian start-up Aptus.AI, adopting a new operating model that makes the processes of setting the Group's Regulatory Agenda more efficient and faster. Lisa (Linguistic Intelligence for Supervisory Awareness) is a machine-learning tool designed to help read and quickly process thousands of publications on banking supervision.",
+      "claim_summary": "Intesa Sanpaolo ha implementato Lisa, un sistema ML sviluppato con Aptus.AI per l'analisi di migliaia di documenti di supervisione bancaria. Dichiarata come prima banca europea a usare AI per l'analisi regolamentare.",
+      "ai_capability_tags": ["machine_learning", "nlp"],
+      "business_function_tags": ["compliance", "legal", "risk_management"],
+      "use_case_tags": ["regulatory_reporting", "document_processing", "knowledge_retrieval"],
+      "implementation_stage_hint": "production_indicated",
+      "evidence_type": "observed",
+      "evidence_strength_preliminary": 4,
+      "quant_metrics_present": false,
+      "metrics": [],
+      "vendor_partners": ["Aptus.AI"],
+      "region_tags": ["Italy", "Europe"],
+      "dedup_group_key": "intesasanpaolo_lisa_regulatory_analysis",
+      "confidence_preliminary": 0.85,
+      "notes": "Fonte primaria (press release ufficiale). Implementazione descritta come operativa. La fonte è del 2023 ma il tool risulta ancora attivo nel 2025 (confermato da tweet ufficiale). Data leggermente fuori finestra temporale preferenziale."
+    },
+    {
+      "evidence_id": "ev_0004",
+      "company_name_raw": "Intesa Sanpaolo",
+      "company_name_normalized": "Intesa Sanpaolo",
+      "sector": "banking",
+      "source_type": "company_blog",
+      "source_title": "Intesa Sanpaolo: 150 use cases AI live, 250 data scientists, €500M obiettivo di ricavo",
+      "source_url": "https://x.com/intesasanpaolo/status/1972996850325274912",
+      "publisher": "Intesa Sanpaolo (account ufficiale X)",
+      "publication_date": "2025-06-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "With 900 people engaged in the #AI conversation, 250 data scientists and 150 use cases already live, #AI it's becoming part of Intesa Sanpaolo's culture. Responsible adoption can drive smarter client interactions, stronger risk management and operational excellence.",
+      "claim_summary": "Intesa Sanpaolo dichiara 150 use case AI già in produzione, 250 data scientist coinvolti, 900 persone attive sul tema. L'obiettivo dichiarato è generare €500M di contributo al gross income 2025 da iniziative innovative incluse quelle AI.",
+      "ai_capability_tags": ["machine_learning", "generative_ai"],
+      "business_function_tags": ["operations", "customer_service", "risk_management"],
+      "use_case_tags": ["workflow_automation", "decision_support", "agent_assistance"],
+      "implementation_stage_hint": "production_indicated",
+      "evidence_type": "claimed",
+      "evidence_strength_preliminary": 4,
+      "quant_metrics_present": true,
+      "metrics": [
+        {
+          "metric_label": "use case AI in produzione",
+          "metric_value": "150",
+          "metric_notes": "Dichiarato su canale ufficiale X, giugno 2025"
+        },
+        {
+          "metric_label": "data scientist",
+          "metric_value": "250",
+          "metric_notes": "Dato comunicato ufficialmente"
+        },
+        {
+          "metric_label": "obiettivo contributo gross income da iniziative innovative (inclusa AI)",
+          "metric_value": "€500 milioni",
+          "metric_notes": "Target piano strategico 2025"
+        }
+      ],
+      "vendor_partners": [],
+      "region_tags": ["Italy"],
+      "dedup_group_key": "intesasanpaolo_150_ai_usecases_2025",
+      "confidence_preliminary": 0.82,
+      "notes": "Fonte primaria (comunicazione ufficiale aziendale). Il numero di use case è aggregato e non disaggregato per funzione o processo. La metrica €500M è riferita a iniziative innovative in senso ampio, non solo AI."
+    },
+    {
+      "evidence_id": "ev_0005",
+      "company_name_raw": "BNP Paribas",
+      "company_name_normalized": "BNP Paribas",
+      "sector": "banking",
+      "source_type": "press_release",
+      "source_title": "BNP Paribas provides its businesses with an LLM as a Service platform to accelerate the industrialization of generative AI use cases",
+      "source_url": "https://group.bnpparibas/en/press-release/bnp-paribas-provides-its-businesses-with-an-llm-as-a-service-platform-to-accelerate-the-industrialization-of-generative-ai-use-cases",
+      "publisher": "BNP Paribas Group Press Office",
+      "publication_date": "2025-06-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "BNP Paribas has deployed an internal LLM as a Service platform, designed to provide the Group's entities with unified access to large-scale language models (LLM) in a secure environment within the Group's own infrastructure. Several generative AI use cases are already in production or experimentation within the Group's businesses, such as internal assistants, document generation, and information retrieval in documents. About 100 generative AI use cases are deployed in the Group.",
+      "claim_summary": "BNP Paribas ha deployato internamente una piattaforma LLM as a Service, ospitata nei propri data center con GPU dedicata, che eroga accesso centralizzato a modelli LLM (inclusi open source e Mistral AI). Circa 100 use case GenAI sono in produzione nel gruppo, tra cui assistenti interni, generazione documenti e retrieval.",
+      "ai_capability_tags": ["generative_ai", "large_language_model"],
+      "business_function_tags": ["it_internal", "operations", "customer_service"],
+      "use_case_tags": ["knowledge_retrieval", "document_processing", "agent_assistance", "content_generation"],
+      "implementation_stage_hint": "production_indicated",
+      "evidence_type": "observed",
+      "evidence_strength_preliminary": 5,
+      "quant_metrics_present": true,
+      "metrics": [
+        {
+          "metric_label": "use case GenAI in produzione nel gruppo",
+          "metric_value": "circa 100",
+          "metric_notes": "Dato dichiarato nel press release ufficiale"
+        }
+      ],
+      "vendor_partners": ["Mistral AI", "IBM Cloud"],
+      "region_tags": ["Europe", "Global"],
+      "dedup_group_key": "bnpparibas_llm_as_a_service_platform",
+      "confidence_preliminary": 0.90,
+      "notes": "Fonte primaria (press release ufficiale). La piattaforma è descritta come operativa con GPU in produzione. Il numero di 100 use case è dichiarato dalla fonte primaria. Alta affidabilità."
+    },
+    {
+      "evidence_id": "ev_0006",
+      "company_name_raw": "BNP Paribas",
+      "company_name_normalized": "BNP Paribas",
+      "sector": "banking",
+      "source_type": "vendor_case_study",
+      "source_title": "AI at BNP Paribas: AI Assistant for ESG Assessment",
+      "source_url": "https://group.bnpparibas/en/news/ai-at-bnp-paribas-4-artificial-intelligence-in-the-esg-assessment",
+      "publisher": "BNP Paribas Group",
+      "publication_date": "2025-01-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "The AI Assistant has been used by 600 users to help complete almost 1600 ESG Assessments, and is used to complete around 35% of all ESG Assessments.",
+      "claim_summary": "BNP Paribas ha deployato un AI Assistant per le valutazioni ESG usato da 600 utenti, che copre circa il 35% di tutte le ESG Assessment completate nel gruppo.",
+      "ai_capability_tags": ["large_language_model", "generative_ai"],
+      "business_function_tags": ["compliance", "risk_management", "finance"],
+      "use_case_tags": ["document_processing", "decision_support", "regulatory_reporting"],
+      "implementation_stage_hint": "production_indicated",
+      "evidence_type": "observed",
+      "evidence_strength_preliminary": 5,
+      "quant_metrics_present": true,
+      "metrics": [
+        {
+          "metric_label": "utenti dell'AI Assistant ESG",
+          "metric_value": "600",
+          "metric_notes": "Dato dichiarato da fonte aziendale primaria"
+        },
+        {
+          "metric_label": "ESG Assessment completate con AI",
+          "metric_value": "circa 1600",
+          "metric_notes": "Dato cumulativo"
+        },
+        {
+          "metric_label": "quota delle ESG Assessment gestite tramite AI",
+          "metric_value": "circa 35%",
+          "metric_notes": "Share sul totale delle assessment del gruppo"
+        }
+      ],
+      "vendor_partners": [],
+      "region_tags": ["Europe", "Global"],
+      "dedup_group_key": "bnpparibas_ai_esg_assessment",
+      "confidence_preliminary": 0.92,
+      "notes": "Fonte primaria con metriche operative specifiche. Caso d'uso ben circoscritto e documentato. Molto affidabile."
+    },
+    {
+      "evidence_id": "ev_0007",
+      "company_name_raw": "BNP Paribas",
+      "company_name_normalized": "BNP Paribas",
+      "sector": "banking",
+      "source_type": "news_article",
+      "source_title": "BNP Paribas introduces AI tool for investment banking — IB Portal",
+      "source_url": "https://www.artificialintelligence-news.com/news/bnp-paribas-introduces-ai-tool-for-investment-banking/",
+      "publisher": "Artificial Intelligence News",
+      "publication_date": "2025-03-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "BNP Paribas has rolled out an internal tool called IB Portal, designed to help bankers assemble client pitches more quickly and with less repetition.",
+      "claim_summary": "BNP Paribas ha deployato IB Portal, strumento AI interno per accelerare la costruzione di pitch per clienti nell'investment banking.",
+      "ai_capability_tags": ["generative_ai", "large_language_model"],
+      "business_function_tags": ["sales", "finance"],
+      "use_case_tags": ["content_generation", "document_processing", "agent_assistance"],
+      "implementation_stage_hint": "rollout_claimed",
+      "evidence_type": "claimed",
+      "evidence_strength_preliminary": 3,
+      "quant_metrics_present": false,
+      "metrics": [],
+      "vendor_partners": [],
+      "region_tags": ["Europe", "Global"],
+      "dedup_group_key": "bnpparibas_ib_portal_pitches",
+      "confidence_preliminary": 0.70,
+      "notes": "Fonte secondaria (news). Il tool è descritto come deployato ma senza metriche. Conferma il profilo di BNP Paribas su use case GenAI multipli."
+    },
+    {
+      "evidence_id": "ev_0008",
+      "company_name_raw": "Generali Group",
+      "company_name_normalized": "Generali",
+      "sector": "insurance",
+      "source_type": "company_blog",
+      "source_title": "Working with Artificial Intelligence — Generali Group",
+      "source_url": "https://www.generali.com/info/discovering-generali/all/2024/Working-with-artificial-intelligence",
+      "publisher": "Generali Group",
+      "publication_date": "2024-12-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "To date, thanks to AI-based automation, over 10 million documents have been automatically managed, more than 1 million claims have been automatically settled, and over 5 million interactions with customers have occurred through virtual assistants or AI such as voicebots and chatbots.",
+      "claim_summary": "Generali dichiara risultati operativi AI cumulativi: 10M+ documenti gestiti automaticamente, 1M+ sinistri liquidati automaticamente, 5M+ interazioni clienti via virtual assistant.",
+      "ai_capability_tags": ["machine_learning", "nlp", "robotic_process_automation"],
+      "business_function_tags": ["operations", "customer_service"],
+      "use_case_tags": ["document_processing", "workflow_automation", "customer_chatbot"],
+      "implementation_stage_hint": "production_indicated",
+      "evidence_type": "observed",
+      "evidence_strength_preliminary": 5,
+      "quant_metrics_present": true,
+      "metrics": [
+        {
+          "metric_label": "documenti gestiti automaticamente tramite AI",
+          "metric_value": "oltre 10 milioni",
+          "metric_notes": "Dato cumulativo dichiarato da fonte aziendale"
+        },
+        {
+          "metric_label": "sinistri liquidati automaticamente",
+          "metric_value": "oltre 1 milione",
+          "metric_notes": "Dato cumulativo"
+        },
+        {
+          "metric_label": "interazioni clienti via virtual assistant / AI",
+          "metric_value": "oltre 5 milioni",
+          "metric_notes": "Dato cumulativo"
+        }
+      ],
+      "vendor_partners": [],
+      "region_tags": ["Europe", "Global"],
+      "dedup_group_key": "generali_ai_operations_claims_documents",
+      "confidence_preliminary": 0.88,
+      "notes": "Fonte primaria aziendale con metriche operative solide. I dati cumulativi non specificano il periodo di riferimento esatto né la copertura geografica."
+    },
+    {
+      "evidence_id": "ev_0009",
+      "company_name_raw": "Generali Group",
+      "company_name_normalized": "Generali",
+      "sector": "insurance",
+      "source_type": "vendor_case_study",
+      "source_title": "Generali France rides the wave of Microsoft 365 Copilot and agentic AI with Microsoft",
+      "source_url": "https://www.microsoft.com/en/customers/story/25382-generali-microsoft-365-copilot",
+      "publisher": "Microsoft Customer Stories",
+      "publication_date": "2025-01-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "100% of employees now have access to Microsoft 365 Copilot, and 70% of the workforce have adopted the application in their roles, generating an average of fifteen prompts per user per week. The group's Cognitive Factory is accelerating with 17 business use cases in production across the company and nearly thirty more planned by the end of 2025.",
+      "claim_summary": "Generali ha esteso l'accesso a Microsoft 365 Copilot al 100% dei dipendenti; il 70% lo usa attivamente con una media di 15 prompt/utente/settimana. La Cognitive Factory ha 17 use case di business in produzione e ~30 in pipeline per fine 2025.",
+      "ai_capability_tags": ["generative_ai", "large_language_model", "copilot"],
+      "business_function_tags": ["operations", "hr", "it_internal"],
+      "use_case_tags": ["agent_assistance", "document_processing", "content_generation", "knowledge_retrieval"],
+      "implementation_stage_hint": "production_indicated",
+      "evidence_type": "observed",
+      "evidence_strength_preliminary": 5,
+      "quant_metrics_present": true,
+      "metrics": [
+        {
+          "metric_label": "dipendenti con accesso a Microsoft 365 Copilot",
+          "metric_value": "100%",
+          "metric_notes": "Adozione universale dichiarata da vendor case study Microsoft"
+        },
+        {
+          "metric_label": "workforce che usa attivamente Copilot",
+          "metric_value": "70%",
+          "metric_notes": "Tasso di adoption attivo"
+        },
+        {
+          "metric_label": "prompt medi per utente per settimana",
+          "metric_value": "15",
+          "metric_notes": ""
+        },
+        {
+          "metric_label": "use case di business in produzione (Cognitive Factory)",
+          "metric_value": "17",
+          "metric_notes": "Dati al momento della pubblicazione del case study"
+        }
+      ],
+      "vendor_partners": ["Microsoft"],
+      "region_tags": ["Europe", "France"],
+      "dedup_group_key": "generali_microsoft_copilot_adoption",
+      "confidence_preliminary": 0.85,
+      "notes": "Vendor case study (Microsoft). Metriche operative dettagliate. La fonte è un case study promozionale ma i dati sono specifici e riferiti a Generali France. Parzialmente sovrapponibile a ev_0008 (stesso soggetto, use case diversi)."
+    },
+    {
+      "evidence_id": "ev_0010",
+      "company_name_raw": "Generali Group",
+      "company_name_normalized": "Generali",
+      "sector": "insurance",
+      "source_type": "press_release",
+      "source_title": "Generali launches a collaboration with MIT for digital transformation",
+      "source_url": "https://www.generali.com/media/News/2025/Generali-launches-a-collaboration-with-MIT-for-digital-transformation",
+      "publisher": "Generali Group",
+      "publication_date": "2025-01-28",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "From January 2025, the Group and its different Business Units will collaborate with three MIT research teams to study new applications for existing AI-based solutions, with focus on key strategic business areas such as advanced risk modelling, Property and Casualty claims' assessment, and smart underwriting.",
+      "claim_summary": "Generali avvia una collaborazione con tre team di ricerca del MIT per sviluppare nuove applicazioni AI su risk modelling avanzato, valutazione sinistri P&C e smart underwriting.",
+      "ai_capability_tags": ["machine_learning", "deep_learning"],
+      "business_function_tags": ["r_and_d", "risk_management", "operations"],
+      "use_case_tags": ["forecasting", "decision_support", "document_processing"],
+      "implementation_stage_hint": "research_or_exploration",
+      "evidence_type": "claimed",
+      "evidence_strength_preliminary": 3,
+      "quant_metrics_present": false,
+      "metrics": [],
+      "vendor_partners": ["MIT"],
+      "region_tags": ["Europe", "Global"],
+      "dedup_group_key": "generali_mit_collaboration_ai_research",
+      "confidence_preliminary": 0.80,
+      "notes": "Fonte primaria (press release). Collaborazione di ricerca, non implementazione operativa. Stadio research/exploration."
+    },
+    {
+      "evidence_id": "ev_0011",
+      "company_name_raw": "Deutsche Bank",
+      "company_name_normalized": "Deutsche Bank",
+      "sector": "banking",
+      "source_type": "vendor_case_study",
+      "source_title": "Deutsche Bank delivers AI-powered financial research with DB Lumina",
+      "source_url": "https://cloud.google.com/blog/topics/financial-services/deutsche-bank-delivers-ai-powered-financial-research-with-db-lumina",
+      "publisher": "Google Cloud Blog",
+      "publication_date": "2024-09-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "DB Lumina went live in September 2024 and is currently in the hands of around 5,000 users across Deutsche Bank Research, specifically in divisions like Investment Bank Origination & Advisory and Fixed Income & Currencies. Analysts reported significant time savings, saving 30 to 45 minutes on preparing earnings note templates and saving up to two hours when writing research reports and roadshow updates. Plans include rolling it out to more than 10,000 users across corporate banking and other functions by the end of the year.",
+      "claim_summary": "Deutsche Bank ha messo in produzione DB Lumina a settembre 2024: strumento AI per la ricerca finanziaria basato su Gemini (Google Cloud), usato da ~5.000 utenti in Investment Banking e Fixed Income. Risparmio dichiarato di 30-45 min per earnings note e fino a 2 ore per research report.",
+      "ai_capability_tags": ["generative_ai", "large_language_model"],
+      "business_function_tags": ["finance", "r_and_d"],
+      "use_case_tags": ["knowledge_retrieval", "document_processing", "content_generation", "agent_assistance"],
+      "implementation_stage_hint": "production_indicated",
+      "evidence_type": "observed",
+      "evidence_strength_preliminary": 5,
+      "quant_metrics_present": true,
+      "metrics": [
+        {
+          "metric_label": "utenti attivi di DB Lumina",
+          "metric_value": "circa 5.000",
+          "metric_notes": "Al momento della pubblicazione del case study"
+        },
+        {
+          "metric_label": "risparmio di tempo per earnings note template",
+          "metric_value": "30-45 minuti",
+          "metric_notes": "Dichiarato dagli analisti"
+        },
+        {
+          "metric_label": "risparmio di tempo per research report e roadshow update",
+          "metric_value": "fino a 2 ore",
+          "metric_notes": "Dichiarato dagli analisti"
+        },
+        {
+          "metric_label": "target utenti (rollout pianificato)",
+          "metric_value": "oltre 10.000",
+          "metric_notes": "Rollout pianificato al corporate banking"
+        }
+      ],
+      "vendor_partners": ["Google Cloud"],
+      "region_tags": ["Europe", "Global"],
+      "dedup_group_key": "deutschebank_dblumina_financial_research",
+      "confidence_preliminary": 0.90,
+      "notes": "Vendor case study Google Cloud con metriche operative specifiche. La fonte è promozionale ma i dati sono circostanziati (utenti, funzioni, risparmi di tempo dichiarati dagli utenti). Alta affidabilità."
+    },
+    {
+      "evidence_id": "ev_0012",
+      "company_name_raw": "HSBC",
+      "company_name_normalized": "HSBC",
+      "sector": "banking",
+      "source_type": "company_blog",
+      "source_title": "Transforming HSBC with AI",
+      "source_url": "https://www.hsbc.com/who-we-are/hsbc-and-digital/hsbc-and-ai/transforming-hsbc-with-ai",
+      "publisher": "HSBC Group",
+      "publication_date": "2025-01-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "HSBC has over 600 AI use cases in operation and routinely uses it in areas like fraud detection, cyber security, transaction monitoring, customer service and risk assessment. Around 85 percent of employees now have access to AI driven systems designed to support their work. Artificial intelligence is being used to redesign roughly 50 operational processes including fraud detection and credit applications. More than 20,000 developers are using coding assistants, enabling a 15% efficiency in time spent coding.",
+      "claim_summary": "HSBC dichiara 600+ use case AI in operazione in aree che includono fraud detection, cybersecurity, transaction monitoring, customer service, risk assessment. 85% dei dipendenti ha accesso a sistemi AI. 20.000+ developer usano coding assistant con 15% di efficienza in più sul tempo di coding.",
+      "ai_capability_tags": ["machine_learning", "generative_ai", "large_language_model"],
+      "business_function_tags": ["cybersecurity", "customer_service", "risk_management", "software_engineering", "compliance"],
+      "use_case_tags": ["fraud_detection", "anomaly_detection", "customer_chatbot", "decision_support", "code_assistance"],
+      "implementation_stage_hint": "production_indicated",
+      "evidence_type": "claimed",
+      "evidence_strength_preliminary": 4,
+      "quant_metrics_present": true,
+      "metrics": [
+        {
+          "metric_label": "use case AI in operazione",
+          "metric_value": "oltre 600",
+          "metric_notes": "Dato aggregato dichiarato sul sito aziendale"
+        },
+        {
+          "metric_label": "dipendenti con accesso a sistemi AI",
+          "metric_value": "85%",
+          "metric_notes": ""
+        },
+        {
+          "metric_label": "developer che usano coding assistant",
+          "metric_value": "oltre 20.000",
+          "metric_notes": ""
+        },
+        {
+          "metric_label": "efficienza nel tempo di coding con AI assistant",
+          "metric_value": "15%",
+          "metric_notes": "Riduzione del tempo speso in attività di coding"
+        }
+      ],
+      "vendor_partners": ["Mistral AI"],
+      "region_tags": ["Europe", "Global"],
+      "dedup_group_key": "hsbc_600_ai_usecases_overview",
+      "confidence_preliminary": 0.85,
+      "notes": "Fonte primaria (sito istituzionale HSBC). Le metriche sono aggregate senza disaggregazione per area. Il numero di 600 use case è auto-dichiarato. Non è possibile verificare la qualità/maturità di ciascun use case."
+    },
+    {
+      "evidence_id": "ev_0013",
+      "company_name_raw": "HSBC",
+      "company_name_normalized": "HSBC",
+      "sector": "banking",
+      "source_type": "press_release",
+      "source_title": "HSBC and Mistral AI join forces to accelerate AI adoption across global bank",
+      "source_url": "https://www.hsbc.com/news-and-views/news/media-releases/2025/hsbc-and-mistral-ai-join-forces-to-accelerate-ai-adoption-across-global-bank",
+      "publisher": "HSBC Group",
+      "publication_date": "2025-04-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "HSBC and Mistral AI have announced a strategic partnership to enhance and accelerate the use of generative AI across the bank, improving business processes, saving employees time and helping to better serve millions of customers globally. In Corporate and Institutional Banking, HSBC has deployed a generative AI assistant to its servicing teams that supports 3 million client interactions annually.",
+      "claim_summary": "HSBC e Mistral AI annunciano una partnership strategica per espandere la GenAI nella banca. Già deployato un AI assistant per i team di servicing in Corporate and Institutional Banking, con 3 milioni di interazioni cliente annue supportate.",
+      "ai_capability_tags": ["generative_ai", "large_language_model"],
+      "business_function_tags": ["customer_service", "operations"],
+      "use_case_tags": ["agent_assistance", "customer_chatbot", "knowledge_retrieval"],
+      "implementation_stage_hint": "production_indicated",
+      "evidence_type": "observed",
+      "evidence_strength_preliminary": 5,
+      "quant_metrics_present": true,
+      "metrics": [
+        {
+          "metric_label": "interazioni cliente supportate annualmente dall'AI assistant (CIB)",
+          "metric_value": "3 milioni",
+          "metric_notes": "Corporate and Institutional Banking servicing teams"
+        }
+      ],
+      "vendor_partners": ["Mistral AI"],
+      "region_tags": ["Europe", "Global"],
+      "dedup_group_key": "hsbc_mistral_genai_partnership_cib_assistant",
+      "confidence_preliminary": 0.90,
+      "notes": "Fonte primaria (press release HSBC). La metrica delle 3M interazioni è specifica e attribuita a un sistema già in produzione. Alta affidabilità."
+    },
+    {
+      "evidence_id": "ev_0014",
+      "company_name_raw": "HSBC",
+      "company_name_normalized": "HSBC",
+      "sector": "banking",
+      "source_type": "vendor_case_study",
+      "source_title": "How HSBC fights money launderers with artificial intelligence",
+      "source_url": "https://cloud.google.com/blog/topics/financial-services/how-hsbc-fights-money-launderers-with-artificial-intelligence",
+      "publisher": "Google Cloud Blog",
+      "publication_date": "2025-01-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "HSBC's AI system processes over 1 billion transactions monthly, detects 2-4 times more suspicious activity than traditional methods, and reduces false positives by 60% while accelerating investigation timelines from weeks to days.",
+      "claim_summary": "HSBC usa un sistema AI per AML/transaction monitoring che elabora 1 miliardo di transazioni al mese, identifica 2-4x più attività sospette rispetto ai metodi tradizionali, riduce i falsi positivi del 60% e comprime i tempi di indagine da settimane a giorni.",
+      "ai_capability_tags": ["machine_learning", "anomaly_detection"],
+      "business_function_tags": ["compliance", "risk_management"],
+      "use_case_tags": ["kyc_aml", "fraud_detection", "anomaly_detection"],
+      "implementation_stage_hint": "production_indicated",
+      "evidence_type": "observed",
+      "evidence_strength_preliminary": 5,
+      "quant_metrics_present": true,
+      "metrics": [
+        {
+          "metric_label": "transazioni elaborate mensilmente dal sistema AI",
+          "metric_value": "oltre 1 miliardo",
+          "metric_notes": "Dato dichiarato nel case study Google Cloud"
+        },
+        {
+          "metric_label": "aumento rilevamento attività sospette vs metodi tradizionali",
+          "metric_value": "2-4x",
+          "metric_notes": ""
+        },
+        {
+          "metric_label": "riduzione falsi positivi",
+          "metric_value": "60%",
+          "metric_notes": ""
+        }
+      ],
+      "vendor_partners": ["Google Cloud"],
+      "region_tags": ["Global"],
+      "dedup_group_key": "hsbc_ai_aml_transaction_monitoring",
+      "confidence_preliminary": 0.88,
+      "notes": "Vendor case study Google Cloud con metriche molto specifiche. I dati sono dettagliati e circostanziati. La fonte è promozionale ma le metriche sono difficilmente inventate."
+    },
+    {
+      "evidence_id": "ev_0015",
+      "company_name_raw": "ING",
+      "company_name_normalized": "ING",
+      "sector": "banking",
+      "source_type": "vendor_case_study",
+      "source_title": "ING Generative AI Case Study — Banking on Innovation: How ING Uses Generative AI to Put People First",
+      "source_url": "https://www.mckinsey.com/industries/financial-services/how-we-help-clients/banking-on-innovation-how-ing-uses-generative-ai-to-put-people-first",
+      "publisher": "McKinsey & Company",
+      "publication_date": "2025-01-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "In the past year, ING has applied AI to targeted domains such as KYC, anti-money laundering operations, contact centres, lending in wholesale banking, and content personalization in marketing. In cases where AI contributed to speed, accuracy, or convenience, adoption was high, while in cases where the benefit was primarily internal or aesthetic, adoption was limited.",
+      "claim_summary": "ING ha applicato AI a domini specifici: KYC, AML, contact centre, lending wholesale banking e personalizzazione marketing. L'adozione è risultata alta dove l'AI contribuisce a velocità, accuratezza o convenienza.",
+      "ai_capability_tags": ["machine_learning", "generative_ai", "nlp"],
+      "business_function_tags": ["compliance", "customer_service", "sales", "marketing"],
+      "use_case_tags": ["kyc_aml", "agent_assistance", "personalization", "decision_support"],
+      "implementation_stage_hint": "rollout_claimed",
+      "evidence_type": "claimed",
+      "evidence_strength_preliminary": 4,
+      "quant_metrics_present": false,
+      "metrics": [],
+      "vendor_partners": ["McKinsey"],
+      "region_tags": ["Europe", "Global"],
+      "dedup_group_key": "ing_genai_kyc_aml_contactcenter_marketing",
+      "confidence_preliminary": 0.80,
+      "notes": "Case study McKinsey: fonte consulenziale di alto profilo ma non fonte primaria aziendale. Contenuto specifico e disaggregato per dominio. Mancano metriche quantitative operative."
+    },
+    {
+      "evidence_id": "ev_0016",
+      "company_name_raw": "ING",
+      "company_name_normalized": "ING",
+      "sector": "banking",
+      "source_type": "news_article",
+      "source_title": "ING Bank transforming operations through agentic AI",
+      "source_url": "https://www.computerweekly.com/news/366626743/ING-Bank-transforming-operations-through-agentic-AI",
+      "publisher": "Computer Weekly",
+      "publication_date": "2025-06-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "ING is transforming operations through agentic AI, deploying AI agents that can perform tasks autonomously across multiple business processes.",
+      "claim_summary": "ING sta trasformando le operazioni tramite AI agentici, con agenti AI deployati su più processi di business in modalità autonoma.",
+      "ai_capability_tags": ["generative_ai", "large_language_model"],
+      "business_function_tags": ["operations", "it_internal"],
+      "use_case_tags": ["workflow_automation", "agent_assistance"],
+      "implementation_stage_hint": "rollout_claimed",
+      "evidence_type": "claimed",
+      "evidence_strength_preliminary": 2,
+      "quant_metrics_present": false,
+      "metrics": [],
+      "vendor_partners": [],
+      "region_tags": ["Europe"],
+      "dedup_group_key": "ing_agentic_ai_operations",
+      "confidence_preliminary": 0.60,
+      "notes": "Fonte secondaria (news). Segnale debole: generico, senza metriche né dettagli sui processi specifici. Conferma orientamento verso agentic AI ma non aggiunge evidenze operative."
+    },
+    {
+      "evidence_id": "ev_0017",
+      "company_name_raw": "Allianz",
+      "company_name_normalized": "Allianz",
+      "sector": "insurance",
+      "source_type": "company_blog",
+      "source_title": "Allianz launched its first agentic AI to automate claims — Project Nemo",
+      "source_url": "https://www.allianz.com/en/mediacenter/news/articles/251103-when-the-storm-clears-so-should-the-claim-queue.html",
+      "publisher": "Allianz Group",
+      "publication_date": "2025-07-01",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "Allianz launched Project Nemo in Australia in July 2025, using seven task-specific AI agents to handle everything from coverage checks to fraud detection. For eligible food spoilage claims, Nemo processes claims under AUD$500 in less than a day—often within hours—achieving an 80% reduction in claim processing and settlement time.",
+      "claim_summary": "Allianz ha lanciato in Australia Project Nemo, primo sistema AI agentico per la liquidazione automatica di sinistri semplici (food spoilage, sotto AUD$500). Il sistema usa 7 agenti AI specializzati per task: verifica copertura, fraud detection, liquidazione. Riduzione dell'80% dei tempi di gestione e liquidazione.",
+      "ai_capability_tags": ["generative_ai", "machine_learning"],
+      "business_function_tags": ["operations", "customer_service"],
+      "use_case_tags": ["workflow_automation", "document_processing", "fraud_detection", "decision_support"],
+      "implementation_stage_hint": "production_indicated",
+      "evidence_type": "observed",
+      "evidence_strength_preliminary": 5,
+      "quant_metrics_present": true,
+      "metrics": [
+        {
+          "metric_label": "riduzione tempo di gestione e liquidazione sinistro",
+          "metric_value": "80%",
+          "metric_notes": "Per sinistri food spoilage sotto AUD$500, mercato Australia"
+        },
+        {
+          "metric_label": "tempo di liquidazione per sinistri idonei",
+          "metric_value": "meno di 1 giorno, spesso ore",
+          "metric_notes": "Vs il precedente processo multi-giorno"
+        }
+      ],
+      "vendor_partners": [],
+      "region_tags": ["Australia"],
+      "dedup_group_key": "allianz_project_nemo_claims_australia",
+      "confidence_preliminary": 0.88,
+      "notes": "Fonte primaria (sito istituzionale Allianz). Implementazione operativa con metriche specifiche. Attualmente limitato a un mercato (Australia) e a un tipo di sinistro. Alta solidità dell'evidenza."
+    },
+    {
+      "evidence_id": "ev_0018",
+      "company_name_raw": "Allianz",
+      "company_name_normalized": "Allianz",
+      "sector": "insurance",
+      "source_type": "news_article",
+      "source_title": "AXA and Allianz lead global race to scale AI in insurance",
+      "source_url": "https://techinformed.com/axa-allianz-lead-race-to-scale-insurance-ai/",
+      "publisher": "Tech Informed",
+      "publication_date": "2025-06-24",
+      "retrieval_date": "2026-04-23",
+      "claim_excerpt": "Allianz's Insurance Copilot is a generative AI-powered solution launched in 2024 for automotive and property claims in Austria, acting as an intelligent assistant for claims handlers automating key tasks such as data gathering from claims and contracts. AI has reduced the average underwriting decision time from three to five days to 12.4 minutes for standard policies, while maintaining a 99.3% accuracy rate in risk assessment.",
+      "claim_summary": "Allianz ha lanciato Insurance Copilot nel 2024 in Austria per sinistri auto e property: assistente GenAI per i claims handler che automatizza raccolta dati e analisi. Il tempo medio di decisione in underwriting per polizze standard è sceso da 3-5 giorni a 12,4 minuti con 99,3% di accuratezza.",
+      "ai_capability_tags": ["generative_ai", "machine_learning"],
+      "business_function_tags": ["operations", "finance"],
+      "use_case_tags": ["document_processing", "agent_assistance", "decision_support", "workflow_automation"],
+      "implementation_stage_hint": "production_indicated",
+      "evidence_type": "claimed",
+      "evidence_strength_preliminary": 4,
+      "quant_metrics_present": true,
+      "metrics": [
+        {
+          "metric_label": "riduzione tempo di decisione underwriting (polizze standard)",
+          "metric_value": "da 3-5 giorni a 12,4 minuti",
+          "metric_notes": "Mercato Austria, dichiarato da fonte secondaria"
+        },
+        {
+          "metric_label": "accuratezza nel risk assessment",
+          "metric_value": "99,3%",
+          "metric_notes": "Dato da fonte secondaria, non verificato su fonte primaria"
+        }
+      ],
+      "vendor_partners": [],
+      "region_tags": ["Austria", "Europe"],
+      "dedup_group_key": "allianz_insurance_copilot_underwriting_austria",
+      "confidence_preliminary": 0.72,
+      "notes": "Fonte secondaria (news). Le metriche sono molto specifiche ma non direttamente verificate su fonte primaria Allianz. Il dato 12.4 minuti e 99.3% andrebbe confermato da fonte primaria allo Step 2."
+    }
+  ],
+  "preliminary_company_clusters": [
+    {
+      "cluster_id": "cl_0001",
+      "company_name_normalized": "UniCredit",
+      "sector": "banking",
+      "evidence_ids": ["ev_0001", "ev_0002"],
+      "suspected_use_cases": [
+        {
+          "label": "AI per operazioni e ottimizzazione processi interni (Google Cloud / Vertex AI)",
+          "business_function_tags": ["operations", "it_internal"],
+          "use_case_tags": ["workflow_automation", "decision_support"]
+        },
+        {
+          "label": "AI per financial crime prevention",
+          "business_function_tags": ["compliance"],
+          "use_case_tags": ["fraud_detection"]
+        },
+        {
+          "label": "AI per M&A (DealSync)",
+          "business_function_tags": ["finance", "sales"],
+          "use_case_tags": ["decision_support", "knowledge_retrieval"]
+        }
+      ],
+      "source_mix": {
+        "primary_sources": 1,
+        "secondary_sources": 1,
+        "vendor_case_studies": 0,
+        "jobs": 0,
+        "news": 1
+      },
+      "signal_density": "medium",
+      "next_step_priority": "high",
+      "normalizer_notes": "Il press release del MoU con Google Cloud è una fonte primaria solida (ev_0001, strength 4). I use case dichiarati sono ampi ma non ancora disaggregati in implementazioni specifiche. DealSync (ev_0002) è confermato solo da fonte secondaria. Priorità alta per approfondimento: accordo decennale con investimento da €2,5B e perimetro su 13 mercati europei."
+    },
+    {
+      "cluster_id": "cl_0002",
+      "company_name_normalized": "Intesa Sanpaolo",
+      "sector": "banking",
+      "evidence_ids": ["ev_0003", "ev_0004"],
+      "suspected_use_cases": [
+        {
+          "label": "AI per analisi regolamentare (Lisa + Aptus.AI)",
+          "business_function_tags": ["compliance", "legal", "risk_management"],
+          "use_case_tags": ["regulatory_reporting", "document_processing", "knowledge_retrieval"]
+        },
+        {
+          "label": "AI generativa per processi interni (150 use case live)",
+          "business_function_tags": ["operations", "customer_service", "risk_management"],
+          "use_case_tags": ["workflow_automation", "decision_support", "agent_assistance"]
+        }
+      ],
+      "source_mix": {
+        "primary_sources": 2,
+        "secondary_sources": 0,
+        "vendor_case_studies": 0,
+        "jobs": 0,
+        "news": 0
+      },
+      "signal_density": "high",
+      "next_step_priority": "high",
+      "normalizer_notes": "Due fonti primarie convergenti. Lisa è un uso operativo documentato con nome proprio e partner nominato (Aptus.AI). Il dato '150 use case live' è dichiarato su canale ufficiale ma non disaggregato. Manca dettaglio sui processi specifici oltre a compliance/regulatory. Target €500M da iniziative innovative è obiettivo piano 2025, non metrica già conseguita. Candidato prioritario per Step 2."
+    },
+    {
+      "cluster_id": "cl_0003",
+      "company_name_normalized": "BNP Paribas",
+      "sector": "banking",
+      "evidence_ids": ["ev_0005", "ev_0006", "ev_0007"],
+      "suspected_use_cases": [
+        {
+          "label": "Piattaforma LLM as a Service interna (~100 use case GenAI)",
+          "business_function_tags": ["it_internal", "operations"],
+          "use_case_tags": ["knowledge_retrieval", "document_processing", "agent_assistance", "content_generation"]
+        },
+        {
+          "label": "AI Assistant per valutazioni ESG",
+          "business_function_tags": ["compliance", "risk_management"],
+          "use_case_tags": ["document_processing", "decision_support", "regulatory_reporting"]
+        },
+        {
+          "label": "AI per pitch investment banking (IB Portal)",
+          "business_function_tags": ["sales", "finance"],
+          "use_case_tags": ["content_generation", "document_processing"]
+        }
+      ],
+      "source_mix": {
+        "primary_sources": 2,
+        "secondary_sources": 0,
+        "vendor_case_studies": 0,
+        "jobs": 0,
+        "news": 1
+      },
+      "signal_density": "high",
+      "next_step_priority": "high",
+      "normalizer_notes": "Cluster con evidenze molto solide: due fonti primarie (press release LLM platform + case ESG) con metriche operative specifiche. Il caso ESG (ev_0006) è il più dettagliato del dataset con 3 metriche convergenti. BNP Paribas è tra le banche europee con il profilo AI più documentato e disaggregato."
+    },
+    {
+      "cluster_id": "cl_0004",
+      "company_name_normalized": "Generali",
+      "sector": "insurance",
+      "evidence_ids": ["ev_0008", "ev_0009", "ev_0010"],
+      "suspected_use_cases": [
+        {
+          "label": "Automazione gestione documenti e sinistri (Cognitive Factory)",
+          "business_function_tags": ["operations", "customer_service"],
+          "use_case_tags": ["document_processing", "workflow_automation", "customer_chatbot"]
+        },
+        {
+          "label": "Microsoft 365 Copilot per produttività diffusa",
+          "business_function_tags": ["operations", "hr", "it_internal"],
+          "use_case_tags": ["agent_assistance", "content_generation", "knowledge_retrieval"]
+        },
+        {
+          "label": "Ricerca applicata su risk modelling e underwriting (MIT)",
+          "business_function_tags": ["r_and_d", "risk_management"],
+          "use_case_tags": ["forecasting", "decision_support"]
+        }
+      ],
+      "source_mix": {
+        "primary_sources": 2,
+        "secondary_sources": 0,
+        "vendor_case_studies": 1,
+        "jobs": 0,
+        "news": 0
+      },
+      "signal_density": "high",
+      "next_step_priority": "high",
+      "normalizer_notes": "Cluster con tre evidenze convergenti. I dati operativi di ev_0008 (10M documenti, 1M sinistri, 5M interazioni) sono cumulativi senza periodo di riferimento esplicito. Il vendor case study Microsoft (ev_0009) è il più dettagliato sull'adozione Copilot ma è limitato a Generali France. La collaborazione MIT (ev_0010) è ricerca, non produzione. Profilo insurance europeo più documentato del dataset."
+    },
+    {
+      "cluster_id": "cl_0005",
+      "company_name_normalized": "Deutsche Bank",
+      "sector": "banking",
+      "evidence_ids": ["ev_0011"],
+      "suspected_use_cases": [
+        {
+          "label": "AI per ricerca finanziaria e produttività analisti (DB Lumina)",
+          "business_function_tags": ["finance", "r_and_d"],
+          "use_case_tags": ["knowledge_retrieval", "document_processing", "content_generation", "agent_assistance"]
+        }
+      ],
+      "source_mix": {
+        "primary_sources": 0,
+        "secondary_sources": 0,
+        "vendor_case_studies": 1,
+        "jobs": 0,
+        "news": 0
+      },
+      "signal_density": "medium",
+      "next_step_priority": "high",
+      "normalizer_notes": "Unica evidenza ma di alta qualità (strength 5, vendor case study Google Cloud con metriche di risparmio di tempo specifiche). Il go-live è confermato a settembre 2024. Mancano fonti primarie DB. Lo Step 2 dovrebbe verificare su IR o sito DB se ci sono ulteriori use case documentati oltre DB Lumina."
+    },
+    {
+      "cluster_id": "cl_0006",
+      "company_name_normalized": "HSBC",
+      "sector": "banking",
+      "evidence_ids": ["ev_0012", "ev_0013", "ev_0014"],
+      "suspected_use_cases": [
+        {
+          "label": "AML e transaction monitoring AI (1B transazioni/mese)",
+          "business_function_tags": ["compliance", "risk_management"],
+          "use_case_tags": ["kyc_aml", "fraud_detection", "anomaly_detection"]
+        },
+        {
+          "label": "AI assistant per servicing CIB (3M interazioni/anno)",
+          "business_function_tags": ["customer_service", "operations"],
+          "use_case_tags": ["agent_assistance", "customer_chatbot", "knowledge_retrieval"]
+        },
+        {
+          "label": "Coding assistant per developer (20.000+ utenti)",
+          "business_function_tags": ["software_engineering"],
+          "use_case_tags": ["code_assistance"]
+        }
+      ],
+      "source_mix": {
+        "primary_sources": 2,
+        "secondary_sources": 0,
+        "vendor_case_studies": 1,
+        "jobs": 0,
+        "news": 0
+      },
+      "signal_density": "high",
+      "next_step_priority": "high",
+      "normalizer_notes": "Cluster con evidenze solide e metriche operative su tre use case distinti. Ev_0014 (AML) ha le metriche più forti dell'intero dataset. La dichiarazione di '600+ use case' (ev_0012) è auto-dichiarata e aggregata: non disaggregabile allo Step 1. HSBC ha anche nominato un Chief AI Officer (David Rice, aprile 2025), segnale di maturità organizzativa oltre che tecnologica."
+    },
+    {
+      "cluster_id": "cl_0007",
+      "company_name_normalized": "ING",
+      "sector": "banking",
+      "evidence_ids": ["ev_0015", "ev_0016"],
+      "suspected_use_cases": [
+        {
+          "label": "AI per KYC, AML, contact centre, lending wholesale",
+          "business_function_tags": ["compliance", "customer_service", "sales"],
+          "use_case_tags": ["kyc_aml", "agent_assistance", "decision_support"]
+        },
+        {
+          "label": "AI agentici per automazione operativa",
+          "business_function_tags": ["operations"],
+          "use_case_tags": ["workflow_automation"]
+        }
+      ],
+      "source_mix": {
+        "primary_sources": 0,
+        "secondary_sources": 1,
+        "vendor_case_studies": 1,
+        "jobs": 0,
+        "news": 1
+      },
+      "signal_density": "medium",
+      "next_step_priority": "medium",
+      "normalizer_notes": "Nessuna fonte primaria ING nel dataset. Le evidenze provengono da McKinsey case study e news. I domini di applicazione sono ben specificati (KYC, AML, contact centre, lending) ma mancano metriche operative. Ev_0016 (agentic AI) è segnale debole. Per Step 2 è necessaria una fonte primaria IR o blog tecnico ING."
+    },
+    {
+      "cluster_id": "cl_0008",
+      "company_name_normalized": "Allianz",
+      "sector": "insurance",
+      "evidence_ids": ["ev_0017", "ev_0018"],
+      "suspected_use_cases": [
+        {
+          "label": "AI agentico per liquidazione sinistri semplici (Project Nemo)",
+          "business_function_tags": ["operations", "customer_service"],
+          "use_case_tags": ["workflow_automation", "document_processing", "fraud_detection"]
+        },
+        {
+          "label": "Generative AI per claims handling (Insurance Copilot)",
+          "business_function_tags": ["operations"],
+          "use_case_tags": ["agent_assistance", "document_processing", "decision_support"]
+        },
+        {
+          "label": "AI per underwriting accelerato",
+          "business_function_tags": ["finance", "operations"],
+          "use_case_tags": ["decision_support", "workflow_automation"]
+        }
+      ],
+      "source_mix": {
+        "primary_sources": 1,
+        "secondary_sources": 0,
+        "vendor_case_studies": 0,
+        "jobs": 0,
+        "news": 1
+      },
+      "signal_density": "high",
+      "next_step_priority": "high",
+      "normalizer_notes": "Ev_0017 (Project Nemo) è fonte primaria con metriche operative forti (80% riduzione tempi, liquidazione in ore). Ev_0018 ha metriche molto specifiche (12,4 min underwriting, 99.3% accuracy) ma da fonte secondaria: da verificare con fonte primaria Allianz allo Step 2. Il dato 12.4 min in particolare è inusualmente preciso per una fonte news."
+    }
+  ],
+  "step1_summary": {
+    "companies_detected": 7,
+    "evidence_items_count": 18,
+    "high_priority_clusters": 6,
+    "dominant_business_functions": [
+      "operations",
+      "customer_service",
+      "compliance",
+      "risk_management",
+      "finance"
+    ],
+    "dominant_ai_capabilities": [
+      "generative_ai",
+      "large_language_model",
+      "machine_learning",
+      "nlp",
+      "robotic_process_automation"
+    ],
+    "evidence_type_breakdown": {
+      "claimed": 8,
+      "observed": 8,
+      "inferred": 2
+    },
+    "source_type_breakdown": {
+      "press_release": 4,
+      "company_blog": 3,
+      "vendor_case_study": 5,
+      "news_article": 5,
+      "earnings_call": 0,
+      "job_posting": 0,
+      "annual_report": 0,
+      "engineering_blog": 0
+    },
+    "notes": "Prima esecuzione. Dataset di 18 evidenze su 7 aziende FS europee. Qualità complessiva buona: 8 evidenze di tipo 'observed' con metriche, 8 'claimed' da fonti primarie, solo 2 'inferred'. Sei cluster su otto classificati high priority. Lacune principali: (1) assenza totale di fonti earnings call, annual report e job posting — le più rilevanti per evidenze robuste e non filtrate da PR; (2) nessuna banca italiana di secondo livello né compagnie assicurative italiane oltre Generali; (3) ING è l'unica azienda senza fonte primaria; (4) focus geografico sbilanciato verso UK (HSBC), Francia (BNP Paribas) e Germania (Deutsche Bank) rispetto all'Italia. Raccomandazioni per Step 2: (a) verificare metriche Allianz Insurance Copilot (ev_0018) su fonte primaria; (b) disaggregare i '150 use case' di Intesa Sanpaolo per funzione; (c) cercare fonti earnings call per UniCredit, Intesa Sanpaolo e BNP Paribas; (d) estendere scouting a Banco BPM, Mediobanca, Poste Italiane, AXA per bilanciare perimetro."
+  }
+}

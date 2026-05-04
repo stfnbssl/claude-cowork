@@ -1,0 +1,168 @@
+{
+  "axis_id": "asse_5",
+  "axis_name": "Desiderio",
+  "version": "v1.0",
+  "status": "bozza",
+  "source_document": {
+    "title": "Asse 5 - Desiderio (Capitoli 1–7)",
+    "format": "markdown",
+    "language": "it"
+  },
+  "structural_function": "Elaborare la struttura del desiderio come forma del rapporto del soggetto con il possibile: non contenuto psicologico posseduto né pulsione da regolare, ma orientamento che si dà nell'esperienza incarnata prima di ogni riflessione. Senza il desiderio come struttura, la norma diventa pura regolazione, il limite solo perdita, il giudizio si svuota di direzione. Con il desiderio come struttura, il soggetto può restare orientato anche quando non tutto è possibile — condizione perché responsabilità, giudizio e incontro con il reale abbiano un senso e non si riducano ad adattamento. L'asse situa il desiderio nel rapporto necessario con norma, limite e mondo storico-culturale, descrivendo anche le forme strutturali della sua deformazione.",
+  "core_processes": [
+    {
+      "name": "Struttura pre-riflessiva del desiderio come orientamento",
+      "description": "Il desiderio non è stato interno posseduto né pulsione da soddisfare ma forma del rapporto del soggetto con il possibile: il modo in cui il soggetto abita il tempo, il mondo e il futuro. Operante a livello passivo pre-riflessivo come qualità del campo di esperienza (intenzionalità affettiva husserliana) e come modalità incarnata del corpo-soggetto (Merleau-Ponty): alcune direzioni appaiono già cariche di valore prima di qualsiasi scelta deliberata. Il desiderio non 'nasce' da una decisione: è già lì come orientamento del campo."
+    },
+    {
+      "name": "Soggettivazione del desiderio",
+      "description": "Processo graduale per cui alcune direzioni del campo diventano riconoscibili e assumibili come proprie, senza che ciò implichi ancora scelta morale riflessa o decisione volontaria. Non è interiorizzazione di contenuti ma trasformazione del rapporto del soggetto col campo: il desiderio diventa 'mio' attraverso continuità vissuta — il soggetto torna verso certe esperienze, insiste su certi gesti, mantiene certi investimenti. L'insistenza non è ancora scelta, ma continuità vissuta che prende forma come direzione implicita dell'azione."
+    },
+    {
+      "name": "Relazione strutturale desiderio/norma/giudizio",
+      "description": "Desiderio e norma non sono opposti strutturali ma condizioni reciproche del giudizio. Senza desiderio, la norma resta esterna anche se ripetuta: l'obbedienza è adattamento, la trasgressione è reazione, la responsabilità non emerge. Senza norma, il desiderio si frammenta in impulsi successivi: ogni attrazione vale quanto un'altra, la scelta diventa impossibile. Il giudizio emerge quando il desiderio soggettivato fornisce la direzione valutativa e la norma fornisce i criteri di orientamento: né l'uno né l'altra bastano da soli."
+    },
+    {
+      "name": "Deformazione strutturale del desiderio",
+      "description": "Tre configurazioni ricorrenti in cui l'orientamento si deforma senza costituire necessariamente una patologia clinica. La ritrazione difensiva: il campo si chiude quando l'esperienza è stata vissuta come troppo intrusiva o deludente — il desiderio non scompare, si ritrae per sopravvivere. La sostituzione con motivazione esterna: l'azione è efficace ma il senso è fragile, dipende dallo stimolo, la responsabilità si svuota progressivamente. La dispersione per iper-stimolazione: impulsi successivi senza direzione temporale, ogni attrazione vale quanto un'altra."
+    }
+  ],
+  "bridge_concepts": [
+    {
+      "concept": "Desiderio come struttura di orientamento",
+      "definition": "Non contenuto mentale né pulsione biologica, ma forma del rapporto del soggetto con il possibile: il modo in cui il soggetto abita il tempo, il mondo e il futuro. Operante a livello pre-riflessivo come qualità del campo di esperienza prima di qualsiasi tematizzazione. Distinto da bisogno (risponde a una mancanza fisiologica), preferenza (scelta tra alternative equivalenti), motivazione (stimolazione dall'esterno).",
+      "linked_nodes": ["campo-desiderabile", "intenzionalità-affettiva", "mancanza-strutturale"]
+    },
+    {
+      "concept": "Mancanza strutturale",
+      "definition": "Non carenza patologica da colmare ma condizione ontologica dell'esistenza umana: il soggetto è sempre più di ciò che è già dato, e per questo è aperto al possibile. La mancanza non è il contrario del desiderio ma il suo presupposto strutturale. Confonderla con un deficit produce il tentativo di soddisfarla definitivamente — che è precisamente ciò che dissolve il desiderio come orientamento.",
+      "linked_nodes": ["desiderio-come-struttura", "soggettivazione-del-desiderio", "campo-desiderabile"]
+    },
+    {
+      "concept": "Soggettivazione del desiderio",
+      "definition": "Processo graduale per cui il desiderio da qualità anonima del campo diventa riconoscibile come proprio, senza perdere il suo carattere incarnato e pre-riflessivo. Non interiorizzazione di contenuti ma trasformazione del modo in cui il soggetto si riconosce orientato: continuità vissuta come direzione implicita dell'azione. Precede e rende possibile l'assunzione responsabile del giudizio.",
+      "linked_nodes": ["desiderio-come-struttura", "campo-desiderabile", "direzione-valutativa"]
+    },
+    {
+      "concept": "Ordo amoris",
+      "definition": "Riprendendo Agostino in chiave strutturale: l'ordine interno dell'orientamento desiderante. Il problema del soggetto non è desiderare troppo o troppo poco, ma essere orientato in modo disorganizzato — amare ciò che vale meno come se valesse di più, o viceversa. Condizione del giudizio: senza un ordine interno del desiderio, la norma non può essere assunta ma solo subita o rifiutata.",
+      "linked_nodes": ["desiderio-come-struttura", "direzione-valutativa", "relazione-desiderio-norma"]
+    }
+  ],
+  "structural_nodes": [
+    {
+      "node": "desiderio-come-struttura",
+      "short_definition": "Forma del rapporto del soggetto con il possibile; non contenuto né pulsione; operante a livello pre-riflessivo."
+    },
+    {
+      "node": "mancanza-strutturale",
+      "short_definition": "Condizione ontologica dell'esistenza: il soggetto è sempre più di ciò che è già dato; presupposto del desiderio, non deficit."
+    },
+    {
+      "node": "campo-desiderabile",
+      "short_definition": "Orizzonte strutturato di possibilità in cui alcune direzioni appaiono già cariche di valore prima di qualsiasi scelta."
+    },
+    {
+      "node": "intenzionalità-affettiva",
+      "short_definition": "Modalità husserliana del desiderio: prima di volere qualcosa il soggetto è già orientato affettivamente; pre-riflessiva."
+    },
+    {
+      "node": "soggettivazione-del-desiderio",
+      "short_definition": "Processo graduale per cui il desiderio diventa riconoscibile come proprio attraverso continuità vissuta, non scelta riflessiva."
+    },
+    {
+      "node": "ordo-amoris",
+      "short_definition": "Ordine interno dell'orientamento desiderante; il problema non è l'intensità del desiderio ma la sua organizzazione."
+    },
+    {
+      "node": "direzione-valutativa",
+      "short_definition": "Il desiderio come condizione del giudizio: fornisce la direzione da cui la norma riceve significato."
+    },
+    {
+      "node": "desiderio-ritratto",
+      "short_definition": "Chiusura difensiva del campo desiderabile: il desiderio non scompare, si ritrae per proteggersi dall'eccesso o dalla delusione."
+    },
+    {
+      "node": "motivazione-come-sostituto",
+      "short_definition": "L'azione efficace sostenuta da stimoli esterni senza orientamento interno; produce adattamento, non responsabilità."
+    },
+    {
+      "node": "mediazione-storico-culturale",
+      "short_definition": "Il mondo storico-culturale non è sfondo neutro ma mediazione attiva che organizza l'orizzonte del desiderabile."
+    }
+  ],
+  "internal_articulations": [
+    {
+      "section": "Capitolo 1 — Statuto filosofico del desiderio",
+      "function": "Definisce il desiderio come struttura di orientamento — non contenuto, non pulsione, non preferenza — e la mancanza strutturale come condizione, non deficit. Chiarisce perché senza l'asse del desiderio norma, limite e giudizio si svuotano di direzione."
+    },
+    {
+      "section": "Capitolo 2 — Genealogia filosofica del desiderio",
+      "function": "Recupera tre snodi teorici necessari: Platone (mancanza che educa; tensione verso il bene), Agostino (ordo amoris; ordine dell'orientamento), Spinoza-Hegel (conatus; desiderio di riconoscimento). Non storia della filosofia ma recupero delle condizioni concettuali senza cui il desiderio collassa in pulsione o preferenza."
+    },
+    {
+      "section": "Capitolo 3 — Fenomenologia del desiderio incarnato",
+      "function": "Mostra come il desiderio si dà nell'esperienza vissuta: Husserl (intenzionalità affettiva pre-riflessiva; campo intenzionale come orizzonte già valutativo), Merleau-Ponty (corpo-soggetto; desiderare possibilità di mondo, non oggetti isolati). Il desiderio come qualità incarnata prima di qualsiasi tematizzazione."
+    },
+    {
+      "section": "Capitolo 4 — Dal campo desiderabile alla soggettivazione",
+      "function": "Descrive il processo per cui il desiderio diventa 'mio' senza perdere il carattere strutturale. Distingue soggettivazione da interiorizzazione. Mostra la continuità vissuta come prima forma di assunzione del desiderio: direzione implicita che precede la scelta."
+    },
+    {
+      "section": "Capitolo 5 — Desiderio, norma e giudizio",
+      "function": "Rompe l'opposizione desiderio/norma: il desiderio come condizione del giudizio (fornisce direzione valutativa), la norma come condizione del desiderio (fornisce criteri senza cui si disperde). Il giudizio emerge dall'incontro strutturale tra i due, non dal controllo dell'uno sull'altro."
+    },
+    {
+      "section": "Capitolo 6 — Patologie strutturali del desiderio",
+      "function": "Descrive tre deformazioni strutturali (non diagnosi cliniche): ritrazione difensiva, sostituzione con motivazione esterna, dispersione per iper-stimolazione. Mostra come emergano quando alcune condizioni di sviluppo non si realizzano. Avverte del rischio di leggere la ritrazione come pigrizia o disinteresse."
+    },
+    {
+      "section": "Capitolo 7 — Raccordo con l'Asse 6",
+      "function": "Il mondo storico-culturale come mediazione attiva dell'orizzonte del desiderabile: organizza ciò che appare possibile, visibile, nominabile. I dispositivi di prestazione contemporanei come trasformazione strutturale che riduce il desiderio a motivazione e misura l'orientamento in termini di rendimento. Prepara l'Asse 6 senza anticiparlo."
+    }
+  ],
+  "reduction_risks": [
+    {
+      "type": "Psicologizzazione del desiderio",
+      "description": "Ridurre il desiderio a stato mentale posseduto, pulsione da regolare o preferenza soggettiva, perdendo la dimensione strutturale di orientamento pre-riflessivo. Produce strumenti che trattano il desiderio come variabile da misurare o modificare invece che come forma del rapporto con il possibile."
+    },
+    {
+      "type": "Opposizione strutturale desiderio/norma",
+      "description": "Trattare desiderio e norma come forze opposte (il primo da soddisfare, la seconda da imporre o da rimuovere), impedendo la comprensione del giudizio come incontro strutturale tra i due. Produce sia il permissivismo (liberare il desiderio dalla norma) sia il moralismo (reprimere il desiderio in nome della norma): entrambi svuotano la responsabilità."
+    },
+    {
+      "type": "Identificazione desiderio/motivazione",
+      "description": "Confondere desiderio (orientamento strutturale pre-riflessivo) con motivazione (stimolazione dall'esterno che produce comportamento efficace senza orientamento interno). Oscura la differenza tra responsabilità e adattamento prestazionale: un soggetto altamente motivato può essere strutturalmente privo di desiderio."
+    },
+    {
+      "type": "Identificazione mancanza/deficit",
+      "description": "Trattare la mancanza strutturale come carenza patologica da colmare: inverte il suo ruolo ontologico. La mancanza non va riparata ma abitata: è la condizione del movimento verso il possibile e del desiderio come orientamento. Tentare di eliminarla dissolve il desiderio stesso."
+    },
+    {
+      "type": "Naturalizzazione del desiderio",
+      "description": "Dimenticare che il desiderio si orienta sempre in un contesto storico-culturale che modula attivamente l'orizzonte del desiderabile. Produce l'illusione di un desiderio 'autentico' al di là delle mediazioni culturali — trascurando che le istituzioni, i modelli e i dispositivi tecnologici sono co-costitutivi dell'orizzonte del possibile."
+    }
+  ],
+  "structural_questions": [
+    "Come si distingue strutturalmente la soggettivazione del desiderio (processo graduale incarnato) dall'acquisizione di preferenze o motivazioni esterne — e quali indicatori consentono di riconoscere questa differenza nella pratica osservativa?",
+    "In quale misura la qualità dell'incontro con il limite reale (Asse 4) determina la forma che il desiderio assume — orientamento come riorganizzazione del campo vs. compensazione della perdita o ritrazione difensiva?",
+    "Come si riconosce la differenza tra un desiderio ritratto per protezione e un soggetto che non ha ancora sviluppato direzioni stabili — e qual è l'implicazione educativa di questa distinzione?",
+    "Quale relazione esiste tra l'ordo amoris (ordine interno del desiderio) e il giudizio normativo (Asse 3): come si articolano strutturalmente senza ridursi l'uno all'altro?"
+  ],
+  "methodological_constraints": [
+    "Non trattare il desiderio come contenuto psicologico misurabile né come pulsione da indirizzare: è struttura di orientamento pre-riflessiva che opera a livello del campo di esperienza prima di qualsiasi tematizzazione e non può essere direttamente osservata né manipolata.",
+    "Non opporre desiderio e norma nella progettazione di strumenti operativi: il desiderio come condizione del giudizio presuppone che i due si orientino strutturalmente, non che si contengano reciprocamente.",
+    "Non identificare le patologie strutturali del desiderio con diagnosi cliniche né con errori educativi individuali: sono esiti strutturali che emergono quando alcune condizioni di sviluppo (regolazione, limite, mediazione simbolica, relazione) non si realizzano.",
+    "Non derivare dall'asse indicazioni per 'stimolare' il desiderio senza considerare la mediazione del mondo storico-culturale (Asse 6): ogni intervento sul desiderio opera dentro orizzonti culturali che ne modellano il campo del possibile e che precedono qualsiasi tecnica."
+  ],
+  "compilation_notes": {
+    "confidence_level": "alta",
+    "needs_human_review": true,
+    "notes": "L'asse è filosoficamente denso e ben strutturato in 7 capitoli. Il punto concettuale più originale — e più esposto a fraintendimenti nella traduzione — è la relazione strutturale desiderio/norma/giudizio (Cap. 5): occorre preservare la simmetria (senza desiderio la norma è imposizione; senza norma il desiderio si disperde) evitando la lettura oppositiva. Il capitolo sulle patologie strutturali (Cap. 6) è il più direttamente traducibile nella pratica, ma richiede che la distinzione desiderio/motivazione sia mantenuta con rigore. La genealogia filosofica (Cap. 2) è un capitolo fondativo che in F2 potrebbe essere riassunto in un glossario di riferimenti senza essere riprodotto integralmente.",
+    "open_issues": [
+      "Il rapporto tra 'campo desiderabile' (Asse 5) e 'campo intenzionale' (Asse 1) non è esplicitamente discusso nei testi sorgente: sono concetti distinti o lo stesso concetto a livelli diversi? Richiede chiarimento esplicito in F2.",
+      "Il raccordo con l'Asse 4 sul desiderio come riorganizzazione (non compensazione) della perdita è affermato nel Cap. 8 dell'Asse 4 ma non ripreso sistematicamente nell'Asse 5: va esplicitato come raccordo bidirezionale.",
+      "La genealogia filosofica include Lacan solo per esclusione implicita (il modello prende le distanze dalla lettura del desiderio come desiderio dell'Altro): il posizionamento rispetto a Lacan è menzionato ma non sviluppato e potrebbe essere una questione aperta per la comunità scientifica di riferimento."
+    ]
+  }
+}

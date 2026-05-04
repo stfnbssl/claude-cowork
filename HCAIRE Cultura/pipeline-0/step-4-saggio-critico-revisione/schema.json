@@ -1,0 +1,191 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SaggioCriticoRevisione",
+  "description": "Output dello Step 4 della pipeline HCAIRE Cultura: lettura finale, leggibile e criticamente difendibile. Sintesi organica di tutti gli step precedenti.",
+  "type": "object",
+  "required": [
+    "opera_riferimento",
+    "tesi_interpretativa_centrale",
+    "testo_saggio",
+    "analisi_scene_momenti_forti",
+    "contro_lettura",
+    "limiti_della_lettura",
+    "valore_aggiunto_del_modello"
+  ],
+  "properties": {
+    "opera_riferimento": {
+      "type": "object",
+      "description": "Riferimento all'opera analizzata.",
+      "required": ["titolo", "autore"],
+      "properties": {
+        "titolo": { "type": "string" },
+        "autore": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "tesi_interpretativa_centrale": {
+      "type": "object",
+      "description": "Affermazione chiara, specifica e difendibile su che cosa fa questa opera.",
+      "required": ["tesi", "relazione_con_ipotesi_step2", "relazione_con_configurazione_step3"],
+      "properties": {
+        "tesi": {
+          "type": "string",
+          "description": "Enunciazione della tesi in 2-3 frasi. Specifica, radicata nelle evidenze, non riducibile al tema esplicito."
+        },
+        "relazione_con_ipotesi_step2": {
+          "type": "string",
+          "description": "Come la tesi finale si relaziona all'ipotesi provvisoria dello Step 2: la conferma, la precisa, la trasforma, la smentisce parzialmente."
+        },
+        "relazione_con_configurazione_step3": {
+          "type": "string",
+          "description": "Come la tesi finale si radica nella configurazione strutturale emersa dallo Step 3."
+        }
+      },
+      "additionalProperties": false
+    },
+    "testo_saggio": {
+      "type": "string",
+      "description": "Testo completo del saggio critico in formato Markdown. Deve essere un testo unitario, non un elenco di punti. Include apertura, sviluppo, integrazione degli assi, contro-lettura, limiti e conclusione."
+    },
+    "analisi_scene_momenti_forti": {
+      "type": "array",
+      "description": "Analisi ravvicinata dei 2-4 momenti dell'opera più significativi per la tesi. Costituiscono il cuore del saggio.",
+      "minItems": 2,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["titolo_sintetico", "localizzazione", "analisi", "connessione_alla_tesi"],
+        "properties": {
+          "titolo_sintetico": {
+            "type": "string",
+            "description": "Breve etichetta identificativa del momento."
+          },
+          "localizzazione": {
+            "type": "string",
+            "description": "Dove nell'opera si trova."
+          },
+          "analisi": {
+            "type": "string",
+            "description": "Analisi ravvicinata del momento: come la tesi si radica in questo specifico punto dell'opera."
+          },
+          "assi_attivati": {
+            "type": "array",
+            "description": "Assi strutturali che questo momento mette in gioco.",
+            "items": {
+              "type": "string",
+              "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+            }
+          },
+          "connessione_alla_tesi": {
+            "type": "string",
+            "description": "In che modo questo momento supporta, complica o arricchisce la tesi centrale."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "contro_lettura": {
+      "type": "object",
+      "description": "La prospettiva critica alternativa più seria: una lettura diversa dell'opera che essa stessa supporta almeno parzialmente.",
+      "required": ["tesi_alternativa", "basi_nell_opera", "relazione_con_lettura_principale"],
+      "properties": {
+        "tesi_alternativa": {
+          "type": "string",
+          "description": "Formulazione della tesi alternativa. Deve essere onesta, non di comodo."
+        },
+        "basi_nell_opera": {
+          "type": "array",
+          "description": "Elementi dell'opera che supportano la contro-lettura.",
+          "items": { "type": "string" }
+        },
+        "relazione_con_lettura_principale": {
+          "type": "string",
+          "description": "Come la contro-lettura si relaziona alla tesi principale: la complica, la limita, mostra un aspetto irriducibile."
+        }
+      },
+      "additionalProperties": false
+    },
+    "limiti_della_lettura": {
+      "type": "array",
+      "description": "Riconoscimento esplicito di ciò che questa lente non vede o vede con distorsione.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["descrizione"],
+        "properties": {
+          "tipo": {
+            "type": "string",
+            "enum": [
+              "elemento_irriducibile_alla_griglia",
+              "accesso_limitato_ai_materiali",
+              "dimensione_non_coperta_dagli_assi",
+              "rischio_di_forzatura_residuo",
+              "richiede_approfondimento"
+            ]
+          },
+          "descrizione": {
+            "type": "string",
+            "description": "Descrizione del limite specifico: cosa la lettura non raggiunge e perché."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "valore_aggiunto_del_modello": {
+      "type": "object",
+      "description": "Valutazione critica di ciò che questo approccio fenomenologico ha reso visibile.",
+      "required": ["descrizione", "formulazione_conclusiva"],
+      "properties": {
+        "descrizione": {
+          "type": "string",
+          "description": "Cosa permette di vedere questo approccio che altri approcci avrebbero trascurato."
+        },
+        "aspetti_resi_visibili": {
+          "type": "array",
+          "description": "Aspetti specifici dell'opera che gli assi strutturali hanno illuminato.",
+          "items": { "type": "string" }
+        },
+        "aspetti_lasciati_aperti": {
+          "type": "array",
+          "description": "Aspetti dell'opera che restano aperti anche dopo questa lettura.",
+          "items": { "type": "string" }
+        },
+        "formulazione_conclusiva": {
+          "type": "string",
+          "description": "Frase conclusiva che rispetta la regola fondamentale: 'questa lente permette di vedere alcuni aspetti dell'opera, lasciandone aperti altri'."
+        }
+      },
+      "additionalProperties": false
+    },
+    "assi_integrati_nel_saggio": {
+      "type": "array",
+      "description": "Ricognizione degli assi effettivamente integrati nel testo del saggio (non come elenco ma come strumenti del ragionamento).",
+      "items": {
+        "type": "object",
+        "required": ["axis_id", "modalita_di_integrazione"],
+        "properties": {
+          "axis_id": {
+            "type": "string",
+            "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+          },
+          "modalita_di_integrazione": {
+            "type": "string",
+            "description": "Come l'asse è presente nel testo: come vocabolario, come struttura argomentativa, come sfondo implicito."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Metadati sul processo di compilazione.",
+      "properties": {
+        "data_compilazione": { "type": "string", "format": "date" },
+        "compilato_da": { "type": "string" },
+        "versione": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

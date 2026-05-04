@@ -1,0 +1,248 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SelezioneEditoriale",
+  "description": "Output dello Step 5A della pipeline editoriale HCAIRE Cultura: mappa di selezione per la costruzione del prodotto editoriale finale. Non contiene ancora il testo dell'articolo.",
+  "type": "object",
+  "required": [
+    "opera_riferimento",
+    "tesi_editoriale",
+    "elementi_da_includere",
+    "elementi_da_escludere",
+    "scene_momenti_da_valorizzare",
+    "assi_nodi_selezionati",
+    "rischi_di_forzatura_residui",
+    "proposta_titolo",
+    "struttura_proposta"
+  ],
+  "properties": {
+    "opera_riferimento": {
+      "type": "object",
+      "description": "Riferimento all'opera analizzata.",
+      "required": ["titolo", "autore"],
+      "properties": {
+        "titolo": { "type": "string" },
+        "autore": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "tesi_editoriale": {
+      "type": "object",
+      "description": "La tesi interpretativa riformulata in chiave editoriale: accessibile a un lettore non specialista, fedele alla tesi dello Step 4.",
+      "required": ["formulazione_accessibile", "relazione_con_tesi_step4"],
+      "properties": {
+        "formulazione_accessibile": {
+          "type": "string",
+          "description": "La tesi in 2-3 frasi, formulata per un lettore colto ma non specialista. Non modifica il contenuto della tesi Step 4, ne aumenta la leggibilità."
+        },
+        "relazione_con_tesi_step4": {
+          "type": "string",
+          "description": "Come questa formulazione si relaziona alla tesi originale dello Step 4: riformulazione fedele, semplificazione, enfasi diversa."
+        }
+      },
+      "additionalProperties": false
+    },
+    "elementi_da_includere": {
+      "type": "object",
+      "description": "Elementi selezionati dai quattro step analitici da includere nel testo editoriale.",
+      "required": ["step_1", "step_2", "step_3", "step_4"],
+      "properties": {
+        "step_1": {
+          "type": "array",
+          "description": "Elementi del dossier (Step 1) da includere nel testo editoriale.",
+          "items": {
+            "type": "object",
+            "required": ["elemento", "funzione_editoriale"],
+            "properties": {
+              "elemento": { "type": "string", "description": "Cosa viene incluso (es. una scena chiave, un dato biografico, un contesto storico)." },
+              "funzione_editoriale": { "type": "string", "description": "Perché è necessario: quale funzione svolge nel testo per il lettore." }
+            },
+            "additionalProperties": false
+          }
+        },
+        "step_2": {
+          "type": "array",
+          "description": "Elementi della lettura libera (Step 2) da includere.",
+          "items": {
+            "type": "object",
+            "required": ["elemento", "funzione_editoriale"],
+            "properties": {
+              "elemento": { "type": "string" },
+              "funzione_editoriale": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "step_3": {
+          "type": "object",
+          "description": "Elementi della lettura strutturata (Step 3) da includere.",
+          "properties": {
+            "assi": {
+              "type": "array",
+              "items": { "type": "string", "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"] }
+            },
+            "nodi": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "evidenze": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "configurazione_dominante": { "type": "boolean", "description": "Includere la descrizione della configurazione strutturale dominante." }
+          },
+          "additionalProperties": false
+        },
+        "step_4": {
+          "type": "array",
+          "description": "Elementi del saggio critico (Step 4) da includere.",
+          "items": {
+            "type": "object",
+            "required": ["elemento", "funzione_editoriale"],
+            "properties": {
+              "elemento": { "type": "string" },
+              "funzione_editoriale": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "elementi_da_escludere": {
+      "type": "array",
+      "description": "Elementi dei quattro step che non verranno inclusi nel testo editoriale, con motivazione.",
+      "items": {
+        "type": "object",
+        "required": ["elemento", "provenienza", "motivo_esclusione"],
+        "properties": {
+          "elemento": { "type": "string" },
+          "provenienza": {
+            "type": "string",
+            "enum": ["step_1", "step_2", "step_3", "step_4"],
+            "description": "Da quale step proviene l'elemento escluso."
+          },
+          "motivo_esclusione": {
+            "type": "string",
+            "enum": [
+              "troppo_tecnico",
+              "ridondante",
+              "non_supporta_la_tesi",
+              "appesantisce_senza_aggiungere",
+              "richiede_conoscenza_pregressa",
+              "rischio_di_forzatura"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "scene_momenti_da_valorizzare": {
+      "type": "array",
+      "description": "2-3 scene o momenti dell'opera selezionati come pilastri narrativi del testo editoriale.",
+      "minItems": 2,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["titolo_sintetico", "localizzazione", "motivo_della_scelta", "come_raccontarla"],
+        "properties": {
+          "titolo_sintetico": { "type": "string" },
+          "localizzazione": { "type": "string", "description": "Dove nell'opera si trova." },
+          "motivo_della_scelta": { "type": "string", "description": "Perché questa scena è editorialmente centrale." },
+          "come_raccontarla": { "type": "string", "description": "Indicazione su come introdurre la scena per un lettore che non conosce l'opera." }
+        },
+        "additionalProperties": false
+      }
+    },
+    "assi_nodi_selezionati": {
+      "type": "array",
+      "description": "Assi e nodi strutturali selezionati per l'uso nel testo editoriale.",
+      "items": {
+        "type": "object",
+        "required": ["id", "tipo", "nome", "funzione_editoriale", "formula_linguistica_suggerita"],
+        "properties": {
+          "id": { "type": "string", "description": "Identificativo dell'asse (asse_1...asse_6) o del nodo." },
+          "tipo": { "type": "string", "enum": ["asse", "nodo"] },
+          "nome": { "type": "string" },
+          "funzione_editoriale": { "type": "string", "description": "Cosa permette di vedere nel testo editoriale." },
+          "formula_linguistica_suggerita": { "type": "string", "description": "Come introdurre questo asse o nodo nel testo senza terminologia tecnica pesante. Es: 'la lente del limite reale permette di leggere...'." }
+        },
+        "additionalProperties": false
+      }
+    },
+    "rischi_di_forzatura_residui": {
+      "type": "array",
+      "description": "Rischi di forzatura interpretativa nel passaggio dall'analisi al testo editoriale.",
+      "items": {
+        "type": "object",
+        "required": ["descrizione", "come_presidiarlo"],
+        "properties": {
+          "descrizione": { "type": "string" },
+          "come_presidiarlo": { "type": "string", "description": "Come evitare o attenuare il rischio nel testo editoriale." }
+        },
+        "additionalProperties": false
+      }
+    },
+    "proposta_titolo": {
+      "type": "object",
+      "description": "Proposta di titolo per il prodotto editoriale.",
+      "required": ["titolo_principale", "sottotitolo", "titoli_alternativi"],
+      "properties": {
+        "titolo_principale": {
+          "type": "string",
+          "description": "Titolo editoriale principale: evocativo, non burocratico, non tecnico."
+        },
+        "sottotitolo": {
+          "type": "string",
+          "description": "Sottotitolo che chiarisce in una riga che si tratta di una lettura dell'opera attraverso le strutture dell'esperienza umana."
+        },
+        "titoli_alternativi": {
+          "type": "array",
+          "description": "2-3 varianti alternative al titolo principale per confronto.",
+          "minItems": 2,
+          "maxItems": 3,
+          "items": { "type": "string" }
+        },
+        "motivazione_scelta": {
+          "type": "string",
+          "description": "Perché il titolo principale è stato preferito."
+        }
+      },
+      "additionalProperties": false
+    },
+    "struttura_proposta": {
+      "type": "array",
+      "description": "Struttura proposta per l'articolo editoriale: sezioni, funzioni, materiali, lunghezze indicative.",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["numero", "titolo_sezione", "funzione", "materiali_di_riferimento", "lunghezza_indicativa"],
+        "properties": {
+          "numero": { "type": "integer" },
+          "titolo_sezione": { "type": "string" },
+          "funzione": { "type": "string", "description": "Cosa deve fare questa sezione per il lettore." },
+          "materiali_di_riferimento": {
+            "type": "array",
+            "description": "Step e/o elementi specifici da cui attingere.",
+            "items": { "type": "string" }
+          },
+          "lunghezza_indicativa": { "type": "string", "description": "Es: '150-200 parole', 'breve (100 parole)', 'centrale (400-500 parole)'." }
+        },
+        "additionalProperties": false
+      }
+    },
+    "nota_editoriale": {
+      "type": "string",
+      "description": "Note libere dell'agente editoriale su problemi aperti, scelte difficili, indicazioni per la stesura."
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "data_compilazione": { "type": "string", "format": "date" },
+        "compilato_da": { "type": "string" },
+        "versione": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

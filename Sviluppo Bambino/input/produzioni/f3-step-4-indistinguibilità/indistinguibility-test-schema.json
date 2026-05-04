@@ -1,0 +1,248 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Schema per F3 STEP 4 (aprile 2026). Descrive la struttura del test di indistinguibilità apparente applicato al dispositivo corretto (F3 STEP 3). Il test genera due casi comportamentalmente quasi identici ma strutturalmente distinti e verifica se il dispositivo li discrimina.",
+  "title": "IndistinguibilityTestOutput",
+  "description": "Output di F3 STEP 4: stress test di indistinguibilità apparente. Due casi clinici quasi identici a livello comportamentale ma distinti strutturalmente nel passaggio trasformativo (bridge). Verifica se il dispositivo corretto riesce a discriminare configurazione reale da configurazione apparente quando la forma è la stessa.",
+
+  "type": "object",
+  "required": ["step", "theme_id", "domain", "device_id", "test_objective", "cases", "comparative_analysis", "test_verdict"],
+  "properties": {
+
+    "step": {
+      "type": "string",
+      "const": "f3_step_4",
+      "description": "Identificatore dello step di pipeline. Valore fisso."
+    },
+
+    "theme_id": {
+      "type": "string",
+      "description": "ID del tema, coerente con theme-discovery e theme-verification.",
+      "examples": ["tema_01_pointing_precoce"]
+    },
+
+    "domain": {
+      "type": "string",
+      "description": "Dominio professionale del dispositivo testato, coerente con F3 STEP 3."
+    },
+
+    "device_id": {
+      "type": "string",
+      "description": "Identificatore del dispositivo corretto (F3 STEP 3) sottoposto al test."
+    },
+
+    "test_objective": {
+      "type": "string",
+      "description": "Obiettivo del test: cosa si vuole verificare e perché questo test è il più critico per il dispositivo corretto."
+    },
+
+    "cases": {
+      "type": "array",
+      "description": "I due casi quasi identici. Deve contenere esattamente un caso di tipo configurazione_reale e uno di tipo configurazione_apparente.",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": { "$ref": "#/definitions/IndistinguibilityCase" }
+    },
+
+    "comparative_analysis": {
+      "$ref": "#/definitions/ComparativeAnalysis"
+    },
+
+    "test_verdict": {
+      "$ref": "#/definitions/TestVerdict"
+    }
+
+  },
+
+  "definitions": {
+
+    "IndistinguibilityCase": {
+      "type": "object",
+      "required": ["case_id", "case_type", "case_description", "observed_configuration", "proxy_analysis", "alternative_interpretation", "device_discrimination", "failure_risk"],
+      "properties": {
+
+        "case_id": {
+          "type": "string",
+          "enum": ["caso_A", "caso_B"],
+          "description": "Identificatore del caso. caso_A: configurazione reale. caso_B: configurazione apparente."
+        },
+
+        "case_type": {
+          "type": "string",
+          "enum": ["configurazione_reale", "configurazione_apparente"],
+          "description": "Tipo strutturale del caso. configurazione_reale: passaggio aperto, co-produzione genuina. configurazione_apparente: passaggio predeterminato, script."
+        },
+
+        "case_description": {
+          "type": "string",
+          "description": "Descrizione fenomenica dettagliata e concreta della situazione: cosa accade, chi è coinvolto, in quale contesto. Costruita per essere quasi indistinguibile dall'altro caso a livello comportamentale. Non deve rivelare la differenza strutturale nella descrizione fenomenica."
+        },
+
+        "observed_configuration": {
+          "$ref": "#/definitions/ObservedConfigurationWithBridge"
+        },
+
+        "proxy_analysis": {
+          "$ref": "#/definitions/ProxyAnalysis"
+        },
+
+        "alternative_interpretation": {
+          "type": "string",
+          "description": "Perché questo caso potrebbe essere letto nell'altro modo: quali elementi della configurazione osservata sarebbero coerenti con la classificazione opposta. Questa è la tensione che il test deve reggere."
+        },
+
+        "device_discrimination": {
+          "$ref": "#/definitions/DeviceDiscrimination"
+        },
+
+        "failure_risk": {
+          "type": "string",
+          "description": "In quali condizioni specifiche il dispositivo corretto fallirebbe su questo caso: qual è il punto di fragilità residua dopo la correzione di STEP 3."
+        }
+
+      }
+    },
+
+    "ObservedConfigurationWithBridge": {
+      "type": "object",
+      "required": ["corporeita", "campo_intenzionale", "co_regolazione", "mediazione_simbolica", "passaggio_trasformativo"],
+      "description": "Stato strutturale di ciascun nodo nel caso, più lo stato del passaggio trasformativo (bridge). Lettura strutturale, non valutativa.",
+      "properties": {
+        "corporeita": { "type": "string" },
+        "campo_intenzionale": { "type": "string" },
+        "co_regolazione": { "type": "string" },
+        "mediazione_simbolica": { "type": "string" },
+        "passaggio_trasformativo": {
+          "type": "string",
+          "description": "Stato del passaggio trasformativo: come appare a livello strutturale, prima della triangolazione formale dei proxy."
+        }
+      }
+    },
+
+    "ProxyAnalysis": {
+      "type": "object",
+      "required": ["proxies_present", "proxies_direction", "counter_indicator", "counter_indicator_rebuttal", "classification"],
+      "description": "Triangolazione obbligatoria del bridge. Applica i proxy strutturali della dimensione 'Struttura del passaggio trasformativo' del dispositivo corretto.",
+      "properties": {
+
+        "proxies_present": {
+          "type": "array",
+          "description": "Lista dei proxy strutturali presenti nel caso osservato (dalla dimensione 'Struttura del passaggio trasformativo' del dispositivo corretto).",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+
+        "proxies_direction": {
+          "type": "string",
+          "description": "Perché questi proxy indicano la direzione classificata (apertura o predeterminazione) e non l'opposta: la giustificazione strutturale della classificazione."
+        },
+
+        "counter_indicator": {
+          "type": "string",
+          "description": "Almeno un elemento del caso che potrebbe suggerire l'interpretazione alternativa: il contro-indicatore che sfida la classificazione."
+        },
+
+        "counter_indicator_rebuttal": {
+          "type": "string",
+          "description": "Perché il contro-indicatore viene scartato nella configurazione osservata: la giustificazione del perché non invalida la classificazione."
+        },
+
+        "proxy_confidence": {
+          "type": "string",
+          "enum": ["alta", "media", "bassa"],
+          "description": "Grado di osservabilità del proxy decisivo su cui poggia la classificazione. alta: il proxy è direttamente leggibile senza interpretazione qualitativa specifica. media: il proxy richiede attenzione qualitativa competente per essere identificato. bassa: il proxy è inferenziale e non direttamente osservabile."
+        },
+
+        "classification_status": {
+          "type": "string",
+          "enum": ["netta", "probabile", "ambigua"],
+          "description": "Stato della classificazione risultante dalla triangolazione. netta: la triangolazione è robusta e non dipende dalla qualità dell'osservazione del proxy decisivo. probabile: la triangolazione regge ma la classificazione dipende dalla qualità dell'osservazione del proxy decisivo — con osservazione meno fine potrebbe diventare ambigua. ambigua: i proxy sono insufficienti o contraddittori, non si produce lettura netta."
+        },
+
+        "ambiguity_conditions": {
+          "type": "string",
+          "description": "Le condizioni in cui la classificazione deve diventare ambigua: in quale circostanza il proxy decisivo perde osservabilità sufficiente e la classificazione non deve essere forzata. Obbligatorio per tutte le classificazioni, indipendentemente da proxy_confidence e classification_status."
+        },
+
+        "classification": {
+          "type": "string",
+          "enum": ["aperto", "predeterminato", "ambiguo"],
+          "description": "Classificazione finale del passaggio trasformativo dopo triangolazione. ambiguo se i proxy sono insufficienti o contraddittori."
+        }
+
+      }
+    },
+
+    "DeviceDiscrimination": {
+      "type": "object",
+      "required": ["can_discriminate", "on_what_basis"],
+      "description": "Valutazione della capacità discriminativa del dispositivo corretto su questo caso specifico.",
+      "properties": {
+
+        "can_discriminate": {
+          "type": "boolean",
+          "description": "true se il dispositivo corretto distingue strutturalmente questo caso dall'altro caso quasi identico; false se la distinzione richiede inferenze esterne alla configurazione."
+        },
+
+        "on_what_basis": {
+          "type": "string",
+          "description": "Su quali basi strutturali il dispositivo discrimina (o non discrimina): quale dimensione, quale proxy, quale passaggio logico."
+        },
+
+        "discriminating_dimension": {
+          "type": "string",
+          "description": "Campo opzionale. La dimensione del reading_focus che produce la discriminazione, se individuabile. Omesso se can_discriminate è false."
+        }
+
+      }
+    },
+
+    "ComparativeAnalysis": {
+      "type": "object",
+      "required": ["behavioral_similarity", "structural_difference", "discriminating_factor"],
+      "description": "Analisi comparativa dei due casi: cosa li rende indistinguibili in superficie e cosa li distingue strutturalmente.",
+      "properties": {
+
+        "behavioral_similarity": {
+          "type": "string",
+          "description": "Cosa rende i due casi indistinguibili a lettura fenomenica: quali comportamenti osservabili sono sovrapponibili e perché un osservatore non strutturale non li distinguerebbe."
+        },
+
+        "structural_difference": {
+          "type": "string",
+          "description": "Dove e perché i due casi differiscono a livello strutturale: la differenza nel passaggio trasformativo e come si propaga agli altri nodi della configurazione."
+        },
+
+        "discriminating_factor": {
+          "type": "string",
+          "description": "Quale elemento del dispositivo corretto rende la differenza strutturale leggibile: quale dimensione, quale proxy, quale vincolo introdotto dalla correzione di STEP 3."
+        }
+
+      }
+    },
+
+    "TestVerdict": {
+      "type": "object",
+      "required": ["device_discriminates", "verdict_basis", "residual_ambiguity"],
+      "description": "Verdetto strutturale del test di indistinguibilità: il dispositivo corretto supera il test?",
+      "properties": {
+
+        "device_discriminates": {
+          "type": "boolean",
+          "description": "true se il dispositivo discrimina i due casi su base strutturale ancorata alla configurazione, senza ricorrere a inferenze psicologiche o informazioni esterne. false se la distinzione non è raggiungibile su basi strutturali: il test è fallito."
+        },
+
+        "verdict_basis": {
+          "type": "string",
+          "description": "Su quali basi specifiche viene emesso il verdetto: quale catena di ragionamento strutturale porta alla conclusione."
+        },
+
+        "residual_ambiguity": {
+          "type": "string",
+          "description": "Quale ambiguità residua rimane anche con il dispositivo corretto e la triangolazione applicata: cosa il dispositivo non riesce a risolvere strutturalmente nemmeno dopo la correzione di STEP 3."
+        }
+
+      }
+    }
+
+  }
+}

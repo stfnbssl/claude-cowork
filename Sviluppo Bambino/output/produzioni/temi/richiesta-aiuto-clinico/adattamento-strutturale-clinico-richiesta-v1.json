@@ -1,0 +1,138 @@
+{
+  "step": "f3_step_8",
+  "source_device_id": "tema-01-pointing-clinico-dispositivo-corrected",
+  "target_theme": "comportamento di richiesta di aiuto — dominio clinico",
+
+  "new_corporeity": {
+    "description": "Il corpo del bambino nella richiesta di aiuto è strutturato da una doppia orientazione simultanea: verso la difficoltà (il corpo è impegnato nell'azione che non cede) e verso l'adulto (il corpo — o la parte superiore: volto, sguardo — si re-orienta verso l'altro a partire da quella presa). Non è un gesto direzionato verso l'adulto come nel pointing: il corpo non si libera verso l'altro ma rimane parzialmente agganciato allo spazio dell'azione difficile. L'atto corporeo emerge dall'arresto dell'azione — è la postura del corpo che non riesce — non da una decisione di comunicare.",
+    "structural_features": [
+      "Arresto o rallentamento dell'azione al punto di resistenza: il corpo si ferma nell'azione verso l'oggetto (tentativo non riuscito, presa interrotta, sequenza bloccata) — questa è la condizione corporea originaria della richiesta",
+      "Doppia orientazione diadica: il corpo rimane parzialmente ancorato allo spazio della difficoltà (mani sull'oggetto, postura rivolta al compito) mentre il volto e lo sguardo si re-orientano verso l'adulto — il corpo tiene insieme i due poli senza abbandonare il primo per il secondo",
+      "Qualità della postura: la postura del bambino è quella dell'attesa produttiva, non del ritiro — il corpo non abbandona lo spazio della difficoltà ma lo mantiene aperto mentre cerca l'adulto",
+      "Gesto eventuale: può accompagnarsi a protensione delle mani aperte verso l'adulto, indicazione dell'oggetto, vocalizzazione — ma questi sono elementi facoltativi; l'elemento strutturale è la doppia orientazione del corpo e l'arresto dell'azione"
+    ],
+    "differences_from_source_theme": "Nel pointing precoce: (a) il gesto è primariamente direzionato verso l'adulto attraverso l'indice esteso — il corpo si orienta verso l'altro portando l'oggetto nel campo; (b) il bambino non è fisicamente impegnato con l'oggetto al momento del gesto; (c) l'atto corporeo è un gesto intenzionalmente visibile. Nella richiesta di aiuto: (a) l'atto corporeo emerge dall'arresto dell'azione — non è primariamente un gesto verso l'adulto ma una postura di difficoltà da cui emerge la re-orientazione; (b) il corpo rimane impegnato con l'oggetto/difficoltà durante la richiesta; (c) la struttura diadica del corpo (doppia orientazione) è l'elemento costitutivo, non il gesto verso l'adulto in sé.",
+    "observer_dependency": "media",
+    "observer_dependency_notes": "Richiede che l'osservatore noti la doppia orientazione simultanea (corpo verso difficoltà + volto/sguardo verso adulto) e distingua l'arresto dell'azione da una pausa non relazionale. Queste strutture sono visibili in osservazione diretta o da videoregistrazione; non sono ricavabili da descrizioni testuali che descrivono solo 'il bambino guarda l'adulto' senza specificare la postura corporea nel momento."
+  },
+
+  "new_bridge": {
+    "from": "La difficoltà come evento privato dell'azione: la resistenza dell'oggetto o del compito appartiene all'azione del bambino come suo problema isolato — esiste come arresto nell'azione del bambino, non ancora come cosa-nella-relazione. Il bambino incontra la difficoltà da solo.",
+    "to": "La difficoltà come problema co-prodotto nella relazione: la resistenza dell'oggetto o del compito diventa qualcosa che esiste nella relazione tra bambino e adulto — entrambi sono orientati verso essa come cosa-da-affrontare-insieme. La difficoltà non viene eliminata ma trasformata da evento privato a campo relazionale condiviso.",
+    "process_description": "Il bambino re-orienta verso l'adulto dall'interno dello spazio della difficoltà (la doppia orientazione corporea apre un campo relazionale verso la difficoltà stessa). Se l'adulto entra in questo campo — orientandosi verso lo spazio della difficoltà e non solo verso il bambino come richiedente — la difficoltà acquista statuto relazionale: diventa problema che esiste nel campo tra i due. Questo è il passaggio trasformativo: la difficoltà non è più arresto dell'azione del bambino ma oggetto di orientamento condiviso.",
+    "open_form": "La difficoltà rimane presente nello spazio relazionale dopo la risposta dell'adulto: entrambi i partecipanti sono ancora orientati verso di essa, il bambino non ha ancora una soluzione, l'adulto non ha chiuso il campo con una soluzione completa. Lo spazio della difficoltà è ancora attivo e co-abitato. Ciò che il passaggio produrrà non è determinato prima che si produca.",
+    "predetermined_form": "La difficoltà è già trattata come richiesta-con-soluzione-nota: il bambino produce il segnale di richiesta, l'adulto fornisce la soluzione attesa, la difficoltà viene eliminata come transazione completata. Il significato dell'atto (difficoltà → adulto risolve → bambino accetta soluzione) esiste prima che l'atto si produca. La sequenza è nello script di entrambi."
+  },
+
+  "new_proxy": {
+    "name": "Continuazione diadica dello spazio di difficoltà dopo la prima risposta dell'adulto",
+    "what_it_measures": "La struttura dell'episodio nella fase immediatamente successiva alla prima risposta dell'adulto: se entrambi i partecipanti rimangono nello spazio della difficoltà insieme (campo ancora aperto — configurazione reale) oppure se l'episodio si chiude con l'uscita di uno o entrambi i partecipanti dallo spazio della difficoltà (campo chiuso — configurazione apparente).",
+    "observable_sequence": [
+      "[A] Il bambino è nello spazio della difficoltà: azione arrestata, corpo in doppia orientazione verso difficoltà e verso adulto",
+      "[B] Prima risposta dell'adulto: l'adulto entra nello spazio della difficoltà orientandosi verso di essa, oppure fornisce una soluzione dall'esterno senza entrare nello spazio dell'azione",
+      "[C — discriminante] Struttura post-risposta: (C1) entrambi rimangono nello spazio della difficoltà — bambino non ha ancora la soluzione, adulto è ancora nel campo con il bambino, la difficoltà è ancora lì come problema aperto; (C2) il bambino esce dallo spazio della difficoltà — accetta la soluzione, abbandona il tentativo, si orienta verso altra attività; (C3) l'adulto esce dallo spazio della difficoltà dopo la risposta, il bambino rimane solo"
+    ],
+    "discriminating_element": "La continuazione diadica in [C1]: entrambi i partecipanti sono ancora nello spazio della difficoltà dopo la prima risposta dell'adulto. Nella configurazione reale lo spazio della difficoltà rimane co-abitato — il bambino non ha ricevuto una soluzione completa e l'adulto è ancora presente come partecipante. Nella configurazione apparente il bambino esce dallo spazio della difficoltà (C2 — ha ricevuto la soluzione attesa) oppure rimane solo (C3 — l'adulto ha fornito e si è ritirato). L'elemento chiave è la copresenza strutturale: non basta che il bambino rimanga nell'azione, deve rimanere con l'adulto nel campo della difficoltà."
+  },
+
+  "non_reversibility_test": {
+    "counter_reading": "In sequenze di scaffolding routinizzato ad alta qualità, entrambi i partecipanti possono rimanere nello spazio della difficoltà dopo la prima risposta dell'adulto come parte di uno script noto: l'adulto entra nello spazio dell'azione ed esegue una sequenza di aiuto atteso (mostra la tecnica, apre parzialmente, guida il gesto), il bambino rimane nell'azione perché sa cosa verrà. La continuazione diadica è parte dello script, non indicatore di campo aperto.",
+    "rebuttal": "La contro-lettura è strutturalmente valida e delimita il dominio di applicabilità del proxy. La robustezza dipende da un elemento aggiuntivo: nella continuazione diadica scripted, la sequenza dell'adulto è convergente e predeterminata nella sua forma — l'adulto sa già cosa farà prima di entrare nello spazio della difficoltà e la sua azione si dirige verso la soluzione nota. In un campo genuinamente aperto, la sequenza dell'adulto ha una fase di valutazione — l'adulto entra nello spazio della difficoltà, osserva cosa sta succedendo, e la sua azione è determinata da questa osservazione piuttosto che da uno script. L'observable corrispondente è la presenza di una fase di valutazione nella risposta dell'adulto (osservazione dell'azione del bambino) prima dell'azione di aiuto — ma questo richiede documentazione del comportamento dell'adulto nei secondi immediatamente prima della risposta, che non è sempre disponibile. Senza questa informazione il proxy rimane parzialmente vulnerabile alla contro-lettura.",
+    "result": "parzialmente_resistente",
+    "result_notes": "Il proxy resiste all'inversione nel caso semplice (bambino esce subito = script) ma è vulnerabile allo scaffolding routinizzato dove entrambi rimangono nello spazio della difficoltà. La robustezza aumenta se si aggiunge la documentazione della fase pre-risposta dell'adulto (presenza/assenza di valutazione), ma questo introduce un requisito di osservabilità aggiuntivo non sempre disponibile. Il proxy nella sua forma attuale è il più robusto costruibile su sequenza comportamentale diadica per questo tema, ma la sua resistenza è condizionata."
+  },
+
+  "observability_requirements": [
+    {
+      "id": "obs_1",
+      "label": "Struttura corporea del bambino nel momento della richiesta",
+      "description": "La doppia orientazione simultanea del corpo del bambino: il corpo (postura, mani) è ancora nello spazio della difficoltà mentre il volto/sguardo si re-orienta verso l'adulto? O il bambino ha abbandonato lo spazio della difficoltà per orientarsi interamente verso l'adulto?",
+      "type": "con_mediazione",
+      "observer_dependency": "media",
+      "required_for_proxy": false,
+      "notes": "Necessario per la corporeità-vissuta; contribuisce alla lettura complessiva della configurazione ma non è il dato discriminante del proxy. Richiede osservazione della postura completa del bambino — non solo direzione dello sguardo."
+    },
+    {
+      "id": "obs_2",
+      "label": "Struttura della prima risposta dell'adulto: ingresso nello spazio della difficoltà vs. risposta dall'esterno",
+      "description": "L'adulto orienta il proprio corpo e azione verso lo spazio della difficoltà (si avvicina, guarda l'oggetto/azione del bambino, entra nella prossimità dell'azione) oppure risponde dal di fuori (fornisce oggetto, dà istruzione verbale, agisce sull'oggetto a distanza senza co-abitare lo spazio dell'azione del bambino)?",
+      "type": "diretto",
+      "observer_dependency": "bassa",
+      "required_for_proxy": true,
+      "notes": "Elemento discriminante per la fase [B] del proxy. Distingue ingresso nel campo (adulto si orienta verso la difficoltà insieme al bambino) da risposta esterna (adulto risolve la difficoltà senza entrare nel campo). Osservabile direttamente come posizione/orientamento corporeo dell'adulto."
+    },
+    {
+      "id": "obs_3",
+      "label": "Posizione del bambino nello spazio della difficoltà dopo la prima risposta dell'adulto",
+      "description": "Dopo la prima risposta dell'adulto, il bambino rimane nello spazio della difficoltà (corpo ancora orientato verso l'oggetto/compito, azione ancora in corso o sospesa ma non abbandonata) oppure esce dallo spazio della difficoltà (accetta l'oggetto/soluzione fornita, si orienta verso altra attività, abbandona il tentativo)?",
+      "type": "diretto",
+      "observer_dependency": "bassa",
+      "required_for_proxy": true,
+      "notes": "Elemento discriminante per la fase [C] del proxy. Osservabile direttamente come posizione corporea e continuazione/abbandono dell'azione. È la metà del dato discriminante — deve essere combinato con obs_4."
+    },
+    {
+      "id": "obs_4",
+      "label": "Presenza dell'adulto nello spazio della difficoltà dopo la prima risposta",
+      "description": "Dopo la prima risposta dell'adulto, l'adulto rimane nello spazio della difficoltà (corpo ancora orientato verso l'azione del bambino/oggetto, non si è ritirato) oppure esce dallo spazio della difficoltà (ha fornito la risposta e si è ritirato, ha spostato l'attenzione altrove, si è riorientato verso il bambino come interlocutore invece che verso la difficoltà come problema condiviso)?",
+      "type": "diretto",
+      "observer_dependency": "bassa",
+      "required_for_proxy": true,
+      "notes": "Elemento discriminante per la fase [C] del proxy. Combinato con obs_3 determina la struttura diadica: entrambi nel campo (C1 = aperto), bambino esce (C2 = chiuso), adulto esce e bambino rimane solo (C3 = ambiguo)."
+    },
+    {
+      "id": "obs_5",
+      "label": "Presenza di fase di valutazione nella risposta dell'adulto (rafforzamento della robustezza)",
+      "description": "Nei secondi immediatamente precedenti alla risposta, l'adulto compie una fase di valutazione osservabile — guarda l'azione del bambino, osserva l'oggetto, si avvicina per vedere — oppure risponde immediatamente al segnale del bambino senza valutare la difficoltà?",
+      "type": "con_mediazione",
+      "observer_dependency": "media",
+      "required_for_proxy": false,
+      "notes": "Non obbligatorio per applicare il proxy ma aumenta la robustezza contro la contro-lettura dello scaffolding routinizzato. Se presente e documentato, permette di distinguere risposta-con-valutazione (campo aperto) da risposta-immediata-scripted. Richiede osservazione dei secondi pre-risposta dell'adulto, non sempre documentati nelle descrizioni cliniche."
+    }
+  ],
+
+  "non_classifiability_rules": [
+    {
+      "id": "ncr_1",
+      "trigger": "obs_2 non documentato o ambiguo",
+      "required_output": "non_classificabile",
+      "rationale": "Se la documentazione non specifica se l'adulto è entrato nello spazio della difficoltà o ha risposto dall'esterno, la struttura della fase [B] non è determinabile. Qualsiasi classificazione richiederebbe un'inferenza sul comportamento dell'adulto non supportata dall'osservazione."
+    },
+    {
+      "id": "ncr_2",
+      "trigger": "obs_3 non documentato",
+      "required_output": "non_classificabile",
+      "rationale": "Se la documentazione descrive la risposta dell'adulto ma non specifica se il bambino è rimasto nello spazio della difficoltà o ne è uscito, la struttura della fase [C] non è determinabile. Il proxy non dispone del dato necessario alla discriminazione."
+    },
+    {
+      "id": "ncr_3",
+      "trigger": "obs_4 non documentato",
+      "required_output": "non_classificabile",
+      "rationale": "Se la documentazione non specifica se l'adulto è rimasto nello spazio della difficoltà dopo la risposta, la struttura diadica della fase [C] non è determinabile. La continuazione del bambino da sola non è sufficiente per classificare — la continuazione deve essere diadica."
+    },
+    {
+      "id": "ncr_4",
+      "trigger": "Fase di arresto dell'azione ([A]) non documentata",
+      "required_output": "non_classificabile",
+      "rationale": "Se la documentazione non include la fase di arresto dell'azione del bambino nella difficoltà (descrive solo il segnale di richiesta verso l'adulto), la base corporea del proxy non è verificabile e la corporeità-vissuta della richiesta non è distinguibile da altri atti communicativi."
+    },
+    {
+      "id": "ncr_5",
+      "trigger": "Struttura [C] corrisponde a C3 (solo bambino nello spazio della difficoltà, adulto uscito)",
+      "required_output": "ambiguo",
+      "rationale": "Distinto da non_classificabile: il dato è presente ma non discrimina. Il bambino che rimane nello spazio della difficoltà dopo che l'adulto si è ritirato può indicare sia campo aperto (bambino continua da solo dopo aver ricevuto scaffold parziale) sia campo predeterminato (bambino completa la parte rimanente dello script). Classificare in questo caso richiederebbe informazioni sulla struttura dell'azione dell'adulto (obs_5) che non sono sempre disponibili."
+    }
+  ],
+
+  "structural_consistency_check": {
+    "configurational_logic_preserved": true,
+    "configurational_logic_notes": "La sequenza corporeità (doppia orientazione dall'arresto dell'azione) → campo intenzionale (campo verso la difficoltà come problema aperto) → co-regolazione (ingresso dell'adulto nel campo della difficoltà) → mediazione simbolica (la difficoltà come problema co-prodotto nella relazione) è strutturalmente coerente con la logica configurazionale del dispositivo originario.",
+    "no_psychological_inference": true,
+    "no_psychological_inference_notes": "Nessuna delle definizioni richiede accesso a stati interni del bambino o dell'adulto. La corporeità è descritta come struttura corporea osservabile (doppia orientazione, arresto dell'azione). Il bridge è definito come trasformazione della struttura relazionale (da evento privato a campo condiviso) senza riferimento a intenzioni o stati mentali. Il proxy è ancorato a comportamenti osservabili (posizioni corporee, continuazione/abbandono dell'azione).",
+    "no_circularity": true,
+    "no_circularity_notes": "Il proxy non è derivato dall'interpretazione della configurazione: la continuazione diadica vs. chiusura unilaterale è determinabile da osservazione comportamentale indipendente dalla classificazione finale. obs_2, obs_3, obs_4 sono tutti ancorati a comportamenti osservabili che non richiedono di sapere in anticipo quale configurazione si sta leggendo.",
+    "proxy_observable": true,
+    "proxy_observable_notes": "Il proxy è applicabile in osservazione diretta e da videoregistrazione. Richiede documentazione della struttura post-risposta (obs_2–obs_4) che non è garantita nelle descrizioni cliniche testuali standard — ma è osservabile in osservazione strutturata. Il requisito di documentazione è definito esplicitamente nei non_classifiability_rules.",
+    "proxy_not_reused_from_source": true,
+    "proxy_not_reused_notes": "Il proxy 'Continuazione diadica dello spazio di difficoltà' è costruito sulla struttura fenomenologica specifica della richiesta di aiuto (spazio di difficoltà, arresto dell'azione, risposta come ingresso nel campo). Non è una variante del proxy 'Co-orientamento finale bilaterale vs. chiusura unilaterale' del pointing: in quello, il discriminante era l'orientamento verso un oggetto spazialmente identificato in una fase di chiusura; qui, il discriminante è la continuazione congiunta in uno spazio d'azione dopo la risposta — struttura fenomenologicamente distinta."
+  }
+}

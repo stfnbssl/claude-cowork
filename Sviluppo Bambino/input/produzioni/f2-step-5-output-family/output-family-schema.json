@@ -1,0 +1,164 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Schema derivato dalla pipeline di theme discovery — STEP 5 (aprile 2026). Descrive la struttura della famiglia di output per uno o più temi.",
+  "title": "OutputFamilyOutput",
+  "description": "Output dello STEP 5: famiglia di output controllata. Trasforma la micro-matrice (STEP 4) in possibili direzioni di utilizzo del modello, senza ancora costruire strumenti operativi.",
+
+  "type": "object",
+  "required": ["step", "results"],
+  "properties": {
+
+    "step": {
+      "type": "string",
+      "const": "step_5",
+      "description": "Identificatore dello step di pipeline. Valore fisso."
+    },
+
+    "results": {
+      "type": "array",
+      "description": "Array di oggetti, uno per ogni tema elaborato.",
+      "items": { "$ref": "#/definitions/OutputFamily" }
+    }
+
+  },
+
+  "definitions": {
+
+    "OutputFamily": {
+      "type": "object",
+      "required": [
+        "theme_id",
+        "output_families",
+        "meta_notes"
+      ],
+      "properties": {
+
+        "theme_id": {
+          "type": "string",
+          "description": "ID del tema, coerente con theme-discovery-v1.json, theme-verification-v1.json e theme-matrix-v1.json.",
+          "examples": ["tema_02_lettura_dialogica"]
+        },
+
+        "output_families": {
+          "type": "array",
+          "description": "Famiglie di output possibili per il tema. Target: 3–5. Ciascuna corrisponde a un dominio di traducibilità identificato in STEP 4 o a una combinazione inter-dominio.",
+          "minItems": 3,
+          "maxItems": 5,
+          "items": { "$ref": "#/definitions/OutputFamilyItem" }
+        },
+
+        "meta_notes": {
+          "$ref": "#/definitions/MetaNotes"
+        }
+
+      }
+    },
+
+    "OutputFamilyItem": {
+      "type": "object",
+      "required": [
+        "domain",
+        "output_type",
+        "description",
+        "structural_basis",
+        "value_added",
+        "reduction_risk"
+      ],
+      "properties": {
+
+        "domain": {
+          "type": "string",
+          "description": "Ambito professionale di riferimento, coerente con translation_potential in theme-matrix-v1.json (es. 'clinico', 'educativo', 'formazione dei professionisti', 'politiche per l\\'infanzia')."
+        },
+
+        "output_type": {
+          "type": "string",
+          "description": "Tipo di uso possibile del modello nell'ambito: una funzione, non uno strumento. Forme ammesse: 'lettura configurazionale di…', 'analisi della struttura di…', 'orientamento alla qualità di…', 'interrogazione strutturale su…'. Forme vietate: 'come fare…', 'strategie per…', 'consigli per…'."
+        },
+
+        "description": {
+          "type": "string",
+          "description": "Descrizione di cosa questo tipo di output permette di fare nel dominio: quale interrogazione strutturale apre, quale livello rende visibile, quale funzione professionale orienta. Non prescrittiva."
+        },
+
+        "structural_basis": {
+          "$ref": "#/definitions/StructuralBasis"
+        },
+
+        "value_added": {
+          "type": "string",
+          "description": "Cosa questo output permette di vedere o pensare che prima non era accessibile: il contributo specifico della configurazione strutturale rispetto a letture non strutturali del tema."
+        },
+
+        "reduction_risk": {
+          "type": "string",
+          "description": "Come questo output potrebbe essere banalizzato o distorto nell'uso pratico: quale perdita strutturale è più probabile, quale forma di scivolamento verso il prescrittivo è più ricorrente."
+        }
+
+      }
+    },
+
+    "StructuralBasis": {
+      "type": "object",
+      "required": ["axes", "nodes", "tensions"],
+      "description": "Collegamento esplicito alla micro-matrice: quali elementi di STEP 4 questo output attiva.",
+      "properties": {
+
+        "axes": {
+          "type": "array",
+          "description": "Assi confermati in STEP 3 attivati da questo output. Devono essere un sottoinsieme degli assi confermati del tema.",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+          }
+        },
+
+        "nodes": {
+          "type": "array",
+          "description": "node_id esatti dei nodi confermati in theme-verification-v1.json per il tema. Nessuna riformulazione o derivazione ammessa: i valori devono corrispondere ai node_id in confirmed_nodes di STEP 3.",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+
+        "node_interpretation": {
+          "type": "string",
+          "description": "Campo opzionale. Se un nodo necessita di contestualizzazione per chiarire come entra nell'output specifico, fornire una breve frase descrittiva. Non sostituisce i node_id in nodes: li affianca per mantenere leggibilità senza perdere tracciabilità."
+        },
+
+        "tensions": {
+          "type": "array",
+          "description": "Etichette delle tensioni strutturali di STEP 4 che questo output rende visibili. Devono corrispondere esattamente ai valori tension in theme-matrix-v1.json. Le tensioni sono il motore interpretativo dell'output, non un elemento accessorio.",
+          "minItems": 1,
+          "items": { "type": "string" }
+        }
+
+      }
+    },
+
+    "MetaNotes": {
+      "type": "object",
+      "required": ["coherence_with_structure", "limitations", "next_step_orientation"],
+      "description": "Note meta sull'intera famiglia di output del tema.",
+      "properties": {
+
+        "coherence_with_structure": {
+          "type": "string",
+          "description": "Valutazione della coerenza complessiva della famiglia di output con la micro-matrice del tema: quanto le famiglie restano fedeli alla configurazione strutturale senza scivolare nel prescrittivo."
+        },
+
+        "limitations": {
+          "type": "string",
+          "description": "Limitazioni strutturali della famiglia di output: quali domini non sono stati coperti e perché, quali aspetti della micro-matrice restano non tradotti."
+        },
+
+        "next_step_orientation": {
+          "type": "string",
+          "description": "Orientamento per il passaggio alla Fase 3 (costruzione degli strumenti operativi): quali output families sono più mature per lo sviluppo di strumenti, quali richiedono ulteriore elaborazione."
+        }
+
+      }
+    }
+
+  }
+}

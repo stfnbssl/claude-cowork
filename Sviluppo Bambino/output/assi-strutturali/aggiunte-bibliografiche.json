@@ -1,0 +1,145 @@
+{
+  "nota": "Questi titoli NON sono citati esplicitamente nei testi degli assi strutturali. Sono stati aggiunti in quanto opere fondamentali degli autori citati per nome senza riferimento a titoli specifici. Utili come base per approfondimenti e per il sito HCAIRE.",
+  "data_aggiunta": "2026-04-21",
+  "voci": [
+    {
+      "autore": "amartya-sen",
+      "titolo": "Lo sviluppo è libertà",
+      "id": "sen-lo-sviluppo-e-liberta",
+      "assi_di_riferimento": [
+        "Asse 5"
+      ],
+      "motivazione": "Il concetto di capabilities (capacità fondamentali) come misura della libertà reale."
+    },
+    {
+      "autore": "arnold-gehlen",
+      "titolo": "L'uomo. La sua natura e il suo posto nel mondo",
+      "id": "gehlen-l-uomo",
+      "assi_di_riferimento": [
+        "Asse 6"
+      ],
+      "motivazione": "L'essere umano come «essere manchevole» (Mängelwesen): le istituzioni compensano l'incompletezza biologica e stabilizzano l'esistenza."
+    },
+    {
+      "autore": "colwyn-trevarthen",
+      "titolo": "Communication and Cooperation in Early Infancy",
+      "id": "trevarthen-communication-cooperation",
+      "assi_di_riferimento": [
+        "Asse 4"
+      ],
+      "motivazione": "L'intersoggettività primaria come struttura della relazione pre-verbale; le sintonie come base della comunicazione."
+    },
+    {
+      "autore": "daniel-stern",
+      "titolo": "Il mondo interpersonale del bambino",
+      "id": "stern-mondo-interpersonale-del-bambino",
+      "assi_di_riferimento": [
+        "Asse 4",
+        "Asse 5"
+      ],
+      "motivazione": "Le sintonizzazioni affettive e il sé emergente; le rotture delle aspettative di coerenza nello sviluppo."
+    },
+    {
+      "autore": "emmanuel-levinas",
+      "titolo": "Totalità e infinito",
+      "id": "levinas-totalita-e-infinito",
+      "assi_di_riferimento": [
+        "Asse 1",
+        "Asse 2",
+        "Asse 4"
+      ],
+      "motivazione": "L'altro come infinito che interrompe e obbliga; la responsabilità come risposta all'altro prima di ogni norma."
+    },
+    {
+      "autore": "emmanuel-levinas",
+      "titolo": "Altrimenti che essere, o al di là dell'essenza",
+      "id": "levinas-altrimenti-che-essere",
+      "assi_di_riferimento": [
+        "Asse 4"
+      ],
+      "motivazione": "La responsabilità non fondata su sovranità; la presenza dell'altro senza appropriazione."
+    },
+    {
+      "autore": "edward-tronick",
+      "titolo": "The Neurobehavioral and Social-Emotional Development of Infants and Children",
+      "id": "tronick-neurobehavioral-development",
+      "assi_di_riferimento": [
+        "Asse 5"
+      ],
+      "motivazione": "Le rotture non riparate nella co-regolazione; il paradigma Still Face come evidenza delle interruzioni nella sintonizzazione."
+    },
+    {
+      "autore": "franco-basaglia",
+      "titolo": "L'istituzione negata",
+      "id": "basaglia-l-istituzione-negata",
+      "assi_di_riferimento": [
+        "Asse 4"
+      ],
+      "motivazione": "La critica alla patologizzazione dell'esperienza umana e alla medicalizzazione del non simbolizzato."
+    },
+    {
+      "autore": "george-herbert-mead",
+      "titolo": "Mente, sé e società",
+      "id": "mead-mind-self-and-society",
+      "assi_di_riferimento": [
+        "Asse 4"
+      ],
+      "motivazione": "Le trasformazioni del sé nei contesti sociali; il sé come struttura dialogica che emerge nell'interazione."
+    },
+    {
+      "autore": "hans-jonas",
+      "titolo": "Il principio responsabilità",
+      "id": "jonas-il-principio-responsabilita",
+      "assi_di_riferimento": [
+        "Asse 5",
+        "Asse 6"
+      ],
+      "motivazione": "L'apertura dell'organismo al futuro; la tecnica promette dominio ma genera vulnerabilità."
+    },
+    {
+      "autore": "immanuel-kant",
+      "titolo": "Critica della ragion pratica",
+      "id": "kant-critica-della-ragion-pratica",
+      "assi_di_riferimento": [
+        "Asse 5"
+      ],
+      "motivazione": "Usato come contro-modello: una normatività fondata sull'autonomia della ragione pura, non sul desiderio."
+    },
+    {
+      "autore": "immanuel-kant",
+      "titolo": "Fondazione della metafisica dei costumi",
+      "id": "kant-fondazione-metafisica-costumi",
+      "assi_di_riferimento": [
+        "Asse 5"
+      ],
+      "motivazione": "L'imperativo categorico come archetipo di normatività razionale: punto di distanza esplicita del modello degli assi."
+    },
+    {
+      "autore": "pierre-bourdieu",
+      "titolo": "Il senso pratico",
+      "id": "bourdieu-il-senso-pratico",
+      "assi_di_riferimento": [
+        "Asse 5"
+      ],
+      "motivazione": "Il concetto di habitus come struttura incorporata che orienta le pratiche senza essere esplicitamente cosciente."
+    },
+    {
+      "autore": "pierre-bourdieu",
+      "titolo": "Ragioni pratiche",
+      "id": "bourdieu-ragioni-pratiche",
+      "assi_di_riferimento": [
+        "Asse 5"
+      ],
+      "motivazione": "Il campo come struttura di posizioni relative che organizza l'esperienza sociale."
+    },
+    {
+      "autore": "wilhelm-von-humboldt",
+      "titolo": "La diversità delle lingue",
+      "id": "humboldt-diversita-delle-lingue",
+      "assi_di_riferimento": [
+        "Asse 6"
+      ],
+      "motivazione": "Il linguaggio non è strumento ma «attività formativa del pensiero» (ergon vs energeia)."
+    }
+  ]
+}

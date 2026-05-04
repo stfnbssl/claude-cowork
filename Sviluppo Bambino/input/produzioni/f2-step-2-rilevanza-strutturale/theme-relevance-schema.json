@@ -1,0 +1,247 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Schema derivato dall'output theme-relevance-v1.json (aprile 2026). Descrive la struttura prodotta dallo STEP 2 della pipeline di theme discovery.",
+  "title": "ThemeRelevanceOutput",
+  "description": "Output dello STEP 2: ipotesi iniziale di rilevanza strutturale per uno o più temi.",
+
+  "type": "object",
+  "required": ["step", "results"],
+  "properties": {
+
+    "step": {
+      "type": "string",
+      "const": "step_2",
+      "description": "Identificatore dello step di pipeline. Valore fisso."
+    },
+
+    "results": {
+      "type": "array",
+      "description": "Array di oggetti, uno per ogni tema elaborato.",
+      "items": { "$ref": "#/definitions/ThemeRelevance" }
+    }
+
+  },
+
+  "definitions": {
+
+    "ThemeRelevance": {
+      "type": "object",
+      "required": [
+        "theme_id",
+        "candidate_axes",
+        "candidate_nodes",
+        "candidate_bridge_concepts",
+        "theme_structure_assessment",
+        "selection_rationale",
+        "notes_for_review"
+      ],
+      "properties": {
+
+        "theme_id": {
+          "type": "string",
+          "description": "ID del tema, corrispondente al theme_id in theme-discovery-v1.json.",
+          "examples": ["tema_02_lettura_dialogica"]
+        },
+
+        "candidate_axes": {
+          "type": "array",
+          "description": "Assi strutturali candidati per il tema. Solo assi con motivazione strutturale esplicita. Non includere assi per completezza.",
+          "items": { "$ref": "#/definitions/CandidateAxis" }
+        },
+
+        "candidate_nodes": {
+          "type": "array",
+          "description": "Nodi strutturali candidati. Target: 5–10 per tema. 80–90% derivati dai JSON degli assi. Max 1–2 nodi derivati ex novo.",
+          "minItems": 5,
+          "maxItems": 10,
+          "items": { "$ref": "#/definitions/CandidateNode" }
+        },
+
+        "candidate_bridge_concepts": {
+          "type": "array",
+          "description": "Concetti-ponte candidati. Target: 2–4 per tema. Devono collegare effettivamente più assi e aggiungere una relazione nuova.",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": { "$ref": "#/definitions/BridgeConcept" }
+        },
+
+        "theme_structure_assessment": {
+          "$ref": "#/definitions/ThemeStructureAssessment"
+        },
+
+        "selection_rationale": {
+          "type": "string",
+          "description": "Spiegazione sintetica di perché questi assi sono stati selezionati e come il tema si distribuisce strutturalmente."
+        },
+
+        "notes_for_review": {
+          "type": "string",
+          "description": "Note per la revisione umana: punti di incertezza, nodi da verificare, segnalazioni per STEP 3."
+        }
+
+      }
+    },
+
+    "CandidateAxis": {
+      "type": "object",
+      "required": ["axis_id", "axis_name", "relevance_level", "reason"],
+      "properties": {
+
+        "axis_id": {
+          "type": "string",
+          "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"],
+          "description": "Identificatore dell'asse strutturale."
+        },
+
+        "axis_name": {
+          "type": "string",
+          "enum": [
+            "Ontologico–fenomenologico",
+            "Affettivo–morale",
+            "Normativo–educativo",
+            "Separazione e Limite",
+            "Desiderio",
+            "Storico–culturale"
+          ],
+          "description": "Nome leggibile dell'asse."
+        },
+
+        "relevance_level": {
+          "type": "string",
+          "enum": ["forte", "plausibile", "da_verificare"],
+          "description": "Livello di plausibilità strutturale dell'asse per questo tema."
+        },
+
+        "reason": {
+          "type": "string",
+          "description": "Motivazione strutturale dell'inclusione. No linguaggio operativo, no esempi pratici."
+        }
+
+      }
+    },
+
+    "CandidateNode": {
+      "type": "object",
+      "required": [
+        "node_id",
+        "node_label",
+        "source_axis",
+        "source_axis_name",
+        "relevance_level",
+        "is_derived",
+        "reason"
+      ],
+      "properties": {
+
+        "node_id": {
+          "type": "string",
+          "description": "Identificatore del nodo in kebab-case. Se proveniente da un JSON degli assi, usare l'id originale.",
+          "examples": ["co-regolazione", "mediazione-simbolica"]
+        },
+
+        "node_label": {
+          "type": "string",
+          "description": "Etichetta leggibile del nodo.",
+          "examples": ["Co-regolazione", "Mediazione simbolica"]
+        },
+
+        "source_axis": {
+          "type": "string",
+          "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"],
+          "description": "Asse di origine del nodo."
+        },
+
+        "source_axis_name": {
+          "type": "string",
+          "description": "Nome leggibile dell'asse di origine."
+        },
+
+        "relevance_level": {
+          "type": "string",
+          "enum": ["forte", "plausibile", "da_verificare"],
+          "description": "Livello di rilevanza del nodo per questo tema specifico."
+        },
+
+        "is_derived": {
+          "type": "boolean",
+          "description": "true se il nodo è costruito ex novo (non presente nei JSON degli assi). Max 1–2 per tema. Richiede giustificazione esplicita nel campo reason.",
+          "default": false
+        },
+
+        "reason": {
+          "type": "string",
+          "description": "Motivazione dell'inclusione del nodo. Deve giustificare perché è discriminante per questo tema specifico, non solo corretto in astratto."
+        }
+
+      }
+    },
+
+    "BridgeConcept": {
+      "type": "object",
+      "required": ["concept_label", "linked_axes", "linked_nodes", "relevance_level", "reason"],
+      "properties": {
+
+        "concept_label": {
+          "type": "string",
+          "description": "Etichetta del concetto-ponte. Deve nominare la relazione strutturale tra assi, non solo un concetto generico.",
+          "examples": ["Mediazione simbolica condivisa", "Struttura triadica caregiver–bambino–libro"]
+        },
+
+        "linked_axes": {
+          "type": "array",
+          "description": "Assi collegati dal concetto-ponte. Minimo 2.",
+          "minItems": 2,
+          "items": {
+            "type": "string",
+            "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+          }
+        },
+
+        "linked_nodes": {
+          "type": "array",
+          "description": "Nodi (da candidate_nodes) attraverso cui passa la connessione.",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+
+        "relevance_level": {
+          "type": "string",
+          "enum": ["forte", "plausibile", "da_verificare"],
+          "description": "Livello di plausibilità del concetto-ponte per questo tema."
+        },
+
+        "is_derived": {
+          "type": "boolean",
+          "description": "true se il concetto-ponte è costruito ex novo (non derivabile direttamente dai JSON degli assi). Usare quando il concetto è necessario per descrivere il tema ma non è presente nei nodi esistenti.",
+          "default": false
+        },
+
+        "reason": {
+          "type": "string",
+          "description": "Motivazione del concetto-ponte. Deve specificare quale relazione nuova aggiunge tra gli assi collegati — non solo ribadire che collega quegli assi."
+        }
+
+      }
+    },
+
+    "ThemeStructureAssessment": {
+      "type": "object",
+      "required": ["type", "notes"],
+      "properties": {
+
+        "type": {
+          "type": "string",
+          "enum": ["asse_dominante", "multi_assiale", "soglia_tra_assi"],
+          "description": "Tipo di distribuzione strutturale del tema. asse_dominante: un asse è chiaramente prevalente. multi_assiale: distribuito su più assi con peso comparabile. soglia_tra_assi: si colloca al confine tra due assi."
+        },
+
+        "notes": {
+          "type": "string",
+          "description": "Note sulla distribuzione strutturale. Se multi_assiale con assi co-dominanti, specificare le funzioni diverse di ciascun asse co-dominante (non solo nominarli)."
+        }
+
+      }
+    }
+
+  }
+}

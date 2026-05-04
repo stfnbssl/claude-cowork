@@ -1,0 +1,149 @@
+{
+  "step": "step_2",
+  "results": [
+    {
+      "theme_id": "tema_07_ecosistema_digitale",
+      "candidate_axes": [
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "relevance_level": "forte",
+          "reason": "Il tema interroga la forma stessa del campo del desiderabile come struttura di orientamento pre-riflessivo. La meccanica dell'engagement (ricompense variabili, feedback immediato) opera precisamente sulla soggettivazione del desiderio, sostituendo l'orientamento come direzione assunta con motivazione reattiva dipendente dallo stimolo. Senza questo asse, la specificità del tema — la deformazione strutturale del desiderio attraverso la forma dell'interazione, non attraverso i contenuti — non è leggibile."
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico–culturale",
+          "relevance_level": "forte",
+          "reason": "L'ecosistema digitale è la forma storica contemporanea più pervasiva di mediazione tecnica dell'esperienza. Il tema è strutturalmente impossibile da pensare al di fuori di questo asse: la tecnica non come strumento neutro ma come dispositivo che riconfigura tempo, attenzione e orizzonti del valore prima di qualsiasi uso consapevole. La lettura come deformazione strutturale (non come errore individuale né come cattiva educazione) richiede precisamente l'apparato concettuale dell'asse."
+        },
+        {
+          "axis_id": "asse_3",
+          "axis_name": "Normativo–educativo",
+          "relevance_level": "plausibile",
+          "reason": "L'ecosistema digitale produce un orizzonte di senso implicito su ciò che è desiderabile, riconoscibile, riuscito, normale — pre-strutturando le condizioni del giudizio prima che possano diventare oggetto di riflessione. Lo spostamento dal giudizio alla valutazione (logica della prestazione, metrica del successo come visibilità misurabile) tocca direttamente il piano normativo non come trasmissione esplicita ma come configurazione storica del fallimento normativo per prestazione. La dimensione è reale ma derivativa rispetto agli assi co-dominanti."
+        },
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "plausibile",
+          "reason": "I meccanismi del feedback immediato e della frammentazione attenzionale incidono sulla struttura della temporalità vissuta (compressione dello spessore del presente, neutralizzazione dell'attesa) e sulla qualità del campo intenzionale, prima di qualsiasi tematizzazione del contenuto digitale. L'asse aggiunge il livello esperienziale che gli altri assi non presidiano direttamente: come la mediazione tecnica modifica la grammatica fenomenologica dell'esperienza."
+        }
+      ],
+      "candidate_nodes": [
+        {
+          "node_id": "desiderio-come-struttura",
+          "node_label": "Desiderio come struttura di orientamento",
+          "source_axis": "asse_5",
+          "source_axis_name": "Desiderio",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Il tema è una domanda diretta su cosa accade al desiderio come forma del rapporto con il possibile quando la mediazione tecnica satura l'orizzonte. Senza il nodo, il fenomeno collassa in 'dipendenza da schermo' o 'comportamento di consumo', perdendo la dimensione strutturale per cui il problema riguarda l'orientamento, non l'intensità."
+        },
+        {
+          "node_id": "campo-desiderabile",
+          "node_label": "Campo desiderabile",
+          "source_axis": "asse_5",
+          "source_axis_name": "Desiderio",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "È il piano strutturale che il tema interroga esplicitamente: l'ecosistema digitale modula attivamente l'orizzonte di ciò che appare desiderabile, accessibile e soddisfacente prima di qualsiasi scelta. Il nodo è discriminante perché distingue questo tema da quelli incentrati sulla qualità della relazione (technoference, lettura dialogica): qui in gioco non è la presenza dell'altro ma la forma del campo del possibile."
+        },
+        {
+          "node_id": "motivazione-come-sostituto",
+          "node_label": "Motivazione come sostituto del desiderio",
+          "source_axis": "asse_5",
+          "source_axis_name": "Desiderio",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Cattura il meccanismo specifico della deformazione: l'engagement design produce comportamento efficace sostenuto da stimoli esterni (ricompense variabili) senza orientamento interno. È il nodo che distingue strutturalmente l'ecosistema digitale dalle altre forme di mediazione tecnica e dalle deformazioni di altra natura."
+        },
+        {
+          "node_id": "tecnica-come-forma-storica",
+          "node_label": "Tecnica come forma storica",
+          "source_axis": "asse_6",
+          "source_axis_name": "Storico–culturale",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "È il fondamento concettuale che impedisce al tema di scivolare in tecnofobia o in raccomandazione comportamentale individuale. La tecnica non come strumento ma come configurazione storica dell'esperienza è il quadro obbligato per leggere l'ecosistema digitale come dispositivo strutturale e non come comportamento problematico."
+        },
+        {
+          "node_id": "prestazionalizzazione-del-valore",
+          "node_label": "Prestazionalizzazione del valore",
+          "source_axis": "asse_6",
+          "source_axis_name": "Storico–culturale",
+          "relevance_level": "forte",
+          "is_derived": false,
+          "reason": "Discriminante per questo tema: l'engagement come metrica trasforma il desiderabile in misurabile (likes, time-on-app, completion rate). La logica della prestazione entra nella struttura stessa della relazione bambino–dispositivo prima di qualsiasi contenuto educativo. Distingue l'ecosistema digitale da altre forme di mediazione tecnica meno orientate alla cattura attenzionale."
+        },
+        {
+          "node_id": "orizzonte-di-senso",
+          "node_label": "Orizzonte di senso",
+          "source_axis": "asse_6",
+          "source_axis_name": "Storico–culturale",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "Il tema attiva il nodo nella sua versione contemporanea: ciò che appare ovvio, dato per scontato, non messo in questione viene prodotto attivamente dalle architetture algoritmiche prima della riflessione del soggetto. Distingue questo tema da quelli sulla trasmissione esplicita (lettura dialogica): qui l'orizzonte non è trasmesso ma configurato dall'infrastruttura."
+        },
+        {
+          "node_id": "fallimento-normativo",
+          "node_label": "Fallimento normativo",
+          "source_axis": "asse_3",
+          "source_axis_name": "Normativo–educativo",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "Tra le tre configurazioni del fallimento normativo descritte nell'asse, la 'prestazione come sostituto del giudizio' è esattamente la configurazione che l'ecosistema digitale generalizza. Il nodo è discriminante: collega la deformazione del desiderio alla deformazione delle condizioni del giudizio, mostrando che le due deformazioni non sono separate ma strutturalmente solidali."
+        },
+        {
+          "node_id": "temporalità-vissuta",
+          "node_label": "Temporalità vissuta",
+          "source_axis": "asse_1",
+          "source_axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "Il feedback immediato e la disponibilità continua comprimono lo spessore del presente vissuto e neutralizzano l'attesa come struttura. Il nodo è discriminante per questo tema in quanto descrive la modificazione fenomenologica precisa che l'ecosistema produce: non lentezza/velocità in senso quantitativo ma trasformazione qualitativa del modo in cui il tempo è abitato."
+        },
+        {
+          "node_id": "campo-intenzionale",
+          "node_label": "Campo intenzionale",
+          "source_axis": "asse_1",
+          "source_axis_name": "Ontologico–fenomenologico",
+          "relevance_level": "plausibile",
+          "is_derived": false,
+          "reason": "Il nodo coglie l'effetto della frammentazione attenzionale al livello pre-riflessivo: l'orizzonte unitario di possibilità si rigidifica o si polverizza quando la struttura dell'attenzione viene continuamente catturata. Distinto dal campo-desiderabile (Asse 5) perché opera al livello fenomenologico primario, non a quello dell'orientamento desiderante."
+        }
+      ],
+      "candidate_bridge_concepts": [
+        {
+          "concept_label": "Saturazione tecnica del campo del desiderabile",
+          "linked_axes": ["asse_5", "asse_6"],
+          "linked_nodes": ["campo-desiderabile", "tecnica-come-forma-storica", "motivazione-come-sostituto"],
+          "relevance_level": "forte",
+          "is_derived": true,
+          "reason": "Descrive la trasformazione strutturale centrale del tema: la forma storica della tecnica (Asse 6) entra nella struttura del desiderio (Asse 5) sostituendo l'orientamento con motivazione reattiva attraverso meccanismi di ricompensa variabile. Il ponte non si limita a constatare la co-presenza dei due assi ma nomina il processo per cui un dispositivo storico trasforma una struttura ontologica del soggetto. Marcato is_derived perché la connessione specifica saturazione/desiderio è formulata qui per il tema, anche se i nodi che la compongono sono presenti negli assi."
+        },
+        {
+          "concept_label": "Frammentazione attenzionale come deformazione del campo intenzionale",
+          "linked_axes": ["asse_1", "asse_6"],
+          "linked_nodes": ["campo-intenzionale", "temporalità-vissuta", "tecnica-come-forma-storica"],
+          "relevance_level": "plausibile",
+          "is_derived": true,
+          "reason": "Trasformazione distinta dalla precedente: la mediazione tecnica contemporanea (Asse 6) non opera solo sul campo del desiderabile ma altera la grammatica fenomenologica del campo intenzionale e della temporalità vissuta (Asse 1) prima di qualsiasi tematizzazione. Il ponte descrive il passaggio per cui un'architettura tecnica produce effetti al livello pre-riflessivo dell'esperienza, non al livello del comportamento o della scelta."
+        },
+        {
+          "concept_label": "Pre-strutturazione normativa dell'orizzonte di senso",
+          "linked_axes": ["asse_3", "asse_6"],
+          "linked_nodes": ["orizzonte-di-senso", "prestazionalizzazione-del-valore", "fallimento-normativo"],
+          "relevance_level": "plausibile",
+          "is_derived": true,
+          "reason": "Trasformazione ulteriore non riducibile alle prime due: l'ecosistema digitale (Asse 6) configura attivamente ciò che vale, ciò che è desiderabile, ciò che conta come riuscita, sostituendo il giudizio normativo (Asse 3) con la valutazione metrica. Il ponte nomina il passaggio per cui l'infrastruttura tecnica produce una normatività implicita prima del giudizio — non come trasmissione di norme ma come pre-orientamento dell'orizzonte in cui il giudizio sarebbe possibile."
+        }
+      ],
+      "theme_structure_assessment": {
+        "type": "multi_assiale",
+        "notes": "Tema con due assi co-dominanti (Asse 5 e Asse 6) che svolgono funzioni strutturalmente diverse: Asse 5 individua il piano del soggetto su cui la deformazione opera (struttura del desiderio come orientamento, campo del desiderabile, sostituzione con motivazione reattiva); Asse 6 individua il dispositivo storico che produce la deformazione (tecnica come forma storica, prestazionalizzazione del valore, mediazione strutturale dell'esperienza). I due assi non sono giustapposti ma strutturalmente intrecciati: la deformazione del desiderio è leggibile solo come effetto della mediazione tecnica, e la mediazione tecnica è significativa per lo sviluppo solo in quanto modifica strutture come quella del desiderio. Asse 3 e Asse 1 entrano come piani subordinati che presidiano dimensioni distinte (orizzonte normativo implicito; livello fenomenologico di temporalità e attenzione) non altrimenti coperte dai co-dominanti."
+      },
+      "selection_rationale": "Il tema interroga la forma stessa dei sistemi digitali orientati all'engagement come dispositivo che ristruttura il campo del desiderabile, non i loro contenuti. Asse 5 (Desiderio) e Asse 6 (Storico–culturale) sono co-dominanti perché la deformazione del desiderio descritta dall'Asse 5 (in particolare la sostituzione del desiderio con motivazione reattiva) è precisamente leggibile attraverso la categoria della tecnica come forma storica dell'Asse 6: i due assi si richiamano l'un l'altro per rendere il tema pensabile. Asse 3 entra al livello del fallimento normativo per prestazione (la valutazione che si sostituisce al giudizio) e degli orizzonti normativi impliciti pre-strutturati dall'infrastruttura. Asse 1 entra al livello fenomenologico della temporalità vissuta e del campo intenzionale, che il feedback immediato e la frammentazione attenzionale modificano prima di qualsiasi tematizzazione. Sono stati esclusi Asse 2 (Affettivo–morale: il tema non riguarda l'interiorizzazione dell'altro come istanza, anche se si interseca con il tema 'technoference' che invece la attiva) e Asse 4 (Separazione e Limite: la sospensione dell'esperienza dell'eccedenza e della perdita prodotta dall'engagement è strutturalmente affine ma non è il fuoco del tema, che è il versante 'desiderio' più che il versante 'limite'). Punti di incertezza: la disambiguazione concettuale rispetto al tema technoference (qui in gioco è la struttura del campo del bambino, non la qualità della presenza del caregiver) e il rischio che la rilevanza dell'Asse 1 venga sovra-pesata data la sovrapposizione con la frammentazione attenzionale del caregiver.",
+      "notes_for_review": "1) Disambiguazione obbligatoria in STEP 3 tra il presente tema e 'Technoference e qualità della presenza relazionale': i due temi convergono sull'Asse 6 (tecnica come forma storica) ma divergono sull'oggetto strutturale (campo del desiderabile del bambino vs. qualità della co-presenza del caregiver). La micro-matrice deve mantenere distinte le due configurazioni per non perdere la specificità di entrambe. 2) Asse 4 (Separazione e Limite) non è stato incluso: l'engagement design elimina strutturalmente l'esperienza dell'eccedenza, della perdita e dell'attesa — un raccordo concettualmente plausibile ma derivativo rispetto ai co-dominanti. Da rivalutare in STEP 3 se l'analisi richiede di rendere esplicita la dimensione del limite eluso come condizione del passaggio dal desiderio strutturale alla compensazione reattiva. 3) Asse 3 è incluso come 'plausibile' ma il suo statuto richiede verifica: il nodo 'fallimento-normativo' coglie precisamente la 'prestazione' come modo del fallimento (cap. 5 dell'Asse 3, riferimento a Stiegler), però l'asse normativo richiede prudenza per fasce d'età molto basse. Verificare se il tema vada articolato in funzione dell'età evolutiva del bambino o se mantenga unità trasversale. 4) Tre concetti-ponte sono stati marcati 'is_derived': non introducono nodi nuovi ma formulano relazioni cross-assiali specifiche per questo tema, non già esplicite nei JSON degli assi. 5) Rischi principali da segnalare a STEP 3: a) lettura del tema come 'critica della tecnologia' o 'tecnofobia' anziché come analisi strutturale della mediazione tecnica come forma storica; b) riduzione a tematica di 'screen time' o di 'parental controls', che il tema esplicitamente esclude; c) operativizzazione precoce in raccomandazioni comportamentali per famiglie."
+    }
+  ]
+}

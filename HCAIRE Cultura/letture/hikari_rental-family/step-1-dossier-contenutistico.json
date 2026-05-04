@@ -1,0 +1,314 @@
+{
+  "opera": {
+    "titolo": "Rental Family",
+    "autore": "Hikari",
+    "altri_autori": [
+      "Stephen Blahut (co-sceneggiatore)",
+      "Takurō Ishizaka (direttore della fotografia)",
+      "Jónsi (compositore della colonna sonora originale)",
+      "Alex Somers (compositore della colonna sonora originale)",
+      "Alan Baumgarten (montatore)",
+      "Thomas A. Krueger (montatore)",
+      "Eddie Vaisman (produttore)",
+      "Julia Lebedev (produttrice)",
+      "Shin Yamaguchi (produttore)"
+    ],
+    "macrotipologia": "film",
+    "genere": "commedia drammatica",
+    "anno": 2025,
+    "paese": "Stati Uniti d'America, Giappone",
+    "editore_produttore": "Sight Unseen Productions, Domo Arigato Productions; distribuito negli Stati Uniti da Searchlight Pictures",
+    "materiali_disponibili": [
+      "sinossi e schede del film raccolte da fonti enciclopediche e critiche",
+      "recensioni della stampa specializzata",
+      "interviste alla regista",
+      "nota personale dell'utente sulla visione del film"
+    ],
+    "fonti_utilizzate": [
+      "Wikipedia (voce 'Rental Family')",
+      "Wikipedia (voce 'Rental family service')",
+      "Variety, recensione di Peter Debruge (2025)",
+      "Script Magazine, intervista a Hikari",
+      "Third Coast Review, intervista a Hikari",
+      "Tokyo Weekender, profilo di Hikari",
+      "Schede di Rotten Tomatoes, IMDb, Letterboxd, FilmAffinity",
+      "Articolo di TIME, 'The Real Inspiration Behind Rental Family'",
+      "Hivelife, 'Rent-A-Family: The Japanese Industry Reimagining What Family Means'"
+    ]
+  },
+  "sintesi_contenutistica": "Il film segue Phillip Vanderploeg, attore americano di mezza età residente a Tokyo, la cui carriera si è arenata dopo un effimero successo in uno spot pubblicitario per dentifrici di sette anni prima. Per necessità economica, Phillip accetta un ingaggio insolito presso un'agenzia giapponese di 'rental family', che fornisce attori incaricati di interpretare ruoli relazionali su commissione: parenti assenti, amici di circostanza, partecipanti a funerali, fidanzati di facciata. Il film procede in modo episodico attraverso vari incarichi — fra cui la presenza a un funerale come dolente, l'interpretazione di un fidanzato per una cliente lesbica che vuole inscenare il proprio matrimonio per coprire la propria relazione, e altre situazioni minori — per poi concentrarsi su due assegnazioni di lungo periodo. Nella prima Phillip impersona il padre assente di Mia, bambina di circa undici anni di origine mista, per favorirne l'ammissione a una scuola d'élite che valuta anche la composizione del nucleo familiare. Nella seconda è chiamato dalla figlia di Kikuo Hasegawa, anziano attore giapponese affetto da demenza incipiente, a fingersi un giornalista che lo intervisti per fissare la memoria della sua vita prima che essa si dissolva. In entrambi i casi i confini fra interpretazione professionale e legame autentico si assottigliano: Phillip rinuncia a un'occasione di lavoro maggiore pur di restare disponibile per Mia, e contravviene al protocollo aziendale portando Kikuo nel suo paese natale di Amakusa, dove l'anziano riemerge in contatto con i ricordi della prima moglie defunta. Quest'ultimo gesto comporterebbe l'arresto di Phillip per presunto rapimento, da cui sarebbe poi prosciolto. Nella parte conclusiva Mia scoprirebbe la vera identità del finto padre, la collega di Phillip — Aiko — si dimetterebbe interrogandosi sull'eticità del servizio, l'agenzia abbandonerebbe le prestazioni più moralmente discutibili, Kikuo morirebbe e fra Phillip e Mia si stabilirebbe un rapporto di amicizia trasparente, non più mediato dalla finzione.",
+  "struttura_formale": {
+    "descrizione": "Lungometraggio cinematografico di durata indicata in 110 minuti, organizzato secondo una struttura episodica che alterna assegnazioni brevi e auto-conclusive del protagonista con due archi narrativi maggiori (Mia e Kikuo) che si sviluppano in parallelo lungo l'intero film e ne costituiscono la spina dorsale emotiva.",
+    "unita": [
+      {
+        "nome": "Esposizione e ingaggio",
+        "descrizione_sintetica": "Presentazione di Phillip come attore in difficoltà a Tokyo e suo reclutamento presso l'agenzia di rental family."
+      },
+      {
+        "nome": "Episodi brevi di servizio",
+        "descrizione_sintetica": "Sequenza di incarichi auto-conclusivi (funerale, finto fidanzato, ecc.) che illustrano il funzionamento dell'agenzia e introducono il tema della finzione relazionale."
+      },
+      {
+        "nome": "Arco narrativo Mia",
+        "descrizione_sintetica": "Phillip impersona il padre assente di una bambina per favorirne l'ammissione scolastica e progressivamente costruisce con lei un legame affettivo che eccede il mandato."
+      },
+      {
+        "nome": "Arco narrativo Kikuo",
+        "descrizione_sintetica": "Phillip si finge giornalista per intervistare un anziano attore con demenza incipiente, su richiesta della figlia che vuole salvarne la memoria, e finisce per accompagnarlo in un viaggio nei luoghi della sua vita."
+      },
+      {
+        "nome": "Crisi e svelamento",
+        "descrizione_sintetica": "Il viaggio non autorizzato ad Amakusa, l'arresto di Phillip, la scoperta da parte di Mia della finzione e le dimissioni di Aiko portano a un punto di rottura del meccanismo aziendale."
+      },
+      {
+        "nome": "Risoluzione",
+        "descrizione_sintetica": "Morte di Kikuo, riformulazione del rapporto fra Phillip e Mia su base di trasparenza, ridefinizione dei servizi dell'agenzia."
+      }
+    ],
+    "scelte_formali_rilevanti": "La struttura intreccia il registro della commedia leggera con quello del dramma intimista. La regia adotta toni quieti e un ritmo dilatato; la fotografia di Takurō Ishizaka valorizza le ambientazioni reali giapponesi (Tokyo e la regione di Amakusa nella prefettura di Kumamoto). Il film è una coproduzione USA-Giappone con dialoghi sia in inglese che in giapponese; il protagonista è dichiaratamente un outsider linguistico e culturale, condizione che la messa in scena tematizza."
+  },
+  "personaggi_figure_gruppi": [
+    {
+      "nome": "Phillip Vanderploeg",
+      "tipo": "personaggio",
+      "ruolo": "Protagonista. Attore americano residente a Tokyo, in difficoltà professionale, viene assunto dall'agenzia di rental family e svolge i vari incarichi attorno ai quali si sviluppa la trama. Punto di vista narrativo principale.",
+      "relazioni_principali": [
+        "Dipendente di Shinji",
+        "Collega di Aiko e Kota",
+        "Falso padre di Mia",
+        "Falso giornalista presso Kikuo"
+      ]
+    },
+    {
+      "nome": "Shinji",
+      "tipo": "personaggio",
+      "ruolo": "Proprietario dell'agenzia Rental Family. Figura datoriale che assegna gli incarichi e custodisce le regole operative del servizio.",
+      "relazioni_principali": [
+        "Datore di lavoro di Phillip, Aiko e Kota"
+      ]
+    },
+    {
+      "nome": "Aiko",
+      "tipo": "personaggio",
+      "ruolo": "Collega giapponese di Phillip presso l'agenzia. Funge da guida e contrappunto morale: le sue domande sull'eticità del servizio crescono fino al gesto delle dimissioni nel finale.",
+      "relazioni_principali": [
+        "Collega di Phillip",
+        "Dipendente di Shinji"
+      ]
+    },
+    {
+      "nome": "Kota",
+      "tipo": "personaggio",
+      "ruolo": "Altro dipendente dell'agenzia, comprimario.",
+      "relazioni_principali": [
+        "Collega di Phillip e Aiko"
+      ]
+    },
+    {
+      "nome": "Mia Kawasaki",
+      "tipo": "personaggio",
+      "ruolo": "Bambina di origine mista nippo-statunitense, cliente di lungo periodo. Sua madre commissiona a Phillip l'interpretazione del padre assente per favorirne l'ammissione scolastica.",
+      "relazioni_principali": [
+        "Figlia di Hitomi",
+        "Cliente / 'figlia' di Phillip"
+      ]
+    },
+    {
+      "nome": "Hitomi",
+      "tipo": "personaggio",
+      "ruolo": "Madre di Mia. Cliente che ingaggia il servizio per costruire l'apparenza di un nucleo familiare completo.",
+      "relazioni_principali": [
+        "Madre di Mia",
+        "Committente di Phillip"
+      ]
+    },
+    {
+      "nome": "Kikuo Hasegawa",
+      "tipo": "personaggio",
+      "ruolo": "Anziano attore giapponese in stato di demenza incipiente. Riceve la visita di Phillip nei panni di un giornalista immaginario; con lui compie il viaggio di ritorno ad Amakusa.",
+      "relazioni_principali": [
+        "Padre di Masami",
+        "Soggetto della finta intervista di Phillip"
+      ]
+    },
+    {
+      "nome": "Masami Hasegawa",
+      "tipo": "personaggio",
+      "ruolo": "Figlia di Kikuo. Committente del servizio: vuole che la storia di vita del padre sia raccolta prima che la memoria si dissolva.",
+      "relazioni_principali": [
+        "Figlia di Kikuo",
+        "Committente di Phillip"
+      ]
+    },
+    {
+      "nome": "Yoshie Ikeda",
+      "tipo": "personaggio",
+      "ruolo": "Cliente che ingaggia Phillip come finto fidanzato per inscenare un matrimonio di facciata, finalizzato a coprire la propria relazione con una donna in vista di un trasferimento all'estero.",
+      "relazioni_principali": [
+        "Cliente di Phillip"
+      ]
+    },
+    {
+      "nome": "Lola",
+      "tipo": "personaggio",
+      "ruolo": "Personaggio di supporto."
+    },
+    {
+      "nome": "Agenzia 'Rental Family'",
+      "tipo": "gruppo",
+      "ruolo": "Entità aziendale che fornisce attori per ruoli relazionali su commissione. Funziona come dispositivo narrativo che genera gli incarichi e come oggetto morale di interrogazione del film."
+    }
+  ],
+  "scene_momenti_chiave": [
+    {
+      "titolo_sintetico": "Funerale come dolente affittato",
+      "posizione_nell_opera": "primi episodi, parte iniziale",
+      "descrizione": "Phillip è ingaggiato per partecipare a un funerale come dolente. È uno dei primi incarichi che mostrano in cosa consiste concretamente il lavoro di un attore di rental family."
+    },
+    {
+      "titolo_sintetico": "Il finto fidanzato per il matrimonio di copertura",
+      "posizione_nell_opera": "primo terzo del film",
+      "descrizione": "Phillip impersona il fidanzato di Yoshie in vista di un matrimonio inscenato per nascondere la sua relazione con una donna e consentire un trasferimento all'estero."
+    },
+    {
+      "titolo_sintetico": "Primo incontro con Mia",
+      "posizione_nell_opera": "primo terzo / inizio del secondo atto",
+      "descrizione": "Phillip si presenta a Mia nel ruolo del padre assente, su commissione della madre. Inizio dell'arco narrativo destinato a generare il legame affettivo principale del film."
+    },
+    {
+      "titolo_sintetico": "Prima visita a Kikuo come finto giornalista",
+      "posizione_nell_opera": "secondo atto",
+      "descrizione": "Phillip avvia l'intervista immaginaria con l'anziano attore Kikuo Hasegawa su richiesta della figlia. L'incontro inaugura il secondo arco maggiore."
+    },
+    {
+      "titolo_sintetico": "La rinuncia all'occasione professionale per restare con Mia",
+      "posizione_nell_opera": "secondo atto avanzato",
+      "descrizione": "Phillip declina una significativa opportunità di lavoro come attore per non venire meno alla relazione con Mia, segnando uno spostamento di priorità del personaggio."
+    },
+    {
+      "titolo_sintetico": "Il viaggio ad Amakusa con Kikuo",
+      "posizione_nell_opera": "terzo atto",
+      "descrizione": "Phillip porta Kikuo, contro il protocollo aziendale, nella sua città natale di Amakusa. Lì l'anziano si confronta con i ricordi della prima moglie defunta. Segue l'arresto di Phillip per presunto rapimento."
+    },
+    {
+      "titolo_sintetico": "Lo svelamento a Mia",
+      "posizione_nell_opera": "terzo atto",
+      "descrizione": "Mia scopre la vera identità di Phillip e la natura mercenaria del rapporto inscenato fino a quel momento."
+    },
+    {
+      "titolo_sintetico": "Le dimissioni di Aiko",
+      "posizione_nell_opera": "terzo atto",
+      "descrizione": "La collega Aiko abbandona l'agenzia, consumata dalle proprie obiezioni etiche al servizio."
+    },
+    {
+      "titolo_sintetico": "La morte di Kikuo e l'amicizia con Mia",
+      "posizione_nell_opera": "finale",
+      "descrizione": "Kikuo muore. Fra Phillip e Mia si ricostituisce un rapporto, questa volta fondato sulla trasparenza e non più sulla finzione contrattuale. L'agenzia ridimensiona i propri servizi più discutibili."
+    }
+  ],
+  "temi_espliciti": [
+    {
+      "tema": "Solitudine nel Giappone contemporaneo",
+      "manifestazione": "Esplicitata sia nelle dichiarazioni della regista sia nella struttura del film: i clienti dell'agenzia sono persone che ricorrono a relazioni a pagamento per supplire a vuoti familiari, sentimentali o sociali."
+    },
+    {
+      "tema": "Confine fra finzione e realtà nelle relazioni",
+      "manifestazione": "L'intero meccanismo della rental family rende esplicito il problema: ogni incarico mette in scena un rapporto inesistente che, durando, produce effetti emotivi reali. Phillip è attore per professione e finto familiare per mestiere."
+    },
+    {
+      "tema": "Identità dell'outsider",
+      "manifestazione": "Phillip è esplicitamente un americano in Giappone, linguisticamente e culturalmente fuori posto. Il film tematizza ripetutamente la sua estraneità e l'apprendimento per imitazione delle convenzioni locali."
+    },
+    {
+      "tema": "Famiglia, sua composizione e sue apparenze",
+      "manifestazione": "La trama ruota attorno a famiglie incomplete o ricomposte: la madre single che cerca un padre di facciata per la figlia; la figlia che vuole conservare la memoria del padre malato; la donna che inscena un matrimonio per nascondere la propria relazione."
+    },
+    {
+      "tema": "Vecchiaia, memoria, demenza",
+      "manifestazione": "L'arco di Kikuo è esplicitamente costruito attorno alla perdita progressiva della memoria e al tentativo, da parte della figlia, di salvarla attraverso un dispositivo finzionale (l'intervista del finto giornalista)."
+    },
+    {
+      "tema": "Lavoro, vocazione e fallimento professionale",
+      "manifestazione": "Phillip è un attore in crisi di carriera: l'ingaggio nell'agenzia nasce per necessità economica, e il film ritorna sul tema del trovare senso nel proprio lavoro."
+    },
+    {
+      "tema": "Etica del servizio",
+      "manifestazione": "Aiko incarna esplicitamente la domanda morale sul servizio offerto; il finale, con la riformulazione dell'agenzia, registra una presa di posizione narrativa."
+    },
+    {
+      "tema": "Conforto e cura nelle situazioni di lutto e fragilità",
+      "manifestazione": "Il primo incarico mostrato è quello di una presenza affittata a un funerale; le relazioni con Kikuo e con Mia hanno entrambe a che fare con esperienze di mancanza, perdita o lutto."
+    },
+    {
+      "tema": "Connessione interculturale",
+      "manifestazione": "Il film mette continuamente in dialogo cultura statunitense e cultura giapponese, ed è esplicitamente una coproduzione che lavora sui codici di entrambe."
+    }
+  ],
+  "tensioni_emergenti": [
+    {
+      "descrizione": "La relazione fra l'aiuto reale prestato (alle persone sole, in lutto, ai bambini, agli anziani) e l'impianto deliberatamente menzognero su cui esso si fonda.",
+      "localizzazione": "Trasversale a tutto il film, esplicitata in particolare dal personaggio di Aiko e dalla risoluzione finale che vede l'agenzia ritirare alcuni servizi."
+    },
+    {
+      "descrizione": "L'oscillazione fra la qualifica del rental family come servizio professionale e la qualifica di vocazione quasi ministeriale (procurare conforto, presenza, ascolto a chi ne è privo).",
+      "localizzazione": "Implicita nella natura stessa degli incarichi e nel modo in cui Phillip li attraversa; emerge soprattutto negli archi di Mia e Kikuo."
+    },
+    {
+      "descrizione": "Il rapporto fra l'autenticità del legame fra Phillip e Mia (e fra Phillip e Kikuo) e il fatto che esso nasca per contratto, sotto falsa identità.",
+      "localizzazione": "Archi di Mia e Kikuo, con punto di crisi nello svelamento finale e nell'arresto."
+    },
+    {
+      "descrizione": "Il registro tonale: alcuni recensori segnalano la convivenza fra commedia leggera e dramma intimista come un equilibrio non sempre risolto, con una propensione del film verso la sentimentalità.",
+      "localizzazione": "Trasversale all'intero film; in particolare nei passaggi più dichiaratamente emotivi degli archi maggiori."
+    },
+    {
+      "descrizione": "La rappresentazione di un fenomeno sociale giapponese reale (i servizi di affitto familiare) attraverso lo sguardo di un protagonista occidentale, in un film a coproduzione internazionale: si pone implicitamente la questione del punto di vista da cui il fenomeno viene mostrato.",
+      "localizzazione": "Implicita nell'impianto generale dell'opera; la regista, di origine giapponese ma con lunga esperienza statunitense, ha dichiarato in interviste di aver scoperto il fenomeno tramite il co-sceneggiatore americano Stephen Blahut."
+    },
+    {
+      "descrizione": "Il rapporto con la morte: presenza affittata al funerale, demenza e morte di Kikuo, chiusura del film su una perdita. Il film tocca ripetutamente il lutto come orizzonte della finzione consolatoria, senza esaurirne la portata.",
+      "localizzazione": "Inizio (incarico al funerale) e finale (morte di Kikuo)."
+    }
+  ],
+  "contesto_storico_culturale": {
+    "clima_culturale": "Il film esce nel 2025 in un contesto di accresciuta consapevolezza pubblica, anche internazionale, della solitudine come questione sociale, in particolare nelle società ad alta urbanizzazione e bassa natalità. In Giappone il tema dell'isolamento (con figure socialmente codificate come gli hikikomori e con la cosiddetta 'epidemia di solitudine') è discusso da decenni e ha trovato eco in politiche pubbliche dedicate. Sul versante statunitense, il film si colloca in una fase di rivalutazione critica e popolare di Brendan Fraser dopo il successo di 'The Whale' (2022).",
+    "riferimenti_storici": "Il film fa esplicito riferimento a un'industria reale: i 'rental family service' giapponesi, attivi almeno dai primi anni '90 (il primo servizio noto sarebbe stato offerto dalla Japan Efficiency Corporation / Nihon Kokasei Honbu nel 1991) e oggi rappresentati da aziende come Family Romance fondata da Ishii Yūichi. Il film ambienta inoltre alcune sequenze ad Amakusa (prefettura di Kumamoto), con un riferimento di paesaggio e di memoria personale al Giappone non metropolitano. Va segnalato che l'attendibilità di alcune narrazioni giornalistiche occidentali su questo settore è stata contestata: il celebre articolo del New Yorker del 2018 sull'argomento è stato oggetto di rettifica e restituzione del premio National Magazine Award.",
+    "tradizione_di_appartenenza": "Si inserisce in una tradizione di film 'cross-cultural' fra Giappone e Occidente che mettono al centro un protagonista straniero in territorio giapponese (un riferimento ricorrente nella critica è 'Lost in Translation' di Sofia Coppola, 2003). Sul piano del cinema di Hikari, dopo 'Beef' e 'Tonbo' / '37 Seconds', il film prosegue un interesse autoriale per personaggi marginali, dislocati o disabili che cercano contatto. Genericamente, è un dramedy indipendente d'autore distribuito da una major (Searchlight Pictures).",
+    "ricezione_critica": "L'accoglienza è stata mediamente positiva. Su Rotten Tomatoes risulterebbe attorno all'88% di pareri favorevoli, con consenso che descrive il film come una 'commedia drammatica gentile sul fingere connessione umana fino a costruirla davvero'; Metacritic riporterebbe un punteggio attorno a 64/100, qualificato come 'generalmente favorevole'. Il National Board of Review lo ha incluso fra i dieci migliori film del 2025. Le recensioni hanno valorizzato in modo pressoché unanime l'interpretazione di Brendan Fraser, la delicatezza della regia di Hikari e la fotografia delle location. Sono però emerse anche valutazioni critiche: Peter Debruge su Variety lo ha giudicato sbilanciato verso il sentimentale, con un protagonista percepito come malinconico più che comico, e ne ha contestato il dosaggio tonale. Il film ha ricevuto vari riconoscimenti minori e nomination, fra cui premi della critica per la giovane interprete Shannon Mahina Gorman."
+  },
+  "avvertenze_anti_confabulazione": [
+    {
+      "tipo": "accesso_limitato_ai_materiali",
+      "descrizione": "Il dossier è stato compilato senza visione diretta del film da parte del compilatore: si è lavorato su sinossi, recensioni e interviste reperite online, oltre alla nota personale dell'utente. Dettagli scenici puntuali (battute esatte, montaggio, scelte registiche specifiche) non sono direttamente verificabili e sono stati riportati al condizionale o resi solo in termini generali."
+    },
+    {
+      "tipo": "informazione_certa",
+      "descrizione": "Sono certi: titolo, regia di Hikari, anno di uscita 2025, presenza di Brendan Fraser nel ruolo principale, distribuzione statunitense da parte di Searchlight Pictures, prima mondiale al Toronto International Film Festival (settembre 2025), uscita statunitense del 21 novembre 2025. Sono inoltre certe l'esistenza e l'antichità del fenomeno reale dei 'rental family service' in Giappone."
+    },
+    {
+      "tipo": "informazione_probabile",
+      "descrizione": "Sono ricostruite con buona base, ma non verificate alla fonte primaria: la suddivisione episodica con i due archi maggiori (Mia e Kikuo), i nomi dei personaggi secondari (Shinji, Aiko, Kota, Hitomi, Masami, Yoshie Ikeda, Lola), la durata di 110 minuti, i nomi del direttore della fotografia (Takurō Ishizaka), dei montatori (Alan Baumgarten, Thomas A. Krueger) e dei compositori (Jónsi e Alex Somers). Provengono da schede enciclopediche e di settore, ma non sono state incrociate con i titoli di coda."
+    },
+    {
+      "tipo": "informazione_incerta",
+      "descrizione": "Alcuni snodi finali della trama riassunti nel dossier (l'arresto di Phillip per presunto rapimento, le dimissioni di Aiko, la decisione dell'agenzia di sospendere alcuni servizi, la morte di Kikuo) provengono da sintesi enciclopediche di terzi e potrebbero essere riportati in modo semplificato o impreciso rispetto al film vero e proprio."
+    },
+    {
+      "tipo": "informazione_incerta",
+      "descrizione": "Le citazioni riportate dall'utente nelle 'Note' ('a Roma fai come i romani… significa anche essere un po' di più di quello che sei'; 'ci rivedremo ancora' detto a un vecchio attore nella bara) non sono state verificate attraverso una trascrizione del film. Sono state recepite come testimonianza dello spettatore e non come citazione filologicamente accertata."
+    },
+    {
+      "tipo": "informazione_non_reperibile",
+      "descrizione": "Non sono stati reperiti, in questa raccolta, dettagli puntuali sul ruolo della colonna sonora nei singoli momenti del film, sull'esatta scansione cronologica interna degli incarichi minori, né sulle scelte di lingua (inglese / giapponese / sottotitolazione) scena per scena."
+    },
+    {
+      "tipo": "informazione_probabile",
+      "descrizione": "I dati di incasso (apertura intorno a 3,3 milioni di dollari, totale mondiale intorno a 26,6 milioni) e di ricezione critica aggregata (88% Rotten Tomatoes, 64/100 Metacritic, CinemaScore A) sono stati riportati come ricavati da Wikipedia e potrebbero essere stati aggiornati dopo la rilevazione."
+    }
+  ],
+  "metadata": {
+    "data_compilazione": "2026-04-28",
+    "compilato_da": "Cowork (pipeline HCAIRE Cultura, step 1)",
+    "versione": "1.0"
+  }
+}

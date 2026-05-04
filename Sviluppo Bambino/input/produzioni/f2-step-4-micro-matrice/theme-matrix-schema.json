@@ -1,0 +1,226 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Schema derivato dalla pipeline di theme discovery — STEP 4 (aprile 2026). Descrive la struttura della micro-matrice per uno o più temi.",
+  "title": "ThemeMatrixOutput",
+  "description": "Output dello STEP 4: micro-matrice strutturale. Trasforma la configurazione selezionata in STEP 3 in una struttura leggibile e interrogabile.",
+
+  "type": "object",
+  "required": ["step", "results"],
+  "properties": {
+
+    "step": {
+      "type": "string",
+      "const": "step_4",
+      "description": "Identificatore dello step di pipeline. Valore fisso."
+    },
+
+    "results": {
+      "type": "array",
+      "description": "Array di oggetti, uno per ogni tema elaborato.",
+      "items": { "$ref": "#/definitions/ThemeMatrix" }
+    }
+
+  },
+
+  "definitions": {
+
+    "ThemeMatrix": {
+      "type": "object",
+      "required": [
+        "theme_id",
+        "core_configuration",
+        "axes_articulation",
+        "bridge_integration",
+        "structural_tensions",
+        "structural_questions",
+        "translation_potential",
+        "configuration_summary"
+      ],
+      "properties": {
+
+        "theme_id": {
+          "type": "string",
+          "description": "ID del tema, coerente con theme-discovery-v1.json, theme-relevance-v1.json e theme-verification-v1.json.",
+          "examples": ["tema_02_lettura_dialogica"]
+        },
+
+        "core_configuration": {
+          "$ref": "#/definitions/CoreConfiguration"
+        },
+
+        "axes_articulation": {
+          "type": "array",
+          "description": "Articolazione di ciascun asse confermato in STEP 3. Un oggetto per asse.",
+          "items": { "$ref": "#/definitions/AxisArticulation" }
+        },
+
+        "bridge_integration": {
+          "type": "array",
+          "description": "Integrazione di ciascun concetto-ponte confermato in STEP 3. Un oggetto per ponte.",
+          "items": { "$ref": "#/definitions/BridgeIntegration" }
+        },
+
+        "structural_tensions": {
+          "type": "array",
+          "description": "Tensioni strutturali interne alla configurazione. Target: 2–4. Non sono problemi da risolvere ma coppie di forze coesistenti.",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": { "$ref": "#/definitions/StructuralTension" }
+        },
+
+        "structural_questions": {
+          "type": "array",
+          "description": "Domande strutturali derivanti dalla micro-matrice. Target: 5–8. Devono essere leggibili da professionisti, non prescrittive.",
+          "minItems": 5,
+          "maxItems": 8,
+          "items": { "type": "string" }
+        },
+
+        "translation_potential": {
+          "type": "array",
+          "description": "Ambiti professionali in cui la configurazione è traducibile. Target: 2–4. Non cosa fare, ma quale domanda la struttura porta in quell'ambito.",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": { "$ref": "#/definitions/TranslationPotential" }
+        },
+
+        "configuration_summary": {
+          "type": "string",
+          "description": "Sintesi della micro-matrice nella sua interezza (max 3 frasi). Deve essere leggibile autonomamente, senza i JSON degli assi: connette logica della configurazione centrale, assi, ponti e tensioni."
+        }
+
+      }
+    },
+
+    "CoreConfiguration": {
+      "type": "object",
+      "required": ["description", "structure_logic"],
+      "properties": {
+
+        "description": {
+          "type": "string",
+          "description": "Descrizione strutturale di come i nodi confermati interagiscono: chi organizza cosa, cosa dipende da cosa, cosa trasforma cosa. Non descrittiva ma strutturale."
+        },
+
+        "structure_logic": {
+          "type": "string",
+          "description": "Formula sintetica del funzionamento della configurazione (es. 'relazione triadica in cui un mediatore simbolico riorganizza la co-regolazione diadica trasformandola in campo condiviso di significato')."
+        }
+
+      }
+    },
+
+    "AxisArticulation": {
+      "type": "object",
+      "required": ["axis_id", "axis_name", "function_in_theme", "specific_contribution"],
+      "properties": {
+
+        "axis_id": {
+          "type": "string",
+          "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+        },
+
+        "axis_name": {
+          "type": "string",
+          "enum": [
+            "Ontologico–fenomenologico",
+            "Affettivo–morale",
+            "Normativo–educativo",
+            "Separazione e Limite",
+            "Desiderio",
+            "Storico–culturale"
+          ]
+        },
+
+        "function_in_theme": {
+          "type": "string",
+          "description": "Funzione specifica dell'asse nel tema: come entra nella configurazione e quale livello strutturale presidia."
+        },
+
+        "specific_contribution": {
+          "type": "string",
+          "description": "Cosa aggiunge questo asse che gli altri assi confermati non fanno: il contributo irreducibile agli altri."
+        }
+
+      }
+    },
+
+    "BridgeIntegration": {
+      "type": "object",
+      "required": ["concept_label", "linked_axes", "linked_nodes", "function", "type"],
+      "properties": {
+
+        "concept_label": {
+          "type": "string",
+          "description": "Etichetta del concetto-ponte, coerente con theme-verification-v1.json."
+        },
+
+        "linked_axes": {
+          "type": "array",
+          "description": "Assi confermati che il ponte connette.",
+          "minItems": 2,
+          "items": {
+            "type": "string",
+            "enum": ["asse_1", "asse_2", "asse_3", "asse_4", "asse_5", "asse_6"]
+          }
+        },
+
+        "linked_nodes": {
+          "type": "array",
+          "description": "Nodi confermati coinvolti nel ponte.",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+
+        "function": {
+          "type": "string",
+          "description": "Descrizione della relazione che il ponte produce tra gli assi: come li connette e quale effetto strutturale genera."
+        },
+
+        "type": {
+          "type": "string",
+          "enum": ["connettivo", "organizzativo"],
+          "description": "connettivo: crea un passaggio tra assi senza ristrutturare la configurazione; gli assi restano riconoscibili come separati. organizzativo: struttura la configurazione intera; la sua rimozione cambierebbe la logica della micro-matrice."
+        }
+
+      }
+    },
+
+    "StructuralTension": {
+      "type": "object",
+      "required": ["tension", "description"],
+      "properties": {
+
+        "tension": {
+          "type": "string",
+          "description": "Etichetta sintetica della tensione: due poli separati da 'vs.' (es. 'regolazione vs. apertura', 'stabilità vs. trasformazione')."
+        },
+
+        "description": {
+          "type": "string",
+          "description": "Spiegazione strutturale della tensione: perché i due poli coesistono nella configurazione e non si annullano. Non è un problema da risolvere."
+        }
+
+      }
+    },
+
+    "TranslationPotential": {
+      "type": "object",
+      "required": ["domain", "reason"],
+      "properties": {
+
+        "domain": {
+          "type": "string",
+          "description": "Ambito professionale in cui la configurazione è traducibile (es. 'clinico', 'educativo', 'formazione dei professionisti', 'politiche per l\\'infanzia')."
+        },
+
+        "reason": {
+          "type": "string",
+          "description": "Perché la struttura del tema è pertinente a questo ambito: quale domanda strutturale porta nell'ambito. Non cosa fare, ma quale interrogazione apre."
+        }
+
+      }
+    }
+
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "axis_id": "asse_3",
+  "axis_name": "Normativo–educativo",
+  "version": "v1.0",
+  "status": "bozza",
+  "source_document": {
+    "title": "Asse 3 - Normativo-educativo (Capitoli 1–6)",
+    "format": "markdown",
+    "language": "it"
+  },
+  "structural_function": "Elaborare le condizioni di possibilità del giudizio normativo: non l'acquisizione di regole né la semplice interiorizzazione dell'istanza (Asse 2), ma la struttura che rende possibile orientarsi nel vero senza arbitrarietà e senza dominio. L'asse distingue norma (regola esplicita), normatività (struttura orientativa che precede le regole) e giudizio (atto situato del soggetto non delegabile né automatizzabile), fonda un'autorità educativa non manipolativa come condizione del giudizio, descrive i fallimenti strutturali della normatività contemporanea (relativismo, moralismo, prestazione), e si conclude con il limite strutturale del giudizio come soglia necessaria verso l'Asse 4.",
+  "core_processes": [
+    {
+      "name": "Distinzione strutturale tra norma, normatività e giudizio",
+      "description": "La norma (regola esplicita) orienta ma non comanda e non può sostituirsi al giudizio. La normatività è la struttura orientativa che precede le norme e rende possibile distinguere ciò che vale da ciò che non vale. Il giudizio è l'atto situato e fallibile del soggetto che non può essere delegato a procedure né automatizzato: luogo della responsabilità. La relazione tra i tre termini — non la norma isolata — è dove la normatività prende forma concreta."
+    },
+    {
+      "name": "Passaggio dalla colpa al giudizio",
+      "description": "La colpa (Asse 2) vincola il soggetto a un'istanza interiorizzata ma non lo abilita a giudicare: il soggetto colpevole subisce un giudizio, non lo esercita. Il giudizio è una presa di posizione nel mondo, incarnata e situata, che emerge nell'esperienza vissuta e implica l'assunzione responsabile di una direzione tra altre possibili. Non è competenza cognitiva né stadio evolutivo: è esposizione al reale che porta con sé la possibilità strutturale dell'errore."
+    },
+    {
+      "name": "Costituzione dell'autorità educativa non manipolativa",
+      "description": "L'autorità educativa non coincide con il potere né con la violenza: vale solo nella misura in cui viene riconosciuta. Si fonda su un'asimmetria storico-simbolica — l'adulto che precede il bambino nel mondo e se ne assume la responsabilità davanti a lui — non su superiorità morale o tecnica. Il suo compito è rendere possibile il giudizio del soggetto, non sostituirlo o produrre conformità. La responsabilità che ne deriva è imputazione a sé, non obbedienza a una norma."
+    },
+    {
+      "name": "Riconoscimento del limite strutturale del giudizio",
+      "description": "Il reale eccede la normatività: ogni presa di posizione lascia un residuo che non può essere ricondotto a regola o valutazione. Il giudizio è strutturalmente esposto, fallibile, non sovrano. Esistono situazioni in cui nessuna norma è sufficiente e il giudizio deve assumere il peso dell'irrisolvibile. Questo limite non annulla la responsabilità ma ne definisce il campo: educare al limite significa educare alla misura, non alla rinuncia o alla certezza."
+    }
+  ],
+  "bridge_concepts": [
+    {
+      "concept": "Normatività",
+      "definition": "Struttura orientativa che precede le norme esplicite e rende possibile distinguere ciò che vale da ciò che non vale, prima dell'applicazione di qualsiasi regola particolare. Non coincide con la presenza di norme né con il loro grado di interiorizzazione. Condizione del giudizio, non suo prodotto: senza di essa le regole non producono responsabilità ma solo conformità o ribellione.",
+      "linked_nodes": ["distinzione-norma-normativita", "giudizio-situato", "orizzonti-di-senso"]
+    },
+    {
+      "concept": "Giudizio situato",
+      "definition": "Atto del soggetto incarnato nel mondo che orienta l'azione in relazione al reale senza poter essere delegato a procedure né automatizzato. Né applicazione meccanica di norme né competenza cognitiva: presa di posizione che si esercita senza garanzia, esposta al fallimento, luogo della responsabilità in senso proprio. La sua fallibilità non è difetto ma condizione strutturale.",
+      "linked_nodes": ["normatività", "responsabilità-come-imputazione", "limite-del-giudizio"]
+    },
+    {
+      "concept": "Verità educativa",
+      "definition": "Non contenuto trasmissibile ma condizione che il soggetto riconosce interiormente nel proprio giudizio. Non si impone come comando esterno né si negozia come opinione: vincola il soggetto dall'interno del suo giudicare. Storica e incarnata, ma non per questo arbitraria: il reale resiste alle interpretazioni soggettive e impedisce sia il moralismo sia il relativismo.",
+      "linked_nodes": ["giudizio-situato", "orizzonti-di-senso", "normatività"]
+    },
+    {
+      "concept": "Autorità educativa",
+      "definition": "Asimmetria storico-simbolica tra adulto e bambino che non fonda il dominio ma la possibilità del giudizio. L'adulto precede il bambino nel mondo e se ne assume la responsabilità davanti a lui, aprendo uno spazio in cui il soggetto può progressivamente orientarsi senza essere esposto allo smarrimento. Distinta dal potere (che costringe) e dalla violenza (che impone): vale solo nella misura in cui viene riconosciuta.",
+      "linked_nodes": ["responsabilità-come-imputazione", "giudizio-situato", "asimmetria-educativa"]
+    }
+  ],
+  "structural_nodes": [
+    {
+      "node": "distinzione-norma-normativita",
+      "short_definition": "Norma (regola) e normatività (struttura orientativa) sono distinti: la regola non produce da sola la capacità di giudicare."
+    },
+    {
+      "node": "giudizio-situato",
+      "short_definition": "Atto incarnato e fallibile del soggetto nel mondo; non delegabile né automatizzabile; luogo della responsabilità."
+    },
+    {
+      "node": "verità-educativa",
+      "short_definition": "Condizione riconosciuta interiormente nel giudizio; non imposta né negoziabile; storica ma non arbitraria."
+    },
+    {
+      "node": "orizzonti-di-senso",
+      "short_definition": "Strutture di valutazione che precedono le scelte del soggetto e rendono intelligibile il giudizio; non costruzioni arbitrarie."
+    },
+    {
+      "node": "autorità-educativa",
+      "short_definition": "Asimmetria storico-simbolica che apre il mondo al soggetto senza sostituirsi al suo giudizio; distinta da potere e violenza."
+    },
+    {
+      "node": "responsabilità-come-imputazione",
+      "short_definition": "Riconoscersi autore del proprio agire senza ridursi all'auto-accusa né alla giustificazione; eccede la conformità."
+    },
+    {
+      "node": "asimmetria-educativa",
+      "short_definition": "L'adulto precede il bambino nel mondo e se ne assume la responsabilità: strutturale, non contingente né abusiva."
+    },
+    {
+      "node": "fallimento-normativo",
+      "short_definition": "Configurazioni strutturali di collasso del giudizio: relativismo (perdita di senso), moralismo (norma autosufficiente), prestazione (sostituto funzionale)."
+    },
+    {
+      "node": "limite-del-giudizio",
+      "short_definition": "Il reale eccede la normatività: il giudizio è esposto, non sovrano; esistono situazioni in cui nessuna norma è sufficiente."
+    },
+    {
+      "node": "soglia-verso-il-reale",
+      "short_definition": "L'asse 3 si arresta dove il reale eccede il senso: passaggio necessario all'Asse 4 come eccedenza e perdita."
+    }
+  ],
+  "internal_articulations": [
+    {
+      "section": "Capitolo 1 — Norma, normatività, giudizio: distinzione concettuale",
+      "function": "Bonifica concettuale preliminare: distingue norma, normatività e giudizio; confronta modello tommasiano (norma orienta il giudizio) con modello kantiano (norma governa il giudizio); mostra il giudizio come atto non delegabile e la fallibilità come condizione della responsabilità."
+    },
+    {
+      "section": "Capitolo 2 — Dalla colpa (Asse 2) al giudizio",
+      "function": "Articola il passaggio dall'Asse 2: la colpa vincola ma non abilita a giudicare; il giudizio non è né reazione affettiva né competenza cognitiva (Piaget come testo di controllo); introduce il giudizio come presa di posizione incarnata nel mondo (Merleau-Ponty)."
+    },
+    {
+      "section": "Capitolo 3 — Verità educativa: orientamento senza arbitrarietà",
+      "function": "Fonda la non-arbitrarietà del giudizio senza moralismo: la verità non si trasmette ma si riconosce interiormente (Agostino); il giudizio è situato ma non relativo; gli orizzonti di senso (Taylor) vincolano senza imporre. Il soggetto valuta, non solo preferisce."
+    },
+    {
+      "section": "Capitolo 4 — Educare senza manipolare: autorità e responsabilità",
+      "function": "Distingue autorità da potere e violenza (Arendt); fonda l'asimmetria educativa come assunzione storico-simbolica del mondo davanti al soggetto; introduce la responsabilità come imputazione a sé (Ricoeur); usa Foucault come contro-campo critico sul disciplinamento."
+    },
+    {
+      "section": "Capitolo 5 — I fallimenti della normatività",
+      "function": "Diagnosi dei fallimenti strutturali contemporanei: collasso del linguaggio normativo (MacIntyre), sostituzione con la prestazione (Stiegler), riduzione del giudizio a schema cognitivo (Kohlberg come contro-campo). Mostra che i fallimenti derivano da perdita di orientamento del giudizio, non da eccesso o difetto di regole."
+    },
+    {
+      "section": "Capitolo 6 — Il limite del giudizio: quando la norma non è sovrana",
+      "function": "Funzione di raccordo e delimitazione: il reale eccede la normatività; il giudizio è esposto e fallibile per struttura; educare al limite significa educare alla misura, non alla certezza né alla rinuncia. Apre il passaggio all'Asse 4 come eccedenza che non si lascia assorbire dalla normatività."
+    }
+  ],
+  "reduction_risks": [
+    {
+      "type": "Identificazione norma/normatività",
+      "description": "Trattare le regole esplicite come se costituissero la struttura orientativa, producendo normatività formale senza capacità di giudizio. Effetto tipico: soggetti che applicano regole senza poter assumere responsabilità reale, o che percepiscono ogni regola come imposizione arbitraria."
+    },
+    {
+      "type": "Psicologizzazione o cognitivizzazione del giudizio",
+      "description": "Ridurre il giudizio a competenza cognitiva misurabile (Kohlberg) o a stadio evolutivo raggiunto (Piaget), perdendo la dimensione della responsabilità come assunzione situata. Il giudizio diventa prestazione valutabile anziché atto esposto."
+    },
+    {
+      "type": "Assimilazione autorità/dominio",
+      "description": "Identificare l'autorità educativa con il controllo, la sorveglianza o la violenza simbolica (uso non critico di Foucault), rinunciando all'asimmetria strutturale che rende possibile il giudizio. Produce abbandono educativo mascherato da rispetto dell'autonomia."
+    },
+    {
+      "type": "Sovranità del giudizio sul reale",
+      "description": "Trattare il giudizio come autofondante e sufficiente a chiudere il senso, ignorando il limite strutturale che eccede ogni normatività. Produce illusione di padronanza e rende impossibile il passaggio all'Asse 4."
+    },
+    {
+      "type": "Operativizzazione dell'asse",
+      "description": "Derivare dall'Asse 3 indicazioni educative specifiche, criteri di valutazione del giudizio morale o protocolli di trasmissione normativa, saltando i passaggi della traduzione interdisciplinare (F2). L'asse descrive condizioni di possibilità, non contenuti educativi."
+    }
+  ],
+  "structural_questions": [
+    "Come si trasmette un orientamento normativo senza sostituirsi al giudizio del soggetto, e in quali condizioni la trasmissione si distingue strutturalmente dall'imposizione o dalla manipolazione?",
+    "In quale senso il giudizio è situato e incarnato senza essere per questo relativo — dove si trova la soglia tra normatività non-arbitraria e normatività chiusa o autosufficiente?",
+    "Come interagisce il limite strutturale del giudizio con la responsabilità: in che misura il fallimento del giudizio è compatibile con la sua legittimità, e quando invece ne segna la fine?",
+    "Quale relazione esiste tra la responsabilità affettiva pre-normativa (Asse 2) e la capacità di assumere la normatività senza essere schiacciati: qual è la condizione affettiva minima perché l'asse normativo possa funzionare?"
+  ],
+  "methodological_constraints": [
+    "Non derivare dall'Asse 3 indicazioni educative specifiche né criteri di valutazione del comportamento normativo: l'asse descrive le condizioni di possibilità del giudizio orientato al vero, non i suoi contenuti né le sue applicazioni pratiche.",
+    "Non identificare la normatività con la trasmissione di norme esplicite: la struttura orientativa precede logicamente le regole e non può essere sostituita da sistemi di regolazione più dettagliati o da protocolli di gestione del comportamento.",
+    "Non trattare il limite del giudizio come problema da risolvere con migliori strumenti normativi: è una condizione strutturale che definisce il campo della responsabilità e prepara il passaggio necessario all'Asse 4.",
+    "Non utilizzare i modelli critici di riferimento (Kant come norma autosufficiente; Piaget e Kohlberg come riduzione cognitiva; Foucault come disciplinamento) come negazione del loro valore descrittivo: servono come contro-campi che delimitano ciò che il giudizio non è, non come obiezioni da confutare."
+  ],
+  "compilation_notes": {
+    "confidence_level": "alta",
+    "needs_human_review": true,
+    "notes": "L'asse è concettualmente ricco e ben strutturato, ma ha 6 capitoli invece di 8 come gli assi 1 e 2: la trattazione è più densa per capitolo. Il nodo teorico più delicato è il rapporto tra verità educativa (Agostino) e giudizio situato (Merleau-Ponty): la tensione tra il riconoscimento interiore della verità e l'incarnazione corporea del giudizio è affermata ma non completamente sciolta nel testo sorgente. La diagnosi dei fallimenti normativi (Cap. 5) è particolarmente utile per la traduzione verso i professionisti dei servizi.",
+    "open_issues": [
+      "Il raccordo tra normatività tommasiana e giudizio fenomenologico merleau-pontiano è produttivo ma non completamente sviluppato: richiederebbe una nota metodologica esplicita in F2 sul loro diverso statuto epistemologico.",
+      "Il ruolo di Taylor ('orizzonti di senso') rispetto agli altri riferimenti (Agostino, Merleau-Ponty) non è pienamente esplicitato: potrebbe diventare un concetto-ponte autonomo nella traduzione interdisciplinare.",
+      "Il capitolo 6 è il più direttamente collegato all'Asse 4 (reale come eccedenza) ma non sviluppa il concetto di 'perdita' che sarà centrale nell'Asse successivo: il raccordo richiede elaborazione esplicita in F2."
+    ]
+  }
+}

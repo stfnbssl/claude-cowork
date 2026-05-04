@@ -1,0 +1,264 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Schema per F3 STEP 8 (aprile 2026). Descrive la struttura dell'output di adattamento strutturale: costruzione dei quattro blocchi base del nuovo dispositivo — corporeità specifica, ridefinizione del bridge, nuovo proxy operativo (con test di non-reversibilità), requisiti di osservabilità, regole di non-classificabilità.",
+  "title": "StructuralAdaptationOutput",
+  "description": "Output di F3 STEP 8: adattamento strutturale del dispositivo al nuovo tema. Non produce ancora il dispositivo completo: costruisce i quattro blocchi fondamentali ricostruiti a partire dalla fenomenologia del nuovo atto, mantenendo la logica configurazionale del dispositivo sorgente.",
+
+  "type": "object",
+  "required": ["step", "source_device_id", "target_theme", "new_corporeity", "new_bridge", "new_proxy", "non_reversibility_test", "observability_requirements", "non_classifiability_rules", "structural_consistency_check"],
+  "properties": {
+
+    "step": {
+      "type": "string",
+      "const": "f3_step_8",
+      "description": "Identificatore dello step di pipeline. Valore fisso."
+    },
+
+    "version": {
+      "type": "string",
+      "description": "Facoltativo. Versione dell'output in caso di revisioni (es. v1, v2)."
+    },
+
+    "source_device_id": {
+      "type": "string",
+      "description": "ID del dispositivo F3 sorgente da cui deriva l'adattamento."
+    },
+
+    "target_theme": {
+      "type": "string",
+      "description": "Nuovo tema (atto/fenomeno) per cui si costruisce l'adattamento strutturale."
+    },
+
+    "revision_note": {
+      "type": "string",
+      "description": "Facoltativo. Note sulla revisione rispetto a versioni precedenti."
+    },
+
+    "new_corporeity": {
+      "type": "object",
+      "description": "La forma corporea tipica del nuovo atto — osservabile, distinta da altri atti, non ridotta a comportamento isolato.",
+      "required": ["description", "structural_features", "differences_from_source_theme", "observer_dependency"],
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Descrizione della forma corporea tipica dell'atto nel nuovo tema."
+        },
+        "structural_features": {
+          "type": "array",
+          "description": "Caratteristiche strutturali osservabili della corporeità specifica.",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+        "differences_from_source_theme": {
+          "type": "string",
+          "description": "Come la corporeità del nuovo atto differisce da quella del tema originario."
+        },
+        "observer_dependency": {
+          "type": "string",
+          "enum": ["bassa", "media"],
+          "description": "Grado di dipendenza dall'osservatore. Non deve superare 'media'."
+        }
+      }
+    },
+
+    "new_bridge": {
+      "type": "object",
+      "description": "Ridefinizione del passaggio trasformativo nel nuovo tema — come trasformazione relazionale osservabile, senza formulazioni psicologiche.",
+      "required": ["from", "to", "process_description", "open_form", "predetermined_form"],
+      "properties": {
+        "from": {
+          "type": "string",
+          "description": "Stato iniziale dell'interazione prima del passaggio trasformativo."
+        },
+        "to": {
+          "type": "string",
+          "description": "Stato trasformato dell'interazione dopo il passaggio."
+        },
+        "process_description": {
+          "type": "string",
+          "description": "Descrizione del processo di trasformazione — cosa cambia strutturalmente nel campo relazionale."
+        },
+        "open_form": {
+          "type": "string",
+          "description": "Forma aperta del passaggio: come si manifesta quando la configurazione è reale."
+        },
+        "predetermined_form": {
+          "type": "string",
+          "description": "Forma predeterminata del passaggio: come si manifesta quando la configurazione è apparente."
+        }
+      }
+    },
+
+    "new_proxy": {
+      "type": "object",
+      "description": "Il nuovo proxy operativo costruito per il nuovo tema — osservabile, non circolare, non reversibile, diadico, ancorato alla sequenza dell'interazione.",
+      "required": ["name", "what_it_measures", "observable_sequence", "discriminating_element"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Nome sintetico del proxy."
+        },
+        "what_it_measures": {
+          "type": "string",
+          "description": "Cosa misura il proxy — la struttura dell'interazione che cattura."
+        },
+        "observable_sequence": {
+          "type": "array",
+          "description": "Sequenza di elementi osservabili che compongono il proxy.",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+        "discriminating_element": {
+          "type": "string",
+          "description": "L'elemento specifico che discrimina tra configurazione aperta e predeterminata."
+        }
+      }
+    },
+
+    "non_reversibility_test": {
+      "type": "object",
+      "description": "Test obbligatorio di non-reversibilità del nuovo proxy.",
+      "required": ["counter_reading", "rebuttal", "result"],
+      "properties": {
+        "counter_reading": {
+          "type": "string",
+          "description": "Contro-lettura forte: come il proxy potrebbe essere letto a supporto della classificazione opposta."
+        },
+        "rebuttal": {
+          "type": "string",
+          "description": "Risposta alla contro-lettura: perché il proxy resiste strutturalmente."
+        },
+        "result": {
+          "type": "string",
+          "enum": ["resistente", "parzialmente_resistente", "non_resistente"],
+          "description": "Esito del test. Se non_resistente, il proxy deve essere modificato prima di procedere."
+        },
+        "result_notes": {
+          "type": "string",
+          "description": "Qualificazione dell'esito — condizioni di resistenza o motivi di non-resistenza."
+        }
+      }
+    },
+
+    "observability_requirements": {
+      "type": "array",
+      "description": "Requisiti minimi di osservabilità per applicare il proxy nel nuovo tema.",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/ObservabilityRequirement" }
+    },
+
+    "non_classifiability_rules": {
+      "type": "array",
+      "description": "Condizioni in cui il proxy non può essere applicato nel nuovo tema — esito obbligatorio: non_classificabile.",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/NonClassifiabilityRule" }
+    },
+
+    "structural_consistency_check": {
+      "type": "object",
+      "description": "Checklist finale di coerenza strutturale dell'adattamento.",
+      "required": ["configurational_logic_preserved", "no_psychological_inference", "no_circularity", "proxy_observable"],
+      "properties": {
+        "configurational_logic_preserved": {
+          "type": "boolean",
+          "description": "La logica configurazionale del dispositivo sorgente (corporeità → campo → co-regolazione → mediazione) è preservata."
+        },
+        "configurational_logic_notes": { "type": "string" },
+        "no_psychological_inference": {
+          "type": "boolean",
+          "description": "Nessuna inferenza su stati mentali non osservabili introdotta."
+        },
+        "no_psychological_inference_notes": { "type": "string" },
+        "no_circularity": {
+          "type": "boolean",
+          "description": "Il proxy non è supportato dalla observed_configuration o dalla classificazione finale."
+        },
+        "no_circularity_notes": { "type": "string" },
+        "proxy_observable": {
+          "type": "boolean",
+          "description": "Il proxy è applicabile senza accesso alla observed_configuration."
+        },
+        "proxy_observable_notes": { "type": "string" },
+        "proxy_not_reused_from_source": {
+          "type": "boolean",
+          "description": "Facoltativo. Il proxy non è un riuso diretto del proxy del tema originario."
+        },
+        "proxy_not_reused_notes": { "type": "string" },
+        "improvement_over_v1": {
+          "type": "string",
+          "description": "Facoltativo. Miglioramenti rispetto a versioni precedenti dell'adattamento."
+        }
+      }
+    }
+
+  },
+
+  "definitions": {
+
+    "ObservabilityRequirement": {
+      "type": "object",
+      "required": ["id", "description", "type", "observer_dependency", "required_for_proxy"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Identificatore del requisito (es. obs_1, obs_2)."
+        },
+        "label": {
+          "type": "string",
+          "description": "Etichetta sintetica del requisito."
+        },
+        "description": {
+          "type": "string",
+          "description": "Descrizione precisa di cosa deve essere osservato."
+        },
+        "type": {
+          "type": "string",
+          "enum": ["diretto", "con_mediazione"],
+          "description": "Tipo di osservabilità."
+        },
+        "observer_dependency": {
+          "type": "string",
+          "enum": ["bassa", "media"],
+          "description": "Grado di dipendenza dall'interpretazione dell'osservatore."
+        },
+        "required_for_proxy": {
+          "type": "boolean",
+          "description": "Se questo requisito è strettamente necessario per applicare il proxy."
+        },
+        "protocol_note": {
+          "type": "string",
+          "description": "Facoltativo. Note su come raccogliere questa osservazione nel contesto del dominio."
+        }
+      }
+    },
+
+    "NonClassifiabilityRule": {
+      "type": "object",
+      "required": ["trigger", "required_output", "rationale"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Facoltativo. Identificatore della regola."
+        },
+        "dimension": {
+          "type": "string",
+          "description": "Facoltativo. Dimensione del dispositivo a cui si riferisce la regola."
+        },
+        "trigger": {
+          "type": "string",
+          "description": "Condizione che attiva la non-classificabilità."
+        },
+        "required_output": {
+          "type": "string",
+          "enum": ["non_classificabile"],
+          "description": "Output obbligatorio quando il trigger è attivo. Sempre non_classificabile."
+        },
+        "rationale": {
+          "type": "string",
+          "description": "Giustificazione epistemica della regola — perché in questa condizione il proxy non può essere applicato."
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Schema per F3 STEP 7 (aprile 2026). Descrive la struttura dell'output di valutazione della trasferibilità: analisi degli elementi trasferibili, elementi specifici del tema originario, valutazione dei proxy, verifica dell'osservabilità, rischi di riduzione, verdetto e raccomandazione.",
+  "title": "TransferabilityOutput",
+  "description": "Output di F3 STEP 7: valutazione della trasferibilità del dispositivo F3 a un nuovo tema o dominio. Non produce ancora un nuovo dispositivo: produce un'analisi strutturata che determina se e a quali condizioni il trasferimento è possibile.",
+
+  "type": "object",
+  "required": ["step", "source_device_id", "target_theme_or_domain", "transferability_assessment", "transferable_elements", "theme_specific_elements", "proxy_assessment", "observability_check", "reduction_risks", "next_step_recommendation"],
+  "properties": {
+
+    "step": {
+      "type": "string",
+      "const": "f3_step_7",
+      "description": "Identificatore dello step di pipeline. Valore fisso."
+    },
+
+    "source_device_id": {
+      "type": "string",
+      "description": "ID del dispositivo F3 sorgente da cui si valuta il trasferimento."
+    },
+
+    "target_theme_or_domain": {
+      "type": "string",
+      "description": "Nuovo tema (atto/fenomeno) e/o dominio applicativo verso cui si vuole trasferire il dispositivo."
+    },
+
+    "input_context_file": {
+      "type": "string",
+      "description": "Facoltativo. Percorso del file JSON di contesto fornito dal ricercatore per definire il nuovo tema e dominio."
+    },
+
+    "transferability_assessment": {
+      "type": "object",
+      "description": "Verdetto globale di trasferibilità con motivazione.",
+      "required": ["overall_verdict", "reason"],
+      "properties": {
+        "overall_verdict": {
+          "type": "string",
+          "enum": ["trasferibile", "trasferibile_con_adattamenti", "trasferibilita_debole", "non_trasferibile"],
+          "description": "Categoria di trasferibilità. trasferibile: la struttura si trasferisce integralmente. trasferibile_con_adattamenti: la struttura regge ma alcuni elementi richiedono ricostruzione. trasferibilita_debole: il trasferimento è possibile ma con perdita strutturale significativa. non_trasferibile: il dispositivo non può essere adattato al nuovo tema senza deformarne la struttura."
+        },
+        "reason": {
+          "type": "string",
+          "description": "Motivazione strutturale del verdetto."
+        }
+      }
+    },
+
+    "transferable_elements": {
+      "type": "array",
+      "description": "Lista degli elementi del dispositivo con valutazione individuale di trasferibilità.",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/TransferableElement" }
+    },
+
+    "theme_specific_elements": {
+      "type": "array",
+      "description": "Elementi che dipendono specificamente dal tema originario e non possono essere esportati senza deformare il nuovo tema.",
+      "items": { "$ref": "#/definitions/ThemeSpecificElement" }
+    },
+
+    "proxy_assessment": {
+      "type": "array",
+      "description": "Valutazione di ciascun proxy operativo del dispositivo originario nel contesto del nuovo tema.",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/ProxyAssessment" }
+    },
+
+    "observability_check": {
+      "type": "object",
+      "description": "Verifica della disponibilità delle osservazioni minime nel nuovo tema/dominio.",
+      "required": ["minimum_observations_available", "missing_observations", "non_classifiability_risks"],
+      "properties": {
+        "minimum_observations_available": {
+          "type": "boolean",
+          "description": "Le osservazioni minime richieste dal dispositivo sono disponibili nel nuovo contesto."
+        },
+        "missing_observations": {
+          "type": "array",
+          "description": "Osservazioni richieste dal dispositivo ma non disponibili nel nuovo contesto.",
+          "items": { "type": "string" }
+        },
+        "non_classifiability_risks": {
+          "type": "array",
+          "description": "Rischi specifici di produrre esiti non_classificabile nel nuovo contesto, per mancanza strutturale di dati.",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "reduction_risks": {
+      "type": "array",
+      "description": "Rischi che il dispositivo, nel nuovo tema/dominio, si trasformi in checklist, protocollo, diagnosi, valutazione normativa o interpretazione psicologica non ancorata.",
+      "items": { "$ref": "#/definitions/ReductionRisk" }
+    },
+
+    "domain_specific_adaptations_required": {
+      "type": "object",
+      "description": "Facoltativo. Adattamenti specifici al dominio già identificati in questa fase — nuove regole di non-classificabilità, warning interpretativi, access points, trasformazioni non permesse. Anticipano elementi che lo STEP 8 dovrà integrare.",
+      "properties": {
+        "new_non_classifiability_rule": { "type": "string" },
+        "new_interpretive_warning": { "type": "string" },
+        "new_access_point": { "type": "string" },
+        "new_non_permitted_transformation": { "type": "string" }
+      }
+    },
+
+    "next_step_recommendation": {
+      "type": "object",
+      "description": "Raccomandazione operativa: se procedere con STEP 8, raffinare prima, o non procedere.",
+      "required": ["recommendation", "reason"],
+      "properties": {
+        "recommendation": {
+          "type": "string",
+          "enum": ["procedere_a_nuovo_dispositivo", "raffinare_prima", "non_procedere"],
+          "description": "procedere_a_nuovo_dispositivo: il trasferimento è sufficientemente solido da costruire su di esso. raffinare_prima: occorre tornare su step precedenti prima di procedere. non_procedere: il dispositivo non è trasferibile a questo tema/dominio."
+        },
+        "reason": {
+          "type": "string",
+          "description": "Motivazione della raccomandazione."
+        },
+        "skip_step_8": {
+          "type": "boolean",
+          "description": "Facoltativo. Se true, il dominio del nuovo tema è strutturalmente equivalente all'originale e lo STEP 8 può essere saltato procedendo direttamente allo STEP 9."
+        },
+        "skip_step_8_reason": {
+          "type": "string",
+          "description": "Motivazione dello skip di STEP 8. Obbligatorio se skip_step_8 è true."
+        }
+      }
+    }
+
+  },
+
+  "definitions": {
+
+    "TransferableElement": {
+      "type": "object",
+      "required": ["element", "transfer_status", "reason"],
+      "properties": {
+        "element": {
+          "type": "string",
+          "description": "Nome dell'elemento valutato (es. core_configuration, bridge, asse specifico, proxy, reading_focus)."
+        },
+        "transfer_status": {
+          "type": "string",
+          "enum": ["integrale", "con_adattamento", "non_trasferibile"],
+          "description": "Stato di trasferibilità dell'elemento."
+        },
+        "reason": {
+          "type": "string",
+          "description": "Motivazione strutturale dello stato di trasferibilità."
+        }
+      }
+    },
+
+    "ThemeSpecificElement": {
+      "type": "object",
+      "required": ["element", "why_specific", "risk_if_transferred"],
+      "properties": {
+        "element": {
+          "type": "string",
+          "description": "Elemento specifico del tema originario."
+        },
+        "why_specific": {
+          "type": "string",
+          "description": "Perché questo elemento dipende dal tema originario e non è esportabile."
+        },
+        "risk_if_transferred": {
+          "type": "string",
+          "description": "Rischio strutturale se l'elemento venisse trasferito invariato al nuovo tema."
+        }
+      }
+    },
+
+    "ProxyAssessment": {
+      "type": "object",
+      "required": ["proxy_name", "status", "reason"],
+      "properties": {
+        "proxy_name": {
+          "type": "string",
+          "description": "Nome del proxy valutato."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["riutilizzabile", "adattabile", "da_scartare"],
+          "description": "Stato del proxy nel contesto del nuovo tema."
+        },
+        "reason": {
+          "type": "string",
+          "description": "Motivazione strutturale dello stato del proxy."
+        },
+        "required_new_observations": {
+          "type": "array",
+          "description": "Nuove osservazioni minime richieste dal proxy nel nuovo tema.",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "ReductionRisk": {
+      "type": "object",
+      "required": ["risk_type", "description", "mitigation"],
+      "properties": {
+        "risk_type": {
+          "type": "string",
+          "enum": ["checklist", "protocollo", "diagnosi", "valutazione_normativa", "interpretazione_psicologica_non_ancorata"],
+          "description": "Tipo di riduzione rischiata."
+        },
+        "description": {
+          "type": "string",
+          "description": "Descrizione del rischio nel contesto specifico del nuovo tema/dominio."
+        },
+        "mitigation": {
+          "type": "string",
+          "description": "Come il dispositivo deve essere costruito o usato per evitare questa riduzione."
+        }
+      }
+    }
+
+  }
+}

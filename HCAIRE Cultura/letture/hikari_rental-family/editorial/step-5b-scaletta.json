@@ -1,0 +1,215 @@
+{
+  "opera_riferimento": {
+    "titolo": "Rental Family",
+    "autore": "Hikari"
+  },
+  "titolo_definitivo": "La presenza affittata",
+  "sottotitolo": "Su Rental Family di Hikari: come un legame nato per contratto può eccedere il contratto, e che cosa quest'eccedenza dice di un'epoca in cui il legame è diventato un servizio.",
+  "scaletta": [
+    {
+      "numero": 1,
+      "titolo_provvisorio": "Apertura: il funerale",
+      "funzione": "Far entrare il lettore nel film attraverso una scena, non attraverso un concetto. Stabilire il tono dell'articolo: misurato, attento all'opera, non tecnico. Consegnare in poche righe l'oggetto del testo (un attore americano a Tokyo ingaggiato per fingere il dolore davanti al morto di uno sconosciuto) e da quel dettaglio scivolare alla domanda che sorregge l'articolo. Garantire che chi non ha visto il film abbia subito un appiglio concreto.",
+      "materiali_di_riferimento": [
+        "step_5a: scena 1 selezionata 'Il funerale come dolente affittato'",
+        "step_4: paragrafo di apertura del saggio",
+        "step_1: sintesi contenutistica (Phillip Vanderploeg, attore americano residente a Tokyo, ingaggio nell'agenzia di rental family)",
+        "step_3: evidenza 'Funerale come dolente affittato'"
+      ],
+      "tesi_locale": "Il fatto che la prima scena di lavoro mostrata di Phillip sia una presenza affittata davanti al lutto di estranei non è un dettaglio: è la dichiarazione di poetica del film, che colloca il dispositivo della finzione relazionale nel territorio in cui non può essere ridotto a curiosità di mercato — sul bordo della morte, dove la presenza è già sempre questione seria.",
+      "contenuti_chiave": [
+        "L'immagine concreta: dosare il pianto, restare al posto giusto, fingere di aver conosciuto un morto sconosciuto",
+        "La cornice minima: Phillip è attore in difficoltà a Tokyo, è stato ingaggiato dall'agenzia Rental Family",
+        "L'osservazione interpretativa breve: cominciare da qui significa che ogni successivo incarico dovrà giustificarsi davanti a questo orizzonte",
+        "Lo scivolamento alla domanda dell'articolo: che cosa accade a un soggetto quando i suoi rapporti nascono per contratto e sotto falsa identità ma vengono attraversati con presenza piena?"
+      ],
+      "lunghezza_indicativa": "150-200 parole",
+      "transizione_verso_sezione_successiva": "La domanda formulata in chiusura apre la sezione 2: dopo aver consegnato il film attraverso una scena, il testo passa a dichiarare cosa l'articolo sostiene del film. La transizione è naturale (dalla domanda alla risposta che il testo proporrà) e permette di entrare nella tesi senza spezzare il tono evocativo dell'apertura."
+    },
+    {
+      "numero": 2,
+      "titolo_provvisorio": "Cosa fa il film",
+      "funzione": "Enunciare la tesi dell'articolo in forma accessibile. Dire al lettore con chiarezza che cosa il testo sostiene sull'opera, prima di argomentarlo nelle sezioni successive. Inserire in modo asciutto e distribuito le coordinate minime della trama (struttura episodica con incarichi brevi e due archi maggiori, Mia e Kikuo). Posizionare l'opera nel suo orizzonte storico-culturale (fenomeno reale dei rental family service, contesto della solitudine giapponese, regia di Hikari, coproduzione USA-Giappone, Brendan Fraser).",
+      "materiali_di_riferimento": [
+        "step_5a: tesi editoriale (formulazione_accessibile)",
+        "step_4: tesi interpretativa centrale",
+        "step_1: struttura formale, contesto storico-culturale, fenomeno rental family service",
+        "step_2: nucleo tematico centrale e ipotesi critica provvisoria"
+      ],
+      "tesi_locale": "Rental Family è un film su come un legame nato per contratto e sotto falsa identità possa generare, attraverso il tempo e la presenza piena, qualcosa che la cornice contrattuale non sa più contenere — e su che cosa accade a un'istituzione che vende presenze quando qualcuno prende sul serio fino in fondo il proprio mandato. Non è meditazione astratta sulla finzione: è diagnosi situata di un'epoca in cui il legame è diventato un servizio.",
+      "contenuti_chiave": [
+        "Sinossi essenziale distribuita: Phillip attore americano a Tokyo, ingaggiato dall'agenzia, struttura episodica, due archi maggiori (Mia bambina, Kikuo anziano)",
+        "Il fenomeno reale dei rental family service giapponesi (attivi dai primi anni '90): non invenzione narrativa",
+        "La cornice della regia (Hikari, cineasta nippo-americana) e della coproduzione USA-Giappone con dialoghi nelle due lingue, come atto di mediazione transculturale",
+        "Coordinate di collocazione: uscita 2025, prima al Toronto International Film Festival, distribuzione Searchlight, interpretazione di Brendan Fraser dopo The Whale",
+        "Sfondo della solitudine come questione sociale codificata in Giappone (politiche pubbliche, denatalità) — necessario perché l'agenzia non appaia stranezza folclorica",
+        "Formulazione della tesi: il film non assolve la finzione e non la condanna, ne mostra il punto in cui un'istituzione che vende presenze viene messa in difficoltà dagli effetti reali che produce"
+      ],
+      "lunghezza_indicativa": "200-280 parole",
+      "transizione_verso_sezione_successiva": "Avendo enunciato la tesi e dato le coordinate minime, il testo deve ora argomentare. La transizione introduce la prima coppia di concetti che la sezione successiva sviluppa: la differenza fra incarichi brevi e archi lunghi, fra prestazione e legame. Frase-ponte: 'Per capire come questo accade nel film, conviene partire da una distinzione che la sua stessa struttura mette in scena.'"
+    },
+    {
+      "numero": 3,
+      "titolo_provvisorio": "Prestazione e legame",
+      "funzione": "Sezione di sviluppo centrale. Mostrare attraverso il racconto del film la differenza strutturale fra incarichi brevi (in cui la prestazione resta esecuzione di servizio: l'incarico arriva, si esegue, si paga, nessun cambio di campo) e archi lunghi (in cui la presenza dell'altro si sedimenta come riferimento interno e vincola il soggetto anche contro il mandato). Far emergere — narrativamente, non per via concettuale — la tesi che la finzione relazionale, esercitata con tempo e presenza, produce un'eccedenza che la cornice contrattuale non sa contenere. Inserire in posizione strategica la coincidenza fra mestiere (attore) e mansione (interprete di ruoli) come metafora trasparente del soggetto che si costituisce nel ruolo. Citare con cautela la formula riportata dallo spettatore-utente come testimonianza, non come citazione filologica.",
+      "materiali_di_riferimento": [
+        "step_5a: assi/nodi selezionati (asse 2, interiorizzazione dell'altro, moralità adattiva)",
+        "step_5a: formule linguistiche suggerite per asse 2",
+        "step_4: distinzione fra incarichi brevi e archi lunghi nel testo del saggio",
+        "step_3: configurazione strutturale dominante e dinamica dell'opera",
+        "step_2: tensione fra contratto ed eccedenza affettiva, tensione fra maschera e volto",
+        "step_1: temi espliciti (Confine fra finzione e realtà, Identità dell'outsider)",
+        "step_4: scena 'La rinuncia all'occasione di lavoro per restare con Mia'"
+      ],
+      "tesi_locale": "Negli incarichi brevi (il funerale, il finto fidanzato di Yoshie Ikeda, le situazioni minori) il dispositivo opera come motivazione sostitutiva: comportamento corretto sostenuto da rinforzo esterno, senza presenza interna del lavoratore. Negli archi lunghi qualcosa si rompe: il tempo passa, gli incontri si accumulano, e la presenza dell'altro cessa di essere oggetto di servizio per diventare riferimento interno che vincola il soggetto anche quando — anzi, soprattutto quando — la cornice contrattuale richiederebbe il contrario. La coincidenza fra il mestiere di Phillip (attore) e la sua mansione (interprete di ruoli relazionali) non è ironia, ma metafora trasparente: il soggetto si costituisce nel ruolo, e la prestazione, lungi dall'essere il contrario dell'autenticità, è il piano sul quale l'autenticità si gioca.",
+      "contenuti_chiave": [
+        "L'architettura formale del film come argomento: la struttura episodica con incarichi brevi non è ornamentale, è dimostrazione del passaggio",
+        "Esempi concreti di incarichi brevi: il funerale già visto in apertura, il finto fidanzato per il matrimonio di copertura di Yoshie",
+        "Il momento di svolta: la rinuncia di Phillip a un'occasione di lavoro maggiore per non venire meno alla relazione con Mia (segno strutturale dell'avvenuta interiorizzazione, non scelta razionale ma riorganizzazione del campo)",
+        "La coincidenza mestiere/mansione come metafora trasparente: Phillip è attore di mestiere e attore di vita",
+        "La citazione riportata dallo spettatore ('a Roma fai come i romani… significa anche essere un po' di più di quello che sei') come testimonianza, presentata con cautela",
+        "Formula chiave da usare: 'qualcosa, nell'esercizio del ruolo, si è sedimentato come presenza interna che vincola dall'interno'",
+        "Evitare etichette tecniche ('asse affettivo-morale', 'interiorizzazione dell'altro' come categoria, 'moralità adattiva')"
+      ],
+      "lunghezza_indicativa": "350-450 parole",
+      "transizione_verso_sezione_successiva": "Avendo posto la differenza fra prestazione e legame e mostrato il punto di svolta nell'arco di Mia, il testo deve ora portare il lettore al pilastro narrativo centrale: il momento in cui l'eccedenza affettiva paga apertamente il prezzo della propria differenza dalla cornice contrattuale. Frase-ponte: 'Il punto in cui questa eccedenza diventa visibile come accaduto, e non più solo come traccia, è il viaggio ad Amakusa.'"
+    },
+    {
+      "numero": 4,
+      "titolo_provvisorio": "Il viaggio ad Amakusa",
+      "funzione": "Sezione narrativo-interpretativa centrale. Raccontare la sequenza con Kikuo in modo che il lettore la segua passo per passo: l'avvicinamento progressivo (Phillip ingaggiato come finto giornalista per intervistare l'anziano attore con demenza incipiente, su richiesta della figlia), la decisione di portarlo nei luoghi natali contro il protocollo, l'incontro con i ricordi della prima moglie defunta, l'arresto per presunto rapimento. Far emergere la geografia simbolica (Tokyo come territorio dell'istituzione vs Amakusa come luogo natale e della perdita reale) e la sproporzione fra atto di accompagnamento e qualifica legale. È la scena in cui la tesi del film diventa visibile come cosa accaduta.",
+      "materiali_di_riferimento": [
+        "step_5a: scena 2 selezionata 'Il viaggio ad Amakusa con Kikuo'",
+        "step_4: analisi della scena nel saggio",
+        "step_3: evidenza 'Phillip porta Kikuo ad Amakusa contro il protocollo aziendale'",
+        "step_3: evidenza 'Movimento spaziale Tokyo-Amakusa'",
+        "step_5a: nodi 'responsabilità pre-normativa', 'giudizio situato' (con relative formule linguistiche)",
+        "step_1: avvertenze anti-confabulazione (l'arresto è ricostruito da fonti enciclopediche)"
+      ],
+      "tesi_locale": "Il viaggio ad Amakusa è il momento più denso del film. L'eccedenza affettiva di Phillip produce un atto che nessun protocollo aziendale autorizza e nessuna norma universale prescrive: una decisione incarnata, fallibile, esposta a conseguenze reali. La sua riqualificazione legale come 'rapimento' espone esattamente lo iato fra responsabilità affettiva e cornice contrattuale. Il movimento geografico — uscita dalla Tokyo della finzione codificata verso il luogo natale come spazio in cui memoria e perdita possono tornare a dirsi — duplica un movimento etico: la finzione, esercitata fino in fondo, esce dalla forma del servizio.",
+      "contenuti_chiave": [
+        "La preparazione: Kikuo come anziano attore con demenza incipiente, ingaggio del 'finto giornalista' da parte della figlia Masami per fissare la memoria della vita prima della sua dissoluzione",
+        "Il viaggio come decisione che eccede il copione: Phillip viola il protocollo per accompagnare Kikuo ad Amakusa",
+        "L'incontro con la perdita irreversibile: i ricordi della prima moglie defunta",
+        "Il prezzo: l'arresto per presunto rapimento",
+        "La geografia simbolica: Tokyo come luogo dell'istituzione, Amakusa (prefettura di Kumamoto) come luogo natale e della verità del lutto",
+        "La sproporzione fra atto di accompagnamento e qualifica legale come cifra dell'opera",
+        "Formula chiave da usare: 'risponde a qualcuno, non secondo una legge'; 'un atto incarnato e fallibile, non delegabile a procedura'",
+        "Evitare etichette tecniche ('asse della separazione e del limite', 'responsabilità pre-normativa' come categoria)"
+      ],
+      "lunghezza_indicativa": "300-400 parole",
+      "transizione_verso_sezione_successiva": "Dopo aver portato il film al punto in cui l'eccedenza affettiva paga apertamente il proprio prezzo, il testo deve raccogliere il movimento del finale: come si chiude la dinamica del film senza pacificarla. Frase-ponte: 'Il film raccoglie i suoi fili in due gesti che vanno letti insieme — lo svelamento a Mia e le dimissioni di Aiko.'"
+    },
+    {
+      "numero": 5,
+      "titolo_provvisorio": "Lo svelamento, le dimissioni",
+      "funzione": "Chiudere il movimento narrativo del film senza scivolare nel registro del lieto fine. Mostrare lo svelamento a Mia come perdita reale (non come liberazione dalla menzogna) e le dimissioni di Aiko come riserva morale strutturale che impedisce all'articolo di chiudersi nella redenzione del protagonista. Spiegare in poche righe la riformulazione finale dell'agenzia, mantenendo cautela su cosa essa esprima (giudizio dell'opera o solo movimento dell'istituzione). Dare almeno una frase a Mia come a un soggetto che attraversa qualcosa di proprio, non solo come destinataria dell'arco di Phillip.",
+      "materiali_di_riferimento": [
+        "step_5a: scena 3 selezionata 'Lo svelamento a Mia e le dimissioni di Aiko'",
+        "step_5a: rischio 'Pacificazione narrativa del finale' e relativa indicazione di presidio",
+        "step_5a: rischio 'Trattare Mia come termine della trasformazione di Phillip e non come soggetto in proprio'",
+        "step_4: analisi dello svelamento e delle dimissioni",
+        "step_3: evidenze 'Lo svelamento a Mia', 'Le dimissioni di Aiko', 'Risoluzione'",
+        "step_5a: nodo 'separazione dall'onnipotenza', formule linguistiche dell'asse 4"
+      ],
+      "tesi_locale": "Lo svelamento è perdita reale per Mia — chiusura definitiva della possibilità di credere al padre prestato — e proprio per questo è la condizione perché un legame possa ricostituirsi su altre basi. Non è la finzione che dura, è ciò che la finzione, nel suo esercizio, ha generato e che, una volta dichiarata la finzione, può sopravvivere come amicizia trasparente. Le dimissioni di Aiko sono l'altro polo del medesimo movimento: una presa di posizione che il dispositivo non sa contenere, e che mantiene aperta la domanda etica del film anche quando la trama del protagonista si compone. La trasparenza non sostituisce il legame nato dalla finzione: lo libera dalla cornice che gli aveva permesso di nascere.",
+      "contenuti_chiave": [
+        "Lo svelamento come momento in cui Mia perde il padre che credeva di avere — perdita vera, non riconoscimento liberatorio",
+        "La frase su Mia come soggetto: la bambina attraversa qualcosa di proprio (la scoperta di essere stata oggetto di una finzione organizzata da sua madre con la complicità di un'agenzia), non è solo destinataria dell'azione altrui",
+        "Le dimissioni di Aiko come riserva morale strutturale: il film non liquida la domanda etica nell'esito felice del protagonista",
+        "La riformulazione finale dell'agenzia, descritta con cautela come 'riposizionamento' e non come 'redenzione' o 'lieto fine'",
+        "La possibile lettura come giudizio dell'opera vs come semplice movimento dell'istituzione: tenere aperta",
+        "Formula chiave: 'la trasparenza non sostituisce, libera'; 'la finzione lenisce ma non sostituisce la perdita'",
+        "Non scrivere 'redenzione' né 'lieto fine'; al massimo 'riposizionamento'"
+      ],
+      "lunghezza_indicativa": "250-330 parole",
+      "transizione_verso_sezione_successiva": "Avendo chiuso il movimento del film, il testo deve riconoscere che la lettura proposta non è l'unica possibile. Frase-ponte: 'Resta una lettura alternativa che merita di essere presa sul serio, e che non confuta questa: la complica.'"
+    },
+    {
+      "numero": 6,
+      "titolo_provvisorio": "Un'altra lettura",
+      "funzione": "Contro-lettura. Presentare in modo articolato — non liquidare in una riga — l'ipotesi alternativa: Rental Family come dramedy che inclina sistematicamente verso la sentimentalità, percorso di redenzione del protagonista più che diagnosi strutturale, sguardo occidentale su un fenomeno giapponese che lo traduce nei codici del pubblico transculturale. Non confutarla: tenere aperta l'ambivalenza dell'opera. Mostrare che la verità del film potrebbe stare proprio in questa duplicità non risolta, e usare la divergenza fra le valutazioni critiche raccolte come segnale che l'ambivalenza non è incertezza dei giudici, ma proprietà dell'opera.",
+      "materiali_di_riferimento": [
+        "step_4: contro-lettura nel saggio",
+        "step_5a: rischio 'Moralizzazione dell'arco di Phillip' e indicazione di presidio",
+        "step_2: domanda critica sul protagonista occidentale per fenomeno giapponese",
+        "step_1: ricezione critica (Rotten Tomatoes 88%, Metacritic 64, recensione di Variety/Peter Debruge sulla sentimentalità)",
+        "step_1: contesto della traiettoria di Brendan Fraser dopo The Whale"
+      ],
+      "tesi_locale": "Esiste una lettura alternativa che ha basi nell'opera: il film come arco classico di un attore in difficoltà che ritrova senso attraverso i propri clienti, dosaggio tonale non sempre risolto, conclusione organizzata attorno a soluzioni positive convergenti che potrebbero pacificare narrativamente la tensione che il dispositivo aveva aperto. La scelta fra le due letture non è dirimibile sui materiali a disposizione: dipende dal peso effettivo che la regia di Hikari assegna alla domanda morale rispetto al percorso consolatorio. È possibile, e probabilmente fedele all'opera, che le due letture coesistano: il film funziona perché tiene insieme un'interrogazione strutturale e un percorso emotivo.",
+      "contenuti_chiave": [
+        "L'ipotesi alternativa esplicitata: Rental Family come dramedy indipendente che inclina verso la sentimentalità",
+        "Le basi nell'opera: dosaggio tonale segnalato come non risolto, conclusione con architettura di lieto fine ben temperato (Phillip e Mia ricuciti, agenzia ridimensionata, Aiko che si congeda con dignità)",
+        "La domanda sul protagonista occidentale per un fenomeno giapponese, la traduzione nei codici del pubblico transculturale come potenziale semplificazione",
+        "Riferimento alla recensione di Peter Debruge su Variety (sbilanciamento verso il sentimentale, protagonista percepito come malinconico più che comico)",
+        "Le valutazioni critiche divergenti come probabile proprietà dell'opera, non incertezza dei giudici (88% Rotten Tomatoes accanto al 64 di Metacritic)",
+        "La traiettoria di Brendan Fraser dopo The Whale come possibile orientamento del registro emotivo verso la figura del protagonista",
+        "La conclusione della sezione: la contro-lettura non confuta la tesi, la complica; le due letture trovano probabilmente entrambe nell'opera il proprio appiglio"
+      ],
+      "lunghezza_indicativa": "250-330 parole",
+      "transizione_verso_sezione_successiva": "Avendo riconosciuto che la lettura proposta non chiude il film, il testo deve esplicitare cosa l'opera e questa lettura lasciano aperto. Frase-ponte: 'Vale la pena allora chiudere chiarendo che cosa Rental Family, e questa lettura del film, lasciano aperto.'"
+    },
+    {
+      "numero": 7,
+      "titolo_provvisorio": "Cosa lascia aperto",
+      "funzione": "Chiusura interpretativa. Riprendere brevemente la tesi e dichiarare cosa il film e questa lettura lasciano in sospeso: il peso effettivo della domanda morale rispetto al percorso consolatorio, la posizione di Mia come soggetto in proprio, la dimensione formale dell'opera (regia, montaggio, suono, fotografia), lo statuto dello sguardo transculturale. Distillare i limiti della lettura — accesso indiretto ai materiali e griglia parzialmente inadatta a Mia — in poche righe, non come autodifesa metodologica ma come avvertenze al lettore. Chiudere con la formula sull'eccedenza dell'affetto rispetto al contratto.",
+      "materiali_di_riferimento": [
+        "step_4: limiti della lettura",
+        "step_4: formulazione conclusiva del saggio ('un film sull'eccedenza dell'affetto rispetto al contratto dentro un'epoca in cui il contratto è diventato la forma del legame')",
+        "step_5a: rischio 'Sovrainterpretazione di snodi narrativi dichiarati incerti' (cautela su arresto, dimissioni, riformulazione, morte di Kikuo)",
+        "step_5a: elemento da includere 'Le avvertenze anti-confabulazione' nella nota finale"
+      ],
+      "tesi_locale": "Resta aperto il peso effettivo che il film assegna alla domanda morale rispetto al percorso consolatorio (la contro-lettura sentimentale è una possibilità reale che la lettura strutturale non può confutare); resta aperta la posizione di Mia come soggetto in proprio (non solo termine della trasformazione di Phillip); resta aperta la dimensione formale dell'opera (regia, montaggio, suono); resta aperto lo statuto dello sguardo transculturale. Quel che la lettura permette di vedere è che Rental Family è un film sull'eccedenza dell'affetto rispetto al contratto dentro un'epoca in cui il contratto è diventato la forma del legame; quel che lascia aperto è se il film abbia preso completamente la misura della propria diagnosi, o se la diagnosi ecceda la rappresentazione che ne dà.",
+      "contenuti_chiave": [
+        "Ripresa breve della tesi: l'eccedenza dell'affetto rispetto al contratto in un'epoca in cui il contratto è diventato la forma del legame",
+        "Apertura 1: il peso effettivo della domanda morale rispetto al percorso consolatorio",
+        "Apertura 2: la posizione di Mia come soggetto in proprio (non solo termine della trasformazione di Phillip)",
+        "Apertura 3: la dimensione formale dell'opera (regia di Hikari, fotografia di Ishizaka, colonna sonora di Jónsi e Alex Somers, dosaggio fra inglese e giapponese)",
+        "Apertura 4: lo statuto dello sguardo transculturale (un film americano-giapponese su un fenomeno giapponese, distribuito da una major statunitense)",
+        "Avvertenze brevi: la lettura è stata costruita su materiali indiretti, alcuni snodi finali (arresto, dimissioni, riformulazione, morte di Kikuo) sono ricostruiti da fonti enciclopediche di terzi",
+        "Chiusura sulla formula conclusiva del saggio"
+      ],
+      "lunghezza_indicativa": "200-260 parole",
+      "transizione_verso_sezione_successiva": "Il corpo dell'articolo è chiuso. La sezione successiva è una nota tecnica separata, di tono diverso, posta come appendice. La transizione è marcata graficamente (rigo bianco, eventuale linea, eventuale titoletto 'Nota sul metodo') e non da una frase-ponte argomentativa."
+    },
+    {
+      "numero": 8,
+      "titolo_provvisorio": "Nota sul metodo",
+      "funzione": "Appendice breve, descrittiva, neutra. Dichiarare l'orientamento di lettura usato e il contesto in cui si è sviluppato (HCAIRE — Human-Centered AI Research Environment). Dichiarare che la lettura è stata costruita su materiali indiretti, senza visione diretta del film. Tono sobrio: il metodo si nomina, non si commenta. Rispettare la dicitura canonica 'di orientamento fenomenologico'. Non citare Husserl né Merleau-Ponty per nome. Non scrivere frasi in cui il metodo diventa soggetto con intenzioni o obiettivi.",
+      "materiali_di_riferimento": [
+        "stile editoriale: norme su come citare il progetto",
+        "stile editoriale: regola per la nota sul metodo",
+        "stile editoriale: dicitura canonica 'di orientamento fenomenologico'",
+        "step_1: avvertenze anti-confabulazione",
+        "step_5a: nota editoriale (terzo punto)"
+      ],
+      "tesi_locale": "Questa lettura è di orientamento fenomenologico, sviluppata nell'ambito di HCAIRE (Human-Centered AI Research Environment). È stata costruita su materiali indiretti — sinossi, recensioni, interviste, una nota di spettatore — senza visione diretta del film.",
+      "contenuti_chiave": [
+        "Dichiarazione dell'orientamento: 'di orientamento fenomenologico'",
+        "Riferimento al progetto: HCAIRE (Human-Centered AI Research Environment) — alla prima occorrenza con espansione per esteso",
+        "Avvertenza sui materiali: la lettura è basata su materiali indiretti, senza visione diretta del film",
+        "Tono neutro, descrittivo, sobrio: nessuna celebrazione, nessuna formula del tipo 'il metodo ha permesso di vedere'",
+        "Niente nomi di filosofi (Husserl, Merleau-Ponty) né riferimenti psicoanalitici (Winnicott, Freud)",
+        "Niente frasi in cui il metodo è soggetto con intenzioni ('non come griglia da sovrapporre', 'lasciando aperto ciò che non è suo compito')"
+      ],
+      "lunghezza_indicativa": "80-120 parole",
+      "transizione_verso_sezione_successiva": "Ultima sezione del testo. Nessuna transizione necessaria."
+    }
+  ],
+  "verifica_coerenza": {
+    "sequenza_logica_tiene": true,
+    "tesi_emerge_progressivamente": true,
+    "sezione_limiti_presente": true,
+    "sezione_contro_lettura_presente": true,
+    "nota_metodo_prevista": true,
+    "lunghezza_nei_limiti": true,
+    "note": "La struttura proposta dallo Step 5A è stata mantenuta integralmente nelle sue otto sezioni, con un solo aggiustamento minore di calibratura: la lunghezza della sezione 2 ('Cosa fa il film') è stata leggermente estesa a 200-280 parole (rispetto a 200-250) per accomodare l'inserimento del fenomeno reale dei rental family service e del contesto della solitudine giapponese, che lo Step 5A indica come da includere ma che richiedevano spazio sufficiente per non comprimere la formulazione della tesi. La sezione 5 ('Lo svelamento, le dimissioni') è stata leggermente ricalibrata a 250-330 parole (rispetto a 250-350) per garantire che almeno una frase sia dedicata a Mia come soggetto in proprio (presidio di un rischio segnalato nello Step 5A) senza dilatare la sezione oltre il bilancio narrativo opportuno. La sezione 6 ('Un'altra lettura') è stata ricalibrata a 250-330 parole (rispetto a 250-350) per coerenza di bilancio. La sezione 7 ('Cosa lascia aperto') è stata ricalibrata a 200-260 parole (rispetto a 200-250) per accomodare le quattro aperture e le avvertenze brevi senza congestione. La sequenza logica regge: si entra dall'opera (sezione 1), si enuncia la tesi e si danno le coordinate (sezione 2), si argomenta attraverso le scene e le tensioni (sezioni 3-5), si problematizza la lettura (sezione 6), si chiude (sezione 7), si nomina il metodo in coda (sezione 8). La tesi emerge progressivamente: anticipata implicitamente nella domanda finale dell'apertura, formulata in chiaro nella sezione 2, argomentata nelle sezioni 3-5, complicata nella 6, ripresa con apertura nella 7. La sezione esplicita sui limiti è integrata nella sezione 7 ('Cosa lascia aperto') come da indicazione dello Step 5A, che chiede di distillare i limiti in poche righe nella chiusura piuttosto che dedicare loro una sezione autonoma. La contro-lettura ha sezione propria (6), come prescritto. La nota sul metodo è prevista in coda (8). La lunghezza totale stimata è 1780-2370 parole, dentro l'intervallo 1500-2500 parole."
+  },
+  "lunghezza_totale_prevista": "1780-2370 parole (nota sul metodo inclusa)",
+  "note_di_stesura": "Tre indicazioni operative per lo Step 5C. Primo — registro: tono saggistico, misurato, attento all'opera; frasi distese ma non barocche; vocabolario non tecnico; ammessa qualche formula riflessiva, mai apparato concettuale. Le formule linguistiche suggerite negli assi/nodi dello Step 5A vanno usate come strumento del ragionamento, mai come definizione tecnica; le etichette ('asse affettivo-morale', 'interiorizzazione dell'altro', 'responsabilità pre-normativa', 'prestazionalizzazione del valore') non devono comparire nel corpo del testo. Secondo — economia narrativa: la sinossi va distribuita, non concentrata in un blocco; le scene vanno raccontate con poche righe ciascuna, sufficienti a far seguire chi non ha visto il film; ogni paragrafo deve parlare dell'opera, non del metodo (verifica obbligatoria prima della consegna). Terzo — gestione dei rischi: tenere viva la riserva morale di Aiko in più punti del testo (non solo nella sezione 5); nominare almeno una volta Mia come soggetto in proprio (sezione 5); usare 'riposizionamento' e mai 'redenzione' o 'lieto fine'; mantenere insieme i due piani della tesi (storico e affettivo) senza farne prevalere uno sull'altro nelle sezioni di sviluppo; presentare la riformulazione finale dell'agenzia con cautela (può essere giudizio dell'opera o solo movimento dell'istituzione). Quarto — su Brendan Fraser: il riferimento a The Whale va dato una sola volta in sezione 2 come orientamento per il lettore; non costruirvi argomenti. Quinto — sulle citazioni: la formula riportata dallo spettatore-utente ('a Roma fai come i romani… significa anche essere un po' di più di quello che sei') va presentata esplicitamente come testimonianza di chi ha visto il film, non come citazione filologica; la citazione 'ci rivedremo ancora' è esclusa dallo Step 5A e non deve comparire. Sesto — sulla nota sul metodo: rigorosamente sobria, dicitura canonica 'di orientamento fenomenologico', HCAIRE espanso una sola volta, nessun nome di filosofo, nessuna formula in cui il metodo diventa soggetto con intenzioni.",
+  "metadata": {
+    "data_compilazione": "2026-04-28",
+    "compilato_da": "Cowork (pipeline HCAIRE Cultura, step 5b)",
+    "versione": "1.0"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hcaire.local/schemas/axis-sheet.v1.2.schema.json",
+  "title": "AxisSheetPhase1",
+  "description": "Scheda asse per fase 1 - fondazione e traducibilita strutturale (non operativa).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "axis_id",
+    "axis_name",
+    "version",
+    "status",
+    "source_document",
+    "structural_function",
+    "core_processes",
+    "bridge_concepts",
+    "structural_nodes",
+    "internal_articulations",
+    "reduction_risks",
+    "structural_questions",
+    "methodological_constraints",
+    "compilation_notes"
+  ],
+  "properties": {
+    "axis_id": {
+      "type": "string",
+      "pattern": "^asse_[1-6]$"
+    },
+    "axis_name": {
+      "type": "string",
+      "minLength": 3
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^v[0-9]+(\\.[0-9]+)?$"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["bozza", "consolidato", "in_revisione"]
+    },
+    "source_document": {
+      "type": "object",
+      "required": ["title", "format", "language"],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string" },
+        "format": { "type": "string", "enum": ["markdown", "pdf", "docx", "txt"] },
+        "language": { "type": "string", "enum": ["it", "en"] }
+      }
+    },
+    "structural_function": {
+      "type": "string",
+      "minLength": 50
+    },
+    "core_processes": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "$ref": "#/$defs/namedDescription"
+      }
+    },
+    "bridge_concepts": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "$ref": "#/$defs/bridgeConcept"
+      }
+    },
+    "structural_nodes": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "$ref": "#/$defs/structuralNode"
+      }
+    },
+    "internal_articulations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/internalArticulation"
+      }
+    },
+    "reduction_risks": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "$ref": "#/$defs/reductionRisk"
+      }
+    },
+    "structural_questions": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "string",
+        "minLength": 10
+      }
+    },
+    "methodological_constraints": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "string",
+        "minLength": 10
+      }
+    },
+    "compilation_notes": {
+      "type": "object",
+      "required": ["confidence_level", "needs_human_review"],
+      "additionalProperties": false,
+      "properties": {
+        "confidence_level": {
+          "type": "string",
+          "enum": ["bassa", "media", "alta"]
+        },
+        "needs_human_review": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "open_issues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "namedDescription": {
+      "type": "object",
+      "required": ["name", "description"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string", "minLength": 20 }
+      }
+    },
+    "bridgeConcept": {
+      "type": "object",
+      "required": ["concept", "definition"],
+      "additionalProperties": false,
+      "properties": {
+        "concept": { "type": "string" },
+        "definition": { "type": "string", "minLength": 20 },
+        "linked_nodes": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "structuralNode": {
+      "type": "object",
+      "required": ["node", "short_definition"],
+      "additionalProperties": false,
+      "properties": {
+        "node": { "type": "string" },
+        "short_definition": { "type": "string", "minLength": 10 }
+      }
+    },
+    "internalArticulation": {
+      "type": "object",
+      "required": ["section", "function"],
+      "additionalProperties": false,
+      "properties": {
+        "section": { "type": "string" },
+        "function": { "type": "string", "minLength": 15 }
+      }
+    },
+    "reductionRisk": {
+      "type": "object",
+      "required": ["type", "description"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "type": "string" },
+        "description": { "type": "string", "minLength": 20 }
+      }
+    }
+  }
+}

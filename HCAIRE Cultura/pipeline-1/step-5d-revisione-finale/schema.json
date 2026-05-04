@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RevisioneFinaleProdottoEditoriale",
+  "description": "Output dello Step 5D della pipeline editoriale HCAIRE Cultura: versione finale del prodotto editoriale, con checklist di controllo e log delle modifiche. Questo è il documento pubblicabile.",
+  "type": "object",
+  "required": [
+    "opera_riferimento",
+    "testo_finale",
+    "checklist_di_controllo",
+    "log_modifiche"
+  ],
+  "properties": {
+    "opera_riferimento": {
+      "type": "object",
+      "description": "Riferimento all'opera analizzata.",
+      "required": ["titolo", "autore"],
+      "properties": {
+        "titolo": { "type": "string" },
+        "autore": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "testo_finale": {
+      "type": "object",
+      "description": "Versione finale del prodotto editoriale, pronta per la pubblicazione.",
+      "required": ["titolo", "sottotitolo", "corpo_del_testo", "nota_sul_metodo"],
+      "properties": {
+        "titolo": {
+          "type": "string",
+          "description": "Titolo definitivo del prodotto editoriale."
+        },
+        "sottotitolo": {
+          "type": "string",
+          "description": "Sottotitolo definitivo."
+        },
+        "corpo_del_testo": {
+          "type": "string",
+          "description": "Testo finale completo in formato Markdown. Esclude la nota sul metodo. Tra 1300 e 2200 parole."
+        },
+        "nota_sul_metodo": {
+          "type": "string",
+          "description": "Nota redazionale finale in formato Markdown. 8-10 righe. Sobria, non autopromozionale. Chiude con una variante della formula: 'questo testo propone una prospettiva di lettura controllata, non una spiegazione dell'opera'."
+        },
+        "lunghezza_finale_parole": {
+          "type": "integer",
+          "description": "Numero totale di parole del prodotto finale (corpo + nota)."
+        },
+        "formato_consigliato": {
+          "type": "string",
+          "enum": ["articolo", "saggio_breve", "pagina_web", "scheda_critica_estesa", "nota_di_lettura"],
+          "description": "Formato editoriale consigliato per la pubblicazione."
+        }
+      },
+      "additionalProperties": false
+    },
+    "checklist_di_controllo": {
+      "type": "object",
+      "description": "Controllo sistematico editoriale e metodologico applicato alla prima stesura.",
+      "required": [
+        "comprensibile_senza_opera",
+        "sunto_adeguato",
+        "termini_modello_spiegati",
+        "metodo_chiaro_non_invasivo",
+        "assi_come_lenti_non_etichette",
+        "tesi_emerge_con_forza",
+        "evidenze_sufficienti",
+        "limiti_dichiarati",
+        "contro_lettura_presente",
+        "nessun_dato_inventato",
+        "nessuna_intenzione_attribuita",
+        "distinzione_contenuto_interpretazione",
+        "no_diagnostica_personaggi",
+        "qualita_editoriale",
+        "lunghezza_adeguata",
+        "nota_metodo_sobria"
+      ],
+      "properties": {
+        "comprensibile_senza_opera": { "type": "boolean" },
+        "sunto_adeguato": { "type": "boolean" },
+        "termini_modello_spiegati": { "type": "boolean" },
+        "metodo_chiaro_non_invasivo": { "type": "boolean" },
+        "assi_come_lenti_non_etichette": { "type": "boolean" },
+        "tesi_emerge_con_forza": { "type": "boolean" },
+        "evidenze_sufficienti": { "type": "boolean" },
+        "limiti_dichiarati": { "type": "boolean" },
+        "contro_lettura_presente": { "type": "boolean" },
+        "nessun_dato_inventato": { "type": "boolean" },
+        "nessuna_intenzione_attribuita": { "type": "boolean" },
+        "distinzione_contenuto_interpretazione": { "type": "boolean" },
+        "no_diagnostica_personaggi": { "type": "boolean" },
+        "qualita_editoriale": { "type": "boolean" },
+        "lunghezza_adeguata": { "type": "boolean" },
+        "nota_metodo_sobria": { "type": "boolean" },
+        "note_checklist": {
+          "type": "string",
+          "description": "Note libere sui punti critici della checklist: voci false, voci border-line, decisioni prese."
+        }
+      },
+      "additionalProperties": false
+    },
+    "log_modifiche": {
+      "type": "array",
+      "description": "Registro delle modifiche significative apportate alla prima stesura durante la revisione.",
+      "items": {
+        "type": "object",
+        "required": ["sezione", "tipo_modifica", "descrizione", "motivazione"],
+        "properties": {
+          "sezione": {
+            "type": "string",
+            "description": "Sezione del testo interessata dalla modifica."
+          },
+          "tipo_modifica": {
+            "type": "string",
+            "enum": [
+              "riscrittura_parziale",
+              "eliminazione",
+              "aggiunta",
+              "spostamento",
+              "correzione_tono",
+              "correzione_metodologica",
+              "correzione_fattuale",
+              "miglioramento_transizione"
+            ]
+          },
+          "descrizione": {
+            "type": "string",
+            "description": "Cosa è stato modificato."
+          },
+          "motivazione": {
+            "type": "string",
+            "description": "Perché è stato modificato: quale criterio della checklist lo richiedeva."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "valutazione_finale": {
+      "type": "object",
+      "description": "Valutazione sintetica del prodotto editoriale finale.",
+      "properties": {
+        "punti_di_forza": {
+          "type": "array",
+          "description": "Aspetti del testo finale particolarmente riusciti.",
+          "items": { "type": "string" }
+        },
+        "limiti_residui": {
+          "type": "array",
+          "description": "Aspetti che non è stato possibile migliorare completamente e perché.",
+          "items": { "type": "string" }
+        },
+        "note_per_eventuale_pubblicazione": {
+          "type": "string",
+          "description": "Indicazioni per chi deve curare la pubblicazione: adattamenti necessari per specifico formato, lunghezza, pubblico."
+        }
+      },
+      "additionalProperties": false
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "data_compilazione": { "type": "string", "format": "date" },
+        "compilato_da": { "type": "string" },
+        "versione": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

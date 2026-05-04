@@ -1,0 +1,301 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Schema per F3 STEP 9 (aprile 2026). Descrive la struttura dell'output del dispositivo completo: identità, struttura di riferimento, reading_focus (5 dimensioni), access points, structural questions, proxy operativi, requisiti di osservabilità, regole di non-classificabilità, interpretive warnings, trasformazioni non permesse, validazione strutturale.",
+  "title": "CompleteDeviceOutput",
+  "description": "Output di F3 STEP 9: dispositivo completo di lettura configurazionale per il nuovo tema. Integra tutti gli elementi adattati e stabilizzati negli step precedenti (8 → 7 → 6b → 6) in un dispositivo strutturalmente coerente, operativamente utilizzabile ed epistemicamente controllato.",
+
+  "type": "object",
+  "required": ["step", "device", "final_assessment"],
+  "properties": {
+
+    "step": {
+      "type": "string",
+      "const": "f3_step_9",
+      "description": "Identificatore dello step di pipeline. Valore fisso."
+    },
+
+    "device": {
+      "$ref": "#/definitions/Device"
+    },
+
+    "final_assessment": {
+      "type": "string",
+      "description": "Valutazione finale sintetica del dispositivo prodotto — strutturale, non qualitativa. Dichiara eventuali debolezze residue e il grado di completezza dell'integrazione."
+    }
+
+  },
+
+  "definitions": {
+
+    "Device": {
+      "type": "object",
+      "description": "Il dispositivo completo di lettura configurazionale.",
+      "required": ["device_id", "theme_id", "domain", "device_type", "function", "structural_reference", "reading_focus", "access_points", "structural_questions", "operative_proxies", "observability_requirements", "non_classifiability_rules", "interpretive_warnings", "non_permitted_transformations", "validation_structural_check"],
+      "properties": {
+
+        "device_id": {
+          "type": "string",
+          "description": "Identificatore univoco del dispositivo."
+        },
+
+        "theme_id": {
+          "type": "string",
+          "description": "ID del tema per cui il dispositivo è costruito."
+        },
+
+        "domain": {
+          "type": "string",
+          "description": "Dominio applicativo del dispositivo."
+        },
+
+        "device_type": {
+          "type": "string",
+          "description": "Tipo di dispositivo (es. dispositivo_di_lettura_configurazionale)."
+        },
+
+        "function": {
+          "type": "string",
+          "description": "Funzione del dispositivo: cosa rende leggibile, quale cieco clinico colma, come cambia la domanda clinica."
+        },
+
+        "structural_reference": {
+          "type": "object",
+          "description": "Struttura configurazionale di riferimento — invariante rispetto al tema.",
+          "required": ["core_configuration", "axes", "nodes"],
+          "properties": {
+            "core_configuration": {
+              "type": "string",
+              "description": "La configurazione nucleare del dispositivo."
+            },
+            "axes": {
+              "type": "array",
+              "description": "Assi strutturali del dispositivo.",
+              "items": { "type": "string" }
+            },
+            "nodes": {
+              "type": "array",
+              "description": "Nodi strutturali del dispositivo.",
+              "items": { "type": "string" }
+            },
+            "bridge_concepts": {
+              "type": "array",
+              "description": "Concetti di bridge — ridefiniti per il nuovo tema.",
+              "items": { "type": "string" }
+            }
+          }
+        },
+
+        "reading_focus": {
+          "type": "array",
+          "description": "Le 5 dimensioni del reading focus: (1) base corporea, (2) campo intenzionale, (3) co-regolazione, (4) mediazione simbolica, (5) struttura del passaggio trasformativo.",
+          "minItems": 5,
+          "maxItems": 5,
+          "items": { "$ref": "#/definitions/ReadingFocusDimension" }
+        },
+
+        "access_points": {
+          "type": "array",
+          "description": "Contesti osservativi specifici del nuovo tema con indicazione di cosa rendono osservabile e dove possono fallire.",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/AccessPoint" }
+        },
+
+        "structural_questions": {
+          "type": "array",
+          "description": "Domande strutturali che attivano la lettura configurazionale senza ridurre a comportamento né introdurre normatività. Includono lettura episodio e lettura multi-livello.",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+
+        "operative_proxies": {
+          "type": "array",
+          "description": "Proxy operativi del dispositivo, integrati nella forma completa definita in STEP 6B.",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/OperativeProxy" }
+        },
+
+        "observability_requirements": {
+          "type": "array",
+          "description": "Requisiti di osservabilità formalizzati, derivati da STEP 8.",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/ObservabilityRequirement" }
+        },
+
+        "non_classifiability_rules": {
+          "type": "array",
+          "description": "Regole di non-classificabilità integrate — distinguono non_classificabile (dato assente) da ambiguo (dato non discriminante).",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/NonClassifiabilityRule" }
+        },
+
+        "interpretive_warnings": {
+          "type": "array",
+          "description": "Warning interpretativi: rischi di riduzione comportamentista, normativa, tecnicistica, cognitiva specifici del nuovo tema.",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/InterpretiveWarning" }
+        },
+
+        "non_permitted_transformations": {
+          "type": "array",
+          "description": "Usi non permessi del dispositivo (diagnosi, valutazione competenze, training comportamentale, giudizio sul caregiver, ecc.).",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+
+        "validation_structural_check": {
+          "type": "object",
+          "description": "Checklist finale di validazione strutturale del dispositivo completo.",
+          "required": ["configurational_logic_preserved", "no_psychological_inference", "no_circularity", "proxy_observable", "self_limiting"],
+          "properties": {
+            "configurational_logic_preserved": { "type": "boolean" },
+            "configurational_logic_notes": { "type": "string" },
+            "no_psychological_inference": { "type": "boolean" },
+            "no_psychological_inference_notes": { "type": "string" },
+            "no_circularity": { "type": "boolean" },
+            "no_circularity_notes": { "type": "string" },
+            "proxy_observable": { "type": "boolean" },
+            "proxy_observable_notes": { "type": "string" },
+            "self_limiting": {
+              "type": "boolean",
+              "description": "Il dispositivo smette di funzionare quando i dati non ci sono (produce non_classificabile)."
+            },
+            "self_limiting_notes": { "type": "string" }
+          }
+        }
+
+      }
+    },
+
+    "ReadingFocusDimension": {
+      "type": "object",
+      "required": ["dimension", "description"],
+      "properties": {
+        "dimension": {
+          "type": "string",
+          "description": "Nome della dimensione."
+        },
+        "description": {
+          "type": "string",
+          "description": "Descrizione operativa della dimensione adattata al nuovo tema — include stati/livelli distinguibili, condizioni di distinguibilità, zone di sovrapposizione dichiarate."
+        }
+      }
+    },
+
+    "AccessPoint": {
+      "type": "object",
+      "required": ["label", "description"],
+      "properties": {
+        "label": {
+          "type": "string",
+          "description": "Etichetta del contesto osservativo."
+        },
+        "description": {
+          "type": "string",
+          "description": "Cosa il contesto rende osservabile e dove può fallire nell'applicazione del dispositivo."
+        }
+      }
+    },
+
+    "OperativeProxy": {
+      "type": "object",
+      "required": ["proxy_id", "dimension", "proxy_name", "what_it_measures", "required_observations", "applicability_conditions", "non_applicability_conditions", "decision_logic", "allowed_outputs", "epistemic_limit"],
+      "properties": {
+        "proxy_id": {
+          "type": "string",
+          "description": "Identificatore del proxy."
+        },
+        "dimension": {
+          "type": "string",
+          "description": "Dimensione del reading_focus a cui si applica il proxy."
+        },
+        "proxy_name": {
+          "type": "string",
+          "description": "Nome sintetico del proxy."
+        },
+        "what_it_measures": {
+          "type": "string",
+          "description": "Cosa misura il proxy."
+        },
+        "required_observations": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "applicability_conditions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "non_applicability_conditions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "decision_logic": {
+          "type": "string",
+          "description": "Logica decisionale: quale struttura osservativa produce quale output."
+        },
+        "allowed_outputs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["aperto", "predeterminato", "non_classificabile", "ambiguo"]
+          }
+        },
+        "epistemic_limit": {
+          "type": "string",
+          "description": "Limite epistemico esplicito del proxy."
+        }
+      }
+    },
+
+    "ObservabilityRequirement": {
+      "type": "object",
+      "required": ["id", "description", "type", "observer_dependency", "required_for_proxy"],
+      "properties": {
+        "id": { "type": "string" },
+        "label": { "type": "string" },
+        "description": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": ["direttamente_osservabile", "osservabile_con_mediazione", "diretto", "con_mediazione"]
+        },
+        "type_notes": { "type": "string" },
+        "observer_dependency": {
+          "type": "string",
+          "enum": ["bassa", "media", "alta"]
+        },
+        "required_for_proxy": { "type": "boolean" },
+        "protocol_note": { "type": "string" }
+      }
+    },
+
+    "NonClassifiabilityRule": {
+      "type": "object",
+      "required": ["trigger", "required_output", "rationale"],
+      "properties": {
+        "id": { "type": "string" },
+        "dimension": { "type": "string" },
+        "trigger": { "type": "string" },
+        "required_output": {
+          "type": "string",
+          "enum": ["non_classificabile", "ambiguo"]
+        },
+        "rationale": { "type": "string" }
+      }
+    },
+
+    "InterpretiveWarning": {
+      "type": "object",
+      "required": ["risk_type", "description"],
+      "properties": {
+        "risk_type": {
+          "type": "string",
+          "description": "Tipo di rischio interpretivo (es. comportamentismo, normatività, tecnicismo, riduzione_cognitiva)."
+        },
+        "description": {
+          "type": "string",
+          "description": "Descrizione del rischio nel contesto specifico del nuovo tema."
+        }
+      }
+    }
+
+  }
+}

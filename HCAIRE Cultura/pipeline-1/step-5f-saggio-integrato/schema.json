@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SaggioIntegrato",
+  "description": "Output dello Step 5F della pipeline editoriale HCAIRE Cultura: saggio critico lungo che fonde l'articolo finale e il resoconto del processo in un testo organico destinato a una pubblicazione specialistica.",
+  "type": "object",
+  "required": [
+    "opera_riferimento",
+    "principio_strutturale",
+    "nuclei_tematici",
+    "testo_integrato"
+  ],
+  "properties": {
+    "opera_riferimento": {
+      "type": "object",
+      "required": ["titolo", "autore"],
+      "properties": {
+        "titolo": { "type": "string" },
+        "autore": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "principio_strutturale": {
+      "type": "string",
+      "description": "Descrizione del principio scelto per organizzare la fusione: come i nuclei sono stati identificati, quale logica sequenziale li ordina, come le due dimensioni (interpretativa e di processo) sono state intrecciate."
+    },
+    "nuclei_tematici": {
+      "type": "array",
+      "description": "I 3–5 nuclei attorno a cui il saggio si organizza.",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["titolo", "dimensione_interpretativa", "dimensione_di_processo", "tecnica_di_intreccio"],
+        "properties": {
+          "titolo": {
+            "type": "string",
+            "description": "Nome sintetico del nucleo."
+          },
+          "dimensione_interpretativa": {
+            "type": "string",
+            "description": "Cosa dice sull'opera questo nucleo."
+          },
+          "dimensione_di_processo": {
+            "type": "string",
+            "description": "Come è emerso nel percorso analitico: domanda, resistenza, scoperta."
+          },
+          "tecnica_di_intreccio": {
+            "type": "string",
+            "enum": ["opera-poi-processo", "processo-poi-opera", "parallelo"],
+            "description": "Come le due dimensioni sono state intrecciate in questo nucleo."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "testo_integrato": {
+      "type": "object",
+      "required": ["titolo", "testo_completo"],
+      "properties": {
+        "titolo": {
+          "type": "string",
+          "description": "Titolo del saggio integrato. Può coincidere con quello dell'articolo o essere nuovo."
+        },
+        "sottotitolo": {
+          "type": "string",
+          "description": "Sottotitolo facoltativo."
+        },
+        "testo_completo": {
+          "type": "string",
+          "description": "Testo completo del saggio in Markdown. Tra 3500 e 5000 parole."
+        }
+      },
+      "additionalProperties": false
+    },
+    "lunghezza_stimata": {
+      "type": "integer",
+      "description": "Numero di parole stimato del testo completo."
+    },
+    "note_di_stesura": {
+      "type": "string",
+      "description": "Facoltativo. Note sul processo di fusione: scelte fatte, tensioni non risolte, elementi dei testi sorgente sacrificati e perché."
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "data_compilazione": { "type": "string", "format": "date" },
+        "compilato_da": { "type": "string" },
+        "versione": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

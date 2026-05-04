@@ -1,0 +1,172 @@
+{
+  "axis_id": "asse_4",
+  "axis_name": "Separazione e Limite",
+  "version": "v1.0",
+  "status": "bozza",
+  "source_document": {
+    "title": "Asse 4 - Separazione e Limite (Capitoli 1–8)",
+    "format": "markdown",
+    "language": "it"
+  },
+  "structural_function": "Descrivere la struttura dell'incontro del soggetto con ciò che resiste indipendentemente dalla regolazione, dalla relazione e dalla norma. L'asse introduce una discontinuità intenzionale nel modello: il reale non è prodotto del giudizio né limite della regolazione né frustrazione educativa, ma eccedenza (sproporzione che decentra), perdita (irreversibilità che chiude una possibilità) e separazione (caduta dell'illusione di onnipotenza). Queste tre forme dell'incontro con il reale trasformano strutturalmente il campo del possibile del soggetto, rendendo possibile l'emergere del desiderio come orientamento — anziché impulso onnipotente o compensazione reattiva.",
+  "core_processes": [
+    {
+      "name": "Eccedenza come decentramento",
+      "description": "Prima forma di incontro con il reale: sproporzione strutturale tra soggetto e mondo che non ferisce ma sposta il soggetto dal centro. Il mondo non risponde completamente all'intenzione, il corpo ha limiti, l'altro non coincide con l'aspettativa. L'eccedenza non chiede di essere superata ma riconosciuta come dato: rompe l'illusione di trasparenza tra soggetto e mondo e rende possibili esplorazione, attesa, differenza tra desiderio e realtà. Il corpo vissuto è il primo luogo in cui si manifesta."
+    },
+    {
+      "name": "Perdita come irreversibilità strutturale",
+      "description": "Evento che non torna, non ha equivalente sostitutivo, non è reversibile nel tempo. Introduce irreversibilità e chiude una possibilità: non è frustrazione (possibilità rinviata) né eccedenza (sproporzione aperta), ma rottura qualitativa del campo del possibile. Non è patologica in sé: diventa disorganizzante quando è negata, compensata immediatamente, simbolizzata troppo presto o lasciata senza relazione. Richiede un lavoro (nel senso freudiano del lutto) che non può essere saltato."
+    },
+    {
+      "name": "Separazione dall'onnipotenza",
+      "description": "Esito strutturale dell'incontro con il reale: non separazione dall'altro né acquisizione di autonomia funzionale, ma caduta dell'illusione implicita per cui il desiderio organizza il reale e ciò che non funziona può sempre essere aggiustato. Introduce una distanza stabile da sé e da una certa immagine di sé. Rende possibile un rapporto non magico con il mondo e prepara la responsabilità futura senza imporla."
+    },
+    {
+      "name": "Riorganizzazione del campo del possibile",
+      "description": "Il limite reale non distrugge il possibile ma lo trasforma: alcune possibilità si chiudono definitivamente, altre diventano realisticamente accessibili, il desiderio si orienta. Il desiderio strutturale non nasce come compensazione della perdita (resterebbe reattivo e dipendente dall'oggetto perduto) ma come riorganizzazione dell'orizzonte dopo la perdita. Il possibile diventa abitabile invece che illimitato: il desiderio smette di essere comando e diventa direzione."
+    }
+  ],
+  "bridge_concepts": [
+    {
+      "concept": "Limite reale",
+      "definition": "Ciò che accade senza essere posto dal soggetto o dall'adulto; non orienta né argomenta né chiede una presa di posizione; non può essere trasgredito senza conseguenze. Distinto strutturalmente da norma (che orienta), frustrazione (che presuppone possibilità rinviata), fallimento educativo (che ammette soluzione). Ha la forma del 'non è possibile', non del 'dovresti'.",
+      "linked_nodes": ["eccedenza", "perdita", "separazione-dall-onnipotenza"]
+    },
+    {
+      "concept": "Eccedenza",
+      "definition": "Sproporzione strutturale tra soggetto e mondo che non ferisce ma decentra; esperienza primaria che il reale è più grande di quanto il soggetto possa contenere, prevedere o governare. Non è evento eccezionale ma struttura dell'esperienza. Condizione dell'esplorazione reale, dell'attesa, della differenza tra desiderio e realtà. Il corpo vissuto è il suo primo luogo di manifestazione.",
+      "linked_nodes": ["limite-reale", "perdita", "rischio-educativo"]
+    },
+    {
+      "concept": "Simbolizzazione della perdita",
+      "definition": "Processo che richiede tempo e non può essere sostituito dalla spiegazione. Distinto dal nominare (spiegare chiude il senso e neutralizza il reale) e dalla mutezza (la perdita non-formata resta come angoscia o rigidità). 'Tenere' è la modalità che precede il dire: la relazione che sostiene la perdita senza spiegarla prematuramente rende possibile una simbolizzazione che non azzeri il carattere reale della perdita.",
+      "linked_nodes": ["perdita", "rischio-educativo", "resto-non-simbolizzabile"]
+    },
+    {
+      "concept": "Onnipotenza",
+      "definition": "Vissuto implicito — non necessariamente cosciente — per cui il desiderio organizza il reale, il mondo risponde alle intenzioni, ciò che non funziona può essere aggiustato. Non è convinzione esplicita ma struttura dell'esperienza che precede l'incontro con il limite reale. La separazione ne segna la caduta strutturale: condizione necessaria perché il desiderio possa diventare orientamento e non restare impulso indifferenziato.",
+      "linked_nodes": ["separazione-dall-onnipotenza", "eccedenza", "perdita"]
+    }
+  ],
+  "structural_nodes": [
+    {
+      "node": "limite-reale",
+      "short_definition": "Ciò che accade senza essere posto; non norma né frustrazione; ha la forma del 'non è possibile'."
+    },
+    {
+      "node": "eccedenza",
+      "short_definition": "Sproporzione strutturale che decentra senza ferire; prima forma di incontro con il reale."
+    },
+    {
+      "node": "perdita",
+      "short_definition": "Irreversibilità strutturale: ciò che non torna e non ha sostituto equivalente."
+    },
+    {
+      "node": "irreversibilità",
+      "short_definition": "Chiusura definitiva di una possibilità; ciò che distingue la perdita dalla frustrazione e dall'eccedenza."
+    },
+    {
+      "node": "separazione-dall-onnipotenza",
+      "short_definition": "Caduta dell'illusione che il desiderio organizzi il reale; introduce distanza stabile da sé."
+    },
+    {
+      "node": "onnipotenza",
+      "short_definition": "Vissuto implicito di coincidenza tra desiderio e reale; la separazione ne segna la caduta strutturale."
+    },
+    {
+      "node": "lavoro-del-lutto",
+      "short_definition": "Processo che la perdita richiede e che non può essere saltato; non patologico ma necessario."
+    },
+    {
+      "node": "resto-non-simbolizzabile",
+      "short_definition": "Ciò che in ogni perdita non può essere integralmente ricondotto a senso; condizione del desiderio strutturale."
+    },
+    {
+      "node": "rischio-educativo",
+      "short_definition": "Iper-regolazione, spiegazionismo, riparazione forzata: strategie dell'adulto che non tollera il reale."
+    },
+    {
+      "node": "condizione-del-desiderio",
+      "short_definition": "Il limite reale non distrugge il possibile ma lo trasforma: condizione perché il desiderio diventi orientamento."
+    }
+  ],
+  "internal_articulations": [
+    {
+      "section": "Capitolo 1 — Lo statuto del limite reale",
+      "function": "Funzione preliminare negativa: definisce il limite reale per esclusione (≠ norma, ≠ frustrazione regolata, ≠ fallimento educativo). Introduce la discontinuità intenzionale del modello: l'Asse 4 non prolunga ma mette alla prova gli assi precedenti."
+    },
+    {
+      "section": "Capitolo 2 — L'eccedenza",
+      "function": "Descrive la prima e più elementare forma di incontro con il reale: sproporzione che decentra senza ferire. Mostra il corpo vissuto come primo luogo dell'eccedenza e l'eccedenza come condizione dell'esplorazione reale."
+    },
+    {
+      "section": "Capitolo 3 — La perdita",
+      "function": "Introduce l'irreversibilità come salto qualitativo rispetto all'eccedenza. Distingue perdita da frustrazione ed eccedenza. Usa Freud sul lutto come riferimento: la perdita richiede un lavoro necessario, non è patologica in sé ma diventa disorganizzante se negata o compensata."
+    },
+    {
+      "section": "Capitolo 4 — La separazione",
+      "function": "Descrive l'esito strutturale dell'incontro con il reale: separazione dall'onnipotenza (non dall'altro). Introduce la distanza stabile da sé come trasformazione dell'immagine di sé e condizione di un rapporto non magico con il mondo."
+    },
+    {
+      "section": "Capitolo 5 — Il rischio educativo",
+      "function": "Funzione critica e di vigilanza: mostra le tre strategie tipiche con cui l'adulto non tollera il reale — iper-regolazione (prevenire il limite), spiegazionismo (sostituire l'esperienza con il discorso), riparazione forzata (non lasciare che qualcosa resti). Tutte nascono dall'esperienza di impotenza dell'adulto, non da cattiva volontà."
+    },
+    {
+      "section": "Capitolo 6 — Temporalità del limite",
+      "function": "Chiarimento metodologico: non fasi evolutive cronologiche ma forme temporali diverse dell'incontro con lo stesso reale. Il tempo vissuto (non il tempo cronologico) è la condizione dell'incontro. Le tre forme (eccedenza, perdita, separazione) si ridistribuiscono lungo lo sviluppo senza sostituirsi."
+    },
+    {
+      "section": "Capitolo 7 — Statuto simbolico della perdita",
+      "function": "Lavora sulla tensione tra perdita muta (non formata: resta come angoscia o rigidità) e perdita neutralizzata (simbolizzata troppo presto: il senso copre il reale). Introduce la distinzione simbolizzare/spiegare e il 'tenere' come modalità relazionale che precede e rende possibile la simbolizzazione."
+    },
+    {
+      "section": "Capitolo 8 — Raccordo con l'asse del desiderio",
+      "function": "Funzione di raccordo strutturale: il limite come condizione (non negazione) del desiderio. Il desiderio strutturale non nasce come compensazione della perdita (resterebbe reattivo) ma come riorganizzazione del campo del possibile dopo la perdita. Prepara l'Asse 5 senza anticiparlo."
+    }
+  ],
+  "reduction_risks": [
+    {
+      "type": "Identificazione limite/norma",
+      "description": "Trattare il limite reale come prescrizione educativa che orienta il soggetto e può essere rimossa con un migliore insegnamento o intervento. Produce la confusione tra impossibilità strutturale e inadeguatezza educativa: ogni perdita diventa colpa, ogni limite diventa errore."
+    },
+    {
+      "type": "Patologizzazione della perdita",
+      "description": "Identificare ogni esperienza di perdita con un evento traumatico da prevenire, ridurre o immediatamente riparare. Impedisce il lavoro del lutto e produce le tre strategie del rischio educativo: iper-regolazione, spiegazionismo, riparazione forzata."
+    },
+    {
+      "type": "Neutralizzazione simbolica prematura",
+      "description": "Sostituire l'esperienza della perdita con la narrazione di senso prima che sia stata sostenuta nel tempo. Il simbolico copre il reale invece di accompagnarlo: la perdita viene trasformata in investimento educativo, passaggio necessario, esperienza formativa già chiusa."
+    },
+    {
+      "type": "Concezione compensatoria del desiderio",
+      "description": "Pensare che il desiderio nasca per colmare il vuoto lasciato dalla perdita: resterebbe reattivo, dipendente dall'oggetto perduto, incapace di orientarsi autonomamente. Il modello distingue desiderio come compensazione (Asse 4 non compiuto) da desiderio come riorganizzazione del campo del possibile (condizione dell'Asse 5)."
+    },
+    {
+      "type": "Stadiazione cronologica del limite",
+      "description": "Trattare le forme temporali del limite (eccedenza, perdita, separazione) come fasi evolutive che compaiono in ordine cronologico. Il reale è sempre presente; cambiano le forme di incontro in relazione al tempo vissuto, non a età determinate."
+    }
+  ],
+  "structural_questions": [
+    "In quale misura la qualità della simbolizzazione della perdita dipende dalla qualità della relazione che la 'tiene' prima di nominarla — e come si riconosce la differenza tra una relazione che accompagna e una che sppiega?",
+    "Come si distingue strutturalmente una separazione dall'onnipotenza che libera il desiderio da una separazione che invece produce ritiro o blocco del campo del possibile?",
+    "In quali condizioni l'eccedenza e la perdita diventano traumatiche anziché strutturanti — e quale peso specifico ha la qualità della relazione nel determinare questo esito rispetto alla natura dell'evento?",
+    "Che cosa rimane irrisolvibilmente non simbolizzabile in ogni perdita, e quale funzione svolge questo 'resto' nel rapporto del soggetto con il desiderio e con il possibile?"
+  ],
+  "methodological_constraints": [
+    "Non trattare il limite reale come contenuto educativo da trasmettere, competenza da sviluppare o obiettivo da raggiungere: l'asse descrive la struttura dell'incontro con ciò che accade indipendentemente dall'intenzione educativa.",
+    "Non anticipare la simbolizzazione della perdita con spiegazioni di senso: il lavoro del lutto richiede tempo e una relazione che sostenga l'esperienza prima che possa essere nominata; la simbolizzazione prematura neutralizza il reale.",
+    "Non identificare le forme temporali del limite (eccedenza, perdita, separazione) con stadi evolutivi cronologicamente determinati: sono forme di incontro con lo stesso reale che si manifestano diversamente in relazione al tempo vissuto.",
+    "Non derivare dall'asse indicazioni operative per la gestione educativa del limite: l'asse descrive strutture ontologiche dell'incontro con il reale, non tecniche di accompagnamento. La traduzione operativa richiede i passaggi metodologici di F2-F3."
+  ],
+  "compilation_notes": {
+    "confidence_level": "alta",
+    "needs_human_review": true,
+    "notes": "L'asse è concettualmente denso e ben strutturato. La triade eccedenza/perdita/separazione è il contributo più originale e richiede particolare cura nella traduzione verso i professionisti, dove il rischio di collasso nelle categorie cliniche (trauma, lutto patologico, separazione-individuazione) è elevato. Il capitolo 5 (rischio educativo) è il più direttamente utilizzabile nella formazione. Il capitolo 7 (statuto simbolico) è il più delicato teoricamente: la distinzione simbolizzare/spiegare è fondamentale ma richiede elaborazione ulteriore in F2.",
+    "open_issues": [
+      "Il concetto di 'tenere' (holding winnicottiano) emerge implicitamente nel Cap. 7 come modalità relazionale che precede la simbolizzazione ma non viene esplicitato in questi termini: richiederebbe raccordo con la scheda di interlocuzione sull'attaccamento.",
+      "Il raccordo tra il 'resto non simbolizzabile' dell'Asse 4 e il desiderio dell'Asse 5 è affermato ma non pienamente sviluppato nel Cap. 8: la distinzione tra desiderio come compensazione e desiderio come riorganizzazione del possibile richiede sviluppo esplicito in F2.",
+      "La temporalità del limite (Cap. 6) non fa riferimento esplicito alla DST (attrattori, perturbazioni, momenti di plasticità): la convergenza con la scheda di interlocuzione sistemi-dinamici è un punto di snodo importante per F2."
+    ]
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "step": "f3_step_5",
+  "version": "v1",
+  "audit_type": "audit_metodologico",
+  "based_on": {
+    "audited_output": "indistinguibility-test-v1.json (f3_step_4)",
+    "device_reference": "tema-01-pointing-clinico-dispositivo-v2 (f3_step_3)",
+    "schema_reference": "input/produzioni/strutturali/f3-step-5/audit-schema.json (file non leggibile al momento dell'audit — struttura output ricostruita dalla sezione D del protocollo F3 STEP 5)"
+  },
+  "domain": "clinico (neuropsviluppo, psicologia dell'infanzia, terapia della comunicazione precoce)",
+
+  "schema_compliance_note": {
+    "description": "Il file F3 STEP 4 audita usa nomi di campo non perfettamente coincidenti con quelli enumerati in D.1 del protocollo F3 STEP 5. La corrispondenza funzionale è stata ricostruita come segue, e l'audit verifica la presenza/qualità dei contenuti, non la conformità lessicale dei campi.",
+    "field_mapping": [
+      {
+        "schema_field": "proxies_direction",
+        "audited_field": "indicates (campo interno a ciascun proxy in proxies_present)",
+        "functional_equivalence": "piena: ogni proxy specifica la direzione strutturale che indica (apertura/predeterminazione)"
+      },
+      {
+        "schema_field": "counter_indicator",
+        "audited_field": "mandatory_counter_indicator.potential_alternative_reading",
+        "functional_equivalence": "piena"
+      },
+      {
+        "schema_field": "counter_indicator_rebuttal",
+        "audited_field": "mandatory_counter_indicator.why_discarded",
+        "functional_equivalence": "piena"
+      }
+    ],
+    "discrepancy_severity": "non_critica",
+    "rationale": "le funzioni metodologiche richieste dallo schema F3 STEP 5 sono presenti e leggibili; la discrepanza è puramente nominale e non incide sulla validità dell'audit"
+  },
+
+  "per_case_audit": [
+    {
+      "case_id": "caso_A",
+      "case_label": "Pointing con passaggio aperto — co-produzione genuina",
+      "declared_classification": "aperto",
+      "declared_classification_status": "probabile",
+
+      "checks": {
+        "formal_completeness": {
+          "result": "completo",
+          "fields_present": {
+            "observed_configuration": true,
+            "proxy_analysis.proxies_present": true,
+            "proxy_analysis.proxies_direction": "presente come campo 'indicates' interno a ciascun proxy",
+            "proxy_analysis.counter_indicator": "presente come 'mandatory_counter_indicator.potential_alternative_reading'",
+            "proxy_analysis.counter_indicator_rebuttal": "presente come 'mandatory_counter_indicator.why_discarded'",
+            "proxy_analysis.proxy_confidence": true,
+            "proxy_analysis.classification_status": true,
+            "proxy_analysis.ambiguity_conditions": true,
+            "proxy_analysis.classification": true,
+            "device_discrimination": true,
+            "failure_risk": true
+          },
+          "notes": "tutti i campi metodologicamente richiesti sono presenti; nessun campo critico è mancante"
+        },
+
+        "triangulation": {
+          "result": "reale",
+          "elements": {
+            "proxies_present_explicit_and_distinct": {
+              "verified": true,
+              "evidence": "quattro proxy distinti (non-prevedibilità della sequenza, asimmetria dinamica del lavoro semiotico, ridefinizione in corso d'opera, tracce di sospensione strutturale), ciascuno con evidence_in_case specifica e non sovrapponibile"
+            },
+            "proxies_direction_non_tautological": {
+              "verified": true,
+              "evidence": "il campo why_proxies_indicate_openness fornisce giustificazione strutturale della direzione: 'la non-prevedibilità è sostenuta dall'asimmetria dinamica e dalla ridefinizione, la sospensione strutturale è la condizione che rende possibile la ridefinizione' — non si limita a ripetere la classificazione 'aperto'"
+            },
+            "counter_indicator_real": {
+              "verified": true,
+              "evidence": "il contro-indicatore (script 'show-and-tell' ricorrente nelle diadi caregiver-bambino di questa fascia d'età) è plausibile e sfida realmente la classificazione, non è fittizio o irrilevante"
+            },
+            "counter_indicator_rebuttal_responsive": {
+              "verified": true,
+              "evidence": "il rebuttal risponde direttamente al contro-indicatore: identifica la differenza tra esecuzione di script e ridefinizione effettiva ('la ripresa del caregiver è inflessa dalla qualità di stupore aggiunta dal bambino, non è la formula stabilizzata dello script'). Non aggira il contro-indicatore: lo affronta sul terreno strutturale"
+            }
+          },
+          "errors_detected": [],
+          "notes": "triangolazione tecnicamente reale; il rebuttal è il punto più solido — risponde sul terreno dello script anziché spostarsi su altri criteri"
+        },
+
+        "proxy_validity": {
+          "result": "validi",
+          "local_evidence_anchoring": [
+            {
+              "proxy": "non-prevedibilità della sequenza",
+              "case_description_anchor": "narrative_thick_description: 'il commento del caregiver è inflesso dalla vocalizzazione del bambino, non era previsto come passo successivo dello script'",
+              "anchored_to_phenomenic_description": true,
+              "circularity_risk": false
+            },
+            {
+              "proxy": "asimmetria dinamica del lavoro semiotico",
+              "case_description_anchor": "narrative_thick_description: 'il bambino aggiunge una qualità di stupore', 'il caregiver coglie questa ripresa e la riprende a sua volta' — la sequenza descrive lo spostamento del contributo trasformativo",
+              "anchored_to_phenomenic_description": true,
+              "circularity_risk": false
+            },
+            {
+              "proxy": "ridefinizione in corso d'opera",
+              "case_description_anchor": "narrative_thick_description: 'una qualità di stupore che non era nella nominazione neutra del caregiver' + 'il commento del caregiver è inflesso dalla vocalizzazione del bambino'",
+              "anchored_to_phenomenic_description": true,
+              "circularity_risk": false
+            },
+            {
+              "proxy": "tracce di sospensione strutturale",
+              "case_description_anchor": "narrative_thick_description: 'il braccio resta sospeso un istante più di quanto la pura segnalazione richiederebbe', 'una micro-pausa nella vocalizzazione che stava per iniziare — la pausa non è inerzia, è ascolto attivo'",
+              "anchored_to_phenomenic_description": true,
+              "circularity_risk": false
+            }
+          ],
+          "errors_detected": [],
+          "notes": "tutti i proxy sono ancorati a elementi specifici della narrative_thick_description, non solo alla observed_configuration. La ricostruzione strutturale parte dalla descrizione fenomenica e non si auto-supporta"
+        },
+
+        "decisive_proxy_counter_reading": {
+          "decisive_proxy_declared": "ridefinizione in corso d'opera, sostenuta dalla asimmetria dinamica",
+          "result": "proxy_decisivo_stabile",
+          "counter_reading_attempted": {
+            "alternative_reading": "la 'ridefinizione' potrebbe essere riletta come naturale variazione interna di uno script flessibile — gli script socio-pragmatici reali ammettono inflessioni minori senza perdere natura predeterminata",
+            "structural_plausibility": "limitata",
+            "rationale": "uno script per definizione strutturale minimizza l'inflessione del passo successivo da parte del contributo del partner: se il commento del caregiver fosse parte di uno script flessibile, la sua forma sarebbe selezionata da un repertorio finito, non costruita in risposta alla qualità prosodica specifica della vocalizzazione del bambino. La contro-lettura non regge perché la ridefinizione descritta non è semplice variazione lessicale ma articolazione strutturale del significato"
+          },
+          "errors_detected": [],
+          "notes": "il proxy decisivo regge alla contro-lettura sul piano strutturale; la sua reversibilità è bassa, anche se l'osservabilità è dichiarata media (cosa diversa dalla reversibilità strutturale)"
+        },
+
+        "proxy_to_classification_coherence": {
+          "result": "coerente",
+          "evidence": "i quattro proxy puntano coerentemente in direzione 'apertura'; la classificazione 'aperto' segue dai proxy e non li precede. Il why_proxies_indicate_openness mostra che la classificazione è derivata, non anticipata",
+          "errors_detected": []
+        },
+
+        "proxy_confidence_check": {
+          "declared_value": "media",
+          "result": "giustificata",
+          "rationale": "il file fornisce giustificazione esplicita: 'la ridefinizione richiede di leggere lo scambio nella sua totalità qualitativa — riconoscere che il commento del caregiver è inflesso dalla vocalizzazione del bambino richiede attenzione qualitativa specifica. Non è direttamente leggibile in un singolo fotogramma o in una trascrizione che riporti solo il contenuto verbale'. Il legame tra natura del proxy decisivo (qualitativo, prosodico, totalizzante) e valore di confidence (media, non alta) è esplicito",
+          "errors_detected": []
+        },
+
+        "classification_status_check": {
+          "declared_value": "probabile",
+          "expected_value_per_rule": "probabile (regola: confidence media → status probabile)",
+          "result": "corretto",
+          "rationale": "la regola di corrispondenza è applicata: confidence media → status probabile. Non c'è forzatura verso 'netta' nonostante la coerenza dei quattro proxy",
+          "errors_detected": []
+        },
+
+        "ambiguity_handling": {
+          "result": "corretta",
+          "ambiguity_conditions_count": 3,
+          "specificity_assessment": "le tre condizioni sono specifiche e operative: (1) osservazione limitata al contenuto verbale, (2) prima osservazione della diade senza baseline, (3) disturbo del setting che riduce leggibilità delle micro-sospensioni. Ciascuna identifica esattamente quale proxy perde osservabilità e come deve essere riclassificata la lettura",
+          "errors_detected": []
+        },
+
+        "false_positive_risk": {
+          "result": "gestito",
+          "rationale": "il failure_risk identifica quattro condizioni precise di fallimento del dispositivo: (a) checklist comportamentale, (b) assenza di baseline della diade, (c) tecnicismo che spezza la coerenza del bridge, (d) accesso mediato che annulla l'osservabilità del proxy decisivo. Per ciascuna condizione è chiaro perché il dispositivo fallirebbe e qual è l'esito corretto (dichiarazione di ambiguità anziché classificazione 'aperto' di default)",
+          "notes": "il caso A è meno esposto al falso positivo del caso B perché la sua classificazione 'aperto' coincide con la lettura comportamentale standard — il rischio è di non distinguerlo da uno script ben eseguito. Questa simmetria con il caso B è correttamente segnalata"
+        }
+      }
+    },
+
+    {
+      "case_id": "caso_B",
+      "case_label": "Pointing con passaggio predeterminato — script 'show-and-tell'",
+      "declared_classification": "predeterminato",
+      "declared_classification_status": "probabile",
+
+      "checks": {
+        "formal_completeness": {
+          "result": "completo",
+          "fields_present": {
+            "observed_configuration": true,
+            "proxy_analysis.proxies_present": true,
+            "proxy_analysis.proxies_direction": "presente come campo 'indicates' interno a ciascun proxy",
+            "proxy_analysis.counter_indicator": "presente, con anche secondary_counter_indicator",
+            "proxy_analysis.counter_indicator_rebuttal": "presente per entrambi i contro-indicatori",
+            "proxy_analysis.proxy_confidence": true,
+            "proxy_analysis.classification_status": true,
+            "proxy_analysis.ambiguity_conditions": true,
+            "proxy_analysis.classification": true,
+            "device_discrimination": true,
+            "failure_risk": true
+          },
+          "notes": "completo, con elemento aggiuntivo (secondary_counter_indicator) che rafforza la triangolazione su un caso a rischio strutturalmente alto di falso positivo (forma comportamentale tipica)"
+        },
+
+        "triangulation": {
+          "result": "reale",
+          "elements": {
+            "proxies_present_explicit_and_distinct": {
+              "verified": true,
+              "evidence": "quattro proxy distinti in negativo/positivo (prevedibilità, concentrazione stabile, assenza di ridefinizione, assenza di sospensione), ciascuno con evidence_in_case specifica"
+            },
+            "proxies_direction_non_tautological": {
+              "verified": true,
+              "evidence": "why_proxies_indicate_predetermination fornisce ragione strutturale: 'prevedibilità, concentrazione stabile, assenza di ridefinizione e linearità sono compatibili con — e tipiche di — l'esecuzione di una struttura già data'. Non è ripetizione della classificazione"
+            },
+            "counter_indicator_real": {
+              "verified": true,
+              "evidence": "il contro-indicatore principale (la sequenza presenta tutti i marker comportamentali del pointing dichiarativo riuscito) è il contro-indicatore strutturalmente più forte possibile per questo caso, perché coincide con la lettura standard. Il secondary_counter_indicator (sguardo di riferimento come marker di intenzionalità) aggiunge un secondo livello di sfida sul piano della letteratura clinica"
+            },
+            "counter_indicator_rebuttal_responsive": {
+              "verified": true,
+              "evidence": "il rebuttal affronta direttamente il contro-indicatore distinguendo forma da struttura ('la presenza di forma comportamentale tipica e l'assenza di disfunzione manifesta NON sono criteri di apertura del passaggio'). Inoltre anticipa una possibile sotto-obiezione (la vocalizzazione come aggiunta del bambino) e la scarta su base strutturale (formalmente identica alla casella prevista dallo script). Il secondary rebuttal distingue condizione necessaria del campo da proxy del bridge"
+            }
+          },
+          "errors_detected": [],
+          "notes": "triangolazione tecnicamente reale e particolarmente solida — il rebuttal del caso B è più articolato di quello del caso A, in proporzione al rischio strutturalmente più alto di falso positivo"
+        },
+
+        "proxy_validity": {
+          "result": "parzialmente_validi",
+          "local_evidence_anchoring": [
+            {
+              "proxy": "prevedibilità della sequenza",
+              "case_description_anchor": "narrative_thick_description: 'la frase è prodotta in un'unica unità, senza inflessioni che rispondano a qualcosa di specifico nel gesto del bambino — è la formula della diade, applicata' + 'lo scambio di sguardi finale ha la qualità della conclusione di una routine ben riuscita'",
+              "anchored_to_phenomenic_description": true,
+              "circularity_risk": "parziale",
+              "circularity_note": "il proxy si appoggia all'affermazione narrativa che la sequenza è 'la formula stabilizzata della diade' — informazione che eccede l'episodio singolo osservabile e richiede una baseline relazionale. Senza accesso a questa baseline, l'ancoraggio rimane congetturale. Il file riconosce esplicitamente questo limite nelle ambiguity_conditions"
+            },
+            {
+              "proxy": "concentrazione stabile del lavoro semiotico nell'adulto",
+              "case_description_anchor": "narrative_thick_description: 'il caregiver produce nominazione, conferma e commento; il bambino esegue il pointing iniziale e una vocalizzazione di acknowledgment'",
+              "anchored_to_phenomenic_description": true,
+              "circularity_risk": false
+            },
+            {
+              "proxy": "assenza di ridefinizione",
+              "case_description_anchor": "narrative_thick_description: 'la vocalizzazione è formalmente identica a quella del caso A, ma è la presa di consegna della nominazione' + 'il significato del gesto era già lì prima che fosse prodotto'",
+              "anchored_to_phenomenic_description": true,
+              "circularity_risk": "parziale",
+              "circularity_note": "l'inferenza che la vocalizzazione 'è presa di consegna' richiede di distinguere la stessa forma osservabile (vocalizzazione 'oh!') tra caso A e caso B sulla base della qualità prosodica e della funzione strutturale nel campo — distinzione che è proprio quella che il dispositivo deve rendere leggibile. Non è circolarità piena ma il proxy si appoggia al riconoscimento di una qualità totalizzante dello scambio, non a un elemento puntuale isolato"
+            },
+            {
+              "proxy": "assenza di sospensione strutturale",
+              "case_description_anchor": "narrative_thick_description: 'il braccio si tende e torna giù in un movimento lineare e fluido' + 'la vocalizzazione segue immediatamente la conferma del caregiver senza la micro-pausa di ascolto del caso A'",
+              "anchored_to_phenomenic_description": true,
+              "circularity_risk": false
+            }
+          ],
+          "errors_detected": [
+            "il proxy 'prevedibilità della sequenza' richiede informazione che eccede l'episodio singolo (baseline della diade per riconoscere la 'formula stabilizzata'). Il file lo riconosce nelle ambiguity_conditions ma il proxy resta parzialmente non-ancorabile a livello episodico"
+          ],
+          "notes": "tre proxy su quattro sono pienamente ancorati alla descrizione fenomenica; uno (prevedibilità) è ancorato in modo parziale e dipendente da informazione contestuale dichiarata. La validità complessiva è 'parzialmente_validi' non per debolezza intrinseca dei proxy ma per la natura strutturale del proxy della prevedibilità su singolo episodio. Il file gestisce questo limite con trasparenza"
+        },
+
+        "decisive_proxy_counter_reading": {
+          "decisive_proxy_declared": "assenza di ridefinizione, sostenuta dalla concentrazione stabile del lavoro semiotico nell'adulto",
+          "result": "proxy_decisivo_reversibile",
+          "counter_reading_attempted": {
+            "alternative_reading": "l'assenza di ridefinizione potrebbe essere letta come consolidamento di una co-produzione precedentemente costituita: una diade che ha già co-prodotto il significato di 'pointing-uccellino' in occasioni precedenti potrebbe presentare un'esecuzione fluida senza ridefinizione attiva senza che questo implichi predeterminazione",
+            "structural_plausibility": "plausibile sotto specifiche condizioni",
+            "rationale": "la rilettura regge strutturalmente in assenza di baseline che permetta di distinguere consolidamento da script. Il file riconosce questa fragilità nelle ambiguity_conditions: 'se la diade è osservata in un contesto eccezionale (prima occorrenza dell'oggetto, situazione inattesa), il proxy della prevedibilità non è ancorabile a una baseline e la classificazione predeterminato non deve essere forzata'. Inoltre, il proxy 'assenza di X' è strutturalmente più debole di un proxy positivo perché l'assenza è compatibile con più letture (assenza per script, assenza per consolidamento, assenza per impossibilità di ridefinizione in quel momento). La distinzione strutturale tra script e consolidamento richiede ulteriore informazione (sequenze multiple)"
+          },
+          "errors_detected": [
+            "la reversibilità del proxy decisivo è dichiarata implicitamente nelle ambiguity_conditions ma non è esplicitata come 'reversibilità del proxy decisivo' al livello della proxy_analysis: il dispositivo dichiara che la classificazione 'predeterminato' deve essere abbassata ad 'ambiguo' su singolo episodio senza baseline, ma non tematizza che ciò avviene perché il proxy decisivo stesso è strutturalmente reversibile in quelle condizioni"
+          ],
+          "notes": "questo è il punto di maggiore fragilità strutturale dell'audit. Il proxy decisivo del caso B è reversibile sotto le condizioni esplicitamente dichiarate; questo è gestito correttamente attraverso le ambiguity_conditions ma riduce la robustezza della classificazione 'predeterminato' a livello di episodio singolo. La fragilità è asimmetrica tra i due casi: il proxy decisivo del caso A regge meglio alla contro-lettura del proxy decisivo del caso B"
+        },
+
+        "proxy_to_classification_coherence": {
+          "result": "coerente",
+          "evidence": "i quattro proxy puntano coerentemente in direzione 'predeterminazione'; la classificazione segue. Il why_proxies_indicate_predetermination mostra derivazione, non anticipazione",
+          "errors_detected": []
+        },
+
+        "proxy_confidence_check": {
+          "declared_value": "media",
+          "result": "giustificata",
+          "rationale": "il file fornisce giustificazione esplicita: 'l'assenza di ridefinizione è leggibile solo se si coglie che il commento del caregiver non è inflesso dalla vocalizzazione del bambino — che è la formula della diade applicata, non una ripresa specifica. Richiede attenzione qualitativa allo scambio nella sua totalità e, idealmente, conoscenza della diade'. Il legame natura del proxy → confidence media è esplicito",
+          "errors_detected": []
+        },
+
+        "classification_status_check": {
+          "declared_value": "probabile",
+          "expected_value_per_rule": "probabile (regola: confidence media → status probabile)",
+          "result": "corretto",
+          "rationale": "la regola è applicata correttamente. Inoltre il file dichiara esplicitamente che lo status non è 'netto' anche per ragioni strutturali aggiuntive: 'il caso B è strutturalmente costruito per essere quasi-indistinguibile dal caso A'. Non c'è forzatura di status",
+          "errors_detected": []
+        },
+
+        "ambiguity_handling": {
+          "result": "corretta",
+          "ambiguity_conditions_count": 4,
+          "specificity_assessment": "le quattro condizioni sono specifiche e ciascuna identifica un proxy che perde osservabilità e l'esito corretto: (1) assenza di accesso ad altre interazioni della diade → prevedibilità non triangolabile → ambiguo; (2) osservazione di una sola occorrenza senza qualità prosodica → due proxy decisivi perdono osservabilità → ambiguo; (3) contesto eccezionale → prevedibilità non ancorabile → ambiguo; (4) uso del dispositivo per valutare struttura relazionale → restare al livello episodico. La quarta condizione è di natura diversa (limite d'uso, non di osservabilità) ma è correttamente collocata",
+          "errors_detected": []
+        },
+
+        "false_positive_risk": {
+          "result": "gestito",
+          "rationale": "il failure_risk del caso B identifica cinque condizioni di fallimento, in proporzione al rischio strutturalmente più alto: (a) griglia di marker comportamentali, (b) salto della triangolazione del bridge, (c) assenza di baseline, (d) confusione 'forma riuscita' = 'co-produzione', (e) trasformazione del dispositivo da descrittivo a valutativo del caregiver. Ogni condizione è argomentata e l'esito corretto è specificato. Il punto (d) è particolarmente rilevante perché identifica esplicitamente l'errore-tipo che il dispositivo è costruito per evitare",
+          "notes": "il caso B è dichiarato esplicitamente come 'caso ad alto rischio di errore' e questa dichiarazione è coerente con la struttura del test di indistinguibilità — il rischio non è nascosto ma reso visibile e gestito"
+        }
+      }
+    }
+  ],
+
+  "global_analysis": {
+    "real_discrimination": {
+      "result": "fragile",
+      "rationale": "la discriminazione tra i due casi è strutturalmente reale: si fonda sui quattro proxy del bridge applicati con triangolazione obbligatoria, e i loci di differenza identificati nel comparative_analysis sono articolati e non riducibili a differenze narrative o comportamentali. Tuttavia la discriminazione è 'fragile' (non 'robusta') perché: (a) il proxy decisivo in entrambi i casi (ridefinizione/assenza di ridefinizione) ha proxy_confidence dichiarata 'media' e richiede osservazione qualitativa di alto livello; (b) il proxy decisivo del caso B presenta reversibilità strutturale sotto specifiche condizioni (assenza di baseline della diade); (c) il file stesso riconosce esplicitamente che 'sotto soglia di osservabilità del proxy decisivo, il dispositivo correttamente dichiara ambiguità invece di forzare la classificazione' — la discriminazione regge ma in finestra limitata di condizioni di osservazione",
+      "indicators_of_fragility": [
+        "entrambe le classificazioni hanno status 'probabile', non 'netto'",
+        "il proxy decisivo è singolo (ridefinizione/sua assenza), pur sostenuto dagli altri proxy",
+        "le ambiguity_conditions specificano contesti realistici (prima osservazione, audio assente, mancanza di baseline) in cui la classificazione deve diventare ambigua",
+        "la discriminazione richiede 'osservazione qualitativa di alto livello' — condizione non sempre garantita nei contesti applicativi reali"
+      ],
+      "indicators_of_reality": [
+        "i quattro proxy sono coerenti tra loro in entrambi i casi (non c'è dispersione nei proxy che indebolirebbe la lettura)",
+        "il comparative_analysis identifica sei loci specifici e strutturalmente caratterizzati di differenza",
+        "il contro-indicatore obbligatorio è scartabile su base strutturale in entrambi i casi, senza inferenze esterne",
+        "la discriminazione non si appoggia a indicatori metrici né a giudizi di qualità"
+      ]
+    },
+
+    "observer_dependency": {
+      "result": "esplicita",
+      "rationale": "la dipendenza dall'osservatore è dichiarata e gestita in più punti: (a) discrimination_qualifications dichiara 'la discriminazione richiede osservazione qualitativa di alto livello'; (b) le ambiguity_conditions in entrambi i casi specificano quali condizioni di osservazione fanno collassare l'osservabilità del proxy decisivo; (c) il failure_risk identifica esplicitamente l'osservatore con checklist comportamentale come fonte di errore; (d) implications_for_device.device_use_conditions_to_emphasize riprende e formalizza la condizione. La dipendenza non è nascosta, è oggetto di dichiarazione strutturale",
+      "qualifications": [
+        "la dipendenza è proceduralizzata attraverso le ambiguity_conditions: l'osservatore non è solo dichiarato necessario ma è specificato cosa deve poter osservare e cosa deve fare quando non può",
+        "non è proceduralizzata l'identificazione preventiva delle condizioni di osservabilità: il dispositivo richiede all'osservatore di riconoscere a posteriori se i proxy sono triangolabili — punto di fragilità residua segnalato dal file stesso nelle open_questions_for_subsequent_steps"
+      ]
+    },
+
+    "single_proxy_critical_dependency": {
+      "result": "dipendenza_singola_dichiarata",
+      "rationale": "la discriminazione poggia su quattro proxy in entrambi i casi, ma il file identifica esplicitamente un solo decisive_proxy per ciascun caso (ridefinizione per A, assenza di ridefinizione per B), e in entrambi i casi questo proxy ha proxy_confidence 'media'. Gli altri tre proxy sostengono ma non sono dichiarati come indipendentemente decisivi. Inoltre il discriminating_factor del comparative_analysis afferma: 'l'unico elemento del dispositivo corretto che rende leggibile la differenza tra i due casi è la triangolazione obbligatoria del bridge attraverso i quattro proxy strutturali' — la triangolazione è multipla ma il punto di chiusura della classificazione è singolo (la ridefinizione). La dipendenza critica da proxy singolo è dichiarata implicitamente attraverso l'identificazione del decisive_proxy, ma non è tematizzata con la formula esplicita 'dipendenza critica da proxy singolo, fragilità non distribuita'",
+      "qualifications": [
+        "la dichiarazione esiste ma è funzionale, non formale: il file fornisce tutte le informazioni che permettono di identificare la dipendenza singola, ma non la nomina come tale",
+        "gli altri tre proxy sostengono il decisivo (asimmetria dinamica → ridefinizione, sospensione → ridefinizione, non-prevedibilità → ridefinizione): la struttura del bridge è progettata in modo che i proxy si rinforzino reciprocamente. Tuttavia il punto in cui la classificazione si chiude è singolo, e questo è il senso in cui la dipendenza è 'critica'",
+        "questo non invalida la classificazione ma — come previsto dalla regola D.11 — abbassa il grado di robustezza dell'intera discriminazione, coerentemente con il verdict 'probabile' (non 'netto') del file"
+      ]
+    }
+  },
+
+  "audit_summary": {
+    "strengths": [
+      "triangolazione tecnicamente reale in entrambi i casi: i quattro elementi metodologicamente richiesti (proxies, direction, counter-indicator, rebuttal) sono presenti e tutti sostanziali",
+      "proxy ancorati alla narrative_thick_description in modo prevalente; la circolarità lettura-strutturale-supporta-se-stessa è evitata",
+      "regola di corrispondenza proxy_confidence ↔ classification_status applicata correttamente in entrambi i casi (media → probabile)",
+      "ambiguity_conditions specifiche, operative e numericamente sostanziali (3 per caso A, 4 per caso B)",
+      "failure_risk articolato e direttamente connesso ai proxy che perdono osservabilità sotto le condizioni descritte",
+      "dipendenza dall'osservatore dichiarata in più punti e proceduralizzata attraverso le ambiguity_conditions",
+      "il caso B contiene un secondary_counter_indicator che rinforza la triangolazione su un caso strutturalmente ad alto rischio di falso positivo: questo è un esempio di applicazione rigorosa, non formale"
+    ],
+
+    "weaknesses": [
+      "il proxy 'prevedibilità della sequenza' nel caso B è ancorato in modo parziale: richiede informazione che eccede l'episodio singolo (baseline della diade). Il file lo riconosce ma il proxy resta strutturalmente non-ancorabile su singolo episodio osservato",
+      "il proxy decisivo del caso B (assenza di ridefinizione) è strutturalmente reversibile sotto condizioni dichiarate: la sua plausibilità in lettura alternativa (consolidamento anziché script) è gestita correttamente attraverso ambiguity_conditions ma indebolisce la classificazione 'predeterminato' a livello episodico",
+      "la dipendenza critica da proxy singolo è funzionalmente dichiarata ma non tematizzata con la formula esplicita prevista dalla regola D.11: il file fornisce tutte le informazioni necessarie ma non nomina la fragilità concentrata in un punto unico",
+      "la discrepanza nominale tra schema F3 STEP 5 (counter_indicator, counter_indicator_rebuttal, proxies_direction) e nomi usati nel file (mandatory_counter_indicator.potential_alternative_reading / why_discarded, indicates) è non-critica ma indica un disallineamento lessicale tra protocollo e produzione che potrebbe essere risolto in versioni successive"
+    ],
+
+    "critical_problems": [],
+
+    "non_critical_problems": [
+      "discrepanza nominale dei campi rispetto allo schema D.1 (funzionale-equivalenti, non critica)",
+      "il proxy della prevedibilità nel caso B è solo parzialmente ancorato a livello episodico (gestito tramite ambiguity_conditions ma residuo strutturale)",
+      "reversibilità strutturale del proxy decisivo del caso B (gestita ma asimmetrica rispetto al caso A)",
+      "dipendenza critica da proxy singolo non tematizzata esplicitamente (funzionalmente dichiarata, formalmente no)"
+    ]
+  },
+
+  "final_assessment": "accettabile",
+
+  "final_assessment_rationale": "il metodo è applicato correttamente: la triangolazione è reale (non superficiale) in entrambi i casi, i proxy sono prevalentemente ancorati alla descrizione fenomenica, la regola di corrispondenza confidence/status è rispettata, le ambiguity_conditions sono operative, il failure_risk è gestito. Le debolezze rilevate non sono critiche: si tratta (a) di un disallineamento nominale rispetto allo schema, (b) di un proxy parzialmente ancorato (la prevedibilità nel caso B), (c) della reversibilità strutturale del proxy decisivo del caso B, (d) della mancata tematizzazione esplicita della dipendenza critica da proxy singolo. Tutte queste debolezze sono dichiarate o riconoscibili nel file stesso e non producono falsificazione della classificazione — al contrario, la classificazione 'probabile' (non 'netta') in entrambi i casi è essa stessa il riconoscimento metodologicamente corretto delle fragilità presenti. Il dispositivo discrimina realmente i due casi, ma la discriminazione è 'fragile' (non 'robusta') perché dipende da proxy con osservabilità media e da un proxy decisivo singolo. L'output non è 'robusto' perché la discriminazione è strutturalmente fragile per il dominio applicativo (e la fragilità è ammessa); non è 'fragile' come final_assessment perché i problemi rilevati non limitano la validità dell'output ma sono parte del suo contenuto descrittivo coerente; non è 'non_valido' perché nessun errore critico è stato rilevato. 'Accettabile' è la qualifica corretta: metodo applicato con qualche debolezza non critica, gestita con trasparenza dal sistema stesso.",
+
+  "recommendations_for_next_steps": [
+    "tematizzare esplicitamente la dipendenza critica da proxy singolo nel proxy_analysis di ciascun caso (formula D.11), in aggiunta al riconoscimento funzionale già presente",
+    "allineare la nomenclatura dei campi (counter_indicator, counter_indicator_rebuttal, proxies_direction) tra protocollo F3 STEP 5 e produzione F3 STEP 4 per ridurre l'ambiguità di lettura",
+    "esplicitare nella proxy_analysis del caso B la reversibilità strutturale del proxy decisivo (assenza di ridefinizione → consolidamento vs script) come check D.3b autonomo, non solo come ambiguity_condition",
+    "considerare nel prossimo step (F3 STEP 6 o revisione di F3 STEP 4) il test su casi a configurazione mista, già identificati come open_question dal file F3 STEP 4 stesso, per verificare se la fragilità della discriminazione cresce o regge in scenari intermedi",
+    "considerare se introdurre un secondo proxy decisivo indipendente (che non si appoggi sulla qualità prosodica o sulla baseline) potrebbe distribuire la dipendenza critica e portare la discriminazione da 'fragile' a 'robusta' — questione di disegno del dispositivo, non di applicazione del metodo"
+  ]
+}
