@@ -196,5 +196,19 @@ Sottoinsieme degli assi confermati per il tema in STEP 3. Non introdurre assi no
 ## H. Posizione nella pipeline
 
 1. **Dopo**: STEP 4 approvato (`theme-matrix-v2.json`)
-2. **Prima**: costruzione degli strumenti operativi (Fase 3)
-3. **Iterativo**: può essere revisionato prima di passare a Fase 3
+2. **Prima**: STEP 6 (Output-Tipo Vuoto) — poi F3
+3. **Iterativo**: può essere revisionato prima di passare a STEP 6
+
+---
+
+## I. Step successivo obbligatorio — STEP 6 (Output-Tipo Vuoto)
+
+Dopo aver prodotto e verificato l'output di questo step, eseguire **f2-step-6 (Output-Tipo Vuoto)** prima di passare a F3.
+
+STEP 6 produce il **"passaporto del tema"**: la struttura compilabile che formalizza il passaggio dall'Operatore Triadico di Lettura (F2) allo strumento contestualizzato (F3). Questo file è l'**input primario di F3 STEP 1** — non l'output-family direttamente.
+
+Senza l'output-tipo vuoto, F3 STEP 1 non ha un ancoraggio strutturale esplicito all'architettura triadica del modello (Campo + Posizione + Limite) e costruisce il dispositivo di lettura in modo non mediato dalla grammatica metodologica.
+
+**Cartella**: `f2-step-6-output-tipo-vuoto/`
+**Input**: output di questo step + `ce-prototipica-v1.json` + `theme-matrix-v2.json` + `theme-verification-v2.json`
+**Output**: `output/produzioni/ricerche/[nome-ricerca]/output-tipo-vuoto-v1.json`

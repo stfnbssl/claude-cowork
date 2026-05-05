@@ -302,3 +302,16 @@ Lo schema completo dei campi è in:
 1. **Dopo**: STEP 1 approvato (`theme-discovery-v2.json`)
 2. **Prima**: verifica strutturale (STEP 3)
 3. **Iterativo**: può essere revisionato prima di passare a STEP 3
+
+---
+
+## I. Step successivo obbligatorio — STEP 2a
+
+Dopo aver prodotto e salvato l'output di questo step, eseguire **f2-step-2a (Verifica Nodi Trasversali)** prima della verifica di STEP 2.
+
+STEP 2a verifica se i `candidate_nodes` prodotti qui corrispondono ai **Nodi Trasversali canonici N1–N7** del modello HCAIRE. La mappatura canonica è metodologicamente necessaria per garantire la tracciabilità tra il tema specifico e l'architettura strutturale del modello — e per consentire a F3 di operare sulla grammatica CE.
+
+**STEP 2a non richiede input aggiuntivi**: legge solo l'output di questo step. Può essere eseguito in sequenza immediata.
+
+**Cartella**: `f2-step-2a-verifica-nodi-trasversali/`
+**Output**: `output/produzioni/ricerche/[nome-ricerca]/node-verification-v1.json`

@@ -1,0 +1,184 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "F2 Step 2a — Node Verification Schema",
+  "description": "Schema per la verifica e mappatura dei nodi candidati sui Nodi Trasversali canonici N1-N7",
+  "type": "object",
+  "required": ["step", "results"],
+  "properties": {
+    "step": {
+      "type": "string",
+      "const": "f2_step_2a"
+    },
+    "results": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/ThemeNodeVerification"
+      }
+    }
+  },
+  "definitions": {
+    "ThemeNodeVerification": {
+      "type": "object",
+      "required": [
+        "theme_id",
+        "node_mappings",
+        "activated_canonical_nodes",
+        "absent_canonical_nodes",
+        "pure_derived_nodes",
+        "canonical_configuration_assessment"
+      ],
+      "properties": {
+        "theme_id": {
+          "type": "string",
+          "description": "Identificatore del tema (stesso theme_id di STEP 2)"
+        },
+        "node_mappings": {
+          "type": "array",
+          "description": "Mappatura di ogni nodo candidato di STEP 2 sui Nodi Trasversali canonici",
+          "items": {
+            "$ref": "#/definitions/NodeMapping"
+          }
+        },
+        "activated_canonical_nodes": {
+          "type": "array",
+          "description": "Nodi canonici N1-N7 coperti da almeno un nodo candidato",
+          "items": {
+            "$ref": "#/definitions/ActivatedCanonicalNode"
+          }
+        },
+        "absent_canonical_nodes": {
+          "type": "array",
+          "description": "Nodi canonici non attivati da nessun nodo candidato, con spiegazione strutturale",
+          "items": {
+            "$ref": "#/definitions/AbsentCanonicalNode"
+          }
+        },
+        "pure_derived_nodes": {
+          "type": "array",
+          "description": "Nodi candidati che non mappano su nessun canonico (mapping null)",
+          "items": {
+            "type": "object",
+            "required": ["node_id", "derivation_justification"],
+            "properties": {
+              "node_id": {
+                "type": "string",
+                "description": "node_id del nodo derivato (da STEP 2)"
+              },
+              "derivation_justification": {
+                "type": "string",
+                "description": "Perché la specificità di questo nodo non è catturabile da nessun canonico"
+              }
+            }
+          }
+        },
+        "canonical_configuration_assessment": {
+          "$ref": "#/definitions/CanonicalConfigurationAssessment"
+        }
+      }
+    },
+    "NodeMapping": {
+      "type": "object",
+      "required": ["node_id", "node_label", "axes", "canonical_mapping"],
+      "properties": {
+        "node_id": {
+          "type": "string",
+          "description": "Identificatore del nodo candidato (da STEP 2, campo candidate_nodes)"
+        },
+        "node_label": {
+          "type": "string",
+          "description": "Etichetta leggibile del nodo candidato"
+        },
+        "axes": {
+          "type": "array",
+          "items": { "type": "integer", "minimum": 1, "maximum": 6 },
+          "description": "Assi strutturali di appartenenza del nodo candidato (da STEP 2)"
+        },
+        "canonical_mapping": {
+          "oneOf": [
+            { "$ref": "#/definitions/CanonicalMappingEntry" },
+            { "type": "null" }
+          ],
+          "description": "Mappatura sul nodo canonico corrispondente. null se nessuna corrispondenza."
+        }
+      }
+    },
+    "CanonicalMappingEntry": {
+      "type": "object",
+      "required": ["canonical_node_id", "type", "rationale"],
+      "properties": {
+        "canonical_node_id": {
+          "type": "string",
+          "enum": ["N1", "N2", "N3", "N4", "N5", "N6", "N7"],
+          "description": "ID del Nodo Trasversale canonico corrispondente"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["identico", "istanza", "parziale"],
+          "description": "Tipo di relazione tra il nodo candidato e il canonico"
+        },
+        "rationale": {
+          "type": "string",
+          "description": "Motivazione strutturale della corrispondenza (max 2 frasi)"
+        }
+      }
+    },
+    "ActivatedCanonicalNode": {
+      "type": "object",
+      "required": ["canonical_node_id", "coverage_type", "covered_by"],
+      "properties": {
+        "canonical_node_id": {
+          "type": "string",
+          "enum": ["N1", "N2", "N3", "N4", "N5", "N6", "N7"]
+        },
+        "coverage_type": {
+          "type": "string",
+          "enum": ["piena", "parziale"],
+          "description": "piena = almeno un nodo identico o istanza; parziale = solo mappature parziali"
+        },
+        "covered_by": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Lista dei node_id candidati che attivano questo canonico"
+        }
+      }
+    },
+    "AbsentCanonicalNode": {
+      "type": "object",
+      "required": ["canonical_node_id", "structural_reason"],
+      "properties": {
+        "canonical_node_id": {
+          "type": "string",
+          "enum": ["N1", "N2", "N3", "N4", "N5", "N6", "N7"]
+        },
+        "structural_reason": {
+          "type": "string",
+          "description": "Perché la struttura del tema non richiede questo Nodo canonico"
+        }
+      }
+    },
+    "CanonicalConfigurationAssessment": {
+      "type": "object",
+      "required": ["plausibility", "plausibility_notes", "missing_relations_notes", "coverage_adequacy"],
+      "properties": {
+        "plausibility": {
+          "type": "string",
+          "enum": ["sì", "no", "parzialmente"],
+          "description": "I Nodi canonici attivati formano una configurazione plausibile per il tema?"
+        },
+        "plausibility_notes": {
+          "type": "string",
+          "description": "Motivazione della valutazione di plausibilità"
+        },
+        "missing_relations_notes": {
+          "type": "string",
+          "description": "Relazioni attese tra Nodi canonici assenti: specificità tematica o lacuna?"
+        },
+        "coverage_adequacy": {
+          "type": "string",
+          "description": "Valutazione complessiva: nodi canonici attivati + derivati puri coprono adeguatamente la struttura del tema?"
+        }
+      }
+    }
+  }
+}

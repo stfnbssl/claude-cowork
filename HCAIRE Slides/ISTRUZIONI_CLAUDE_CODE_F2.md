@@ -8,7 +8,7 @@
 
 Stai costruendo un'applicazione web formativa single-page per un corso destinato a **professionisti della prima infanzia** (pediatri, educatori, psicologi, coordinatori di servizi). Il corso illustra la **Fase 2 — Traduzione Interdisciplinare** di un metodo per la lettura dello sviluppo infantile.
 
-Il piano completo del corso comprende 10 moduli (~69 slide totali). Tu lavori **un modulo alla volta**. Ogni modulo viene definito da un file di contenuto (`modulo-XX.md`) che trovi nella stessa cartella di questo file. Le istruzioni architetturali qui sotto valgono per l'intera applicazione.
+Il piano completo del corso comprende 10 moduli (~69 slide totali). Tu lavori **un modulo alla volta**. Ogni modulo viene definito da un file di contenuto (`f2-modulo-XX.md`) che trovi nella stessa cartella di questo file. Le istruzioni architetturali qui sotto valgono per l'intera applicazione.
 
 **Filo rosso del corso**: un caso-guida unico attraversa tutti i moduli — una situazione di *lettura condivisa adulto-bambino* (Dialogic Book Sharing) durante un bilancio pediatrico. Il caso appare nel Modulo 0 e viene approfondito modulo per modulo fino alla pipeline completa nel Modulo 9.
 
@@ -401,8 +401,8 @@ Il piano completo prevede 10 moduli. Lavora in questo ordine:
 
 | Priorità | Modulo | File contenuto | Note |
 |----------|--------|---------------|------|
-| 1 | M0 — Orientamento | `modulo-00.md` | Prima il layout generale e la shell |
-| 2 | M2 — Pipeline | `modulo-02.md` | Componente `PipelineAnimator` centrale |
+| 1 | M0 — Orientamento | `f2-modulo-00.md` | Prima il layout generale e la shell |
+| 2 | M2 — Pipeline | `f2-modulo-02.md` | Componente `PipelineAnimator` centrale |
 | 3 | M3 — Nodo Trasversale | (da preparare) | Componente `ExpandableCards` N1–N7 |
 | 4 | M1 — Traduzione | (da preparare) | Componente `ComparisonPanel` |
 | 5 | M4 — Matrice | (da preparare) | Componente `InteractiveMatrix` |
@@ -412,7 +412,7 @@ Il piano completo prevede 10 moduli. Lavora in questo ordine:
 | 9 | M8 — Output vuoto | (da preparare) | |
 | 10 | M9 — Pipeline completa | (da preparare) | Modulo capstone |
 
-**Quando inizi un modulo**: leggi il file `modulo-XX.md` corrispondente per il contenuto esatto delle slide.
+**Quando inizi un modulo**: leggi il file `f2-modulo-XX.md` corrispondente per il contenuto esatto delle slide.
 
 ---
 

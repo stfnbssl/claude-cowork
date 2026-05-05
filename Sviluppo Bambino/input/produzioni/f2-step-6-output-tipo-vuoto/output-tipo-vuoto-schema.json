@@ -1,0 +1,224 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "F2 Step 6 — Output-Tipo Vuoto Schema (Passaporto del Tema)",
+  "description": "Schema per l'output-tipo vuoto: struttura di transizione F2→F3 basata sull'Operatore Triadico di Lettura",
+  "type": "object",
+  "required": ["step", "results"],
+  "properties": {
+    "step": {
+      "type": "string",
+      "const": "f2_step_6"
+    },
+    "results": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/OutputTipoVuoto"
+      }
+    }
+  },
+  "definitions": {
+    "OutputTipoVuoto": {
+      "type": "object",
+      "required": [
+        "theme_id",
+        "structural_reference",
+        "campo_condiviso",
+        "posizione_soggettiva",
+        "rapporto_con_limite",
+        "configurazione_complessiva",
+        "ipotesi_sostegno",
+        "tipologia_universale"
+      ],
+      "properties": {
+        "theme_id": {
+          "type": "string",
+          "description": "Identificatore del tema"
+        },
+        "structural_reference": {
+          "$ref": "#/definitions/StructuralReference",
+          "description": "Riferimento strutturale — nodi canonici, CE e relazioni da cui deriva l'output-tipo"
+        },
+        "campo_condiviso": {
+          "$ref": "#/definitions/CampoCondiviso",
+          "description": "Sezione A: struttura del campo condiviso nel tema"
+        },
+        "posizione_soggettiva": {
+          "$ref": "#/definitions/PosizioneSOggettiva",
+          "description": "Sezione B: posizione soggettiva del bambino nel tema"
+        },
+        "rapporto_con_limite": {
+          "$ref": "#/definitions/RapportoConLimite",
+          "description": "Sezione C: struttura del limite nel tema"
+        },
+        "configurazione_complessiva": {
+          "type": "string",
+          "description": "Sezione D: frase sintetica (max 3 frasi) che descrive come il campo appare strutturato. Forma: 'In questa situazione il campo appare strutturato prevalentemente come...'"
+        },
+        "ipotesi_sostegno": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": {
+            "$ref": "#/definitions/IpotesiSostegno"
+          },
+          "description": "Sezione E: direzioni di sostegno configurativo (non interventi tecnici)"
+        },
+        "tipologia_universale": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/TipologiaUniversaleEntry"
+          },
+          "description": "Mappatura sulle forme universali di sostegno U1-U6 attivate dal tema"
+        }
+      }
+    },
+    "StructuralReference": {
+      "type": "object",
+      "required": ["confirmed_nodes", "canonical_nodes_active", "ce_reference"],
+      "properties": {
+        "confirmed_nodes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "node_id confermati da STEP 3 (theme-verification) per questo tema"
+        },
+        "canonical_nodes_active": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["N1", "N2", "N3", "N4", "N5", "N6", "N7"]
+          },
+          "description": "Nodi canonici N1-N7 attivati nel tema (da STEP 2a o inferiti)"
+        },
+        "ce_reference": {
+          "type": "string",
+          "description": "Notazione formale sintetica della CE Prototipica (da STEP 4b, se disponibile)"
+        }
+      }
+    },
+    "CampoCondiviso": {
+      "type": "object",
+      "required": ["forma_prevalente", "elementi_sostenenti", "elementi_ostacolanti", "segnali_accesso"],
+      "properties": {
+        "forma_prevalente": {
+          "type": "string",
+          "enum": ["condiviso", "parallelo", "frammentato"],
+          "description": "Forma tipica del campo condiviso nel tema"
+        },
+        "elementi_sostenenti": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Componenti strutturali del tema (nodi, tensioni, bridge) che sostengono il campo condiviso"
+        },
+        "elementi_ostacolanti": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Componenti strutturali che ostacolano o interrompono il campo condiviso"
+        },
+        "segnali_accesso": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 3,
+          "items": { "type": "string" },
+          "description": "2-3 situazioni osservabili elementari in cui la struttura del campo condiviso del tema è riconoscibile (segnali grezzi, non diagnosi)"
+        }
+      }
+    },
+    "PosizioneSOggettiva": {
+      "type": "object",
+      "required": ["modalita_prototipica", "funzione_adulto", "permanenza_nel_legame", "forme_degradate"],
+      "properties": {
+        "modalita_prototipica": {
+          "type": "string",
+          "enum": ["emergenza_di_posizione", "reattività", "evitamento", "oscillazione"],
+          "description": "Modalità tipica di risposta del bambino nel tema"
+        },
+        "funzione_adulto": {
+          "type": "string",
+          "description": "Come l'adulto entra strutturalmente nel tema: sostiene, sostituisce o interrompe la posizione?"
+        },
+        "permanenza_nel_legame": {
+          "type": "string",
+          "description": "Il tema richiede continuità relazionale stabile o è compatibile con relazioni episodiche?"
+        },
+        "forme_degradate": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": { "type": "string" },
+          "description": "Come si manifesta la posizione soggettiva in configurazioni assenti, parziali, distorte o oscillanti"
+        }
+      }
+    },
+    "RapportoConLimite": {
+      "type": "object",
+      "required": ["presenza", "forma_del_limite", "reazione_strutturale", "nominazione"],
+      "properties": {
+        "presenza": {
+          "type": "string",
+          "enum": ["sì", "no", "condizionalmente"],
+          "description": "Il tema implica strutturalmente un limite?"
+        },
+        "forma_del_limite": {
+          "type": "string",
+          "description": "Tipo di limite strutturalmente rilevante nel tema (corporeo, relazionale, simbolico, normativo)"
+        },
+        "reazione_strutturale": {
+          "type": "string",
+          "enum": ["A+", "A±", "A-"],
+          "description": "Reazione strutturale prototipica al limite (coerente con dimensione A della CE Prototipica)"
+        },
+        "nominazione": {
+          "type": "string",
+          "description": "Il tema include la possibilità che il limite venga riconosciuto e simbolizzato? Come?"
+        }
+      }
+    },
+    "IpotesiSostegno": {
+      "type": "object",
+      "required": ["direzione", "descrizione_strutturale", "nodo_principale"],
+      "properties": {
+        "direzione": {
+          "type": "string",
+          "enum": ["campo_condiviso", "posizione_soggettiva", "limite_nominabile"],
+          "description": "Direzione dell'ipotesi di sostegno configurativo"
+        },
+        "descrizione_strutturale": {
+          "type": "string",
+          "description": "Orientamento strutturale dell'ipotesi (non intervento tecnico, ma direzione)"
+        },
+        "nodo_principale": {
+          "type": "string",
+          "enum": ["N1", "N2", "N3", "N4", "N5", "N6", "N7"],
+          "description": "Nodo canonico principalmente attivato dall'ipotesi"
+        }
+      }
+    },
+    "TipologiaUniversaleEntry": {
+      "type": "object",
+      "required": ["id", "label", "pertinenza"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "enum": ["U1", "U2", "U3", "U4", "U5", "U6"],
+          "description": "ID della forma universale di sostegno"
+        },
+        "label": {
+          "type": "string",
+          "enum": [
+            "Regolazione",
+            "Sintonizzazione",
+            "Apertura",
+            "Mediazione Simbolica",
+            "Limite Generativo",
+            "Riattivazione del Desiderio"
+          ]
+        },
+        "pertinenza": {
+          "type": "string",
+          "description": "Perché questa forma universale è strutturalmente pertinente al tema (max 1 frase)"
+        }
+      }
+    }
+  }
+}

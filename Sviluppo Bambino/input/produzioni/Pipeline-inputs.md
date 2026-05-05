@@ -87,13 +87,15 @@ Ma normalmente:
 ## 🔹 TUTTO IL RESTO
 
 ```text
-NON richiede input
+NON richiede input esterno
 ```
 
 Perché:
 
 * deve emergere dalla struttura
 * se lo guidi troppo → rompi il metodo
+
+I tre step introdotti nell'aggiornamento metodologico (2a, 4b, 6) non richiedono input esterni: lavorano su output già prodotti dalla pipeline e non richiedono decisioni del ricercatore.
 
 ---
 
@@ -108,6 +110,11 @@ INPUT OBBLIGATI:
 INPUT FACOLTATIVI:
 4. STEP 6 → severità test
 5. STEP 8 → fine tuning (raro)
+
+STEP SENZA INPUT ESTERNO (automatici):
+• F2-STEP 2a → verifica nodi canonici N1-N7 (dopo STEP 2)
+• F2-STEP 4b → CE Prototipica grammatica configurazioni (dopo STEP 4)
+• F2-STEP 6  → output-tipo vuoto / passaporto del tema (dopo STEP 5 verificato)
 ```
 
 👉 Questo è un punto forte del tuo metodo:

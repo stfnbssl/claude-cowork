@@ -20,7 +20,7 @@ Input: un tema + dispositivo sorgente validato.
 Output: tutti i file F3 del tema in `output/produzioni/temi/[nome-tema]/`.
 Ogni tema ha la propria cartella che contiene tutti gli step F3 più il file `revisioni.md` con la storia delle decisioni episodiche.
 
-**Connessione tra le fasi**: F2 produce l'array tematico; F3 prende un tema per volta. Il passaggio da array a tema singolo è una decisione umana (quale tema portare in F3 e con quale priorità).
+**Connessione tra le fasi**: F2 produce l'array tematico più l'output-tipo vuoto del tema scelto ("passaporto del tema"); F3 prende un tema per volta. Il passaggio da array a tema singolo è una decisione umana (quale tema portare in F3 e con quale priorità). Il passaporto del tema (`output-tipo-vuoto-v1.json`) è l'input primario di F3 STEP 1.
 
 ---
 
@@ -77,8 +77,17 @@ Tutti gli step F2 possono lavorare su un singolo tema o sull'intero array prodot
 **Cartella**: `f2-step-2-rilevanza-strutturale/`
 **Funzione**: prima mappa esplorativa di assi, nodi e concetti-ponte per ciascun tema.
 **Input**: `theme-discovery-vN.json` + JSON assi strutturali.
-**Output**: `output/produzioni/temi/theme-relevance-vN.json`
+**Output**: `output/produzioni/ricerche/[nome-ricerca]/theme-relevance-vN.json`
 **Verifica**: `verifica.md` presente — applica prima di procedere a f2-step-3.
+**→ Dopo**: eseguire **f2-step-2a** per mappare i nodi candidati sui Nodi Trasversali canonici N1–N7.
+
+### f2-step-2a — Verifica Nodi Trasversali *(nuovo)*
+**Cartella**: `f2-step-2a-verifica-nodi-trasversali/`
+**Funzione**: verifica e mappatura dei nodi candidati di STEP 2 sui Nodi Trasversali canonici N1–N7 del modello HCAIRE.
+**Input**: `theme-relevance-vN.json`
+**Output**: `output/produzioni/ricerche/[nome-ricerca]/node-verification-v1.json`
+**Verifica**: non presente (output usato da STEP 3 per validazione dei nodi).
+**Schema**: `f2-step-2a-verifica-nodi-trasversali/node-verification-schema.json`
 
 ### f2-step-3 — Verifica strutturale
 **Cartella**: `f2-step-3-verifica-strutturale/`
@@ -91,15 +100,32 @@ Tutti gli step F2 possono lavorare su un singolo tema o sull'intero array prodot
 **Cartella**: `f2-step-4-micro-matrice/`
 **Funzione**: articolazione della configurazione strutturale in micro-matrice interrogabile (assi, tensioni, domande strutturali).
 **Input**: `theme-discovery-vN.json` + `theme-verification-vN.json` + JSON assi strutturali.
-**Output**: `output/produzioni/temi/theme-matrix-vN.json`
+**Output**: `output/produzioni/ricerche/[nome-ricerca]/theme-matrix-vN.json`
 **Verifica**: non presente.
+**→ Dopo**: eseguire **f2-step-4b** per produrre la Configurazione Evolutiva Prototipica (CE Prototipica) nella Grammatica delle Configurazioni.
+
+### f2-step-4b — CE Prototipica *(nuovo)*
+**Cartella**: `f2-step-4b-ce-prototipica/`
+**Funzione**: traduzione della micro-matrice nella Grammatica delle Configurazioni (CE Prototipica con dimensioni S, R, D, T, A). Produce la "firma strutturale" del tema nel linguaggio formale del modello.
+**Input**: `theme-matrix-vN.json` + `node-verification-v1.json` (se disponibile)
+**Output**: `output/produzioni/ricerche/[nome-ricerca]/ce-prototipica-v1.json`
+**Verifica**: non presente.
+**Schema**: `f2-step-4b-ce-prototipica/ce-prototipica-schema.json`
 
 ### f2-step-5 — Famiglia di output
 **Cartella**: `f2-step-5-output-family/`
 **Funzione**: identificazione delle possibilità strutturate di uso del modello per dominio.
 **Input**: `theme-discovery-vN.json` + `theme-verification-vN.json` + `theme-matrix-vN.json` + JSON assi strutturali.
-**Output**: `output/produzioni/temi/output-family-vN.json`
+**Output**: `output/produzioni/ricerche/[nome-ricerca]/output-family-vN.json`
 **Verifica**: `verifica.md` presente — applica prima di passare a F3.
+
+### f2-step-6 — Output-Tipo Vuoto (Passaporto del tema) *(nuovo)*
+**Cartella**: `f2-step-6-output-tipo-vuoto/`
+**Funzione**: produzione dell'output-tipo vuoto — struttura compilabile che formalizza il passaggio dall'Operatore Triadico di Lettura (F2) allo strumento contestualizzato (F3). Questo file è il "passaporto del tema" e diventa l'input primario di F3 STEP 1.
+**Input**: `output-family-vN.json` (approvato) + `ce-prototipica-v1.json` + `theme-matrix-vN.json` + `theme-verification-vN.json`
+**Output**: `output/produzioni/ricerche/[nome-ricerca]/output-tipo-vuoto-v1.json`
+**Verifica**: non presente — validato implicitamente dalla coerenza con F2 già approvato.
+**Schema**: `f2-step-6-output-tipo-vuoto/output-tipo-vuoto-schema.json`
 
 ---
 
@@ -109,9 +135,10 @@ F3 lavora su **un tema per volta**. Ogni step produce un file JSON dedicato al t
 
 ### f3-step-1 — Dispositivo di lettura
 **Cartella**: `f3-step-1-dispositivo-lettura/`
-**Funzione**: costruzione del dispositivo di lettura configurazionale per il tema.
-**Input**: tema selezionato + schema del dispositivo.
-**Output**: `output/produzioni/temi/[tema]-dispositivo-vN.json`
+**Funzione**: costruzione del dispositivo di lettura configurazionale per il tema nel dominio selezionato.
+**Input primario**: `output-tipo-vuoto-v1.json` (passaporto del tema, da f2-step-6) — è la struttura triadica che orienta la costruzione del dispositivo.
+**Input secondario**: `output-family-vN.json` (per il dominio selezionato) + schema del dispositivo.
+**Output**: `output/produzioni/temi/[nome-tema]/lettura-configurazionale-{domain}-vN.json`
 **Verifica**: `verifica.md` presente.
 **Schema**: `f3-step-1-dispositivo-lettura/reading-device-schema.json`
 
@@ -194,9 +221,12 @@ output/produzioni/
     [nome-ricerca]/          ← una cartella per ogni run di f2-step-1
       theme-discovery-vN.json
       theme-relevance-vN.json
+      node-verification-v1.json     ← f2-step-2a (Nodi Trasversali canonici)
       theme-verification-vN.json
       theme-matrix-vN.json
+      ce-prototipica-v1.json        ← f2-step-4b (CE Prototipica)
       output-family-vN.json
+      output-tipo-vuoto-v1.json     ← f2-step-6 (Passaporto del tema → input F3)
   temi/
     [nome-tema]/             ← una cartella per ogni tema portato in F3
       [file f3-step-1..10]-vN.json

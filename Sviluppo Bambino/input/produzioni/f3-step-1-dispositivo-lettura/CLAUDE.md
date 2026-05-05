@@ -20,15 +20,25 @@ Il dispositivo non dice cosa fare. Rende leggibile cosa sta succedendo struttura
 
 ## B. Input
 
-### STEP 4 — Micro-matrice
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\theme-matrix-v2.json`
+### INPUT PRIMARIO — Output-Tipo Vuoto (Passaporto del tema, da F2 STEP 6)
+`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\output-tipo-vuoto-v1.json`
 
-### STEP 5 — Famiglia di output
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\output-family-v2.json`
+Questo è il punto di ingresso principale di F3. L'output-tipo vuoto contiene:
+- la struttura triadica del tema (Campo condiviso / Posizione soggettiva / Rapporto con il limite)
+- la CE Prototipica di riferimento (nodi canonici attivati, relazioni, abitabilità)
+- le ipotesi di sostegno configurativo (direzioni per il dispositivo)
+- la mappatura sulle forme universali U1–U6
+
+**Usa l'output-tipo vuoto come impalcatura strutturale del dispositivo**: le sezioni A–E dell'output-tipo non vengono riformulate, ma contestualizzate al dominio selezionato.
+
+### STEP 5 — Famiglia di output (per il dominio selezionato)
+`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\output-family-v2.json`
 
 ### Selezione del dominio
 Il dominio da elaborare è specificato nel parametro `domain_selected` al momento dell'esecuzione.
 Recuperare da `output_families` in STEP 5 la famiglia corrispondente al dominio selezionato e usarne `description`, `structural_basis` e `value_added` come punto di partenza — non come testo da riformulare ma come motivazione strutturale già validata.
+
+> **Principio di contestualizzazione**: F3 STEP 1 non costruisce un dispositivo ex novo. **Riempie** l'output-tipo vuoto con il contesto del dominio selezionato, mantenendo invariata la struttura triadica e la CE di riferimento. Se il dispositivo prodotto diverge strutturalmente dall'output-tipo vuoto, è un segnale di deriva metodologica.
 
 ---
 

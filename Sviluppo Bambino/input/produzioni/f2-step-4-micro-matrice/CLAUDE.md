@@ -166,5 +166,22 @@ Lo schema completo è in:
 ## H. Posizione nella pipeline
 
 1. **Dopo**: STEP 3 approvato (`theme-verification-v2.json`)
-2. **Prima**: costruzione degli strumenti operativi (Fase 3)
-3. **Iterativo**: può essere revisionato prima di passare a Fase 3
+2. **Prima**: STEP 5 (Famiglia di output)
+3. **Iterativo**: può essere revisionato prima di passare a STEP 5
+
+---
+
+## I. Step successivo obbligatorio — STEP 4b
+
+Dopo aver prodotto e salvato l'output di questo step, eseguire **f2-step-4b (CE Prototipica)** prima di procedere a STEP 5.
+
+STEP 4b traduce la micro-matrice prodotta qui nella **Configurazione Evolutiva Prototipica (CE Prototipica)**: la rappresentazione formale del tema nella Grammatica delle Configurazioni del modello HCAIRE (dimensioni S, R, D, T, A). Questo step:
+
+- Fornisce la "firma strutturale" del tema nel linguaggio CE
+- Rende i dispositivi F3 comparabili tra temi diversi
+- È input necessario per STEP 6 (output-tipo vuoto) e per F3 STEP 1
+
+**STEP 4b non richiede input aggiuntivi**: legge l'output di questo step e, se disponibile, l'output di STEP 2a. Può essere eseguito in sequenza immediata.
+
+**Cartella**: `f2-step-4b-ce-prototipica/`
+**Output**: `output/produzioni/ricerche/[nome-ricerca]/ce-prototipica-v1.json`
