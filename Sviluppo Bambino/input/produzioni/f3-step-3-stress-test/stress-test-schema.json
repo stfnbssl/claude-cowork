@@ -1,0 +1,150 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f3-step-3-stress-test-schema",
+  "title": "F3 Step 3 — Stress test e correzione",
+  "type": "object",
+  "required": ["step", "tema_id", "domain_selected", "results"],
+  "properties": {
+    "step": { "const": "f3_step_3" },
+    "tema_id": { "type": "string" },
+    "domain_selected": { "enum": ["clinico", "educativo", "formazione", "politiche"] },
+    "results": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["cases", "stress_test_verdict"],
+        "properties": {
+          "researcher_provided_cases": { "type": ["boolean", "null"] },
+          "cases": {
+            "type": "array",
+            "minItems": 5,
+            "maxItems": 5,
+            "items": {
+              "type": "object",
+              "required": [
+                "case_type",
+                "case_description",
+                "device_application"
+              ],
+              "properties": {
+                "case_type": {
+                  "enum": [
+                    "assenza_configurazione",
+                    "configurazione_parziale",
+                    "configurazione_distorta_chiudente",
+                    "configurazione_oscillante",
+                    "configurazione_apparente_indistinguibile"
+                  ]
+                },
+                "case_description": { "type": "string", "minLength": 50 },
+                "device_application": {
+                  "type": "object",
+                  "required": [
+                    "observed_configuration",
+                    "device_behavior",
+                    "breaking_point",
+                    "non_applicability_triggered",
+                    "mislettura_risk"
+                  ],
+                  "properties": {
+                    "observed_configuration": { "type": "string", "minLength": 30 },
+                    "device_behavior": {
+                      "type": "object",
+                      "required": ["readability", "ambiguity_level"],
+                      "properties": {
+                        "readability": { "type": "string", "minLength": 30 },
+                        "ambiguity_level": { "enum": ["basso", "medio", "alto"] },
+                        "what_becomes_unclear": { "type": ["string", "null"] }
+                      }
+                    },
+                    "breaking_point": {
+                      "type": "object",
+                      "required": ["present"],
+                      "properties": {
+                        "present": { "type": "boolean" },
+                        "where": { "type": ["string", "null"] },
+                        "why": { "type": ["string", "null"] },
+                        "is_structural": { "type": ["boolean", "null"] }
+                      }
+                    },
+                    "non_applicability_triggered": {
+                      "type": ["object", "null"],
+                      "properties": {
+                        "trigger_id": { "type": "string" },
+                        "outcome": { "enum": ["non_classificabile", "ambiguo", "sospendere"] }
+                      }
+                    },
+                    "mislettura_risk": {
+                      "type": "object",
+                      "required": ["without_device", "with_device_misused"],
+                      "properties": {
+                        "without_device": { "type": "string", "minLength": 20 },
+                        "with_device_misused": { "type": "string", "minLength": 20 }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "stress_test_verdict": {
+            "type": "object",
+            "required": ["cases_passed", "breaking_points_count", "apparente_indistinguibile_outcome", "verdict"],
+            "properties": {
+              "cases_passed": { "type": "integer", "minimum": 0, "maximum": 5 },
+              "breaking_points_count": { "type": "integer", "minimum": 0 },
+              "apparente_indistinguibile_outcome": {
+                "enum": ["discriminato", "non_discriminato", "discriminazione_dipendente_dall_osservatore"]
+              },
+              "verdict": { "enum": ["robusto", "accettabile", "fragile", "non_valido"] }
+            }
+          },
+          "device_correction": {
+            "type": ["object", "null"],
+            "properties": {
+              "triggered_by_breaking_points": { "type": "array", "items": { "type": "string" } },
+              "corrected_micro_actions": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 5,
+                "items": {
+                  "type": "object",
+                  "required": ["id", "description", "observable_effect", "reversibility_note"],
+                  "properties": {
+                    "id": { "type": "string" },
+                    "description": { "type": "string" },
+                    "observable_effect": { "type": "string" },
+                    "reversibility_note": { "type": "string" }
+                  }
+                }
+              },
+              "corrected_non_applicability": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["trigger", "required_outcome", "rationale"],
+                  "properties": {
+                    "trigger": { "type": "string" },
+                    "required_outcome": { "enum": ["non_classificabile", "ambiguo", "sospendere"] },
+                    "rationale": { "type": "string" }
+                  }
+                }
+              },
+              "corrected_universal_form": {
+                "type": ["object", "null"],
+                "properties": {
+                  "forms": { "type": "array", "items": { "enum": ["U1", "U2", "U3", "U4", "U5", "U6"] } },
+                  "combination_motivation": { "type": ["string", "null"] }
+                }
+              },
+              "corrected_resonance_indicator": { "type": ["string", "null"] },
+              "correction_blocked_reason": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f3-step-5-audit-metodologico-schema",
+  "title": "F3 Step 5 — Audit metodologico (opzionale)",
+  "type": "object",
+  "required": ["step", "tema_id", "domain_selected", "results"],
+  "properties": {
+    "step": { "const": "f3_step_5" },
+    "tema_id": { "type": "string" },
+    "domain_selected": { "enum": ["clinico", "educativo", "formazione", "politiche"] },
+    "results": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["controls", "final_assessment"],
+        "properties": {
+          "controls": {
+            "type": "array",
+            "minItems": 8,
+            "maxItems": 8,
+            "items": {
+              "type": "object",
+              "required": ["id", "area", "label", "outcome", "rationale", "is_critical"],
+              "properties": {
+                "id": { "enum": ["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8"] },
+                "area": { "enum": ["coerenza_tra_step", "validità_ancoraggi", "gestione_ambiguità"] },
+                "label": { "type": "string" },
+                "outcome": { "type": "string" },
+                "rationale": { "type": "string", "minLength": 20 },
+                "is_critical": { "type": "boolean" }
+              }
+            }
+          },
+          "final_assessment": {
+            "type": "object",
+            "required": ["criticals_passed", "assessment", "recommendations"],
+            "properties": {
+              "criticals_passed": { "type": "integer", "minimum": 0, "maximum": 3 },
+              "assessment": { "enum": ["robusto", "accettabile", "fragile", "non_valido"] },
+              "recommendations": {
+                "type": "array",
+                "items": { "type": "string", "minLength": 15 }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

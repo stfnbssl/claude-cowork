@@ -30,20 +30,20 @@ La pipeline è progettata con pochi punti di ingresso esterni — il resto è tr
 
 ### Input obbligatori
 
-| Step | Input richiesto | Cosa definisce |
+| Punto | Input richiesto | Cosa definisce |
 |---|---|---|
-| **f2-step-2** | Scelta del tema (atto / fenomeno) | L'oggetto ontologico della pipeline |
-| **f3-step-7** | Scelta del contesto / ambito | Il vincolo di realtà del dispositivo |
-| **f3-step-10** | Costruzione dei casi di stress test | La qualità e profondità del test finale |
+| **archivio temi** (fuori pipeline) | Scelta del tema (atto / fenomeno) e promozione | L'oggetto ontologico della pipeline |
+| **f3-step-1** | Scelta del dominio / contesto | Il vincolo di realtà del dispositivo |
 
 ### Input facoltativi
 
 | Step | Input possibile | Quando usarlo |
 |---|---|---|
-| **f3-step-6** | Livello di severità del test di non-reversibilità | Se si vuole un test forte vs. test di plausibilità |
-| **f3-step-8** | Livello di specificità del dispositivo finale | Raramente — meglio non intervenire |
+| **f3-step-3** | Casi reali del dominio per lo stress test | Sempre raccomandato: l'agente in autonomia produce casi plausibili ma generici |
 
-**Principio**: più l'input è precoce e preciso (f2-step-2), più la generatività della pipeline è alta. Fornire tema sbagliato o contesto ambiguo produce dispositivi strutturalmente fragili anche con esecuzione perfetta degli step.
+**Principio**: più l'input è precoce e preciso (scelta del tema), più la generatività della pipeline è alta. Fornire tema sbagliato o dominio ambiguo produce dispositivi strutturalmente fragili anche con esecuzione perfetta degli step.
+
+> **Aggiornamento r3 (2026-05)**: con la riduzione della pipeline F3 a 5 step e la separazione dell'archivio temi dalla pipeline, gli input obbligatori passano da 3 a 2 e i facoltativi da 2 a 1. I vecchi step F3 di "trasferimento a un nuovo tema" (7, 8, 9, 10) sono stati eliminati. Vedi `webapp-hcaire/specifiche/D7-pipeline-f3-redesign.md`.
 
 ---
 
@@ -129,87 +129,53 @@ Tutti gli step F2 possono lavorare su un singolo tema o sull'intero array prodot
 
 ---
 
-## F3 — Step per step
+## F3 — Step per step (r3 — pipeline ridotta a 5 step)
 
-F3 lavora su **un tema per volta**. Ogni step produce un file JSON dedicato al tema in lavorazione. Il dispositivo sorgente di riferimento per F3 è il dispositivo del pointing validato (nei file di output/produzioni/temi/).
+> **Modifica r3 (2026-05)**: la pipeline F3 è stata ridotta da 10 step a 5 step per allinearla alla metodologia in `HCAIRE Slides/context/metodo/f3-strumenti-operativi.md` e per rimuovere stratificazioni di controllo non previste dal metodo. Vedi `webapp-hcaire/specifiche/D7-pipeline-f3-redesign.md` per la migrazione completa.
 
-### f3-step-1 — Dispositivo di lettura
-**Cartella**: `f3-step-1-dispositivo-lettura/`
-**Funzione**: costruzione del dispositivo di lettura configurazionale per il tema nel dominio selezionato.
-**Input primario**: `output-tipo-vuoto-v1.json` (passaporto del tema, da f2-step-6) — è la struttura triadica che orienta la costruzione del dispositivo.
-**Input secondario**: `output-family-vN.json` (per il dominio selezionato) + schema del dispositivo.
-**Output**: `output/produzioni/temi/[nome-tema]/lettura-configurazionale-{domain}-vN.json`
-**Verifica**: `verifica.md` presente.
-**Schema**: `f3-step-1-dispositivo-lettura/reading-device-schema.json`
+F3 lavora su **un tema per volta**, **per dominio**: una pipeline F3 = un dispositivo contestualizzato. Ogni step produce un file JSON dedicato al tema in lavorazione. L'input primario è l'output-tipo vuoto di F2 step 6 (passaporto del tema).
 
-### f3-step-2 — Stress test
-**Cartella**: `f3-step-2-stress-test/`
-**Funzione**: test di tenuta del dispositivo su casi critici (configurazioni assenti, parziali, ambigue).
-**Input**: dispositivo f3-step-1.
-**Output**: `output/produzioni/temi/[tema]-stress-test-vN.json`
+### f3-step-1 — Nodo dominante e funzione
+**Cartella**: `f3-step-1-nodo-funzione/`
+**Funzione**: identificare il nodo dominante della CE per il dominio scelto e determinare la funzione dell'intervento (1 di 4 categorie chiuse: stabilizzare, ampliare, mediare, proteggere).
+**Input primario**: `output-tipo-vuoto-v1.json` (F2 step 6).
+**Input esterno obbligatorio**: dominio + context_label + note opzionali del ricercatore.
+**Output**: `output/produzioni/temi/[nome-tema]/nodo-funzione-{dominio}-v1.json`
+**Verifica**: presente.
+**Schema**: `f3-step-1-nodo-funzione/nodo-funzione-schema.json`
+
+### f3-step-2 — Micro-dispositivo di campo
+**Cartella**: `f3-step-2-micro-dispositivo/`
+**Funzione**: costruzione del micro-dispositivo nel template a 7 campi della metodologia (CE di origine, nodo dominante, funzione, campo bersaglio, 3-5 micro-azioni, tempo reale, indicatore di risonanza), classificato secondo la tipologia universale U1-U6 e dotato di condizioni di non-applicabilità.
+**Input primario**: `nodo-funzione-{dominio}-v1.json` + `output-tipo-vuoto-v1.json`.
+**Output**: `output/produzioni/temi/[nome-tema]/micro-dispositivo-{dominio}-v1.json`
+**Verifica**: presente.
+**Schema**: `f3-step-2-micro-dispositivo/micro-dispositivo-schema.json`
+
+### f3-step-3 — Stress test e correzione
+**Cartella**: `f3-step-3-stress-test/`
+**Funzione**: stress test integrato del dispositivo su 5 casi tipologici (assenza, parziale, distorta-chiudente, oscillante, apparente-indistinguibile) + eventuale correzione condizionale del dispositivo se i breaking point sono strutturali.
+**Input primario**: `micro-dispositivo-{dominio}-v1.json` + `nodo-funzione-{dominio}-v1.json`.
+**Input esterno facoltativo**: casi reali del dominio forniti dal ricercatore (raccomandati).
+**Output**: `output/produzioni/temi/[nome-tema]/stress-test-{dominio}-v1.json`
+**Verifica**: presente.
+**Schema**: `f3-step-3-stress-test/stress-test-schema.json`
+
+### f3-step-4 — Verifica di coerenza F3
+**Cartella**: `f3-step-4-coerenza/`
+**Funzione**: verifica obbligatoria del dispositivo finale tramite checklist di 10 controlli (5 di coerenza F3 dalla sez. 2.7 della metodologia + 4 di logica decisionale dalla sez. 5.4 + 1 di auto-limitazione dalla sez. 5.6). Verdetto: `valido` / `richiede_revisione` / `fuori_modello`.
+**Input primario**: dispositivo finale (da step 2 o, se corretto, da step 3) + esito stress test.
+**Output**: `output/produzioni/temi/[nome-tema]/coerenza-{dominio}-v1.json`
+**Verifica**: non presente — la verifica *è* lo step.
+**Schema**: `f3-step-4-coerenza/coerenza-schema.json`
+
+### f3-step-5 — Audit metodologico (opzionale)
+**Cartella**: `f3-step-5-audit-metodologico/`
+**Funzione**: audit della qualità di esecuzione della pipeline F3 (8 controlli su coerenza tra step, validità degli ancoraggi, gestione dell'ambiguità). Non verifica il metodo né il dispositivo nel merito: verifica che gli agenti AI abbiano applicato il metodo richiesto. **Step opzionale** — eseguire prima di pubblicare un dispositivo o quando entra in uso pratico.
+**Input primario**: tutti gli output F3 step 1-4.
+**Output**: `output/produzioni/temi/[nome-tema]/audit-{dominio}-v1.json`
 **Verifica**: non presente.
-**Schema**: `f3-step-2-stress-test/stress-test-schema.json`
-
-### f3-step-3 — Correzione strutturale
-**Cartella**: `f3-step-3-correzione-strutturale/`
-**Funzione**: correzione del dispositivo sulla base delle fratture emerse nello stress test.
-**Input**: dispositivo f3-step-1 + risultati f3-step-2.
-**Output**: `output/produzioni/temi/[tema]-correzione-strutturale-vN.json`
-**Verifica**: non presente.
-**Schema**: `f3-step-3-correzione-strutturale/structural-correction-schema.json`
-
-### f3-step-4 — Test di indistinguibilità
-**Cartella**: `f3-step-4-indistinguibilità/`
-**Funzione**: costruzione di coppie di casi quasi indistinguibili per verificare la tenuta del proxy.
-**Input**: dispositivo corretto f3-step-3.
-**Output**: `output/produzioni/temi/[tema]-indistinguibilità-vN.json`
-**Verifica**: `verifica.md` presente.
-**Schema**: `f3-step-4-indistinguibilità/indistinguibility-test-schema.json`
-
-### f3-step-5 — Audit
-**Cartella**: `f3-step-5-audit/`
-**Funzione**: audit epistemico completo del dispositivo (inferenze, circolarità, normatività).
-**Input**: dispositivo corretto f3-step-3 + risultati f3-step-4.
-**Output**: `output/produzioni/temi/[tema]-audit-vN.json`
-**Verifica**: `verifica.md` presente.
-**Schema**: `f3-step-5-audit/audit-schema.json`
-
-### f3-step-6 — Stabilizzazione proxy
-**Cartella**: `f3-step-6-stabilizzazione-proxy/`
-**Funzione**: stabilizzazione del proxy (sostituzione di proxy fragili con proxy strutturalmente non reversibili).
-**Variante**: `CLAUDE-B.md` — forma operativa completa del proxy (condizioni di applicabilità, regole di non classificabilità). Eseguire dopo CLAUDE.md, prima della verifica.
-**Input**: dispositivo corretto f3-step-3 + risultati f3-step-4 e f3-step-5.
-**Output**: `output/produzioni/temi/[tema]-stabilizzazione-proxy-vN.json` (step 6) + `[tema]-stabilizzazione-proxy-vNb.json` (step 6-B)
-**Verifica**: `verifica.md` presente — applica dopo aver completato sia 6 che 6-B.
-**Nota**: dopo la verifica può essere necessario un 6-C (integrazione del proxy stabilizzato nel dispositivo corretto).
-
-### f3-step-7 — Trasferibilità del dispositivo
-**Cartella**: `f3-step-7-trasferibilità-dispositivo/`
-**Funzione**: valutazione della trasferibilità del dispositivo validato a un nuovo tema.
-**Input**: dispositivo validato (con proxy stabilizzato) + tema target.
-**Output**: `output/produzioni/temi/[tema]-trasferibilità-vN.json`
-**Verifica**: non presente — il verdetto di trasferibilità orienta la decisione di procedere a f3-step-8.
-
-### f3-step-8 — Adattamento strutturale
-**Cartella**: `f3-step-8-adattamento-strutturale/`
-**Funzione**: costruzione dei quattro blocchi strutturali del nuovo dispositivo (corporeità, bridge, proxy, requisiti di osservabilità).
-**Input**: dispositivo sorgente + risultati f3-step-7 + micro-casi del nuovo tema.
-**Output**: `output/produzioni/temi/[tema]-adattamento-strutturale-vN.json`
-**Verifica**: `verifica.md` presente — il proxy v1 può essere rifiutato e richiedere una versione v2.
-
-### f3-step-9 — Dispositivo completo
-**Cartella**: `f3-step-9-dispositivo-completo/`
-**Funzione**: sintesi operativa del dispositivo completo per il nuovo tema. Integra tutti gli elementi stabilizzati negli step precedenti senza innovazione libera.
-**Input**: dispositivo sorgente (f3-step-3 corretto) + tutti gli output di f3-step-8.
-**Output**: `output/produzioni/temi/[tema]-dispositivo-completo-vN.json`
-**Verifica**: non presente di default (può essere aggiunta).
-
-### f3-step-10 — Stress test del dispositivo
-**Cartella**: `f3-step-10-stress-test-dispositivo/`
-**Funzione**: stress test finale del dispositivo completo su 5 casi critici (assente, parziale, chiudente, apparente/scripted, quasi indistinguibile).
-**Input**: dispositivo completo f3-step-9.
-**Output**: `output/produzioni/temi/[tema]-stress-test-dispositivo-vN.json`
-**Verifica**: non presente — il global_assessment orienta eventuali correzioni residue.
+**Schema**: `f3-step-5-audit-metodologico/audit-schema.json`
 
 ---
 
@@ -229,5 +195,9 @@ output/produzioni/
       output-tipo-vuoto-v1.json     ← f2-step-6 (Passaporto del tema → input F3)
   temi/
     [nome-tema]/             ← una cartella per ogni tema portato in F3
-      [file f3-step-1..10]-vN.json
-      revisioni.md           ← feedback epis
+      nodo-funzione-{dominio}-v1.json     ← f3-step-1 (uno per dominio)
+      micro-dispositivo-{dominio}-v1.json ← f3-step-2
+      stress-test-{dominio}-v1.json       ← f3-step-3
+      coerenza-{dominio}-v1.json          ← f3-step-4
+      audit-{dominio}-v1.json             ← f3-step-5 (opzionale)
+      revisioni.md                        ← feedback epis

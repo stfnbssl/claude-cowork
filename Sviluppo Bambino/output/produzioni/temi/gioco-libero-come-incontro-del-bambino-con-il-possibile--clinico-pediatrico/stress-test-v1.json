@@ -1,0 +1,201 @@
+{
+  "step": "f3_step_3",
+  "tema_id": "gioco-libero-come-incontro-del-bambino-con-il-possibile",
+  "domain_selected": "clinico",
+  "results": [
+    {
+      "researcher_provided_cases": false,
+      "cases": [
+        {
+          "case_type": "assenza_configurazione",
+          "case_description": "Bilancio di salute dei 24 mesi in ambulatorio pediatrico. Il bambino è vigile, normoreattivo, collaborante. Quando la pediatra apre l'intervallo non finalizzato e mette a disposizione foglio, matita e un piccolo cubo, il bambino resta seduto sul lettino, guarda gli oggetti senza muoversi, attende. Non c'è angoscia, non c'è rifiuto, non c'è dolore: semplicemente non si attiva alcun orientamento esplorativo. Il caregiver, pur informato, non sollecita; il pediatra non guida. Per cinque minuti il campo resta vuoto: il bambino non agisce, non ignora attivamente, non si chiude. È in modalità d'attesa adulto-orientata, in cui qualsiasi cosa accada nel campo è letta come 'cosa devo fare adesso'.",
+          "device_application": {
+            "observed_configuration": "Il nodo dominante (campo desiderabile come orizzonte non strutturato) non si costituisce: l'apertura è formalmente prodotta dal pediatra ma non viene abitata. I nodi co-fragili (desiderio-come-struttura, condizione-del-desiderio) non danno segnale. La polarità di campo resta neutra-attendista, né A− conclamata né A+ effettiva: l'apertura esiste come gesto del professionista ma non come qualità di campo del bambino.",
+            "device_behavior": {
+              "readability": "Il dispositivo legge correttamente la propria inerzia: l'intervallo è stato aperto, le micro-azioni 1-5 sono praticate alla lettera, ma l'indicatore di risonanza non si verifica perché non si manifesta alcun orientamento da parte del bambino su cui leggere la 'cessazione di lettura per tappe'. Il dispositivo rivela qui un esito utile: distingue l'apertura procedurale (lato adulto) dall'apertura effettiva (lato bambino).",
+              "ambiguity_level": "medio",
+              "what_becomes_unclear": "Resta indecidibile, dentro i 5-10 minuti, se l'inerzia sia una caratteristica stabile del bambino in setting clinico (forte adesione al ruolo paziente) o una latenza che richiederebbe una durata maggiore o ripetizione su più visite. Il dispositivo non discrimina tra 'campo che non si apre' e 'campo che si aprirebbe più tardi'."
+            },
+            "breaking_point": {
+              "present": false,
+              "where": "Zona di fragilità su ma1 (apertura dichiarata) e sull'indicatore di risonanza: l'apertura formale non implica apertura effettiva, e l'indicatore non ha segnali per il caso 'campo aperto ma non abitato'.",
+              "why": "Il dispositivo descrive correttamente lo stato (assenza di configurazione) ma non fornisce un esito codificato per questo caso, che non è né funzionante né patologico né non-classificabile per stress.",
+              "is_structural": false
+            },
+            "non_applicability_triggered": null,
+            "mislettura_risk": {
+              "without_device": "Il pediatra registra il bambino come 'poco interattivo', 'timido', 'da rivalutare' o, all'opposto, 'tranquillo', riconducendo la non-azione a un tratto temperamentale o a una tappa.",
+              "with_device_misused": "Il pediatra interpreta l'inerzia come riuscita del dispositivo ('ha rispettato il setting silenzioso') o come fallimento del bambino ('non ha colto l'apertura'), introducendo surrettiziamente una valutazione di tappa proprio nello spazio costruito per sospenderla."
+            }
+          }
+        },
+        {
+          "case_type": "configurazione_parziale",
+          "case_description": "Visita per controllo dei 30 mesi. Il pediatra apre regolarmente l'intervallo e mette a disposizione gli oggetti neutri. Il bambino si attiva: prende il foglio, lo piega, lo riprende, esplora autonomamente con orientamento riconoscibile. La pediatra mantiene il silenzio non valutativo. Il caregiver, nonostante il briefing iniziale, ricade in commento continuo a bassa voce ('bravo, guarda che bel disegno', 'fai vedere alla dottoressa', 'ora dimmi cos'è'). Il caregiver non interrompe l'azione del bambino, ma colora costantemente lo sfondo con sollecitazioni e richieste di esibizione. Il bambino prosegue, ma a tratti si volta verso il caregiver come per cercare conferma.",
+          "device_application": {
+            "observed_configuration": "Il nodo dominante è parzialmente attivo: il bambino mostra orientamento autentico verso gli oggetti (campo desiderabile in formazione). Il nodo co-fragile 'condizione-del-desiderio' è eroso lateralmente: la pressione prestazionale rientra dal lato caregiver. La polarità del campo è mista: A+ sul vettore bambino-oggetto, A− sul vettore caregiver-bambino. Il dispositivo lavora su una struttura zoppa.",
+            "device_behavior": {
+              "readability": "Il dispositivo legge la parzialità: ma1 e ma2 sono praticate, ma3 sostanzialmente reggente, ma4 fallita (il caregiver non mantiene la sospensione), ma5 praticata. L'indicatore di risonanza è verificabile a metà: l'agire del bambino smette di essere letto come tappa dal pediatra ma viene riletto come prestazione dal caregiver in tempo reale.",
+              "ambiguity_level": "medio",
+              "what_becomes_unclear": "Resta indecidibile in che misura l'orientamento del bambino sia genuino e in che misura sia già orientato verso il riconoscimento del caregiver. La sovrapposizione delle due letture (bambino orienta, caregiver converte) rende difficile separare il segnale del nodo dominante dalla sua immediata cattura."
+            },
+            "breaking_point": {
+              "present": false,
+              "where": "Zona di fragilità su ma4: il dispositivo prevede una comunicazione iniziale al caregiver ma non un meccanismo di rinforzo o ripresa quando il caregiver ricade. Il dispositivo è sotto-protetto sul lato caregiver in tempo reale.",
+              "why": "Il caso non rompe il dispositivo, lo deforma in misura prevista. La parzialità è leggibile come parzialità.",
+              "is_structural": false
+            },
+            "non_applicability_triggered": null,
+            "mislettura_risk": {
+              "without_device": "Il pediatra legge il bambino come 'collaborante e orientato', registrando come positiva un'osservazione che è in realtà costruita dalla pressione del caregiver.",
+              "with_device_misused": "Il pediatra, vedendo il bambino in azione, considera il dispositivo riuscito e ignora la rottura della condizione lato caregiver, contando come 'orientamento' ciò che è in parte richiesta esibitiva soddisfatta."
+            }
+          }
+        },
+        {
+          "case_type": "configurazione_distorta_chiudente",
+          "case_description": "Visita di controllo dei 18 mesi. La pediatra, formata di recente sul dispositivo, lo applica con scrupolo procedurale: dichiara l'intervallo con tono leggermente solenne ('adesso facciamo una cosa importante: hai qualche minuto solo per te'), dispone gli oggetti in modo ordinato sul tavolino frontalmente al bambino, si siede in posizione attentiva e fissa lo sguardo sul bambino in attesa. Il caregiver, briefato, è in silenzio ma in postura osservativa rigida. La forma del dispositivo è completa, ma la dichiarazione iniziale, la disposizione formale degli oggetti e l'attenzione concentrata della pediatra costituiscono un nuovo compito implicito: 'ora ti osservo mentre ti osservi'. Il bambino prende un oggetto, lo posa, guarda l'adulto.",
+          "device_application": {
+            "observed_configuration": "Il nodo dominante si attiva in forma alterata: l'apertura è prodotta ma immediatamente saturata da un nuovo finalismo (l'osservazione di sé come compito). Il campo desiderabile collassa nella sua propria messa in scena. La condizione-del-desiderio non è erosa dall'esterno (caregiver) ma dall'interno del dispositivo (qualità del gesto di apertura). Polarità A− mascherata da A+.",
+            "device_behavior": {
+              "readability": "Il dispositivo è in difficoltà: le micro-azioni sono tutte formalmente eseguite, ma la qualità complessiva del campo è chiudente. L'indicatore di risonanza non si verifica (il bambino è orientato verso un compito atteso, l'agire è leggibile come attesa di valutazione), ma la non-verifica è difficile da imputare a una specifica micro-azione: nessuna è violata, eppure la configurazione non si costituisce.",
+              "ambiguity_level": "alto",
+              "what_becomes_unclear": "Diventa opaco quale livello del dispositivo abbia prodotto la chiusura: la dichiarazione, la disposizione, la postura, o la combinazione tonale. Il dispositivo non dispone di linguaggio per qualificare il tono, la prossimità, la teatralità del gesto di apertura."
+            },
+            "breaking_point": {
+              "present": true,
+              "where": "ma1 (dichiarazione dell'apertura) e ma3 (sospensione della guida verbale): entrambe sono descritte sul piano del contenuto (cosa si dice / non si dice) ma non sul piano della qualità performativa (come lo si dice, con che postura, con che densità attentiva). Il dispositivo è cieco al rischio che la propria forma diventi compito.",
+              "why": "Limite strutturale: il dispositivo non include marcatori per distinguere apertura non finalizzata da apertura ritualizzata. La forma piena delle micro-azioni può coesistere con un campo chiudente, e il dispositivo non lo rileva.",
+              "is_structural": true
+            },
+            "non_applicability_triggered": null,
+            "mislettura_risk": {
+              "without_device": "Il pediatra interpreta la passività del bambino come scarsa iniziativa o introversione, attribuendola al bambino piuttosto che al setting.",
+              "with_device_misused": "Il pediatra, avendo eseguito alla lettera tutte le micro-azioni, conclude che il dispositivo è stato applicato correttamente e che l'esito 'piatto' è informazione sul bambino, mentre è in realtà un artefatto della propria modalità applicativa."
+            }
+          }
+        },
+        {
+          "case_type": "configurazione_oscillante",
+          "case_description": "Visita pediatrica in studio condiviso. La pediatra apre l'intervallo, il bambino di 36 mesi inizia un'esplorazione orientata con il foglio. Al terzo minuto il telefono di studio squilla brevemente per una chiamata interna (non urgente); la pediatra non risponde ma sposta lo sguardo. Al quinto minuto il caregiver, dopo un periodo di silenzio, fa un commento spontaneo ('vedi la dottoressa cosa pensa') e poi si corregge ('scusi, lo so'). Al settimo minuto un infermiere bussa per consegnare un fascicolo, la pediatra apre la porta, scambia due parole, riprende. Tra un'interruzione e l'altra il bambino riprende l'esplorazione, ma il flusso è discontinuo: l'orientamento si forma, si interrompe, si riforma in modo diverso, si interrompe di nuovo.",
+          "device_application": {
+            "observed_configuration": "Il nodo dominante si costituisce a tratti: il campo desiderabile si apre per finestre di 60-90 secondi, poi si richiude per pressione esterna (telefono, porta) o interna al setting (commento del caregiver), poi si riapre. La condizione-del-desiderio è intermittentemente sostenuta. La polarità oscilla tra A+ e A− con frequenza alta. Configurazione presente in alcuni segmenti, assente in altri.",
+            "device_behavior": {
+              "readability": "Il dispositivo legge l'oscillazione come oscillazione: ma1 si è prodotta, ma3 e ma4 sono violate ricorrentemente da eventi di setting, ma2 e ma5 reggenti. L'indicatore di risonanza è verificabile a finestre. Il dispositivo restituisce un quadro coerente ma frammentato.",
+              "ambiguity_level": "medio",
+              "what_becomes_unclear": "Resta opaca la lettura sintetica: come si computa un dispositivo che funziona per il 40% della durata? Il dispositivo non dispone di una soglia o di una regola di aggregazione tra finestre presenti e finestre interrotte."
+            },
+            "breaking_point": {
+              "present": false,
+              "where": "Zona di fragilità sull'aggregazione: il dispositivo è progettato come segmento continuo di 5-10 minuti. La sua robustezza alle interruzioni esterne è non specificata.",
+              "why": "Il caso non rompe il dispositivo: la non-applicabilità in §non_applicability già copre 'setting che non consente i 5-10 minuti', anche se non copre esplicitamente il caso del setting che li consente nominalmente ma li frammenta.",
+              "is_structural": false
+            },
+            "non_applicability_triggered": null,
+            "mislettura_risk": {
+              "without_device": "Il pediatra registra solo i frammenti più visibili dell'attività del bambino, perdendo il quadro complessivo dell'oscillazione del campo.",
+              "with_device_misused": "Il pediatra somma le finestre buone e tratta il caso come 'dispositivo riuscito', ignorando che la frammentazione stessa è informazione strutturale sulla non-tenuta del campo."
+            }
+          }
+        },
+        {
+          "case_type": "configurazione_apparente_indistinguibile",
+          "case_description": "Visita dei 4 anni in ambulatorio. La pediatra apre l'intervallo correttamente. Il bambino — figlio di una famiglia molto attenta, che lo prepara a ogni visita ('alla dottoressa devi fare bella figura', 'fai vedere come sai giocare') e che ha esposto il bambino a diversi colloqui osservativi — prende il foglio, prende la matita, fa un disegno, lo mostra brevemente, prende il cubo, costruisce qualcosa, sorride, guarda con la coda dell'occhio la pediatra a intervalli regolari. La sequenza ha tutte le caratteristiche dell'esplorazione orientata: oggetti scelti spontaneamente, attività varia, durata adeguata, mancanza di agitazione. Il caregiver è perfettamente in silenzio. Tutti gli indicatori esterni di risonanza sono verificati. Solo a uno sguardo molto fine si nota la qualità leggermente compiacente dei micro-gesti: la pausa per essere visto, il sorriso simmetrico, la chiusura ordinata di ogni piccolo segmento di azione, l'assenza di errori esplorativi e di tempi morti reali.",
+          "device_application": {
+            "observed_configuration": "La configurazione appare formalmente piena: il nodo dominante sembra attivo, i co-fragili sembrano reggenti, la polarità di campo si presenta come A+. Sotto la superficie il bambino è orientato a un compito interno (script di 'gioco appropriato in visita') che è stato introiettato come prestazione invisibile. La saturazione finalistica del setting non è esterna ma è già interna al bambino. È falso positivo strutturale.",
+            "device_behavior": {
+              "readability": "Il dispositivo nelle sue micro-azioni e nel suo indicatore di risonanza, così come formulati, non distingue questo caso da un caso di orientamento autentico. L'indicatore di risonanza recita 'l'agire del bambino cessa di essere immediatamente leggibile come tappa raggiunta o prestazione mancata' — e qui di fatto l'agire non è letto come tappa dal pediatra: il problema è che è già letto come prestazione dal bambino stesso, in modo silente. La discriminazione richiede capacità interpretativa qualitativa (notare la simmetria dei gesti, l'assenza di tempi morti, la pausa-per-essere-visto) che il dispositivo non rende esplicita.",
+              "ambiguity_level": "alto",
+              "what_becomes_unclear": "Resta opaca la differenza tra orientamento del bambino verso gli oggetti e orientamento del bambino verso l'immagine-di-sé-che-gioca-bene. La forma è la stessa, la struttura è opposta. Il dispositivo descrive la forma."
+            },
+            "breaking_point": {
+              "present": true,
+              "where": "Indicatore di risonanza e condizioni di non_applicability: l'indicatore è formulato in negativo (assenza di lettura per tappe da parte di pediatra/caregiver) e non in positivo (presenza di esplorazione con tempi morti, errori, ridirezioni interne). Le condizioni di non_applicability non includono il caso del bambino già internamente saturato dalla pressione prestazionale familiare.",
+              "why": "Limite strutturale: il dispositivo discrimina la prestazionalizzazione esterna (saturata da pediatra o caregiver) ma non la prestazionalizzazione internalizzata (saturazione interna al bambino come tratto del campo già in entrata). Il rischio di fallimento silenzioso è reale e non è imputabile a misuso, ma alla formulazione attuale del dispositivo.",
+              "is_structural": true
+            },
+            "non_applicability_triggered": null,
+            "mislettura_risk": {
+              "without_device": "Il pediatra registra il bambino come 'molto adeguato per età, gioco organizzato, ottima collaborazione', confermando lo script senza vederlo.",
+              "with_device_misused": "Il pediatra usa il dispositivo come legittimazione del proprio compiacimento osservativo: 'ha giocato liberamente', e l'apparente riuscita del dispositivo rende ancora meno percepibile la struttura prestazionale sottostante."
+            }
+          }
+        }
+      ],
+      "stress_test_verdict": {
+        "cases_passed": 3,
+        "breaking_points_count": 2,
+        "apparente_indistinguibile_outcome": "discriminazione_dipendente_dall_osservatore",
+        "verdict": "fragile"
+      },
+      "device_correction": {
+        "triggered_by_breaking_points": [
+          "Caso configurazione_distorta_chiudente: ma1 e ma3 non includono marcatori sulla qualità performativa dell'apertura — il dispositivo è cieco al rischio che la propria forma diventi compito.",
+          "Caso configurazione_apparente_indistinguibile: l'indicatore di risonanza è formulato solo in negativo (assenza di lettura per tappe esterna) e non riconosce la prestazionalizzazione internalizzata; le condizioni di non_applicability non coprono il bambino già saturato in entrata."
+        ],
+        "corrected_micro_actions": [
+          {
+            "id": "ma1",
+            "description": "Il pediatra dichiara apertamente, dentro la visita, l'apertura di un piccolo intervallo non finalizzato — con una formula esplicita rivolta a bambino e caregiver del tipo \"adesso abbiamo qualche minuto libero, niente da fare\" — senza proporre compiti, domande o prove di tappa, e mantenendo nel pronunciarla un tono ordinario non solenne, una postura non frontale e una distanza che non costituisca attenzione concentrata sul bambino. La dichiarazione è un segnale, non un evento.",
+            "observable_effect": "L'intervallo si distingue dal resto della visita per assenza di richieste verbali, di prove standardizzate e di consegne, ma la sua apertura non si presenta al bambino come nuovo compito di tipo 'ora ti osservo': la dichiarazione passa con la stessa densità di un'altra azione ordinaria della visita.",
+            "reversibility_note": "L'intervallo si chiude semplicemente riprendendo la visita ordinaria; non lascia tracce procedurali né impegni successivi."
+          },
+          {
+            "id": "ma2",
+            "description": "Il pediatra rende disponibili a portata del bambino due o tre oggetti generici e neutri rispetto allo scopo clinico (un foglio, una matita, un piccolo oggetto comune dello studio), senza indicare uso atteso e senza proporre compiti su di essi, evitando una disposizione ordinata o composta che possa funzionare come scena predisposta.",
+            "observable_effect": "Gli oggetti restano nel campo del bambino come opzioni non prescritte: il bambino può ignorarli, prenderli, modificarne l'uso; non sono materiali di test né strumenti graduati per età, e non costituiscono una composizione che inviti a una performance.",
+            "reversibility_note": "Gli oggetti vengono semplicemente ritirati alla fine dell'intervallo; nessuna catalogazione né riconsegna formale."
+          },
+          {
+            "id": "ma3",
+            "description": "Il pediatra sospende la guida verbale durante l'intervallo — non riempie il silenzio con domande cliniche, suggerimenti sul gioco o riformulazioni motivanti — mantenendo una presenza osservativa discreta a distanza fisica non frontale, evitando una densità attentiva concentrata che possa funzionare come attesa silenziosa di prestazione.",
+            "observable_effect": "Si forma nel campo un silenzio non valutativo: l'adulto è presente ma non sta orientando attivamente l'azione del bambino; cade temporaneamente la pressione del turno comunicativo professionista→bambino, e cade anche la pressione dello sguardo focalizzato.",
+            "reversibility_note": "La guida verbale ritorna alla chiusura dell'intervallo con la ripresa dell'esame; il silenzio non è imposto come regola, è solo non interrotto da richiami clinici."
+          },
+          {
+            "id": "ma4",
+            "description": "Il pediatra comunica brevemente al caregiver, prima dell'intervallo, che in quel piccolo segmento non si stanno valutando tappe né prestazioni e che non occorre stimolare il bambino — neutralizzando esplicitamente l'attesa prestazionale del genitore che altrimenti tende a comprimere l'intervallo.",
+            "observable_effect": "Il caregiver smette di sollecitare il bambino a \"mostrare\" e si dispone in posizione di compresenza non direttiva; cala la doppia pressione valutativa pediatra+genitore sull'azione del bambino.",
+            "reversibility_note": "Alla chiusura dell'intervallo il registro torna ordinario; il caregiver non riceve istruzioni vincolanti, solo un segnale di sospensione momentanea."
+          },
+          {
+            "id": "ma5",
+            "description": "Il pediatra differisce ogni annotazione, codifica o lettura per tappe di ciò che accade nell'intervallo — non scrive, non spunta scale, non commenta in tempo reale — e riserva l'eventuale nota descrittiva al dopo, fuori dal campo del bambino.",
+            "observable_effect": "Durante l'intervallo non sono visibili al bambino e al caregiver gesti di scoring (scrittura su scheda, segni di valutazione); ciò che il bambino fa non è immediatamente convertito in indice osservativo davanti a lui.",
+            "reversibility_note": "L'annotazione differita può essere prodotta o omessa a discrezione clinica successiva, senza che la sua assenza comprometta la visita."
+          }
+        ],
+        "corrected_non_applicability": [
+          {
+            "trigger": "La visita ha obiettivi clinici acuti o prioritari (sintomatologia in corso, valutazione diagnostica urgente, decisione terapeutica immediata) che saturano legittimamente il tempo clinico.",
+            "required_outcome": "sospendere",
+            "rationale": "In presenza di una finalità clinica acuta il tempo della visita appartiene strutturalmente alla cura; aprire un intervallo non finalizzato sarebbe improprio rispetto alla domanda reale del paziente e del caregiver, e il dispositivo non deve sovrapporsi alla priorità clinica."
+          },
+          {
+            "trigger": "Mancano i dati osservabili minimi: il bambino è in stato di angoscia clinica, rifiuto totale del setting o regolazione fisiologica così compromessa da assorbire l'intero campo (pianto continuativo, freezing, dolore in atto).",
+            "required_outcome": "non_classificabile",
+            "rationale": "Il dispositivo richiede che il bambino disponga di un minimo di accessibilità al campo per poter orientare la propria azione; se l'intero campo è occupato dalla risposta di stress al setting clinico, non c'è materiale osservativo su cui il dispositivo possa lavorare e va dichiarato non classificabile, non forzato."
+          },
+          {
+            "trigger": "Il caregiver richiede una lettura valutativa continuativa e il differimento dell'annotazione produrrebbe insicurezza genitoriale che riempirebbe l'intervallo di sollecitazioni e richieste di feedback.",
+            "required_outcome": "ambiguo",
+            "rationale": "In questa condizione il dispositivo può essere parzialmente attivo ma il campo non è effettivamente protetto: l'attesa prestazionale rientra dal lato del caregiver e l'intervallo non è più non finalizzato. L'esito è ambiguo perché il dispositivo è formalmente in atto ma sostanzialmente eroso, e va riconosciuto come tale invece di essere letto come funzionante."
+          },
+          {
+            "trigger": "Il setting non consente fisicamente i 5-10 minuti dedicati (visita di pochi minuti per turnazione, ambulatorio in saturazione, contesto di emergenza territoriale).",
+            "required_outcome": "sospendere",
+            "rationale": "Il dispositivo non è comprimibile sotto la sua durata minima senza degenerare in una formula performativa: meglio sospenderlo che simularlo in due minuti, dove la sottrazione di finalità non riesce a stabilirsi come qualità di campo."
+          },
+          {
+            "trigger": "Il bambino mostra in entrata segnali di prestazionalizzazione internalizzata — gioco eccessivamente ordinato, micro-pause di verifica dello sguardo adulto, simmetria compiacente dei gesti, assenza di tempi morti e di errori esplorativi — coerenti con uno script di 'comportarsi bene in visita' già introiettato.",
+            "required_outcome": "ambiguo",
+            "rationale": "In questa condizione la forma del campo desiderabile può apparire piena mentre la struttura è già saturata internamente: la pressione prestazionale è entrata nel bambino come orientamento implicito. Il dispositivo non può discriminare con certezza orientamento autentico da script internalizzato dentro l'intervallo, e l'esito va dichiarato ambiguo invece che riuscito, riconoscendo che la lettura richiede informazioni anamnestiche e osservazione qualitativa che eccedono il singolo segmento."
+          }
+        ],
+        "corrected_universal_form": null,
+        "corrected_resonance_indicator": "Dentro la visita si forma un breve segmento in cui il pediatra, il caregiver e il bambino smettono di orientarsi verso un compito atteso, e l'agire del bambino cessa di essere immediatamente leggibile come tappa raggiunta o prestazione mancata — con due qualificazioni che il dispositivo richiede di osservare congiuntamente: (a) sul lato esterno, l'assenza di letture per tappe e di sollecitazioni esibitive da parte di pediatra e caregiver; (b) sul lato interno al bambino, la presenza riconoscibile di tempi morti, ridirezioni d'uso, errori esplorativi e momenti non destinati allo sguardo adulto, che distinguono l'orientamento autentico da una sequenza di gesti compiacenti formalmente regolari. La verifica del solo lato (a) senza il lato (b) non è sufficiente a dichiarare riuscito il dispositivo.",
+        "correction_blocked_reason": null
+      }
+    }
+  ]
+}

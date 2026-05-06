@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f3-step-1-nodo-funzione-schema",
+  "title": "F3 Step 1 — Nodo dominante e funzione",
+  "type": "object",
+  "required": ["step", "tema_id", "domain_selected", "context_label", "results"],
+  "properties": {
+    "step": { "const": "f3_step_1" },
+    "tema_id": { "type": "string" },
+    "domain_selected": { "enum": ["clinico", "educativo", "formazione", "politiche"] },
+    "context_label": { "type": "string", "minLength": 1 },
+    "researcher_notes": { "type": ["string", "null"] },
+    "results": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["dominant_node", "function", "target_field", "coherence_check"],
+        "properties": {
+          "dominant_node": {
+            "type": "object",
+            "required": ["node_id", "node_label", "dominance_motivation", "other_nodes_status"],
+            "properties": {
+              "node_id": { "type": "string" },
+              "node_label": { "type": "string" },
+              "dominance_motivation": { "type": "string", "minLength": 30 },
+              "other_nodes_status": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["node_id", "status"],
+                  "properties": {
+                    "node_id": { "type": "string" },
+                    "status": { "enum": ["sostenuto", "neutro", "co-fragile"] },
+                    "note": { "type": ["string", "null"] }
+                  }
+                }
+              }
+            }
+          },
+          "function": {
+            "type": "object",
+            "required": ["function_type", "function_motivation"],
+            "properties": {
+              "function_type": { "enum": ["stabilizzare", "ampliare", "mediare", "proteggere"] },
+              "function_motivation": { "type": "string", "minLength": 30 }
+            }
+          },
+          "target_field": {
+            "type": "object",
+            "required": ["field_label", "field_motivation"],
+            "properties": {
+              "field_label": { "type": "string", "minLength": 1 },
+              "field_motivation": { "type": "string", "minLength": 30 }
+            }
+          },
+          "coherence_check": {
+            "type": "object",
+            "required": ["node_in_confirmed", "function_in_closed_set", "function_coherent_with_node", "target_field_specific"],
+            "properties": {
+              "node_in_confirmed": { "$ref": "#/definitions/checkOutcome" },
+              "function_in_closed_set": { "$ref": "#/definitions/checkOutcome" },
+              "function_coherent_with_node": { "$ref": "#/definitions/checkOutcome" },
+              "target_field_specific": { "$ref": "#/definitions/checkOutcome" }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "checkOutcome": {
+      "type": "object",
+      "required": ["value"],
+      "properties": {
+        "value": { "enum": ["sì", "no", "ambiguo"] },
+        "motivation": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

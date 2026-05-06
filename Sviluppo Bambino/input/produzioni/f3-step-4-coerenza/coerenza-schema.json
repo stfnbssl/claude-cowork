@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f3-step-4-coerenza-schema",
+  "title": "F3 Step 4 — Verifica di coerenza F3",
+  "type": "object",
+  "required": ["step", "tema_id", "domain_selected", "results"],
+  "properties": {
+    "step": { "const": "f3_step_4" },
+    "tema_id": { "type": "string" },
+    "domain_selected": { "enum": ["clinico", "educativo", "formazione", "politiche"] },
+    "results": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["checks", "final_verdict"],
+        "properties": {
+          "checks": {
+            "type": "array",
+            "minItems": 10,
+            "maxItems": 10,
+            "items": {
+              "type": "object",
+              "required": ["id", "label", "outcome", "motivation"],
+              "properties": {
+                "id": {
+                  "enum": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10"]
+                },
+                "label": { "type": "string" },
+                "outcome": { "enum": ["passa", "passa_con_riserve", "non_passa"] },
+                "motivation": { "type": "string", "minLength": 20 }
+              }
+            }
+          },
+          "final_verdict": {
+            "type": "object",
+            "required": ["total_checks", "passed", "passed_with_reserves", "failed", "verdict"],
+            "properties": {
+              "total_checks": { "const": 10 },
+              "passed": { "type": "integer", "minimum": 0, "maximum": 10 },
+              "passed_with_reserves": { "type": "integer", "minimum": 0, "maximum": 10 },
+              "failed": { "type": "integer", "minimum": 0, "maximum": 10 },
+              "verdict": { "enum": ["valido", "richiede_revisione", "fuori_modello"] },
+              "critical_failures": {
+                "type": "array",
+                "items": { "enum": ["C1", "C2", "C5", "C7", "C10"] }
+              },
+              "recommended_restart_step": {
+                "anyOf": [
+                  { "enum": ["f3_step_1", "f3_step_2"] },
+                  { "type": "null" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

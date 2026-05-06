@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f3-step-2-micro-dispositivo-schema",
+  "title": "F3 Step 2 — Micro-dispositivo di campo",
+  "type": "object",
+  "required": ["step", "tema_id", "domain_selected", "results"],
+  "properties": {
+    "step": { "const": "f3_step_2" },
+    "tema_id": { "type": "string" },
+    "domain_selected": { "enum": ["clinico", "educativo", "formazione", "politiche"] },
+    "results": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "ce_origin",
+          "dominant_node_ref",
+          "function_ref",
+          "target_field_ref",
+          "micro_actions",
+          "real_time",
+          "resonance_indicator",
+          "universal_form",
+          "non_applicability",
+          "synthesis"
+        ],
+        "properties": {
+          "ce_origin": { "type": "string", "minLength": 10 },
+          "dominant_node_ref": {
+            "type": "object",
+            "required": ["node_id", "node_label"],
+            "properties": {
+              "node_id": { "type": "string" },
+              "node_label": { "type": "string" }
+            }
+          },
+          "function_ref": {
+            "type": "object",
+            "required": ["function_type"],
+            "properties": {
+              "function_type": { "enum": ["stabilizzare", "ampliare", "mediare", "proteggere"] }
+            }
+          },
+          "target_field_ref": {
+            "type": "object",
+            "required": ["field_label"],
+            "properties": {
+              "field_label": { "type": "string" }
+            }
+          },
+          "micro_actions": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 5,
+            "items": {
+              "type": "object",
+              "required": ["id", "description", "observable_effect", "reversibility_note"],
+              "properties": {
+                "id": { "type": "string" },
+                "description": { "type": "string", "minLength": 20 },
+                "observable_effect": { "type": "string", "minLength": 20 },
+                "reversibility_note": { "type": "string", "minLength": 10 }
+              }
+            }
+          },
+          "real_time": {
+            "type": "object",
+            "required": ["duration_label"],
+            "properties": {
+              "duration_label": { "type": "string" },
+              "time_motivation": { "type": ["string", "null"] }
+            }
+          },
+          "resonance_indicator": { "type": "string", "minLength": 30 },
+          "universal_form": {
+            "type": "object",
+            "required": ["forms"],
+            "properties": {
+              "forms": {
+                "type": "array",
+                "minItems": 1,
+                "items": { "enum": ["U1", "U2", "U3", "U4", "U5", "U6"] }
+              },
+              "combination_motivation": { "type": ["string", "null"] }
+            }
+          },
+          "non_applicability": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["trigger", "required_outcome", "rationale"],
+              "properties": {
+                "trigger": { "type": "string", "minLength": 15 },
+                "required_outcome": { "enum": ["non_classificabile", "ambiguo", "sospendere"] },
+                "rationale": { "type": "string", "minLength": 15 }
+              }
+            }
+          },
+          "synthesis": { "type": "string", "minLength": 30, "maxLength": 280 }
+        }
+      }
+    }
+  }
+}
