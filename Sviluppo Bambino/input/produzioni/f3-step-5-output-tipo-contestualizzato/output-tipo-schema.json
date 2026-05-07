@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f3-step-5-output-tipo-contestualizzato-schema",
+  "title": "F3 Step 5 — Output-tipo contestualizzato",
+  "type": "object",
+  "required": ["step", "tema_id", "domain_selected", "context_label", "results"],
+  "properties": {
+    "step": { "const": "f3_step_5" },
+    "tema_id": { "type": "string" },
+    "domain_selected": { "enum": ["clinico", "educativo", "formazione", "politiche"] },
+    "context_label": { "type": "string", "minLength": 1 },
+    "results": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["sections", "narrative_synthesis", "orientative_direction", "dispositivo_ref"],
+        "properties": {
+          "sections": {
+            "type": "array",
+            "minItems": 5,
+            "maxItems": 5,
+            "items": {
+              "type": "object",
+              "required": ["section_id", "section_label", "domain_examples", "linguistic_frame", "decisional_nodes"],
+              "properties": {
+                "section_id": { "enum": ["A", "B", "C", "D", "E"] },
+                "section_label": { "type": "string", "minLength": 1 },
+                "domain_examples": {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 4,
+                  "items": { "type": "string", "minLength": 30 }
+                },
+                "linguistic_frame": { "type": "string", "minLength": 30 },
+                "decisional_nodes": {
+                  "type": "array",
+                  "minItems": 1,
+                  "maxItems": 3,
+                  "items": { "type": "string", "minLength": 20 }
+                }
+              }
+            }
+          },
+          "narrative_synthesis": { "type": "string", "minLength": 100 },
+          "orientative_direction": { "type": "string", "minLength": 30, "maxLength": 300 },
+          "dispositivo_ref": {
+            "type": "object",
+            "required": ["device_synthesis", "function_type", "real_time", "resonance_indicator"],
+            "properties": {
+              "device_synthesis": { "type": "string", "minLength": 20 },
+              "function_type": { "enum": ["stabilizzare", "ampliare", "mediare", "proteggere"] },
+              "real_time": { "type": "string" },
+              "resonance_indicator": { "type": "string", "minLength": 20 }
+            }
+          },
+          "operator_note": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}
