@@ -3,7 +3,29 @@ id: spiegare-valutare-leggere
 titolo: Spiegare / Valutare / Leggere
 alias: []
 area: metodo
+fase_principale: F2
 stato: bozza
+related:
+  - id: operatore-di-lettura
+    rel: GOVERNA
+    dir: source
+    obbligatoria: true
+    nota: "l'operatore si colloca sul piano del 'leggere', non del spiegare o valutare"
+  - id: valutazione-configurazionale
+    rel: DISTINGUE_DA
+    dir: source
+    obbligatoria: true
+    nota: "la valutazione configurazionale è leggere traiettorie, non valutare prestazioni"
+  - id: frammentazione-strutturale-dei-saperi
+    rel: RISPONDE_A
+    dir: source
+    obbligatoria: true
+    nota: "la distinzione risponde alla confusione tra i tre piani nella pratica professionale"
+  - id: separazione-tra-osservazione-e-decisione
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "la separazione tra leggere e valutare/decidere è un'istanza di questo principio"
 ---
 
 # Spiegare / Valutare / Leggere

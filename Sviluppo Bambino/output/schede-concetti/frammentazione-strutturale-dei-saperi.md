@@ -3,7 +3,29 @@ id: frammentazione-strutturale-dei-saperi
 titolo: Frammentazione strutturale dei saperi
 alias: []
 area: progetto
+fase_principale: trasversale
 stato: bozza
+related:
+  - id: grammatica-concettuale-dello-sviluppo
+    rel: ORIENTA
+    dir: source
+    obbligatoria: true
+    nota: "la frammentazione motiva la costruzione di una grammatica condivisa"
+  - id: traduzione-interdisciplinare
+    rel: ORIENTA
+    dir: source
+    obbligatoria: true
+    nota: "la frammentazione motiva il problema della traduzione interdisciplinare"
+  - id: circolazione-controllata-dei-concetti
+    rel: ORIENTA
+    dir: source
+    obbligatoria: true
+    nota: "la frammentazione motiva il principio di circolazione controllata"
+  - id: statuto-metateorico-del-progetto
+    rel: ORIENTA
+    dir: source
+    obbligatoria: true
+    nota: "la frammentazione motiva il posizionamento metateorico del progetto"
 ---
 
 # Frammentazione strutturale dei saperi

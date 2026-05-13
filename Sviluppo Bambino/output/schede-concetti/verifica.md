@@ -3,7 +3,34 @@ id: verifica
 titolo: Verifica
 alias: []
 area: operativo
+fase_principale: F4
 stato: bozza
+related:
+  - id: architettura-metodologica-a-fasi
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "la verifica è la Fase 4 dell'architettura metodologica"
+  - id: strumento-contestualizzato
+    rel: GOVERNA
+    dir: source
+    obbligatoria: true
+    nota: "la verifica valuta coerenza, usabilità e sostenibilità degli strumenti"
+  - id: valutazione-configurazionale
+    rel: RENDE_OPERATIVO
+    dir: target
+    obbligatoria: true
+    nota: "la verifica usa la valutazione configurazionale come strumento epistemico"
+  - id: riproducibilita-metodologica
+    rel: GOVERNA
+    dir: source
+    obbligatoria: true
+    nota: "la verifica mantiene aperta la riproducibilità attraverso revisione iterativa"
+  - id: lettura-configurazionale
+    rel: GOVERNA
+    dir: target
+    obbligatoria: false
+    nota: "la verifica include lo sviluppo della competenza di lettura configurazionale"
 ---
 
 # Verifica

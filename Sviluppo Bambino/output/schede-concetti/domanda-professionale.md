@@ -3,7 +3,29 @@ id: domanda-professionale
 titolo: Domanda professionale
 alias: []
 area: operativo
+fase_principale: F2
 stato: bozza
+related:
+  - id: nodo-trasversale
+    rel: PRECEDE_IN_PIPELINE
+    dir: target
+    obbligatoria: true
+    nota: "quarto passaggio: il nodo trasversale si traduce in domanda professionale"
+  - id: operatore-di-lettura
+    rel: PRECEDE_IN_PIPELINE
+    dir: source
+    obbligatoria: true
+    nota: "le domande professionali alimentano l'operatore di lettura"
+  - id: campo-relazionale
+    rel: ORIENTA
+    dir: source
+    obbligatoria: true
+    nota: "le domande orientano l'osservazione del campo relazionale"
+  - id: separazione-tra-osservazione-e-decisione
+    rel: GOVERNA
+    dir: target
+    obbligatoria: true
+    nota: "le domande professionali descrivono, non prescrivono"
 ---
 
 # Domanda professionale

@@ -3,31 +3,46 @@ id: configurazione-evolutiva
 titolo: Configurazione evolutiva
 alias: ["Configurazione", "CE"]
 area: configurazione
+fase_principale: F2
 stato: bozza
+related:
+  - id: operatore-di-lettura
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "la CE è l'output dell'operatore di lettura applicato alle osservazioni"
+  - id: nodo-dominante
+    rel: PRECEDE_IN_CICLO
+    dir: source
+    obbligatoria: true
+    nota: "dalla CE si identifica il nodo dominante: punto di snodo del sistema"
+  - id: nodo-trasversale
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "la CE è la forma stabile assunta dalla dinamica tra nodi trasversali"
+  - id: campo-relazionale
+    rel: ORIENTA
+    dir: source
+    obbligatoria: true
+    nota: "la CE descrive il campo relazionale, non attribuisce proprietà al bambino"
+  - id: grammatica-delle-configurazioni
+    rel: RENDE_OPERATIVO
+    dir: target
+    obbligatoria: false
+    nota: "la grammatica delle configurazioni fornisce il linguaggio formale per descrivere la CE"
+  - id: abitabilita-dell-esperienza
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "la dimensione A della CE misura l'abitabilità dell'esperienza"
+  - id: transizione-configurazionale
+    rel: COMPONE
+    dir: source
+    obbligatoria: false
+    nota: "la transizione tra due CE è l'unità di misura della valutazione"
 ---
 
 # Configurazione evolutiva
 
-La forma temporaneamente stabile assunta dalla dinamica tra Nodi Trasversali in un determinato campo relazionale. È l'unità di descrizione fondamentale del metodo.
-
-## Proprietà essenziali
-
-Una CE è sempre:
-- **situata** — mai astratta o slegata dal contesto;
-- **reversibile** — mai definitiva o identitaria;
-- **dinamica** — mai fotografica o statica.
-
-Descrive il campo relazionale, non attribuisce proprietà al bambino.
-
-## Componenti della descrizione formale
-
-Nella Grammatica delle Configurazioni (F2-C) una CE si descrive tramite cinque dimensioni:
-1. **S** — Stato dei nodi (↑ espansivo, ~ stabile, ↓ ristretto, ! disorganizzato, ? non leggibile)
-2. **R** — Relazioni dominanti (CPL sostegno, VIN vincolo, MED mediazione, CMP compensazione)
-3. **D** — Direzione dinamica (↗ espansione, → stabilizzazione, ↘ restringimento)
-4. **T** — Stabilità temporale (T1 situazionale, T2 ricorrente, T3 stabilizzata)
-5. **A** — Abitabilità esperienziale (A+ abitabile, A± fragile, A− rischio di collasso)
-
-## Funzione nel sistema decisionale
-
-L'operatore di lettura produce la CE. La CE orienta l'identificazione del nodo dominante. Il nodo dominante orienta la selezione del tipo universale di dispositivo (U1–U6). Il dispositivo selezionato suggerisce il micro-dispositivo di campo. La CE è il punto di snodo dell'intera sequenza metodologica.
+La forma temporaneamente stabile assunta dalla dinamica tra Nodi Trasversali in un determinato campo relazionale. È l

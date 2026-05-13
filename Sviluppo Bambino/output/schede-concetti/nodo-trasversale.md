@@ -3,30 +3,41 @@ id: nodo-trasversale
 titolo: Nodo trasversale
 alias: ["Nodo"]
 area: configurazione
+fase_principale: F2
 stato: bozza
+related:
+  - id: concetto-ponte
+    rel: PRECEDE_IN_PIPELINE
+    dir: target
+    obbligatoria: true
+    nota: "terzo passaggio della pipeline: il concetto-ponte genera il nodo"
+  - id: domanda-professionale
+    rel: PRECEDE_IN_PIPELINE
+    dir: source
+    obbligatoria: true
+    nota: "il nodo trasversale si traduce in domande professionali"
+  - id: zona-di-condensazione
+    rel: HA_STATUTO
+    dir: target
+    obbligatoria: true
+    nota: "ogni nodo è ontologicamente una zona di condensazione"
+  - id: asse-strutturale
+    rel: COMPONE
+    dir: target
+    obbligatoria: true
+    nota: "ogni nodo attraversa più assi senza appartenervi"
+  - id: configurazione-evolutiva
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "i nodi trasversali (N1–N7) compongono la configurazione evolutiva"
+  - id: grammatica-delle-configurazioni
+    rel: RENDE_OPERATIVO
+    dir: source
+    obbligatoria: false
+    nota: "i nodi sono le unità della grammatica delle configurazioni"
 ---
 
 # Nodo trasversale
 
-Configurazione strutturale dell'esperienza umana in sviluppo che attraversa più assi del modello e può essere tradotta in domande professionali senza ridursi a variabile disciplinare o indicatore clinico.
-
-## Quattro elementi chiave
-
-- **Configurazione**, non fattore — non è una variabile isolata ma una forma dell'esperienza;
-- **Attraversamento**, non appartenenza — non appartiene a una disciplina o a un asse;
-- **Traducibilità**, non spiegazione — non spiega causalmente, ma rende possibile tradurre;
-- **Leggibilità**, non diagnosi — orienta l'osservazione senza produrre classificazioni.
-
-## I sette nodi
-
-- N1 — Regolazione / integrazione esperienza
-- N2 — Co-regolazione
-- N3 — Mondo condiviso
-- N4 — Esplorazione
-- N5 — Limite reale
-- N6 — Continuità temporale del sé
-- N7 — Desiderio
-
-## Statuto: Zona di condensazione
-
-Ogni nodo è una zona di condensazione — il punto in cui più campi strutturali (corporeo, relazionale, simbolico) si densificano producendo configurazioni ad alta densità trasformativa. Questo è ciò che lo rende contemporaneamente osservabile e teoricamente fondato.
+Configurazione strutturale dell'esperienza umana in sviluppo che attraversa più assi del modello e può essere tradotta in

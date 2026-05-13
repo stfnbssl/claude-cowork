@@ -3,7 +3,34 @@ id: matrice-di-traduzione-interdisciplinare
 titolo: Matrice di traduzione interdisciplinare
 alias: ["Matrice"]
 area: metodo
+fase_principale: F2
 stato: bozza
+related:
+  - id: traduzione-interdisciplinare
+    rel: RENDE_OPERATIVO
+    dir: target
+    obbligatoria: true
+    nota: "è il dispositivo metodologico centrale della Fase 2"
+  - id: asse-strutturale
+    rel: RENDE_OPERATIVO
+    dir: source
+    obbligatoria: true
+    nota: "ogni asse viene reso operativo attraverso la matrice"
+  - id: concetto-ponte
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "la matrice genera i concetti-ponte per ciascun contesto disciplinare"
+  - id: circolazione-controllata-dei-concetti
+    rel: RENDE_OPERATIVO
+    dir: source
+    obbligatoria: true
+    nota: "la matrice rende espliciti i rischi di slittamento semantico per ogni ambito"
+  - id: frammentazione-strutturale-dei-saperi
+    rel: RISPONDE_A
+    dir: source
+    obbligatoria: false
+    nota: "risponde al rischio di psicologizzazione, normativizzazione, proceduralizzazione"
 ---
 
 # Matrice di traduzione interdisciplinare
@@ -14,19 +41,4 @@ Dispositivo metodologico centrale della Fase 2 (traduzione interdisciplinare). N
 
 - Rendere visibili le trasformazioni di senso nel passaggio di contesto disciplinare;
 - Identificare i punti in cui un concetto rischia di diventare funzione, indicatore o prescrizione;
-- Delimitare i confini oltre i quali la traduzione diventa riduzione;
-- Individuare ciò che è traducibile, come può esserlo, e cosa deve essere protetto.
-
-La matrice non produce strumenti: rende possibile progettarli responsabilmente.
-
-## Come interfaccia cognitiva per AI
-
-La matrice può essere intesa come struttura di mappatura semantica che consente ai sistemi AI di generare output differenziati per contesto senza perdere coerenza con la fondazione concettuale. In assenza di tale matrice, un sistema AI opererebbe per generalizzazioni improprie.
-
-## Rischi specifici per ambito
-
-- Contesto clinico: psicologizzazione o diagnosticizzazione dei concetti;
-- Contesto educativo: normativizzazione o pedagogia della prestazione;
-- Contesto istituzionale: proceduralizzazione e perdita del soggetto concreto.
-
-La funzione della matrice non è eliminare questi rischi, ma renderli visibili e gestibili.
+- D

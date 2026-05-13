@@ -3,7 +3,24 @@ id: livelli-della-produzione-di-conoscenza
 titolo: Livelli della produzione di conoscenza
 alias: []
 area: progetto
+fase_principale: trasversale
 stato: bozza
+related:
+  - id: statuto-metateorico-del-progetto
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "i tre livelli chiariscono la collocazione epistemica del progetto"
+  - id: condizioni-di-possibilita-dello-sviluppo
+    rel: DISTINGUE_DA
+    dir: source
+    obbligatoria: true
+    nota: "i livelli distinguono fondazione, strumenti e ricerca empirica"
+  - id: valutazione-configurazionale
+    rel: ORIENTA
+    dir: source
+    obbligatoria: false
+    nota: "il terzo livello (ricerca empirica) può valutare gli strumenti prodotti ai livelli 1–2"
 ---
 
 # Livelli della produzione di conoscenza

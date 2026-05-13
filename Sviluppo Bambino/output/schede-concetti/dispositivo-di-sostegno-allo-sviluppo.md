@@ -3,7 +3,34 @@ id: dispositivo-di-sostegno-allo-sviluppo
 titolo: Dispositivo di sostegno allo sviluppo
 alias: ["Dispositivo"]
 area: operativo
+fase_principale: F3
 stato: bozza
+related:
+  - id: configurazione-evolutiva
+    rel: PRODUCE
+    dir: target
+    obbligatoria: true
+    nota: "la CE (via ciclo decisionale) orienta la generazione del dispositivo"
+  - id: campo-relazionale
+    rel: AGISCE_SU
+    dir: source
+    obbligatoria: true
+    nota: "agisce sul campo relazionale, non sul bambino direttamente"
+  - id: tipologia-universale-di-dispositivo
+    rel: ISTANZA_DI
+    dir: source
+    obbligatoria: true
+    nota: "ogni dispositivo reale è un'istanza di una o più tipologie universali (U1–U6)"
+  - id: output-tipo-vuoto
+    rel: REALIZZA
+    dir: source
+    obbligatoria: true
+    nota: "il dispositivo è la realizzazione contestuale dell'output-tipo vuoto"
+  - id: strumento-contestualizzato
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "il dispositivo di sostegno è il nucleo funzionale dello strumento contestualizzato"
 ---
 
 # Dispositivo di sostegno allo sviluppo

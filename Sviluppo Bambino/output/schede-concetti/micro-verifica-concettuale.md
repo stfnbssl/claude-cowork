@@ -3,7 +3,29 @@ id: micro-verifica-concettuale
 titolo: Micro-verifica concettuale
 alias: []
 area: metodo
+fase_principale: F1
 stato: bozza
+related:
+  - id: asse-strutturale
+    rel: GOVERNA
+    dir: source
+    obbligatoria: true
+    nota: "le micro-verifiche testano la coerenza interna del modello degli assi"
+  - id: concetto-ponte
+    rel: DISTINGUE_DA
+    dir: source
+    obbligatoria: true
+    nota: "verifica interna del modello vs traduzione verso le discipline"
+  - id: operatore-di-lettura
+    rel: DISTINGUE_DA
+    dir: source
+    obbligatoria: true
+    nota: "coerenza interna del modello vs trasformazione di osservazioni in CE"
+  - id: fondamento-ontologico
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "le micro-verifiche sono un dispositivo interno alla Fase 1"
 ---
 
 # Micro-verifica concettuale

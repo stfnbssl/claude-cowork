@@ -3,7 +3,24 @@ id: struttura-interpretativa
 titolo: Struttura interpretativa
 alias: []
 area: fondamento
+fase_principale: F1
 stato: bozza
+related:
+  - id: asse-strutturale
+    rel: HA_STATUTO
+    dir: source
+    obbligatoria: true
+    nota: "gli assi strutturali hanno lo statuto epistemologico di strutture interpretative"
+  - id: fondamento-ontologico
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "lo statuto interpretativo degli assi è definito nella fase fondativa"
+  - id: multilivello-dei-fenomeni-di-sviluppo
+    rel: FONDA
+    dir: target
+    obbligatoria: false
+    nota: "il multilivello richiede strutture interpretative, non variabili empiriche"
 ---
 
 # Struttura interpretativa

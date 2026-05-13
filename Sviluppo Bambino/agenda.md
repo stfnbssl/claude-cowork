@@ -188,6 +188,22 @@ Le istruzioni operative erano in `input/assi strutturali/preprocessing/CLAUDE.md
 
 Partendo dai capitoli Markdown in `input/assi strutturali/normalized/` (44 capitoli totali, distribuiti su 6 assi), sono stati prodotti 6 file JSON in `output/assi-strutturali/precompiled/`, uno per asse, tutti validi rispetto allo schema.
 
+---
+## Azione 014b
+### Nome: Precompilazione JSON degli assi strutturali (Fase 1) — ver 2
+### Stato: done
+### Priorità: alta
+### Dipendenze: Azione 014 ✓
+
+Ripetizione dell'Azione 014 con percorsi aggiornati al progetto hcaire-blog.
+
+- **Istruzioni operative**: `C:\my\claude\claude-cowork\Sviluppo Bambino\input\assi strutturali\preprocessing\CLAUDE.md` (aggiornato 2026-05-10)
+- **Schema JSON**: `C:\my\claude\claude-cowork\Sviluppo Bambino\input\assi strutturali\preprocessing\assi-fase-1.json`
+- **Input capitoli**: `C:\my\projects\hcaire-blog\server\content\progetti\sviluppo bambino\assi strutturali\normalized\`
+- **Output**: `C:\my\projects\hcaire-blog\server\content\progetti\sviluppo bambino\assi strutturali\precompiled-ver-2\`
+
+Nota: nella cartella `assi strutturali` esiste già una sottocartella `json\` con file per singolo capitolo (formato diverso, non per asse). L'Azione 014b produce invece 6 file uno per asse seguendo lo schema `assi-fase-1.json`.
+
 | File | Asse | Capitoli sorgente |
 |---|---|---|
 | asse_1.json | Ontologico–fenomenologico | 8 |

@@ -3,7 +3,29 @@ id: lettura-configurazionale
 titolo: Lettura configurazionale
 alias: []
 area: operativo
+fase_principale: F4
 stato: bozza
+related:
+  - id: operatore-di-lettura
+    rel: DISTINGUE_DA
+    dir: source
+    obbligatoria: true
+    nota: "competenza professionale acquisita vs strumento metodologico formalizzato"
+  - id: configurazione-evolutiva
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "la lettura configurazionale produce CE in modo intuitivo e riflessivo"
+  - id: ciclo-decisionale-breve
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "il passaggio 'leggi la CE' del ciclo richiede la competenza di lettura configurazionale"
+  - id: verifica
+    rel: COMPONE
+    dir: source
+    obbligatoria: false
+    nota: "la lettura configurazionale è oggetto di sviluppo e verifica nella Fase 4"
 ---
 
 # Lettura configurazionale

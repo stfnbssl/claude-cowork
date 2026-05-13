@@ -3,7 +3,24 @@ id: campo-di-lavoro
 titolo: Campo di lavoro
 alias: []
 area: operativo
+fase_principale: F3
 stato: bozza
+related:
+  - id: strumento-contestualizzato
+    rel: GOVERNA
+    dir: source
+    obbligatoria: true
+    nota: "il campo di lavoro struttura la contestualizzazione dello strumento"
+  - id: micro-dispositivo-di-campo
+    rel: GOVERNA
+    dir: source
+    obbligatoria: true
+    nota: "il micro-dispositivo agisce sempre entro un campo di lavoro definito"
+  - id: decisione-non-prescrittiva
+    rel: ORIENTA
+    dir: source
+    obbligatoria: false
+    nota: "il campo di lavoro delimita il raggio delle decisioni possibili"
 ---
 
 # Campo di lavoro

@@ -11,16 +11,22 @@ NON devi generare applicazioni.
 
 Obiettivo:
 
-Per ciascuno degli assi in C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\assi strutturali\normalized
+Per ciascuno degli assi in C:\my\projects\hcaire-blog\server\content\progetti\sviluppo bambino\assi strutturali\normalized
 , ove ogni asse ha files con vari capitoli, costruisci una scheda asse che:
 - mantenga il livello della fondazione concettuale
 - renda possibile una futura traduzione interdisciplinare
 - distingua rigorosamente i diversi livelli strutturali
 
 Il risultato deve essere un oggetto JSON completo e rigorosomante coerente con lo schema in
-C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\assi strutturali\preprocessing\assi-fase-1.json
+C:\my\claude\claude-cowork\Sviluppo Bambino\input\assi strutturali\preprocessing\assi-fase-1.json
 
-Scrivi i JSON risultanti in C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled
+Scrivi i 6 JSON risultanti (uno per asse: `asse_1.json` … `asse_6.json`) in
+C:\my\claude\claude-cowork\Sviluppo Bambino\output\assi-strutturali\staging
+
+Questa è la cartella di staging: i file vengono poi validati dal bridge `local/`
+del repo `hcaire-blog` (canale Redis `hcaire:assi:events`) e promossi automaticamente
+nei `precompiled/` del repo SOLO se la validazione contro lo schema passa per
+tutti e sei i file. Non scrivere mai direttamente in `hcaire-blog/server/content/`.
 
 Vincoli obbligatori:
 

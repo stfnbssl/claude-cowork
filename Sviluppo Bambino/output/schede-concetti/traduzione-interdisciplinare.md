@@ -3,7 +3,44 @@ id: traduzione-interdisciplinare
 titolo: Traduzione interdisciplinare
 alias: []
 area: metodo
+fase_principale: F2
 stato: bozza
+related:
+  - id: fondamento-ontologico
+    rel: FONDA
+    dir: target
+    obbligatoria: true
+    nota: "la fondazione ontologica è la condizione di possibilità di ogni traduzione"
+  - id: matrice-di-traduzione-interdisciplinare
+    rel: RENDE_OPERATIVO
+    dir: target
+    obbligatoria: true
+    nota: "la matrice è il dispositivo centrale della traduzione interdisciplinare"
+  - id: concetto-ponte
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "la traduzione produce concetti-ponte per ogni contesto disciplinare"
+  - id: famiglia-di-output
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "la traduzione produce famiglie di possibili output"
+  - id: circolazione-controllata-dei-concetti
+    rel: GOVERNA
+    dir: target
+    obbligatoria: true
+    nota: "la circolazione controllata garantisce che la traduzione non ridefinisca i concetti"
+  - id: frammentazione-strutturale-dei-saperi
+    rel: RISPONDE_A
+    dir: source
+    obbligatoria: true
+    nota: "risponde al problema delle riduzioni indebite nel passaggio tra teoria e pratica"
+  - id: pipeline-di-traducibilita
+    rel: RENDE_OPERATIVO
+    dir: target
+    obbligatoria: true
+    nota: "la pipeline è il percorso operativo della traduzione interdisciplinare"
 ---
 
 # Traduzione interdisciplinare

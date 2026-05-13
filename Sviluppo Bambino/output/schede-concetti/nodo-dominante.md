@@ -3,19 +3,31 @@ id: nodo-dominante
 titolo: Nodo dominante
 alias: ["Nodo limitante"]
 area: configurazione
+fase_principale: F3
 stato: bozza
----
-
-# Nodo dominante
-
-Il nodo che, all'interno di una Configurazione Evolutiva, risulta maggiormente limitante per l'abitabilità dell'esperienza. Indica la funzione di intervento prioritaria e orienta la selezione del tipo universale di dispositivo (U1–U6).
-
-## Funzione nella sequenza decisionale
-
-CE → **Nodo dominante** → Funzione richiesta → Tipo universale → Micro-dispositivo di campo
-
-Il nodo dominante non è il nodo "più basso" in assoluto: è il nodo la cui condizione attuale limita maggiormente l'abitabilità complessiva del campo. Può cambiare da una sessione all'altra — non è una caratteristica stabile del bambino.
-
-## Distinzione dal nodo semplicemente deficitario
-
-Un nodo basso non è automaticamente dominante. Un nodo che compensa (CMP) può essere basso ma non limitante. È la relazione tra i nodi nella configurazione complessiva che determina quale sia il limitante.
+related:
+  - id: configurazione-evolutiva
+    rel: PRECEDE_IN_CICLO
+    dir: target
+    obbligatoria: true
+    nota: "la CE viene letta per identificare il nodo dominante"
+  - id: tipologia-universale-di-dispositivo
+    rel: PRECEDE_IN_CICLO
+    dir: source
+    obbligatoria: true
+    nota: "il nodo dominante orienta la selezione del tipo universale U1–U6"
+  - id: nodo-trasversale
+    rel: ISTANZA_DI
+    dir: target
+    obbligatoria: true
+    nota: "il nodo dominante è sempre uno degli N1–N7 nella configurazione attuale"
+  - id: abitabilita-dell-esperienza
+    rel: ORIENTA
+    dir: source
+    obbligatoria: true
+    nota: "è il nodo che limita maggiormente l'abitabilità complessiva"
+  - id: nodo-trasversale
+    rel: DISTINGUE_DA
+    dir: source
+    obbligatoria: false
+    nota: "il nodo dominante non è il nodo 'più basso': è il più limitante nel

@@ -3,7 +3,24 @@ id: sostegno-allo-sviluppo-umano
 titolo: Sostegno allo sviluppo umano
 alias: []
 area: operativo
+fase_principale: F3
 stato: bozza
+related:
+  - id: tipologia-universale-di-dispositivo
+    rel: RENDE_OPERATIVO
+    dir: source
+    obbligatoria: true
+    nota: "le sei tipologie universali sono le forme del sostegno allo sviluppo"
+  - id: normativita-intrinseca-dello-sviluppo
+    rel: REALIZZA
+    dir: source
+    obbligatoria: true
+    nota: "il sostegno agisce verso maggiore abitabilità, realizzando la normatività intrinseca"
+  - id: campo-relazionale
+    rel: AGISCE_SU
+    dir: source
+    obbligatoria: true
+    nota: "il sostegno modifica le condizioni del campo relazionale"
 ---
 
 # Sostegno allo sviluppo umano

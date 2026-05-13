@@ -3,7 +3,29 @@ id: fondamento-ontologico
 titolo: Fondamento ontologico
 alias: []
 area: fondamento
+fase_principale: F1
 stato: bozza
+related:
+  - id: concetto-ponte
+    rel: PRECEDE_IN_PIPELINE
+    dir: source
+    obbligatoria: true
+    nota: "primo passaggio della pipeline di traducibilità"
+  - id: asse-strutturale
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "principale esito della fase fondativa: il modello degli assi strutturali"
+  - id: traduzione-interdisciplinare
+    rel: FONDA
+    dir: source
+    obbligatoria: true
+    nota: "senza fondazione ontologica la traduzione non ha base concettuale"
+  - id: divieti-metodologici
+    rel: GOVERNA
+    dir: target
+    obbligatoria: true
+    nota: "i divieti proteggono la fase fondativa da usi impropri"
 ---
 
 # Fondamento ontologico

@@ -3,7 +3,29 @@ id: normativita-intrinseca-dello-sviluppo
 titolo: Normatività intrinseca dello sviluppo
 alias: []
 area: fondamento
+fase_principale: F1
 stato: bozza
+related:
+  - id: abitabilita-dell-esperienza
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "l'abitabilità è la traduzione operativa della normatività intrinseca"
+  - id: decisione-non-prescrittiva
+    rel: FONDA
+    dir: source
+    obbligatoria: true
+    nota: "il criterio della decisione (aumentare l'abitabilità) deriva dalla normatività intrinseca"
+  - id: fondamento-ontologico
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "la normatività intrinseca è un principio costitutivo della Fase 1"
+  - id: grammatica-delle-configurazioni
+    rel: RENDE_OPERATIVO
+    dir: source
+    obbligatoria: true
+    nota: "la dimensione A della CE rende operativo il principio di normatività intrinseca"
 ---
 
 # Normatività intrinseca dello sviluppo

@@ -3,7 +3,29 @@ id: grammatica-concettuale-dello-sviluppo
 titolo: Grammatica concettuale dello sviluppo
 alias: ["Grammatica strutturale dello sviluppo"]
 area: progetto
+fase_principale: trasversale
 stato: bozza
+related:
+  - id: grammatica-delle-configurazioni
+    rel: DISTINGUE_DA
+    dir: source
+    obbligatoria: true
+    nota: "sistema teorico complessivo vs linguaggio formale per descrivere le CE"
+  - id: statuto-metateorico-del-progetto
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "la grammatica concettuale è l'esito principale del progetto"
+  - id: frammentazione-strutturale-dei-saperi
+    rel: RISPONDE_A
+    dir: source
+    obbligatoria: true
+    nota: "risponde alla mancanza di un sistema di distinzioni concettuali condivisibili"
+  - id: asse-strutturale
+    rel: RENDE_OPERATIVO
+    dir: source
+    obbligatoria: true
+    nota: "il modello degli assi strutturali rende operativa la grammatica concettuale"
 ---
 
 # Grammatica concettuale dello sviluppo

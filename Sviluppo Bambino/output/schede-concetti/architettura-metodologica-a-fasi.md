@@ -3,7 +3,39 @@ id: architettura-metodologica-a-fasi
 titolo: Architettura metodologica a fasi
 alias: ["Architettura del progetto"]
 area: metodo
+fase_principale: trasversale
 stato: bozza
+related:
+  - id: fondamento-ontologico
+    rel: COMPONE
+    dir: target
+    obbligatoria: true
+    nota: "la Fase 1 è il primo livello dell'architettura"
+  - id: traduzione-interdisciplinare
+    rel: COMPONE
+    dir: target
+    obbligatoria: true
+    nota: "la Fase 2 è il secondo livello dell'architettura"
+  - id: strumento-contestualizzato
+    rel: COMPONE
+    dir: target
+    obbligatoria: true
+    nota: "la Fase 3 (strumenti) è il terzo livello dell'architettura"
+  - id: verifica
+    rel: COMPONE
+    dir: target
+    obbligatoria: true
+    nota: "la Fase 4 (verifica) è il quarto livello dell'architettura"
+  - id: divieti-metodologici
+    rel: GOVERNA
+    dir: target
+    obbligatoria: true
+    nota: "i divieti proteggono l'integrità della non-sovrapponibilità delle fasi"
+  - id: dispositivo-di-costruzione-di-intelligibilita
+    rel: REALIZZA
+    dir: source
+    obbligatoria: true
+    nota: "l'architettura a fasi è la forma concreta del dispositivo di costruzione di intelligibilità"
 ---
 
 # Architettura metodologica a fasi

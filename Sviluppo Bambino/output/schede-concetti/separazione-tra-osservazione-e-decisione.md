@@ -3,7 +3,34 @@ id: separazione-tra-osservazione-e-decisione
 titolo: Separazione tra osservazione e decisione
 alias: []
 area: metodo
+fase_principale: F2
 stato: bozza
+related:
+  - id: operatore-di-lettura
+    rel: GOVERNA
+    dir: source
+    obbligatoria: true
+    nota: "l'operatore produce leggibilità (CE), non azione: la decisione resta al professionista"
+  - id: domanda-professionale
+    rel: GOVERNA
+    dir: source
+    obbligatoria: true
+    nota: "le domande orientano l'osservazione senza implicare automaticamente un intervento"
+  - id: output-tipo-vuoto
+    rel: GOVERNA
+    dir: source
+    obbligatoria: true
+    nota: "l'output-tipo vuoto istituzionalizza la separazione: non decide al posto dell'adulto"
+  - id: decisione-non-prescrittiva
+    rel: FONDA
+    dir: source
+    obbligatoria: true
+    nota: "il principio di separazione è la base della decisione non prescrittiva"
+  - id: divieti-metodologici
+    rel: ISTANZA_DI
+    dir: target
+    obbligatoria: false
+    nota: "il divieto di dedurre azioni dalla CE è un'istanza concreta di questo principio"
 ---
 
 # Separazione tra osservazione e decisione

@@ -3,7 +3,24 @@ id: riproducibilita-metodologica
 titolo: Riproducibilità metodologica
 alias: []
 area: metodo
+fase_principale: trasversale
 stato: bozza
+related:
+  - id: architettura-metodologica-a-fasi
+    rel: GOVERNA
+    dir: source
+    obbligatoria: true
+    nota: "il percorso metodologico (fasi, traduzione, verifica) è riproducibile"
+  - id: fondamento-ontologico
+    rel: DISTINGUE_DA
+    dir: source
+    obbligatoria: true
+    nota: "le formulazioni concettuali della F1 non sono riproducibili come procedure"
+  - id: sistema-cognitivo-di-supporto
+    rel: ORIENTA
+    dir: source
+    obbligatoria: false
+    nota: "i sistemi AI supportano la riproducibilità metodologica senza sostituire la responsabilità epistemica"
 ---
 
 # Riproducibilità metodologica

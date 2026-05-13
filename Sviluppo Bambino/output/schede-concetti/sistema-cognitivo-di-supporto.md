@@ -3,7 +3,29 @@ id: sistema-cognitivo-di-supporto
 titolo: Sistema cognitivo di supporto
 alias: []
 area: progetto
+fase_principale: trasversale
 stato: bozza
+related:
+  - id: infrastruttura-cognitiva
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "il supporto AI è la componente tecnica dell'infrastruttura cognitiva"
+  - id: infrastruttura-cognitiva
+    rel: DISTINGUE_DA
+    dir: source
+    obbligatoria: true
+    nota: "supporto tecnico (AI) vs impianto concettuale del progetto"
+  - id: riproducibilita-metodologica
+    rel: RENDE_OPERATIVO
+    dir: source
+    obbligatoria: false
+    nota: "l'AI supporta la tracciabilità e coerenza del percorso metodologico"
+  - id: circolazione-controllata-dei-concetti
+    rel: GOVERNA
+    dir: target
+    obbligatoria: false
+    nota: "segnala rischi di slittamento semantico dei concetti fondativi"
 ---
 
 # Sistema cognitivo di supporto

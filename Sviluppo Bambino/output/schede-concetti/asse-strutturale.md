@@ -3,7 +3,34 @@ id: asse-strutturale
 titolo: Asse strutturale di sviluppo
 alias: ["Asse"]
 area: fondamento
+fase_principale: F1
 stato: bozza
+related:
+  - id: fondamento-ontologico
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "gli assi strutturali sono il principale esito della fase fondativa"
+  - id: nodo-trasversale
+    rel: FONDA
+    dir: source
+    obbligatoria: true
+    nota: "i nodi trasversali attraversano più assi senza appartenere a nessuno"
+  - id: matrice-di-traduzione-interdisciplinare
+    rel: RENDE_OPERATIVO
+    dir: target
+    obbligatoria: true
+    nota: "ogni asse viene reso operativo attraverso la matrice di traduzione"
+  - id: circolazione-controllata-dei-concetti
+    rel: GOVERNA
+    dir: target
+    obbligatoria: true
+    nota: "i concetti fondativi nati in ciascun asse circolano controllati negli altri"
+  - id: soggetto-incarnato
+    rel: ORIENTA
+    dir: source
+    obbligatoria: true
+    nota: "gli assi descrivono dimensioni strutturali del soggetto incarnato in sviluppo"
 ---
 
 # Asse strutturale di sviluppo
@@ -25,12 +52,4 @@ Gli assi non sono sullo stesso piano logico. Il modello prevede una **gerarchia 
 
 ## Statuto epistemologico: strutture interpretative
 
-Dal punto di vista epistemologico gli assi sono **strutture interpretative**, non variabili empiriche direttamente falsificabili. Svolgono una funzione analoga ad altri concetti teorici nelle scienze dello sviluppo (sistema di attaccamento, strutture cognitive, affordances): non sono direttamente osservabili, ma organizzano l'osservazione e orientano la costruzione degli strumenti. La verificabilità empirica riguarda gli strumenti costruiti nel loro quadro, non gli assi direttamente.
-
-## Operatività attraverso la matrice
-
-Ogni asse viene reso operativo attraverso la matrice di traduzione interdisciplinare, che garantisce traducibilità nei diversi contesti professionali senza perdita di significato teorico.
-
-## Circolazione controllata
-
-I concetti fondativi nati in ciascun asse circolano negli altri assi mantenendo il proprio statuto semantico. Questo principio — la circolazione controllata dei concetti — garantisce coerenza lessicale e resistenza alle riduzioni disciplinari.
+Dal punto di vista epistemologico gli assi sono **strutture interpretative**, non

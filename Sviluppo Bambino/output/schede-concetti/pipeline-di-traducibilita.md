@@ -3,7 +3,34 @@ id: pipeline-di-traducibilita
 titolo: Pipeline di traducibilità
 alias: ["Pipeline"]
 area: metodo
+fase_principale: F2
 stato: bozza
+related:
+  - id: traduzione-interdisciplinare
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "la pipeline è il percorso obbligatorio della traduzione interdisciplinare"
+  - id: zona-di-condensazione
+    rel: FONDA
+    dir: target
+    obbligatoria: true
+    nota: "la pipeline è resa possibile dalla struttura di condensazione dei nodi"
+  - id: divieti-metodologici
+    rel: GOVERNA
+    dir: target
+    obbligatoria: true
+    nota: "i divieti vietano di saltare i passaggi della pipeline"
+  - id: fondamento-ontologico
+    rel: PRECEDE_IN_PIPELINE
+    dir: target
+    obbligatoria: true
+    nota: "il fondamento ontologico è il primo passaggio della pipeline"
+  - id: output-tipo-vuoto
+    rel: PRECEDE_IN_PIPELINE
+    dir: source
+    obbligatoria: true
+    nota: "l'output-tipo vuoto è il passaggio terminale e di verifica della pipeline"
 ---
 
 # Pipeline di traducibilità

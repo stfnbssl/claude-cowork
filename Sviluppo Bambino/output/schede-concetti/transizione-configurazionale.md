@@ -3,7 +3,29 @@ id: transizione-configurazionale
 titolo: Transizione configurazionale
 alias: []
 area: operativo
+fase_principale: F5
 stato: bozza
+related:
+  - id: valutazione-configurazionale
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "la transizione configurazionale è l'unità di misura della valutazione"
+  - id: configurazione-evolutiva
+    rel: PRODUCE
+    dir: target
+    obbligatoria: true
+    nota: "la transizione emerge dal confronto tra due CE in momenti diversi"
+  - id: abitabilita-dell-esperienza
+    rel: ORIENTA
+    dir: source
+    obbligatoria: true
+    nota: "una transizione è evolutiva se aumenta l'abitabilità e la stabilità del campo"
+  - id: dispositivo-di-sostegno-allo-sviluppo
+    rel: ORIENTA
+    dir: source
+    obbligatoria: false
+    nota: "la transizione configurazionale è il criterio per valutare l'efficacia del dispositivo"
 ---
 
 # Transizione configurazionale

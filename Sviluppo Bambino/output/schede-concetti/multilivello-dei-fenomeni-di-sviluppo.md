@@ -2,8 +2,25 @@
 id: multilivello-dei-fenomeni-di-sviluppo
 titolo: Multilivello dei fenomeni di sviluppo
 alias: []
-area: progetto
+area: fondamento
+fase_principale: F1
 stato: bozza
+related:
+  - id: asse-strutturale
+    rel: FONDA
+    dir: source
+    obbligatoria: true
+    nota: "il multilivello è la base strutturale del modello a sei assi"
+  - id: frammentazione-strutturale-dei-saperi
+    rel: RISPONDE_A
+    dir: source
+    obbligatoria: true
+    nota: "risponde al problema della riduzione dei fenomeni evolutivi a una sola dimensione"
+  - id: soggetto-incarnato
+    rel: FONDA
+    dir: source
+    obbligatoria: false
+    nota: "il soggetto incarnato è il soggetto multilivello per definizione"
 ---
 
 # Multilivello dei fenomeni di sviluppo

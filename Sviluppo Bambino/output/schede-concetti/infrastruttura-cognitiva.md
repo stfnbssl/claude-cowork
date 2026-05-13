@@ -3,7 +3,29 @@ id: infrastruttura-cognitiva
 titolo: Infrastruttura cognitiva
 alias: ["Infrastruttura metodologica e concettuale"]
 area: progetto
+fase_principale: trasversale
 stato: bozza
+related:
+  - id: statuto-metateorico-del-progetto
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "l'infrastruttura cognitiva è la funzione sistemica a lungo termine del progetto"
+  - id: sistema-cognitivo-di-supporto
+    rel: DISTINGUE_DA
+    dir: source
+    obbligatoria: true
+    nota: "infrastruttura concettuale vs supporto tecnico AI"
+  - id: architettura-metodologica-a-fasi
+    rel: REALIZZA
+    dir: source
+    obbligatoria: true
+    nota: "l'architettura a fasi è la forma operativa dell'infrastruttura cognitiva"
+  - id: riproducibilita-metodologica
+    rel: GOVERNA
+    dir: target
+    obbligatoria: false
+    nota: "l'infrastruttura garantisce la riproducibilità metodologica nel tempo"
 ---
 
 # Infrastruttura cognitiva

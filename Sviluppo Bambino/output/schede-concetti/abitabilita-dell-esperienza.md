@@ -2,8 +2,35 @@
 id: abitabilita-dell-esperienza
 titolo: Abitabilità dell'esperienza
 alias: ["Abitabilità"]
-area: operativo
+area: configurazione
+fase_principale: trasversale
 stato: bozza
+related:
+  - id: configurazione-evolutiva
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "la dimensione A (abitabilità) è parte costitutiva della CE"
+  - id: normativita-intrinseca-dello-sviluppo
+    rel: REALIZZA
+    dir: source
+    obbligatoria: true
+    nota: "l'abitabilità è la traduzione operativa della normatività intrinseca"
+  - id: decisione-non-prescrittiva
+    rel: ORIENTA
+    dir: source
+    obbligatoria: true
+    nota: "ogni decisione si valuta rispetto all'aumento dell'abitabilità"
+  - id: campo-relazionale
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "l'abitabilità emerge dal campo relazionale, non dal bambino come individuo"
+  - id: normativita-intrinseca-dello-sviluppo
+    rel: DISTINGUE_DA
+    dir: source
+    obbligatoria: false
+    nota: "abitabilità è il criterio operativo; normatività intrinseca è il principio teorico"
 ---
 
 # Abitabilità dell'esperienza

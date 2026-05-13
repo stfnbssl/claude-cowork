@@ -3,7 +3,34 @@ id: tipologia-universale-di-dispositivo
 titolo: Tipologia universale di dispositivo
 alias: []
 area: operativo
+fase_principale: F3
 stato: bozza
+related:
+  - id: nodo-dominante
+    rel: PRECEDE_IN_CICLO
+    dir: target
+    obbligatoria: true
+    nota: "il nodo dominante orienta la selezione del tipo U1–U6"
+  - id: micro-dispositivo-di-campo
+    rel: PRECEDE_IN_CICLO
+    dir: source
+    obbligatoria: true
+    nota: "il tipo universale si realizza nel micro-dispositivo contestuale"
+  - id: dispositivo-di-sostegno-allo-sviluppo
+    rel: FONDA
+    dir: source
+    obbligatoria: true
+    nota: "i sei tipi universali definiscono le forme fondamentali del dispositivo di sostegno"
+  - id: nodo-trasversale
+    rel: AGISCE_SU
+    dir: source
+    obbligatoria: true
+    nota: "ogni tipo universale agisce su nodi trasversali specifici (es. U1→N1/N2)"
+  - id: campo-relazionale
+    rel: AGISCE_SU
+    dir: source
+    obbligatoria: true
+    nota: "il tipo universale agisce sempre sul campo relazionale, non sul bambino direttamente"
 ---
 
 # Tipologia universale di dispositivo
@@ -16,14 +43,4 @@ Sei forme fondamentali di azione sul campo evolutivo, derivate implicitamente da
 
 **U2 — Dispositivo di Sintonizzazione**: rendere l'esperienza condivisibile. Nodi: N2→N3. Azioni: seguire iniziativa, rispecchiare, nominare senza dirigere. Esempi: DBS, gioco imitativo, espansione linguistica naturale.
 
-**U3 — Dispositivo di Apertura**: ampliare il campo delle possibilità. Nodi: N4, N7. Azioni: introdurre novità tollerabile, sostenere curiosità, ridurre paura esplorativa. Esempi: gioco guidato, ambiente educativo esplorabile.
-
-**U4 — Dispositivo di Mediazione Simbolica**: trasformare esperienza in significato condiviso. Nodo: N3. Azioni: narrazione, simbolizzazione, rappresentazione. Esempi: lettura dialogica, racconto, gioco simbolico.
-
-**U5 — Dispositivo di Limite Generativo**: integrare il reale senza disorganizzare. Nodo: N5. Azioni: dire no sostenendo la relazione, strutturare regola abitabile. Esempi: contenimento educativo, regole di gruppo sane.
-
-**U6 — Dispositivo di Riattivazione del Desiderio**: ripristinare direzione evolutiva. Nodo: N7. Azioni: riaprire iniziativa, valorizzare interesse spontaneo. Esempi: follow interest, micro-successi condivisi.
-
-## Combinazioni funzionali
-
-Uno stesso dispositivo reale può appartenere a più tipi: DBS = U2+U4; Counseling genitoriale = U1+U2; Setting educativo = U3+U5; Bilancio pediatrico evolutivo = U1+U2+U6.
+**U3 — Dispositivo di Apertura**: ampliare il campo delle possibilità. Nodi: N4, N7. Azioni: introdurre novità tollerabile, sostenere curiosità, ridu

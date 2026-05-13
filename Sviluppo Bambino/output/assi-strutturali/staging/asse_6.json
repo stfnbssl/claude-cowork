@@ -1,0 +1,116 @@
+{
+  "axis_id": "asse_6",
+  "axis_name": "Storico-culturale",
+  "version": "v1.0",
+  "status": "bozza",
+  "source_document": {
+    "title": "Asse 6 - Storico-culturale (capitoli 1-7)",
+    "format": "markdown",
+    "language": "it"
+  },
+  "structural_function": "Mostrare come le strutture costituite negli assi precedenti si incarnino nel mondo storico concreto attraverso mediazioni simboliche, istituzionali e tecniche: rende leggibile la circolazione degli altri assi nel tempo presente senza ridurre lo sviluppo a effetto del contesto ne astrarlo dalle sue forme storiche. E asse di traduzione e verifica, non di origine.",
+  "core_processes": [
+    {
+      "name": "Mediazione del mondo della vita",
+      "description": "Il mondo storico non e sfondo neutro ma orizzonte di senso preriflessivo che organizza il campo percettivo, simbolico e normativo prima di ogni tematizzazione esplicita."
+    },
+    {
+      "name": "Mediazione simbolica delle funzioni psichiche",
+      "description": "Tra stimolo e risposta si interpone un terzo elemento (segno, linguaggio, pratica condivisa) che riconfigura il campo dell'esperienza e rende possibili memoria volontaria, attenzione intenzionale, narrazione di se."
+    },
+    {
+      "name": "Stabilizzazione istituzionale",
+      "description": "Pratiche, ruoli, linguaggi, criteri di valutazione e narrazioni si condensano in dispositivi durevoli che rendono prevedibili e socialmente condivisibili modi di vivere tempo, valore, sapere e riconoscimento."
+    },
+    {
+      "name": "Riconfigurazione tecnica del tempo",
+      "description": "I dispositivi tecnici contemporanei accelerano i ritmi, comprimono l'attesa, anticipano i risultati e ridefiniscono cio che conta come 'tempo valido', incidendo direttamente su attenzione e desiderio."
+    },
+    {
+      "name": "Costituzione storica del soggetto senza relativismo",
+      "description": "Il soggetto si costituisce attraversando forme storicamente determinate di mondo: la sua storicita non annulla giudizio, limite e desiderio ma li mette alla prova."
+    }
+  ],
+  "bridge_concepts": [
+    {
+      "concept": "Lebenswelt / mondo della vita",
+      "definition": "Orizzonte di evidenze quotidiane, pratiche condivise e aspettative tacite che precede ogni tematizzazione teorica e in cui il soggetto si trova gia immerso prima di poterne prendere distanza.",
+      "linked_nodes": ["Tradizione come condizione del comprendere", "Narrazioni di vita"]
+    },
+    {
+      "concept": "Mediazione simbolica",
+      "definition": "Struttura antropologica (non strumento) per cui le funzioni psichiche superiori nascono attraverso pratiche sociali interiorizzate come forme operative del pensiero e dell'azione.",
+      "linked_nodes": ["Narrazioni di vita", "Tradizione come condizione del comprendere"]
+    },
+    {
+      "concept": "Istituzione come dispositivo di esperienza",
+      "definition": "Configurazione relativamente stabile di pratiche, ruoli, linguaggi e criteri che organizza cio che conta e cio che e possibile attendersi; e insieme vincolo e possibilita, non solo apparato di potere.",
+      "linked_nodes": ["Altro impersonale", "Tempo istituzionale"]
+    },
+    {
+      "concept": "Precomprensione (tradizione)",
+      "definition": "Condizione strutturale del comprendere: ogni comprensione nasce dentro un orizzonte di senso gia operante che non giustifica ogni forma storica ma rende possibile la stessa critica.",
+      "linked_nodes": ["Tradizione come condizione del comprendere", "Narrazioni di vita"]
+    },
+    {
+      "concept": "Prestazionalizzazione del valore",
+      "definition": "Slittamento per cui il valore di un'esperienza coincide con il suo indicatore misurabile, sostituendo il giudizio con la valutazione e l'orientamento con l'auto-ottimizzazione.",
+      "linked_nodes": ["Saturazione dell'apertura", "Riconoscimento condizionato"]
+    },
+    {
+      "concept": "Risonanza (vs accelerazione)",
+      "definition": "Rapporto significativo e non strumentale con il tempo, con l'altro e con le cose; la sua riduzione nel mondo accelerato produce intolleranza dell'attesa e bisogno costante di stimolazione.",
+      "linked_nodes": ["Tempo istituzionale", "Tecnica come seconda natura"]
+    }
+  ],
+  "structural_nodes": [
+    { "node": "Tradizione come condizione del comprendere", "short_definition": "Sfondo non scelto che rende possibile riconoscere il senso." },
+    { "node": "Altro impersonale", "short_definition": "Vincolo durevole che eccede e stabilizza la relazione singola." },
+    { "node": "Tempo istituzionale", "short_definition": "Strutturazione di tappe, scadenze e progressioni dell'esperienza." },
+    { "node": "Narrazioni di vita", "short_definition": "Forme simboliche primarie attraverso cui l'esperienza diventa intelligibile." },
+    { "node": "Tecnica come seconda natura", "short_definition": "Mediazione che rischia di sottrarsi a ogni interrogazione critica." },
+    { "node": "Riconoscimento condizionato", "short_definition": "Identita sostenuta solo finche si risponde alle aspettative." },
+    { "node": "Saturazione dell'apertura", "short_definition": "Riduzione del possibile all'immediatamente accessibile." },
+    { "node": "Neutralizzazione simbolica del limite", "short_definition": "Promessa tecnica di prevenzione che rimuove l'esperienza del reale." }
+  ],
+  "internal_articulations": [
+    { "section": "Mondo storico-culturale come mediazione, non sfondo", "function": "Distinguere contesto neutro e orizzonte di senso preriflessivo." },
+    { "section": "Costituzione storica del soggetto senza relativismo", "function": "Tenere insieme storicita del soggetto e possibilita di giudizio non arbitrario." },
+    { "section": "Mediazione simbolica e sviluppo", "function": "Pensare segno, linguaggio e narrazione come condizione delle funzioni psichiche superiori." },
+    { "section": "Istituzioni come dispositivi di esperienza", "function": "Articolare l'istituzione come vincolo e possibilita insieme, non come puro apparato di potere." },
+    { "section": "Tecnica, performance e temporalita", "function": "Leggere la tecnica come forma storica che riorganizza tempo, valore e desiderio." },
+    { "section": "Rischi strutturali e deformazioni", "function": "Mappare configurazioni storiche che sollecitano una dimensione a scapito delle altre." },
+    { "section": "Raccordo con l'intero modello", "function": "Verificare la tenuta degli assi nel mondo storico senza ridurli a effetti del contesto." }
+  ],
+  "reduction_risks": [
+    { "type": "Determinismo culturale", "description": "Pensare il soggetto come prodotto passivo del contesto, annullando la responsabilita e la possibilita del conflitto e leggendo lo sviluppo come effetto causale di pratiche storiche." },
+    { "type": "Relativismo dell'orizzonte", "description": "Assumere la storicita come principio ultimo che dissolve ogni pretesa di verita, riducendo le forme culturali a configurazioni equivalenti senza terreno argomentativo condiviso." },
+    { "type": "Sociologizzazione dello sviluppo", "description": "Sostituire la struttura antropologica del soggetto con la descrizione delle sue determinazioni sociali, perdendo incarnazione, limite e desiderio come dimensioni proprie." },
+    { "type": "Psicologizzazione dei rischi strutturali", "description": "Attribuire a fragilita individuali, stili familiari o deficit educativi effetti che sono in realta sistemici, neutralizzando la critica del mondo storico." },
+    { "type": "Mentalizzazione della mediazione", "description": "Isolare la mediazione simbolica dalla corporeita e dal campo percettivo, trattandola come processo puramente cognitivo e perdendo il suo radicamento incarnato." },
+    { "type": "Tecno-naturalizzazione", "description": "Trattare la tecnica come seconda natura non interrogabile, accettando come ovvia l'identificazione tra valore e indicatore misurabile." }
+  ],
+  "structural_questions": [
+    "In che senso il mondo storico-culturale e mediazione e non sfondo ne causa?",
+    "Come si tiene insieme la storicita del soggetto e la possibilita di un giudizio non arbitrario?",
+    "Quando un'istituzione sostiene lo sviluppo e quando lo deforma?",
+    "Come riconoscere una deformazione strutturale senza psicologizzarla come fragilita individuale?",
+    "Che cosa accade al desiderio quando il tempo dell'esperienza viene saturato dalla prestazione?"
+  ],
+  "methodological_constraints": [
+    "Non ridurre lo sviluppo a effetto causale di un contesto ne astrarlo dal suo mondo storico.",
+    "Non confondere influenza strutturante e determinazione causale del comportamento.",
+    "Non trasformare le deformazioni strutturali in diagnosi individuali o stili familiari.",
+    "Non assumere l'Asse 6 come fondazione del modello: e asse di traduzione e verifica, non di origine.",
+    "Non pensare la mediazione simbolica come sovrastruttura cognitiva separata dalla corporeita."
+  ],
+  "compilation_notes": {
+    "confidence_level": "alta",
+    "needs_human_review": true,
+    "notes": "Scheda costruita dai 7 capitoli del documento. E stato preservato il ruolo dell'Asse 6 come asse di traduzione e verifica, non di origine. Foucault, Illich e Han sono trattati come contro-campi critici, non come modelli sostitutivi. La distinzione tra istituzione (vincolo + possibilita) e disciplinamento e stata mantenuta.",
+    "open_issues": [
+      "Articolazione fine del rapporto Vygotskij/Merleau-Ponty (mediazione simbolica + corporeita) come scheda di raccordo con Asse 1.",
+      "Sviluppare la lettura dei dispositivi di valutazione contemporanei come deformazione comune fra Asse 3 (giudizio -> procedura) e Asse 5 (desiderio -> motivazione)."
+    ]
+  }
+}

@@ -3,7 +3,29 @@ id: soggetto-incarnato
 titolo: Soggetto incarnato
 alias: []
 area: fondamento
+fase_principale: F1
 stato: bozza
+related:
+  - id: campo-relazionale
+    rel: FONDA
+    dir: source
+    obbligatoria: true
+    nota: "il soggetto incarnato esiste costitutivamente nel campo relazionale"
+  - id: fondamento-ontologico
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "il soggetto incarnato è il presupposto antropologico della Fase 1"
+  - id: asse-strutturale
+    rel: FONDA
+    dir: source
+    obbligatoria: true
+    nota: "ogni asse descrive una dimensione del soggetto incarnato, temporale e relazionale"
+  - id: strumento-contestualizzato
+    rel: GOVERNA
+    dir: source
+    obbligatoria: true
+    nota: "ogni strumento deve presupporre un soggetto incarnato, non astratto o ridotto a profilo"
 ---
 
 # Soggetto incarnato

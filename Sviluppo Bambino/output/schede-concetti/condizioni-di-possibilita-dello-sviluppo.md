@@ -3,7 +3,24 @@ id: condizioni-di-possibilita-dello-sviluppo
 titolo: Condizioni di possibilità dello sviluppo
 alias: []
 area: fondamento
+fase_principale: F1
 stato: bozza
+related:
+  - id: fondamento-ontologico
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "le condizioni di possibilità sono il cuore della fase fondativa"
+  - id: frammentazione-strutturale-dei-saperi
+    rel: RISPONDE_A
+    dir: source
+    obbligatoria: true
+    nota: "risponde alla domanda elusa: cosa stiamo presupponendo parlando di sviluppo?"
+  - id: livelli-della-produzione-di-conoscenza
+    rel: DISTINGUE_DA
+    dir: source
+    obbligatoria: true
+    nota: "non formula teorie esplicative: lavora sulle condizioni che le rendono possibili"
 ---
 
 # Condizioni di possibilità dello sviluppo

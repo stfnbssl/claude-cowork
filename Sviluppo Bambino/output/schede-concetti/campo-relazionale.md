@@ -3,7 +3,34 @@ id: campo-relazionale
 titolo: Campo relazionale
 alias: ["Campo esperienziale", "Campo motivazionale"]
 area: configurazione
+fase_principale: F1
 stato: bozza
+related:
+  - id: configurazione-evolutiva
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "la CE è la forma temporaneamente stabile che il campo relazionale assume"
+  - id: soggetto-incarnato
+    rel: FONDA
+    dir: target
+    obbligatoria: true
+    nota: "il bambino come soggetto è costitutivamente nel campo relazionale"
+  - id: dispositivo-di-sostegno-allo-sviluppo
+    rel: AGISCE_SU
+    dir: target
+    obbligatoria: true
+    nota: "ogni dispositivo agisce sul campo relazionale, non sul bambino direttamente"
+  - id: micro-dispositivo-di-campo
+    rel: AGISCE_SU
+    dir: target
+    obbligatoria: true
+    nota: "il micro-dispositivo modifica localmente le condizioni del campo"
+  - id: abitabilita-dell-esperienza
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "l'abitabilità è una proprietà del campo relazionale, non del bambino"
 ---
 
 # Campo relazionale
@@ -12,12 +39,4 @@ Il campo di esperienza-relazione-azione che è costitutivo del bambino. Non è u
 
 ## Implicazioni operative
 
-Ogni intervento del progetto agisce sul campo relazionale — non sul bambino come individuo isolato — modificando le condizioni dell'esperienza. Questo ha conseguenze immediate sulla progettazione degli strumenti: un dispositivo di sostegno allo sviluppo non "tratta" il bambino, ma modifica le condizioni relazionali entro cui l'esperienza del bambino si organizza.
-
-## Nessuna configurazione è identitaria
-
-Il campo relazionale è sempre situato (non astratto), reversibile (non definitivo) e dinamico (non fotografico). Una configurazione del campo non descrive che tipo di bambino è, ma come si sta organizzando l'esperienza in questo momento, in questo contesto.
-
-## Relazione con la Configurazione Evolutiva
-
-La Configurazione Evolutiva (CE) è la forma temporaneamente stabile che il campo relazionale assume in un dato momento. Leggere il campo relazionale significa produrre una CE — non emettere un giudizio sul bambino.
+Ogni intervento del 

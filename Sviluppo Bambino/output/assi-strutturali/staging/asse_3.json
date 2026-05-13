@@ -1,0 +1,110 @@
+{
+  "axis_id": "asse_3",
+  "axis_name": "Normativo-educativo",
+  "version": "v1.0",
+  "status": "bozza",
+  "source_document": {
+    "title": "Asse 3 - Normativo-educativo (capitoli 1-6)",
+    "format": "markdown",
+    "language": "it"
+  },
+  "structural_function": "Chiarire le condizioni di una normativita non arbitraria capace di orientare il giudizio senza sostituirlo: distingue norma, normativita e giudizio, fonda l'autorita educativa come condizione (non sostituto) della responsabilita, e mostra il limite interno del giudizio davanti al reale che lo eccede.",
+  "core_processes": [
+    {
+      "name": "Distinzione norma / normativita",
+      "description": "La norma e regola esplicita, la normativita e struttura orientativa che rende possibile distinguere cio che vale: la prima non produce da se il giudizio, lo richiede sempre come atto situato."
+    },
+    {
+      "name": "Soggettivazione del giudizio",
+      "description": "Atto situato, fallibile e personale con cui il soggetto assume nel concreto l'orientamento al vero, esposto al reale e privo di garanzie procedurali o algoritmiche."
+    },
+    {
+      "name": "Riconoscimento della verita educativa",
+      "description": "Processo per cui il soggetto e interpellato dalla verita senza che questa gli venga trasmessa come contenuto: la verita vincola senza annullare, attraverso orizzonti di senso che pretendono validita senza imposizione."
+    },
+    {
+      "name": "Esercizio dell'autorita come precedenza",
+      "description": "Assunzione adulta del mondo davanti al nuovo venuto, distinta da potere e violenza: precede il soggetto senza giudicare al suo posto e crea le condizioni perche il giudizio possa essere imputato a se."
+    },
+    {
+      "name": "Riconoscimento del limite del giudizio",
+      "description": "Sospensione della pretesa di sovranita normativa: il reale eccede ogni tematizzazione compiuta e il giudizio resta atto esposto, capace di sostenere decisioni senza garanzia."
+    }
+  ],
+  "bridge_concepts": [
+    {
+      "concept": "Normativita orientativa",
+      "definition": "Struttura che indica una direzione e richiede un atto di giudizio per diventare operativa, distinta dalla legge autosufficiente e dalla regola applicata meccanicamente.",
+      "linked_nodes": ["Orizzonti di senso", "Fallibilita del giudizio"]
+    },
+    {
+      "concept": "Giudizio incarnato",
+      "definition": "Presa di posizione del soggetto nel mondo che nasce nell'esperienza percettiva e pratica, non come deduzione logica ne come competenza cognitiva universalizzabile.",
+      "linked_nodes": ["Fallibilita del giudizio", "Eccedenza del reale"]
+    },
+    {
+      "concept": "Autorita come asimmetria assunta",
+      "definition": "Precedenza storica e simbolica dell'adulto che si fa responsabile del mondo davanti al bambino, distinta dal potere (coercitivo) e dalla violenza (sostitutiva del giudizio).",
+      "linked_nodes": ["Asimmetria educativa", "Conformita vs responsabilita"]
+    },
+    {
+      "concept": "Imputazione a se",
+      "definition": "Atto in cui il soggetto si riconosce autore della propria azione, distinto sia dall'auto-accusa sia dalla giustificazione difensiva e dalla conformita procedurale.",
+      "linked_nodes": ["Conformita vs responsabilita", "Fallibilita del giudizio"]
+    },
+    {
+      "concept": "Verita educativa come orizzonte",
+      "definition": "Riferimento al vero che orienta il soggetto senza essere posseduto ne trasferito come contenuto: emerge nel confronto con un reale che resiste a interpretazioni arbitrarie.",
+      "linked_nodes": ["Orizzonti di senso", "Eccedenza del reale"]
+    }
+  ],
+  "structural_nodes": [
+    { "node": "Asimmetria educativa", "short_definition": "Precedenza dell'adulto come struttura, non come abuso o dominio." },
+    { "node": "Fallibilita del giudizio", "short_definition": "Condizione strutturale (non difetto) della responsabilita." },
+    { "node": "Orizzonti di senso", "short_definition": "Sfondo non scelto che rende possibile valutare cio che ha valore." },
+    { "node": "Eccedenza del reale", "short_definition": "Resto che il giudizio non assorbe in nessuna tematizzazione completa." },
+    { "node": "Conformita vs responsabilita", "short_definition": "Differenza tra adeguarsi a un criterio e assumerlo come proprio." },
+    { "node": "Collasso del linguaggio normativo", "short_definition": "Uso di categorie morali sradicate dai contesti di senso che le sostenevano." },
+    { "node": "Prestazione come surrogato", "short_definition": "Sostituzione del giudizio con misura, indicatore e auto-ottimizzazione." },
+    { "node": "Disciplinamento", "short_definition": "Riduzione della normativita a sorveglianza, adattamento e normalizzazione." }
+  ],
+  "internal_articulations": [
+    { "section": "Norma, normativita, giudizio", "function": "Distinzione concettuale preliminare e bonifica del campo educativo." },
+    { "section": "Dalla colpa al giudizio", "function": "Chiarire la soglia tra vincolo affettivo interno e atto situato di giudizio." },
+    { "section": "Verita educativa senza arbitrarieta", "function": "Pensare il riconoscimento del vero senza imposizione ne neutralizzazione." },
+    { "section": "Educare senza manipolare", "function": "Distinguere autorita, potere e violenza; pensare la responsabilita come imputazione a se." },
+    { "section": "Fallimenti della normativita", "function": "Mappare relativismo, moralismo e prestazione come esiti del collasso del senso." },
+    { "section": "Limite del giudizio", "function": "Aprire la normativita al reale eccedente e preparare il passaggio all'Asse 4." }
+  ],
+  "reduction_risks": [
+    { "type": "Riduzione cognitiva del giudizio", "description": "Identificare il giudizio con strutture di ragionamento astratte e universalizzabili, trasformandolo in prestazione valutabile e in stadio cognitivo." },
+    { "type": "Riduzione affettiva della normativita", "description": "Confondere il vincolo interno della colpa con l'atto di giudizio, considerando il Super-io come istanza giudicante e annullando la differenza fra Asse 2 e Asse 3." },
+    { "type": "Moralismo formale", "description": "Trattare la norma come legge autosufficiente che precede e sostituisce il giudizio, riducendo la responsabilita a conformita a una forma universale." },
+    { "type": "Relativismo come condizione pratica", "description": "Rinunciare alla pretesa di verita in nome della pluralita delle opinioni, lasciando il giudizio senza terreno argomentativo condiviso." },
+    { "type": "Prestazionalizzazione", "description": "Sostituire la normativita con dispositivi di valutazione che traducono il vero in misurabile e l'azione in standard, svuotando l'esercizio del giudizio." },
+    { "type": "Identificazione di autorita e disciplinamento", "description": "Confondere l'asimmetria educativa con il controllo, perdendo la distinzione tra adulto che assume il mondo e adulto che sorveglia." }
+  ],
+  "structural_questions": [
+    "Come orientare un soggetto al vero senza sostituirsi al suo giudizio?",
+    "In che senso la norma vincola se richiede sempre un atto di giudizio per essere operativa?",
+    "Come si distingue l'autorita educativa dal potere e dalla violenza?",
+    "Perche la responsabilita non coincide con la conformita procedurale?",
+    "Dove si arresta la normativita davanti al reale che eccede ogni tematizzazione?"
+  ],
+  "methodological_constraints": [
+    "Non confondere norma esplicita, normativita orientativa e giudizio situato.",
+    "Non ridurre l'educazione al giudizio a procedura, checklist o protocollo decisionale.",
+    "Non sostituire il giudizio con misurazione di competenze morali o cognitive.",
+    "Non trattare l'autorita educativa come opzione tra altre, ne come sinonimo di disciplinamento.",
+    "Non pretendere che la normativita esaurisca il reale o prevenga ogni fallimento."
+  ],
+  "compilation_notes": {
+    "confidence_level": "alta",
+    "needs_human_review": true,
+    "notes": "Scheda costruita dai 6 capitoli del documento. L'asse adotta esplicitamente il modello orientativo (Tommaso, fenomenologia ermeneutica) e tratta Kant, Piaget, Kohlberg e Foucault come testi di controllo o contro-campi critici, non come fondamenti.",
+    "open_issues": [
+      "Articolare meglio il rapporto tra 'eccedenza del reale' (Asse 3) e 'eccedenza' come incontro (Asse 4).",
+      "Pensare il ruolo del riconoscimento istituzionale (Asse 6) nella stabilizzazione di criteri condivisibili senza ricaduta nella prestazione."
+    ]
+  }
+}

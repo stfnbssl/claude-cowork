@@ -1,0 +1,117 @@
+{
+  "axis_id": "asse_1",
+  "axis_name": "Ontologico-fenomenologico",
+  "version": "v1.0",
+  "status": "bozza",
+  "source_document": {
+    "title": "Asse 1 - Ontologico-fenomenologico (capitoli 1-8)",
+    "format": "markdown",
+    "language": "it"
+  },
+  "structural_function": "Chiarire lo statuto del soggetto in eta evolutiva come processo di costituzione: descrive le condizioni strutturali (temporalita vissuta, corporeita, regolazione, relazione, campo intenzionale, stabilizzazione proto-simbolica) che rendono possibile l'essere-soggetto prima di ogni qualificazione psicologica, morale o educativa, senza scivolare ne nel sostanzialismo del nucleo gia dato ne nel funzionalismo dell'esito.",
+  "core_processes": [
+    {
+      "name": "Soggettivazione come temporalizzazione",
+      "description": "Il soggetto si tiene insieme nel passare del tempo come continuita dinamica, non come identita sostanziale: si differenzia per riorganizzazione interna del campo temporale dell'esperienza, non per accumulo di funzioni."
+    },
+    {
+      "name": "Co-regolazione come tenuta",
+      "description": "La regolazione e originariamente distribuita nella relazione: rende l'esperienza abitabile nel tempo senza eliminarne le variazioni, attraverso ripetizione di sequenze prevedibili e riparazione delle discontinuita."
+    },
+    {
+      "name": "Incarnazione del senso",
+      "description": "Il corpo non media il senso ma lo inaugura: orienta implicitamente il campo del possibile, organizza l'intensita dell'esperienza, deposita le esperienze precoci come stile pre-riflessivo del mondo."
+    },
+    {
+      "name": "Stabilizzazione proto-simbolica",
+      "description": "Configurazioni corporee e relazionali (ritmo, postura, sequenza interattiva) organizzano in modo anticipatorio e ripetibile il campo dell'esperienza, preparando il simbolico senza ancora costituirlo come funzione separata."
+    },
+    {
+      "name": "Apertura intenzionale del campo",
+      "description": "L'esperienza si struttura come orizzonte preriflessivo di possibilita accessibili, che si amplia o si restringe in funzione della tenuta regolativa e della qualita della relazione."
+    }
+  ],
+  "bridge_concepts": [
+    {
+      "concept": "Temporalita vissuta",
+      "definition": "Struttura dell'esperienza in cui passato e futuro sono implicitamente operanti nel presente come ritenzione e protensione; si distingue dalla cronologia esterna e dalla successione di stati puntuali.",
+      "linked_nodes": ["Ritenzione e protensione", "Anticipazione incarnata", "Ipseita in divenire"]
+    },
+    {
+      "concept": "Corporeita vissuta",
+      "definition": "Il corpo non come oggetto biologico ne come supporto, ma come luogo originario di apertura al mondo: punto zero dell'orientamento, archivio implicito del tempo, matrice della proto-simbolizzazione.",
+      "linked_nodes": ["Vulnerabilita strutturale", "Anticipazione incarnata"]
+    },
+    {
+      "concept": "Regolazione ontologica",
+      "definition": "Principio strutturale di tenuta dell'esperienza nel tempo, non funzione di controllo degli stati: cio che consente al soggetto di restare in relazione con cio che accade senza esserne travolto.",
+      "linked_nodes": ["Holding / tenuta", "Co-regolazione"]
+    },
+    {
+      "concept": "Relazione costitutiva",
+      "definition": "L'altro come condizione strutturale della soggettivita, non come fattore ambientale che interviene su un soggetto gia dato: l'individualita e esito di un processo che ha nella relazione il suo punto di avvio.",
+      "linked_nodes": ["Dipendenza originaria", "Co-regolazione"]
+    },
+    {
+      "concept": "Campo intenzionale",
+      "definition": "Forma complessiva dell'esperienza vissuta come orizzonte preriflessivo di possibilita accessibili; integra temporalita, corporeita, regolazione e relazione senza ridursi a stato mentale o competenza.",
+      "linked_nodes": ["Anticipazione incarnata", "Continuita dell'esperienza"]
+    },
+    {
+      "concept": "Proto-simbolico",
+      "definition": "Livello di significazione pre-verbale in cui ritmo, contatto, postura e sequenza interattiva organizzano gia il campo in forme ripetibili e anticipabili, senza essere ancora segni con referente separato.",
+      "linked_nodes": ["Soglia ontologia / genesi morale"]
+    }
+  ],
+  "structural_nodes": [
+    { "node": "Dipendenza originaria", "short_definition": "Forma originaria della soggettivazione, non fase da superare." },
+    { "node": "Vulnerabilita strutturale", "short_definition": "Esposizione costitutiva al mondo come condizione di trasformabilita." },
+    { "node": "Holding / tenuta", "short_definition": "Sostegno esterno della continuita dell'esperienza prima dell'autoregolazione." },
+    { "node": "Ritenzione e protensione", "short_definition": "Spessore temporale del presente, in cui passato e futuro operano implicitamente." },
+    { "node": "Co-regolazione", "short_definition": "Forma originaria della regolazione, distribuita nella relazione." },
+    { "node": "Ipseita in divenire", "short_definition": "Identita come continuita dinamica, non come sostanza immutabile." },
+    { "node": "Anticipazione incarnata", "short_definition": "Orientamento implicito nel tempo prima della rappresentazione." },
+    { "node": "Continuita dell'esperienza", "short_definition": "Tenuta che impedisce frammentazione senza eliminare le variazioni." },
+    { "node": "Soglia ontologia / genesi morale", "short_definition": "Limite interno oltre il quale l'ontologia non determina la moralita." }
+  ],
+  "internal_articulations": [
+    { "section": "Statuto dell'asse", "function": "Definire il piano descrittivo strutturale e demarcarlo da spiegazione e prescrizione." },
+    { "section": "Soggetto come processo di costituzione", "function": "Sottrarre il soggetto sia al sostanzialismo del nucleo gia dato sia al funzionalismo dell'esito." },
+    { "section": "Temporalita vissuta", "function": "Pensare il soggetto come temporalizzazione, non come entita nel tempo." },
+    { "section": "Corporeita", "function": "Pensare il corpo come luogo originario di senso e archivio implicito del tempo." },
+    { "section": "Regolazione come principio ontologico", "function": "Distinguere la tenuta dell'esperienza dal controllo funzionale degli stati interni." },
+    { "section": "Relazione come condizione strutturale", "function": "Mostrare che il soggetto emerge nella relazione, non vi entra da gia costituito." },
+    { "section": "Campo intenzionale", "function": "Integrare le dimensioni precedenti in una struttura globale dell'esperienza." },
+    { "section": "Soglia con la genesi morale", "function": "Delimitare cio che l'ontologia non puo ancora dire e preparare l'Asse 2." }
+  ],
+  "reduction_risks": [
+    { "type": "Riduzionismo funzionale", "description": "Trattare il soggetto come somma di capacita o esito di processi maturativi, dissolvendone l'unita e la continuita nell'enumerazione delle funzioni." },
+    { "type": "Normativismo implicito", "description": "Leggere il soggetto come cio che deve ancora diventare, trasformando la descrizione strutturale in proiezione di un'identita di arrivo." },
+    { "type": "Psicologizzazione delle strutture", "description": "Tradurre temporalita, corporeita o regolazione in stati o competenze interne, perdendone il carattere di condizioni di possibilita." },
+    { "type": "Patologizzazione della vulnerabilita", "description": "Confondere l'esposizione originaria del soggetto con un deficit da correggere, anziche riconoscerla come dimensione costitutiva dello sviluppo." },
+    { "type": "Anticipazione moralistica", "description": "Dedurre la moralita dalla qualita della regolazione o della relazione, saltando la soglia strutturale che separa ontologia e genesi morale." }
+  ],
+  "structural_questions": [
+    "In che senso il soggetto si costituisce nel tempo senza essere ne presupposto ne prodotto?",
+    "Come si distingue la regolazione come principio ontologico dal controllo degli stati interni?",
+    "Perche la dipendenza e condizione e non difetto della soggettivita?",
+    "Dove si arresta l'ontologia e perche non puo fondare il vincolo morale?",
+    "In che modo la corporeita inaugura il senso senza ridursi ne a biologia ne a simbolico?"
+  ],
+  "methodological_constraints": [
+    "Non tradurre direttamente le strutture descritte in interventi educativi, clinici o diagnostici.",
+    "Non dedurre la moralita dalla qualita della regolazione, della relazione o della stabilizzazione proto-simbolica.",
+    "Non confondere descrizione strutturale, spiegazione causale e prescrizione normativa.",
+    "Non sovrapporre il vocabolario fenomenologico al lessico delle competenze, degli stadi o delle prestazioni.",
+    "Non leggere la stabilizzazione proto-simbolica come accesso pieno alla funzione simbolica."
+  ],
+  "compilation_notes": {
+    "confidence_level": "alta",
+    "needs_human_review": true,
+    "notes": "Scheda costruita dagli 8 capitoli del documento di fondazione. E stato mantenuto il livello fondativo, evitando di tradurre le strutture in indicazioni operative. La proto-simbolizzazione e stata distinta dalla simbolizzazione piena (Assi 4 e 6) come richiesto dal capitolo 8.",
+    "open_issues": [
+      "Modulazione fine del rapporto tra 'campo intenzionale' (Asse 1) e 'campo desiderabile' (Asse 5).",
+      "La traiettoria della tenuta (holding -> co-regolazione -> oggetti transizionali -> autoregolazione simbolica) andrebbe articolata come asse trasversale verso Asse 4."
+    ]
+  }
+}

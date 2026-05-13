@@ -1,0 +1,112 @@
+{
+  "axis_id": "asse_4",
+  "axis_name": "Separazione e Limite",
+  "version": "v1.0",
+  "status": "bozza",
+  "source_document": {
+    "title": "Asse 4 - Separazione e Limite (capitoli 1-8)",
+    "format": "markdown",
+    "language": "it"
+  },
+  "structural_function": "Introdurre nell'architettura degli assi una verifica di realta: descrive l'incontro del soggetto con cio che resiste, eccede e toglie, distinguendo eccedenza, perdita e separazione come forme strutturali (non stadi) dell'incontro con il reale, e ne articola lo statuto simbolico come tenuta che non spiega ne cancella.",
+  "core_processes": [
+    {
+      "name": "Incontro con l'eccedenza",
+      "description": "Esperienza primaria di sproporzione tra soggetto e mondo: il reale non ferisce ancora ma decentra dall'illusione di coincidenza fra intenzione e accadere, aprendo un campo di esperienza non saturato."
+    },
+    {
+      "name": "Esperienza della perdita",
+      "description": "Rottura qualitativa per cui qualcosa non torna, non ha equivalente sostitutivo, non e reversibile: introduce l'irreversibilita nel campo del possibile e modifica la struttura del tempo vissuto."
+    },
+    {
+      "name": "Stabilizzazione della separazione",
+      "description": "Conseguenza strutturale dell'incontro con il reale: separazione dall'onnipotenza prima ancora che dall'altro, fine dell'idea che il soggetto coincida con il centro del mondo."
+    },
+    {
+      "name": "Tenuta della perdita",
+      "description": "Funzione che sostiene l'esperienza nel tempo prima che diventi nominabile, senza dissolverla e senza forzarne la chiusura; presenza che accompagna senza spiegare e senza promettere."
+    },
+    {
+      "name": "Simbolizzazione non sostitutiva",
+      "description": "Processo temporale di nominazione che apre, rende abitabile, ma non elimina il resto non simbolizzabile: distingue il simbolizzare dallo spiegare e mantiene aperta la tensione tra reale e simbolico."
+    }
+  ],
+  "bridge_concepts": [
+    {
+      "concept": "Reale come eccedenza",
+      "definition": "Dimensione strutturale dell'esperienza che resiste alla piena simbolizzazione, eccede l'intenzionalita del soggetto e non si lascia integrare senza resto; non sinonimo di concreto, traumatico o patologico.",
+      "linked_nodes": ["Sproporzione vissuta", "Onnipotenza implicita"]
+    },
+    {
+      "concept": "Irreversibilita",
+      "definition": "Rapporto specifico tra perdita e tempo: il passare del tempo non riapre, anzi conferma; distingue la perdita dalla frustrazione (rinviata) e dall'eccedenza (sproporzione abitabile).",
+      "linked_nodes": ["Soglia del 'non torna'", "Tempo del lutto non patologico"]
+    },
+    {
+      "concept": "Separazione dall'onnipotenza",
+      "definition": "Caduta del vissuto implicito secondo cui il mondo risponde, il desiderio organizza il reale e cio che non funziona puo essere aggiustato: distinta dall'autonomia funzionale e dal distacco psicologico.",
+      "linked_nodes": ["Onnipotenza implicita", "Ritiro / grandiosita"]
+    },
+    {
+      "concept": "Resto non simbolizzabile",
+      "definition": "Cio che, dopo ogni simbolizzazione autentica, mantiene il contatto con il reale; non e fallimento del lavoro simbolico ma sua condizione di non-chiusura.",
+      "linked_nodes": ["Spiegazionismo", "Tempo del lutto non patologico"]
+    },
+    {
+      "concept": "Tenuta (senza spiegazione)",
+      "definition": "Presenza relazionale che sostiene l'esperienza in eccedenza o perdita senza dissolverla nel discorso, prolungando in condizioni di limite il principio regolativo dell'Asse 1.",
+      "linked_nodes": ["Spiegazionismo", "Riparazione forzata"]
+    }
+  ],
+  "structural_nodes": [
+    { "node": "Sproporzione vissuta", "short_definition": "Differenza tra intenzione, gesto e accadere come dato dell'esperienza." },
+    { "node": "Soglia del 'non torna'", "short_definition": "Punto in cui il tempo non restituisce cio che e stato." },
+    { "node": "Onnipotenza implicita", "short_definition": "Vissuto pre-tematico in cui il mondo coincide con il desiderio." },
+    { "node": "Ritiro / grandiosita", "short_definition": "Difese tipiche di una separazione non attraversata." },
+    { "node": "Iper-regolazione adulta", "short_definition": "Intervento che cancella l'eccedenza per restituire controllo." },
+    { "node": "Spiegazionismo", "short_definition": "Trasformazione del reale in discorso che ne salta l'esperienza." },
+    { "node": "Riparazione forzata", "short_definition": "Negazione della stabilita della perdita attraverso compensazione." },
+    { "node": "Tempo del lutto non patologico", "short_definition": "Lavoro temporale necessario, non disturbo del funzionamento." }
+  ],
+  "internal_articulations": [
+    { "section": "Statuto del limite reale", "function": "Distinguere limite da norma e da frustrazione, e 'reale' da trauma o destino." },
+    { "section": "Eccedenza", "function": "Pensare la forma elementare dell'incontro: sproporzione che decentra senza chiudere." },
+    { "section": "Perdita", "function": "Articolare la soglia dell'irreversibilita come differenza qualitativa dall'eccedenza." },
+    { "section": "Separazione", "function": "Pensare l'esito strutturale come caduta dell'onnipotenza, non semplice autonomia." },
+    { "section": "Rischio educativo", "function": "Mostrare come la cura non tollerante del reale neutralizzi l'intero asse." },
+    { "section": "Temporalita del limite", "function": "Pensare le forme temporali dell'incontro senza ricorrere a fasi cronologiche." },
+    { "section": "Statuto simbolico della perdita", "function": "Articolare la tensione tra nominabilita e resto non simbolizzabile." },
+    { "section": "Raccordo con l'asse del desiderio", "function": "Mostrare il limite come condizione del desiderio orientato, non come sua negazione." }
+  ],
+  "reduction_risks": [
+    { "type": "Riduzione del limite a norma", "description": "Trasformare il 'non e possibile' del reale nel 'non si deve' della regola, attribuendo a un limite ontologico la forma argomentativa di una prescrizione." },
+    { "type": "Riduzione del limite a frustrazione", "description": "Trattare il reale come ostacolo regolabile, mantenendo aperta l'ipotesi di compensazione e accelerando la significazione di cio che chiede attraversamento." },
+    { "type": "Patologizzazione della perdita", "description": "Considerare ogni esperienza di perdita come trauma o disturbo, ignorando che il lutto e risposta strutturale necessaria, non errore del funzionamento psichico." },
+    { "type": "Saturazione simbolica", "description": "Spiegare la perdita troppo in fretta, sostituendo l'esperienza con il discorso e cancellando il resto che mantiene il contatto con il reale." },
+    { "type": "Idealizzazione del limite", "description": "Attribuire al reale un senso necessariamente positivo o educativo, dimenticando che il limite non e buono in se ma ineludibile." },
+    { "type": "Prestazionalizzazione del fallimento", "description": "Trasformare ogni difficolta in deficit da migliorare, sottraendo al limite il suo statuto e producendo iper-adattamento o ritiro." }
+  ],
+  "structural_questions": [
+    "Come si distingue il limite reale dalla norma e dalla frustrazione regolabile?",
+    "In che senso eccedenza, perdita e separazione sono forme temporali e non stadi?",
+    "Che cosa significa simbolizzare una perdita senza spiegarla?",
+    "Perche ogni perdita autentica lascia un resto non simbolizzabile?",
+    "Come puo l'adulto restare presente senza promettere cio che non puo essere mantenuto?"
+  ],
+  "methodological_constraints": [
+    "Non trattare l'asse come fase di sviluppo ma come dimensione strutturale che attraversa l'intero percorso.",
+    "Non confondere perdita, eccedenza e frustrazione, ne patologizzare la perdita in quanto tale.",
+    "Non sostituire l'esperienza del limite con la sua spiegazione ne la sua tenuta con la sua riparazione.",
+    "Non leggere la separazione come obiettivo educativo ne come competenza di autonomia.",
+    "Non promettere, attraverso la simbolizzazione, l'eliminazione del resto non simbolizzabile."
+  ],
+  "compilation_notes": {
+    "confidence_level": "alta",
+    "needs_human_review": true,
+    "notes": "Scheda costruita dagli 8 capitoli del documento. E stato preservato il rifiuto esplicito del modello a stadi e l'avvertenza che il limite non e 'buono in se' ma ineludibile. La triade eccedenza/perdita/separazione e stata mantenuta come triplice forma di uno stesso reale, non come sequenza.",
+    "open_issues": [
+      "Il riferimento a Lacan e impiegato con cautela e potrebbe richiedere ulteriore stabilizzazione lessicale.",
+      "Rapporto tra 'tenuta della perdita' (Asse 4) e 'co-regolazione' (Asse 1) da articolare come continuita sotto condizioni di limite."
+    ]
+  }
+}

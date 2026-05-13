@@ -3,7 +3,39 @@ id: ciclo-decisionale-breve
 titolo: Ciclo decisionale breve
 alias: []
 area: operativo
+fase_principale: F3
 stato: bozza
+related:
+  - id: architettura-metodologica-a-fasi
+    rel: REALIZZA
+    dir: source
+    obbligatoria: true
+    nota: "il ciclo è il metodo nella sua forma operativa più essenziale"
+  - id: operatore-di-lettura
+    rel: COMPONE
+    dir: target
+    obbligatoria: true
+    nota: "il passaggio 'leggi la CE' usa l'operatore di lettura"
+  - id: micro-dispositivo-di-campo
+    rel: COMPONE
+    dir: target
+    obbligatoria: true
+    nota: "il passaggio 'agisci' si realizza con un micro-dispositivo"
+  - id: configurazione-evolutiva
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "il ciclo produce (e aggiorna) una CE ad ogni iterazione"
+  - id: decisione-non-prescrittiva
+    rel: REALIZZA
+    dir: source
+    obbligatoria: true
+    nota: "il ciclo traduce il principio di decisione non prescrittiva in sequenza praticabile"
+  - id: campo-relazionale
+    rel: AGISCE_SU
+    dir: source
+    obbligatoria: true
+    nota: "il ciclo osserva e interviene sul campo relazionale"
 ---
 
 # Ciclo decisionale breve

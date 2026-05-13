@@ -3,7 +3,34 @@ id: decisione-non-prescrittiva
 titolo: Decisione non prescrittiva
 alias: ["Decisione"]
 area: operativo
+fase_principale: F3
 stato: bozza
+related:
+  - id: separazione-tra-osservazione-e-decisione
+    rel: REALIZZA
+    dir: source
+    obbligatoria: true
+    nota: "la decisione non prescrittiva è la forma operativa del principio di separazione"
+  - id: output-tipo-vuoto
+    rel: GOVERNA
+    dir: target
+    obbligatoria: true
+    nota: "l'output-tipo vuoto istituzionalizza la non prescrittività"
+  - id: abitabilita-dell-esperienza
+    rel: ORIENTA
+    dir: source
+    obbligatoria: true
+    nota: "la decisione è corretta se aumenta l'abitabilità senza restringere le possibilità"
+  - id: ciclo-decisionale-breve
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "il ciclo decisionale breve è la forma sequenziale della decisione non prescrittiva"
+  - id: normativita-intrinseca-dello-sviluppo
+    rel: FONDA
+    dir: target
+    obbligatoria: true
+    nota: "il criterio normativo della decisione è la normatività intrinseca dello sviluppo"
 ---
 
 # Decisione non prescrittiva

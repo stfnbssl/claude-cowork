@@ -3,7 +3,29 @@ id: statuto-metateorico-del-progetto
 titolo: Statuto metateorico del progetto
 alias: []
 area: progetto
+fase_principale: trasversale
 stato: bozza
+related:
+  - id: grammatica-concettuale-dello-sviluppo
+    rel: COMPONE
+    dir: target
+    obbligatoria: true
+    nota: "la grammatica concettuale è l'esito principale del progetto metateorico"
+  - id: livelli-della-produzione-di-conoscenza
+    rel: COMPONE
+    dir: target
+    obbligatoria: true
+    nota: "i livelli di produzione della conoscenza chiariscono lo statuto metateorico"
+  - id: condizioni-di-possibilita-dello-sviluppo
+    rel: COMPONE
+    dir: target
+    obbligatoria: true
+    nota: "le condizioni di possibilità sono il contenuto della postura metateorica"
+  - id: frammentazione-strutturale-dei-saperi
+    rel: RISPONDE_A
+    dir: source
+    obbligatoria: true
+    nota: "il posizionamento metateorico risponde alla frammentazione dei saperi disciplinari"
 ---
 
 # Statuto metateorico del progetto

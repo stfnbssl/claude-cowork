@@ -3,7 +3,29 @@ id: dispositivo-di-costruzione-di-intelligibilita
 titolo: Dispositivo di costruzione di intelligibilità
 alias: []
 area: progetto
+fase_principale: trasversale
 stato: bozza
+related:
+  - id: architettura-metodologica-a-fasi
+    rel: REALIZZA
+    dir: target
+    obbligatoria: true
+    nota: "l'architettura a fasi è la forma concreta del dispositivo"
+  - id: statuto-metateorico-del-progetto
+    rel: COMPONE
+    dir: source
+    obbligatoria: true
+    nota: "il dispositivo di costruzione di intelligibilità definisce il progetto a livello metateorico"
+  - id: strumento-contestualizzato
+    rel: DISTINGUE_DA
+    dir: source
+    obbligatoria: true
+    nota: "non fornisce risposte operative immediate: costruisce le condizioni della loro intelligibilità"
+  - id: grammatica-concettuale-dello-sviluppo
+    rel: PRODUCE
+    dir: source
+    obbligatoria: true
+    nota: "il dispositivo produce la grammatica concettuale come suo esito principale"
 ---
 
 # Dispositivo di costruzione di intelligibilità
