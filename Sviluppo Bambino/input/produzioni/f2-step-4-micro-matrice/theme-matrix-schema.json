@@ -16,7 +16,9 @@
 
     "results": {
       "type": "array",
-      "description": "Array di oggetti, uno per ogni tema elaborato.",
+      "description": "Wrapper single-element: la pipeline F2 lavora sempre su un tema per volta. La forma `{ step, results: [...] }` resta per compatibilità tecnica, ma `results` contiene sempre esattamente un elemento.",
+      "minItems": 1,
+      "maxItems": 1,
       "items": { "$ref": "#/definitions/ThemeMatrix" }
     }
 
