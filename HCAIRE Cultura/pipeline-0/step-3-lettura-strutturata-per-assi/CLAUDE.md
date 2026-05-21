@@ -16,7 +16,7 @@ Tradurre l'intuizione critica dello Step 2 in una scheda metodologicamente contr
 
 Questo step applica il sistema degli **assi strutturali** sviluppato a partire dalla fenomenologia di Edmund Husserl e Maurice Merleau-Ponty. I 6 assi sono pre-compilati e si trovano in:
 
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled\`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\assi-strutturali\precompiled\`
 
 Prima di procedere con l'analisi, **leggi i file JSON degli assi** per verificare i nodi strutturali, i concetti-ponte e i rischi di riduzione di ciascuno. I 6 assi sono:
 
@@ -90,19 +90,19 @@ Segnala esplicitamente i rischi di forzatura interpretativa: dove l'analisi per 
 Leggi i documenti prodotti dagli step precedenti da:
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-1-dossier-contenutistico.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-2-lettura-libera-orientata.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-1-dossier-contenutistico.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-2-lettura-libera-orientata.json
 ```
 
 Leggi i file degli assi strutturali da:
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled\asse_1.json
-C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled\asse_2.json
-C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled\asse_3.json
-C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled\asse_4.json
-C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled\asse_5.json
-C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled\asse_6.json
+C:/my/claude/claude-cowork\Sviluppo Bambino\output\assi-strutturali\precompiled\asse_1.json
+C:/my/claude/claude-cowork\Sviluppo Bambino\output\assi-strutturali\precompiled\asse_2.json
+C:/my/claude/claude-cowork\Sviluppo Bambino\output\assi-strutturali\precompiled\asse_3.json
+C:/my/claude/claude-cowork\Sviluppo Bambino\output\assi-strutturali\precompiled\asse_4.json
+C:/my/claude/claude-cowork\Sviluppo Bambino\output\assi-strutturali\precompiled\asse_5.json
+C:/my/claude/claude-cowork\Sviluppo Bambino\output\assi-strutturali\precompiled\asse_6.json
 ```
 
 Lo slug è quello generato durante lo Step 1. Se non lo conosci, chiedilo all'utente prima di procedere.
@@ -114,7 +114,7 @@ Lo slug è quello generato durante lo Step 1. Se non lo conosci, chiedilo all'ut
 Salva il file di output nel percorso:
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-3-lettura-strutturata-per-assi.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-3-lettura-strutturata-per-assi.json
 ```
 
 Produce un documento JSON conforme allo schema `schema.json` presente in questa cartella.

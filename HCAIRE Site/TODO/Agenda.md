@@ -32,7 +32,7 @@ l'interazione con gli LLM coinvolti nella ricerca ed elaborazione dei contenuti.
 Una pagina della sezione HCAIRE del sito dovrebbe essere creata per spiegare questa scelta
 "procedurale". La pagina dovrebbe prevedere di mostrare i vari protocolli predisposti.
 Il primo, che funge anche da prototipo per questa nuova sottosezione è disponibile nel
-file C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Site\TODO\Sezione HCAIRE\Protocollo ricerca assistita AI.md.
+file C:\my\claude\claude-cowork\HCAIRE Site\TODO\Sezione HCAIRE\Protocollo ricerca assistita AI.md.
 Preparare le istruzioni per Claude Code per apportare le modifiche al sito ma prima prenditi pure la libertà di suggerire come meglio presentare questa sottosezione protocolli agli utenti. Andrà detto
 che questi protocolli possono essere utilizzati sia da agenti AI che da "persone" del comitato editoriale che possono eseguire le ricerche tramite chat LLM.
 
@@ -46,7 +46,7 @@ Istruzioni operative per Claude Code: `TODO/Per Claude Code/002-Sottosezione-Pro
 ### Priorità: alta
 ### Dipendenze: nessuna
 
-La pagina /sviluppo-bambino/finalita del sito va sostituita con C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Site\sezioni\progetti\sviluppo bambino\finalità\01 - Natura e finalità del progetto “Sviluppo del bambino”.md
+La pagina /sviluppo-bambino/finalita del sito va sostituita con C:\my\claude\claude-cowork\HCAIRE Site\sezioni\progetti\sviluppo bambino\finalità\01 - Natura e finalità del progetto “Sviluppo del bambino”.md
 
 Istruzioni operative per Claude Code: `TODO/Per Claude Code/003-Finalita-Sviluppo-Bambino/istruzioni.md`
 
@@ -58,7 +58,7 @@ Istruzioni operative per Claude Code: `TODO/Per Claude Code/003-Finalita-Svilupp
 ### Priorità: alta
 ### Dipendenze: nessuna
 
-La pagina /sviluppo-bambino/metodo del sito va sostituita con un nuovo contenuto di “ingresso” nell'argomento metologia e che contenga i link ai contenuti in C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Site\sezioni\progetti\sviluppo bambino\metodo\01 Introduzione, in C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Site\sezioni\progetti\sviluppo bambino\metodo\02 rapporto con ricerca scientifica e C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Site\sezioni\progetti\sviluppo bambino\metodo\03 rapporto con ia.
+La pagina /sviluppo-bambino/metodo del sito va sostituita con un nuovo contenuto di “ingresso” nell'argomento metologia e che contenga i link ai contenuti in C:\my\claude\claude-cowork\HCAIRE Site\sezioni\progetti\sviluppo bambino\metodo\01 Introduzione, in C:\my\claude\claude-cowork\HCAIRE Site\sezioni\progetti\sviluppo bambino\metodo\02 rapporto con ricerca scientifica e C:\my\claude\claude-cowork\HCAIRE Site\sezioni\progetti\sviluppo bambino\metodo\03 rapporto con ia.
 Le pagine dovrebbero consentire una navigazione gerarchica al contenuto delle cartelle.
 
 Istruzioni operative per Claude Code: `TODO/Per Claude Code/004-Metodo-Sviluppo-Bambino/istruzioni.md`

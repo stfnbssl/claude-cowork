@@ -46,16 +46,16 @@ Le cinque sezioni dell'output-tipo:
 ## C. Input
 
 ### STEP 5 — Famiglia di output (approvata)
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\output-family-v2.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\output-family-v2.json`
 
 ### STEP 4b — CE Prototipica (se disponibile)
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\ce-prototipica-v1.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\ce-prototipica-v1.json`
 
 ### STEP 4 — Micro-matrice
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-matrix-v2.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-matrix-v2.json`
 
 ### STEP 3 — Configurazione strutturale verificata
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-verification-v2.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-verification-v2.json`
 
 ---
 
@@ -149,7 +149,7 @@ Per ogni U attivato: indica perché è strutturalmente pertinente al tema (max 1
 ## F. Output
 
 ### Schema
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\produzioni\f2-step-6-output-tipo-vuoto\output-tipo-vuoto-schema.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\input\produzioni\f2-step-6-output-tipo-vuoto\output-tipo-vuoto-schema.json`
 
 ### Wrapper
 ```json
@@ -161,7 +161,7 @@ Per ogni U attivato: indica perché è strutturalmente pertinente al tema (max 1
 
 ### Salvataggio
 - **Nome file**: `output-tipo-vuoto-v1.json`
-- **Cartella**: `C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
+- **Cartella**: `C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
 - Produrre esclusivamente JSON valido. Nessun testo prima o dopo il JSON.
 
 ---

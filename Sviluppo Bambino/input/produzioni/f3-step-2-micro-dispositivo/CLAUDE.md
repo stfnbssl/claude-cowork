@@ -22,13 +22,13 @@ Un micro-dispositivo di campo, secondo la metodologia, è una **modifica locale 
 
 ### INPUT PRIMARIO — F3 step 1 (Nodo dominante + funzione)
 
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\nodo-funzione-{dominio}-v1.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\nodo-funzione-{dominio}-v1.json`
 
 Contiene il nodo dominante, la funzione, il campo bersaglio e l'auto-verifica di coerenza.
 
 ### INPUT SECONDARIO — Output-Tipo Vuoto (F2 step 6)
 
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\output-tipo-vuoto-v1.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\output-tipo-vuoto-v1.json`
 
 Per accedere alla CE complessiva e alla classificazione U1–U6 già attivata.
 
@@ -153,7 +153,7 @@ In `synthesis` riporta una **frase sintetica** che dichiari, in linguaggio condi
 
 ### Schema
 
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\produzioni\f3-step-2-micro-dispositivo\micro-dispositivo-schema.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\input\produzioni\f3-step-2-micro-dispositivo\micro-dispositivo-schema.json`
 
 ### Wrapper
 
@@ -169,7 +169,7 @@ In `synthesis` riporta una **frase sintetica** che dichiari, in linguaggio condi
 ### Salvataggio
 
 - **Nome file**: `micro-dispositivo-{dominio}-v1.json` (es. `micro-dispositivo-clinico-v1.json`)
-- **Cartella**: `C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\`
+- **Cartella**: `C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\`
 - Produrre esclusivamente JSON valido. Nessun testo prima o dopo il JSON.
 
 ---

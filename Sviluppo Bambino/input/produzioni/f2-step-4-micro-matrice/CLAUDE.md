@@ -21,13 +21,13 @@ La micro-matrice non dice cosa fare. Dice cosa sta succedendo strutturalmente.
 ## B. Input
 
 ### STEP 1 — Definizione del tema
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-discovery-v2.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-discovery-v2.json`
 
 ### STEP 3 — Configurazione strutturale selezionata
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-verification-v2.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-verification-v2.json`
 
 ### JSON precompilati dei sei assi
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled\`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\assi-strutturali\precompiled\`
 
 ---
 
@@ -127,19 +127,21 @@ Produci in `configuration_summary` una frase o un breve paragrafo (max 3 frasi) 
 
 ### Schema
 Lo schema completo è in:
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\produzioni\f2-step-4-micro-matrice\theme-matrix-schema.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\input\produzioni\f2-step-4-micro-matrice\theme-matrix-schema.json`
 
-### Wrapper per input multi-tema
+### Wrapper output
 ```json
 {
   "step": "step_4",
-  "results": [ { ... }, { ... }, ... ]
+  "results": [ { ... } ]
 }
 ```
 
+> **F2 è single-tema**: `results` contiene sempre esattamente un elemento.
+
 ### Salvataggio
 - **Nome file**: `theme-matrix-v2.json`
-- **Cartella**: `C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
+- **Cartella**: `C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
 - Produrre esclusivamente JSON valido. Nessun testo prima o dopo il JSON.
 
 ---

@@ -15,7 +15,7 @@ Il modello interroga l'opera chiedendo: *quale esperienza umana questa opera met
 Il cuore metodologico del progetto è un sistema di **6 assi strutturali**, sviluppati nell'ambito di un progetto sulla fenomenologia dello sviluppo umano. Gli assi sono pre-compilati in file JSON nel seguente percorso:
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled\
+C:/my/claude/claude-cowork\Sviluppo Bambino\output\assi-strutturali\precompiled\
 ```
 
 I 6 assi sono:

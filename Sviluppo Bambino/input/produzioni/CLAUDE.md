@@ -63,7 +63,7 @@ Ogni step è definito da un file `CLAUDE.md` nella cartella dello step. Per eseg
 
 ## F2 — Step per step
 
-Tutti gli step F2 possono lavorare su un singolo tema o sull'intero array prodotto dallo step precedente. Lo schema di output prevede sempre un wrapper `{ "step": "f2_step_N", "results": [ ... ] }` che supporta entrambe le modalità.
+F2 lavora su **un tema per volta**: il tema è scelto nell'Archivio Temi prima di avviare la run e non cambia nel corso di essa. Lo schema di output usa il wrapper `{ "step": "f2_step_N", "results": [ ... ] }` dove `results` contiene sempre esattamente un elemento.
 
 ### f2-step-1 — Ricerca temi
 **Cartella**: `f2-step-1-ricerca-temi/`

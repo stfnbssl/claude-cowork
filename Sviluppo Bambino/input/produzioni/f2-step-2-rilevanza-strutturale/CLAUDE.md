@@ -57,27 +57,16 @@ Se f2-step-1 ha prodotto più candidati (array), il ricercatore seleziona qui qu
 
 > **Attenzione**: un tema troppo generico ("comunicazione precoce") o troppo operativo ("training al pointing") non è un oggetto ontologico valido. Deve essere un atto o fenomeno specifico, osservabile, strutturalmente leggibile.
 
-### 🔴 Vincolo di inclusione obbligatoria
-
-**Se il ricercatore nomina esplicitamente uno o più temi, quei temi DEVONO comparire nel `results` dell'output — senza eccezioni.**
-
-Questo vale indipendentemente dalla valutazione strutturale che l'agente produce: anche se un tema esplicitamente nominato risultasse meno promettente di altri candidati, non può essere escluso dall'output. L'esclusione di un tema esplicitamente richiesto è un errore di esecuzione, non una scelta metodologica.
-
-L'agente può aggiungere ulteriori temi provenienti da f2-step-1 se strutturalmente giustificato, ma non può sottrarre temi nominati dal ricercatore.
-
-> **Come riconoscere la nomina esplicita**: il ricercatore nomina un tema esplicitamente quando lo cita per nome nel prompt (es. "analizza il tema della richiesta di aiuto", "includi il pointing precoce", "porta avanti X"). Non è nomina esplicita un riferimento generico all'area tematica senza identificare il tema specifico.
-
-> **In caso di incertezza** su quale tema corrisponda alla nomina del ricercatore (es. il nome usato non corrisponde esattamente a nessun `theme_id` di f2-step-1): scegliere il candidato più vicino per definizione strutturale e documentare la corrispondenza in `selection_rationale`.
 
 ---
 
 ## B. Input
 
 ### Temi (STEP 1 già approvato)
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-discovery-vN.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-discovery-vN.json`
 
 ### JSON precompilati dei sei assi
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled\`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\assi-strutturali\precompiled\`
 
 ---
 
@@ -91,7 +80,6 @@ L'agente può aggiungere ulteriori temi provenienti da f2-step-1 se strutturalme
 | Proporre strumenti, interventi o operatività | Nessuna applicazione |
 | Inserire un asse solo per completezza | Solo se strutturalmente motivato |
 | Usare linguaggio disciplinare chiuso | Mantenere apertura interdisciplinare |
-| **Escludere dall'output un tema esplicitamente nominato dal ricercatore** | **È un errore di esecuzione, non una scelta metodologica — vedi vincolo di inclusione obbligatoria** |
 
 ---
 
@@ -251,38 +239,27 @@ Per ogni ponte incluso, verificare che risponda a: *chi trasforma cosa, attraver
 
 ---
 
-### Regola 7 — Priorità assoluta del tema esplicitamente nominato
-
-**Prima di produrre l'output, verificare obbligatoriamente:**
-
-1. Il ricercatore ha nominato esplicitamente uno o più temi?
-2. Quei temi compaiono tutti nel `results`?
-
-Se la risposta alla prima è "sì" e alla seconda è "no" → **l'output è incompleto e deve essere corretto prima di essere salvato.**
-
-Questa verifica ha priorità su qualsiasi altra valutazione strutturale. La selezione autonoma di temi alternativi — per quanto strutturalmente motivata — non può sostituire l'inclusione di un tema nominato esplicitamente dal ricercatore.
-
-**Il ricercatore ha sempre l'ultima parola su quali temi vengono analizzati. L'agente ha l'ultima parola su come vengono analizzati.**
-
 ---
 
 ## F. Output
 
 ### Schema
 Lo schema completo dei campi è in:
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\produzioni\f2-step-2-rilevanza-strutturale\theme-relevance-schema.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\input\produzioni\f2-step-2-rilevanza-strutturale\theme-relevance-schema.json`
 
-### Wrapper per input multi-tema
+### Wrapper output
 ```json
 {
   "step": "step_2",
-  "results": [ { ... }, { ... }, ... ]
+  "results": [ { ... } ]
 }
 ```
 
+> **F2 è single-tema**: `results` contiene sempre esattamente un elemento — il tema fornito dall'Archivio Temi. Il wrapper è mantenuto per compatibilità tecnica con il backend.
+
 ### Salvataggio
 - **Nome file**: `theme-relevance-v2.json`
-- **Cartella**: `C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
+- **Cartella**: `C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
 - Produrre esclusivamente JSON valido. Nessun testo prima o dopo il JSON.
 
 ---

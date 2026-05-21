@@ -84,9 +84,9 @@ Il saggio è criticamente onesto quando riconosce sia ciò che ha illuminato sia
 Leggi tutti i documenti prodotti dagli step precedenti da:
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-1-dossier-contenutistico.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-2-lettura-libera-orientata.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-3-lettura-strutturata-per-assi.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-1-dossier-contenutistico.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-2-lettura-libera-orientata.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-3-lettura-strutturata-per-assi.json
 ```
 
 Lo slug è quello generato durante lo Step 1. Se non lo conosci, chiedilo all'utente prima di procedere.
@@ -98,7 +98,7 @@ Lo slug è quello generato durante lo Step 1. Se non lo conosci, chiedilo all'ut
 Salva il file di output nel percorso:
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-4-saggio-critico-revisione.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-4-saggio-critico-revisione.json
 ```
 
 Produce un documento JSON conforme allo schema `schema.json` presente in questa cartella. Il campo `testo_saggio` conterrà il testo completo in formato Markdown.

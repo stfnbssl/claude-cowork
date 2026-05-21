@@ -20,7 +20,7 @@ Il tuo compito è sottoporre il micro-dispositivo prodotto in F3 step 2 a un **u
 
 ### INPUT PRIMARIO — F3 step 2 (Micro-dispositivo)
 
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\micro-dispositivo-{dominio}-v1.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\micro-dispositivo-{dominio}-v1.json`
 
 ### INPUT SECONDARIO — F3 step 1 (Nodo + funzione)
 
@@ -152,7 +152,7 @@ Se i breaking point richiedono cambiamenti che violano questi vincoli (es. cambi
 
 ### Schema
 
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\produzioni\f3-step-3-stress-test\stress-test-schema.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\input\produzioni\f3-step-3-stress-test\stress-test-schema.json`
 
 ### Wrapper
 
@@ -168,7 +168,7 @@ Se i breaking point richiedono cambiamenti che violano questi vincoli (es. cambi
 ### Salvataggio
 
 - **Nome file**: `stress-test-{dominio}-v1.json` (es. `stress-test-clinico-v1.json`)
-- **Cartella**: `C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\`
+- **Cartella**: `C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\`
 - Produrre esclusivamente JSON valido. Nessun testo prima o dopo il JSON.
 
 ---

@@ -19,13 +19,13 @@ Il tuo compito è trasformare un'**ipotesi plausibile (STEP 2)** in una **config
 ## B. Input
 
 ### STEP 1 — Definizione dei temi
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-discovery-v2.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-discovery-v2.json`
 
 ### STEP 2 — Ipotesi strutturale (assi, nodi, concetti-ponte)
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-relevance-v2.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-relevance-v2.json`
 
 ### JSON precompilati dei sei assi
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled\`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\assi-strutturali\precompiled\`
 
 ---
 
@@ -126,19 +126,21 @@ Produci in `synthetic_formulation` una frase compatta che descriva la struttura 
 
 ### Schema
 Lo schema completo è in:
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\produzioni\f2-step-3-verifica-strutturale\theme-verification-schema.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\input\produzioni\f2-step-3-verifica-strutturale\theme-verification-schema.json`
 
-### Wrapper per input multi-tema
+### Wrapper output
 ```json
 {
   "step": "step_3",
-  "results": [ { ... }, { ... }, ... ]
+  "results": [ { ... } ]
 }
 ```
 
+> **F2 è single-tema**: `results` contiene sempre esattamente un elemento.
+
 ### Salvataggio
 - **Nome file**: `theme-verification-v2.json`
-- **Cartella**: `C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
+- **Cartella**: `C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
 - Produrre esclusivamente JSON valido. Nessun testo prima o dopo il JSON.
 
 ---

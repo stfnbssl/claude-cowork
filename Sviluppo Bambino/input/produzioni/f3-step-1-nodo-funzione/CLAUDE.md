@@ -24,7 +24,7 @@ In questo step **non costruisci ancora il dispositivo**. Compi due atti decision
 
 ### INPUT PRIMARIO — Output-Tipo Vuoto (F2 step 6)
 
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\output-tipo-vuoto-v1.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\output-tipo-vuoto-v1.json`
 
 L'output-tipo vuoto contiene la struttura triadica del tema (Campo / Posizione / Limite), i nodi confermati, la CE Prototipica e le forme universali U1–U6 attivate. È la **CE in entrata** per F3.
 
@@ -127,7 +127,7 @@ Riporta gli esiti nella sezione `coherence_check` dell'output. Se anche una sola
 
 ### Schema
 
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\produzioni\f3-step-1-nodo-funzione\nodo-funzione-schema.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\input\produzioni\f3-step-1-nodo-funzione\nodo-funzione-schema.json`
 
 ### Wrapper
 
@@ -144,7 +144,7 @@ Riporta gli esiti nella sezione `coherence_check` dell'output. Se anche una sola
 ### Salvataggio
 
 - **Nome file**: `nodo-funzione-{dominio}-v1.json` (es. `nodo-funzione-clinico-v1.json`)
-- **Cartella**: `C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\`
+- **Cartella**: `C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\`
 - Produrre esclusivamente JSON valido. Nessun testo prima o dopo il JSON.
 
 ---

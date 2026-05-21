@@ -1,0 +1,245 @@
+{
+  "opera": {
+    "titolo": "Le città di pianura",
+    "titolo_originale": "Le città di pianura",
+    "autore": "Francesco Sossai",
+    "altri_autori": [
+      "Adriano Candiago (co-sceneggiatore)",
+      "Massimiliano Kuveiller (direttore della fotografia)",
+      "Krano (musiche originali)"
+    ],
+    "macrotipologia": "film",
+    "genere": "road movie / dramma agrodolce con venature di commedia",
+    "anno": 2025,
+    "paese": "Italia, Germania (co-produzione)",
+    "editore_produttore": "Vivo Film, Rai Cinema, Maze Pictures; distribuzione italiana: Lucky Red",
+    "serie_o_ciclo": "Opera prima di Francesco Sossai (lungometraggio d'esordio).",
+    "materiali_disponibili": [
+      "Sinossi ufficiale del Festival di Cannes",
+      "Schede critiche e recensioni in italiano (Mescalina, Close-up, MYmovies)",
+      "Voci enciclopediche (Wikipedia italiano e inglese)",
+      "Nessun accesso diretto al film da parte del compilatore"
+    ],
+    "fonti_utilizzate": [
+      "it.wikipedia.org/wiki/Le_città_di_pianura",
+      "en.wikipedia.org/wiki/The_Last_One_for_the_Road",
+      "festival-cannes.com/en/f/le-citta-di-pianura/",
+      "mymovies.it/film/2025/le-citta-di-pianura/",
+      "close-up.info/le-citta-di-pianura-di-francesco-sossai/",
+      "mescalina.it/cinema/recensioni/francesco-sossai/le-citt-di-pianura"
+    ]
+  },
+  "sintesi_contenutistica": "Le città di pianura segue una notte e i giorni a essa contigui nella vita di tre uomini che si incrociano per caso nella pianura veneta. Carlobianchi e Doriano sono due cinquantenni squattrinati, fedeli all'imperativo di non saltare mai 'l'ultimo bicchiere'; Giulio è un giovane e timido studente di architettura, in apparente deriva esistenziale. L'incontro fortuito tra i due cinquantenni e il giovane si trasforma in un viaggio attraverso il Veneto — tra autogrill, bar di provincia, ville, periferie e infine Venezia — punteggiato da bevute, dialoghi vaganti, situazioni surreali e incontri secondari. Sullo sfondo del viaggio c'è l'attesa del ritorno dall'Argentina di un quarto amico, Genio, fuggito anni prima (in alcune fonti collocato attorno alla crisi del 2008) dopo un episodio di guadagno illecito legato alla vendita di scarti di una fabbrica di occhiali; ai due cinquantenni servirebbe ritrovare un denaro sepolto. Il percorso culminerebbe in una visita al Memoriale Brion di Carlo Scarpa ad Altivole, snodo simbolico per il giovane architetto in formazione. Alla fine, Giulio si separa dai due mentori improvvisati: il viaggio lo avrebbe trasformato, riorientando i suoi progetti di vita e d'amore. Le fonti descrivono l'esito come una iniziazione conclusa più per separazione che per integrazione: i due cinquantenni restano nel loro mondo, il giovane riparte.",
+  "struttura_formale": {
+    "descrizione": "Lungometraggio di circa 98–100 minuti (le fonti riportano valori leggermente diversi), strutturato come road movie a tre voci, con andamento episodico e progressione notte-giorno. La narrazione si dispiega per tappe geografiche e per incontri, più che per una trama a snodi forti: la coesione è data dalla coppia di mentori, dalla figura del giovane e dall'attesa del quarto amico assente. Girato in pellicola 16mm e 35mm.",
+    "unita": [
+      {
+        "nome": "Apertura e incontro",
+        "descrizione_sintetica": "Presentazione di Carlobianchi e Doriano, della loro routine notturna e dell'idea fissa de 'l'ultimo bicchiere'; incontro casuale con Giulio in un contesto di festeggiamenti universitari."
+      },
+      {
+        "nome": "Avvio del viaggio",
+        "descrizione_sintetica": "I tre intraprendono uno spostamento attraverso la pianura veneta, tra autogrill, bar e luoghi di provincia; emergono i tratti dei due cinquantenni e la loro estraneità ai codici contemporanei (mappe a mano contro GPS)."
+      },
+      {
+        "nome": "Tappe nel Veneto e attesa di Genio",
+        "descrizione_sintetica": "Una serie di soste e incontri secondari (tra cui il personaggio del Cavalier Fadìga) intreccia il viaggio con la storia pregressa dei due cinquantenni e con l'attesa del ritorno dall'Argentina di Genio."
+      },
+      {
+        "nome": "Venezia e il Memoriale Brion",
+        "descrizione_sintetica": "Spostamento verso Venezia e visita al Memoriale Brion di Carlo Scarpa ad Altivole: tappa segnalata dalle fonti come snodo simbolico per il giovane studente di architettura."
+      },
+      {
+        "nome": "Separazione finale",
+        "descrizione_sintetica": "Giulio si stacca dai due mentori improvvisati e riprende il proprio cammino; i due cinquantenni restano nel proprio mondo."
+      }
+    ],
+    "scelte_formali_rilevanti": "Uso dichiarato di pellicola analogica (16 e 35mm), che le recensioni descrivono come scelta consapevolmente 'demodée'; uso del dialetto veneto nei dialoghi; ambientazioni reali identificate dalle fonti (Sedico, Feltre, Padova, Chioggia, Altivole — Memoriale Brion); colonna sonora originale di Krano; ricorrenza di motivi visivi della pianura, con contrasto tra cemento, periferie produttive e residui di paesaggio rurale e dolomitico."
+  },
+  "personaggi_figure_gruppi": [
+    {
+      "nome": "Giulio",
+      "tipo": "personaggio",
+      "ruolo": "Giovane studente di architettura, timido, che entra nel viaggio come elemento esterno e ne esce trasformato; svolge la funzione di figura iniziatica e di punto di vista mobile sul mondo dei due cinquantenni. Interpretato da Filippo Scotti.",
+      "relazioni_principali": [
+        "È introdotto al viaggio da Carlobianchi e Doriano",
+        "Sviluppa un legame ambivalente con i due mentori",
+        "Le fonti accennano a un sentimento non dichiarato verso un amico/coetaneo nel contesto della festa di laurea iniziale"
+      ]
+    },
+    {
+      "nome": "Carlobianchi",
+      "tipo": "personaggio",
+      "ruolo": "Cinquantenne squattrinato, parte della coppia di mentori improvvisati; rappresenta una figura di marginalità maschile veneta ostinatamente fedele a un proprio codice (bevuta, amicizia, rifiuto del decoro borghese). Interpretato da Sergio Romano.",
+      "relazioni_principali": [
+        "Coppia inseparabile con Doriano",
+        "Mentore involontario di Giulio",
+        "Legato per amicizia e storia pregressa a Genio"
+      ]
+    },
+    {
+      "nome": "Doriano",
+      "tipo": "personaggio",
+      "ruolo": "Cinquantenne squattrinato, controparte e specchio di Carlobianchi; condivide con lui codice di vita, mancanza di prospettive e fedeltà al rituale dell'ultimo bicchiere. Interpretato da Pierpaolo Capovilla.",
+      "relazioni_principali": [
+        "Coppia inseparabile con Carlobianchi",
+        "Mentore involontario di Giulio",
+        "Legato per amicizia e storia pregressa a Genio"
+      ]
+    },
+    {
+      "nome": "Genio",
+      "tipo": "personaggio",
+      "ruolo": "Quarto amico, assente per gran parte del film: emigrato in Argentina dopo un episodio illecito (vendita di scarti di una fabbrica di occhiali, collocato in alcune fonti attorno alla crisi del 2008), il suo ritorno è atteso come orizzonte del viaggio. Interpretato da Andrea Pennacchi.",
+      "relazioni_principali": [
+        "Vecchio amico e complice di Carlobianchi e Doriano",
+        "Figura attesa, motore narrativo dell'attesa"
+      ]
+    },
+    {
+      "nome": "Cavalier Fadìga",
+      "tipo": "personaggio",
+      "ruolo": "Figura secondaria incontrata lungo il viaggio, riconducibile a una tipologia umana riconoscibile del Veneto produttivo. Interpretato da Roberto Citran.",
+      "relazioni_principali": [
+        "Si interseca con il percorso dei tre protagonisti in una delle tappe del viaggio"
+      ]
+    },
+    {
+      "nome": "La pianura veneta",
+      "tipo": "figura_simbolica",
+      "ruolo": "Le fonti descrivono il paesaggio del Veneto — capannoni, ville, autogrill, periferie urbanizzate, contrasto fra cemento e dolomite — come una presenza tematica e visiva costante, al limite di una figura collettiva: territorio degli incontri e oggetto del lutto implicito dei protagonisti.",
+      "relazioni_principali": [
+        "Sfondo e co-protagonista del viaggio dei tre personaggi"
+      ]
+    }
+  ],
+  "scene_momenti_chiave": [
+    {
+      "titolo_sintetico": "L'incontro iniziale",
+      "posizione_nell_opera": "Parte iniziale",
+      "descrizione": "Carlobianchi e Doriano incrociano per caso Giulio in occasione di una festa di laurea: l'incontro innesca l'aggregazione del giovane al viaggio dei due cinquantenni."
+    },
+    {
+      "titolo_sintetico": "Mappe a mano contro GPS",
+      "posizione_nell_opera": "Lungo il viaggio",
+      "descrizione": "Le recensioni segnalano momenti in cui i due cinquantenni rifiutano gli strumenti di navigazione digitali e si orientano con mappe disegnate o ricordi, esibendo un rapporto anacronistico con la geografia del Veneto."
+    },
+    {
+      "titolo_sintetico": "Sequenza delle case 'Vendesi'",
+      "posizione_nell_opera": "Sezione centrale",
+      "descrizione": "Le recensioni indicano una sequenza descrittiva di abitazioni in vendita e architetture residenziali abbandonate o invendute, come passaggio formale rilevante che fotografa lo stato del territorio."
+    },
+    {
+      "titolo_sintetico": "Venezia dalla pianura",
+      "posizione_nell_opera": "Sezione avanzata del film",
+      "descrizione": "Lo spostamento verso Venezia, raggiunta dalla pianura, è descritto dalle fonti come un emergere simbolico della città dal paesaggio agricolo-industriale circostante."
+    },
+    {
+      "titolo_sintetico": "Il Memoriale Brion di Carlo Scarpa",
+      "posizione_nell_opera": "Vicino al climax",
+      "descrizione": "La visita al Memoriale Brion ad Altivole è descritta dalle recensioni come tappa chiave del film e snodo significativo per Giulio, studente di architettura."
+    },
+    {
+      "titolo_sintetico": "La separazione finale",
+      "posizione_nell_opera": "Finale",
+      "descrizione": "Giulio si separa dai due cinquantenni e riprende il proprio cammino; le fonti descrivono il finale come 'commovente' e centrato sul gesto di distacco dopo l'esperienza condivisa."
+    }
+  ],
+  "temi_espliciti": [
+    {
+      "tema": "Amicizia maschile fra adulti marginali",
+      "manifestazione": "Il legame fra Carlobianchi e Doriano (e l'amico assente Genio) struttura l'intero film: routine condivise, codice della bevuta, fedeltà reciproca a dispetto del fallimento sociale."
+    },
+    {
+      "tema": "Iniziazione di un giovane attraverso il viaggio",
+      "manifestazione": "Giulio entra come figura esterna e timida e ne esce 'ridisegnato' nelle proprie prospettive di vita e d'amore, secondo la sinossi ufficiale del festival."
+    },
+    {
+      "tema": "Paesaggio veneto fra rurale, industriale e urbanizzato",
+      "manifestazione": "Il viaggio attraversa autogrill, bar, capannoni, ville, periferie, Venezia, Dolomiti sullo sfondo; la sequenza delle case in vendita e la visita al Memoriale Brion danno consistenza tematica al territorio."
+    },
+    {
+      "tema": "Cementificazione e trasformazione del territorio",
+      "manifestazione": "Recensioni e schede critiche segnalano l'opera come un ritratto del Veneto compromesso da nuove infrastrutture e da una pressione edilizia che mette al margine i protagonisti e il loro mondo."
+    },
+    {
+      "tema": "Nostalgia per gli anni '90 e per una socialità periferica",
+      "manifestazione": "Le critiche evidenziano un'aria 'demodée' (rinforzata anche dalla pellicola analogica), riferimenti a tipologie umane, locali e abitudini riconducibili a un Veneto preglobalizzato."
+    },
+    {
+      "tema": "Architettura come sguardo sul mondo",
+      "manifestazione": "Il protagonista è studente di architettura; il Memoriale Brion di Carlo Scarpa è scena centrale, e le riprese ricorrenti sul costruito (case, ville, infrastrutture) tematizzano lo sguardo architettonico."
+    },
+    {
+      "tema": "Lavoro, denaro illecito, scarti produttivi",
+      "manifestazione": "L'antefatto della fuga di Genio in Argentina è legato al traffico di scarti di una fabbrica di occhiali; il denaro sepolto da ritrovare è motore di una delle linee narrative."
+    },
+    {
+      "tema": "Alcol e rituale del 'ultimo bicchiere'",
+      "manifestazione": "La formula esplicita 'mai saltare l'ultimo bicchiere' è dichiarata già nelle sinossi ufficiali ed è il dispositivo che apre e tiene insieme il viaggio."
+    }
+  ],
+  "tensioni_emergenti": [
+    {
+      "descrizione": "Tensione fra l'ostinazione dei due cinquantenni nel proprio mondo e la traiettoria del giovane che ne uscirà: alleanza temporanea che le fonti descrivono come destinata alla separazione, non all'integrazione.",
+      "localizzazione": "Tutto l'arco del film, esplicitata nel finale."
+    },
+    {
+      "descrizione": "Tensione tra paesaggio veneto come spazio affettivo e memoria e Veneto come territorio compromesso da cementificazione, periferie produttive, abitazioni invendute.",
+      "localizzazione": "Sequenze panoramiche, in particolare la sequenza delle case 'Vendesi' e gli attraversamenti urbano-industriali."
+    },
+    {
+      "descrizione": "Tensione fra codici 'demodés' dei due cinquantenni (mappe a mano, bar, dialetto, rituali dell'alcol) e codici contemporanei (GPS, mondo universitario di Giulio, infrastrutture nuove).",
+      "localizzazione": "Episodi di viaggio, dialoghi e scelte di orientamento."
+    },
+    {
+      "descrizione": "Tensione fra leggerezza comica delle situazioni e fondo malinconico (marginalità economica, fallimento, vite ai margini): tono ibrido segnalato da più recensioni.",
+      "localizzazione": "Distribuita in tutto il film."
+    },
+    {
+      "descrizione": "Tensione fra l'attesa di Genio (figura assente, ritorno promesso) e la materialità dei tre che viaggiano: il quarto amico funziona come orizzonte mai del tutto raggiunto.",
+      "localizzazione": "Linea narrativa di sfondo per tutto il film."
+    },
+    {
+      "descrizione": "Tensione fra elemento iniziatico-pedagogico (mentori e allievo) e ambiguità etica dei mentori (squattrinati, dediti all'alcol, legati a un antefatto illecito).",
+      "localizzazione": "Rapporto Giulio – Carlobianchi/Doriano."
+    },
+    {
+      "descrizione": "Possibile tensione affettiva non dichiarata: la sinossi ufficiale del festival riferisce di un amore segreto di Giulio per un coetaneo nel contesto della laurea, presente come elemento di sfondo della sua condizione iniziale.",
+      "localizzazione": "Antefatto e prima sezione del film."
+    }
+  ],
+  "contesto_storico_culturale": {
+    "clima_culturale": "Italia 2025. Il film esce in un contesto in cui il cinema italiano contemporaneo discute il rapporto con i territori regionali (Veneto, Sud, periferie) e con la propria tradizione di commedia agrodolce; il Veneto, in particolare, è oggetto di una pubblicistica diffusa sul tema della cementificazione, dei capannoni, della trasformazione del paesaggio. La generazione cinquantenne dei due protagonisti rimanda al Veneto del boom industriale tardo-novecentesco; il giovane studente di architettura rappresenta una generazione successiva, attraversata da precarietà e ridefinizione delle prospettive di vita.",
+    "riferimenti_storici": "L'antefatto di Genio è collocato dalle fonti in connessione con la crisi del 2008 (sua fuga in Argentina). Più in generale, il film richiama implicitamente il ciclo industriale del Nord-Est: occhialeria veneta, capannoni, scarti produttivi, ville, infrastrutture in espansione. Il Memoriale Brion (1969–1978) di Carlo Scarpa ad Altivole è riferimento storico-architettonico esplicito.",
+    "tradizione_di_appartenenza": "Le recensioni iscrivono Le città di pianura in tre tradizioni convergenti: (i) road movie europeo e in particolare il modello wendersiano di Im Lauf der Zeit (Nel corso del tempo), citato dal regista come riferimento; (ii) commedia italiana del viaggio, con riferimento ricorrente a Il sorpasso di Dino Risi; (iii) cinema italiano contemporaneo radicato nel Veneto, in linea di continuità con Carlo Mazzacurati e con il teatro civile-narrativo di area veneta (Bestiario Veneto di Marco Paolini). Le recensioni notano anche un debito con il coming-of-age. Sossai si è formato alla Deutsche Film- und Fernsehakademie Berlin (DFFB).",
+    "ricezione_critica": "Le città di pianura è stato presentato in concorso nella sezione Un Certain Regard al 78° Festival di Cannes (maggio 2025), poi a Toronto, New York, Festival du nouveau cinéma e Vancouver. Uscita italiana nell'autunno 2025 (le fonti riportano 25 settembre 2025 o 2 ottobre 2025, con leggera discrepanza), distribuita da Lucky Red. Le recensioni italiane sono in maggioranza favorevoli (MYmovies: 3,38/5 su 27 recensioni). Più testate l'hanno inserito tra i migliori film del 2025 (es. primo posto tra i film italiani per Movieplayer.it, nono assoluto per Comingsoon.it). Le fonti enciclopediche riferiscono di un'ampia messe di David di Donatello (in modo non univoco: una fonte parla di 9 statuette tra cui miglior film, miglior regia, migliore sceneggiatura originale; un'altra di 8 tra cui miglior film, miglior regia, miglior attore, migliore sceneggiatura). Box office italiano riportato intorno ai 2 milioni di euro."
+  },
+  "avvertenze_anti_confabulazione": [
+    {
+      "tipo": "accesso_limitato_ai_materiali",
+      "descrizione": "Il compilatore non ha avuto accesso diretto al film. Il dossier si basa esclusivamente su fonti secondarie: sinossi ufficiali, voci enciclopediche (Wikipedia in italiano e inglese), recensioni online e schede di festival. Non è stato possibile verificare direttamente dialoghi, inquadrature, montaggio."
+    },
+    {
+      "tipo": "informazione_certa",
+      "descrizione": "Sono attendibili: titolo, regista (Francesco Sossai), co-sceneggiatore (Adriano Candiago), cast principale (Filippo Scotti, Sergio Romano, Pierpaolo Capovilla, Roberto Citran, Andrea Pennacchi), produzione italo-tedesca (Vivo Film, Rai Cinema, Maze Pictures), distribuzione italiana (Lucky Red), passaggio a Cannes 2025 in Un Certain Regard, uscita italiana nell'autunno 2025, ambientazione veneta, uso di pellicola 16 e 35mm, presenza del Memoriale Brion fra le location."
+    },
+    {
+      "tipo": "informazione_probabile",
+      "descrizione": "Sono probabili ma da verificare direttamente: la collocazione precisa della fuga di Genio in coincidenza con la crisi del 2008; il dettaglio dell'antefatto come traffico di scarti di una fabbrica di occhiali; la presenza di una sequenza dedicata alle case 'Vendesi'; il riferimento a un sentimento non dichiarato di Giulio per un coetaneo nella scena della laurea; la formazione di Sossai alla scuola di cinema di Berlino (DFFB)."
+    },
+    {
+      "tipo": "informazione_incerta",
+      "descrizione": "Sono incerte: data esatta di uscita italiana (le fonti oscillano tra 25 settembre 2025 e 2 ottobre 2025); durata esatta del film (98 vs 100 minuti); numero esatto di David di Donatello vinti (le fonti riferiscono 8 oppure 9, con elenco di categorie non interamente sovrapponibile); ordine effettivo delle tappe del viaggio; mappa interna precisa di scene e capitoli (il film non è strutturato in atti formali dichiarati nelle fonti, l'articolazione in unità è ricostruita dal compilatore a partire dalle descrizioni)."
+    },
+    {
+      "tipo": "informazione_non_reperibile",
+      "descrizione": "Non sono state reperite nelle fonti consultate informazioni dettagliate su: scrittura del soggetto (eventuali fonti letterarie dirette di ispirazione oltre ai modelli cinematografici citati), composizione delle musiche di Krano e loro funzione nel film, struttura precisa della colonna sonora, durata effettiva delle singole sezioni, eventuali interventi di postproduzione di rilievo."
+    }
+  ],
+  "metadata": {
+    "data_compilazione": "2026-05-18",
+    "compilato_da": "Pipeline HCAIRE Cultura — Step 1 (Cowork)",
+    "versione": "1.0"
+  }
+}

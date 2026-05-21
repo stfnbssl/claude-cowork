@@ -70,7 +70,7 @@ Perché:
 * deve emergere dalla struttura
 * se lo guidi troppo → rompi il metodo
 
-Gli step F3 step 2 (Micro-dispositivo), step 4 (Verifica di coerenza F3), step 5 (Audit metodologico opzionale) non richiedono input esterni: lavorano su output già prodotti dalla pipeline.
+Gli step F3 step 2 (Micro-dispositivo), step 4 (Verifica di coerenza F3), step 5 (Output-tipo contestualizzato) non richiedono input esterni: lavorano su output già prodotti dalla pipeline.
 Gli step F2 step 2a (Nodi trasversali), 4b (CE Prototipica), 6 (Output-tipo vuoto) non richiedono input esterni.
 
 ---
@@ -95,7 +95,7 @@ STEP SENZA INPUT ESTERNO (automatici):
 • F2 STEP 6 → output-tipo vuoto / passaporto del tema
 • F3 STEP 2 → micro-dispositivo
 • F3 STEP 4 → verifica di coerenza F3
-• F3 STEP 5 → audit metodologico (opzionale)
+• F3 STEP 5 → output-tipo contestualizzato
 ```
 
 👉 Questo è un punto forte del metodo:

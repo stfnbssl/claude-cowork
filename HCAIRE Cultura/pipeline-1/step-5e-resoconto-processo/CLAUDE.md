@@ -18,7 +18,7 @@ Non è un riassunto dei quattro step analitici. Non è una replica dell'articolo
 
 Prima di scrivere, leggi il file:
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\pipeline-1\stile-editoriale.md
+C:\my\claude\claude-cowork\HCAIRE Cultura\pipeline-1\stile-editoriale.md
 ```
 Le norme lì contenute si applicano anche al resoconto del processo. In particolare: non citare i nomi degli step ("Step 1", ecc.), non usare il termine "pipeline", e non formulare frasi che presentino il metodo come condizione necessaria dei risultati critici.
 
@@ -72,11 +72,11 @@ Tra **1000 e 1800 parole**. Più breve dell'articolo: è un testo di accompagnam
 ## Percorso di input
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-1-dossier-contenutistico.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-2-lettura-libera-orientata.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-3-lettura-strutturata-per-assi.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-4-saggio-critico-revisione.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\step-5d-revisione-finale.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-1-dossier-contenutistico.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-2-lettura-libera-orientata.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-3-lettura-strutturata-per-assi.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-4-saggio-critico-revisione.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\step-5d-revisione-finale.json
 ```
 
 Lo slug è quello generato durante lo Step 1.
@@ -86,8 +86,8 @@ Lo slug è quello generato durante lo Step 1.
 ## Percorso di output
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\step-5e-resoconto-processo.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\resoconto-processo.md
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\step-5e-resoconto-processo.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\resoconto-processo.md
 ```
 
 Produce un documento JSON conforme allo schema `schema.json` presente in questa cartella, e un file Markdown con il testo del resoconto.

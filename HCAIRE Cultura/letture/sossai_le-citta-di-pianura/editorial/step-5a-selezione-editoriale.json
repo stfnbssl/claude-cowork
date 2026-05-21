@@ -1,0 +1,427 @@
+{
+  "opera_riferimento": {
+    "titolo": "Le città di pianura",
+    "autore": "Francesco Sossai"
+  },
+  "tesi_editoriale": {
+    "formulazione_accessibile": "Le città di pianura è un film su una forma di vita che continua a essere abitata dopo che il mondo che la sosteneva ha smesso di sostenerla. Due cinquantenni veneti restano fedeli a un codice — l'amicizia, il rituale dell'ultimo bicchiere, una geografia conosciuta a memoria — quando il paesaggio attorno (capannoni svuotati, case in vendita, infrastrutture nuove) ha già dismesso le condizioni che lo rendevano possibile. Un giovane studente di architettura li attraversa per qualche giorno: ciò che porta via non è un'eredità da raccogliere, ma il riconoscimento che certe forme di esistenza hanno avuto luogo, e che la loro fine non le rende meno vere. L'iniziazione si compie come separazione, perché in questa configurazione la separazione è la sola forma possibile della trasmissione.",
+    "relazione_con_tesi_step4": "Riformulazione fedele della tesi originale, con due interventi di leggibilità: (a) sostituzione del lessico tecnico ('trasmissione obliqua', 'campo desiderabile eroso') con descrizioni concrete del mondo del film (capannoni svuotati, case in vendita, rituale dell'ultimo bicchiere); (b) ancoraggio iniziale al dato sensibile — i due cinquantenni e il loro codice — invece che alla formulazione astratta della trasmissione. Il contenuto interpretativo resta identico: il punto di torsione è sempre il riconoscimento che si trasmette solo come separazione."
+  },
+  "elementi_da_includere": {
+    "step_1": [
+      {
+        "elemento": "Identificazione essenziale del film (regista esordiente, road movie nella pianura veneta, Cannes 2025, uscita autunno 2025, cast: Filippo Scotti, Sergio Romano, Pierpaolo Capovilla)",
+        "funzione_editoriale": "Orientare immediatamente il lettore che non conosce il film senza appesantire con dati produttivi accessori."
+      },
+      {
+        "elemento": "Sinossi minimale: tre uomini (due cinquantenni squattrinati + un giovane studente di architettura) attraversano il Veneto per alcuni giorni, sullo sfondo l'attesa di un quarto amico, Genio, emigrato in Argentina",
+        "funzione_editoriale": "Premessa narrativa indispensabile: senza la configurazione di partenza il lettore non può seguire l'argomentazione critica."
+      },
+      {
+        "elemento": "Antefatto di Genio: fuga in Argentina dopo un episodio illecito legato alla vendita di scarti di una fabbrica di occhiali, collocato attorno alla crisi del 2008",
+        "funzione_editoriale": "Datazione storica della soglia che il film registra: il distretto occhialiero veneto, la crisi del 2008 come spartiacque. È il dato che permette di leggere il film come registrazione di un mondo post-distretto e non come elegia atemporale."
+      },
+      {
+        "elemento": "Scelta della pellicola analogica (16 e 35mm) e uso del dialetto veneto",
+        "funzione_editoriale": "Elementi formali decisivi: il medium del film è coerente con il mondo che rappresenta. Vanno richiamati nel testo come scelte significative, non come dettagli tecnici."
+      },
+      {
+        "elemento": "Le tappe geografiche reali (autogrill, bar di provincia, ville, periferie, Venezia, Altivole) e la presenza del Memoriale Brion di Carlo Scarpa come location",
+        "funzione_editoriale": "Concretezza topografica: il film è radicato in una geografia precisa, che il testo editoriale deve far percepire al lettore."
+      },
+      {
+        "elemento": "Tono ibrido del film (commedia agrodolce con fondo malinconico)",
+        "funzione_editoriale": "Avvertenza al lettore: il film non è solo elegiaco. Va menzionato per non costruire un'immagine falsamente cupa dell'opera."
+      },
+      {
+        "elemento": "Avvertenza sull'accesso indiretto al film",
+        "funzione_editoriale": "Trasparenza: va menzionata nella nota sul metodo, non nel corpo del testo, per dichiarare i limiti della lettura senza appesantirla."
+      }
+    ],
+    "step_2": [
+      {
+        "elemento": "Nucleo tematico: che cosa accada al desiderio quando il mondo che lo ha generato è già un paesaggio postumo",
+        "funzione_editoriale": "Riformulazione narrativa del nucleo critico: serve come argomento di apertura del testo per dare al lettore la posta in gioco prima dell'analisi puntuale."
+      },
+      {
+        "elemento": "La descrizione della tensione tra forma di vita pienamente abitata e mondo che non la sostiene più",
+        "funzione_editoriale": "Una delle tensioni più portanti per il lettore non specialista: rende immediatamente leggibile lo scarto tra i due cinquantenni e il loro paesaggio."
+      },
+      {
+        "elemento": "L'osservazione che la fedeltà al codice non è scelta ma ostinazione esistenziale",
+        "funzione_editoriale": "Distinzione cruciale che evita la lettura clinica (alcolismo, regressione) o sociologica (resistenza politica) dei due cinquantenni."
+      },
+      {
+        "elemento": "Il tono ibrido come modo non sentimentale di reggere ciò che è già finito",
+        "funzione_editoriale": "Permette di tematizzare la dimensione comica senza ridurla a registro accessorio: il riso è qui parte della temperatura emotiva del film."
+      }
+    ],
+    "step_3": {
+      "assi": ["asse_4", "asse_5", "asse_6"],
+      "nodi": [
+        "Soglia del 'non torna'",
+        "Tempo del lutto non patologico",
+        "Campo desiderabile",
+        "Desiderio fissato",
+        "Desiderio ritratto",
+        "Continuità oltre la presenza"
+      ],
+      "evidenze": [
+        "Sequenza delle case 'Vendesi'",
+        "Visita al Memoriale Brion",
+        "Separazione finale",
+        "Formula dell'ultimo bicchiere",
+        "Pellicola analogica come scelta formale",
+        "Assenza/attesa di Genio"
+      ],
+      "configurazione_dominante": true
+    },
+    "step_4": [
+      {
+        "elemento": "L'apertura sulle case 'Vendesi' come temperatura del film: non rovina ma erosione lenta",
+        "funzione_editoriale": "Apertura forte e concreta per il testo editoriale: parte da un'immagine, non da un'astrazione."
+      },
+      {
+        "elemento": "Lettura dell'ultimo bicchiere come sopravvivenza dell'orientamento, non come patologia",
+        "funzione_editoriale": "Argomento cardine: salva i due cinquantenni dalla compassione condiscendente e dalla diagnosi psicologica."
+      },
+      {
+        "elemento": "Il Memoriale Brion come modello formale del film",
+        "funzione_editoriale": "Punto interpretativo più alto del saggio: va trasferito nel testo editoriale, ma con cautela (è un'ipotesi forte, va presentata come tale)."
+      },
+      {
+        "elemento": "La separazione finale come forma — non come fallimento — della trasmissione",
+        "funzione_editoriale": "Conclusione argomentativa che porta il lettore al senso del finale del film. Snodo necessario per chiudere il testo."
+      },
+      {
+        "elemento": "La doppia dinamica del finale: trasformazione per Giulio, sospensione per i mentori",
+        "funzione_editoriale": "Rende leggibile per il lettore la generosità del film verso i protagonisti adulti — non vengono superati, non vengono salvati, vengono lasciati dove sono."
+      },
+      {
+        "elemento": "La contro-lettura del coming-of-age di Giulio",
+        "funzione_editoriale": "Va inclusa in forma sintetica: dà spessore alla lettura, mostra che l'interpretazione conosce i propri limiti e non pretende di esaurire il film."
+      },
+      {
+        "elemento": "I limiti della lettura, in particolare l'accesso indiretto al film e la sottovalutazione della dimensione comica",
+        "funzione_editoriale": "Vanno richiamati nella nota sul metodo, in forma sobria, come trasparenza dei limiti dell'analisi."
+      },
+      {
+        "elemento": "Genio come continuità oltre la presenza: figura assente che vincola senza imporsi",
+        "funzione_editoriale": "Da includere in forma compressa: arricchisce la lettura della temporalità affettiva del film, ma non è il cuore dell'argomentazione."
+      }
+    ]
+  },
+  "elementi_da_escludere": [
+    {
+      "elemento": "Lista esaustiva delle fonti utilizzate (Wikipedia, MYmovies, Mescalina, Close-up, festival-cannes.com)",
+      "provenienza": "step_1",
+      "motivo_esclusione": "troppo_tecnico"
+    },
+    {
+      "elemento": "Discrepanze tra le fonti su data di uscita (25 settembre vs 2 ottobre 2025), durata (98 vs 100 minuti), numero di David di Donatello (8 vs 9)",
+      "provenienza": "step_1",
+      "motivo_esclusione": "appesantisce_senza_aggiungere"
+    },
+    {
+      "elemento": "Box office italiano e numero di recensioni MYmovies (3,38/5 su 27 recensioni)",
+      "provenienza": "step_1",
+      "motivo_esclusione": "non_supporta_la_tesi"
+    },
+    {
+      "elemento": "Formazione di Sossai alla DFFB di Berlino",
+      "provenienza": "step_1",
+      "motivo_esclusione": "non_supporta_la_tesi"
+    },
+    {
+      "elemento": "Lista completa delle tradizioni cinematografiche di riferimento (Wenders, Risi, Mazzacurati, Paolini)",
+      "provenienza": "step_1",
+      "motivo_esclusione": "appesantisce_senza_aggiungere"
+    },
+    {
+      "elemento": "Le sei tensioni principali della lettura libera nella loro forma estesa",
+      "provenienza": "step_2",
+      "motivo_esclusione": "ridondante"
+    },
+    {
+      "elemento": "Le domande critiche aperte nella loro forma analitica",
+      "provenienza": "step_2",
+      "motivo_esclusione": "troppo_tecnico"
+    },
+    {
+      "elemento": "Le quattro aree di rilevanza (antropologica, esistenziale, storica, simbolica) come categorie esplicite",
+      "provenienza": "step_2",
+      "motivo_esclusione": "troppo_tecnico"
+    },
+    {
+      "elemento": "Gli assi 1, 2 e 3 nella loro articolazione analitica completa",
+      "provenienza": "step_3",
+      "motivo_esclusione": "ridondante"
+    },
+    {
+      "elemento": "I nodi assenti come categoria esplicita ('colpa integrativa', 'autorità come asimmetria assunta', 'verità educativa come orizzonte', 'simbolizzazione non sostitutiva')",
+      "provenienza": "step_3",
+      "motivo_esclusione": "troppo_tecnico"
+    },
+    {
+      "elemento": "I sette rischi di forzatura nella loro forma analitica completa",
+      "provenienza": "step_3",
+      "motivo_esclusione": "troppo_tecnico"
+    },
+    {
+      "elemento": "L'articolazione in fasi della dinamica dell'opera (apertura/viaggio/Brion/separazione)",
+      "provenienza": "step_3",
+      "motivo_esclusione": "ridondante"
+    },
+    {
+      "elemento": "Le evidenze su 'mappe a mano contro GPS', 'Venezia dalla pianura', 'incontro iniziale' come scene autonome",
+      "provenienza": "step_3",
+      "motivo_esclusione": "appesantisce_senza_aggiungere"
+    },
+    {
+      "elemento": "La sezione sugli 'aspetti resi visibili' e 'aspetti lasciati aperti' come elenco strutturato",
+      "provenienza": "step_4",
+      "motivo_esclusione": "troppo_tecnico"
+    },
+    {
+      "elemento": "L'elenco completo dei limiti della lettura (sei voci articolate)",
+      "provenienza": "step_4",
+      "motivo_esclusione": "ridondante"
+    },
+    {
+      "elemento": "La sezione 'assi integrati nel saggio' con il dettaglio della modalità di integrazione per ciascun asse",
+      "provenienza": "step_4",
+      "motivo_esclusione": "troppo_tecnico"
+    },
+    {
+      "elemento": "Il sentimento non dichiarato di Giulio per un coetaneo come dato narrativo da sviluppare",
+      "provenienza": "step_1",
+      "motivo_esclusione": "rischio_di_forzatura"
+    }
+  ],
+  "scene_momenti_da_valorizzare": [
+    {
+      "titolo_sintetico": "La sequenza delle case 'Vendesi'",
+      "localizzazione": "Sezione centrale del film",
+      "motivo_della_scelta": "È la scena che meglio dichiara, fuori da ogni didascalia, la temperatura del film: non la rovina, non la catastrofe, ma l'immobilità di costruzioni che restano in piedi e sono già fuori uso. Permette di entrare nel film attraverso un'immagine concreta che il lettore può visualizzare anche senza averlo visto. Funziona come apertura ideale del testo editoriale: parte dal sensibile, non dall'astrazione.",
+      "come_raccontarla": "Introdurla come una sequenza apparentemente accessoria — un raccordo paesaggistico tra due tappe del viaggio — che invece fotografa la condizione del territorio veneto attraversato: edifici in attesa, costruiti dopo che il paesaggio aveva smesso di produrre vite che li abitassero. Insistere sul fatto che non sono macerie. Non descrivere le case in dettaglio, ma il loro modo di stare nel paesaggio."
+    },
+    {
+      "titolo_sintetico": "La visita al Memoriale Brion",
+      "localizzazione": "Vicino al climax del film, ad Altivole",
+      "motivo_della_scelta": "Snodo simbolico riconosciuto dalle recensioni come centrale, e — nella lettura proposta — modello formale dell'intero film. Permette di tematizzare in modo concreto e culturalmente denso l'idea che la separazione possa essere forma compiuta, non fallimento. Il Brion è un riferimento architettonico colto ma riconoscibile, che dà al testo editoriale un appoggio visivo forte.",
+      "come_raccontarla": "Spiegare brevemente cosa è il Memoriale Brion (l'architettura funeraria di Carlo Scarpa ad Altivole, 1969–1978): uno spazio in cui la separazione tra vivi e morti è data come forma — soglia, propilea, specchi d'acqua, geometrie che dichiarano la frontiera senza pretendere di superarla. Mostrare come il film, attraverso questa tappa, sposti silenziosamente la propria forma: come il Brion tiene la perdita come perdita, il film tiene il mondo dei mentori come mondo finito. Presentare l'idea del Brion come modello formale del film come ipotesi interpretativa, non come tesi indiscutibile."
+    },
+    {
+      "titolo_sintetico": "La separazione finale",
+      "localizzazione": "Finale del film",
+      "motivo_della_scelta": "Realizza narrativamente la tesi centrale: la trasmissione è la separazione. Senza valorizzare questa scena il testo editoriale non porta il lettore al punto di chiusura. È anche il momento in cui la doppia dinamica del film (trasformazione per Giulio, sospensione per i mentori) diventa visibile come scelta di scrittura, non come incompiutezza.",
+      "come_raccontarla": "Descrivere il finale senza enfasi: Giulio si stacca dai due cinquantenni; Carlobianchi e Doriano restano nel loro mondo. Insistere sul fatto che non è un'emancipazione contro qualcuno, non è una scelta tematizzata, non è un comando ricevuto né un rifiuto agito. È una direzione che si stabilizza per via di passaggio. Da qui aprire la riflessione: la trasmissione che il film mette in scena ha la forma della separazione perché ciò che passa al giovane non è un contenuto, ma il riconoscimento che certe forme di vita hanno avuto luogo e che proprio per questo non possono essere ereditate."
+    }
+  ],
+  "assi_nodi_selezionati": [
+    {
+      "id": "asse_6",
+      "tipo": "asse",
+      "nome": "Storico-culturale",
+      "funzione_editoriale": "Rende visibile che il Veneto del film non è sfondo ma struttura: la mediazione storica del distretto industriale post-2008 organizza il modo stesso in cui i personaggi possono desiderare. Permette di leggere capannoni, case in vendita, dialetto e pellicola analogica come articolazioni di un'unica configurazione, non come temi accostati.",
+      "formula_linguistica_suggerita": "'il Veneto del distretto industriale tardo-novecentesco', 'la soglia del 2008 come datazione di un cambiamento di fase', 'un mondo che ha smesso di funzionare come orizzonte di senso'. Evitare il termine 'asse' o 'mediazione storica' come categoria; usare descrizioni concrete del paesaggio."
+    },
+    {
+      "id": "asse_5",
+      "tipo": "asse",
+      "nome": "Desiderio",
+      "funzione_editoriale": "Permette di leggere il rituale dell'ultimo bicchiere come forma del desiderio in un campo eroso, e la condizione iniziale di Giulio come desiderio ritratto. La distinzione tra le due forme di sospensione (fissazione e ritrazione) è lo strumento che articola il confronto generazionale del film senza ricadere nella psicologia.",
+      "formula_linguistica_suggerita": "'il desiderio non scompare quando il mondo che lo sosteneva si erode: si concentra', 'sopravvivenza dell'orientamento', 'desiderio che si ritrae in attesa di trovare il proprio campo'. Evitare il termine 'asse del desiderio'; usare formule descrittive."
+    },
+    {
+      "id": "asse_4",
+      "tipo": "asse",
+      "nome": "Separazione e Limite",
+      "funzione_editoriale": "Asse decisivo per la tesi: legittima la lettura della separazione finale come forma compiuta e non come incompiutezza narrativa. Permette di leggere il Brion come spazializzazione del limite e l'intero film come 'tenuta del resto non simbolizzabile'. Si traduce nel testo editoriale come 'la separazione come forma'.",
+      "formula_linguistica_suggerita": "'la separazione come forma', 'tenere il limite senza spiegarlo', 'erosione lenta che non è catastrofe', 'la perdita tenuta come perdita'. Evitare 'asse della separazione e del limite' come etichetta; lavorare per via descrittiva."
+    },
+    {
+      "id": "soglia-del-non-torna",
+      "tipo": "nodo",
+      "nome": "Soglia del 'non torna'",
+      "funzione_editoriale": "Nome breve per il punto in cui il tempo non restituisce ciò che è stato. Concentra in una formula il dato che le case 'Vendesi' fotografano visivamente: il territorio è fissato in una condizione di irreversibilità.",
+      "formula_linguistica_suggerita": "'il punto in cui il tempo non riapre più ciò che è stato', 'la soglia oltre la quale non si torna', 'l'irreversibilità del territorio'. Non nominarlo come 'nodo'; introdurlo in modo discorsivo."
+    },
+    {
+      "id": "tempo-del-lutto-non-patologico",
+      "tipo": "nodo",
+      "nome": "Tempo del lutto non patologico",
+      "funzione_editoriale": "Categoria preziosa per spiegare il tono ibrido del film: i due cinquantenni non sono in crisi, abitano una perdita lenta; la leggerezza comica non smorza la perdita, la attraversa. Permette di legittimare la componente comica del film senza ridurla.",
+      "formula_linguistica_suggerita": "'una perdita lenta, non drammatica', 'la leggerezza come modo non sentimentale di reggere ciò che è finito', 'erosione che non è disperazione'."
+    },
+    {
+      "id": "desiderio-fissato",
+      "tipo": "nodo",
+      "nome": "Desiderio fissato",
+      "funzione_editoriale": "Categoria centrale per leggere l'ultimo bicchiere: il desiderio si concentra nel rituale ripetuto come modo di non lasciare il proprio mondo. Salva la lettura dalla diagnosi clinica.",
+      "formula_linguistica_suggerita": "'il desiderio si concentra dove può ancora trovare appoggio', 'investimento esclusivo nel rituale come tentativo di controllo dell'esaurimento', 'fissazione che è insieme dignitosa e problematica'."
+    },
+    {
+      "id": "continuita-oltre-la-presenza",
+      "tipo": "nodo",
+      "nome": "Continuità oltre la presenza",
+      "funzione_editoriale": "Categoria per leggere Genio: il quarto amico assente che vincola affettivamente i tre senza giudicare e senza imporsi. Da usare in forma compressa, una sola volta, per dare profondità al ritratto della temporalità affettiva del film.",
+      "formula_linguistica_suggerita": "'una persistenza affettiva che opera in assenza', 'un'istanza interna che organizza il presente senza esserci', 'un legame che vincola senza pretendere di essere risolto'."
+    }
+  ],
+  "rischi_di_forzatura_residui": [
+    {
+      "descrizione": "Patologizzazione dei due cinquantenni: il lettore non specialista può facilmente leggere l'ultimo bicchiere come segno di alcolismo o di marginalità da compatire. Nel passaggio da analisi a testo editoriale questo rischio si amplifica perché si perde la cautela del lessico tecnico.",
+      "come_presidiarlo": "Tematizzare esplicitamente nel testo che la lettura clinica sbaglierebbe l'oggetto: i due cinquantenni non sono casi, sono testimoni. Insistere sulla dignità della loro forma di vita, ma senza idealizzarla — mantenere l'ambivalenza (insieme dignitosa e problematica) come tratto della lettura."
+    },
+    {
+      "descrizione": "Idealizzazione del Brion come simbolo educativo: il testo editoriale può facilmente trasformare il Brion in un dispositivo pedagogico che 'insegna' a Giulio la separazione, perdendo la sobrietà dell'ipotesi (il Brion come modello formale, non come maestro).",
+      "come_presidiarlo": "Presentare la lettura del Brion come ipotesi interpretativa, non come tesi indiscutibile. Insistere sul fatto che opera per via di forma, non per via di contenuto trasmesso: nessuno insegna nulla a Giulio. Usare formule come 'è probabile che', 'la lettura proposta sostiene'."
+    },
+    {
+      "descrizione": "Sociologizzazione: leggere il film come pura cronaca del Veneto post-distretto rischia di dissolvere la dimensione strutturale dell'esperienza dei personaggi in un'effettistica di contesto. Nel testo editoriale, il riferimento alla crisi del 2008 e alla cementificazione può essere ridotto a sfondo socio-economico.",
+      "come_presidiarlo": "Mantenere sempre l'articolazione tra mediazione storica, dinamica del desiderio ed esperienza della separazione. Quando si nomina il Veneto post-distretto, mostrare immediatamente come questa condizione storica strutturi il modo in cui i personaggi possono desiderare — non solo le loro circostanze."
+    },
+    {
+      "descrizione": "Lettura redentiva del finale: la trasformazione di Giulio rischia di essere letta come 'salvezza' o 'riscatto' del mondo dei mentori. Il pubblico generalista è abituato a finali in cui il giovane porta avanti l'eredità degli anziani; il film fa esattamente l'opposto.",
+      "come_presidiarlo": "Insistere sulla doppia dinamica: trasformazione per Giulio, sospensione per i mentori. Esplicitare che le due dinamiche stanno l'una accanto all'altra senza compensarsi. Sottolineare che la generosità del film consiste nel non chiedere ai cinquantenni di trasformarsi per essere salvati."
+    },
+    {
+      "descrizione": "Tono compiaciuto sulla metodologia: nel passaggio da analisi a testo editoriale può insinuarsi la tentazione di celebrare la lettura proposta come particolarmente acuta o originale, perdendo la sobrietà dovuta dal fatto che l'analisi è stata condotta senza accesso diretto al film.",
+      "come_presidiarlo": "Mantenere il tono descrittivo. Nel testo principale non parlare del metodo né delle intuizioni dell'analisi; nella nota a chiusura essere brevi e fattuali. Citare apertamente il limite dell'accesso indiretto al film."
+    },
+    {
+      "descrizione": "Trascurare la dimensione comica e situazionale del film: la lente strutturale è poco adatta a registrare il riso, ma le recensioni segnalano con insistenza il tono ibrido. Un testo editoriale tutto elegiaco tradirebbe l'opera.",
+      "come_presidiarlo": "Tematizzare esplicitamente il tono ibrido in almeno un passaggio del testo. Non dare l'impressione che il film sia un funebre congedo: è un film che ride mentre saluta, e questa simultaneità è parte della sua qualità."
+    },
+    {
+      "descrizione": "Spiegare troppo: il film si rifiuta di spiegare la perdita, e il testo editoriale potrebbe sentirsi obbligato a colmare lo spazio interpretativo che il film lascia aperto. Il rischio è di tradurre in tesi argomentate ciò che il film tiene volutamente come forma non discorsiva.",
+      "come_presidiarlo": "Lasciare alcuni passaggi descrittivi e non discorsivi. Tenere spazio per il non-detto. Quando si parla del Brion, della pellicola analogica, dell'attesa di Genio, non chiudere ogni volta con una tesi: lasciare che l'immagine resti aperta come resta nel film."
+    }
+  ],
+  "proposta_titolo": {
+    "titolo_principale": "Una forma di vita dopo il proprio mondo",
+    "sottotitolo": "Lettura de Le città di pianura di Francesco Sossai attraverso le strutture dell'esperienza umana",
+    "titoli_alternativi": [
+      "L'ultimo bicchiere e la soglia: sul film di Francesco Sossai",
+      "Trasmettere per separazione: Le città di pianura di Francesco Sossai"
+    ],
+    "motivazione_scelta": "Il titolo principale concentra in una formula la tesi del testo (una forma di vita continua a essere abitata dopo che il suo mondo è finito) e ha un ritmo che ne facilita la lettura. È evocativo senza essere vago, è preciso senza essere tecnico. Non nomina né i mentori né il giovane, lasciando aperto il referente — coerente con il fatto che il film tiene insieme le due generazioni in un'unica configurazione. La prima alternativa è troppo enigmatica (l'ultimo bicchiere senza contesto rischia di apparire didascalico o folkloristico). La seconda è troppo concettuale: 'trasmettere per separazione' è il cuore della tesi ma in titolo suona astratto."
+  },
+  "struttura_proposta": [
+    {
+      "numero": 1,
+      "titolo_sezione": "Le case che restano in piedi",
+      "funzione": "Aprire il testo con un'immagine concreta del film — la sequenza delle case 'Vendesi' — per stabilire da subito la temperatura emotiva e tematica dell'opera. Introdurre il lettore alla configurazione senza ancora nominarla.",
+      "materiali_di_riferimento": [
+        "step_1: sequenza delle case 'Vendesi' (scena chiave)",
+        "step_4: apertura del saggio critico",
+        "step_3: nodo 'soglia del non torna'"
+      ],
+      "lunghezza_indicativa": "200-250 parole"
+    },
+    {
+      "numero": 2,
+      "titolo_sezione": "Tre uomini e una pianura",
+      "funzione": "Presentare il film nei suoi dati essenziali: sinossi minimale, contesto produttivo, configurazione narrativa. Permettere al lettore di seguire la lettura anche senza aver visto il film.",
+      "materiali_di_riferimento": [
+        "step_1: opera, sintesi contenutistica, personaggi, contesto storico-culturale",
+        "step_1: scelte formali (pellicola analogica, dialetto, geografia veneta)"
+      ],
+      "lunghezza_indicativa": "200-250 parole"
+    },
+    {
+      "numero": 3,
+      "titolo_sezione": "Il mondo dei due cinquantenni: una fedeltà residuale",
+      "funzione": "Costruire il primo nodo critico: i due cinquantenni come testimoni di una mediazione storica precisa che ha smesso di funzionare. Introdurre il riferimento al Veneto post-distretto e alla crisi del 2008. Tematizzare la pellicola analogica come scelta formale strutturale.",
+      "materiali_di_riferimento": [
+        "step_4: sezione 'Il mondo dei due cinquantenni: una fedeltà residuale'",
+        "step_3: asse 6 (storico-culturale)",
+        "step_1: antefatto di Genio e crisi del 2008",
+        "step_1: scelta della pellicola analogica"
+      ],
+      "lunghezza_indicativa": "400-500 parole"
+    },
+    {
+      "numero": 4,
+      "titolo_sezione": "L'ultimo bicchiere come forma del desiderio",
+      "funzione": "Tematizzare la fissazione del desiderio dei due cinquantenni come sopravvivenza dell'orientamento in un campo eroso, non come patologia. Aprire al confronto generazionale con Giulio: la specularità tra desiderio fissato e desiderio ritratto.",
+      "materiali_di_riferimento": [
+        "step_4: sezione 'L'ultimo bicchiere come forma del desiderio'",
+        "step_3: asse 5, nodi 'desiderio fissato' e 'desiderio ritratto'",
+        "step_3: evidenza 'formula dell'ultimo bicchiere'"
+      ],
+      "lunghezza_indicativa": "400-500 parole"
+    },
+    {
+      "numero": 5,
+      "titolo_sezione": "Giulio: l'incontro come prossimità",
+      "funzione": "Spostare il fuoco sul giovane: la sua condizione di partenza, l'incontro con i due cinquantenni, la natura non pedagogica del legame. Argomentare che la trasformazione di Giulio non avviene per insegnamento ma per prossimità — il giovane registra che una forma di vita può essere pienamente abitata anche quando il mondo che la sosteneva è finito.",
+      "materiali_di_riferimento": [
+        "step_4: sezione 'Giulio: il desiderio ritratto e il punto di torsione'",
+        "step_1: personaggio di Giulio, scena iniziale della festa di laurea",
+        "step_2: tensione tra timidezza e desiderio nel giovane"
+      ],
+      "lunghezza_indicativa": "350-450 parole"
+    },
+    {
+      "numero": 6,
+      "titolo_sezione": "Il Memoriale Brion: la separazione come forma",
+      "funzione": "Tematizzare la tappa al Brion come momento di torsione del film. Presentare con cautela l'ipotesi che il Brion funzioni come modello formale dell'intero film: un'architettura che pensa la perdita come tenuta. Punto interpretativo più alto del testo.",
+      "materiali_di_riferimento": [
+        "step_4: sezione sul Memoriale Brion",
+        "step_3: evidenza 'visita al Memoriale Brion'",
+        "step_3: nodo 'tempo del lutto non patologico'",
+        "step_3: asse 4 (separazione e limite)"
+      ],
+      "lunghezza_indicativa": "400-500 parole"
+    },
+    {
+      "numero": 7,
+      "titolo_sezione": "Genio: ciò che vincola da lontano",
+      "funzione": "Sezione breve dedicata al quarto amico assente. Tematizzare la sua funzione come continuità oltre la presenza: un'istanza affettiva che organizza il viaggio senza esserci. Dare profondità alla temporalità del film senza appesantirne il ritmo argomentativo.",
+      "materiali_di_riferimento": [
+        "step_4: sezione 'Genio: la continuità oltre la presenza'",
+        "step_3: nodo 'continuità oltre la presenza'",
+        "step_1: antefatto di Genio"
+      ],
+      "lunghezza_indicativa": "200-250 parole"
+    },
+    {
+      "numero": 8,
+      "titolo_sezione": "La separazione finale: trasmissione di un riconoscimento",
+      "funzione": "Sezione di chiusura argomentativa. Articolare la doppia dinamica del finale (trasformazione per Giulio, sospensione per i mentori) e presentare la tesi nella sua forma più piena: la trasmissione è la separazione perché la separazione è la sola forma possibile della trasmissione.",
+      "materiali_di_riferimento": [
+        "step_4: sezione 'La separazione finale: trasmissione di un riconoscimento'",
+        "step_3: dinamica dell'opera (trasformazione + sospensione)",
+        "step_3: configurazione strutturale dominante"
+      ],
+      "lunghezza_indicativa": "350-450 parole"
+    },
+    {
+      "numero": 9,
+      "titolo_sezione": "Un'altra lettura possibile",
+      "funzione": "Dare voce alla contro-lettura del film come coming-of-age di Giulio. Mostrare che la lettura proposta non pretende di esaurire l'opera, e che il film tiene insieme entrambe le dimensioni. Articolare il punto su cui le due letture convergono: anche assumendo il coming-of-age, l'iniziazione si compie come distacco.",
+      "materiali_di_riferimento": [
+        "step_4: sezione 'Contro-lettura: il coming-of-age che si nasconde'"
+      ],
+      "lunghezza_indicativa": "250-300 parole"
+    },
+    {
+      "numero": 10,
+      "titolo_sezione": "Nota sul metodo",
+      "funzione": "Sezione breve a chiusura del testo. Descrivere in forma neutra il sistema di lettura usato (assi di orientamento fenomenologico nell'ambito di HCAIRE) e dichiarare i limiti dell'analisi (accesso indiretto al film, parzialità della lente sulla dimensione comica e materiale).",
+      "materiali_di_riferimento": [
+        "step_1: avvertenze anti-confabulazione",
+        "step_4: limiti della lettura"
+      ],
+      "lunghezza_indicativa": "150-200 parole"
+    }
+  ],
+  "nota_editoriale": "La struttura proposta tiene il testo su una lunghezza complessiva di circa 3000-3500 parole, adatta a un articolo critico per un lettore colto ma non specialista. Tre punti di attenzione per la stesura: (1) la sezione sul Brion è il punto più alto e più rischioso del testo; va scritta con cura, tenendo l'ipotesi come ipotesi e non trasformandola in tesi rigida; (2) il tono ibrido del film va tematizzato in almeno un passaggio (probabilmente nella sezione sull'ultimo bicchiere o in quella sulla separazione finale) per non costruire un'immagine falsamente elegiaca dell'opera; (3) la nota sul metodo deve essere asciutta — nessuna celebrazione, nessuna giustificazione, nessuna formula del tipo 'il metodo ha permesso'; descrivere e basta. L'apertura sulle case 'Vendesi' è la chiave editoriale per non cominciare con un'astrazione: il lettore entra nel film prima che nell'argomento. Sul referenziamento ai personaggi: usare i nomi propri (Carlobianchi, Doriano, Giulio, Genio) il più possibile, non solo categorie generazionali, per dare consistenza umana al testo. Sul lessico tecnico degli assi: tradurre sistematicamente in formule descrittive — mai 'asse 4' o 'asse della separazione', sempre 'la separazione come forma', 'la tenuta del limite', ecc.",
+  "metadata": {
+    "data_compilazione": "2026-05-18",
+    "compilato_da": "Pipeline HCAIRE Cultura — Step 5A (Cowork)",
+    "versione": "1.0"
+  }
+}

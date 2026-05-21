@@ -23,7 +23,7 @@ Non reinterpreti il dispositivo. Verifichi che sia *dentro modello*.
 
 Versione finale del dispositivo: se F3 step 3 ha prodotto una correzione, usare il dispositivo come riformulato lì; altrimenti usare il dispositivo di F3 step 2.
 
-- `C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\micro-dispositivo-{dominio}-v1.json`
+- `C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\micro-dispositivo-{dominio}-v1.json`
 - + (se esiste e contiene `device_correction`) `stress-test-{dominio}-v1.json`
 
 ### INPUT SECONDARIO — F3 step 1 e F3 step 3
@@ -143,7 +143,7 @@ In caso di `fuori_modello`, indicare in `recommended_restart_step` il punto di r
 
 ### Schema
 
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\produzioni\f3-step-4-coerenza\coerenza-schema.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\input\produzioni\f3-step-4-coerenza\coerenza-schema.json`
 
 ### Wrapper
 
@@ -159,7 +159,7 @@ In caso di `fuori_modello`, indicare in `recommended_restart_step` il punto di r
 ### Salvataggio
 
 - **Nome file**: `coerenza-{dominio}-v1.json` (es. `coerenza-clinico-v1.json`)
-- **Cartella**: `C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\`
+- **Cartella**: `C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\temi\[nome-tema]\`
 - Produrre esclusivamente JSON valido. Nessun testo prima o dopo il JSON.
 
 ---

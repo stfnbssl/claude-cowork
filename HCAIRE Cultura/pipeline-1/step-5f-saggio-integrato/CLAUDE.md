@@ -19,7 +19,7 @@ Il risultato appartiene al genere del **saggio critico riflessivo**: un testo in
 
 Prima di scrivere, leggi il file:
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\pipeline-1\stile-editoriale.md
+C:\my\claude\claude-cowork\HCAIRE Cultura\pipeline-1\stile-editoriale.md
 ```
 Le norme lì contenute si applicano integralmente. In particolare: nessun riferimento agli step numerati, nessuna formula che presenti il metodo come condizione necessaria dei risultati, citazione di HCAIRE con nome proprio quando il progetto è nominato.
 
@@ -88,8 +88,8 @@ I due testi sorgente hanno inevitabilmente sovrapposizioni: alcune affermazioni 
 ## Percorso di input
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\articolo-finale.md
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\resoconto-processo.md
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\articolo-finale.md
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\resoconto-processo.md
 ```
 
 ---
@@ -97,8 +97,8 @@ C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial
 ## Percorso di output
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\step-5f-saggio-integrato.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\saggio-integrato.md
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\step-5f-saggio-integrato.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\saggio-integrato.md
 ```
 
 Produce un documento JSON conforme allo schema `schema.json` presente in questa cartella, e un file Markdown con il testo del saggio.

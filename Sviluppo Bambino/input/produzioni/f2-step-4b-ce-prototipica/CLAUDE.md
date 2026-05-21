@@ -71,10 +71,10 @@ Una Configurazione Evolutiva è la forma temporaneamente stabile assunta dalla d
 ## B. Input
 
 ### STEP 4 — Micro-matrice
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-matrix-v2.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-matrix-v2.json`
 
 ### STEP 2a — Verifica Nodi Trasversali (se disponibile)
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\node-verification-v1.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\node-verification-v1.json`
 
 Usa le mappature canoniche (N1–N7 attivati) per costruire la dimensione S della CE. Se STEP 2a non è disponibile, ricava i Nodi canonici attivati direttamente dagli assi e dalla `core_configuration` di STEP 4.
 
@@ -187,7 +187,7 @@ Le varianti servono a F3 per costruire i casi del dispositivo di lettura (access
 ## E. Output
 
 ### Schema
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\produzioni\f2-step-4b-ce-prototipica\ce-prototipica-schema.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\input\produzioni\f2-step-4b-ce-prototipica\ce-prototipica-schema.json`
 
 ### Wrapper
 ```json
@@ -199,7 +199,7 @@ Le varianti servono a F3 per costruire i casi del dispositivo di lettura (access
 
 ### Salvataggio
 - **Nome file**: `ce-prototipica-v1.json`
-- **Cartella**: `C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
+- **Cartella**: `C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
 - Produrre esclusivamente JSON valido. Nessun testo prima o dopo il JSON.
 
 ---
@@ -229,6 +229,19 @@ Le varianti servono a F3 per costruire i casi del dispositivo di lettura (access
 2. **Prima**: STEP 5 (Famiglia di output) — la CE Prototipica informa la costruzione delle famiglie di output
 3. **Input critico per F3**: la CE Prototipica diventa il nucleo della Configurazione Evolutiva nell'output-tipo vuoto (STEP 6), che a sua volta alimenta F3 STEP 1
 4. **Non iterativo**: se STEP 4 viene revisionato, rieseguire STEP 4b
+
+---
+
+## I. Criteri di skip (skip_reason ammesse)
+
+Questo step può essere saltato con `skip_reason` solo se il `skip_reason` corrisponde a uno dei due criteri seguenti. Nessun altro motivo è metodologicamente ammesso.
+
+| Codice | Condizione | Descrizione |
+|---|---|---|
+| `ce_fornita_dal_ricercatore` | Il ricercatore fornisce la CE Prototipica come input | La CE Prototipica è stata già prodotta (manualmente o in una sessione precedente) e il ricercatore la fornisce come input strutturato nel formato CE standard. Deve essere completa nelle cinque dimensioni S/R/D/T/A. |
+| `f3_non_pianificato` | Il tema non è destinato a passare in F3 | La ricerca in corso ha scopo teorico o comparativo e non prevede la costruzione di dispositivi F3. In questo caso la CE Prototipica non è necessaria per il ciclo corrente (potrà essere prodotta in un ciclo successivo se il tema viene promosso). |
+
+**Conseguenza dello skip**: STEP 6 (Output-tipo vuoto) dovrà costruire la sezione D (Configurazione complessiva) e le ipotesi di sostegno senza la firma CE formale. F3 STEP 1 opererà senza una CE Prototipica di riferimento, riducendo la precisione nella selezione del nodo dominante. Lo skip di 4b è accettabile solo se uno dei due criteri è soddisfatto — non come scorciatoia operativa.
 
 ---
 

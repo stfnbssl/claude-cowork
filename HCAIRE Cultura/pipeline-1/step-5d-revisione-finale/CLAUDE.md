@@ -20,7 +20,7 @@ Questo è l'ultimo step della pipeline. Il suo output è il prodotto editoriale 
 
 Prima di procedere con la revisione, rileggi il file:
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\pipeline-1\stile-editoriale.md
+C:\my\claude\claude-cowork\HCAIRE Cultura\pipeline-1\stile-editoriale.md
 ```
 Le norme lì contenute si applicano anche alla versione finale — la revisione è il momento in cui verificarle sistematicamente, non solo la checklist interna.
 
@@ -113,12 +113,11 @@ Il prodotto editoriale è criticamente onesto quando riconosce sia ciò che ha i
 ## Percorso di input
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\step-5c-stesura.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\step-5b-scaletta.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\step-5a-selezione-editoriale.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-4-saggio-critico-revisione.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\step-5c-stesura.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\step-5b-scaletta.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\step-5a-selezione-editoriale.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-4-saggio-critico-revisione.json
 ```
-
 Lo slug è quello generato durante lo Step 1.
 
 ---
@@ -126,8 +125,8 @@ Lo slug è quello generato durante lo Step 1.
 ## Percorso di output
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\step-5d-revisione-finale.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\articolo-finale.md
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\step-5d-revisione-finale.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\articolo-finale.md
 ```
 
 Produce un documento JSON conforme allo schema `schema.json` presente in questa cartella, e un file Markdown con il testo finale dell'articolo.

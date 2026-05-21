@@ -70,7 +70,7 @@ Lo slug identifica l'opera in modo univoco e determina il nome della cartella in
 Crea la cartella dell'opera e salva il file di output nel percorso:
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-1-dossier-contenutistico.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-1-dossier-contenutistico.json
 ```
 
 Se la cartella `letture\{slug}\` non esiste, creala prima di salvare il file.

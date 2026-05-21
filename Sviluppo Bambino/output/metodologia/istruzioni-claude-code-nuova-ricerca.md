@@ -92,7 +92,7 @@ Contenuto di: input/produzioni/f2-step-1-ricerca-temi/CLAUDE.md
 
 [Blocco 3 — istruzione di output]
 Salva i risultati con il nome: theme-discovery-v2.json
-nella cartella: C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\{ricerca_id}\
+nella cartella: C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\{ricerca_id}\
 ```
 
 **Nota**: se il campo note è vuoto, omettere la chiave `research_scope.notes` (o inviare `null`). L'agente tratterà l'assenza come "nessuna restrizione".

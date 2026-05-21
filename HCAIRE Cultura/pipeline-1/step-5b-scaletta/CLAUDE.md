@@ -62,11 +62,11 @@ Se la struttura proposta nello Step 5A non regge alla verifica, aggiustala qui. 
 ## Percorso di input
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\step-5a-selezione-editoriale.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-1-dossier-contenutistico.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-2-lettura-libera-orientata.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-3-lettura-strutturata-per-assi.json
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\step-4-saggio-critico-revisione.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\step-5a-selezione-editoriale.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-1-dossier-contenutistico.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-2-lettura-libera-orientata.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-3-lettura-strutturata-per-assi.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\step-4-saggio-critico-revisione.json
 ```
 
 Lo slug è quello generato durante lo Step 1.
@@ -76,7 +76,7 @@ Lo slug è quello generato durante lo Step 1.
 ## Percorso di output
 
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\{slug}\editorial\step-5b-scaletta.json
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\{slug}\editorial\step-5b-scaletta.json
 ```
 
 Produce un documento JSON conforme allo schema `schema.json` presente in questa cartella.

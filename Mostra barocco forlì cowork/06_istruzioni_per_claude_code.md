@@ -1,7 +1,7 @@
 # Istruzioni per Claude Code
 *Brief per generare il sito statico "Bird-watching artistico — Barocco a Forlì 2026"*
 
-> **Come usare questo file:** apri Claude Code nella cartella `C:\Users\nnmrd\Documents\Claude\Projects\Mostra barocco forlì\` e incolla nel prompt l'intero contenuto sotto la riga "INIZIO PROMPT". Claude Code si occuperà di leggere i file di partenza e generare la cartella `site/`. Poi seguirai le istruzioni di pubblicazione in fondo a questo documento.
+> **Come usare questo file:** apri Claude Code nella cartella `C:/my/claude/claude-cowork\Mostra barocco forlì\` e incolla nel prompt l'intero contenuto sotto la riga "INIZIO PROMPT". Claude Code si occuperà di leggere i file di partenza e generare la cartella `site/`. Poi seguirai le istruzioni di pubblicazione in fondo a questo documento.
 
 ---
 

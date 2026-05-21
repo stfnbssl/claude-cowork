@@ -33,7 +33,7 @@ Il tuo compito è verificare se i nodi candidati prodotti in STEP 2 corrispondon
 ## B. Input
 
 ### STEP 2 — Nodi candidati (per il tema scelto)
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-relevance-v2.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-relevance-v2.json`
 
 Usa esclusivamente i nodi presenti in `candidate_nodes` per il tema che stai analizzando. Non aggiungere nodi non presenti in STEP 2.
 
@@ -98,7 +98,7 @@ Produci `canonical_configuration_assessment`:
 ## E. Output
 
 ### Schema
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\produzioni\f2-step-2a-verifica-nodi-trasversali\node-verification-schema.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\input\produzioni\f2-step-2a-verifica-nodi-trasversali\node-verification-schema.json`
 
 ### Wrapper
 ```json
@@ -110,7 +110,7 @@ Produci `canonical_configuration_assessment`:
 
 ### Salvataggio
 - **Nome file**: `node-verification-v1.json`
-- **Cartella**: `C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
+- **Cartella**: `C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
 - Produrre esclusivamente JSON valido. Nessun testo prima o dopo il JSON.
 
 ---
@@ -134,6 +134,19 @@ Produci `canonical_configuration_assessment`:
 2. **Prima**: verifica di STEP 2 (il verificatore può usare questo output per valutare la coerenza tematica)
 3. **Dipendenza forte**: STEP 3 (Verifica strutturale) deve tenere conto delle mappature canoniche per validare definitivamente i nodi confermati
 4. **Non iterativo**: se STEP 2 viene revisionato, rieseguire STEP 2a
+
+---
+
+## I. Criteri di skip (skip_reason ammesse)
+
+Questo step può essere saltato con `skip_reason` solo se il `skip_reason` corrisponde a uno dei due criteri seguenti. Nessun altro motivo è metodologicamente ammesso.
+
+| Codice | Condizione | Descrizione |
+|---|---|---|
+| `input_canonico_fornito` | Il ricercatore fornisce direttamente la mappatura N1–N7 | Il ricercatore ha già prodotto o dispone della mappatura canonica (es. da una precedente elaborazione del tema). Deve essere fornita come input strutturato, non solo dichiarata. |
+| `tema_canonicamente_noto` | Il tema è già formalizzato nel modello con mappatura stabilita | Il tema è stato già portato in F2 in ricerche precedenti e la mappatura canonica è documentata nel sistema (es. un tema di una ricerca precedente verificata). |
+
+**Conseguenza dello skip**: STEP 3 dovrà ricavare i Nodi canonici direttamente dagli assi confermati di STEP 2, senza la mappatura esplicita. STEP 4b dovrà fare altrettanto per la CE Prototipica. Il rischio è una minore tracciabilità della catena F2→F3.
 
 ---
 

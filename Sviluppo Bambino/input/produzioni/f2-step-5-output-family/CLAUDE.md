@@ -19,16 +19,16 @@ Il tuo compito è trasformare la micro-matrice strutturale validata (STEP 4) in 
 ## B. Input
 
 ### STEP 1 — Definizione del tema
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-discovery-v2.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-discovery-v2.json`
 
 ### STEP 3 — Configurazione strutturale verificata
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-verification-v2.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-verification-v2.json`
 
 ### STEP 4 — Micro-matrice
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-matrix-v2.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\theme-matrix-v2.json`
 
 ### JSON precompilati dei sei assi
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled\`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\output\assi-strutturali\precompiled\`
 
 ---
 
@@ -135,19 +135,21 @@ Dopo aver prodotto tutte le famiglie di output per un tema, produci le `meta_not
 
 ### Schema
 Lo schema completo è in:
-`C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\produzioni\f2-step-5-output-family\output-family-schema.json`
+`C:/my/claude/claude-cowork\Sviluppo Bambino\input\produzioni\f2-step-5-output-family\output-family-schema.json`
 
-### Wrapper per input multi-tema
+### Wrapper output
 ```json
 {
   "step": "step_5",
-  "results": [ { ... }, { ... }, ... ]
+  "results": [ { ... } ]
 }
 ```
 
+> **F2 è single-tema**: `results` contiene sempre esattamente un elemento.
+
 ### Salvataggio
 - **Nome file**: `output-family-v2.json`
-- **Cartella**: `C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
+- **Cartella**: `C:/my/claude/claude-cowork\Sviluppo Bambino\output\produzioni\ricerche\[nome-ricerca]\`
 - Produrre esclusivamente JSON valido. Nessun testo prima o dopo il JSON.
 
 ---

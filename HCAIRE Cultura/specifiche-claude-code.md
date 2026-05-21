@@ -141,7 +141,7 @@ role "asse_6" → config/assi/asse_6.json
 
 Path di origine sul desktop di sviluppo:
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\assi-strutturali\precompiled\
+C:/my/claude/claude-cowork\Sviluppo Bambino\output\assi-strutturali\precompiled\
 ```
 In produzione: copiati in `server/schemas/letture/assi/` al deploy (vedi sezione Schema.json).
 
@@ -189,7 +189,7 @@ Variabile d'ambiente: `PIPELINE_OUTPUT_ROOT_LETTURE`
 
 Sul desktop di sviluppo corrisponde a:
 ```
-C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\letture\
+C:\my\claude\claude-cowork\HCAIRE Cultura\letture\
 ```
 
 Il server costruisce i path dei file così:
@@ -392,5 +392,5 @@ HCAIRE Cultura/
     └── step-5f-saggio-integrato/
 ```
 
-Desktop di sviluppo: `C:\Users\nnmrd\Documents\Claude\Projects\HCAIRE Cultura\`
+Desktop di sviluppo: `C:\my\claude\claude-cowork\HCAIRE Cultura\`
 Variabile d'ambiente: `PIPELINE_SPECS_ROOT_LETTURE`

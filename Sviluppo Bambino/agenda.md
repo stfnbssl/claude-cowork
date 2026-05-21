@@ -41,7 +41,7 @@ Procederei nel lavoro sul glossario in due direzioni:
 ### Priorità: alta
 ### Dipendenze: Step 1 completato ✓
 Il lavoro di chiarimento della terminologia, eseguito realizzando il glossario, ci consente ora di mettere mano ai documenti della metodologia. 
-In "C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\step 1" Abbiamo documenti classificati per fase. Quindi potrebbero essere utilizzati i documenti delle fasi dalla 2 alla 6 per produrre sei documenti ben strutturati di metodologia delle fasi dalla 2 alla 6. 
+In "C:/my/claude/claude-cowork\Sviluppo Bambino\output\step 1" Abbiamo documenti classificati per fase. Quindi potrebbero essere utilizzati i documenti delle fasi dalla 2 alla 6 per produrre sei documenti ben strutturati di metodologia delle fasi dalla 2 alla 6. 
 
 Prodotti 6 documenti in `output/metodologia/`:
 - `f2-traduzione-interdisciplinare.md` — pipeline, nodi trasversali N1-N7, grammatica CE
@@ -59,7 +59,7 @@ Prodotti 6 documenti in `output/metodologia/`:
 ### Dipendenze: Step 4 completato ✓
 ---
 Così come fatto per l'entry page della sezione Sviluppo Bambino, partendo dal glossario, ora dovremmo, per la sezione Metodo, all'interno del progetto Sviluppo Bambino, partire dai documenti prodotti sulla metodologia. Estrarre una serie di temi significativi da presentare nella pagina di ingresso per comunicare gli aspetti decisivi e salienti della metodologia. 
-Puoi produrre un documento temi entry page metodo, sempre nella cartella C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\output\metodologia
+Puoi produrre un documento temi entry page metodo, sempre nella cartella C:/my/claude/claude-cowork\Sviluppo Bambino\output\metodologia
 
 Prodotto: `output/metodologia/azione-005-temi-entry-page-metodo.md`
 11 temi in 3 gruppi (A fondativi, B di valore, C di posizionamento) con formulazione comunicativa, nucleo concettuale, valore comunicativo e note per il sito. Architettura narrativa suggerita per la entry page e note di progettazione.
@@ -74,7 +74,7 @@ Prodotto: `output/metodologia/azione-005-temi-entry-page-metodo.md`
 
 Nella riscrittura dei documenti della metodologia mancava la fase 1, fondazione ontologica, che ora dobbiamo affrontare. Non dobbiamo dilungarci troppo su questa fase, perché il nucleo di questa fase sono gli assi strutturali di sviluppo, che sono già stati elaborati altrove. Dobbiamo semplicemente richiamarne in principi per ricollegarci alle fasi successive, in particolare alla fase 2, che è quella successiva. 
 Ti do come riferimento questo documento redatto in Google Documents, che puoi utilizzare per illustrare i concetti chiave degli assi strutturali di sviluppo e quindi del lavoro di fondazione ontologica della fase 1: 
-C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\waiting\OM6 - Statuto epistemologico degli assi strutturali di sviluppo.docx
+C:/my/claude/claude-cowork\Sviluppo Bambino\input\waiting\OM6 - Statuto epistemologico degli assi strutturali di sviluppo.docx
 
 Prodotto: `output/metodologia/f1-fondazione-ontologica.md`
 7 sezioni: funzione della fase, il bambino come soggetto in sviluppo (4 conseguenze operative), i sei assi con gerarchia e 4 proprietà, statuto epistemologico (strutture interpretative vs variabili empiriche, mediazione metodologica, apertura alla revisione), circolazione controllata dei concetti, passaggio verso F2 (matrice + Nodi Trasversali), sintesi tabellare.
@@ -88,7 +88,7 @@ Prodotto: `output/metodologia/f1-fondazione-ontologica.md`
 ### Dipendenze: nessuna
 
 Nella cartella 
-C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\obiettivi e metodologia\01 Introduzione
+C:/my/claude/claude-cowork\Sviluppo Bambino\input\obiettivi e metodologia\01 Introduzione
 trovi due documenti che dovrebbero essere fusi in un unico documento di introduzione alla metodologia. Dopo avere svolto il lavoro sulle fasi dovrestio avere elementi per armonizzare il contenuto dell'introduzione a quello delle fasi. Questo documento deve essere piuttosto sobrio e sintetico.
 
 Prodotto: `output/metodologia/introduzione-metodologia.md`
@@ -103,7 +103,7 @@ Prodotto: `output/metodologia/introduzione-metodologia.md`
 ### Dipendenze: nessuna
 
 Nella cartella 
-C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\obiettivi e metodologia\02 rapporto con ricerca scientifica
+C:/my/claude/claude-cowork\Sviluppo Bambino\input\obiettivi e metodologia\02 rapporto con ricerca scientifica
 trovi due documenti che dovrebbero essere fusi in un unico documento. Anche questo dovrebbe essere armonizzare con quello fasi in modo sobrio e sintetico.
 
 Prodotto: `output/metodologia/rapporto-con-ricerca-scientifica.md`
@@ -117,7 +117,7 @@ Prodotto: `output/metodologia/rapporto-con-ricerca-scientifica.md`
 ### Dipendenze: nessuna
 
 I documenti con il dettaglio dei capitoli degli assi strutturali del progetto li trovi in:
-C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\assi strutturali\normalized
+C:/my/claude/claude-cowork\Sviluppo Bambino\input\assi strutturali\normalized
 Ti chiedo due cose:
 1. Siccome ogni capitolo cita autori, per lo più filosofi e libri da loro scritti è fattibile inserire nei documenti link a immagini degli autori prese da internet con licenza free e immagini dei loro libri, scaricando le immagini in una cartella asset, che il sito hcaire.com gestità.
 2. E' opportuno prima estrarre l'intera bibliografia e l'elenco degli autori magari in 2 file JSON con dati sintetici e sull'autore e sul libro?
@@ -164,7 +164,7 @@ per il progetto Sviluppo Bambino, scritto nella prospettiva del modello degli as
 ### Priorità: alta
 ### Dipendenze: nessuna
 
-Nella cartella C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\interlocuzioni
+Nella cartella C:/my/claude/claude-cowork\Sviluppo Bambino\input\interlocuzioni
 ho raccolto documentazione molto ricca su filoni di ricerca che possono interloquire con il progetto Sviluppo Bambino. 
 Il documento ...\interlocuzioni\Chat ricerca su discipline Sviluppo Bambino.md riporta l'esito di una chat utilizzata per impostare chat di approfondimento di cui è impostato il link.
 Formula alcune idee e un piano per utilizzare questo materiale per sviluppare la sezione Interlocuzioni del progetto Svilluppo Bambino. Per ciascuna disciplina dovrebbero essere evidenziati i temi rilevanti per Sviluppo Bambino anche in prospettiva delle traduzioni interdisciplinari in vista della realizzazione di strumenti operativi contestualizzati.
@@ -175,7 +175,7 @@ Formula alcune idee e un piano per utilizzare questo materiale per sviluppare la
 ### Stato: done
 ### Priorità: alta
 ### Dipendenze: nessuna
-Nel file C:\Users\nnmrd\Documents\Claude\Projects\Sviluppo Bambino\input\finalità\01 - Natura e finalità del progetto “Sviluppo del bambino”.md
+Nel file C:/my/claude/claude-cowork\Sviluppo Bambino\input\finalità\01 - Natura e finalità del progetto “Sviluppo del bambino”.md
 trovi una bozza di pagina di ingresso della sezione finalità. Questa sezione per ora non ha altre pagine. Prova a completarla e renderla coerente con le altre sezioni già viste. Da questo output Claude Code trarrà la landing page di questa sezione.
 ---
 ## Azione 014

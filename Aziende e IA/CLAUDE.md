@@ -21,5 +21,5 @@ Principi metodologici vincolanti:
 
 Gli agenti devono operare in modo disciplinato, proporzionando ogni inferenza alla qualità delle evidenze disponibili e restituendo risultati in forma strutturata, chiara e verificabile.
 
-Il primo step ancora da verificare è in C:\Users\nnmrd\Documents\Claude\Projects\Aziende e IA\step-1-bozza.md
+Il primo step ancora da verificare è in C:/my/claude/claude-cowork\Aziende e IA\step-1-bozza.md
 Gli step 2 e 3 saranno predisposti in seguito. 
