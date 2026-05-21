@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ArticleOutput",
+  "description": "Contratto di output Cowork → articleWorker per la generazione di articoli HCAIRE",
+  "type": "object",
+  "required": ["slug", "titolo", "descrizione", "contenuto", "categoria", "tags", "autore"],
+  "additionalProperties": false,
+  "properties": {
+    "slug": {
+      "type": "string",
+      "description": "Identificatore URL-safe univoco dell'articolo",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "examples": ["come-dormire-meglio", "benefici-della-meditazione"]
+    },
+    "titolo": {
+      "type": "string",
+      "description": "Titolo completo dell'articolo",
+      "minLength": 5,
+      "maxLength": 200
+    },
+    "descrizione": {
+      "type": "string",
+      "description": "Sommario di 1-2 frasi per preview e SEO (idealmente 120-160 caratteri)",
+      "minLength": 50,
+      "maxLength": 300
+    },
+    "contenuto": {
+      "type": "string",
+      "description": "Corpo dell'articolo in Markdown puro, senza front matter YAML",
+      "minLength": 100
+    },
+    "categoria": {
+      "type": "string",
+      "description": "Categoria principale dell'articolo",
+      "minLength": 2,
+      "examples": ["Salute", "Benessere", "Tecnologia", "Nutrizione", "Generale"]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Lista di tag SEO-friendly (max 5). Può essere vuota, mai null.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "maxItems": 5,
+      "uniqueItems": true
+    },
+    "autore": {
+      "type": "string",
+      "description": "Identificativo autore — sempre 'stfnbssl'",
+      "const": "stfnbssl"
+    }
+  }
+}
