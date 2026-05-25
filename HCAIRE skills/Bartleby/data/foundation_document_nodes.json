@@ -1,218 +1,140 @@
 [
   {
     "foundation_document_id": "fd-004",
-    "concept_node_id": "cn-001",
+    "concept_node_id": "N1",
     "relation_type": "origine",
-    "notes": "L'Atlante è la fonte definitoria primaria del nodo Relazione adulto-bambino."
+    "notes": "L'Atlante dei nodi trasversali (v2.0) e la fonte definitoria del nodo Regolazione / Integrazione dell'esperienza."
   },
   {
     "foundation_document_id": "fd-004",
-    "concept_node_id": "cn-002",
+    "concept_node_id": "N2",
     "relation_type": "origine",
-    "notes": "L'Atlante è la fonte definitoria primaria del nodo Regolazione e co-regolazione."
+    "notes": "L'Atlante dei nodi trasversali (v2.0) e la fonte definitoria del nodo Campo relazionale / Co-regolazione."
   },
   {
     "foundation_document_id": "fd-004",
-    "concept_node_id": "cn-003",
+    "concept_node_id": "N3",
     "relation_type": "origine",
-    "notes": "L'Atlante è la fonte definitoria primaria del nodo Linguaggio e significato condiviso."
+    "notes": "L'Atlante dei nodi trasversali (v2.0) e la fonte definitoria del nodo Accesso al mondo condiviso simbolico."
   },
   {
     "foundation_document_id": "fd-004",
-    "concept_node_id": "cn-004",
+    "concept_node_id": "N4",
     "relation_type": "origine",
-    "notes": "L'Atlante è la fonte definitoria primaria del nodo Affettività."
+    "notes": "L'Atlante dei nodi trasversali (v2.0) e la fonte definitoria del nodo Apertura / Esplorabilità del mondo."
   },
   {
     "foundation_document_id": "fd-004",
-    "concept_node_id": "cn-005",
+    "concept_node_id": "N5",
     "relation_type": "origine",
-    "notes": "L'Atlante è la fonte definitoria primaria del nodo Corpo e esperienza incarnata."
+    "notes": "L'Atlante dei nodi trasversali (v2.0) e la fonte definitoria del nodo Separazione / Limite reale."
   },
   {
     "foundation_document_id": "fd-004",
-    "concept_node_id": "cn-006",
+    "concept_node_id": "N6",
     "relation_type": "origine",
-    "notes": "L'Atlante è la fonte definitoria primaria del nodo Limite reale e separazione."
+    "notes": "L'Atlante dei nodi trasversali (v2.0) e la fonte definitoria del nodo Continuità temporale del Sé nascente."
   },
   {
     "foundation_document_id": "fd-004",
-    "concept_node_id": "cn-007",
+    "concept_node_id": "N7",
     "relation_type": "origine",
-    "notes": "L'Atlante è la fonte definitoria primaria del nodo Desiderio e iniziativa del soggetto."
-  },
-  {
-    "foundation_document_id": "fd-004",
-    "concept_node_id": "cn-008",
-    "relation_type": "origine",
-    "notes": "L'Atlante è la fonte definitoria primaria del nodo Contesto storico-culturale."
-  },
-  {
-    "foundation_document_id": "fd-004",
-    "concept_node_id": "cn-009",
-    "relation_type": "origine",
-    "notes": "L'Atlante è la fonte definitoria primaria del nodo Integrazione/disorganizzazione."
-  },
-  {
-    "foundation_document_id": "fd-004",
-    "concept_node_id": "cn-010",
-    "relation_type": "origine",
-    "notes": "L'Atlante è la fonte definitoria primaria del nodo Apertura/chiusura al mondo."
+    "notes": "L'Atlante dei nodi trasversali (v2.0) e la fonte definitoria del nodo Desiderio / Direzione dell'esperienza."
   },
   {
     "foundation_document_id": "fd-001",
-    "concept_node_id": "cn-005",
+    "concept_node_id": "N2",
     "relation_type": "supporto",
-    "notes": "La Carta fondativa definisce il 'soggetto incarnato' come primo concetto strutturale, fondamento del nodo Corpo."
+    "notes": "La Carta fondativa sostiene il nodo Campo relazionale / Co-regolazione attraverso i propri concetti strutturali fondativi."
   },
   {
     "foundation_document_id": "fd-001",
-    "concept_node_id": "cn-001",
+    "concept_node_id": "N3",
     "relation_type": "supporto",
-    "notes": "La Carta fondativa definisce la 'relazione costitutiva' come terzo concetto strutturale, fondamento del nodo Relazione."
+    "notes": "La Carta fondativa sostiene il nodo Accesso al mondo condiviso simbolico attraverso i propri concetti strutturali fondativi."
   },
   {
     "foundation_document_id": "fd-001",
-    "concept_node_id": "cn-006",
+    "concept_node_id": "N4",
     "relation_type": "supporto",
-    "notes": "La Carta fondativa definisce 'separazione e limite' come quinto concetto strutturale, fondamento del nodo Limite."
+    "notes": "La Carta fondativa sostiene il nodo Apertura / Esplorabilità del mondo attraverso i propri concetti strutturali fondativi."
   },
   {
     "foundation_document_id": "fd-001",
-    "concept_node_id": "cn-007",
+    "concept_node_id": "N5",
     "relation_type": "supporto",
-    "notes": "La Carta fondativa definisce il 'desiderio' come sesto concetto strutturale, fondamento del nodo Desiderio."
+    "notes": "La Carta fondativa sostiene il nodo Separazione / Limite reale attraverso i propri concetti strutturali fondativi."
   },
   {
     "foundation_document_id": "fd-001",
-    "concept_node_id": "cn-008",
+    "concept_node_id": "N7",
     "relation_type": "supporto",
-    "notes": "La Carta fondativa definisce il 'mondo storico-culturale' come settimo concetto strutturale, fondamento del nodo Contesto."
-  },
-  {
-    "foundation_document_id": "fd-001",
-    "concept_node_id": "cn-003",
-    "relation_type": "supporto",
-    "notes": "La Carta fondativa definisce 'simbolico e linguaggio' come ottavo concetto strutturale, fondamento del nodo Linguaggio."
-  },
-  {
-    "foundation_document_id": "fd-001",
-    "concept_node_id": "cn-004",
-    "relation_type": "supporto",
-    "notes": "La Carta fondativa include la 'cura' come nono concetto strutturale, strettamente connessa al nodo Affettività."
-  },
-  {
-    "foundation_document_id": "fd-001",
-    "concept_node_id": "cn-010",
-    "relation_type": "supporto",
-    "notes": "La Carta fondativa definisce il 'campo intenzionale' come secondo concetto strutturale, fondamento del nodo Apertura/chiusura al mondo."
+    "notes": "La Carta fondativa sostiene il nodo Desiderio / Direzione dell'esperienza attraverso i propri concetti strutturali fondativi."
   },
   {
     "foundation_document_id": "fd-002",
-    "concept_node_id": "cn-001",
+    "concept_node_id": "N1",
     "relation_type": "attivazione",
-    "notes": "Il Motore definisce gli operatori di lettura per il nodo Relazione applicabili nei 5 moduli di elaborazione."
+    "notes": "Il Motore di traducibilita definisce gli operatori di lettura per il nodo Regolazione / Integrazione dell'esperienza."
   },
   {
     "foundation_document_id": "fd-002",
-    "concept_node_id": "cn-002",
+    "concept_node_id": "N2",
     "relation_type": "attivazione",
-    "notes": "Il Motore definisce gli operatori di lettura per il nodo Regolazione applicabili nei 5 moduli di elaborazione."
+    "notes": "Il Motore di traducibilita definisce gli operatori di lettura per il nodo Campo relazionale / Co-regolazione."
   },
   {
     "foundation_document_id": "fd-002",
-    "concept_node_id": "cn-003",
+    "concept_node_id": "N3",
     "relation_type": "attivazione",
-    "notes": "Il Motore definisce gli operatori di lettura per il nodo Linguaggio applicabili nei 5 moduli di elaborazione."
+    "notes": "Il Motore di traducibilita definisce gli operatori di lettura per il nodo Accesso al mondo condiviso simbolico."
   },
   {
     "foundation_document_id": "fd-002",
-    "concept_node_id": "cn-004",
+    "concept_node_id": "N4",
     "relation_type": "attivazione",
-    "notes": "Il Motore definisce gli operatori di lettura per il nodo Affettività applicabili nei 5 moduli di elaborazione."
+    "notes": "Il Motore di traducibilita definisce gli operatori di lettura per il nodo Apertura / Esplorabilità del mondo."
   },
   {
     "foundation_document_id": "fd-002",
-    "concept_node_id": "cn-005",
+    "concept_node_id": "N5",
     "relation_type": "attivazione",
-    "notes": "Il Motore definisce gli operatori di lettura per il nodo Corpo applicabili nei 5 moduli di elaborazione."
+    "notes": "Il Motore di traducibilita definisce gli operatori di lettura per il nodo Separazione / Limite reale."
   },
   {
     "foundation_document_id": "fd-002",
-    "concept_node_id": "cn-006",
+    "concept_node_id": "N7",
     "relation_type": "attivazione",
-    "notes": "Il Motore definisce gli operatori di lettura per il nodo Limite applicabili nei 5 moduli di elaborazione."
-  },
-  {
-    "foundation_document_id": "fd-002",
-    "concept_node_id": "cn-007",
-    "relation_type": "attivazione",
-    "notes": "Il Motore definisce gli operatori di lettura per il nodo Desiderio applicabili nei 5 moduli di elaborazione."
-  },
-  {
-    "foundation_document_id": "fd-002",
-    "concept_node_id": "cn-008",
-    "relation_type": "attivazione",
-    "notes": "Il Motore definisce gli operatori di lettura per il nodo Contesto applicabili nei 5 moduli di elaborazione."
-  },
-  {
-    "foundation_document_id": "fd-002",
-    "concept_node_id": "cn-009",
-    "relation_type": "attivazione",
-    "notes": "Il Motore definisce gli operatori di lettura per il nodo Integrazione/disorganizzazione applicabili nei 5 moduli."
-  },
-  {
-    "foundation_document_id": "fd-002",
-    "concept_node_id": "cn-010",
-    "relation_type": "attivazione",
-    "notes": "Il Motore definisce gli operatori di lettura per il nodo Apertura/chiusura applicabili nei 5 moduli di elaborazione."
+    "notes": "Il Motore di traducibilita definisce gli operatori di lettura per il nodo Desiderio / Direzione dell'esperienza."
   },
   {
     "foundation_document_id": "fd-003",
-    "concept_node_id": "cn-001",
+    "concept_node_id": "N1",
     "relation_type": "traduzione-interdisciplinare",
-    "notes": "La Matrice mappa le traduzioni del nodo Relazione nei linguaggi clinico, pedagogico, sociale e politico."
+    "notes": "La Matrice mappa le traduzioni del nodo Regolazione / Integrazione dell'esperienza nei linguaggi dei diversi ambiti."
   },
   {
     "foundation_document_id": "fd-003",
-    "concept_node_id": "cn-002",
+    "concept_node_id": "N2",
     "relation_type": "traduzione-interdisciplinare",
-    "notes": "La Matrice mappa le traduzioni del nodo Regolazione nei linguaggi dei diversi ambiti."
+    "notes": "La Matrice mappa le traduzioni del nodo Campo relazionale / Co-regolazione nei linguaggi dei diversi ambiti."
   },
   {
     "foundation_document_id": "fd-003",
-    "concept_node_id": "cn-003",
+    "concept_node_id": "N3",
     "relation_type": "traduzione-interdisciplinare",
-    "notes": "La Matrice mappa le traduzioni del nodo Linguaggio nei linguaggi dei diversi ambiti."
+    "notes": "La Matrice mappa le traduzioni del nodo Accesso al mondo condiviso simbolico nei linguaggi dei diversi ambiti."
   },
   {
     "foundation_document_id": "fd-003",
-    "concept_node_id": "cn-004",
+    "concept_node_id": "N5",
     "relation_type": "traduzione-interdisciplinare",
-    "notes": "La Matrice mappa le traduzioni del nodo Affettività nei linguaggi dei diversi ambiti."
+    "notes": "La Matrice mappa le traduzioni del nodo Separazione / Limite reale nei linguaggi dei diversi ambiti."
   },
   {
     "foundation_document_id": "fd-003",
-    "concept_node_id": "cn-005",
+    "concept_node_id": "N7",
     "relation_type": "traduzione-interdisciplinare",
-    "notes": "La Matrice mappa le traduzioni del nodo Corpo nei linguaggi dei diversi ambiti."
-  },
-  {
-    "foundation_document_id": "fd-003",
-    "concept_node_id": "cn-006",
-    "relation_type": "traduzione-interdisciplinare",
-    "notes": "La Matrice mappa le traduzioni del nodo Limite nei linguaggi dei diversi ambiti."
-  },
-  {
-    "foundation_document_id": "fd-003",
-    "concept_node_id": "cn-007",
-    "relation_type": "traduzione-interdisciplinare",
-    "notes": "La Matrice mappa le traduzioni del nodo Desiderio nei linguaggi dei diversi ambiti."
-  },
-  {
-    "foundation_document_id": "fd-003",
-    "concept_node_id": "cn-008",
-    "relation_type": "traduzione-interdisciplinare",
-    "notes": "La Matrice mappa le traduzioni del nodo Contesto storico-culturale nei linguaggi dei diversi ambiti."
+    "notes": "La Matrice mappa le traduzioni del nodo Desiderio / Direzione dell'esperienza nei linguaggi dei diversi ambiti."
   }
 ]

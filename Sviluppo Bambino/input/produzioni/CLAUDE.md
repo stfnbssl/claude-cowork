@@ -140,24 +140,24 @@ F3 lavora su **un tema per volta**, **per dominio**: una pipeline F3 = un dispos
 **Funzione**: identificare il nodo dominante della CE per il dominio scelto e determinare la funzione dell'intervento (1 di 4 categorie chiuse: stabilizzare, ampliare, mediare, proteggere).
 **Input primario**: `output-tipo-vuoto-v1.json` (F2 step 6).
 **Input esterno obbligatorio**: dominio + context_label + note opzionali del ricercatore.
-**Output**: `output/produzioni/temi/[nome-tema]/nodo-funzione-{dominio}-v1.json`
+**Output**: `output/produzioni/temi/<context_id>/nodo-funzione-v{N}.json`
 **Verifica**: presente.
 **Schema**: `f3-step-1-nodo-funzione/nodo-funzione-schema.json`
 
 ### f3-step-2 — Micro-dispositivo di campo
 **Cartella**: `f3-step-2-micro-dispositivo/`
 **Funzione**: costruzione del micro-dispositivo nel template a 7 campi della metodologia (CE di origine, nodo dominante, funzione, campo bersaglio, 3-5 micro-azioni, tempo reale, indicatore di risonanza), classificato secondo la tipologia universale U1-U6 e dotato di condizioni di non-applicabilità.
-**Input primario**: `nodo-funzione-{dominio}-v1.json` + `output-tipo-vuoto-v1.json`.
-**Output**: `output/produzioni/temi/[nome-tema]/micro-dispositivo-{dominio}-v1.json`
+**Input primario**: `nodo-funzione-v{N}.json` + `output-tipo-vuoto-v{N}.json`.
+**Output**: `output/produzioni/temi/<context_id>/micro-dispositivo-v{N}.json`
 **Verifica**: presente.
 **Schema**: `f3-step-2-micro-dispositivo/micro-dispositivo-schema.json`
 
 ### f3-step-3 — Stress test e correzione
 **Cartella**: `f3-step-3-stress-test/`
 **Funzione**: stress test integrato del dispositivo su 5 casi tipologici (assenza, parziale, distorta-chiudente, oscillante, apparente-indistinguibile) + eventuale correzione condizionale del dispositivo se i breaking point sono strutturali.
-**Input primario**: `micro-dispositivo-{dominio}-v1.json` + `nodo-funzione-{dominio}-v1.json`.
+**Input primario**: `micro-dispositivo-v{N}.json` + `nodo-funzione-v{N}.json`.
 **Input esterno facoltativo**: casi reali del dominio forniti dal ricercatore (raccomandati).
-**Output**: `output/produzioni/temi/[nome-tema]/stress-test-{dominio}-v1.json`
+**Output**: `output/produzioni/temi/<context_id>/stress-test-v{N}.json`
 **Verifica**: presente.
 **Schema**: `f3-step-3-stress-test/stress-test-schema.json`
 
@@ -165,17 +165,17 @@ F3 lavora su **un tema per volta**, **per dominio**: una pipeline F3 = un dispos
 **Cartella**: `f3-step-4-coerenza/`
 **Funzione**: verifica obbligatoria del dispositivo finale tramite checklist di 10 controlli (5 di coerenza F3 dalla sez. 2.7 della metodologia + 4 di logica decisionale dalla sez. 5.4 + 1 di auto-limitazione dalla sez. 5.6). Verdetto: `valido` / `richiede_revisione` / `fuori_modello`.
 **Input primario**: dispositivo finale (da step 2 o, se corretto, da step 3) + esito stress test.
-**Output**: `output/produzioni/temi/[nome-tema]/coerenza-{dominio}-v1.json`
+**Output**: `output/produzioni/temi/<context_id>/coerenza-v{N}.json`
 **Verifica**: non presente — la verifica *è* lo step.
 **Schema**: `f3-step-4-coerenza/coerenza-schema.json`
 
-### f3-step-5 — Audit metodologico (opzionale)
-**Cartella**: `f3-step-5-audit-metodologico/`
-**Funzione**: audit della qualità di esecuzione della pipeline F3 (8 controlli su coerenza tra step, validità degli ancoraggi, gestione dell'ambiguità). Non verifica il metodo né il dispositivo nel merito: verifica che gli agenti AI abbiano applicato il metodo richiesto. **Step opzionale** — eseguire prima di pubblicare un dispositivo o quando entra in uso pratico.
-**Input primario**: tutti gli output F3 step 1-4.
-**Output**: `output/produzioni/temi/[nome-tema]/audit-{dominio}-v1.json`
-**Verifica**: non presente.
-**Schema**: `f3-step-5-audit-metodologico/audit-schema.json`
+### f3-step-5 — Output-tipo contestualizzato
+**Cartella**: `f3-step-5-output-tipo-contestualizzato/`
+**Funzione**: tradurre la struttura triadica astratta dell'output-tipo vuoto (F2 step 6) in uno strumento operativo contestualizzato — il prodotto finale della pipeline F3. Le cinque sezioni A–E vengono "riempite" con il contesto del dominio scelto (esempi orientativi contestuali, cornice linguistica condivisa, snodi decisionali esterni), più sintesi narrativa contestuale, direzione orientativa e riferimento al dispositivo.
+**Input primario**: dispositivo finale (`micro-dispositivo-v{N}.json` o, se corretto, la versione corretta da step 3) + `output-tipo-vuoto-v{N}.json` (F2 step 6) + `coerenza-v{N}.json`.
+**Output**: `output/produzioni/temi/<context_id>/output-tipo-{dominio}-v{N}.json` *(unico step F3 che mantiene `{dominio}` nel filename — convenzione editoriale per il sito HCAIRE)*
+**Verifica**: non presente — è il passo conclusivo della pipeline F3.
+**Schema**: `f3-step-5-output-tipo-contestualizzato/output-tipo-schema.json`
 
 ---
 
@@ -194,10 +194,10 @@ output/produzioni/
       output-family-vN.json
       output-tipo-vuoto-v1.json     ← f2-step-6 (Passaporto del tema → input F3)
   temi/
-    [nome-tema]/             ← una cartella per ogni tema portato in F3
-      nodo-funzione-{dominio}-v1.json     ← f3-step-1 (uno per dominio)
-      micro-dispositivo-{dominio}-v1.json ← f3-step-2
-      stress-test-{dominio}-v1.json       ← f3-step-3
-      coerenza-{dominio}-v1.json          ← f3-step-4
-      audit-{dominio}-v1.json             ← f3-step-5 (opzionale)
+    <context_id>/            ← <theme_id>--<ambito_id>, una cartella per (tema × ambito)
+      nodo-funzione-v{N}.json             ← f3-step-1
+      micro-dispositivo-v{N}.json         ← f3-step-2
+      stress-test-v{N}.json               ← f3-step-3
+      coerenza-v{N}.json                  ← f3-step-4
+      output-tipo-{dominio}-v{N}.json     ← f3-step-5 (mantiene {dominio} nel filename)
       revisioni.md                        ← feedback epis

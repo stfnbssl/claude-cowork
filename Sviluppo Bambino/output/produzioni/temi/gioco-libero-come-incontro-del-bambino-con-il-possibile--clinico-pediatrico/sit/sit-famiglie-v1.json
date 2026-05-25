@@ -1,0 +1,77 @@
+{
+  "step": "f3_sit_step_1",
+  "tema_id": "gioco-libero-come-incontro-del-bambino-con-il-possibile",
+  "domain_selected": "clinico",
+  "results": [
+    {
+      "device_reference": {
+        "source_device_id": "micro-dispositivo-v1 (corretto in stress-test-v1 / device_correction)",
+        "dominant_node": "campo-desiderabile",
+        "function": "proteggere",
+        "target_field": "Tempo non finalizzato dell'osservazione clinica",
+        "universal_device_type": ["U3", "U6"]
+      },
+      "selected_families": [
+        {
+          "family_id": "F3-SIT-1",
+          "family_name": "Casistiche situazionali",
+          "priority": "alta",
+          "target_user": "formatore",
+          "reason": "Lo stress test (f3_step_3) fornisce 5 casi tipologici gia sotto modello — assenza, parziale, distorta-chiudente, oscillante, apparente-indistinguibile — direttamente convertibili in casistiche che insegnano a riconoscere quando il campo non finalizzato si apre, si erode, si frammenta o si simula. Materiale privilegiato e non da inventare.",
+          "expected_items": 5
+        },
+        {
+          "family_id": "F3-SIT-2",
+          "family_name": "Frasi per operatori",
+          "priority": "alta",
+          "target_user": "pediatra",
+          "reason": "Il dispositivo e osservato dal pediatra e contiene gia formule esplicite (ma1 dichiarazione dell'intervallo, ma4 comunicazione al caregiver) e snodi di restituzione al caregiver (output-tipo sez. C ed E). Servono frasi per aprire l'intervallo, sospendere l'attesa prestazionale del genitore e restituire l'osservazione senza prescrivere.",
+          "expected_items": 5
+        },
+        {
+          "family_id": "F3-SIT-4",
+          "family_name": "Schede di atteggiamento adulto",
+          "priority": "alta",
+          "target_user": "pediatra",
+          "reason": "Il breaking point strutturale del caso distorta-chiudente e la correzione di ma1/ma3 (tono ordinario non solenne, postura non frontale, densita attentiva non concentrata) mostrano che la qualita del campo dipende dal 'come stare' del pediatra piu che dal contenuto delle azioni. Per un dispositivo a funzione 'proteggere' la scheda di atteggiamento e la forma centrale.",
+          "expected_items": 4
+        },
+        {
+          "family_id": "F3-SIT-6",
+          "family_name": "Vignette formative",
+          "priority": "media",
+          "target_user": "formatore",
+          "reason": "I casi distorta-chiudente e apparente-indistinguibile sono ideali per vignette che contrappongono lettura ingenua e lettura configurazionale della stessa scena. L'output-tipo (sez. E) richiama esplicitamente i gruppi di supervisione pediatrica come contesto in cui riprendere il riconoscimento dell'orientamento autonomo.",
+          "expected_items": 3
+        },
+        {
+          "family_id": "F3-SIT-8",
+          "family_name": "Linee guida narrative non prescrittive",
+          "priority": "media",
+          "target_user": "pediatra",
+          "reason": "L'output-tipo (sez. E) segnala il rischio che colleghi e caregiver leggano il tempo non finalizzato come 'tempo perso' o 'non clinico'. Una linea guida narrativa non prescrittiva orienta i pediatri a riconoscere e custodire questa qualita di campo senza trasformare il dispositivo in protocollo.",
+          "expected_items": 2
+        }
+      ],
+      "excluded_families": [
+        {
+          "family_id": "F3-SIT-3",
+          "reason": "In questo dominio il dispositivo agisce attraverso il pediatra; la funzione del caregiver e sospendere la pressione prestazionale (ma4), non ricevere frasi da rivolgere al bambino. Le frasi caregiver-bambino non sono il canale del dispositivo."
+        },
+        {
+          "family_id": "F3-SIT-5",
+          "reason": "Forte sovrapposizione con il micro-dispositivo di campo (F3 step 2) e con le casistiche F3-SIT-1; in fase pilota non aggiunge una forma comunicativa distinta."
+        },
+        {
+          "family_id": "F3-SIT-7",
+          "reason": "Il dominio clinico-pediatrico con osservatore professionale e servito meglio da vignette e casistiche; lo storyboard a fumetti e una forma divulgativa rivolta a un pubblico ampio, non prioritaria per la formazione dei pediatri."
+        },
+        {
+          "family_id": "F3-SIT-9",
+          "reason": "Non prioritario in fase pilota; le famiglie narrative selezionate (vignette, linee guida) non richiedono produzione assistita di immagini o video."
+        }
+      ],
+      "narrative_families_selected": true
+    }
+  ]
+}

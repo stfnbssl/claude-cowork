@@ -1,0 +1,239 @@
+{
+  "opera": {
+    "titolo": "Antartica - Quasi una fiaba",
+    "autore": "Lucia Calamaro",
+    "altri_autori": [
+      "Marco Pettinello (co-sceneggiatura, da confermare)",
+      "Silvio Orlando (interprete principale)",
+      "Barbara Ronchi (interprete principale)",
+      "Valentina Bellè (interprete)"
+    ],
+    "macrotipologia": "film",
+    "genere": "Drammatico in chiave di apologo/fiaba, con elementi di fantascienza (classificato da alcune fonti anche come commedia)",
+    "anno": 2026,
+    "paese": "Italia",
+    "editore_produttore": "Wildside (gruppo Fremantle), Indigo Film, Vision Distribution; in collaborazione con Sky",
+    "materiali_disponibili": [
+      "Metadati forniti dal sistema (titolo, autore, tipologia, lingua)",
+      "Sinossi e materiali di lancio reperiti via web (schede film, pagina del distributore)",
+      "Recensioni critiche pubblicate intorno alla data di uscita",
+      "Intervista alla regista",
+      "NESSUN accesso diretto alla visione integrale del film"
+    ],
+    "fonti_utilizzate": [
+      "MYmovies.it — scheda film (2026)",
+      "Movieplayer.it — scheda film, trama e cast; recensione",
+      "Vision Distribution — pagina ufficiale del film",
+      "Cinemonitor.it — recensione",
+      "Doppiozero.com — recensione di Massimo Marino ('Antartica, la vita nel ghiaccio')",
+      "Close-up.info — recensione",
+      "Sentieriselvaggi.it — recensione (non accessibile in lettura diretta)",
+      "Artribune.com — intervista a Lucia Calamaro (maggio 2026)",
+      "Sky TG24 — articolo trama e cast (7 maggio 2026)",
+      "Il Sole 24 ORE / Stream24 — servizio video",
+      "IMDb — scheda film (tt35822521)"
+    ]
+  },
+  "sintesi_contenutistica": "Il film è ambientato presso una base scientifica situata in Antartide — indicata nelle recensioni con il nome \"Sidera\" — dove una piccola comunità di circa nove-dieci scienziati italiani vive in completo isolamento, irraggiungibile dal resto del mondo per circa otto mesi l'anno. Il gruppo, coordinato dall'anziano capomissione Fulvio Cadorna, conduce ricerche avanzate su forme di vita e campioni biologici conservati nel ghiaccio: al centro dell'indagine vi sarebbero microrganismi (rotiferi) rimasti congelati per millenni e potenzialmente riconducibili in vita, studiati in vista di possibili applicazioni all'ibernazione e alla conservazione della vita dei mammiferi. L'equilibrio della missione viene messo in crisi dall'arrivo di Maria (cognome Medri secondo alcune fonti), scienziata determinata, brillante e anticonformista, già allieva di Cadorna e a lui legata anche sul piano affettivo. Inizialmente collaborativo, il loro rapporto si incrina per divergenze metodologiche ed etiche che evolverebbero in rivalità personale. Si sviluppano alcune linee narrative parallele: il venir meno dei finanziamenti statali alla missione; l'offerta di una multinazionale di finanziare la ricerca in cambio della sua brevettazione e commercializzazione, con conseguente frattura etica nel gruppo (deciso in una assemblea collettiva); esperimenti di ibernazione, condotti secondo alcune recensioni su animali (ad esempio tartarughe) e ripetutamente falliti; una diagnosi di malattia che colpirebbe Cadorna; e gli effetti psicologici dell'isolamento. Cadorna coltiverebbe inoltre il progetto idealistico di una \"città di ghiaccio\". Il film alterna registro comico e drammatico in chiave di 'fiaba' filosofica e procede, con andamento prevalentemente lineare ma per progressione graduale, verso un finale (un monologo di Cadorna in atmosfera onirica) e un'immagine conclusiva descritti dalla critica come sorprendenti. Gli elementi qui riportati provengono da fonti secondarie e vanno considerati con cautela (vedi avvertenze).",
+  "struttura_formale": {
+    "descrizione": "Lungometraggio di finzione di circa 93 minuti, dalla struttura prevalentemente lineare e a forte impianto corale, costruito attorno a un unico luogo chiuso (la base antartica). La narrazione, secondo le recensioni, prende avvio quasi in medias res con l'arrivo di Maria e procede per progressione graduale, quasi impercettibile, verso un'immagine conclusiva. Si tratta dell'esordio cinematografico della regista, proveniente dal teatro.",
+    "unita": [
+      {
+        "nome": "Lungometraggio unitario",
+        "descrizione_sintetica": "Film a struttura continua, non suddiviso pubblicamente in atti o capitoli dichiarati; la scansione interna è data dalle tappe della ricerca (esperimenti e fallimenti), dalle dinamiche del gruppo, dalla linea dei finanziamenti e da alcune sequenze oniriche/simboliche."
+      }
+    ],
+    "scelte_formali_rilevanti": "Più fonti segnalano un'impronta teatrale evidente, derivata dalla provenienza drammaturgica della regista: scavo concentrato sui personaggi, impianto 'concentrato e teatrale', ambienti scenografici essenziali e stilizzati. Sul piano visivo le recensioni descrivono una fotografia dai toni di un bianco luminoso, scene prevalentemente diurne e atmosfere calde, scelta che attenuerebbe la dimensione glaciale a favore di un registro quasi utopico; sono citate inquadrature dal basso accostate allo stile di Carl Theodor Dreyer e movimenti di macchina circolari attorno ai personaggi nei momenti onirici. Ricorrono elementi cromatici e scenici (tute rosse, tessuti azzurri, ambienti spogli) e l'inserimento di citazioni dell'aforista Stanisław Jerzy Lec. Una sequenza onirica mostrerebbe il collasso delle carote di ghiaccio (ice cores) a rappresentare la frattura del tempo. Dato produttivo rilevante: gli interni sarebbero stati girati in un bunker del Monte Soratte (Lazio), mentre gli esterni antartici sarebbero stati realizzati in post-produzione."
+  },
+  "personaggi_figure_gruppi": [
+    {
+      "nome": "Fulvio Cadorna (interpretato da Silvio Orlando)",
+      "tipo": "personaggio",
+      "ruolo": "Anziano coordinatore/capomissione della base antartica e veterano della spedizione; mentore di Maria. Le fonti gli attribuiscono il confronto con la mortalità e con problemi di salute (una malattia terminale), il progetto idealistico di una \"città di ghiaccio\" e, secondo alcune recensioni, un possibile ruolo di padre biologico di Maria. A lui spetterebbe il monologo finale.",
+      "relazioni_principali": [
+        "Mentore ed ex maestro di Maria, a lei legato anche affettivamente",
+        "Possibile padre biologico di Maria (indicato da una fonte, incerto)",
+        "Guida del gruppo di scienziati della base"
+      ]
+    },
+    {
+      "nome": "Maria (cognome Medri secondo alcune fonti; interpretata da Barbara Ronchi)",
+      "tipo": "personaggio",
+      "ruolo": "Protagonista. Scienziata appena arrivata alla base, indicata variamente come criogenista/crio-genetista e glaciologa; brillante, determinata e anticonformista. Studia la conservazione di forme di vita nel ghiaccio e l'ibernazione. Il suo arrivo innesca il conflitto centrale.",
+      "relazioni_principali": [
+        "Allieva ed ex protetta di Fulvio Cadorna",
+        "In rivalità metodologica e personale con Cadorna",
+        "In collaborazione e confronto con gli altri membri della comunità scientifica"
+      ]
+    },
+    {
+      "nome": "Rita (interpretata, secondo una fonte, da Valentina Bellè; attribuzione non univoca)",
+      "tipo": "personaggio",
+      "ruolo": "Ricercatrice della base, descritta come idealista e resistente ai compromessi etici; in alcune fonti partecipa alle scoperte e si oppone agli esperimenti più rischiosi. Il nome del personaggio e l'attribuzione all'attrice non sono confermati in modo univoco dalle fonti.",
+      "relazioni_principali": [
+        "Collega di Maria, con cui condivide ricerche",
+        "Membro del gruppo di scienziati"
+      ]
+    },
+    {
+      "nome": "Mario Russo (interpretato, secondo una fonte, da Angelo Spagnoletti)",
+      "tipo": "personaggio",
+      "ruolo": "Membro del gruppo di ricercatori della base. Funzione narrativa specifica non dettagliata dalle fonti.",
+      "relazioni_principali": [
+        "Membro del gruppo di scienziati"
+      ]
+    },
+    {
+      "nome": "Dirigente della multinazionale",
+      "tipo": "personaggio",
+      "ruolo": "Figura esterna che rappresenta l'azienda interessata a finanziare e commercializzare la scoperta. Una fonte la descrive come dirigente robotizzato/di matrice 'corporate'.",
+      "relazioni_principali": [
+        "Controparte esterna rispetto al gruppo di scienziati",
+        "Propone l'accordo che mette alla prova l'etica della missione"
+      ]
+    },
+    {
+      "nome": "Comunità di scienziati della base \"Sidera\"",
+      "tipo": "gruppo",
+      "ruolo": "Insieme di circa nove-dieci ricercatori isolati per otto mesi l'anno; ambiente corale in cui si sviluppano le dinamiche del film, comprese le assemblee in cui il team discute e vota sulla privatizzazione della ricerca. Nel cast figurano, oltre ai precedenti, Valentina Bellè, Simone Liberati, Lorenzo Balducci, Enrico Borello, Astrid Casali, Mario Russo e Stefano Rossi Giordani, con attribuzione personaggio-attore non sempre univoca nelle fonti.",
+      "relazioni_principali": [
+        "Sottoposti al coordinamento di Cadorna",
+        "Coinvolti dall'arrivo di Maria e dalle tensioni sui finanziamenti"
+      ]
+    },
+    {
+      "nome": "L'Antartide / il ghiaccio",
+      "tipo": "figura_simbolica",
+      "ruolo": "L'ambientazione antartica funge da spazio chiuso e isolato, paesaggio insieme esteriore e interiore. Il ghiaccio è elemento ricorrente legato a conservazione, tempo e memoria, indicato dalla regista come materia dalla 'vocazione conservativa, quasi museale'. Più una cornice/funzione drammaturgica che un personaggio in senso stretto.",
+      "relazioni_principali": [
+        "Contesto totalizzante che determina isolamento e dinamiche del gruppo",
+        "Materia attorno a cui ruota la ricerca scientifica"
+      ]
+    }
+  ],
+  "scene_momenti_chiave": [
+    {
+      "titolo_sintetico": "L'arrivo di Maria alla base",
+      "posizione_nell_opera": "Avvio della vicenda",
+      "descrizione": "Il film si aprirebbe quasi in medias res con l'arrivo della scienziata Maria presso la base antartica isolata; deve inserirsi in un gruppo già consolidato e la sua presenza innesca il conflitto centrale con il capomissione Cadorna, suo ex mentore."
+    },
+    {
+      "titolo_sintetico": "La scoperta sulla conservazione della vita",
+      "posizione_nell_opera": "Snodo centrale",
+      "descrizione": "Le fonti riferiscono di una scoperta — legata a microrganismi (rotiferi) conservati nel ghiaccio e/o a una membrana che consentirebbe la conservazione criogenica e l'ibernazione — che apre prospettive rivoluzionarie e diventa il fulcro del conflitto successivo."
+    },
+    {
+      "titolo_sintetico": "Gli esperimenti di ibernazione",
+      "posizione_nell_opera": "Ricorrente nello sviluppo",
+      "descrizione": "Il film mostrerebbe esperimenti di ibernazione (secondo alcune recensioni condotti su animali, ad esempio tartarughe), ripetutamente falliti; le recensioni evocano l'immagine di 'croci sulla neve' a segnare gli insuccessi."
+    },
+    {
+      "titolo_sintetico": "La perdita dei finanziamenti statali",
+      "posizione_nell_opera": "Sviluppo",
+      "descrizione": "Il venir meno del sostegno pubblico alla missione mette in difficoltà il progetto e apre alla dipendenza da capitali privati."
+    },
+    {
+      "titolo_sintetico": "L'offerta della multinazionale e l'assemblea del team",
+      "posizione_nell_opera": "Sviluppo / svolta",
+      "descrizione": "Una multinazionale offre di finanziare la ricerca a condizione di poterne brevettare e commercializzare i risultati; il gruppo si riunisce in assemblea per decidere, generando una frattura etica tra interesse pubblico e privato."
+    },
+    {
+      "titolo_sintetico": "Il monologo finale di Cadorna e l'immagine conclusiva",
+      "posizione_nell_opera": "Conclusione",
+      "descrizione": "Un monologo conclusivo di Fulvio, in atmosfera onirica e in penombra, in cui il personaggio affronterebbe la morte; il film si chiuderebbe su un'immagine definita dalla critica sorprendente. Le recensioni accostano il finale ad atmosfere cechoviane (l'invito a continuare nonostante le sconfitte)."
+    }
+  ],
+  "temi_espliciti": [
+    {
+      "tema": "La ricerca scientifica e la sua etica",
+      "manifestazione": "Il lavoro degli scienziati sulla conservazione della vita, e il dilemma tra integrità della ricerca pubblica e commercializzazione privata, sono al centro della trama; la scienza è soggetto raro nel cinema italiano."
+    },
+    {
+      "tema": "Il tempo, la conservazione e la longevità",
+      "manifestazione": "Il ghiaccio come elemento che conserva e arresta il tempo, i microrganismi riportati in vita dopo millenni, la prospettiva dell'ibernazione: il rapporto con il tempo è esplicitamente tematizzato, anche dalla regista in intervista (le carote di ghiaccio con aria di centinaia di migliaia di anni fa)."
+    },
+    {
+      "tema": "L'isolamento e la comunità",
+      "manifestazione": "La vita di un piccolo gruppo confinato per otto mesi in un ambiente estremo e gli effetti psicologici dell'isolamento, in un impianto fortemente corale."
+    },
+    {
+      "tema": "La paternità biologica e intellettuale / il rapporto maestro-allievo",
+      "manifestazione": "Il rapporto mentore-allieva tra Cadorna e Maria, con l'ipotesi di una paternità biologica, e più in generale il tema paterno e della trasmissione del sapere indicato dalla critica."
+    },
+    {
+      "tema": "La mortalità e la malattia",
+      "manifestazione": "La condizione del capomissione anziano alle prese con la salute e una malattia terminale che attraversa la vicenda e culmina nel monologo finale."
+    },
+    {
+      "tema": "Idealismo umanista contro logica di mercato",
+      "manifestazione": "La contrapposizione tra la visione idealistica della ricerca (la 'città di ghiaccio', il bene comune) e le pressioni economiche e la strumentalizzazione capitalistica della scoperta; sullo sfondo, la precarietà del lavoro scientifico."
+    },
+    {
+      "tema": "Utopia e speranza",
+      "manifestazione": "Il tono di 'commedia utopica' e il sottotitolo 'quasi una fiaba' esprimono speranza e resistenza di fronte all'incertezza; alcune fonti richiamano l'ottimismo della canzone 'Futura' di Lucio Dalla."
+    }
+  ],
+  "tensioni_emergenti": [
+    {
+      "descrizione": "La rivalità metodologica e personale tra Maria e Fulvio Cadorna, che evolve da divergenza professionale a conflitto personale e resta uno snodo non lineare del film.",
+      "localizzazione": "Asse centrale dell'intreccio, dall'arrivo di Maria in poi."
+    },
+    {
+      "descrizione": "Il contrasto tra l'integrità etica della ricerca e la sua possibile brevettazione/commercializzazione da parte della multinazionale.",
+      "localizzazione": "Linea narrativa dei finanziamenti e dell'offerta corporate."
+    },
+    {
+      "descrizione": "La tensione tonale dichiarata dal sottotitolo \"quasi una fiaba\": registro fiabesco/utopico (toni caldi, diurni, comici) a fronte di un contenuto esistenziale e fantascientifico grave (mortalità, isolamento, manipolazione della vita).",
+      "localizzazione": "Trasversale all'intero film, segnalata dal sottotitolo e dalle scelte visive."
+    },
+    {
+      "descrizione": "L'ambiguità del legame tra Cadorna e Maria (mentore/allieva, complicità affettiva ed eventuale padre/figlia), non chiarita in modo univoco dalle fonti.",
+      "localizzazione": "Relazione tra i due protagonisti."
+    },
+    {
+      "descrizione": "Il rapporto tra l'eredità teatrale della regista (impianto concentrato, monologhi, riferimenti cechoviani) e le esigenze del linguaggio cinematografico, letto da alcune fonti come 'potenziamento del teatro' e da altre come teatralità residua.",
+      "localizzazione": "Regia e messa in scena."
+    },
+    {
+      "descrizione": "La coesistenza di numerose linee tematiche (etica corporate, malattia, paternità, isolamento, tempo) entro un impianto corale ampio, percepita da parte della critica come potenzialmente sovraccarica e con personaggi secondari poco approfonditi.",
+      "localizzazione": "Struttura complessiva e impianto corale."
+    }
+  ],
+  "contesto_storico_culturale": {
+    "clima_culturale": "Film italiano uscito nelle sale il 7 maggio 2026, distribuito in un numero limitato di sale (circa 30) e presentato al BiF&st (Bari International Film Festival) 2026. Segna l'esordio alla regia cinematografica di Lucia Calamaro, drammaturga e regista teatrale di rilievo internazionale, vincitrice di tre Premi Ubu. Nell'intervista la regista collega il passaggio dal teatro al cinema al desiderio di raggiungere un pubblico più ampio, descrivendolo come espansione e non 'tradimento'.",
+    "riferimenti_storici": "Il soggetto sarebbe ispirato a un fatto scientifico reale: il caso di un microrganismo (rotifero bdelloideo) rimasto congelato per circa 22.000 anni nel permafrost siberiano e poi riportato in vita e capace di riprodursi, evento citato dalla regista come spunto di riflessione sui tempi della vita umana. Riferimenti culturali interni evocati dalla critica: la canzone 'Futura' di Lucio Dalla e le citazioni dell'aforista Stanisław Jerzy Lec.",
+    "tradizione_di_appartenenza": "Cinema d'autore italiano contemporaneo, con forte radice teatrale (esordio di un'autrice proveniente dal teatro di ricerca). Le recensioni richiamano un impianto cechoviano ('Zio Vanja', 'Il Gabbiano') innestato su un registro di fantascienza 'a basso budget' e quasi da apologo/fiaba; citati anche riferimenti a Carl Theodor Dreyer e un parallelo con il cinema di Valérie Donzelli.",
+    "ricezione_critica": "Accoglienza critica mista, complessivamente tiepido-positiva (valutazione media intorno a 3,2/5 su MYmovies su una dozzina di recensioni). Diverse recensioni apprezzano l'ambizione del progetto, l'originalità del soggetto scientifico, l'uso simbolico del ghiaccio e del tempo, la fotografia e il cast (in particolare le interpretazioni di Silvio Orlando e Barbara Ronchi). Tra i rilievi critici ricorrono: una recitazione a tratti enfatica/sovraccarica, metafore ritenute troppo esplicite, un impianto corale ampio con personaggi secondari poco approfonditi ('abbozzati'), una certa dispersione narrativa e un tono talvolta percepito come pretenzioso; un'opera giudicata più convincente nelle potenzialità che nella realizzazione. Incasso italiano riportato modesto. Queste linee di ricezione sono qui riferite senza adesione né confutazione."
+  },
+  "avvertenze_anti_confabulazione": [
+    {
+      "tipo": "accesso_limitato_ai_materiali",
+      "descrizione": "Il dossier è compilato senza accesso diretto alla visione integrale del film. Tutte le informazioni derivano da fonti secondarie (schede, pagina del distributore, recensioni, intervista) reperite via web. La sintesi della trama e i dettagli di scena vanno quindi considerati ricostruzioni mediate dalle fonti."
+    },
+    {
+      "tipo": "informazione_certa",
+      "descrizione": "Sono attendibili e confermate da più fonti: regia di Lucia Calamaro (esordio cinematografico); interpreti principali Silvio Orlando (Fulvio) e Barbara Ronchi (Maria); presenza nel cast di Valentina Bellè, Simone Liberati, Lorenzo Balducci, Enrico Borello, Angelo Spagnoletti, Astrid Casali; anno 2026 con uscita il 7 maggio 2026; durata circa 93 minuti; paese Italia; distribuzione Vision Distribution; produzione Wildside/Indigo Film; ambientazione in una base scientifica isolata in Antartide; premessa del conflitto tra Maria e Fulvio, mentore e allieva."
+    },
+    {
+      "tipo": "informazione_probabile",
+      "descrizione": "Probabili ma da confermare: la co-sceneggiatura con Marco Pettinello; la collaborazione produttiva con Sky e l'appartenenza di Wildside al gruppo Fremantle; il nome della base ('Sidera') e il numero degli scienziati (circa nove-dieci); il nome 'Maria Medri' per la protagonista; il nome 'Rita' per il personaggio di Valentina Bellè; la lavorazione degli interni in un bunker del Monte Soratte con esterni realizzati in post-produzione."
+    },
+    {
+      "tipo": "informazione_incerta",
+      "descrizione": "Incerti o discordanti tra le fonti: l'esatta natura della scoperta nel ghiaccio (rotiferi vs embrioni vs una 'membrana' per l'ibernazione); i dettagli e gli esiti degli esperimenti (tartarughe, 'croci sulla neve'); il cognome 'Cadorna' per Fulvio; l'ipotesi che Cadorna sia il padre biologico di Maria; l'attribuzione personaggio-attore per i ruoli di contorno; la classificazione di genere (dramma vs commedia)."
+    },
+    {
+      "tipo": "informazione_incerta",
+      "descrizione": "Il dato sull'ispirazione reale (rotifero congelato per circa 22.000 anni nel permafrost siberiano e riportato in vita) è riferito dalla regista in intervista e non è qui verificato presso fonti scientifiche primarie."
+    },
+    {
+      "tipo": "informazione_non_reperibile",
+      "descrizione": "Non reperiti con certezza dalle fonti consultate: i crediti tecnici dettagliati (direttore della fotografia, montaggio, musiche), i nomi completi dei personaggi interpretati dall'intero cast secondario e l'eventuale suddivisione formale interna del film in parti o capitoli."
+    }
+  ],
+  "metadata": {
+    "data_compilazione": "2026-05-24",
+    "compilato_da": "HCAIRE Cultura — Pipeline analitica, Step 1 (Cowork)",
+    "versione": "1.1"
+  }
+}

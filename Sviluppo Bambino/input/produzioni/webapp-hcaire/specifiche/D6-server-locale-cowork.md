@@ -51,15 +51,15 @@ const PIPELINE_CONSTANTS = {
   // Filesystem
   // Cartella radice dove stanno i CLAUDE.md degli step
   STEPS_ROOT: process.env.PIPELINE_STEPS_ROOT ||
-    'C:\\Users\\nnmrd\\Documents\\Claude\\Projects\\Sviluppo Bambino\\input\\produzioni',
+    'C:\\my\\claude\\claude-cowork\\Sviluppo Bambino\\input\\produzioni',
 
   // Cartella radice degli output della pipeline
   OUTPUT_ROOT: process.env.PIPELINE_OUTPUT_ROOT ||
-    'C:\\Users\\nnmrd\\Documents\\Claude\\Projects\\Sviluppo Bambino\\output\\produzioni',
+    'C:\\my\\claude\\claude-cowork\\Sviluppo Bambino\\output\\produzioni',
 
   // Cartella degli input esterni forniti dal ricercatore
   INPUTS_ROOT: process.env.PIPELINE_INPUTS_ROOT ||
-    'C:\\Users\\nnmrd\\Documents\\Claude\\Projects\\Sviluppo Bambino\\input\\produzioni',
+    'C:\\my\\claude\\claude-cowork\\Sviluppo Bambino\\input\\produzioni',
 
   // Timeout default per un'esecuzione Cowork (ms)
   DEFAULT_TIMEOUT_MS: parseInt(process.env.PIPELINE_DEFAULT_TIMEOUT_MS || '300000'),
@@ -467,7 +467,7 @@ class PromptComposer {
     );
 
     // 2. Rimuovi path hardcoded che iniziano con la lettera di drive Windows
-    // (es. "C:\Users\nnmrd\..." che potrebbero comparire in altri punti del testo)
+    // (es. "C:\my\clauded\..." che potrebbero comparire in altri punti del testo)
     cleaned = cleaned.replace(
       /`[A-Z]:\\[^`\n]+`/g,
       '[path gestito automaticamente dal sistema]'

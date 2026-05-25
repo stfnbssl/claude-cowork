@@ -10,9 +10,15 @@
     "requested_area_id": "da-001",
     "trace_type": "emotiva",
     "age_range": "0-12 mesi",
-    "activated_nodes": ["cn-002", "cn-001", "cn-005"],
+    "activated_nodes": [
+      "N1",
+      "N2"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": [
+      "A1"
+    ]
   },
   {
     "id": "tr-g02",
@@ -25,9 +31,14 @@
     "requested_area_id": "da-001",
     "trace_type": "prestazionale",
     "age_range": "12-24 mesi",
-    "activated_nodes": ["cn-003", "cn-001", "cn-007"],
+    "activated_nodes": [
+      "N2",
+      "N3",
+      "N7"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": []
   },
   {
     "id": "tr-g03",
@@ -40,9 +51,14 @@
     "requested_area_id": "da-001",
     "trace_type": "ambigua",
     "age_range": "12-24 mesi",
-    "activated_nodes": ["cn-001", "cn-010", "cn-007"],
+    "activated_nodes": [
+      "N2",
+      "N4",
+      "N7"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": []
   },
   {
     "id": "tr-g04",
@@ -55,9 +71,15 @@
     "requested_area_id": "da-001",
     "trace_type": "emotiva",
     "age_range": "24-36 mesi",
-    "activated_nodes": ["cn-006", "cn-004", "cn-007"],
+    "activated_nodes": [
+      "N5",
+      "N7"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": [
+      "A2"
+    ]
   },
   {
     "id": "tr-g05",
@@ -70,9 +92,15 @@
     "requested_area_id": "da-001",
     "trace_type": "ambigua",
     "age_range": "12-24 mesi",
-    "activated_nodes": ["cn-001", "cn-010", "cn-004"],
+    "activated_nodes": [
+      "N2",
+      "N4"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": [
+      "A2"
+    ]
   },
   {
     "id": "tr-g06",
@@ -85,9 +113,14 @@
     "requested_area_id": "da-001",
     "trace_type": "emotiva",
     "age_range": "3-6 anni",
-    "activated_nodes": ["cn-006", "cn-001", "cn-007"],
+    "activated_nodes": [
+      "N2",
+      "N5",
+      "N7"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": []
   },
   {
     "id": "tr-c01",
@@ -100,9 +133,15 @@
     "requested_area_id": "da-002",
     "trace_type": "sistemica",
     "age_range": "0-12 mesi",
-    "activated_nodes": ["cn-005", "cn-002", "cn-001"],
+    "activated_nodes": [
+      "N1",
+      "N2"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": [
+      "A1"
+    ]
   },
   {
     "id": "tr-c02",
@@ -115,9 +154,14 @@
     "requested_area_id": "da-002",
     "trace_type": "ambigua",
     "age_range": "24-48 mesi",
-    "activated_nodes": ["cn-003", "cn-009", "cn-010"],
+    "activated_nodes": [
+      "N1",
+      "N3",
+      "N4"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": []
   },
   {
     "id": "tr-c03",
@@ -130,9 +174,15 @@
     "requested_area_id": "da-002",
     "trace_type": "sistemica",
     "age_range": "3-6 anni",
-    "activated_nodes": ["cn-004", "cn-001", "cn-006"],
+    "activated_nodes": [
+      "N2",
+      "N5"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": [
+      "A2"
+    ]
   },
   {
     "id": "tr-c04",
@@ -145,9 +195,14 @@
     "requested_area_id": "da-002",
     "trace_type": "relazionale-implicita",
     "age_range": "12-24 mesi",
-    "activated_nodes": ["cn-001", "cn-007", "cn-010"],
+    "activated_nodes": [
+      "N2",
+      "N4",
+      "N7"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": []
   },
   {
     "id": "tr-p01",
@@ -160,9 +215,14 @@
     "requested_area_id": "da-003",
     "trace_type": "prestazionale",
     "age_range": "6-11 anni",
-    "activated_nodes": ["cn-007", "cn-001", "cn-003"],
+    "activated_nodes": [
+      "N2",
+      "N3",
+      "N7"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": []
   },
   {
     "id": "tr-p02",
@@ -175,9 +235,16 @@
     "requested_area_id": "da-003",
     "trace_type": "sistemica",
     "age_range": "3-6 anni",
-    "activated_nodes": ["cn-007", "cn-005", "cn-002", "cn-008"],
+    "activated_nodes": [
+      "N1",
+      "N7"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": [
+      "A1",
+      "A6"
+    ]
   },
   {
     "id": "tr-p03",
@@ -190,9 +257,15 @@
     "requested_area_id": "da-003",
     "trace_type": "prestazionale",
     "age_range": "6-11 anni",
-    "activated_nodes": ["cn-007", "cn-006", "cn-004"],
+    "activated_nodes": [
+      "N5",
+      "N7"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": [
+      "A2"
+    ]
   },
   {
     "id": "tr-s01",
@@ -205,9 +278,16 @@
     "requested_area_id": "da-005",
     "trace_type": "sistemica",
     "age_range": "0-11 anni",
-    "activated_nodes": ["cn-008", "cn-001", "cn-002", "cn-006"],
+    "activated_nodes": [
+      "N1",
+      "N2",
+      "N5"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": [
+      "A6"
+    ]
   },
   {
     "id": "tr-s02",
@@ -220,9 +300,15 @@
     "requested_area_id": "da-005",
     "trace_type": "sistemica",
     "age_range": "6-11 anni",
-    "activated_nodes": ["cn-008", "cn-003", "cn-001"],
+    "activated_nodes": [
+      "N2",
+      "N3"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": [
+      "A6"
+    ]
   },
   {
     "id": "tr-pi01",
@@ -235,9 +321,16 @@
     "requested_area_id": "da-004",
     "trace_type": "istituzionale",
     "age_range": "0-3 anni (politica)",
-    "activated_nodes": ["cn-008", "cn-002", "cn-001", "cn-007"],
+    "activated_nodes": [
+      "N1",
+      "N2",
+      "N7"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": [
+      "A6"
+    ]
   },
   {
     "id": "tr-pi02",
@@ -250,8 +343,15 @@
     "requested_area_id": "da-004",
     "trace_type": "istituzionale",
     "age_range": "0-3 anni (politica)",
-    "activated_nodes": ["cn-008", "cn-001", "cn-007", "cn-004"],
+    "activated_nodes": [
+      "N2",
+      "N7"
+    ],
     "status": "validated",
-    "created_at": "2026-04-15"
+    "created_at": "2026-04-15",
+    "activated_axes": [
+      "A2",
+      "A6"
+    ]
   }
 ]

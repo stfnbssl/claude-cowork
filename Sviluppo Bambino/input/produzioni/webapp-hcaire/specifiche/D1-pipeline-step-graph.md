@@ -1,5 +1,9 @@
 # D1 — Grafo dichiarativo degli step della pipeline
 
+> ⚠️ **NOTA DI REVISIONE (2026-05-23) — la sezione F3 di D1 è obsoleta.**
+> La **§3 (Step F3)** e tutte le parti F3 delle sezioni successive (§4 adjacency, §5 tabella, §6 input esterni, §7 JSON config) descrivono la **vecchia pipeline F3 a 10 step** (`f3_step_1` "Lettura configurazionale" … `f3_step_10`, più `6b`/`6c`). Il **redesign r3** (2026-05) ha ridotto F3 a **5 step** (`f3_step_1` Nodo e funzione · `f3_step_2` Micro-dispositivo · `f3_step_3` Stress test · `f3_step_4` Coerenza · `f3_step_5` Output-tipo contestualizzato). D1 non è stato aggiornato in quell'occasione.
+> **Sorgenti autoritative correnti**: `D7-pipeline-f3-redesign.md` + `D8-f3-step-5-output-tipo-contestualizzato.md` per la pipeline F3 a 5 step; `D9-pipeline-f3-sit.md` per il **modulo opzionale F3-SIT** innestato dopo `f3_step_5`. La sezione **§2 (Step F2)** di D1 resta valida. Un riallineamento completo della §3 di D1 alla r3 è una pendenza tecnica separata (a carico di Claude Code).
+>
 > **Scopo del documento**: definire in modo esplicito e machine-readable la struttura di dipendenze della pipeline F2/F3. Sostituisce l'euristica `inferPipelineInputs` in `DeviceLineage.tsx` e diventa la sorgente di verità per il motore di esecuzione (D2–D5).
 >
 > **Destinatario**: Claude Code — da leggere prima di implementare qualsiasi logica di orchestrazione, form di input, o stato di esecuzione.

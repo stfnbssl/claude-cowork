@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f3-sit-step-4-repertorio-schema",
+  "title": "F3-SIT Step 4 — Verifica e pacchetto repertorio",
+  "type": "object",
+  "required": ["step", "tema_id", "domain_selected", "results"],
+  "properties": {
+    "step": { "const": "f3_sit_step_4" },
+    "tema_id": { "type": "string" },
+    "domain_selected": { "enum": ["clinico", "educativo", "formazione", "politiche"] },
+    "results": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "methodological_status",
+          "source_validations",
+          "item_checks",
+          "repertoire",
+          "items_to_revise",
+          "publication_recommendation"
+        ],
+        "properties": {
+          "methodological_status": { "enum": ["validato", "richiede_revisione", "non_pubblicabile"] },
+          "source_validations": {
+            "type": "object",
+            "required": ["f3_coherence_status"],
+            "properties": {
+              "f3_coherence_status": {
+                "anyOf": [
+                  { "enum": ["valido", "richiede_revisione", "fuori_modello"] },
+                  { "type": "null" }
+                ]
+              },
+              "step_3_executed": { "type": "boolean" }
+            }
+          },
+          "item_checks": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["item_ref", "source_step", "family_id", "checks", "item_verdict"],
+              "properties": {
+                "item_ref": { "type": "string", "minLength": 1 },
+                "source_step": { "enum": ["f3_sit_step_2", "f3_sit_step_3"] },
+                "family_id": {
+                  "enum": ["F3-SIT-1", "F3-SIT-2", "F3-SIT-3", "F3-SIT-4", "F3-SIT-5", "F3-SIT-6", "F3-SIT-7", "F3-SIT-8", "F3-SIT-9"]
+                },
+                "checks": {
+                  "type": "array",
+                  "minItems": 8,
+                  "maxItems": 8,
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "outcome", "motivation"],
+                    "properties": {
+                      "id": { "enum": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8"] },
+                      "outcome": { "enum": ["passa", "passa_con_riserve", "non_passa"] },
+                      "motivation": { "type": "string", "minLength": 15 }
+                    }
+                  }
+                },
+                "item_verdict": { "enum": ["validato", "richiede_revisione", "non_pubblicabile"] },
+                "critical_failures": {
+                  "type": "array",
+                  "items": { "enum": ["C1", "C2", "C5", "C6"] }
+                }
+              }
+            }
+          },
+          "repertoire": {
+            "type": "array",
+            "description": "Item validati aggregati per famiglia. Solo item con item_verdict = validato.",
+            "items": {
+              "type": "object",
+              "required": ["family_id", "validated_count", "item_refs"],
+              "properties": {
+                "family_id": {
+                  "enum": ["F3-SIT-1", "F3-SIT-2", "F3-SIT-3", "F3-SIT-4", "F3-SIT-5", "F3-SIT-6", "F3-SIT-7", "F3-SIT-8", "F3-SIT-9"]
+                },
+                "validated_count": { "type": "integer", "minimum": 0 },
+                "item_refs": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              }
+            }
+          },
+          "items_to_revise": {
+            "type": "array",
+            "description": "Item con item_verdict = richiede_revisione o non_pubblicabile.",
+            "items": {
+              "type": "object",
+              "required": ["item_ref", "item_verdict", "reason"],
+              "properties": {
+                "item_ref": { "type": "string" },
+                "item_verdict": { "enum": ["richiede_revisione", "non_pubblicabile"] },
+                "reason": { "type": "string", "minLength": 15 }
+              }
+            }
+          },
+          "publication_recommendation": {
+            "type": "object",
+            "required": ["public_site", "professional_training", "internal_only", "notes"],
+            "properties": {
+              "public_site": { "type": "boolean" },
+              "professional_training": { "type": "boolean" },
+              "internal_only": { "type": "boolean" },
+              "notes": { "type": "string", "minLength": 15 }
+            }
+          }
+        }
+      }
+    }
+  }
+}

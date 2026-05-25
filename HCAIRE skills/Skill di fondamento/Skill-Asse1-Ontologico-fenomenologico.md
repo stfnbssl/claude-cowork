@@ -12,8 +12,8 @@ Questo asse definisce che tipo di soggetto è il bambino prima di qualsiasi qual
 - il bambino come sistema di risposte da modellare (comportamentismo)
 - il bambino come soggetto già responsabile a cui applicare norme (moralismo precoce)
 
-**Nota operativa — corrispondenza con le schede di ambito:**
-Il nodo "Integrazione/disorganizzazione" presente nelle schede Clinico, Pedagogico, Politico e Sociologico trova qui il suo ancoraggio fondativo. Quando una scheda di ambito attiva quel nodo, i concetti operativi di riferimento sono quelli definiti in questa skill (Sezione 2: Integrazione come coerenza multidimensionale, Disorganizzazione come segnale di configurazione, distinzione contestuale/pervasiva).
+**Nota operativa — corrispondenza con i nodi trasversali:**
+La componente di integrazione e disorganizzazione dell'esperienza è parte costitutiva del **Nodo Trasversale N1 — Regolazione / Integrazione dell'esperienza** (vedi `Documenti fondativi/Atlante nodi trasversali.md` v2.0). L'Asse 1 è uno degli assi costitutivi di N1, insieme all'Asse 2 e all'Asse 4. Quando una traccia o una scheda di ambito attiva N1, i concetti operativi di riferimento per la sua componente di integrazione sono quelli definiti in questa skill (Sezione 2: Integrazione come coerenza multidimensionale, Disorganizzazione come segnale di configurazione, distinzione contestuale/pervasiva).
 
 ---
 

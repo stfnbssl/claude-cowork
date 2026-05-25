@@ -1,6 +1,6 @@
 # MAPPA DI CORRISPONDENZA TERMINOLOGICA
 ## Schede di ambito ↔ Skill di fondamento
-*Versione: 1.1 | Prodotta: 16 aprile 2026 | Aggiornata: 16 aprile 2026*
+*Versione: 2.0 | Prodotta: 16 aprile 2026 | Aggiornata: 2026-05-24 — allineata ai 7 nodi canonici (Atlante v2.0) e ai 4 contesti*
 
 ---
 
@@ -8,7 +8,7 @@
 
 Questo documento è uno strumento di navigazione tra due livelli del sistema HCAIRE:
 
-- **Livello operativo**: i termini usati nelle schede di ambito (Genitoriale, Clinico, Pedagogico, Politico, Sociologico) — accessibili, contestualizzati, calibrati sull'ambito
+- **Livello operativo**: i termini usati nelle schede di ambito (Genitoriale, Clinico, Pedagogico, Istituzionale/servizi) — accessibili, contestualizzati, calibrati sull'ambito
 - **Livello fondativo**: i concetti operativi definiti nelle skill di fondamento (Assi 1–6) — precisi, con operatori di lettura, rischi di riduzione, indicatori
 
 Quando un termine di ambito viene attivato da una traccia, questo documento permette di risalire all'asse di fondamento e ai suoi operatori precisi.
@@ -24,7 +24,7 @@ Quando un termine di ambito viene attivato da una traccia, questo documento perm
 | Corpo e presenza | A1 | Corporeità come luogo originario di senso | Include ritmo, tono, prossimità, gesto |
 | Corpo e esperienza | A1 | Corporeità + Soggetto incarnato in via di costituzione | Forma pedagogica del concetto |
 | Regolazione / co-regolazione | A1 | Regolazione come tenuta dell'esperienza | La co-regolazione precoce è strutturale, non tecnica educativa |
-| Integrazione / disorganizzazione | A1 | Integrazione come coerenza multidimensionale + Disorganizzazione come segnale di configurazione | Codificato in A1 v1.1 — leggere pattern non sintomi isolati |
+| Integrazione / disorganizzazione | A1 | Integrazione come coerenza multidimensionale + Disorganizzazione come segnale di configurazione | Componente costitutiva del nodo N1 — Regolazione/Integrazione; leggere pattern non sintomi isolati |
 | Campo intenzionale | A1 | Campo intenzionale | Il mondo come accessibile/invitante/minaccioso per il soggetto |
 | Affettività e sviluppo del legame | A2 | L'altro come istanza interna + Colpa integrativa + Riparazione + Intersoggettività originaria | Termine "Affettività" è semplificazione accettabile se include questi concetti |
 | Ciclo legame / rottura / riparazione | A2 | Riparazione come momento decisivo | La riparazione è il momento più formativo del ciclo |
@@ -64,7 +64,7 @@ Quando un termine di ambito viene attivato da una traccia, questo documento perm
 
 ### 2.1 Simbolico e linguaggio
 
-**Dove appare:** Schede Genitoriale (§4: "Linguaggio e simbolico"), Pedagogico (§4: "Simbolico e linguaggio"), Politico (§8: "Linguaggio e accesso culturale"), Sociologico (§8: "Linguaggio e significato").
+**Dove appare:** Schede Genitoriale (§4: "Linguaggio e simbolico"), Pedagogico (§4: "Simbolico e linguaggio"), Istituzionale/servizi (§8: nodo N3 — Accesso al mondo condiviso simbolico).
 
 **Perché non è mappato:** Corrisponde all'Asse 5.5 della Carta fondativa — dichiarato volutamente incompleto perché Stefano deve ancora lavorare su questo fondamento (nota §5.5: "Simbolico e linguaggio").
 
@@ -76,19 +76,19 @@ Questa combinazione copre il territorio in modo parziale ma coerente. La Skill-A
 
 ### 2.2 Prevenzione
 
-**Dove appare:** Scheda Politico (§4 come dimensione trasversale).
+**Dove appare:** Scheda Istituzionale/servizi (§4).
 
 **Non corrisponde a un asse singolo.** È una strategia di intervento che discende dalla lettura integrata degli assi, in particolare da A1 (lo sviluppo si costruisce precocemente), A6 (le condizioni strutturali agiscono prima della riflessione) e A4 (alcune condizioni di rischio non sono reversibili se non si interviene prima).
 
 **Gestione:** "Prevenzione" come termine non attiva un asse specifico ma è un operatore di livello strategico che presuppone tutti gli assi attivi.
 
-### 2.3 Integrazione tra sistemi (ambito Politico)
+### 2.3 Integrazione tra sistemi (ambito Istituzionale/servizi)
 
-**Dove appare:** Scheda Politico (§4 come dimensione primaria).
+**Dove appare:** Scheda Istituzionale/servizi (§4 come dimensione primaria).
 
-**Prossimo a:** A6 (le istituzioni come ambienti di esperienza) + Nodo "Integrazione/disorganizzazione" di A1 (ma applicato al livello dei sistemi, non del soggetto).
+**Prossimo a:** A6 (le istituzioni come ambienti di esperienza) + nodo N1 — Regolazione/Integrazione, applicato però al livello dei sistemi e non del soggetto (nella Fase 4 del metodo i servizi sono letti come configurazioni di nodi su scala sistemica).
 
-**Gestione provvisoria:** Questo è un termine specifico dell'ambito politico che descrive la coerenza strutturale tra sanità, scuola e servizi sociali. Ha logica propria al livello sistemico. Non richiede un asse nuovo, ma va letto come applicazione di A6 al livello delle istituzioni.
+**Gestione:** Questo è un termine specifico dell'ambito istituzionale che descrive la coerenza strutturale tra sanità, scuola e servizi sociali. Ha logica propria al livello sistemico. Non richiede un asse nuovo, ma va letto come applicazione di A6 al livello delle istituzioni.
 
 ---
 
@@ -125,7 +125,7 @@ I termini nelle schede di ambito sono stati scelti per accessibilità e contestu
 Esempio: quando la Scheda Clinico attiva "Affettività e sviluppo del legame", il sistema non deve solo considerare il "tono emotivo", ma anche attivare le domande dell'Asse 2: l'altro è un'istanza interna per questo bambino? C'è colpa integrativa o schiacciante? La riparazione è possibile?
 
 ### 4.2 Alcuni termini hanno peso diverso nei diversi ambiti
-"Regolazione" nelle schede Genitoriale e Clinico ha come riferimento primario A1 (co-regolazione strutturale). Nella scheda Pedagogico e Sociologico compare anche come "stabilità dei contesti" — più vicino a A6 (le istituzioni come ambienti regolatori). Il sistema deve considerare questa sfumatura.
+"Regolazione" nelle schede Genitoriale e Clinico ha come riferimento primario A1 (co-regolazione strutturale). Nella scheda Pedagogico e Istituzionale/servizi compare anche come "stabilità dei contesti" — più vicino a A6 (le istituzioni come ambienti regolatori). Il sistema deve considerare questa sfumatura.
 
 ### 4.3 "Desiderio e iniziativa" non è solo iniziativa
 Il termine "iniziativa" cattura solo la manifestazione visibile del desiderio (il bambino che fa qualcosa di suo). Il concetto di A5 è più profondo: il desiderio come struttura di orientamento verso il possibile, che può anche non manifestarsi in iniziativa osservabile (un bambino può desiderare in modo implicito). Il sistema deve attivare tutto A5, non solo la parte "iniziativa".

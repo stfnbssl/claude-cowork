@@ -1,0 +1,516 @@
+{
+  "step": "f3_sit_step_2",
+  "tema_id": "gioco-libero-come-incontro-del-bambino-con-il-possibile",
+  "domain_selected": "clinico",
+  "results": [
+    {
+      "items": [
+        {
+          "sit_id": "F3-SIT-001",
+          "family_id": "F3-SIT-1",
+          "title": "Il campo aperto che resta non abitato",
+          "context": {
+            "setting": "Ambulatorio pediatrico, bilancio di salute",
+            "actors": ["pediatra", "bambino", "caregiver"],
+            "age_window": "24 mesi",
+            "situation": "case_type: assenza_configurazione. Il bambino è vigile, normoreattivo, collaborante. Quando il pediatra apre l'intervallo non finalizzato e rende disponibili foglio, matita e un piccolo cubo, il bambino resta in attesa adulto-orientata: non c'è angoscia né rifiuto né dolore, semplicemente non si attiva alcun orientamento esplorativo e per cinque minuti il campo resta vuoto."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Il pediatra distingue l'apertura procedurale (lato adulto, già prodotta) dall'apertura effettiva (lato bambino, che non si costituisce) e sostiene il vuoto senza riempirlo: non rilancia con domande o proposte per 'far partire' il bambino e non legge la non-azione come tratto o come tappa.",
+            "possible_phrase": null,
+            "alternative_phrase": null,
+            "gesture_or_timing": "Lasciar trascorrere il segmento mantenendo la presenza discreta anche quando 'non succede niente', senza accorciarlo per disagio del vuoto.",
+            "avoid": [
+              "ricondurre la non-azione a un tratto temperamentale ('è timido', 'poco interattivo', 'da rivalutare')",
+              "interpretare l'inerzia come riuscita del dispositivo ('ha rispettato il silenzio')",
+              "interpretare l'inerzia come fallimento del bambino ('non ha colto l'apertura')",
+              "introdurre una valutazione di tappa proprio nello spazio costruito per sospenderla"
+            ]
+          },
+          "expected_field_effect": "Diventa osservabile la differenza tra un'apertura formale e un'apertura abitata: il vuoto resta leggibile come stato del campo e non viene convertito in indice di tappa né in giudizio sul bambino.",
+          "non_prescriptive_note": "La casistica non indica cosa fare per 'attivare' il bambino: mostra una configurazione riconoscibile e lascia esplicitamente indecidibile, entro i pochi minuti, se l'inerzia sia un tratto stabile in setting clinico o una latenza.",
+          "methodological_warnings": [
+            "Il dispositivo non discrimina tra 'campo che non si apre' e 'campo che si aprirebbe più tardi': non concludere sulla base di una sola visita."
+          ]
+        },
+        {
+          "sit_id": "F3-SIT-002",
+          "family_id": "F3-SIT-1",
+          "title": "L'orientamento autentico catturato dal lato del caregiver",
+          "context": {
+            "setting": "Ambulatorio pediatrico, visita di controllo",
+            "actors": ["pediatra", "bambino", "caregiver"],
+            "age_window": "30 mesi",
+            "situation": "case_type: configurazione_parziale. Il bambino si attiva con orientamento riconoscibile sugli oggetti neutri (piega il foglio, lo riprende, esplora). Il pediatra mantiene il silenzio non valutativo, ma il caregiver, nonostante il briefing, ricade in commento continuo a bassa voce ('bravo, fai vedere alla dottoressa, dimmi cos'è'); il bambino prosegue ma a tratti si volta in cerca di conferma."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Il pediatra legge la parzialità come parzialità: riconosce l'orientamento autentico sul vettore bambino-oggetto e, insieme, la pressione prestazionale che rientra dal lato del caregiver, senza contare come 'orientamento' ciò che è in parte richiesta esibitiva soddisfatta.",
+            "possible_phrase": null,
+            "alternative_phrase": null,
+            "gesture_or_timing": "Un segnale discreto e non correttivo verso il caregiver — uno sguardo, un breve cenno in un momento in cui il bambino è assorbito — che riprende la sospensione senza interrompere il bambino.",
+            "avoid": [
+              "leggere il bambino come 'collaborante e orientato' registrando come positiva un'osservazione costruita dalla pressione del caregiver",
+              "considerare il dispositivo riuscito ignorando la rottura della condizione sul lato caregiver",
+              "colpevolizzare il caregiver per la ricaduta o rimproverarlo davanti al bambino"
+            ]
+          },
+          "expected_field_effect": "Il vettore caregiver-bambino torna leggibile come fonte di pressione separata dal segnale del nodo dominante, e diventa osservabile quanto l'orientamento del bambino sia genuino e quanto già orientato al riconoscimento dell'adulto.",
+          "non_prescriptive_note": "Non prescrive di 'zittire' il caregiver: mostra che la condizione del desiderio va ri-protetta lateralmente con un gesto situato e reversibile, non con una correzione.",
+          "methodological_warnings": [
+            "La sovrapposizione delle due letture (il bambino orienta, il caregiver converte) rende difficile separare il segnale del nodo dominante dalla sua immediata cattura."
+          ]
+        },
+        {
+          "sit_id": "F3-SIT-003",
+          "family_id": "F3-SIT-1",
+          "title": "L'apertura che diventa nuovo compito",
+          "context": {
+            "setting": "Ambulatorio pediatrico, visita di controllo",
+            "actors": ["pediatra", "bambino", "caregiver"],
+            "age_window": "18 mesi",
+            "situation": "case_type: configurazione_distorta_chiudente. Il pediatra applica il dispositivo con scrupolo procedurale ma lo deforma nella qualità del gesto: tono leggermente solenne ('adesso facciamo una cosa importante, hai qualche minuto solo per te'), oggetti disposti ordinatamente e frontalmente, postura attentiva e sguardo fisso in attesa. La forma è completa ma costituisce un compito implicito — 'ora ti osservo mentre ti osservi' — e il bambino prende un oggetto, lo posa e guarda l'adulto."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Il pediatra sorveglia la qualità performativa del proprio gesto di apertura — tono ordinario non solenne, postura non frontale, densità attentiva non concentrata, timing che non trasforma la dichiarazione in evento — riconoscendo che la forma piena delle micro-azioni può coesistere con un campo chiudente.",
+            "possible_phrase": null,
+            "alternative_phrase": null,
+            "gesture_or_timing": "Pronunciare l'apertura mentre si compie un'altra azione ordinaria della visita, evitando la disposizione composta degli oggetti e lo sguardo concentrato in attesa.",
+            "avoid": [
+              "tono solenne o enfatico nel dichiarare l'intervallo ('adesso facciamo una cosa importante')",
+              "disporre gli oggetti in modo ordinato e frontale come una scena predisposta",
+              "fissare il bambino con attenzione concentrata in attesa di una prestazione",
+              "concludere che l'esito 'piatto' è informazione sul bambino dopo aver eseguito alla lettera le micro-azioni"
+            ]
+          },
+          "expected_field_effect": "Diventa percepibile la differenza tra apertura non finalizzata e apertura ritualizzata: la qualità del campo — chiudente o aperta — torna leggibile al di là della corretta esecuzione formale delle micro-azioni.",
+          "non_prescriptive_note": "Non aggiunge un nuovo passo procedurale: segnala che è il 'come' del gesto, e non il 'cosa', a decidere la tenuta del dispositivo, e questo non è riducibile a una checklist.",
+          "methodological_warnings": [
+            "Breaking point strutturale: il dispositivo non dispone di marcatori per qualificare tono, prossimità e teatralità dell'apertura; la cecità non è imputabile a misuso ma alla forma attuale del dispositivo."
+          ]
+        },
+        {
+          "sit_id": "F3-SIT-004",
+          "family_id": "F3-SIT-1",
+          "title": "Il campo che si apre e si richiude a finestre",
+          "context": {
+            "setting": "Ambulatorio pediatrico in studio condiviso",
+            "actors": ["pediatra", "bambino", "caregiver"],
+            "age_window": "36 mesi",
+            "situation": "case_type: configurazione_oscillante. Il bambino avvia un'esplorazione orientata, ma il flusso è interrotto ricorrentemente da eventi di setting: il telefono di studio squilla, il caregiver fa un commento spontaneo e si corregge, un infermiere bussa per consegnare un fascicolo. Tra un'interruzione e l'altra l'orientamento si forma, si interrompe e si riforma in modo diverso, per finestre di 60-90 secondi."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Il pediatra legge l'oscillazione come oscillazione e non somma le finestre buone in un giudizio di riuscita: tratta la frammentazione stessa come informazione strutturale sulla non-tenuta del campo, distinguendola da una caratteristica del bambino.",
+            "possible_phrase": null,
+            "alternative_phrase": null,
+            "gesture_or_timing": "Proteggere per quanto possibile la continuità del segmento (silenziare il telefono, segnalare di non essere disturbati) senza però forzare la durata quando il setting la frammenta.",
+            "avoid": [
+              "registrare solo i frammenti più visibili dell'attività, perdendo il quadro dell'oscillazione",
+              "sommare le finestre buone e trattare il caso come 'dispositivo riuscito'",
+              "attribuire al bambino la discontinuità prodotta dagli eventi di setting"
+            ]
+          },
+          "expected_field_effect": "La discontinuità diventa leggibile come qualità del campo e le interruzioni esterne non vengono confuse con caratteristiche del bambino, restituendo un quadro coerente anche se frammentato.",
+          "non_prescriptive_note": "Non fissa una soglia di aggregazione ('se funziona il 40% allora...'): mostra che la lettura sintetica resta un giudizio situato e non una regola di computo.",
+          "methodological_warnings": [
+            "Il dispositivo è progettato come segmento continuo di 5-10 minuti e la sua robustezza alle interruzioni esterne non è specificata."
+          ]
+        },
+        {
+          "sit_id": "F3-SIT-005",
+          "family_id": "F3-SIT-1",
+          "title": "Il gioco perfetto come prestazione invisibile",
+          "context": {
+            "setting": "Ambulatorio pediatrico, visita programmata",
+            "actors": ["pediatra", "bambino", "caregiver"],
+            "age_window": "4 anni",
+            "situation": "case_type: configurazione_apparente_indistinguibile. Il bambino, preparato da una famiglia molto attenta ('alla dottoressa devi fare bella figura, fai vedere come sai giocare') ed esposto a diversi colloqui osservativi, esegue una sequenza formalmente perfetta: disegna, mostra brevemente, costruisce, sorride, guarda la pediatra a intervalli regolari. Tutti gli indicatori esterni di risonanza sono verificati; solo a uno sguardo molto fine emergono la pausa-per-essere-visto, la simmetria compiacente dei gesti, l'assenza di tempi morti e di errori esplorativi."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Il pediatra non si accontenta dell'assenza di lettura per tappe sul lato esterno e osserva il lato interno al bambino: cerca la presenza di tempi morti reali, errori esplorativi, ridirezioni d'uso e momenti non destinati allo sguardo adulto, che distinguono l'orientamento autentico da una sequenza di gesti compiacenti formalmente regolari.",
+            "possible_phrase": null,
+            "alternative_phrase": null,
+            "gesture_or_timing": "Sospendere il giudizio di riuscita anche quando la forma è impeccabile, riservando la lettura a un'osservazione qualitativa e a informazioni anamnestiche che eccedono il singolo segmento.",
+            "avoid": [
+              "registrare 'molto adeguato per età, gioco organizzato, ottima collaborazione' confermando lo script senza vederlo",
+              "usare 'ha giocato liberamente' come legittimazione del proprio compiacimento osservativo",
+              "dichiarare riuscito il dispositivo sulla sola verifica degli indicatori esterni"
+            ]
+          },
+          "expected_field_effect": "Diventa potenzialmente osservabile la differenza tra orientamento verso gli oggetti e orientamento verso l'immagine-di-sé-che-gioca-bene: la prestazionalizzazione internalizzata torna leggibile invece di passare per riuscita.",
+          "non_prescriptive_note": "Non fornisce un test per 'smascherare' il bambino: segnala che la discriminazione eccede il singolo segmento e che, in dubbio, l'esito va dichiarato ambiguo piuttosto che riuscito.",
+          "methodological_warnings": [
+            "Breaking point strutturale: il falso positivo non è imputabile a misuso ma alla formulazione del dispositivo.",
+            "La verifica del solo lato esterno (assenza di letture per tappe) senza il lato interno (tempi morti, errori, ridirezioni) non basta a dichiarare riuscito il dispositivo."
+          ]
+        },
+        {
+          "sit_id": "F3-SIT-006",
+          "family_id": "F3-SIT-2",
+          "title": "Annunciare l'intervallo come segnale, non come evento",
+          "context": {
+            "setting": "Ambulatorio pediatrico, durante la visita",
+            "actors": ["pediatra", "bambino", "caregiver"],
+            "age_window": null,
+            "situation": "Il pediatra apre l'intervallo non finalizzato e deve dichiararlo a bambino e caregiver senza che l'annuncio si presenti come un nuovo compito di 'essere osservato' (riferimento alla micro-azione ma1 e al rischio del caso distorta-chiudente)."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Tono ordinario e non solenne, postura non frontale: la dichiarazione passa con la stessa densità di un'altra azione qualsiasi della visita, come un segnale e non come un evento da cui ci si aspetta qualcosa.",
+            "possible_phrase": "Adesso abbiamo qualche minuto libero, niente da fare.",
+            "alternative_phrase": "Ci prendiamo un momento senza nessun compito, come viene.",
+            "gesture_or_timing": "Pronunciarla mentre si fa altro — ci si sposta, si sistema qualcosa — e non da seduti frontalmente in attesa del bambino.",
+            "avoid": [
+              "'Adesso facciamo una cosa importante, hai qualche minuto solo per te' (tono solenne)",
+              "'Vediamo un po' cosa sai fare' (riconverte l'apertura in prova)",
+              "annunciare l'intervallo fissando il bambino in attesa di una reazione"
+            ]
+          },
+          "expected_field_effect": "L'apertura entra nel campo senza presentarsi come nuova consegna: il bambino non riceve il segnale implicito di dover esibire e l'intervallo resta percepibilmente non finalizzato.",
+          "non_prescriptive_note": "La formula è un esempio, non un copione da ripetere: ciò che conta è la densità ordinaria con cui è detta, non le parole esatte.",
+          "methodological_warnings": [
+            "Anche la frase 'giusta', se detta con tono solenne o sguardo concentrato, può richiudere il campo (vedi caso configurazione_distorta_chiudente)."
+          ]
+        },
+        {
+          "sit_id": "F3-SIT-007",
+          "family_id": "F3-SIT-2",
+          "title": "Sospendere l'attesa prestazionale del genitore",
+          "context": {
+            "setting": "Ambulatorio pediatrico, prima dell'intervallo",
+            "actors": ["pediatra", "caregiver"],
+            "age_window": null,
+            "situation": "Prima di aprire l'intervallo il pediatra comunica brevemente al caregiver che in quel segmento non si valutano tappe né prestazioni, per neutralizzare l'attesa prestazionale del genitore che altrimenti tende a comprimere lo spazio (micro-azione ma4)."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Registro collaborativo e non istruttivo: il pediatra offre al genitore un permesso a sospendere le sollecitazioni, come segnale momentaneo e non come istruzione vincolante, senza farlo sentire in errore.",
+            "possible_phrase": "In questi minuti non sto valutando tappe né prestazioni, non serve che lo stimoli: lasciamolo fare come gli viene.",
+            "alternative_phrase": "Non c'è niente da mostrare adesso, va benissimo qualsiasi cosa faccia, anche niente.",
+            "gesture_or_timing": "Dirlo prima dell'intervallo, brevemente, con un tono che rassicura il genitore invece di correggerlo.",
+            "avoid": [
+              "'Lo lasci stare e basta' (correttivo e svalutante)",
+              "'Mi faccia vedere se è bravo' (riapre l'attesa prestazionale)",
+              "far sentire il genitore in errore per la sua tendenza a stimolare"
+            ]
+          },
+          "expected_field_effect": "Cala la doppia pressione valutativa pediatra+genitore sull'azione del bambino e il caregiver si dispone in posizione di compresenza non direttiva.",
+          "non_prescriptive_note": "Non vincola il genitore con un'istruzione: gli offre un permesso reversibile, che alla chiusura dell'intervallo lascia tornare il registro ordinario.",
+          "methodological_warnings": [
+            "Il dispositivo non prevede un rinforzo se il caregiver ricade durante l'intervallo (vedi caso configurazione_parziale): può servire un secondo segnale discreto."
+          ]
+        },
+        {
+          "sit_id": "F3-SIT-008",
+          "family_id": "F3-SIT-2",
+          "title": "Riprendere la sospensione senza rimproverare",
+          "context": {
+            "setting": "Ambulatorio pediatrico, durante l'intervallo",
+            "actors": ["pediatra", "caregiver", "bambino"],
+            "age_window": null,
+            "situation": "Il caregiver, nonostante il briefing iniziale, ricade in commenti e richieste di esibizione mentre il bambino è orientato sugli oggetti; il pediatra deve ripristinare la sospensione senza interrompere il bambino né colpevolizzare il genitore."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Tono leggero e alleato, non correttivo: il pediatra riporta il genitore nella compresenza non direttiva preservandone la dignità e senza spezzare il flusso del bambino.",
+            "possible_phrase": "Va bene così, possiamo anche solo guardarlo senza dirgli niente.",
+            "alternative_phrase": "Lasciamolo proseguire, è interessante vedere dove va da solo.",
+            "gesture_or_timing": "Accompagnare con un breve sguardo o cenno verso il caregiver in un momento in cui il bambino è assorbito, così da non spostare su di lui l'attenzione.",
+            "avoid": [
+              "'Per favore non lo interrompa' (rimprovero esplicito)",
+              "zittire il caregiver o mostrare disapprovazione con sospiri o smorfie",
+              "interrompere l'azione del bambino per gestire il genitore"
+            ]
+          },
+          "expected_field_effect": "Il vettore caregiver-bambino smette di colorare lo sfondo con sollecitazioni e la condizione del desiderio si ri-protegge lateralmente, senza che il bambino registri la correzione.",
+          "non_prescriptive_note": "Non è una regola da applicare a ogni ricaduta: è un aggiustamento situato, da usare con tatto e proporzione, che lascia al genitore la sua dignità.",
+          "methodological_warnings": []
+        },
+        {
+          "sit_id": "F3-SIT-009",
+          "family_id": "F3-SIT-2",
+          "title": "Restituire una configurazione, non un voto",
+          "context": {
+            "setting": "Ambulatorio pediatrico, a fine intervallo",
+            "actors": ["pediatra", "caregiver"],
+            "age_window": null,
+            "situation": "A intervallo concluso il caregiver chiede una valutazione ('allora, com'è andato? è normale?'); il pediatra restituisce ciò che ha osservato spostando l'attenzione dalla prestazione del bambino alla configurazione di campo, senza diagnosticare né colpevolizzare."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Postura di racconto descrittivo e non di verdetto: il pediatra parla di ciò che ha potuto osservare quando al bambino non veniva chiesto nulla, evitando di convertire l'intervallo in un giudizio di tappa.",
+            "possible_phrase": "Più che dirle se è andato bene o male, le racconto cosa ho potuto vedere quando nessuno gli chiedeva niente.",
+            "alternative_phrase": "Non era un esame da superare: quello che conta è che abbiamo avuto un momento senza pressioni, e questo ci dice qualcosa su come sta.",
+            "gesture_or_timing": "Restituire dopo l'intervallo, fuori dal campo del bambino, con un ritmo da conversazione e non da referto.",
+            "avoid": [
+              "'È nella norma' / 'è indietro' (riconversione in giudizio di tappa)",
+              "etichettare il bambino ('è timido', 'è iperattivo', 'è introverso')",
+              "trasformare l'osservazione in un punteggio davanti al genitore"
+            ]
+          },
+          "expected_field_effect": "Il caregiver riceve una lettura di campo invece di un giudizio sul bambino, e si riduce la spinta a riconvertire l'osservazione in prestazione da migliorare.",
+          "non_prescriptive_note": "Non fornisce uno script di restituzione: indica la direzione — descrivere il campo, non valutare il soggetto — da adattare al singolo colloquio.",
+          "methodological_warnings": []
+        },
+        {
+          "sit_id": "F3-SIT-010",
+          "family_id": "F3-SIT-2",
+          "title": "Rispondere alla richiesta di esercizi senza prescriverli",
+          "context": {
+            "setting": "Ambulatorio pediatrico, counseling al caregiver",
+            "actors": ["pediatra", "caregiver"],
+            "age_window": null,
+            "situation": "Il caregiver chiede attività o esercizi da fare a casa per 'stimolarlo'; il pediatra orienta verso la protezione di un tempo non finalizzato anche a casa, senza trasformare il consiglio in un nuovo protocollo domestico."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Counseling per sottrazione e non per aggiunta: il pediatra protegge l'apertura invece di riempirla di compiti, restando un orientamento e non un programma.",
+            "possible_phrase": "Più che esercizi, a casa vale lasciargli ogni tanto del tempo senza un'attività organizzata, dove può anche annoiarsi.",
+            "alternative_phrase": "Non serve aggiungere compiti, serve togliere un po' di pressione e vedere cosa sceglie lui.",
+            "gesture_or_timing": "Offrire l'indicazione come permesso a fare meno, non come istruzione da eseguire ogni giorno.",
+            "avoid": [
+              "fornire liste di esercizi graduati per età",
+              "'deve farlo giocare almeno X minuti al giorno' (riconverte il tempo libero in compito)",
+              "ogni formula che trasformi l'orientamento in un protocollo domestico"
+            ]
+          },
+          "expected_field_effect": "La casa diventa potenzialmente un altro spazio in cui il desiderio-orientamento del bambino può manifestarsi senza diventare prestazione attesa dall'adulto.",
+          "non_prescriptive_note": "Il consiglio è esplicitamente per sottrazione: orienta verso il togliere pressione, e resta un'indicazione situata e non un piano vincolante.",
+          "methodological_warnings": []
+        },
+        {
+          "sit_id": "F3-SIT-011",
+          "family_id": "F3-SIT-2",
+          "title": "Nominare quando non è il momento",
+          "context": {
+            "setting": "Ambulatorio pediatrico, in apertura o durante la visita",
+            "actors": ["pediatra", "caregiver", "bambino"],
+            "age_window": null,
+            "situation": "La visita ha una priorità clinica acuta, oppure il bambino è in angoscia o rifiuto, oppure il setting non consente i 5-10 minuti: il pediatra rinuncia all'intervallo nominando la sospensione invece di simularlo (condizioni di non-applicabilità del dispositivo)."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Riconoscere senza forzare: sospendere l'intervallo è una scelta clinica legittima e reversibile, non un fallimento, quando il campo è saturato da una priorità di cura o non c'è materiale osservabile.",
+            "possible_phrase": "Oggi ci concentriamo su quello che serve adesso; quel momento libero lo riprendiamo un'altra volta.",
+            "alternative_phrase": "Non è la giornata giusta per quel momento, e va benissimo così.",
+            "gesture_or_timing": "Nominare la sospensione con naturalezza, senza farne una mancanza, e rimandare a una visita successiva.",
+            "avoid": [
+              "simulare l'intervallo comprimendolo in due minuti",
+              "'almeno proviamo' quando il campo è saturo o il bambino è in angoscia",
+              "leggere la sospensione come un dato negativo sul bambino"
+            ]
+          },
+          "expected_field_effect": "La non-applicabilità resta nominabile e reversibile: il dispositivo non degenera in formula performativa né si sovrappone alla priorità clinica o allo stato del bambino.",
+          "non_prescriptive_note": "Non è una rinuncia definitiva: nomina un esito previsto dal dispositivo stesso (sospendere o non classificabile), distinto dal funzionamento.",
+          "methodological_warnings": [
+            "Distinguere 'sospendere' (priorità clinica o setting incompatibile) da 'non classificabile' (assenza di dati osservabili minimi) e da 'ambiguo' (campo formalmente aperto ma sostanzialmente eroso)."
+          ]
+        },
+        {
+          "sit_id": "F3-SIT-012",
+          "family_id": "F3-SIT-4",
+          "title": "Tono ordinario, non solenne",
+          "context": {
+            "setting": "Ambulatorio pediatrico, attraversamento dell'intervallo",
+            "actors": ["pediatra"],
+            "age_window": null,
+            "situation": "Scheda sul registro vocale del pediatra nel dichiarare e attraversare l'intervallo: il caso configurazione_distorta_chiudente mostra che un tono solenne, pur con micro-azioni eseguite alla lettera, trasforma l'apertura in compito implicito."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Parlare con la stessa densità di un gesto qualsiasi della visita: nessuna enfasi, nessuna teatralità, nessun tono da premio o da prova. La voce non deve segnalare 'ora succede qualcosa di importante', perché quel segnale è già un compito.",
+            "possible_phrase": null,
+            "alternative_phrase": null,
+            "gesture_or_timing": "Collocare l'apertura dentro il flusso ordinario della visita, non come annuncio frontale e marcato.",
+            "avoid": [
+              "solennità o enfasi nel dichiarare l'intervallo",
+              "tono motivazionale o da incoraggiamento ('forza, fammi vedere')",
+              "una voce che inviti implicitamente alla performance"
+            ]
+          },
+          "expected_field_effect": "L'apertura non si carica di attesa: il bambino non riceve dal registro vocale il segnale implicito di dover esibire e l'intervallo resta non finalizzato.",
+          "non_prescriptive_note": "Non è una tecnica vocale da applicare: descrive una qualità di presenza, irriducibile a un'istruzione su come modulare la voce.",
+          "methodological_warnings": [
+            "È il livello su cui il caso configurazione_distorta_chiudente mostra un breaking point strutturale: il 'come' del tono non è codificabile in checklist."
+          ]
+        },
+        {
+          "sit_id": "F3-SIT-013",
+          "family_id": "F3-SIT-4",
+          "title": "Postura non frontale, distanza non concentrata",
+          "context": {
+            "setting": "Ambulatorio pediatrico, durante l'intervallo",
+            "actors": ["pediatra"],
+            "age_window": null,
+            "situation": "Scheda sulla postura e la prossimità del pediatra durante l'intervallo: la collocazione frontale e attentiva, anche in silenzio, incornicia lo spazio del bambino come scena osservata e reintroduce pressione (riferimento alle micro-azioni ma1 e ma3 corrette)."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Collocarsi lateralmente e non di fronte, a una distanza che non costituisca attenzione concentrata: il corpo è disponibile ma non orientato come quello di un osservatore in attesa, e lo sguardo resta morbido e mobile.",
+            "possible_phrase": null,
+            "alternative_phrase": null,
+            "gesture_or_timing": "Orientare il corpo di tre quarti, evitare di sedersi frontalmente fissando il bambino, non avvicinarsi per 'non perdere' ciò che fa.",
+            "avoid": [
+              "postura frontale attentiva rivolta al bambino",
+              "sguardo fisso in attesa di una reazione",
+              "avvicinarsi per osservare meglio i dettagli dell'azione"
+            ]
+          },
+          "expected_field_effect": "Cade la pressione dello sguardo focalizzato e lo spazio del bambino non viene incorniciato come scena da osservare: il campo resta percepibilmente aperto.",
+          "non_prescriptive_note": "Non prescrive una posa esatta: descrive una qualità di presenza che riduce la pressione, da modulare secondo gli spazi e i vincoli del setting reale.",
+          "methodological_warnings": []
+        },
+        {
+          "sit_id": "F3-SIT-014",
+          "family_id": "F3-SIT-4",
+          "title": "Presenza osservativa che non sorveglia",
+          "context": {
+            "setting": "Ambulatorio pediatrico, durante l'intervallo",
+            "actors": ["pediatra"],
+            "age_window": null,
+            "situation": "Scheda sulla densità attentiva del pediatra: un'attenzione concentrata, anche silenziosa e senza parole, funziona come attesa di prestazione; vanno inoltre differiti i gesti di scoring visibili al bambino (micro-azione ma5)."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Essere presente con un'attenzione diffusa e non con un monitoraggio: l'osservazione clinica non è soppressa ma differita e resa non invasiva, in modo che il proprio osservare non pesi sul campo come attesa silenziosa di prestazione.",
+            "possible_phrase": null,
+            "alternative_phrase": null,
+            "gesture_or_timing": "Non scrivere, non spuntare scale e non commentare in tempo reale; riservare l'eventuale nota descrittiva al dopo, fuori dal campo del bambino.",
+            "avoid": [
+              "densità attentiva concentrata che funziona come attesa silenziosa di prestazione",
+              "prendere appunti o spuntare scale davanti al bambino",
+              "trasmettere con lo sguardo il messaggio 'ora ti osservo mentre giochi'"
+            ]
+          },
+          "expected_field_effect": "L'agire del bambino non è immediatamente convertito in indice osservativo davanti a lui e il campo resta non valutativo, pur restando possibile annotare in seguito.",
+          "non_prescriptive_note": "Non sopprime l'osservazione clinica: la differisce e la rende non invasiva, lasciando alla discrezione successiva l'eventuale annotazione.",
+          "methodological_warnings": [
+            "Distinguere la presenza diffusa dalla disattenzione: il pediatra continua a osservare, ma il suo osservare non deve pesare sul campo."
+          ]
+        },
+        {
+          "sit_id": "F3-SIT-015",
+          "family_id": "F3-SIT-4",
+          "title": "La compresenza non direttiva del caregiver",
+          "context": {
+            "setting": "Ambulatorio pediatrico, durante l'intervallo",
+            "actors": ["caregiver", "bambino", "pediatra"],
+            "age_window": null,
+            "situation": "Scheda — orientata dal pediatra — sull'atteggiamento del caregiver durante l'intervallo: nel dominio clinico il caregiver opera nel dispositivo per sottrazione (compresenza non direttiva e sospensione delle sollecitazioni), non aggiungendo nuove frasi rivolte al bambino."
+          },
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "micro_mediation": {
+            "adult_attitude": "Il caregiver resta presente e disponibile senza sollecitare, commentare o chiedere esibizioni: una presenza che rassicura per il solo esserci e non per guidare, lasciando al bambino i suoi tempi morti e i suoi errori.",
+            "possible_phrase": null,
+            "alternative_phrase": null,
+            "gesture_or_timing": "Rimanere seduto vicino con sguardo tranquillo; non avvicinarsi per 'aiutare' né riprendere quando il bambino si ferma o sbaglia.",
+            "avoid": [
+              "'bravo, fai vedere alla dottoressa' o altre richieste di esibizione",
+              "correggere o guidare il gioco del bambino",
+              "riempire i tempi morti con incoraggiamenti o suggerimenti"
+            ]
+          },
+          "expected_field_effect": "Il caregiver opera nel dispositivo per sottrazione e il vettore caregiver-bambino smette di reintrodurre la prestazionalizzazione che il dispositivo protegge.",
+          "non_prescriptive_note": "Non chiede al genitore di 'non esserci': chiede una presenza diversa, non l'assenza, e resta un assetto momentaneo e reversibile.",
+          "methodological_warnings": [
+            "Il dispositivo non prevede un rinforzo automatico se il caregiver ricade: la tenuta dipende dalla relazione e da un eventuale segnale discreto del pediatra, non da una regola."
+          ]
+        }
+      ]
+    }
+  ]
+}

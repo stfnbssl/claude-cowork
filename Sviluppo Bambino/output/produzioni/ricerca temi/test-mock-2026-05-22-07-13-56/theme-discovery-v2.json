@@ -1,0 +1,55 @@
+{
+  "research_scope": {
+    "project_goal": "(mock) Generazione finta per test ingest",
+    "source_types_consulted": [
+      "mock_source"
+    ],
+    "selection_criteria": [
+      "mock_criterion"
+    ],
+    "notes": "Test automatico mock mode"
+  },
+  "candidate_themes": [
+    {
+      "theme_label_provisional": "Mock theme per run test-mock-2026-05-22-07-13-56",
+      "starting_point": "Punto di partenza mock.",
+      "structural_focus": "Focus strutturale mock.",
+      "what_it_is": "È un tema finto per testare il flusso di ingest.",
+      "what_it_is_not": "Non è un tema reale.",
+      "why_it_matters": "Conta solo per verificare la pipeline.",
+      "source_signals": [
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Mock source",
+          "signal_summary": "Mock signal.",
+          "recency_relevance": "bassa"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Mock",
+          "reason": "Mock reason."
+        }
+      ],
+      "definition_draft": "Definizione mock.",
+      "definition_risks": [
+        "Rischio mock 1"
+      ],
+      "exploratory_priority": "media",
+      "pilot_suitability": "bassa",
+      "human_review_notes": "Generato da MOCK_MODE.",
+      "possible_structural_nodes": [
+        "mock-node"
+      ],
+      "possible_bridge_concepts": [
+        "mock-bridge"
+      ]
+    }
+  ],
+  "global_notes": {
+    "overall_assessment": "(mock) Output simulato per test ingest.",
+    "needs_human_review": true,
+    "open_issues": []
+  }
+}

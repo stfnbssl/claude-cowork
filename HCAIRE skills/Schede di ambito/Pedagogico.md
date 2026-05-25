@@ -2,6 +2,8 @@
 
 ## Ambito: **Pedagogico**
 
+> **Versione 2.0 — allineata al fondamento ufficiale.** Riferimenti ai nodi trasversali secondo l'enumerazione canonica N1–N7 (`Documenti fondativi/Atlante nodi trasversali.md` v2.0); quattro contesti canonici (Clinico, Pedagogico, Genitoriale, Istituzionale/servizi). Data: 2026-05-24.
+
 ---
 
 ## 0. Identificazione
@@ -254,57 +256,29 @@ L’IA deve chiedersi:
 
 ## 8. Nodi trasversali prioritari
 
-### Relazione adulto–bambino (primario)
+Lettura dei sette nodi canonici secondo il contesto pedagogico (Matrice Nodo × Contesto, colonna P).
 
-* base della mediazione educativa
+### N2 — Campo relazionale / Co-regolazione (primario)
 
----
+Base della mediazione educativa: la relazione educativa è responsiva o direttiva?
 
-### Linguaggio e significato condiviso (primario)
+### N3 — Accesso al mondo condiviso simbolico (primario)
 
-* cuore dell’apprendimento
+Cuore dell'apprendimento: l'apprendimento è partecipazione o esecuzione? Costruzione di significato condiviso.
 
----
+### N7 — Desiderio / Direzione dell'esperienza (primario)
 
-### Desiderio e iniziativa (primario)
+Motore dello sviluppo: la motivazione è intrinseca o prestazione? Curiosità e iniziativa.
 
-* motore dello sviluppo
+### N1 — Regolazione / Integrazione dell'esperienza (secondario)
 
----
+Attenzione, partecipazione, stabilità nelle transizioni; il contesto sovraccarica o sostiene? Qualità coerente o discontinua dell'esperienza educativa.
 
-### Affettività e sviluppo del legame (primario)
+### N5 — Separazione / Limite reale (secondario ma critico)
 
-* condizione dell’apprendimento
-* ciclo rottura/riparazione come occasione educativa
-* distinzione obbedienza/responsabilità nella lettura del bambino
+Fallimenti, frustrazioni, transizioni difficili: la regola organizza o schiaccia? Esperienze formative che passano per il non-riuscire.
 
----
-
-### Regolazione (secondario)
-
-* attenzione, partecipazione, stabilità
-
----
-
-### Integrazione/disorganizzazione (secondario)
-
-* qualità dell’esperienza educativa
-
----
-
-### Limite reale / Separazione (secondario ma critico)
-
-* fallimenti, frustrazioni, transizioni difficili
-* esperienze formative che passano per il non-riuscire
-
----
-
-### Contesto storico-culturale (secondario — sfondo sempre attivo)
-
-* scuola come istituzione che organizza il campo di esperienza
-* tecnologie e ritmi contemporanei vs. tempo scolastico
-* pressioni culturali sulla prestazione
-* disuguaglianze nelle condizioni di partenza
+> Nota. L'affettività e lo sviluppo del legame e il contesto storico-culturale — che la versione precedente elencava qui come nodi — non sono nodi ma **assi** (A2, A6): restano sempre attivi come dimensioni costitutive. La lettura del ciclo rottura/riparazione in contesto educativo e della distinzione obbedienza/responsabilità appartiene all'Asse 2; la scuola come istituzione che organizza il campo di esperienza appartiene all'Asse 6. Vanno attivati tramite le skill di fondamento corrispondenti.
 
 ---
 
@@ -478,15 +452,13 @@ Se troppo pratico:
 
 ---
 
-# 17. Collegamento con la scheda genitoriale
+# 17. Collegamento con gli altri ambiti
 
-Questo è interessante:
+I quattro contesti canonici leggono gli stessi nodi da livelli diversi:
 
-* ambito genitoriale → quotidianità relazionale
-* ambito pedagogico → contesto educativo strutturato
+* **Pedagogico** → il contesto educativo strutturato
+* **Genitoriale** → la quotidianità relazionale della cura
+* **Clinico** → l'osservazione e l'interpretazione dei segnali di sviluppo
+* **Istituzionale/servizi** → l'organizzazione delle condizioni e dei servizi
 
-👉 stessi nodi, ma:
-
-* linguaggio diverso
-* obiettivi diversi
-* responsabilità diverse
+Stessi nodi, ma linguaggio, obiettivi e responsabilità diversi.

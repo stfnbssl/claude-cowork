@@ -1,0 +1,94 @@
+{
+  "$comment": "Tassonomia delle famiglie F3-SIT — file strutturale di metodo, input di f3_sit_step_1. Specifica: webapp-hcaire/specifiche/D9-pipeline-f3-sit.md §4. NON modificare senza revisione metodologica; correzioni previste solo dopo il pilota (Fase 4 del Piano di attuazione F3-SIT).",
+  "version": "1.0",
+  "date": "2026-05-23",
+  "module": "F3-SIT",
+  "families": [
+    {
+      "family_id": "F3-SIT-1",
+      "name": "Casistiche situazionali",
+      "main_use": "Riconoscere configurazioni di campo",
+      "description": "Scene-tipo brevi che descrivono una configurazione di campo riconoscibile. Non sono casi clinici: non diagnosticano il bambino, descrivono una configurazione. Base privilegiata di partenza: i 5 casi tipologici dello stress test (f3_step_3).",
+      "produced_by": "f3_sit_step_2",
+      "narrative": false,
+      "typical_target_user": ["formatore", "educatore", "insegnante", "pediatra"]
+    },
+    {
+      "family_id": "F3-SIT-2",
+      "name": "Frasi per operatori",
+      "main_use": "Colloquio con genitori o altri adulti",
+      "description": "Formulazioni concrete che un operatore (pediatra, educatore, insegnante, bibliotecario) può usare parlando con genitori o altri adulti, senza colpevolizzare e senza prescrivere rigidamente. Ogni frase sposta l'attenzione dalla prestazione alla configurazione di campo.",
+      "produced_by": "f3_sit_step_2",
+      "narrative": false,
+      "typical_target_user": ["pediatra", "educatore", "insegnante", "bibliotecario"]
+    },
+    {
+      "family_id": "F3-SIT-3",
+      "name": "Frasi per caregiver",
+      "main_use": "Interazione adulto-bambino",
+      "description": "Formulazioni concrete rivolte al bambino che il genitore o caregiver può usare, mediate da una funzione configurazionale (proteggere senza chiudere, ampliare senza forzare). Non sono ricette: sono micro-mediazioni situate.",
+      "produced_by": "f3_sit_step_2",
+      "narrative": false,
+      "typical_target_user": ["genitore", "caregiver"]
+    },
+    {
+      "family_id": "F3-SIT-4",
+      "name": "Schede di atteggiamento adulto",
+      "main_use": "Postura, tono, timing, tipo di presenza",
+      "description": "Descrivono il 'come stare' dell'adulto, non solo il 'cosa dire'. Spesso il contenuto della frase è meno decisivo del timing, del tono, della postura e del tipo di attesa. Ogni scheda indica il nodo che l'atteggiamento sostiene.",
+      "produced_by": "f3_sit_step_2",
+      "narrative": false,
+      "typical_target_user": ["genitore", "caregiver", "educatore", "insegnante"]
+    },
+    {
+      "family_id": "F3-SIT-5",
+      "name": "Micro-scenari situazionali",
+      "main_use": "Sequenze brevi di campo",
+      "description": "Sequenze brevi di azioni osservabili integrabili in un contesto reale, in forma esemplificativa e formativa (più leggera del micro-dispositivo di campo, che resta lo strumento tecnico di F3 step 2).",
+      "produced_by": "f3_sit_step_2",
+      "narrative": false,
+      "typical_target_user": ["educatore", "insegnante", "genitore", "caregiver", "formatore"]
+    },
+    {
+      "family_id": "F3-SIT-6",
+      "name": "Vignette formative",
+      "main_use": "Formazione e supervisione",
+      "description": "Racconti brevi che formano lo sguardo configurazionale, contrapponendo una lettura ingenua a una lettura configurazionale della stessa scena. Mostrano la differenza tra moralizzare il campo e riconfigurarlo.",
+      "produced_by": "f3_sit_step_3",
+      "narrative": true,
+      "typical_target_user": ["formatore", "insegnante", "educatore"]
+    },
+    {
+      "family_id": "F3-SIT-7",
+      "name": "Storyboard fumetto/video",
+      "main_use": "Materiali comunicativi visivi",
+      "description": "Traduzione di una configurazione in una sequenza visiva a pannelli (campo iniziale, restringimento, intervento adulto non prescrittivo, micro-riapertura, chiusura formativa). Adatto alla produzione con AI generativa.",
+      "produced_by": "f3_sit_step_3",
+      "narrative": true,
+      "typical_target_user": ["formatore", "genitore", "insegnante", "educatore"]
+    },
+    {
+      "family_id": "F3-SIT-8",
+      "name": "Linee guida narrative non prescrittive",
+      "main_use": "Orientamento divulgativo o professionale",
+      "description": "Testi sintetici che orientano adulti e operatori senza trasformare il modello in protocollo rigido. Utilizzabili per pagine web, materiali per genitori, formazione di volontari, documenti introduttivi per servizi.",
+      "produced_by": "f3_sit_step_3",
+      "narrative": true,
+      "typical_target_user": ["genitore", "educatore", "insegnante", "formatore", "pediatra"]
+    },
+    {
+      "family_id": "F3-SIT-9",
+      "name": "Prompt per AI generativa",
+      "main_use": "Produzione assistita di materiali",
+      "description": "Trasformano schede configurazionali in prompt per la produzione assistita di illustrazioni, fumetti, video brevi, role-play, dialoghi. Includono vincoli di tono e elementi da evitare.",
+      "produced_by": "f3_sit_step_3",
+      "narrative": true,
+      "typical_target_user": ["formatore"]
+    }
+  ],
+  "target_user_values": ["pediatra", "educatore", "insegnante", "bibliotecario", "genitore", "caregiver", "formatore"],
+  "notes": {
+    "narrative_flag": "La proprietà 'narrative' determina la skip_condition di f3_sit_step_3: lo step 3 si esegue solo se f3_sit_step_1 seleziona almeno una famiglia con narrative=true (F3-SIT-6, 7, 8, 9).",
+    "produced_by": "Le famiglie 1-5 sono prodotte da f3_sit_step_2 (micro-mediazioni); le famiglie 6-9 da f3_sit_step_3 (formati formativi e narrativi)."
+  }
+}

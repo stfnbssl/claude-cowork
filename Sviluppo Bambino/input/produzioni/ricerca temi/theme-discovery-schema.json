@@ -155,6 +155,10 @@
         "source_title": {
           "type": "string"
         },
+        "source_url": {
+          "type": "string",
+          "description": "URL della fonte. Obbligatorio per source_type 'web_fetch' e 'web_search', omettere per 'training_knowledge'."
+        },
         "signal_summary": {
           "type": "string"
         },

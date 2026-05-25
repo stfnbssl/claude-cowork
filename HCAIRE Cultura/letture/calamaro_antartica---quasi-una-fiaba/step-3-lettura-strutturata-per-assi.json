@@ -1,0 +1,307 @@
+{
+  "opera_riferimento": {
+    "titolo": "Antartica - Quasi una fiaba",
+    "autore": "Lucia Calamaro"
+  },
+  "assi_implicati": [
+    {
+      "axis_id": "asse_4",
+      "axis_name": "Separazione e Limite",
+      "grado_implicazione": "alto",
+      "motivazione": "È l'asse più direttamente implicato dalla configurazione dell'opera. Il film ruota attorno a un incontro con ciò che resiste, eccede e toglie: la malattia terminale di Cadorna introduce l'irreversibilità (la 'soglia del non torna') nel campo del possibile; gli esperimenti di ibernazione ripetutamente falliti, segnati dalle 'croci sulla neve', sono la forma quotidiana con cui l'opera mette in scena il limite reale (non il 'non si deve' della norma, ma il 'non è possibile' dell'eccedenza). Il desiderio stesso di conservare la vita nel ghiaccio è leggibile come tentativo di sospendere la 'separazione dall'onnipotenza': l'idea che il mondo risponda al desiderio e che ciò che non funziona possa essere 'aggiustato'. Il monologo finale in penombra, in cui il personaggio affronta la morte, configura una 'tenuta della perdita' — una presenza che accompagna senza spiegare e senza promettere. La sequenza onirica del collasso delle carote di ghiaccio ('frattura del tempo') figura l'irruzione di un reale che il discorso non assorbe. L'asse va però maneggiato con cautela perché il registro 'quasi una fiaba' rischia di idealizzare il limite o di forzarne la chiusura simbolica.",
+      "nodi_attivati_in_questo_asse": [
+        "Soglia del 'non torna'",
+        "Onnipotenza implicita",
+        "Tempo del lutto non patologico",
+        "Riparazione forzata",
+        "Sproporzione vissuta"
+      ]
+    },
+    {
+      "axis_id": "asse_5",
+      "axis_name": "Desiderio",
+      "grado_implicazione": "alto",
+      "motivazione": "L'opera mette in forma una struttura di orientamento verso il possibile prima che un contenuto: il desiderio di vincere la finitudine. La questione non sembra essere l'intensità del desiderio ma il suo ordine ('ordo amoris'): il problema è distinguere ciò che va custodito da ciò che va lasciato andare. La 'città di ghiaccio' di Cadorna e l'investimento sulla conservazione criogenica si lasciano leggere — a livello di configurazione, non di diagnosi del personaggio — come una tonalità del campo in cui il vivente vale in quanto trattenuto, vicino alla forma del 'desiderio fissato' (investimento esclusivo come tentativo di controllo). A questa si contrappone una direzione del desiderio che passa per 'selezione e rinuncia': il limite, lungi dal negare il desiderio, ne diventa condizione di consistenza nel tempo (l'eco cechoviana del 'continuare nonostante le sconfitte'). Il 'bene come orientamento' è in gioco nella scelta tra trattenere e trasmettere. Sullo sfondo, la pressione corporate introduce la forma del 'desiderio prestazionale', che sostituisce l'orientamento con un risultato misurabile e brevettabile.",
+      "nodi_attivati_in_questo_asse": [
+        "Bene come orientamento",
+        "Desiderio fissato",
+        "Mancanza strutturale",
+        "Desiderio prestazionale"
+      ]
+    },
+    {
+      "axis_id": "asse_6",
+      "axis_name": "Storico–culturale",
+      "grado_implicazione": "alto",
+      "motivazione": "L'asse è fortemente implicato perché l'opera incarna le tensioni precedenti in dispositivi storici concreti. La promessa tecnica di conservare e riportare in vita ('membrana' per l'ibernazione, rotiferi rianimati dopo millenni) è leggibile come 'neutralizzazione simbolica del limite': la promessa di prevenzione che rimuove l'esperienza del reale, qui addirittura della morte. L'offerta della multinazionale di finanziare la ricerca in cambio della sua brevettazione e commercializzazione attiva la 'prestazionalizzazione del valore' (il valore dell'esperienza coincide con il suo indicatore/rendimento) e il 'riconoscimento condizionato' (la ricerca sostenuta solo finché risponde alle aspettative del capitale). Il definanziamento pubblico e la precarietà del lavoro scientifico rinviano al 'tempo istituzionale' e all'istituzione come dispositivo che organizza ciò che conta. La comunità isolata, retta da pratiche e ruoli condivisi, è essa stessa una micro-istituzione. L'asse è qui 'asse di traduzione e verifica': mostra come desiderio e limite circolino nel mondo storico senza ridurli a effetto del contesto.",
+      "nodi_attivati_in_questo_asse": [
+        "Neutralizzazione simbolica del limite",
+        "Prestazionalizzazione del valore",
+        "Riconoscimento condizionato",
+        "Tempo istituzionale",
+        "Tecnica come seconda natura"
+      ]
+    },
+    {
+      "axis_id": "asse_1",
+      "axis_name": "Ontologico–fenomenologico",
+      "grado_implicazione": "medio",
+      "motivazione": "L'asse è presente soprattutto attraverso la 'temporalità vissuta' e l'idea di 'ipseità in divenire' (identità come continuità dinamica, non come sostanza immutabile). La domanda dell'opera — se la vita possa essere salvata sottraendola al tempo o solo vissuta nel suo passaggio — interroga la differenza tra una identità che si tiene insieme nel passare del tempo e l'illusione di una permanenza del medesimo. Il ghiaccio come 'archivio implicito del tempo' (materia dalla 'vocazione conservativa, quasi museale') e le carote che conservano aria di centinaia di migliaia di anni fa evocano la struttura di ritenzione e protensione. L'asse resta però a grado medio perché l'opera tematizza il tempo come oggetto di discorso e di trama, mentre l'Asse 1 descrive la temporalità come struttura costitutiva del soggetto: l'aderenza va tenuta sul piano della configurazione, evitando di psicologizzare le strutture o di trattare il 'tempo' del film come se fosse senz'altro la temporalità vissuta dell'asse.",
+      "nodi_attivati_in_questo_asse": [
+        "Ipseità in divenire",
+        "Ritenzione e protensione",
+        "Continuità dell'esperienza"
+      ]
+    },
+    {
+      "axis_id": "asse_3",
+      "axis_name": "Normativo–educativo",
+      "grado_implicazione": "medio",
+      "motivazione": "L'asse è attivato su due piani. Primo: l'assemblea collettiva in cui il gruppo discute e vota sulla privatizzazione della ricerca configura un 'giudizio incarnato' e situato, esposto al reale e privo di garanzie procedurali — un'imputazione a sé di una decisione fallibile, distinta dalla mera applicazione di una regola. Secondo: il rapporto mentore-allieva tra Cadorna e Maria rinvia all'autorità come 'asimmetria assunta' (precedenza di chi ha già abitato il mondo della ricerca rispetto a chi vi arriva), che crea le condizioni del giudizio senza sostituirsi ad esso. La logica corporate del brevetto introduce la 'prestazione come surrogato' del giudizio (il vero tradotto in misurabile/commerciabile). L'asse resta medio: le fonti non chiariscono che il film tematizzi esplicitamente la trasmissione del sapere come problema normativo, e il conflitto Maria-Cadorna pare più rivalità metodologica e affettiva che disputa sul giudizio in quanto tale.",
+      "nodi_attivati_in_questo_asse": [
+        "Fallibilità del giudizio",
+        "Asimmetria educativa",
+        "Prestazione come surrogato"
+      ]
+    },
+    {
+      "axis_id": "asse_2",
+      "axis_name": "Affettivo–morale",
+      "grado_implicazione": "basso",
+      "motivazione": "L'asse è solo marginalmente implicato. L'unico nodo che le fonti autorizzano a richiamare, con cautela, è la 'continuità oltre la presenza': la trasmissione al maestro/allieva e l'ipotesi padre/figlia configurano una forma in cui chi se ne va continua a 'contare interiormente' in chi resta — l'altro come istanza interna che opera in assenza. Mancano però evidenze per le dinamiche proprie dell'asse: colpa integrativa, riparazione non sostitutiva, sopravvivenza dell'oggetto dopo l'aggressività. Il dossier descrive un conflitto di metodo che evolve in rivalità personale, non un percorso di rottura e riparazione del vincolo. Applicare qui colpa e riparazione sarebbe una forzatura: l'asse va perciò tenuto basso e il legame Cadorna-Maria letto piuttosto sotto gli assi del desiderio (trasmissione vs trattenimento) e normativo (asimmetria).",
+      "nodi_attivati_in_questo_asse": [
+        "Continuità oltre la presenza"
+      ]
+    }
+  ],
+  "nodi_trasversali_attivati": [
+    {
+      "nodo": "soglia-del-non-torna",
+      "asse_di_appartenenza": "asse_4",
+      "definizione_breve": "Punto in cui il tempo non restituisce ciò che è stato.",
+      "evidenza_nell_opera": "La malattia terminale di Cadorna e gli esperimenti di ibernazione ripetutamente falliti ('croci sulla neve'): il passare del tempo non riapre ma conferma la perdita. L'irreversibilità è il dato che la ricerca sulla conservazione tenta — e non riesce — a smentire."
+    },
+    {
+      "nodo": "onnipotenza-implicita",
+      "asse_di_appartenenza": "asse_4",
+      "definizione_breve": "Vissuto pre-tematico in cui il mondo coincide con il desiderio e ciò che non funziona può essere aggiustato.",
+      "evidenza_nell_opera": "Il progetto idealistico della 'città di ghiaccio' e l'investimento sulla conservazione/ibernazione come arresto della morte: la configurazione dell'opera mette in scena la pretesa che la vita possa essere sottratta al tempo, cioè che la separazione dall'onnipotenza possa essere evitata per via tecnica."
+    },
+    {
+      "nodo": "neutralizzazione-simbolica-del-limite",
+      "asse_di_appartenenza": "asse_6",
+      "definizione_breve": "Promessa tecnica di prevenzione che rimuove l'esperienza del reale.",
+      "evidenza_nell_opera": "La ricerca sulla conservazione criogenica e sul riportare in vita organismi congelati, in vista di applicazioni all'ibernazione dei mammiferi: la tecnica promette di prevenire e differire la morte, configurando il dispositivo storico-culturale con cui il limite reale viene rimosso anziché attraversato."
+    },
+    {
+      "nodo": "prestazionalizzazione-del-valore",
+      "asse_di_appartenenza": "asse_6",
+      "definizione_breve": "Slittamento per cui il valore di un'esperienza coincide con il suo indicatore misurabile, sostituendo il giudizio con la valutazione.",
+      "evidenza_nell_opera": "L'offerta della multinazionale di finanziare la ricerca in cambio del diritto di brevettarla e commercializzarla: la scoperta sul vivente vale in quanto rendita appropriabile, e il valore della ricerca slitta verso il suo indicatore economico."
+    },
+    {
+      "nodo": "bene-come-orientamento",
+      "asse_di_appartenenza": "asse_5",
+      "definizione_breve": "Direzione implicita del desiderio, non comando esterno.",
+      "evidenza_nell_opera": "La contrapposizione tra la 'città di ghiaccio'/bene comune e la brevettazione privata: la questione non è quanto si desideri, ma in quale direzione il desiderio della comunità si orienti — verso il dono condiviso o verso la proprietà recintata."
+    },
+    {
+      "nodo": "desiderio-fissato",
+      "asse_di_appartenenza": "asse_5",
+      "definizione_breve": "Investimento esclusivo come tentativo di controllo.",
+      "evidenza_nell_opera": "L'ostinazione sulla conservazione e sulla 'città di ghiaccio' come modo di trattenere la vita: a livello di configurazione (non di diagnosi del personaggio), il desiderio si stringe sull'arresto del tempo come forma di controllo sull'inarrestabile."
+    },
+    {
+      "nodo": "fallibilita-del-giudizio",
+      "asse_di_appartenenza": "asse_3",
+      "definizione_breve": "Condizione strutturale (non difetto) della responsabilità.",
+      "evidenza_nell_opera": "L'assemblea in cui il team vota sulla privatizzazione della ricerca: una decisione collettiva, situata, senza garanzia procedurale, in cui ciascuno deve assumere a sé un giudizio esposto e fallibile sotto pressione esterna e scarsità di risorse."
+    },
+    {
+      "nodo": "ipseita-in-divenire",
+      "asse_di_appartenenza": "asse_1",
+      "definizione_breve": "Identità come continuità dinamica, non come sostanza immutabile.",
+      "evidenza_nell_opera": "La tensione, dichiarata dal soggetto stesso del film, tra il conservare il medesimo (corpo, organismo, sapere immutato) e il vivere come ciò che passa: l'opera oppone la permanenza sostanziale alla continuità dinamica di ciò che si tiene insieme solo nel divenire."
+    },
+    {
+      "nodo": "continuita-oltre-la-presenza",
+      "asse_di_appartenenza": "asse_2",
+      "definizione_breve": "Persistenza affettiva dell'altro che opera in assenza.",
+      "evidenza_nell_opera": "Il rapporto mentore-allieva (e l'ipotesi padre-figlia) tra Cadorna e Maria: la figura della trasmissione configura un modo per cui chi sta per andarsene continua a operare interiormente in chi resta. Nodo richiamato con cautela, vista l'assenza di evidenze su colpa e riparazione."
+    },
+    {
+      "nodo": "tempo-istituzionale",
+      "asse_di_appartenenza": "asse_6",
+      "definizione_breve": "Strutturazione di tappe, scadenze e progressioni dell'esperienza.",
+      "evidenza_nell_opera": "Il venir meno dei finanziamenti statali e la dipendenza dai capitali privati: la missione è scandita da scadenze, rendicontazioni e condizioni di sopravvivenza economica che strutturano dall'esterno il tempo della ricerca."
+    }
+  ],
+  "nodi_assenti": [
+    {
+      "nodo": "riparazione-non-sostitutiva",
+      "asse_di_appartenenza": "asse_2",
+      "motivazione_assenza": "Se il conflitto Cadorna-Maria fosse strutturato come rottura del vincolo affettivo e suo successivo ristabilirsi, ci si attenderebbe una dinamica di colpa integrativa e riparazione. Le fonti descrivono però una rivalità metodologica che evolve in conflitto personale, senza evidenze di un'esperienza di riparazione che assuma il danno senza cancellarlo. La sua assenza è un dato critico: indica che l'opera lavora il legame sotto il segno della trasmissione e del desiderio, non sotto quello affettivo-morale della colpa."
+    },
+    {
+      "nodo": "co-regolazione",
+      "asse_di_appartenenza": "asse_1",
+      "motivazione_assenza": "La 'tenuta' relazionale come regolazione distribuita (holding, co-regolazione) è il cuore dell'Asse 1, ma riguarda la costituzione del soggetto in età evolutiva. Nell'opera, comunità di adulti, non si riscontra una configurazione di co-regolazione in senso proprio; ciò che vi si avvicina è semmai la 'tenuta della perdita' dell'Asse 4 (accompagnamento del morente). La sua assenza segnala che l'Asse 1 è qui implicato per la sola dimensione temporale, non per quella regolativa."
+    },
+    {
+      "nodo": "tempo-del-lutto-non-patologico",
+      "asse_di_appartenenza": "asse_4",
+      "motivazione_assenza": "L'opera tematizza la perdita e il morire, ma le fonti non permettono di stabilire se vi sia rappresentato un lavoro temporale del lutto come attraversamento (anziché come risoluzione fiabesca). È un nodo atteso che resta sospeso: la sua effettiva attivazione o la sua elusione (a favore di una consolazione tonale) è verificabile solo sulla visione diretta, non accessibile in questa lettura."
+    }
+  ],
+  "evidenze": [
+    {
+      "tipo": "immagine",
+      "descrizione": "Il ghiaccio come elemento dominante, indicato dalla regista come materia dalla 'vocazione conservativa, quasi museale'; le carote di ghiaccio (ice cores) che conservano aria di centinaia di migliaia di anni fa.",
+      "localizzazione": "Trasversale; richiamato nella struttura formale e nel contesto storico-culturale (intervista alla regista).",
+      "assi_connessi": ["asse_1", "asse_4", "asse_5"],
+      "interpretazione_sintetica": "Il ghiaccio figura insieme l'archivio implicito del tempo (Asse 1, ritenzione/protensione) e la pretesa di arrestare il divenire (Asse 4, onnipotenza implicita; Asse 5, desiderio fissato sul trattenere)."
+    },
+    {
+      "tipo": "scena",
+      "descrizione": "Gli esperimenti di ibernazione, condotti secondo alcune recensioni su animali, ripetutamente falliti, con l'immagine delle 'croci sulla neve' a segnare gli insuccessi.",
+      "localizzazione": "Ricorrente nello sviluppo del film.",
+      "assi_connessi": ["asse_4"],
+      "interpretazione_sintetica": "I fallimenti reiterati attivano la 'soglia del non torna' e la 'sproporzione vissuta' tra intenzione e accadere: il reale resiste e toglie, smentendo la promessa tecnica di reversibilità."
+    },
+    {
+      "tipo": "scena",
+      "descrizione": "Il monologo finale di Cadorna, in atmosfera onirica e in penombra, in cui il personaggio anziano e malato affronta la morte; immagine conclusiva descritta come sorprendente, con eco cechoviana dell'invito a continuare nonostante le sconfitte.",
+      "localizzazione": "Conclusione del film.",
+      "assi_connessi": ["asse_4", "asse_5"],
+      "interpretazione_sintetica": "Configura la 'tenuta della perdita' (Asse 4: presenza che accompagna senza spiegare né promettere) e un desiderio che persevera attraverso la rinuncia (Asse 5: la selezione come condizione di consistenza, non come negazione)."
+    },
+    {
+      "tipo": "struttura_narrativa",
+      "descrizione": "L'ironia strutturale per cui la ricerca sulla conservazione della vita è affidata, e culmina, in un personaggio che sta morendo: la scoperta non salva il suo scopritore.",
+      "localizzazione": "Asse portante dell'intreccio, dalla diagnosi di malattia al monologo finale.",
+      "assi_connessi": ["asse_4", "asse_5", "asse_6"],
+      "interpretazione_sintetica": "La coincidenza tra ricerca sulla longevità e finitudine del ricercatore mette in tensione la 'neutralizzazione simbolica del limite' (Asse 6) con l'irreversibilità del reale (Asse 4): la tecnica promette ciò che il corpo smentisce."
+    },
+    {
+      "tipo": "scena",
+      "descrizione": "L'assemblea collettiva in cui il gruppo discute e vota sull'offerta della multinazionale di finanziare la ricerca in cambio della sua brevettazione e commercializzazione.",
+      "localizzazione": "Sviluppo / svolta (linea dei finanziamenti).",
+      "assi_connessi": ["asse_3", "asse_6"],
+      "interpretazione_sintetica": "La deliberazione situata attiva il 'giudizio incarnato' e la 'fallibilità del giudizio' (Asse 3); l'oggetto del voto — privatizzare il vivente — attiva la 'prestazionalizzazione del valore' e il 'riconoscimento condizionato' (Asse 6)."
+    },
+    {
+      "tipo": "struttura_narrativa",
+      "descrizione": "Il venir meno dei finanziamenti statali alla missione e la conseguente dipendenza dal capitale privato; sullo sfondo, la precarietà del lavoro scientifico.",
+      "localizzazione": "Linea narrativa dei finanziamenti.",
+      "assi_connessi": ["asse_6"],
+      "interpretazione_sintetica": "Attiva il 'tempo istituzionale' e l'istituzione come dispositivo che organizza ciò che conta: la ricerca è esposta a scadenze e condizioni economiche che ne ridefiniscono il valore dall'esterno."
+    },
+    {
+      "tipo": "scena",
+      "descrizione": "Il progetto idealistico della 'città di ghiaccio' coltivato da Cadorna.",
+      "localizzazione": "Attributo del personaggio, ricorrente.",
+      "assi_connessi": ["asse_5", "asse_4"],
+      "interpretazione_sintetica": "Immagine dell'utopia della conservazione: a livello di configurazione attiva il 'desiderio fissato' (investimento esclusivo come controllo) e l''onnipotenza implicita' (il mondo che dovrebbe coincidere col desiderio di permanenza)."
+    },
+    {
+      "tipo": "elemento_formale",
+      "descrizione": "Il registro 'quasi una fiaba': fotografia dai toni di bianco luminoso, scene prevalentemente diurne, atmosfere calde che attenuano la dimensione glaciale a favore di un tono utopico; alternanza di comico e drammatico.",
+      "localizzazione": "Trasversale; dichiarato dal sottotitolo e dalle scelte visive.",
+      "assi_connessi": ["asse_4"],
+      "interpretazione_sintetica": "La 'fiaba' avvolge una materia grave (morte, isolamento, manipolazione del vivente). Sul piano dell'Asse 4 è il punto critico: può essere 'tenuta' che sostiene la perdita senza forzarne la chiusura, oppure 'riparazione forzata'/idealizzazione del limite che ne addolcisce l'irreversibilità."
+    },
+    {
+      "tipo": "immagine",
+      "descrizione": "La sequenza onirica del collasso delle carote di ghiaccio, a rappresentare la 'frattura del tempo'.",
+      "localizzazione": "Sequenza onirica/simbolica.",
+      "assi_connessi": ["asse_1", "asse_4"],
+      "interpretazione_sintetica": "Il crollo dell'archivio congelato figura l'irruzione di un reale che eccede e che il discorso non trattiene: la temporalità (Asse 1) si spezza nell'irreversibilità (Asse 4)."
+    },
+    {
+      "tipo": "struttura_narrativa",
+      "descrizione": "Il rapporto mentore-allieva tra Cadorna e Maria, con ipotesi di paternità biologica e legame affettivo, che evolve da divergenza professionale a conflitto personale.",
+      "localizzazione": "Relazione centrale, dall'arrivo di Maria in poi.",
+      "assi_connessi": ["asse_3", "asse_2", "asse_5"],
+      "interpretazione_sintetica": "Sotto l'Asse 3 attiva l''asimmetria educativa' (precedenza di chi ha abitato il mondo della ricerca); sotto l'Asse 2, con cautela, la 'continuità oltre la presenza' (chi va consegna a chi resta); sotto l'Asse 5, l'attrito tra trattenere e trasmettere."
+    },
+    {
+      "tipo": "altro",
+      "descrizione": "Il soggetto scientifico ispirato a un fatto reale (un rotifero rimasto congelato per circa 22.000 anni e riportato in vita), citato dalla regista come riflessione 'sui tempi della vita umana'.",
+      "localizzazione": "Premessa scientifica del film (riferito in intervista).",
+      "assi_connessi": ["asse_1", "asse_6"],
+      "interpretazione_sintetica": "Il tempo profondo congelato (Asse 1) viene mediato da un dispositivo tecnico-scientifico (Asse 6) che lo riporta nel presente: la vita che eccede il tempo interroga la finitudine umana."
+    }
+  ],
+  "configurazione_strutturale_dominante": {
+    "descrizione": "La configurazione dominante non è la somma degli assi ma il loro incrocio attorno a un'unica forma: l'incontro con il limite reale (Asse 4) declinato come questione del desiderio (Asse 5) e mediato/deformato dal mondo storico-tecnico (Asse 6). L'opera mette in forma l'umano come l'ente che produce tecniche per sottrarre la vita al tempo — congelare, ibernare, conservare — e lo colloca davanti all'irreversibilità che quelle stesse tecniche vorrebbero smentire. Il ghiaccio funziona come operatore di questa configurazione: insieme archivio del tempo (Asse 1) e promessa di arresto del tempo (Asse 4). Attorno a questo nucleo si dispongono due forme del 'non morire del tutto': la permanenza del medesimo per via tecnica (conservazione, città di ghiaccio, brevetto) e la continuazione nell'altro per via di trasmissione (maestro/allieva, padre/figlia, chi resta a chi continua). La prima forma è leggibile come 'desiderio fissato' e 'neutralizzazione simbolica del limite'; la seconda come 'bene come orientamento' che accetta la selezione e la rinuncia. Il mondo storico (Asse 6) tensiona ulteriormente la prima forma, trasformando la conservazione della vita in valore appropriabile e prestazionale. Il registro 'quasi una fiaba' è la forma con cui l'opera trattiene questa tensione senza risolverla — né disperazione né garanzia. La configurazione, in sintesi, è quella di un desiderio di permanenza messo alla prova dell'irreversibilità, in un mondo che ha gli strumenti tecnici per promettere ciò che non può mantenere.",
+    "relazione_con_ipotesi_step2": "La lettura strutturata conferma il centro di gravità individuato allo Step 2 (la finitudine e i modi di resisterle) e ne precisa l'architettura: ciò che lì era 'tensione tra conservare e lasciar fluire' trova negli assi un vocabolario controllato (onnipotenza implicita / separazione, desiderio fissato / ordo amoris, neutralizzazione simbolica del limite). Complica però l'ipotesi su due punti. Primo: la biforcazione 'via tecnica vs via della trasmissione' va tenuta come tensione aperta, non come conversione accertata — le fonti non permettono di stabilire se il finale risolva in trasmissione o sospenda; la dinamica resta perciò in parte indecidibile. Secondo: lo Step 2 attribuiva peso al legame Cadorna-Maria sul piano affettivo (Asse 2); l'analisi per assi mostra che l'Asse 2 è scarsamente sostenuto dalle evidenze (manca colpa/riparazione) e che quel legame è meglio leggibile sotto desiderio (Asse 5) e normatività (Asse 3). Resta valido l'avvertimento dello Step 2 sul rischio di ridurre un'opera corale a un unico nucleo."
+  },
+  "dinamica_opera": {
+    "forma_prevalente": ["resistenza", "trasformazione", "sospensione"],
+    "descrizione": "Il movimento complessivo è anzitutto una resistenza: una configurazione (la comunità scientifica e, in essa, la figura del capomissione) resiste a una doppia pressione — quella del reale (irreversibilità, malattia, esperimenti falliti) e quella esterna (definanziamento, offerta corporate). Questa resistenza ha una componente di collasso locale (gli esperimenti che falliscono, le 'croci sulla neve') che però non travolge l'insieme. Sul piano del rapporto con la finitudine si profila una possibile trasformazione: dallo sforzo di trattenere la vita (conservazione, città di ghiaccio) verso una forma di consegna e di perseveranza 'nonostante le sconfitte' (eco cechoviana). Tuttavia, poiché il senso del finale e l'effettivo esito di questa trasformazione non sono accertabili dalle fonti, e poiché il registro 'quasi una fiaba' trattiene il dramma senza garantirne lo scioglimento, la dinamica si chiude in una sospensione: l'opera lascia aperta la tensione tra permanenza e passaggio invece di risolverla.",
+    "articolazione_in_fasi": [
+      {
+        "fase": "Innesco e resistenza",
+        "forma": "resistenza",
+        "descrizione": "L'arrivo di Maria e le tensioni metodologiche, su uno sfondo di isolamento e scarsità, mettono la comunità sotto pressione interna ed esterna; la ricerca prosegue come resistenza alla finitudine e alla precarietà."
+      },
+      {
+        "fase": "Fallimento del controllo tecnico",
+        "forma": "collasso",
+        "descrizione": "Gli esperimenti di ibernazione ripetutamente falliti e la diagnosi di malattia mostrano il cedimento locale della pretesa di arrestare il tempo: il reale eccede e toglie ('croci sulla neve', collasso delle carote di ghiaccio)."
+      },
+      {
+        "fase": "Soglia della consegna",
+        "forma": "trasformazione",
+        "descrizione": "Il monologo finale davanti alla morte e l'invito a continuare configurano un possibile spostamento dal trattenere al trasmettere: il non-morire-del-tutto si ridefinisce come continuazione nell'altro."
+      },
+      {
+        "fase": "Apertura non risolta",
+        "forma": "sospensione",
+        "descrizione": "L'immagine conclusiva 'sorprendente' e il tono fiabesco trattengono la tensione senza scioglierla in garanzia o in disperazione: l'opera resta una 'quasi' fiaba, una speranza non promessa."
+      }
+    ]
+  },
+  "rischi_di_forzatura": [
+    {
+      "asse_coinvolto": "asse_4",
+      "tipo_di_rischio": "idealizzazione del limite / riparazione forzata",
+      "descrizione": "Il registro fiabesco, luminoso e caldo invita a leggere il limite (morte, fallimento, irreversibilità) come necessariamente buono o educativo, o a trattare il monologo finale come un'accettazione risolta. Ciò violerebbe l'avvertenza dell'Asse 4 secondo cui il limite non è 'buono in sé' ma ineludibile, e rischierebbe di scambiare una consolazione tonale per una tenuta autentica della perdita.",
+      "cautela_adottata": "Ho mantenuto aperta la possibilità che la 'fiaba' sia consolazione/riparazione forzata anziché tenuta, e ho segnalato tra i 'nodi_assenti' che il 'tempo del lutto non patologico' resta non verificabile dalle fonti."
+    },
+    {
+      "asse_coinvolto": "asse_5",
+      "tipo_di_rischio": "trasformazione delle patologie strutturali in diagnosi del personaggio",
+      "descrizione": "Leggere l'investimento di Cadorna sulla conservazione come 'desiderio fissato' rischia di diventare una diagnosi clinica del personaggio (rigidità, controllo) anziché la lettura di una configurazione dell'opera. L'Asse 5 vieta esplicitamente di trattare le deformazioni del desiderio come tipologie individuali.",
+      "cautela_adottata": "Ho riferito il 'desiderio fissato' alla configurazione dell'opera e non alla psicologia del personaggio, esplicitandolo ('a livello di configurazione, non di diagnosi'), in linea con la regola 'non diagnosticare personaggi'."
+    },
+    {
+      "asse_coinvolto": "asse_2",
+      "tipo_di_rischio": "moralizzazione precoce / idealizzazione del processo",
+      "descrizione": "La tentazione di leggere il legame Cadorna-Maria attraverso colpa e riparazione (data l'ipotesi padre-figlia) imporrebbe all'opera una dinamica affettivo-morale di cui non vi è evidenza, idealizzando un percorso di riconciliazione che le fonti non documentano.",
+      "cautela_adottata": "Ho tenuto l'Asse 2 a grado basso, attivato solo il nodo 'continuità oltre la presenza' con riserva esplicita, e registrato 'riparazione non sostitutiva' tra i nodi assenti."
+    },
+    {
+      "asse_coinvolto": "asse_1",
+      "tipo_di_rischio": "psicologizzazione delle strutture / tematizzazione scambiata per struttura",
+      "descrizione": "Il film tematizza il tempo (conservazione, longevità, archivio di ghiaccio) in modo esplicito e discorsivo; trattarlo senz'altro come 'temporalità vissuta' dell'Asse 1 confonderebbe un contenuto narrativo con una condizione strutturale del soggetto, perdendo il carattere di condizione di possibilità che l'asse descrive.",
+      "cautela_adottata": "Ho limitato l'Asse 1 al grado medio e ai soli nodi temporali, distinguendo il 'tempo come tema dell'opera' dalla 'temporalità vissuta come struttura', e ho segnalato l'assenza della co-regolazione."
+    },
+    {
+      "asse_coinvolto": "asse_6",
+      "tipo_di_rischio": "sociologizzazione / determinismo culturale",
+      "descrizione": "Enfatizzare la linea corporate e il definanziamento può ridurre l'opera a denuncia sociologica del capitalismo contemporaneo, facendo dell'Asse 6 un asse di origine anziché di traduzione e verifica, e oscurando le dimensioni del limite e del desiderio che lo precedono.",
+      "cautela_adottata": "Ho trattato l'Asse 6 come mediazione storica delle tensioni di Asse 4 e 5, non come loro causa, coerentemente con il vincolo metodologico che lo definisce 'asse di traduzione e verifica, non di origine'."
+    },
+    {
+      "tipo_di_rischio": "sovra-interpretazione su fonti secondarie / riduzione del corale a unico nucleo",
+      "descrizione": "L'intera lettura poggia su fonti secondarie senza accesso alla visione diretta: la natura esatta della scoperta, l'esito degli esperimenti e il peso effettivo del monologo finale sono incerti o discordanti. Inoltre la critica segnala un impianto corale ampio e potenzialmente sovraccarico: organizzare tutto attorno alla finitudine rischia di imporre una coerenza che è della lettura più che dell'opera.",
+      "cautela_adottata": "Ho mantenuto la convergenza sul nucleo della finitudine come ipotesi controllata e non come conclusione, indicato dinamiche aperte (sospensione) e dichiarato che diversi snodi sono verificabili solo sulla visione diretta."
+    }
+  ],
+  "metadata": {
+    "data_compilazione": "2026-05-24",
+    "compilato_da": "HCAIRE Cultura — Pipeline analitica, Step 3 (Cowork)",
+    "versione": "1.0"
+  }
+}

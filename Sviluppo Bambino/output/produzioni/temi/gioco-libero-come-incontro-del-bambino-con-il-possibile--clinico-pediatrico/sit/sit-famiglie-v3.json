@@ -1,0 +1,77 @@
+{
+  "step": "f3_sit_step_1",
+  "tema_id": "gioco-libero-come-incontro-del-bambino-con-il-possibile",
+  "domain_selected": "clinico",
+  "results": [
+    {
+      "device_reference": {
+        "source_device_id": null,
+        "dominant_node": "campo-desiderabile",
+        "function": "proteggere",
+        "target_field": "Tempo non finalizzato dell'osservazione clinica",
+        "universal_device_type": ["U3", "U6"]
+      },
+      "selected_families": [
+        {
+          "family_id": "F3-SIT-1",
+          "family_name": "Casistiche situazionali",
+          "priority": "alta",
+          "target_user": "pediatra",
+          "reason": "Lo stress test ha già prodotto cinque casi tipologici (assenza, parziale, distorta-chiudente, oscillante, apparente-indistinguibile) direttamente trasformabili in scene-tipo. Nel setting ambulatoriale il pediatra ha bisogno di riconoscere configurazioni di campo — non di diagnosticare il bambino — per distinguere l'orientamento autentico dalla prestazione, che è il cuore della fragilità del dispositivo.",
+          "expected_items": 5
+        },
+        {
+          "family_id": "F3-SIT-2",
+          "family_name": "Frasi per operatori",
+          "priority": "alta",
+          "target_user": "pediatra",
+          "reason": "Il dispositivo richiede esplicitamente (ma4) che il pediatra comunichi al caregiver la sospensione della lettura per tappe, e gli snodi decisionali dell'output-tipo prevedono restituzioni e counseling al genitore senza colpevolizzare né prescrivere. Servono formulazioni concrete che il pediatra possa usare nel colloquio per spostare l'attenzione dalla prestazione alla configurazione di campo.",
+          "expected_items": 6
+        },
+        {
+          "family_id": "F3-SIT-4",
+          "family_name": "Schede di atteggiamento adulto",
+          "priority": "alta",
+          "target_user": "pediatra",
+          "reason": "Il breaking point strutturale dello stress test (caso distorta-chiudente) mostra che è la qualità performativa dell'adulto — tono non solenne, postura non frontale, densità attentiva non concentrata, timing — a decidere se l'apertura protegge o diventa nuovo compito. Le schede di atteggiamento rendono leggibile il 'come stare' del pediatra, e la compresenza non direttiva del caregiver, dove il contenuto delle frasi non basta.",
+          "expected_items": 4
+        },
+        {
+          "family_id": "F3-SIT-6",
+          "family_name": "Vignette formative",
+          "priority": "media",
+          "target_user": "formatore",
+          "reason": "Il verdetto dello stress test è 'fragile' con discriminazione dipendente dall'osservatore: la riuscita del dispositivo dipende dalla capacità del pediatra di distinguere lettura ingenua e lettura configurazionale. I campi mislettura_risk di ogni caso offrono già la contrapposizione tra le due letture, materia diretta per vignette formative in supervisione pediatrica e audit clinici.",
+          "expected_items": 3
+        },
+        {
+          "family_id": "F3-SIT-8",
+          "family_name": "Linee guida narrative non prescrittive",
+          "priority": "media",
+          "target_user": "pediatra",
+          "reason": "Il modo di fallimento centrale del dispositivo è la sua trasformazione in protocollo o rituale (caso distorta-chiudente); linee guida esplicitamente non prescrittive sono la cornice coerente per orientare pediatri e servizi senza irrigidire il modello, allineate allo scopo del sito HCAIRE di presentare strumenti operativi senza protocollizzarli.",
+          "expected_items": 3
+        }
+      ],
+      "excluded_families": [
+        {
+          "family_id": "F3-SIT-3",
+          "reason": "Nel dominio clinico il caregiver opera nel dispositivo per sottrazione — compresenza non direttiva e sospensione delle sollecitazioni — non aggiungendo nuove frasi rivolte al bambino; un repertorio caregiver→bambino reintrodurrebbe proprio la prestazionalizzazione che il dispositivo protegge. La dimensione caregiver è coperta meglio da F3-SIT-4 (atteggiamento)."
+        },
+        {
+          "family_id": "F3-SIT-5",
+          "reason": "La sequenza operativa per il pediatra è già data dal micro-dispositivo (strumento tecnico) e il riconoscimento delle configurazioni da F3-SIT-1; un micro-scenario esemplificativo più leggero, rivolto tipicamente a educatori e genitori e non al pediatra, non ha un destinatario distinto in questo setting e si sovrapporrebbe alle famiglie già selezionate."
+        },
+        {
+          "family_id": "F3-SIT-7",
+          "reason": "Non c'è una destinazione d'uso comunicativo-visivo richiesta dal ricercatore; il valore del dispositivo sta in una discriminazione osservativa fine (orientamento autentico vs script internalizzato) che non si traduce nitidamente in una sequenza a pannelli senza banalizzarla. Il bisogno formativo prioritario è lo sguardo (F3-SIT-6), non la diffusione visiva."
+        },
+        {
+          "family_id": "F3-SIT-9",
+          "reason": "I prompt per AI generativa sono a valle delle famiglie di produzione visiva e narrativa (in particolare F3-SIT-7), che non sono selezionate; in assenza di un mandato del ricercatore alla produzione assistita di materiali, la famiglia non ha un destinatario reale in questo contesto di osservazione clinica."
+        }
+      ],
+      "narrative_families_selected": true
+    }
+  ]
+}

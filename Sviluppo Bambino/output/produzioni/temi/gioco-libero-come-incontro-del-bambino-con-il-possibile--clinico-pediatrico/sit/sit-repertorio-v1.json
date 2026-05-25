@@ -1,0 +1,415 @@
+{
+  "step": "f3_sit_step_4",
+  "tema_id": "gioco-libero-come-incontro-del-bambino-con-il-possibile",
+  "domain_selected": "clinico",
+  "results": [
+    {
+      "methodological_status": "validato",
+      "source_validations": {
+        "f3_coherence_status": null,
+        "step_3_executed": true
+      },
+      "item_checks": [
+        {
+          "item_ref": "F3-SIT-001",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-1",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Vieta esplicitamente letture come 'e timido' o 'poco interattivo' e tratta il vuoto come stato del campo, non come tratto del bambino." },
+            { "id": "C2", "outcome": "passa", "motivation": "Non chiama in causa il caregiver ne gli attribuisce la mancata attivazione del bambino." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: la non-azione non e giudicata in termini di merito o colpa, ne per il bambino ne per terzi." },
+            { "id": "C4", "outcome": "passa", "motivation": "Resta micro-mediazione: dichiara di non indicare cosa fare per 'attivare' il bambino e sostiene il vuoto senza procedura." },
+            { "id": "C5", "outcome": "passa", "motivation": "Agisce sul campo (sostenere il vuoto, presenza discreta, non accorciare il segmento) e non corregge direttamente il soggetto." },
+            { "id": "C6", "outcome": "passa", "motivation": "Tracciabile a nodo 'campo-desiderabile' e funzione 'proteggere'; configurational_basis presente e coerente (source_device_id null non richiesto da C6)." },
+            { "id": "C7", "outcome": "passa", "motivation": "Utile in formazione: mostra una configurazione riconoscibile senza diventare ricetta di attivazione." },
+            { "id": "C8", "outcome": "passa", "motivation": "Mantiene aperta l'osservabilita: rende leggibile la differenza tra apertura formale e apertura abitata senza chiuderla in un indice." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-002",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-1",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Non etichetta il bambino come 'collaborante e orientato', anzi vieta di registrare come positiva un'osservazione costruita dalla pressione del caregiver." },
+            { "id": "C2", "outcome": "passa", "motivation": "Riconosce la ricaduta del caregiver ma vieta esplicitamente di colpevolizzarlo o rimproverarlo davanti al bambino." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione del bambino ne del genitore: la pressione prestazionale e letta come vettore, non come colpa." },
+            { "id": "C4", "outcome": "passa", "motivation": "Non prescrive di 'zittire' il caregiver: indica un gesto situato e reversibile, non un protocollo." },
+            { "id": "C5", "outcome": "passa", "motivation": "Ri-protegge la condizione lateralmente con un segnale discreto sul campo, senza correggere il bambino." },
+            { "id": "C6", "outcome": "passa", "motivation": "Nodo 'campo-desiderabile' e funzione 'proteggere' presenti e coerenti con il target field dichiarato." },
+            { "id": "C7", "outcome": "passa", "motivation": "Adatto alla formazione: insegna a separare il segnale del nodo dalla sua cattura senza fornire una formula." },
+            { "id": "C8", "outcome": "passa", "motivation": "Rende nuovamente osservabile quanto l'orientamento sia genuino e quanto gia rivolto al riconoscimento dell'adulto." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-003",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-1",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Vieta di concludere che l'esito 'piatto' sia informazione sul bambino: imputa il restringimento al gesto adulto, non al soggetto." },
+            { "id": "C2", "outcome": "passa", "motivation": "Il fallimento e collocato sul lato del pediatra (qualita performativa), non a carico del caregiver." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessun giudizio morale sul bambino o su terzi; si discute solo il 'come' del gesto adulto." },
+            { "id": "C4", "outcome": "passa", "motivation": "Non aggiunge un passo procedurale e dichiara che il 'come' non e riducibile a checklist: resta micro-mediazione." },
+            { "id": "C5", "outcome": "passa", "motivation": "Interviene sulla qualita del campo (tono, postura, timing) e non sulla condotta del bambino." },
+            { "id": "C6", "outcome": "passa", "motivation": "Tracciabile a 'campo-desiderabile'/'proteggere'; il breaking point dichiarato riguarda il dispositivo, non la coerenza dei campi." },
+            { "id": "C7", "outcome": "passa", "motivation": "Formativamente prezioso: mostra che la forma piena puo coesistere con un campo chiudente, senza codificare la voce giusta." },
+            { "id": "C8", "outcome": "passa", "motivation": "Apre l'osservabilita del 'come', livello che il dispositivo non marca: rende percepibile la differenza tra apertura e rituale." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-004",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-1",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Vieta di attribuire al bambino la discontinuita prodotta dagli eventi di setting: nessuna etichetta sul soggetto." },
+            { "id": "C2", "outcome": "passa", "motivation": "Il commento del caregiver e uno degli eventi di setting, non oggetto di colpevolizzazione." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: l'oscillazione e trattata come informazione strutturale, non come condotta da giudicare." },
+            { "id": "C4", "outcome": "passa", "motivation": "Non fissa soglie di aggregazione ne regole di computo: la lettura sintetica resta giudizio situato." },
+            { "id": "C5", "outcome": "passa", "motivation": "Protegge la continuita del segmento agendo sul setting, senza forzare il bambino ne la durata." },
+            { "id": "C6", "outcome": "passa", "motivation": "Nodo 'campo-desiderabile' e funzione 'proteggere' presenti e coerenti con il target field." },
+            { "id": "C7", "outcome": "passa", "motivation": "Adatto alla formazione: insegna a leggere l'oscillazione come qualita del campo senza fornire una regola di soglia." },
+            { "id": "C8", "outcome": "passa", "motivation": "Rende osservabile la frammentazione come stato del campo, distinguendola da una caratteristica del bambino." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-005",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-1",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Vieta sia il giudizio positivo per tappe sia lo 'smascheramento' del bambino: nessuna classificazione del soggetto." },
+            { "id": "C2", "outcome": "passa", "motivation": "La preparazione familiare e contestualizzata come pressione internalizzata, non come colpa del caregiver." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: la prestazionalita e letta configurazionalmente, non giudicata." },
+            { "id": "C4", "outcome": "passa", "motivation": "Non fornisce un test per smascherare il bambino: in caso di dubbio prescrive di dichiarare l'esito ambiguo, non una procedura." },
+            { "id": "C5", "outcome": "passa", "motivation": "Sposta l'osservazione dal lato esterno al lato interno del campo, senza correggere il bambino." },
+            { "id": "C6", "outcome": "passa", "motivation": "Tracciabile a 'campo-desiderabile'/'proteggere'; il falso positivo dichiarato e limite del dispositivo, non incoerenza dei campi." },
+            { "id": "C7", "outcome": "passa", "motivation": "Formativamente utile: distingue orientamento agli oggetti da orientamento all'immagine-di-se senza dare una checklist." },
+            { "id": "C8", "outcome": "passa", "motivation": "Apre una nuova osservabilita (tempi morti, errori, ridirezioni) che eccede il singolo segmento." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-006",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-2",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "L'item riguarda l'annuncio dell'intervallo e non formula alcuna classificazione del bambino." },
+            { "id": "C2", "outcome": "passa", "motivation": "Si rivolge a bambino e caregiver come destinatari del segnale, senza attribuire colpe al genitore." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: la frase e un segnale di campo, non un giudizio su nessuno." },
+            { "id": "C4", "outcome": "passa", "motivation": "Dichiara la formula come esempio e non copione: conta la densita ordinaria, non le parole esatte." },
+            { "id": "C5", "outcome": "passa", "motivation": "Agisce sulla qualita del campo (annuncio come segnale e non evento) senza dirigere il bambino." },
+            { "id": "C6", "outcome": "passa", "motivation": "Nodo 'campo-desiderabile' e funzione 'proteggere' presenti e coerenti con il target field." },
+            { "id": "C7", "outcome": "passa", "motivation": "Adatto all'uso formativo: la possible_phrase e esemplificativa e accompagnata da warning sul tono." },
+            { "id": "C8", "outcome": "passa", "motivation": "Mantiene l'intervallo percepibilmente non finalizzato, conservando l'osservabilita del campo." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-007",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-2",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Non etichetta il bambino: l'item lavora sull'attesa prestazionale del genitore prima dell'intervallo." },
+            { "id": "C2", "outcome": "passa", "motivation": "Offre al genitore un permesso a sospendere le sollecitazioni senza farlo sentire in errore: esplicitamente non colpevolizzante." },
+            { "id": "C3", "outcome": "passa", "motivation": "Registro collaborativo e non istruttivo: nessuna moralizzazione del caregiver." },
+            { "id": "C4", "outcome": "passa", "motivation": "Non vincola il genitore con un'istruzione: gli offre un permesso reversibile, non un protocollo." },
+            { "id": "C5", "outcome": "passa", "motivation": "Abbassa la doppia pressione valutativa sul campo, riposizionando il caregiver in compresenza non direttiva." },
+            { "id": "C6", "outcome": "passa", "motivation": "Tracciabile a 'campo-desiderabile'/'proteggere'; configurational_basis presente e coerente." },
+            { "id": "C7", "outcome": "passa", "motivation": "Adatto alla formazione: mostra come neutralizzare l'attesa prestazionale senza correggere il genitore." },
+            { "id": "C8", "outcome": "passa", "motivation": "Predispone un campo in cui l'orientamento del bambino puo manifestarsi senza diventare prestazione attesa." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-008",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-2",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Nessuna classificazione del bambino: l'item ripristina la sospensione senza interromperlo." },
+            { "id": "C2", "outcome": "passa", "motivation": "Riporta il genitore nella compresenza preservandone la dignita, senza rimprovero esplicito o disapprovazione." },
+            { "id": "C3", "outcome": "passa", "motivation": "Tono leggero e alleato, non correttivo: nessuna moralizzazione del caregiver." },
+            { "id": "C4", "outcome": "passa", "motivation": "Dichiara di non essere una regola da applicare a ogni ricaduta: aggiustamento situato, non protocollo." },
+            { "id": "C5", "outcome": "passa", "motivation": "Ri-protegge il campo lateralmente con uno sguardo o cenno, senza spostare l'attenzione sul bambino o sul genitore." },
+            { "id": "C6", "outcome": "passa", "motivation": "Nodo 'campo-desiderabile' e funzione 'proteggere' presenti e coerenti con il target field." },
+            { "id": "C7", "outcome": "passa", "motivation": "Adatto alla formazione: modella un gesto reversibile e proporzionato, senza ridurlo a tecnica." },
+            { "id": "C8", "outcome": "passa", "motivation": "Mantiene il flusso del bambino osservabile, evitando che registri la correzione." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-009",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-2",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Vieta esplicitamente etichette ('e timido', 'e iperattivo', 'e introverso') e il punteggio sul bambino: nessuna classificazione." },
+            { "id": "C2", "outcome": "passa", "motivation": "Restituisce una lettura di campo al caregiver senza diagnosticare ne colpevolizzare." },
+            { "id": "C3", "outcome": "passa", "motivation": "Postura di racconto descrittivo e non di verdetto: nessuna moralizzazione." },
+            { "id": "C4", "outcome": "passa", "motivation": "Non fornisce uno script di restituzione: indica una direzione da adattare al colloquio." },
+            { "id": "C5", "outcome": "passa", "motivation": "Sposta l'attenzione dalla prestazione del bambino alla configurazione del campo." },
+            { "id": "C6", "outcome": "passa", "motivation": "Tracciabile a 'campo-desiderabile'/'proteggere'; configurational_basis presente e coerente." },
+            { "id": "C7", "outcome": "passa", "motivation": "Adatto alla formazione: insegna a restituire una configurazione e non un voto, senza ricetta." },
+            { "id": "C8", "outcome": "passa", "motivation": "Riduce la spinta a riconvertire l'osservazione in prestazione, mantenendo leggibile la lettura di campo." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-010",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-2",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Nessuna classificazione del bambino: l'item orienta il counseling, non descrive il soggetto." },
+            { "id": "C2", "outcome": "passa", "motivation": "Risponde alla richiesta del genitore di esercizi senza colpevolizzarlo, per sottrazione di pressione." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: non giudica le abitudini domestiche del caregiver." },
+            { "id": "C4", "outcome": "passa", "motivation": "Vieta liste di esercizi graduati e formule come 'deve farlo giocare almeno X minuti': counseling per sottrazione, non protocollo." },
+            { "id": "C5", "outcome": "passa", "motivation": "Protegge un tempo non finalizzato anche a casa, agendo sul campo domestico senza prescrivere attivita al bambino." },
+            { "id": "C6", "outcome": "passa", "motivation": "Nodo 'campo-desiderabile' e funzione 'proteggere' presenti e coerenti con il target field." },
+            { "id": "C7", "outcome": "passa", "motivation": "Adatto alla formazione: mostra un orientamento per sottrazione, esplicitamente non un piano vincolante." },
+            { "id": "C8", "outcome": "passa", "motivation": "Rende la casa un altro spazio potenzialmente osservabile in cui il desiderio-orientamento puo manifestarsi." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-011",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-2",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Vieta di leggere la sospensione come dato negativo sul bambino: nessuna classificazione del soggetto." },
+            { "id": "C2", "outcome": "passa", "motivation": "Non attribuisce al caregiver la non-applicabilita: la sospensione e scelta clinica legittima." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: non fa dell'omissione dell'intervallo una mancanza di nessuno." },
+            { "id": "C4", "outcome": "passa", "motivation": "Nomina un esito previsto dal dispositivo (sospendere/non classificabile) anziche forzare la procedura: resta micro-mediazione." },
+            { "id": "C5", "outcome": "passa", "motivation": "Agisce sul campo riconoscendone la saturazione, senza forzare il bambino." },
+            { "id": "C6", "outcome": "passa", "motivation": "Tracciabile a 'campo-desiderabile'/'proteggere'; configurational_basis presente e coerente." },
+            { "id": "C7", "outcome": "passa", "motivation": "Adatto alla formazione: insegna a nominare la non-applicabilita come esito previsto, senza farne una formula." },
+            { "id": "C8", "outcome": "passa", "motivation": "Mantiene reversibile e nominabile la non-applicabilita, distinguendo sospendere, non classificabile e ambiguo." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-012",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-4",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "La scheda riguarda il registro vocale del pediatra e non formula alcuna classificazione del bambino." },
+            { "id": "C2", "outcome": "passa", "motivation": "Nessun riferimento colpevolizzante al caregiver: l'attenzione e sul gesto dell'operatore." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: descrive una qualita di presenza, non un giudizio." },
+            { "id": "C4", "outcome": "passa", "motivation": "Dichiara di non essere una tecnica vocale da applicare: irriducibile a istruzione su come modulare la voce." },
+            { "id": "C5", "outcome": "passa", "motivation": "Interviene sulla qualita del campo (densita ordinaria del tono) e non sulla condotta del bambino." },
+            { "id": "C6", "outcome": "passa", "motivation": "Nodo 'campo-desiderabile' e funzione 'proteggere' presenti e coerenti; il warning richiama il breaking point del dispositivo." },
+            { "id": "C7", "outcome": "passa", "motivation": "Adatto alla formazione: lavora sul registro del gesto, non su una checklist vocale." },
+            { "id": "C8", "outcome": "passa", "motivation": "Mantiene l'intervallo non finalizzato e quindi il campo osservabile senza attesa di prestazione." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-013",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-4",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "La scheda riguarda postura e prossimita del pediatra e non classifica il bambino." },
+            { "id": "C2", "outcome": "passa", "motivation": "Nessun riferimento colpevolizzante al caregiver." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: descrive una qualita di presenza corporea, non un giudizio." },
+            { "id": "C4", "outcome": "passa", "motivation": "Dichiara di non prescrivere una posa esatta: qualita di presenza da modulare secondo il setting." },
+            { "id": "C5", "outcome": "passa", "motivation": "Riduce la pressione dello sguardo sul campo senza incorniciare il bambino come scena osservata." },
+            { "id": "C6", "outcome": "passa", "motivation": "Tracciabile a 'campo-desiderabile'/'proteggere'; configurational_basis presente e coerente." },
+            { "id": "C7", "outcome": "passa", "motivation": "Adatto alla formazione: indica una qualita di prossimita da adattare, non una posa codificata." },
+            { "id": "C8", "outcome": "passa", "motivation": "Mantiene il campo percepibilmente aperto, conservandone l'osservabilita." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-014",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-4",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "La scheda riguarda la densita attentiva del pediatra e non formula classificazioni del bambino." },
+            { "id": "C2", "outcome": "passa", "motivation": "Nessun riferimento colpevolizzante al caregiver." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: distingue presenza diffusa da sorveglianza senza giudizio morale." },
+            { "id": "C4", "outcome": "passa", "motivation": "Non sopprime l'osservazione clinica ma la differisce: orientamento, non protocollo di scoring." },
+            { "id": "C5", "outcome": "passa", "motivation": "Agisce sulla qualita del campo (attenzione che non pesa) anziche correggere il bambino." },
+            { "id": "C6", "outcome": "passa", "motivation": "Nodo 'campo-desiderabile' e funzione 'proteggere' presenti e coerenti con il target field." },
+            { "id": "C7", "outcome": "passa", "motivation": "Adatto alla formazione: distingue attenzione diffusa da disattenzione senza ridursi a regola." },
+            { "id": "C8", "outcome": "passa", "motivation": "Mantiene il campo non valutativo davanti al bambino, lasciando possibile l'annotazione differita." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-015",
+          "source_step": "f3_sit_step_2",
+          "family_id": "F3-SIT-4",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "La scheda orienta l'atteggiamento del caregiver e non classifica il bambino." },
+            { "id": "C2", "outcome": "passa", "motivation": "Non chiede al genitore di 'non esserci' ne lo colpevolizza: chiede una presenza diversa, reversibile." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione del caregiver: la compresenza non direttiva e descritta, non imposta come dovere morale." },
+            { "id": "C4", "outcome": "passa", "motivation": "Dichiara di non essere una regola con rinforzo automatico: assetto momentaneo che dipende dalla relazione." },
+            { "id": "C5", "outcome": "passa", "motivation": "Opera per sottrazione sul vettore caregiver-bambino, senza correggere direttamente il bambino." },
+            { "id": "C6", "outcome": "passa", "motivation": "Tracciabile a 'campo-desiderabile'/'proteggere'; configurational_basis presente e coerente." },
+            { "id": "C7", "outcome": "passa", "motivation": "Adatto alla formazione: modella una presenza che rassicura senza guidare, senza diventare ricetta." },
+            { "id": "C8", "outcome": "passa", "motivation": "Rimuove la reintroduzione della prestazionalita, mantenendo osservabile l'orientamento del bambino." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-6 / vignetta / src:F3-SIT-003 — Tutto giusto, eppure il campo si e chiuso",
+          "source_step": "f3_sit_step_3",
+          "family_id": "F3-SIT-6",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "La rilettura configurazionale toglie al bambino l'esito 'piatto' e lo imputa al gesto adulto: nessuna etichetta sul soggetto." },
+            { "id": "C2", "outcome": "passa", "motivation": "Il fallimento e collocato sul lato del pediatra; il caregiver non e chiamato in causa ne colpevolizzato." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: la scena discute la qualita performativa, non il merito di nessuno." },
+            { "id": "C4", "outcome": "passa", "motivation": "Dichiara di non aggiungere un passo procedurale ne insegnare 'la voce giusta': il 'come' eccede ogni checklist." },
+            { "id": "C5", "outcome": "passa", "motivation": "L'intervento e sorveglianza della propria qualita di gesto sul campo, non correzione del bambino." },
+            { "id": "C6", "outcome": "passa", "motivation": "configurational_basis presente: nodo 'campo-desiderabile', funzione 'proteggere', coerente con la fonte F3-SIT-003." },
+            { "id": "C7", "outcome": "passa", "motivation": "Vignetta per supervisione con domande di discussione: uso formativo senza ricetta." },
+            { "id": "C8", "outcome": "passa", "motivation": "Apre l'osservabilita del 'come' (tono, postura, timing), distinguendo apertura e apertura ritualizzata." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-6 / vignetta / src:F3-SIT-005 — Il gioco impeccabile che nessuno mette in dubbio",
+          "source_step": "f3_sit_step_3",
+          "family_id": "F3-SIT-6",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Invita a non certificare la riuscita e a dichiarare ambiguo l'esito nel dubbio, senza classificare la bambina." },
+            { "id": "C2", "outcome": "passa", "motivation": "La preparazione familiare e contesto, non oggetto di colpevolizzazione del caregiver." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: la prestazionalita internalizzata e letta configurazionalmente." },
+            { "id": "C4", "outcome": "passa", "motivation": "Dichiara di non fornire un test per smascherare il bambino: nel dubbio dichiarare ambiguo, non eseguire una procedura." },
+            { "id": "C5", "outcome": "passa", "motivation": "Sposta lo sguardo dal lato esterno al lato interno del campo, senza correggere la bambina." },
+            { "id": "C6", "outcome": "passa", "motivation": "configurational_basis presente e coerente con la fonte F3-SIT-005: nodo 'campo-desiderabile', funzione 'proteggere'." },
+            { "id": "C7", "outcome": "passa", "motivation": "Vignetta per audit e supervisione con domande di discussione: uso formativo senza ricetta." },
+            { "id": "C8", "outcome": "passa", "motivation": "Apre l'osservabilita del lato interno (tempi morti, errori, ridirezioni), eccedendo il singolo segmento." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-6 / vignetta / src:F3-SIT-002 — Collaborante e orientato, ma orientato verso chi?",
+          "source_step": "f3_sit_step_3",
+          "family_id": "F3-SIT-6",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Smonta l'etichetta 'collaborante e ben orientato' mostrandola come costruita dalla pressione: nessuna classificazione confermata sul bambino." },
+            { "id": "C2", "outcome": "passa", "motivation": "Vieta di zittire o colpevolizzare il genitore: il caregiver e un vettore di campo, non un colpevole." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione del bambino o del caregiver: lettura configurazionale dei vettori." },
+            { "id": "C4", "outcome": "passa", "motivation": "Non prescrive di mettere a tacere il caregiver: indica un gesto situato e reversibile." },
+            { "id": "C5", "outcome": "passa", "motivation": "Ri-protegge il campo lateralmente, separando il segnale del nodo dalla sua cattura, senza correggere il bambino." },
+            { "id": "C6", "outcome": "passa", "motivation": "configurational_basis presente e coerente con la fonte F3-SIT-002: nodo 'campo-desiderabile', funzione 'proteggere'." },
+            { "id": "C7", "outcome": "passa", "motivation": "Vignetta per supervisione sul ruolo del caregiver con domande di discussione: uso formativo senza ricetta." },
+            { "id": "C8", "outcome": "passa", "motivation": "Rende nuovamente osservabile quanto l'orientamento sia genuino e quanto rivolto al riconoscimento dell'adulto." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-8 / linea_guida / src:F3-SIT-003 — Il dispositivo non e una checklist",
+          "source_step": "f3_sit_step_3",
+          "family_id": "F3-SIT-8",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Vieta di concludere che l'esito 'piatto' sia informazione sul bambino dopo l'esecuzione formale: nessuna etichetta." },
+            { "id": "C2", "outcome": "passa", "motivation": "Nessun riferimento colpevolizzante al caregiver: il focus e sul gesto del pediatra." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: discute il registro del gesto, non il merito di nessuno." },
+            { "id": "C4", "outcome": "passa_con_riserve", "motivation": "Il formato linea_guida con sezioni QUANDO/PRINCIPIO/ORIENTAMENTO/EVITARE/ESEMPIO lambisce la forma-protocollo, ma e trattenuto dal monito esplicito che il 'come' e irriducibile a checklist." },
+            { "id": "C5", "outcome": "passa", "motivation": "Orienta a sorvegliare la qualita del proprio gesto sul campo anziche correggere il bambino." },
+            { "id": "C6", "outcome": "passa", "motivation": "configurational_basis presente e coerente con la fonte F3-SIT-003: nodo 'campo-desiderabile', funzione 'proteggere'." },
+            { "id": "C7", "outcome": "passa_con_riserve", "motivation": "Adatto alla formazione ma la struttura per punti rischia la lettura a ricetta: la non_prescriptive_note la riconduce dentro modello orientando l'attenzione sul registro del gesto." },
+            { "id": "C8", "outcome": "passa", "motivation": "Apre l'osservabilita della configurazione del campo al di la dell'aderenza al protocollo." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-8 / linea_guida / src:F3-SIT-009 — Restituire una configurazione, non un voto",
+          "source_step": "f3_sit_step_3",
+          "family_id": "F3-SIT-8",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Vieta etichette ('e timido', 'e iperattivo') e la collocazione su scala: nessuna classificazione del bambino." },
+            { "id": "C2", "outcome": "passa", "motivation": "Risponde alla richiesta del genitore senza colpevolizzarlo, reindirizzando per sottrazione." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: registro descrittivo, non di verdetto." },
+            { "id": "C4", "outcome": "passa_con_riserve", "motivation": "Il formato per punti operativi sfiora la prescrizione, ma vieta liste di esercizi e dichiara di indicare una direzione da adattare al colloquio, non uno script." },
+            { "id": "C5", "outcome": "passa", "motivation": "Sposta la restituzione dalla prestazione del bambino alla configurazione del campo, anche a casa." },
+            { "id": "C6", "outcome": "passa", "motivation": "configurational_basis presente e coerente con la fonte F3-SIT-009: nodo 'campo-desiderabile', funzione 'proteggere'." },
+            { "id": "C7", "outcome": "passa_con_riserve", "motivation": "Uso formativo adeguato; la forma a checklist va presentata come orientamento per sottrazione, come chiarisce la non_prescriptive_note, per non scivolare in ricetta." },
+            { "id": "C8", "outcome": "passa", "motivation": "Riduce la riconversione dell'osservazione in prestazione, mantenendo leggibile la configurazione del campo." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        },
+        {
+          "item_ref": "F3-SIT-8 / linea_guida / src:F3-SIT-011 — Leggere gli esiti senza forzarli",
+          "source_step": "f3_sit_step_3",
+          "family_id": "F3-SIT-8",
+          "checks": [
+            { "id": "C1", "outcome": "passa", "motivation": "Vieta di ricondurre un campo vuoto a un tratto ('e timido'): gli esiti appartengono al campo o al dispositivo, non al bambino." },
+            { "id": "C2", "outcome": "passa", "motivation": "Nessun riferimento colpevolizzante al caregiver." },
+            { "id": "C3", "outcome": "passa", "motivation": "Nessuna moralizzazione: distingue stati del campo da giudizi sul soggetto." },
+            { "id": "C4", "outcome": "passa_con_riserve", "motivation": "Il formato per punti sfiora la regola, ma dichiara di non fissare soglie di computo e lascia la lettura sintetica come giudizio situato." },
+            { "id": "C5", "outcome": "passa", "motivation": "Agisce sulla lettura del campo (sospendere, non classificabile, ambiguo) senza forzare una conclusione sul bambino." },
+            { "id": "C6", "outcome": "passa", "motivation": "configurational_basis presente e coerente con la fonte F3-SIT-011: nodo 'campo-desiderabile', funzione 'proteggere'." },
+            { "id": "C7", "outcome": "passa_con_riserve", "motivation": "Adatto alla formazione; la struttura per punti va usata come nomenclatura di esiti previsti e non come regola di decisione, come precisa la non_prescriptive_note." },
+            { "id": "C8", "outcome": "passa", "motivation": "Mantiene aperta l'osservabilita nominando esiti non conclusivi e rifiutando la chiusura sulla base di una sola visita." }
+          ],
+          "item_verdict": "validato",
+          "critical_failures": []
+        }
+      ],
+      "repertoire": [
+        {
+          "family_id": "F3-SIT-1",
+          "validated_count": 5,
+          "item_refs": ["F3-SIT-001", "F3-SIT-002", "F3-SIT-003", "F3-SIT-004", "F3-SIT-005"]
+        },
+        {
+          "family_id": "F3-SIT-2",
+          "validated_count": 6,
+          "item_refs": ["F3-SIT-006", "F3-SIT-007", "F3-SIT-008", "F3-SIT-009", "F3-SIT-010", "F3-SIT-011"]
+        },
+        {
+          "family_id": "F3-SIT-4",
+          "validated_count": 4,
+          "item_refs": ["F3-SIT-012", "F3-SIT-013", "F3-SIT-014", "F3-SIT-015"]
+        },
+        {
+          "family_id": "F3-SIT-6",
+          "validated_count": 3,
+          "item_refs": [
+            "F3-SIT-6 / vignetta / src:F3-SIT-003 — Tutto giusto, eppure il campo si e chiuso",
+            "F3-SIT-6 / vignetta / src:F3-SIT-005 — Il gioco impeccabile che nessuno mette in dubbio",
+            "F3-SIT-6 / vignetta / src:F3-SIT-002 — Collaborante e orientato, ma orientato verso chi?"
+          ]
+        },
+        {
+          "family_id": "F3-SIT-8",
+          "validated_count": 3,
+          "item_refs": [
+            "F3-SIT-8 / linea_guida / src:F3-SIT-003 — Il dispositivo non e una checklist",
+            "F3-SIT-8 / linea_guida / src:F3-SIT-009 — Restituire una configurazione, non un voto",
+            "F3-SIT-8 / linea_guida / src:F3-SIT-011 — Leggere gli esiti senza forzarli"
+          ]
+        }
+      ],
+      "items_to_revise": [],
+      "publication_recommendation": {
+        "public_site": false,
+        "professional_training": false,
+        "internal_only": true,
+        "notes": "Tutti i 21 item (15 di step 2, 6 di step 3) superano la checklist C1-C8 e sono validati; nessun fallimento critico, con alcune riserve non bloccanti su C4/C7 per il formato linea_guida che lambisce la forma-protocollo. Tuttavia source_validations.f3_coherence_status e null perche coerenza-v1.json risulta assente/non leggibile: non potendo ereditare la validita del dispositivo sorgente, il repertorio non e raccomandabile per la pubblicazione (sito o formazione professionale). Uso interno consigliato in attesa della verifica di coerenza F3; recuperato coerenza-v1.json con stato 'valido', il repertorio e idoneo a sito pubblico e formazione professionale."
+      }
+    }
+  ]
+}

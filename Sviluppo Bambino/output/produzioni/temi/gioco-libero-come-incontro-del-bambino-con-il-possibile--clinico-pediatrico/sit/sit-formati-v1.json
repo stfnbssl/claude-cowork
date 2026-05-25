@@ -1,0 +1,155 @@
+{
+  "step": "f3_sit_step_3",
+  "tema_id": "gioco-libero-come-incontro-del-bambino-con-il-possibile",
+  "domain_selected": "clinico",
+  "results": [
+    {
+      "training_outputs": [
+        {
+          "format_id": "vignetta",
+          "family_id": "F3-SIT-6",
+          "title": "Tutto giusto, eppure il campo si è chiuso",
+          "source_sit_id": "F3-SIT-003",
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "naive_reading": "Il pediatra ha eseguito ogni micro-azione del dispositivo alla lettera — ha annunciato l'intervallo, ha disposto gli oggetti, ha lasciato scorrere il tempo — e il bambino ha preso un oggetto, l'ha posato e ha guardato l'adulto. L'esito 'piatto' viene letto come informazione sul bambino: poco esplorativo, dipendente, da rivalutare.",
+          "configurational_reading": "Il nodo campo-desiderabile è stato aperto solo formalmente: tono leggermente solenne ('adesso facciamo una cosa importante'), oggetti disposti frontalmente, sguardo concentrato in attesa. La forma piena delle micro-azioni coesiste con un campo chiudente, perché è la qualità performativa dell'adulto a trasformare l'apertura in un compito implicito ('ora ti osservo mentre ti osservi'). La funzione 'proteggere' fallisce dal lato adulto, non dal lato bambino: il restringimento è prodotto dal 'come' del gesto, non da un tratto del bambino.",
+          "content": "Scena in due tempi per supervisione pediatrica. Primo tempo: la pediatra, scrupolosa, annuncia con voce un po' solenne 'adesso facciamo una cosa importante, hai qualche minuto solo per te', allinea foglio, matita e cubo davanti al bambino e si siede di fronte fissandolo in attesa; il bambino prende il cubo, lo posa e cerca il suo sguardo. Secondo tempo, stessa stanza e stesso bambino: la pediatra pronuncia l'apertura mentre sistema qualcos'altro sul piano di lavoro, con la stessa densità di un gesto qualsiasi della visita, resta di tre quarti e lascia che gli oggetti siano lì senza comporli; dopo una pausa il bambino comincia a piegare il foglio per conto suo. L'intervento adulto non è una tecnica aggiuntiva: è la sorveglianza della propria qualità performativa — tono ordinario, postura non frontale, densità attentiva non concentrata, timing che non fa dell'annuncio un evento.",
+          "discussion_questions": [
+            "Quali segnali del primo tempo — pur con le micro-azioni eseguite alla lettera — comunicano al bambino un'attesa di prestazione?",
+            "In supervisione, come distinguiamo un esito 'piatto' prodotto dal bambino da uno prodotto dalla qualità del gesto dell'adulto?",
+            "Se il 'come' non è codificabile in una checklist, su cosa lavoriamo nella formazione del pediatra?"
+          ],
+          "ai_generation_prompt": null,
+          "non_prescriptive_note": "La vignetta non aggiunge un passo procedurale né insegna 'la voce giusta': mostra che è il 'come' del gesto, e non il 'cosa', a decidere la tenuta del dispositivo, e che questo eccede ogni checklist.",
+          "methodological_warnings": [
+            "Breaking point strutturale: il dispositivo non dispone di marcatori per qualificare tono, prossimità e teatralità dell'apertura; la cecità non è imputabile a misuso ma alla forma attuale del dispositivo."
+          ]
+        },
+        {
+          "format_id": "vignetta",
+          "family_id": "F3-SIT-6",
+          "title": "Il gioco impeccabile che nessuno mette in dubbio",
+          "source_sit_id": "F3-SIT-005",
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "naive_reading": "Il bambino disegna, mostra, costruisce, sorride e guarda la pediatra a intervalli regolari: tutti gli indicatori esterni di un gioco libero riuscito sono presenti. La registrazione quasi si scrive da sé — 'molto adeguato per età, gioco organizzato, ottima collaborazione'.",
+          "configurational_reading": "Sul nodo campo-desiderabile l'orientamento sembra autentico ma è rivolto all'immagine-di-sé-che-gioca-bene, non agli oggetti: la sequenza è priva di tempi morti, di errori esplorativi, di ridirezioni d'uso e di momenti non destinati allo sguardo adulto. La verifica del solo lato esterno (assenza di letture per tappe) conferma uno script internalizzato invece di vederlo; la funzione 'proteggere' produce un falso positivo perché un'apertura formale copre una prestazione.",
+          "content": "Scena per audit clinico e supervisione. Una bambina di quattro anni, preparata in famiglia ('alla dottoressa devi fare bella figura, fai vedere come sai giocare'), esegue una sequenza formalmente perfetta; la lettura ingenua ne certifica la riuscita. La rilettura configurazionale invita a cercare il lato interno: ci sono pause reali e non pose? errori che la bambina corregge per sé e non per l'adulto? momenti in cui smette di essere guardata? Intervento adulto non prescrittivo: sospendere il giudizio di riuscita anche quando la forma è impeccabile, dichiarare l'esito ambiguo in caso di dubbio invece di confermarlo, e considerare le informazioni che eccedono il singolo segmento.",
+          "discussion_questions": [
+            "Quali indizi distinguono un orientamento verso gli oggetti da un orientamento verso l'immagine-di-sé-che-gioca-bene?",
+            "Cosa ci spinge, come osservatori, a registrare 'ottima collaborazione' senza guardare il lato interno?",
+            "Quando un esito va dichiarato ambiguo anziché riuscito, e come lo si comunica senza 'smascherare' il bambino?"
+          ],
+          "ai_generation_prompt": null,
+          "non_prescriptive_note": "Non fornisce un test per smascherare il bambino: segnala che la discriminazione eccede il singolo segmento e che, nel dubbio, l'esito va dichiarato ambiguo piuttosto che riuscito.",
+          "methodological_warnings": [
+            "Breaking point strutturale: il falso positivo non è imputabile a misuso ma alla formulazione del dispositivo.",
+            "La verifica del solo lato esterno (assenza di letture per tappe) senza il lato interno (tempi morti, errori, ridirezioni) non basta a dichiarare riuscito il dispositivo."
+          ]
+        },
+        {
+          "format_id": "vignetta",
+          "family_id": "F3-SIT-6",
+          "title": "Collaborante e orientato — ma orientato verso chi?",
+          "source_sit_id": "F3-SIT-002",
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "naive_reading": "Il bambino esplora gli oggetti e procede; con il caregiver che incoraggia a bassa voce ('bravo, fai vedere alla dottoressa, dimmi cos'è') la scena appare cooperativa e vivace, e si registra 'bambino collaborante e ben orientato'.",
+          "configurational_reading": "Sul nodo campo-desiderabile l'orientamento del bambino verso gli oggetti è in parte autentico, ma il vettore caregiver-bambino rientra come pressione prestazionale: il bambino prosegue e però si volta a cercare conferma. Contare come 'orientamento' ciò che è in parte richiesta esibitiva soddisfatta significa registrare come positiva un'osservazione costruita dalla pressione del caregiver; la funzione 'proteggere' va ri-protetta lateralmente, perché il segnale del nodo dominante è immediatamente catturato.",
+          "content": "Scena per supervisione sul ruolo del caregiver. Il vettore caregiver-bambino, nonostante il briefing, torna a colorare lo sfondo di sollecitazioni; la lettura ingenua somma tutto in 'collaborante'. La rilettura configurazionale separa il segnale (bambino verso gli oggetti) dalla sua cattura (caregiver verso il bambino, e bambino verso l'adulto). Intervento adulto non prescrittivo: non zittire né colpevolizzare il genitore, ma un gesto situato e reversibile — uno sguardo o un breve cenno in un momento in cui il bambino è assorbito — che riprende la sospensione senza interrompere il bambino, e una lettura che annota quanto l'orientamento sia genuino e quanto già rivolto al riconoscimento dell'adulto.",
+          "discussion_questions": [
+            "Come si separa, nell'osservazione, il vettore bambino-oggetti dal vettore caregiver-bambino?",
+            "Perché 'zittire' il caregiver non protegge il campo, e cosa fa invece un gesto laterale e reversibile?",
+            "Quando un'osservazione 'positiva' è in realtà costruita dalla pressione dell'adulto?"
+          ],
+          "ai_generation_prompt": null,
+          "non_prescriptive_note": "Non prescrive di mettere a tacere il caregiver: mostra che la condizione del desiderio va ri-protetta lateralmente con un gesto situato e reversibile, non con una correzione.",
+          "methodological_warnings": [
+            "La sovrapposizione delle due letture (il bambino orienta, il caregiver converte) rende difficile separare il segnale del nodo dominante dalla sua immediata cattura."
+          ]
+        },
+        {
+          "format_id": "linea_guida",
+          "family_id": "F3-SIT-8",
+          "title": "Il dispositivo non è una checklist: il 'come' decide più del 'cosa'",
+          "source_sit_id": "F3-SIT-003",
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "naive_reading": "Se eseguo tutte le micro-azioni nell'ordine giusto, il dispositivo è applicato correttamente e l'esito è valido a prescindere.",
+          "configurational_reading": "La tenuta del nodo campo-desiderabile dipende dalla qualità performativa dell'apertura — tono, postura, densità attentiva, timing — non dalla completezza formale delle micro-azioni. La funzione 'proteggere' può fallire proprio mentre la procedura è eseguita alla lettera, se il 'come' del gesto trasforma l'apertura in compito; la lettura corretta valuta la configurazione del campo, non l'aderenza al protocollo.",
+          "content": "QUANDO ACCADE: ogni volta che il dispositivo rischia di irrigidirsi in protocollo o rituale, e in particolare quando un'apertura formalmente corretta produce un campo chiudente. PRINCIPIO DI LETTURA: la forma piena delle micro-azioni può coesistere con un campo che si chiude; è il 'come' — non il 'cosa' — a decidere la tenuta. ORIENTAMENTO OPERATIVO: sorvegliare la qualità del proprio gesto (tono ordinario non solenne, postura di tre quarti, sguardo morbido, annuncio dentro il flusso della visita) più che la sequenza dei passi. COSA EVITARE: trattare le micro-azioni come una scaletta da spuntare; concludere che l'esito 'piatto' è informazione sul bambino dopo averle eseguite alla lettera. ESEMPIO: pronunciare 'adesso abbiamo qualche minuto libero, niente da fare' mentre si sistema altro, anziché annunciarlo frontalmente con tono solenne fissando il bambino.",
+          "discussion_questions": [],
+          "ai_generation_prompt": null,
+          "non_prescriptive_note": "La linea guida non aggiunge un passo né codifica 'il tono giusto': orienta l'attenzione sul registro del gesto, che resta irriducibile a una checklist.",
+          "methodological_warnings": [
+            "Breaking point strutturale: il dispositivo non dispone di marcatori per qualificare tono, prossimità e teatralità; questa cecità appartiene alla forma attuale del dispositivo, non a un misuso del pediatra."
+          ]
+        },
+        {
+          "format_id": "linea_guida",
+          "family_id": "F3-SIT-8",
+          "title": "Restituire una configurazione, non un voto; orientare per sottrazione",
+          "source_sit_id": "F3-SIT-009",
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "naive_reading": "A fine intervallo il genitore chiede 'è andato bene? è normale?', e la risposta più naturale è collocare il bambino su una scala — nella norma, indietro — e suggerire esercizi per stimolarlo.",
+          "configurational_reading": "Convertire l'intervallo in un giudizio di tappa o in un programma di esercizi reintroduce, sul nodo campo-desiderabile, la prestazionalizzazione che il dispositivo protegge: la restituzione che tiene la funzione 'proteggere' descrive ciò che si è osservato quando al bambino non si chiedeva nulla, e il counseling protegge un tempo non finalizzato anche a casa, per sottrazione e non per aggiunta.",
+          "content": "QUANDO ACCADE: alla chiusura dell'intervallo, quando il caregiver chiede una valutazione oppure chiede 'cosa fare a casa'. PRINCIPIO DI LETTURA: il valore dell'intervallo è una lettura di campo, non un punteggio sul bambino; aggiungere compiti domestici riconverte il tempo libero in prestazione attesa. ORIENTAMENTO OPERATIVO: raccontare in registro descrittivo cosa si è potuto vedere 'quando nessuno gli chiedeva niente'; se si chiedono esercizi, orientare a togliere pressione e lasciare tempo non organizzato, dove il bambino possa anche annoiarsi. COSA EVITARE: 'è nella norma' / 'è indietro', etichette ('è timido', 'è iperattivo'), liste di esercizi graduati per età, 'deve farlo giocare almeno X minuti al giorno'. ESEMPIO: 'Più che dirle se è andato bene o male, le racconto cosa ho visto quando nessuno gli chiedeva niente', e sul dopo 'a casa vale lasciargli ogni tanto del tempo senza un'attività organizzata'.",
+          "discussion_questions": [],
+          "ai_generation_prompt": null,
+          "non_prescriptive_note": "Non fornisce uno script di restituzione: indica una direzione — descrivere il campo invece di valutare il soggetto, togliere pressione invece di aggiungere compiti — da adattare al singolo colloquio.",
+          "methodological_warnings": []
+        },
+        {
+          "format_id": "linea_guida",
+          "family_id": "F3-SIT-8",
+          "title": "Leggere gli esiti senza forzarli: sospendere, non classificabile, ambiguo",
+          "source_sit_id": "F3-SIT-011",
+          "configurational_basis": {
+            "source_device_id": null,
+            "dominant_node": "campo-desiderabile",
+            "function": "proteggere",
+            "target_field": "Tempo non finalizzato dell'osservazione clinica",
+            "universal_device_type": ["U3", "U6"]
+          },
+          "naive_reading": "Ogni intervallo deve produrre un esito leggibile: se il bambino non si attiva, o se gioca in modo impeccabile, registro comunque una conclusione su di lui in quella visita.",
+          "configurational_reading": "Sul nodo campo-desiderabile diversi esiti non sono giudizi sul bambino ma stati del campo o limiti del dispositivo: un campo che non si apre non è distinguibile, in un solo segmento, da una latenza; un gioco impeccabile può essere un falso positivo; un setting che frammenta produce oscillazione. La funzione 'proteggere' impone di nominare 'sospendere', 'non classificabile' o 'ambiguo' invece di forzare una conclusione.",
+          "content": "QUANDO ACCADE: quando si è tentati di chiudere con un verdetto — perché il campo è rimasto vuoto, perché il gioco è stato 'perfetto', perché il segmento è stato interrotto, o perché una priorità clinica satura la visita. PRINCIPIO DI LETTURA: l'esito appartiene spesso al campo o al dispositivo, non al bambino; il dispositivo non discrimina tra 'campo che non si apre' e 'campo che si aprirebbe più tardi'. ORIENTAMENTO OPERATIVO: distinguere 'sospendere' (priorità clinica o setting incompatibile), 'non classificabile' (assenza di dati osservabili minimi) e 'ambiguo' (campo formalmente aperto ma sostanzialmente eroso); non concludere sulla base di una sola visita; nel dubbio dichiarare ambiguo piuttosto che riuscito. COSA EVITARE: ricondurre un campo vuoto a un tratto ('è timido', 'poco interattivo'), dichiarare riuscito un gioco impeccabile sulla sola verifica esterna, simulare l'intervallo comprimendolo quando non c'è spazio. ESEMPIO: 'Oggi ci concentriamo su quello che serve adesso; quel momento libero lo riprendiamo un'altra volta', nominando la sospensione come esito previsto e non come mancanza.",
+          "discussion_questions": [],
+          "ai_generation_prompt": null,
+          "non_prescriptive_note": "Non fissa soglie di computo né regole di decisione: nomina esiti previsti dal dispositivo stesso e lascia la lettura sintetica come giudizio situato, non come regola.",
+          "methodological_warnings": [
+            "Il dispositivo è progettato come segmento continuo di 5-10 minuti e la sua robustezza alle interruzioni esterne e a una sola visita non è specificata.",
+            "Distinguere la sospensione (scelta clinica) dalla non-classificabilità (assenza di dati) e dall'ambiguità (campo eroso) richiede un giudizio che il dispositivo non automatizza."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -171,6 +171,8 @@ Nel campo `source_signals.source_type` distingui sempre tra:
 
 Questa distinzione è obbligatoria perché il campo `recency_relevance` ha significato diverso nei tre casi: una fonte `training_knowledge` può avere bassa rilevanza temporale anche se il contenuto è accurato.
 
+Per `web_fetch` e `web_search` includi sempre il campo `source_url` con l'URL canonico della fonte (la pagina dell'articolo / del report / del policy paper, non l'URL di una SERP). Per `training_knowledge` omettere `source_url`.
+
 ## Output:
 Produci solo un oggetto JSON valido conforme allo schema fornito, che trovi in:
 C:\my\claude\claude-cowork\Sviluppo Bambino\input\produzioni\ricerca temi\theme-discovery-schema.json

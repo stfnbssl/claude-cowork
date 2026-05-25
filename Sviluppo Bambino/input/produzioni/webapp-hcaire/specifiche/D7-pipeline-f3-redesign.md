@@ -1,5 +1,8 @@
 # D7 — Pipeline F3 redesign — migrazione per Claude Code
 
+> ⚠️ **NOTA DI REVISIONE (2026-05-23) — `f3_step_5` è cambiato dopo la stesura di D7.**
+> Questo documento, scritto durante il redesign r3, definiva `f3_step_5` come **"Audit metodologico (opzionale)"**. Una decisione successiva del ricercatore ha sostituito quello step con **`f3_step_5` — Output-tipo contestualizzato**, prodotto finale della pipeline F3 (output `output-tipo-{dominio}-v{N}.json`, cartella `f3-step-5-output-tipo-contestualizzato/`). La specifica corrente e autoritativa di `f3_step_5` è in **`D8-f3-step-5-output-tipo-contestualizzato.md`**. Ovunque in D7 si legga "Audit metodologico" come `f3_step_5`, fa fede D8. L'audit metodologico non è più uno step della pipeline F3 (resta una possibile estensione futura separata, da decidere). Il file di configurazione `pipeline-step-config.json` è già allineato a D8.
+>
 > **Destinatario**: Claude Code — leggere D1, D2, D4 (per il contesto orchestrazione/persistenza). Questo documento istruisce la migrazione della **pipeline F3** da 10 step (+ sub-step 6B/6C) a **5 step** (+ 1 opzionale).
 >
 > **Stato della pipeline F2**: invariata. Solo `f2_step_1` riceve un'annotazione informativa (vedi §4.4).
@@ -40,9 +43,11 @@ Decisioni del ricercatore (2026-05):
 | `f3_step_2` | Micro-dispositivo di campo | Costruisce il dispositivo nel template a 7 campi della metodologia + classificazione U1-U6 + condizioni di non-applicabilità | sì | no |
 | `f3_step_3` | Stress test e correzione | 5 casi tipologici integrati (incl. quasi indistinguibile) + correzione condizionale del dispositivo | sì | no |
 | `f3_step_4` | Verifica di coerenza F3 | Checklist 10 controlli (5 di sez. 2.7 + 4 di sez. 5.4 + 1 di sez. 5.6) — verdetto: valido / richiede_revisione / fuori_modello | no¹ | no |
-| `f3_step_5` | Audit metodologico (opzionale) | 8 controlli sulla qualità di esecuzione della pipeline F3 da parte degli agenti AI | no | **sì** |
+| `f3_step_5` | Output-tipo contestualizzato ² | Traduce la struttura triadica dell'output-tipo vuoto (F2 step 6) nello strumento operativo contestualizzato per il dominio scelto — prodotto finale di F3 | no | no |
 
 ¹ Lo step 4 *è* la verifica: non ha senso applicargli un altro layer di verifica.
+
+² **Revisione 2026-05-23**: in D7 questa riga indicava originariamente "Audit metodologico (opzionale)". `f3_step_5` è stato successivamente ridefinito come *Output-tipo contestualizzato* — vedi la nota di revisione in testa al documento e la specifica autoritativa `D8-f3-step-5-output-tipo-contestualizzato.md`. Lo step non è più opzionale né saltabile.
 
 ---
 

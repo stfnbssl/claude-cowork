@@ -1,0 +1,805 @@
+{
+  "research_scope": {
+    "project_goal": "Individuare e formulare temi strutturalmente significativi attorno al fenomeno della limitazione del campo espressivo del bambino indotta dallo sguardo sociale (stigma infantile come categoria generale), come materiale di partenza per la successiva modellizzazione attraverso i sei assi del progetto Sviluppo Bambino. Il lavoro prepara casi pilota per la costruzione di micro-matrici, non propone strumenti, protocolli o indicazioni operative.",
+    "source_types_consulted": [
+      "Policy papers e statement WHO/UNICEF su stigma, discriminazione ed esclusione che coinvolgono i bambini, con particolare attenzione a Early Childhood Development",
+      "AAP technical reports e clinical reports su labeling, disabilità, neurodivergenze e bias dell'adulto verso il bambino",
+      "Letteratura scientifica peer-reviewed (review e studi empirici) su stigma in early childhood, peer exclusion, expectations effects, anticipatory shame, internalized stigma",
+      "Letteratura classica e contemporanea su stigma e identità sociale (Goffman, sociologia della devianza, disability studies, neurodiversity studies)",
+      "Letteratura su mentalizzazione, attaccamento e ruolo dello sguardo dell'altro nella costituzione intersoggettiva precoce (Fonagy, Tronick, Trevarthen, Stern)",
+      "Letteratura su pedagogia dell'infanzia 0-6, gruppi di pari precoci, dinamiche di esclusione e iperprotezione nei servizi educativi",
+      "Documenti sui diritti dell'infanzia (Convenzione ONU, General Comments del Comitato ONU, Consiglio d'Europa) sotto il profilo della voce, della partecipazione e della non discriminazione",
+      "Letteratura su mediazione tecnica contemporanea (social media, esposizione visiva, performance) come amplificatore di sguardo riduttore sull'infanzia"
+    ],
+    "selection_criteria": [
+      "Densità strutturale: il tema apre questioni che attraversano più assi e non si esaurisce in una singola disciplina",
+      "Pertinenza al focus indicato dal ricercatore: lo sguardo sociale che restringe il campo espressivo del bambino",
+      "Attualità nelle fonti istituzionali e nella letteratura recente, senza riducibilità a moda lessicale",
+      "Non operatività: il tema non coincide con uno strumento, una diagnosi o un protocollo",
+      "Strutturalità poliadica: preservare la presenza di più agenti (bambino, adulto di riferimento, gruppo dei pari, istituzione, modello culturale) quando questa è costitutiva del fenomeno",
+      "Distinzione esplicita tra ciò che emerge dalle fonti e ciò che è inferito come pertinenza strutturale rispetto al modello a sei assi"
+    ],
+    "notes": "Quando un bambino viene guardato a partire da un tratto, e non dalla sua intera presenza soggettiva, quel tratto può diventare un vincolo del suo campo espressivo.\n\nApprofondisci il tema dello stigma infantile come categoria generale: situazioni in cui un tratto del bambino — corporeo, linguistico, comportamentale, sociale, culturale, cognitivo o relazionale — diventa oggetto di sguardo, giudizio o etichettamento, restringendo la sua capacità di esprimersi e partecipare.\n\nIndividua le principali forme di questa limitazione: derisione, esclusione, iperprotezione, invisibilizzazione, aspettative basse, riduzione identitaria, vergogna anticipata, autoesclusione. Per ciascuna forma, descrivi esempi concreti, meccanismi relazionali, effetti sul bambino e possibili interventi educativi.\n\nNon limitarti agli aspetti psicologici individuali: considera anche il ruolo del gruppo dei pari, degli adulti, delle istituzioni educative, delle norme culturali e dei modelli sociali di normalità. L'obiettivo è costruire una mappa concettuale delle condizioni in cui lo sguardo sociale riduce il campo espressivo infantile e delle condizioni che possono riaprirlo."
+  },
+  "candidate_themes": [
+    {
+      "theme_label_provisional": "Cattura identitaria del bambino in un tratto isolato dallo sguardo dell'altro",
+      "starting_point": "Le note del ricercatore segnalano la trasformazione di un singolo tratto del bambino — corporeo, linguistico, comportamentale, cognitivo, culturale — in vincolo del suo campo espressivo. La letteratura su stigma e identità sociale (Goffman e successive elaborazioni), insieme alle policy contemporanee su labeling e neurodivergenze, mostra che questo fenomeno non riguarda solo i tratti convenzionalmente 'marcati' (disabilità visibili, appartenenze minoritarie), ma può investire qualunque tratto reso saliente da uno sguardo organizzato attorno ad esso.",
+      "structural_focus": "Il fuoco non è il tratto in sé, né la qualità morale dello sguardo, ma la struttura per cui un aspetto parziale viene assunto come totalità nel modo in cui il bambino è incontrato. Si tratta di una struttura triadica minima: tratto saliente — sguardo che lo capta come totalità — ritorno dello sguardo nel campo di esperienza del bambino. Rimuovere uno dei tre elementi modifica qualitativamente il fenomeno: non è semplice 'percezione' (manca la chiusura identitaria), non è semplice 'auto-percezione' (manca l'origine relazionale).",
+      "what_it_is": "Una configurazione relazionale in cui il modo in cui altri (adulto, pari, istituzione) guardano il bambino si organizza attorno a un singolo tratto fino a coincidere con esso, e in cui questa organizzazione torna al bambino come definizione che precede ogni sua espressione. Il bambino smette di apparire come presenza in divenire e appare come istanza di una categoria. Il fenomeno è graduale, spesso non intenzionale, e raramente nominato come tale dagli adulti coinvolti.",
+      "what_it_is_not": "Non è una diagnosi né un protocollo di intervento. Non è equivalente a 'stereotipo' (che è un costrutto cognitivo individuale). Non è equivalente a 'etichetta' nel solo senso formale: l'etichetta può essere assente e la cattura identitaria operare ugualmente per via di sguardi e attese. Non coincide con il riconoscere realmente una caratteristica del bambino: il riconoscimento di un tratto resta compatibile con l'apertura del campo espressivo; la cattura identitaria lo chiude.",
+      "why_it_matters": "Il fenomeno è oggi al centro del dibattito istituzionale (UNICEF, WHO, AAP) su diagnosi precoce, identità minoritarie, disabilità ed equità nell'infanzia. Permette di leggere insieme situazioni eterogenee — bambini con disabilità, bambini di minoranze etniche o linguistiche, bambini classificati come 'difficili', bambini di genere non conforme — riconoscendo una struttura comune che le diverse letterature tematiche tendono a tenere separate.",
+      "source_signals": [
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Goffman, Stigma: Notes on the Management of Spoiled Identity (1963) e successive elaborazioni in disability studies",
+          "signal_summary": "Definisce lo stigma non come proprietà di una persona ma come relazione che riduce un'identità complessa a un attributo discreditante; la struttura concettuale è ancora pienamente operante nei testi attuali.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "UNICEF — Innocenti reports e policy briefs su discriminazione e early childhood (varie annualità recenti)",
+          "signal_summary": "Convergenza istituzionale sul fatto che le esperienze di discriminazione precoce sono incorporate nello sviluppo, non semplici esperienze contingenti; il tema della 'voice' del bambino è esplicitamente collegato all'esposizione a sguardi riduttivi.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "AAP — Policy statement su Racism and Its Impact on Child and Adolescent Health (AAP, 2019)",
+          "signal_summary": "Riconosce che gli effetti dello sguardo sociale categorizzante sul bambino non sono limitati all'esperienza soggettiva ma incidono biologicamente e relazionalmente fin dalle prime fasi; documenta convergenza tra ricerca e policy.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura su mentalizzazione (Fonagy, Allen, Bateman) e ruolo dello sguardo riflessivo dell'altro nella costituzione del sé",
+          "signal_summary": "Mostra strutturalmente che il modo in cui il bambino è 'visto' dall'adulto entra nella sua organizzazione di sé prima di qualsiasi auto-riflessione; offre la cornice intersoggettiva per leggere la cattura identitaria.",
+          "recency_relevance": "alta"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico-fenomenologico",
+          "reason": "Il tema interroga direttamente l'opposizione strutturale tra soggetto-come-processo e soggetto-come-categoria-fissa; la cattura riduce l'ipseità dinamica e restringe il campo intenzionale."
+        },
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo-morale",
+          "reason": "Lo sguardo che cattura modifica la qualità dell'altro interiorizzato: l'istanza interna si forma come istanza che non riconosce il soggetto nella sua interezza."
+        },
+        {
+          "axis_id": "asse_3",
+          "axis_name": "Normativo-educativo",
+          "reason": "L'autorità educativa (e la sua deformazione) ha un ruolo strutturale: quando l'asimmetria diventa categorizzazione, il giudizio dell'adulto si sostituisce all'apertura del giudizio del soggetto. Per età 0-3 anni questa pertinenza va qualificata come orientamento implicito del campo, non come trasmissione normativa esplicita."
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "Il campo desiderabile del bambino si ritrae o si deforma quando le direzioni possibili sono pre-filtrate dallo sguardo che lo ha già definito."
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico-culturale",
+          "reason": "Quali tratti diventano salienti e capaci di catturare lo sguardo è storicamente determinato; istituzioni e modelli culturali di normalità mediano strutturalmente il fenomeno."
+        }
+      ],
+      "possible_structural_nodes": [
+        "soggetto-come-processo",
+        "ipseità-dinamica",
+        "campo-intenzionale",
+        "interiorizzazione-dell-altro",
+        "istanza-interna",
+        "campo-desiderabile",
+        "istituzione-come-dispositivo",
+        "mediazione-strutturale"
+      ],
+      "possible_bridge_concepts": [
+        "Sguardo riflessivo dell'altro come co-costituzione del campo intenzionale",
+        "Categoria identitaria come deformazione dell'ipseità in divenire",
+        "Riconoscimento parziale come forma di non-riconoscimento"
+      ],
+      "definition_draft": "Configurazione strutturale in cui lo sguardo dell'altro su un tratto del bambino smette di lasciar emergere la sua presenza in divenire e si chiude nel tratto stesso come definizione, modificando la qualità del campo in cui il bambino può apparire a sé e agli altri. Non è solo un fenomeno percettivo dell'osservatore né un fenomeno psicologico del bambino: è una struttura relazionale che organizza la possibilità stessa dell'espressione.",
+      "definition_risks": [
+        "Riduzione mono-disciplinare: leggere il fenomeno solo come 'auto-stima' (psicologia individuale), solo come 'discriminazione' (giuridico-politico) o solo come 'etichettamento' (sociologia delle istituzioni)",
+        "Riduzione operativa: trasformare il tema in un protocollo di linguaggio inclusivo o di anti-bias training prima di averne compreso la struttura",
+        "Contemporaneizzazione: leggere il fenomeno solo attraverso le categorie attuali di identità (genere, neurodivergenza, etnia) perdendo la struttura fondativa che li precede",
+        "Genericità: trattare 'cattura identitaria' come sinonimo di qualsiasi forma di influenza dell'adulto sul bambino"
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "alta",
+      "human_review_notes": "Tema candidato a fungere da nucleo strutturale per gli altri temi della ricerca: molte delle forme indicate dal ricercatore (vergogna anticipata, iperprotezione, invisibilizzazione, auto-esclusione, aspettative basse) sembrano specificazioni o esiti di questa configurazione. Verificare con il ricercatore se mantenerlo come tema-cornice o se preferire un tema più circoscritto. Per età 0-3 l'Asse 3 va tenuto con incertezza esplicita: il rischio di anticipazione normativa è reale."
+    },
+    {
+      "theme_label_provisional": "Vergogna anticipata come ritrazione strutturale del campo espressivo",
+      "starting_point": "Le note del ricercatore nominano la 'vergogna anticipata' come una delle forme di limitazione espressiva. La letteratura su shame in early childhood (Lewis, Tangney, Tracy) e sulla mentalizzazione mostra che la vergogna può organizzarsi nel bambino prima di episodi di derisione effettivi, come anticipazione del fallimento del riconoscimento dell'altro.",
+      "structural_focus": "Il fuoco non è la vergogna come affetto puntuale, ma la modalità per cui un'anticipazione affettiva pre-riflessiva — il presagio che la propria espressione potrà non essere accolta o sarà accolta in modo riduttivo — diventa una forma stabile di organizzazione del campo: alcune direzioni dell'esperienza diventano costose prima ancora di essere tentate.",
+      "what_it_is": "Una configurazione in cui l'esperienza affettiva di vergogna si stabilizza come anticipazione, modificando ciò che il bambino prova come possibile nel campo dell'espressione, della voce, del gesto e della relazione. Opera a un livello pre-verbale e corporeo: postura che si ritrae, voce che si abbassa, sguardo che si abbassa, contatto che si interrompe. Si distingue dalla vergogna situazionale per il suo carattere strutturale e stabile.",
+      "what_it_is_not": "Non è timidezza temperamentale (che è una qualità stabile non legata all'anticipazione del giudizio dell'altro). Non è disregolazione emotiva (categoria operativa). Non è equivalente a 'bassa autostima' (che è un costrutto operativo, non strutturale). Non è semplicemente conseguenza di episodi traumatici di umiliazione: può formarsi anche in assenza di episodi conclamati, attraverso configurazioni relazionali ripetute di non-pieno riconoscimento.",
+      "why_it_matters": "Le fonti recenti (review su anticipatory shame, lavoro sulla mentalizzazione, ricerche su anxiety in childhood) convergono nel mostrare che la vergogna anticipata è una delle vie più stabili di limitazione del campo espressivo precoce, ma resta poco tematizzata nei documenti di policy, che parlano più volentieri di 'autostima' o 'benessere'. Il tema permette di leggere strutturalmente fenomeni che la letteratura tratta separatamente: mutismo selettivo, ritrazione sociale, autocensura espressiva, evitamento della prestazione visibile.",
+      "source_signals": [
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura su self-conscious emotions in early childhood (Lewis, Tangney, Tracy & Robins)",
+          "signal_summary": "Distingue strutturalmente vergogna da colpa e ne descrive la funzione precoce di regolazione dell'esposizione sociale; documenta la stabilizzazione di pattern anticipatori entro i primi anni di vita.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura su mentalizzazione e marked mirroring (Fonagy, Target, Gergely)",
+          "signal_summary": "Mostra che la qualità del rispecchiamento dell'adulto co-determina la possibilità per il bambino di esperire i propri stati senza vergogna anticipata; offre cornice intersoggettiva per il fenomeno.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Review su anxiety and inhibition in early childhood (linee di ricerca su behavioral inhibition di Kagan e successori)",
+          "signal_summary": "Documenta la possibilità di pattern stabili di ritrazione che non sono semplicemente temperamentali ma esiti di interazioni precoci ripetute; tema attualmente discusso anche in ottica preventiva nei servizi 0-6.",
+          "recency_relevance": "alta"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico-fenomenologico",
+          "reason": "La regolazione come tenuta dell'esperienza è qui sotto pressione: la vergogna anticipata altera la temporalizzazione (il futuro prossimo è già occupato dal possibile non-riconoscimento) e modifica la corporeità vissuta."
+        },
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo-morale",
+          "reason": "L'altro interiorizzato si forma qui come istanza che non riconosce pienamente, non come istanza vincolante riconoscente; rischio di confusione con la colpa, da cui va distinta strutturalmente."
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "Il campo desiderabile si ritrae: la 'patologia strutturale' del desiderio ritratto descritta nell'asse 5 trova qui un caso paradigmatico dove la ritrazione non è scelta ma esito della formazione affettiva."
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico-culturale",
+          "reason": "I dispositivi storici che amplificano l'esposizione del bambino allo sguardo (foto, video, performance, social media indiretti) co-determinano la portata della vergogna anticipata."
+        }
+      ],
+      "possible_structural_nodes": [
+        "regolazione-ontologica",
+        "temporalità-vissuta",
+        "corporeità-vissuta",
+        "istanza-interna",
+        "desiderio-ritratto",
+        "campo-desiderabile",
+        "tecnica-come-forma-storica"
+      ],
+      "possible_bridge_concepts": [
+        "Anticipazione affettiva come forma di temporalizzazione",
+        "Ritrazione difensiva del campo desiderabile come forma di sopravvivenza",
+        "Marked mirroring fallito e vergogna anticipata"
+      ],
+      "definition_draft": "Configurazione strutturale in cui l'esperienza anticipata di un possibile fallimento del riconoscimento da parte dell'altro entra nella forma temporale del campo di esperienza del bambino, restringendolo prima dell'azione. Non è episodio affettivo discreto ma trasformazione stabile del modo in cui il futuro prossimo dell'espressione si dà come possibilità.",
+      "definition_risks": [
+        "Psicologizzazione: ridurre il tema a un tratto soggettivo del bambino, perdendo la dimensione strutturalmente relazionale",
+        "Confusione con la colpa affettiva (Asse 2): la vergogna anticipata non implica necessariamente un altro interiormente vincolante in senso morale",
+        "Riduzione operativa: trasformare la riflessione strutturale in un'indicazione su 'evitare la vergogna nei bambini' (che è semplicistico e produce iper-protezione)",
+        "Anticipazione normativa per età precoci: parlare di 'vergogna' nei bambini molto piccoli senza distinguere le forme protomotorie da quelle elaborate"
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "alta",
+      "human_review_notes": "Tema strutturalmente molto promettente per attraversare regolazione, interiorizzazione, desiderio e mediazione culturale. La distinzione strutturale tra vergogna anticipata e colpa (Asse 2) va tenuta con cura in F2: rischio di collasso tra i due affetti. Tema candidato come pilota perché illumina un meccanismo comune a molte altre forme indicate dal ricercatore (autoesclusione, ritrazione, mutismo)."
+    },
+    {
+      "theme_label_provisional": "Iperprotezione come stigmatizzazione affettuosa: cura che segnala fragilità",
+      "starting_point": "Le note del ricercatore segnalano l'iperprotezione tra le forme di limitazione del campo espressivo. La letteratura sui bambini con disabilità, bambini cronicamente malati, bambini 'sensibili', e sull'iperparentalità contemporanea (helicopter / lawnmower parenting; vulnerable child syndrome di Green-Solnit) documenta che la protezione eccessiva non è il contrario dello stigma: è una sua forma, paradossale e benintenzionata.",
+      "structural_focus": "Il fuoco è la struttura paradossale per cui il gesto protettivo dell'adulto comunica al bambino — al di là di ogni intenzione — che esiste una zona di fragilità da non attraversare, e che lui è quella zona. La protezione restringe il campo di esperienza nello stesso movimento in cui dice di proteggerlo. Non riguarda solo bambini con condizioni effettive: può investire qualunque bambino verso cui l'adulto abbia organizzato uno sguardo di apprensione anticipata.",
+      "what_it_is": "Una configurazione relazionale in cui la qualità protettiva delle azioni dell'adulto comunica al bambino la presenza stabile di una fragilità che lo definisce, riducendo le occasioni di incontro con eccedenza, frustrazione e limite reale. È strutturalmente diversa da una protezione situata e provvisoria: la sua firma è la stabilità nel tempo, la sua estensione a domini non strettamente collegati, e l'assenza di un movimento di restituzione progressiva del rischio al bambino.",
+      "what_it_is_not": "Non è la cura ordinaria, che protegge nel necessario e restituisce il possibile. Non è equivalente a 'iperparentalità' nel senso generico mediatico. Non è una pratica genitoriale criticabile come scelta: è una struttura relazionale che può emergere senza intenzione, spesso in contesti di alta vulnerabilità reale del bambino o di alta ansia dell'adulto. Non coincide con la sindrome del bambino vulnerabile (categoria clinica): la include come caso particolare ma è più ampia.",
+      "why_it_matters": "Le fonti istituzionali (AAP technical reports su chronic illness e disabilità in childhood, letteratura recente sulla vulnerable child syndrome, studi su over-parenting e child anxiety) convergono nel segnalare effetti sistematici sul campo di esperienza del bambino. Il tema è oggi particolarmente attuale per i bambini con condizioni croniche, neurodivergenze, prematurità, ma anche in famiglie senza fattori specifici dove l'ansia adulta organizza la relazione attorno alla protezione preventiva.",
+      "source_signals": [
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Green & Solnit — Vulnerable Child Syndrome (concetto clinico originario 1964, ampia letteratura successiva)",
+          "signal_summary": "Documenta sistematicamente come la percezione di fragilità da parte dei genitori organizzi una relazione che produce limitazioni reali del campo di esperienza del bambino indipendentemente dalle condizioni di salute attuali.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura su over-parenting / helicopter parenting / lawnmower parenting e sviluppo emotivo (review degli anni 2010-2020)",
+          "signal_summary": "Mostra associazione tra iper-protezione adulta e ansia, ridotta autonomia, evitamento del rischio; documenta che il fenomeno non è limitato a famiglie agiate ma trasversale.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura su attaccamento e regolazione emotiva (Sroufe, Carlson; tradizione di Minneapolis)",
+          "signal_summary": "Distingue strutturalmente la responsività che sostiene l'esplorazione da forme di iper-coinvolgimento che la riducono; fornisce la cornice per leggere l'iperprotezione come modalità di attaccamento adulta-bambino, non solo come comportamento genitoriale.",
+          "recency_relevance": "alta"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico-fenomenologico",
+          "reason": "Restringimento del campo intenzionale: meno possibilità accessibili come esperienza, meno esposizione all'incontro corporeo con il mondo."
+        },
+        {
+          "axis_id": "asse_4",
+          "axis_name": "Separazione e Limite",
+          "reason": "Il rischio educativo nominato nell'asse 4 (iper-regolazione, prevenire il limite) è qui in primo piano: l'iperprotezione è una forma sistemica di non-tolleranza del reale che lavora attraverso la sottrazione di eccedenza."
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "Il campo desiderabile si organizza attorno a un orizzonte di sicurezza e non di possibilità; rischio di motivazione come sostituto del desiderio."
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico-culturale",
+          "reason": "Le configurazioni storiche contemporanee (sicurezza, prevenzione, gestione del rischio, esposizione mediatica della genitorialità) co-determinano la forma e la diffusione del fenomeno."
+        }
+      ],
+      "possible_structural_nodes": [
+        "campo-intenzionale",
+        "vulnerabilità-strutturale",
+        "eccedenza",
+        "rischio-educativo",
+        "campo-desiderabile",
+        "motivazione-come-sostituto",
+        "deformazione-strutturale"
+      ],
+      "possible_bridge_concepts": [
+        "Cura come segnale implicito di fragilità",
+        "Sottrazione di eccedenza come limitazione del campo del possibile",
+        "Iperprotezione come stigmatizzazione che non si nomina"
+      ],
+      "definition_draft": "Configurazione relazionale in cui le pratiche di cura organizzate dall'apprensione adulta segnalano al bambino una fragilità che lo definisce e riducono l'occasione di incontro con quanto eccede la sua capacità attuale di tenuta. La protezione opera qui non come azione situata ma come orizzonte stabile che modula il campo del possibile.",
+      "definition_risks": [
+        "Confusione con la cura ordinaria: il tema rischia di essere letto come critica della responsività, che è invece condizione dello sviluppo",
+        "Colpevolizzazione dell'adulto: il fenomeno è strutturale e spesso non intenzionale; ridurlo a errore educativo individuale ne perde la natura sistemica",
+        "Riduzione mono-disciplinare: leggerlo solo come 'stile genitoriale' (psicologia) o solo come 'medicalizzazione' (sociologia) o solo come 'sindrome del bambino vulnerabile' (clinica)",
+        "Contemporaneizzazione: leggerlo solo come fenomeno della genitorialità contemporanea perdendo la struttura più generale"
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "alta",
+      "human_review_notes": "Tema con densità strutturale particolarmente alta sull'incrocio Asse 4-Asse 1-Asse 5. La struttura è poliadica almeno triadica: adulto-bambino-zona-di-rischio-evitata; valutare in F2 se la 'zona di rischio' va trattata come elemento costitutivo o come effetto. Adatto come caso pilota perché lo stigma vi opera senza nominarsi e senza intento negativo, illuminando la natura strutturale (non intenzionale) del fenomeno."
+    },
+    {
+      "theme_label_provisional": "Invisibilizzazione del bambino nei dispositivi istituzionali della prima infanzia",
+      "starting_point": "Le note del ricercatore segnalano l'invisibilizzazione come forma specifica di limitazione. La letteratura su servizi educativi 0-6, sulla pedagogia dell'infanzia (Reggio, Malaguzzi; lavori successivi sui bambini 'difficili da vedere'), e i lavori sull'equità nei sistemi ECEC documentano che alcuni bambini ricevono sistematicamente meno sguardo, meno parola, meno presenza dell'adulto e dei pari, indipendentemente dalla qualità nominale del servizio.",
+      "structural_focus": "Il fuoco è la struttura per cui un bambino può essere presente in un contesto educativo e simultaneamente non apparire come soggetto di rilievo: non riceve sguardi prolungati, non viene interpellato, le sue espressioni non vengono raccolte come significative. L'invisibilizzazione non è assenza di cure: è assenza di un'attenzione che fa esistere come soggetto.",
+      "what_it_is": "Configurazione istituzionale-relazionale in cui la struttura ordinaria del servizio educativo o del gruppo organizza l'attenzione, la parola e lo sguardo in modo tale che alcuni bambini ricevano sistematicamente meno presenza significativa di altri. Investe bambini molto silenziosi, bambini etichettati come 'tranquilli', bambini con barriere linguistiche, bambini di minoranze, bambini con disabilità che non producono comportamenti dirompenti, bambini in condizione di trascuratezza familiare. Opera come effetto cumulativo di micro-decisioni di attenzione, non come politica esplicita.",
+      "what_it_is_not": "Non è violenza educativa esplicita; non è esclusione formale (i bambini sono presenti, accolti e curati); non è scelta consapevole degli educatori. Non coincide con la sotto-stimolazione (che è una categoria operativa). Non è equivalente a 'discriminazione' nel senso giuridico stretto: può operare in servizi formalmente inclusivi.",
+      "why_it_matters": "Le fonti convergono nel segnalare che la qualità dell'attenzione ricevuta nei primi anni in contesto extrafamiliare è uno dei mediatori più potenti dello sviluppo del campo espressivo. UNICEF, OECD e letteratura ECEC recente discutono esplicitamente la 'voice' del bambino come indicatore di qualità. Le fonti documentano disuguaglianze sistematiche nell'attenzione ricevuta che il discorso formale dell'inclusione non riesce a vedere.",
+      "source_signals": [
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura su ECEC quality e equity (OECD Starting Strong, vari volumi); documenti UNICEF su early childhood",
+          "signal_summary": "Documenta che bambini formalmente inclusi possono ricevere sistematicamente meno attenzione significativa; il tema della 'voice' è esplicitato come indicatore strutturale di qualità.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Pedagogia dell'ascolto / Reggio approach e letteratura sui 'cento linguaggi' (Malaguzzi, Rinaldi, Edwards)",
+          "signal_summary": "Argomenta che il bambino esiste pienamente come soggetto solo nella misura in cui le sue molteplici forme espressive vengono accolte; l'invisibilizzazione è leggibile come fallimento dei linguaggi-altri.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Studi su classroom interaction e teacher attention patterns (varie discipline: educational psychology, sociology of education)",
+          "signal_summary": "Documentano differenze sistematiche nella quantità e qualità dell'attenzione ricevuta in classe basate su tratti del bambino (genere, etnia, classe, comportamento); il pattern si manifesta già nei contesti 0-6.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Convenzione ONU sui Diritti dell'Infanzia, art. 12 (diritto a esprimere la propria opinione); General Comment n. 7 (early childhood)",
+          "signal_summary": "Pone esplicitamente la 'voice' del bambino come diritto strutturale dalla prima infanzia, rendendo politicamente rilevante l'invisibilizzazione anche quando avviene in servizi formalmente non discriminanti.",
+          "recency_relevance": "alta"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico-fenomenologico",
+          "reason": "La co-regolazione come condizione ontologica della tenuta dell'esperienza è qui fragilizzata: l'invisibilizzazione equivale a una riduzione strutturale di occasioni di co-regolazione significativa."
+        },
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo-morale",
+          "reason": "Il riconoscimento reciproco e l'interiorizzazione di un altro che vede e tiene presente sono qui sotto pressione: senza essere visti come soggetti, manca il materiale per l'istanza interna."
+        },
+        {
+          "axis_id": "asse_3",
+          "axis_name": "Normativo-educativo",
+          "reason": "L'autorità educativa che non si esercita come riconoscimento non apre il giudizio del soggetto; per le età 0-3 va qualificata come orientamento implicito del campo, non come trasmissione esplicita."
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico-culturale",
+          "reason": "L'istituzione come dispositivo è qui in primo piano: il fenomeno emerge dall'organizzazione concreta dei servizi (rapporti numerici, organizzazione dello spazio, criteri di attenzione)."
+        }
+      ],
+      "possible_structural_nodes": [
+        "co-regolazione",
+        "relazione-costitutiva",
+        "campo-intenzionale",
+        "interiorizzazione-dell-altro",
+        "istanza-interna",
+        "istituzione-come-dispositivo",
+        "deformazione-strutturale",
+        "asimmetria-educativa"
+      ],
+      "possible_bridge_concepts": [
+        "Attenzione come riconoscimento ontologico",
+        "Voice del bambino come condizione strutturale dell'apparire come soggetto",
+        "Inclusione formale e invisibilizzazione sostanziale"
+      ],
+      "definition_draft": "Configurazione strutturale dei contesti collettivi della prima infanzia in cui l'organizzazione ordinaria dell'attenzione, dello sguardo e della parola produce sistematicamente, per alcuni bambini, una diminuzione di presenza significativa che riduce la possibilità di apparire come soggetto e di sostenere un campo espressivo proprio.",
+      "definition_risks": [
+        "Riduzione operativa: trasformare il tema in un protocollo di equità dell'attenzione, che ne perde la struttura",
+        "Riduzione mono-disciplinare: leggerlo solo come problema di formazione educatori o solo come problema di equità sociale",
+        "Anticipazione normativa per età 0-3: sovrapporre alla descrizione strutturale categorie morali sull'educatore",
+        "Riduzione del fenomeno a errori individuali: ne perde la natura sistemica, istituzionalmente prodotta",
+        "Collasso diadico: leggerlo come fallimento della singola relazione educatore-bambino perdendo la dimensione istituzionale costitutiva"
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "media",
+      "human_review_notes": "Tema fortemente poliadico (bambino, educatore, gruppo dei pari, organizzazione del servizio, modello culturale di 'bambino visibile'). Pilot_suitability media perché la trattazione richiede sostenere la dimensione istituzionale senza ricondurla a comportamenti individuali — più impegnativo metodologicamente del tema diadico. Verificare con il ricercatore se questa difficoltà è desiderabile come banco di prova del modello."
+    },
+    {
+      "theme_label_provisional": "Aspettative basse dell'adulto come restringimento implicito del campo del possibile",
+      "starting_point": "Le note del ricercatore nominano esplicitamente le 'aspettative basse'. La letteratura sull'effetto Pigmalione (Rosenthal & Jacobson), le sue successive replicazioni e critiche, e i lavori più recenti su low expectations bias verso bambini con disabilità, di minoranze etniche, di basso SES, mostrano che le aspettative dell'adulto incidono strutturalmente sul campo di esperienza del bambino, prima e indipendentemente da messaggi verbali.",
+      "structural_focus": "Il fuoco è la struttura per cui ciò che l'adulto può immaginare come futuro del bambino — implicitamente, attraverso scelte di tempo, di parole, di sollecitazioni, di attenzione — entra come orizzonte di possibilità nel campo di esperienza del bambino prima che questo possa riflettervi. Non è un atteggiamento cosciente: opera come pre-formato dell'incontro.",
+      "what_it_is": "Configurazione relazionale in cui le previsioni implicite dell'adulto rispetto a ciò che il bambino può, non può, è destinato o non è destinato a fare modulano la qualità delle proposte, dell'attenzione e delle reazioni, restringendo l'orizzonte di ciò che il bambino può progressivamente avvertire come accessibile. Investe particolarmente bambini con tratti che attivano stereotipi di limitazione: disabilità, minoranze, povertà, bambini classificati come 'difficili', bambini molto piccoli rispetto alla loro età anagrafica.",
+      "what_it_is_not": "Non è semplice differenziazione dell'offerta in base a ciò che il bambino effettivamente fa (che è responsività). Non è equivalente a 'mancanza di fiducia' come stato psicologico dell'adulto. Non coincide con la sotto-stimolazione (categoria operativa). Non è un fenomeno cognitivo dell'adulto: opera nelle micro-decisioni interazionali, non nelle credenze esplicite.",
+      "why_it_matters": "Letteratura consolidata e recente convergente, oggi al centro di policy su equity in education (OECD, UNESCO), su disabilità (UNCRPD), e su anti-bias training. Il tema permette di leggere strutturalmente fenomeni che le letterature trattano separatamente: gap di rendimento precoci, profezie autoavveranti, segregazione implicita, riduzione delle scelte formative.",
+      "source_signals": [
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Rosenthal & Jacobson — Pygmalion in the Classroom (1968) e tradizione di ricerca successiva (Jussim, Eccles)",
+          "signal_summary": "Documenta che le aspettative degli adulti incidono strutturalmente sull'esperienza educativa e sui risultati, anche quando non esplicitate; la tradizione di ricerca è critica ma converge sull'esistenza dell'effetto.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura recente su low expectations toward children with disabilities (UNICEF, World Report on Disability dell'OMS, Inclusion International)",
+          "signal_summary": "Documenta sistematicamente che bambini con disabilità ricevono offerte ridotte e attese ridotte fin dalla prima infanzia; tema di policy attivo.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Ricerca su SES, minority status e teacher expectations (sociology of education)",
+          "signal_summary": "Documenta pattern sistematici di aspettative differenziate basate su tratti socio-economici e etnici, con effetti misurabili sull'esperienza dei bambini.",
+          "recency_relevance": "alta"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico-fenomenologico",
+          "reason": "Il campo intenzionale del bambino è strutturato anche dalle possibilità che gli vengono offerte come occasioni: le attese basse ne riducono l'ampiezza prima di ogni scelta del bambino."
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "Il campo desiderabile si organizza attorno a ciò che appare come possibile; le attese basse riducono la base di esperienze su cui il desiderio può orientarsi."
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico-culturale",
+          "reason": "Le attese non sono individuali: sono mediazioni culturali e istituzionali (modelli di 'bambino tipico' di una certa età, di una certa classe, di una certa condizione)."
+        },
+        {
+          "axis_id": "asse_3",
+          "axis_name": "Normativo-educativo",
+          "reason": "L'autorità educativa che orienta le attese partecipa qui in modo strutturale; per età 0-3 l'asse va inteso come orientamento implicito del campo, non come trasmissione di criteri."
+        }
+      ],
+      "possible_structural_nodes": [
+        "campo-intenzionale",
+        "soggetto-come-processo",
+        "campo-desiderabile",
+        "mediazione-strutturale",
+        "orizzonte-di-senso",
+        "istituzione-come-dispositivo",
+        "deformazione-strutturale"
+      ],
+      "possible_bridge_concepts": [
+        "Aspettativa implicita come pre-formato del campo del possibile",
+        "Profezia autoavverante e ipseità in divenire",
+        "Modelli culturali del 'bambino tipico' come orizzonti restrittivi"
+      ],
+      "definition_draft": "Configurazione strutturale in cui le attese dell'adulto rispetto al futuro del bambino — implicite e raramente formulate — pre-formano il campo di occasioni, sollecitazioni e riconoscimenti che il bambino incontra, modulando l'ampiezza di ciò che progressivamente si dà come accessibile alla sua esperienza.",
+      "definition_risks": [
+        "Riduzione operativa: trasformare il tema in 'alzare le aspettative', che è semplicistico e produce nuove pressioni",
+        "Riduzione mono-disciplinare: leggerlo solo come bias cognitivo individuale (psicologia sociale) perdendo la mediazione istituzionale e culturale",
+        "Genericità: trattare 'aspettative' come categoria vaga che copre fenomeni eterogenei; rischio specifico di confusione con 'qualità dell'insegnamento'",
+        "Sociologizzazione: ridurlo a effetto di classe o etnia senza preservare la dimensione strutturalmente intersoggettiva"
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "media",
+      "human_review_notes": "Il tema ha forte attualità di policy ma è esposto a riduzione semplicistica (basta 'alzare le aspettative'). Pilot_suitability media: vale la pena come pilota se si riesce a tenere la dimensione strutturale (campo del possibile come orizzonte) senza scivolare in indicatori operativi. La relazione tra questo tema e quello della cattura identitaria (tema 1) merita esplicitazione in F2."
+    },
+    {
+      "theme_label_provisional": "Derisione precoce e installazione corporea della vergogna",
+      "starting_point": "Le note del ricercatore nominano la derisione tra le forme di stigmatizzazione. La letteratura sulla teasing/peer ridicule in early childhood, sugli effetti del 'rimproverare ridicolizzando' da parte dell'adulto, e sulla shame literature mostra che la derisione non è un episodio passeggero ma può incidere stabilmente sulla corporeità vissuta del bambino, installandosi come stile.",
+      "structural_focus": "Il fuoco è la struttura per cui un evento di derisione (singolo o ripetuto, da parte di pari o di adulti, anche apparentemente lieve) si incorpora nella postura, nel timbro, nello sguardo del bambino, organizzando uno stile espressivo della vergogna che precede ogni nuova interazione. Il tratto deriso diventa stigma incorporato.",
+      "what_it_is": "Configurazione relazionale ed esistenziale in cui esperienze di derisione modificano stabilmente la qualità incarnata dell'espressione del bambino. La voce si modula al ribasso, il corpo si ritira da esposizioni potenziali, lo sguardo evita certi domini. Il tratto originariamente deriso può essere abbandonato come pratica esprimibile (parlare in pubblico, cantare, muoversi, mostrare una preferenza, indossare qualcosa di specifico), generalizzandosi a un'auto-limitazione più ampia.",
+      "what_it_is_not": "Non è bullismo in senso stretto (categoria che presuppone ripetizione e asimmetria sistematica). Non è equivalente al teasing affettuoso tra familiari, che ha struttura diversa e contestualizzata. Non è semplicemente un trauma puntuale: opera attraverso incorporazione progressiva, anche senza eventi singoli rilevanti. Non è una diagnosi né un esito clinico necessario.",
+      "why_it_matters": "Le fonti recenti su peer victimization in early childhood (anche sotto i 6 anni, area un tempo trascurata), su gentle parenting e critique del shame-based discipline, e sui costi cumulativi delle micro-umiliazioni convergono nel mostrare che la derisione precoce è un fenomeno sistemico e strutturale, non un evento educativo accettabile. Tema attivo nel dibattito sulla cultura genitoriale ed educativa contemporanea.",
+      "source_signals": [
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura su shame in childhood e shame-prone development (Lewis, Tangney; recenti review)",
+          "signal_summary": "Mostra come ripetute esperienze di umiliazione modifichino stabilmente l'organizzazione affettiva e corporea del bambino; tema riconosciuto come strutturale, non episodico.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura su early peer victimization e relational aggression (Crick, Bigbee; lavori recenti su preschool)",
+          "signal_summary": "Documenta presenza già nelle età precoci di forme di derisione e esclusione tra pari con effetti misurabili; sposta indietro il timing rispetto a quanto tradizionalmente assunto.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "AAP — policy statements su effective discipline (revisioni 2018 e successive) e critica al shame-based discipline",
+          "signal_summary": "Posizione istituzionale che riconosce gli effetti strutturali della derisione adulta nei confronti dei bambini, anche quando intesa come 'correzione'.",
+          "recency_relevance": "alta"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico-fenomenologico",
+          "reason": "La derisione si iscrive nel corpo vissuto come stile, modifica la regolazione (chiusura difensiva) e restringe il campo intenzionale; passato come stile incarnato è qui in primo piano."
+        },
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo-morale",
+          "reason": "Possibile sviluppo di colpa persecutoria o di adattività morale come reazione difensiva; l'altro che ride non sopravvive come istanza riconoscente."
+        },
+        {
+          "axis_id": "asse_4",
+          "axis_name": "Separazione e Limite",
+          "reason": "L'esperienza di derisione può costituire una perdita non riconosciuta (perdita della possibilità di esprimere un tratto) che richiede lavoro per non diventare deformante."
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "Il desiderio si ritrae dai domini esposti alla derisione: ritrazione difensiva del campo desiderabile come esito strutturale."
+        }
+      ],
+      "possible_structural_nodes": [
+        "corporeità-vissuta",
+        "regolazione-ontologica",
+        "campo-intenzionale",
+        "colpa-persecutoria",
+        "perdita",
+        "resto-non-simbolizzabile",
+        "desiderio-ritratto"
+      ],
+      "possible_bridge_concepts": [
+        "Stile corporeo della vergogna come archivio incarnato della derisione",
+        "Perdita silenziosa di domini espressivi",
+        "Sopravvivenza dell'altro fallita come configurazione strutturale"
+      ],
+      "definition_draft": "Configurazione strutturale in cui esperienze di derisione, anche distribuite e di intensità apparentemente moderata, si iscrivono nella corporeità vissuta del bambino come stile espressivo della vergogna, restringendo i domini in cui l'espressione resta praticabile e modulando al ribasso l'apertura al campo del possibile.",
+      "definition_risks": [
+        "Riduzione clinica: trattare il tema come trauma da diagnosticare, perdendo la struttura della distribuzione lieve e cumulativa",
+        "Genericità: confondere derisione strutturale con qualsiasi forma di scherzo, perdendo specificità",
+        "Riduzione operativa: scivolare in indicazioni 'non prendere in giro i bambini' che semplificano il fenomeno",
+        "Confusione con la colpa affettiva (Asse 2): la struttura della vergogna da derisione non implica necessariamente colpa morale"
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "alta",
+      "human_review_notes": "Tema strutturalmente molto forte sull'incrocio Asse 1-Asse 4: la 'perdita silenziosa di domini espressivi' è candidato concetto-ponte da elaborare. Adatto come pilota perché chiarisce la differenza tra eventi puntuali e strutture stabili — distinzione metodologicamente delicata per tutto il progetto."
+    },
+    {
+      "theme_label_provisional": "Auto-esclusione come adattamento strutturale del bambino allo sguardo riduttore",
+      "starting_point": "Le note del ricercatore nominano l'autoesclusione tra le forme di limitazione del campo espressivo. La letteratura su social withdrawal in early childhood, su drop-out precoce dalle interazioni di gruppo, su anticipatory exclusion, mostra che il bambino non è solo destinatario passivo dello stigma ma partecipa attivamente alla protezione di sé attraverso ritrazione anticipata.",
+      "structural_focus": "Il fuoco è la struttura per cui il bambino, riconoscendo (anche pre-riflessivamente) di essere oggetto di sguardo riduttore, sviluppa strategie di sottrazione che gli risparmiano l'evento dello stigma effettivo ma a costo di un ulteriore restringimento del campo. L'auto-esclusione è economia strutturale, non scelta deliberata.",
+      "what_it_is": "Configurazione esistenziale in cui il bambino organizza progressivamente il proprio comportamento per ridurre l'occasione di essere oggetto di sguardi riduttori: si sottrae a esposizioni potenziali, abbandona pratiche dove potrebbe essere giudicato, evita domini dove la sua differenza diventerebbe visibile. È strutturalmente diversa dal disinteresse o dalla preferenza: ha la forma di una scelta che il bambino non può permettersi di non fare.",
+      "what_it_is_not": "Non è timidezza temperamentale. Non è scelta libera del bambino tra alternative equivalenti. Non è ritiro patologico (categoria clinica). Non equivale alla mera assenza di partecipazione (che può avere molte cause). Si distingue dalla ritrazione difensiva di un singolo evento per la sua stabilità e generalizzazione.",
+      "why_it_matters": "Le fonti recenti su social withdrawal, su silent suffering nei contesti scolastici, su pre-emptive coping nei bambini con disabilità o appartenenti a minoranze, convergono nel mostrare che molti bambini 'tranquilli', 'che non danno problemi', 'che si adattano', stanno in realtà operando una sottrazione strutturale che riduce nel tempo il loro campo espressivo. È un fenomeno che le istituzioni faticano a vedere proprio perché non produce comportamenti dirompenti.",
+      "source_signals": [
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura su social withdrawal e shy children (Rubin, Coplan)",
+          "signal_summary": "Distingue strutturalmente diverse forme di ritiro sociale e ne descrive le conseguenze sul campo di esperienza; documenta che alcune forme di ritiro sono adattamenti a contesti percepiti come non sicuri.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Disability studies — letteratura su passing e covering (Goffman, Yoshino) applicata all'infanzia",
+          "signal_summary": "Documenta strategie attive di sottrazione del tratto stigmatizzato da parte di soggetti minoritari, anche giovani; mostra il costo strutturale dell'auto-occultamento.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura su minority stress (Meyer) e sua estensione all'infanzia (lavori recenti su LGBT youth e su minoranze etniche)",
+          "signal_summary": "Mostra che la consapevolezza precoce di un tratto stigmatizzato attiva strategie di gestione che possono diventare strutturali ed estendersi a domini non direttamente collegati al tratto.",
+          "recency_relevance": "alta"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico-fenomenologico",
+          "reason": "La regolazione come tenuta dell'esperienza si attua qui per restrizione del campo: il soggetto rinuncia all'ampiezza per mantenere la tenuta; ipseità dinamica sotto pressione."
+        },
+        {
+          "axis_id": "asse_4",
+          "axis_name": "Separazione e Limite",
+          "reason": "Il limite qui non è dato dal reale ma anticipato dallo sguardo sociale; rischio di sostituzione del limite reale con limite sociale internalizzato."
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "Caso paradigmatico del desiderio ritratto come patologia strutturale: protezione attiva del campo che ne produce restringimento."
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico-culturale",
+          "reason": "Le forme storiche dell'esposizione (visibilità sociale, esposizione mediatica indiretta, valutazione costante) co-determinano la portata dell'auto-esclusione."
+        }
+      ],
+      "possible_structural_nodes": [
+        "regolazione-ontologica",
+        "campo-intenzionale",
+        "ipseità-dinamica",
+        "limite-reale",
+        "desiderio-ritratto",
+        "campo-desiderabile",
+        "mediazione-strutturale"
+      ],
+      "possible_bridge_concepts": [
+        "Adattamento difensivo del soggetto come economia strutturale",
+        "Limite sociale internalizzato e limite reale",
+        "Sottrazione preventiva di sé come forma di sopravvivenza espressiva"
+      ],
+      "definition_draft": "Configurazione strutturale in cui il bambino, esposto in modo ricorrente o anche solo anticipato a sguardi riduttori, organizza il proprio agire in modo da sottrarsi alle occasioni di esposizione, a costo di un restringimento progressivo del proprio campo espressivo. Non è scelta libera né patologia: è economia strutturale di sopravvivenza espressiva.",
+      "definition_risks": [
+        "Patologizzazione: trasformarlo in categoria clinica (ansia sociale, mutismo selettivo) perdendo la natura adattiva e strutturale",
+        "Romanticizzazione: leggerlo come 'capacità di scelta' del bambino, perdendo la dimensione coercitiva implicita",
+        "Riduzione individuale: leggerlo solo come comportamento del bambino senza la struttura relazionale-istituzionale che lo produce",
+        "Confusione con la timidezza temperamentale: rischio specifico se non si tiene la differenza tra qualità stabile e adattamento difensivo"
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "alta",
+      "human_review_notes": "Tema candidato come pilota perché mostra la dimensione attiva del bambino dentro una struttura coercitiva — utile per evitare letture che riducono il bambino a vittima passiva o lo iperresponsabilizzano. La distinzione tra desiderio ritratto, regolazione difensiva e limite internalizzato è strutturalmente delicata e merita lavoro in F2."
+    },
+    {
+      "theme_label_provisional": "Sguardo medicalizzante precoce e cattura della soggettività in una categoria diagnostica",
+      "starting_point": "Le note del ricercatore segnalano la riduzione identitaria. La letteratura su early diagnosis, su over-diagnosis e under-diagnosis in early childhood (in particolare per autism, ADHD, learning difficulties), su disability studies critici della medicalizzazione, mostra che la diagnosi precoce, indispensabile in molte situazioni, può strutturare lo sguardo dell'adulto sul bambino in modi che superano l'ambito clinico e investono la sua identità complessiva.",
+      "structural_focus": "Il fuoco non è la diagnosi in sé (utile, talvolta necessaria) ma la struttura per cui una categoria nosografica può saturare il modo in cui il bambino viene incontrato, sostituendo la sua presenza in divenire con un'istanza della categoria. La diagnosi smette di essere un riferimento di intervento e diventa cornice di interpretazione globale di ogni espressione del bambino.",
+      "what_it_is": "Configurazione relazionale e istituzionale in cui una classificazione diagnostica del bambino — pur clinicamente fondata — si estende a saturare lo sguardo di chi lo incontra (genitori, educatori, pari, specialisti, eventualmente il bambino stesso), trasformandosi da indicatore di bisogni specifici in cornice esplicativa di ogni manifestazione del soggetto. Investe in particolare neurodivergenze, disturbi del neurosviluppo, condizioni croniche con dimensione cognitiva o comportamentale.",
+      "what_it_is_not": "Non è la diagnosi in sé né un rifiuto della clinica. Non è la critica generalizzata della medicalizzazione (che è dibattito disciplinare distinto). Non coincide con sovradiagnosi (categoria operativa). Non è un fenomeno necessario dopo ogni diagnosi: alcune configurazioni cliniche e relazionali la prevengono, altre la rendono probabile.",
+      "why_it_matters": "Le fonti istituzionali (AAP, WHO, organizzazioni di disability advocacy, neurodiversity movement) discutono attivamente la differenza tra diagnosi come strumento e diagnosi come identità. Il tema è oggi al centro della tensione tra approccio medico, approccio sociale alla disabilità e neurodiversity paradigm. Permette di leggere strutturalmente la trasformazione contemporanea del rapporto adulto-bambino mediata dalle classificazioni cliniche precoci.",
+      "source_signals": [
+        {
+          "source_type": "training_knowledge",
+          "source_title": "AAP — clinical reports e policy statements su autism diagnosis, ADHD, developmental surveillance (revisioni recenti)",
+          "signal_summary": "Riconosce esplicitamente sia l'importanza della diagnosi precoce sia il rischio di etichettamento; discute strutturalmente l'equilibrio tra intervento e cattura identitaria.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Neurodiversity literature (Singer, Walker, Botha) e critical disability studies (Goodley, Runswick-Cole)",
+          "signal_summary": "Argomenta strutturalmente la differenza tra disturbo come dimensione di funzionamento e disturbo come identità sostitutiva; ridefinisce il significato della diagnosi nella vita del soggetto.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "WHO — ICF e modello biopsicosociale; Convenzione ONU sui diritti delle persone con disabilità",
+          "signal_summary": "Pone la classificazione del funzionamento dentro un quadro che include partecipazione, contesto e fattori ambientali, controllando il rischio di riduzione identitaria.",
+          "recency_relevance": "alta"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico-fenomenologico",
+          "reason": "L'opposizione tra soggetto-come-processo e soggetto-come-categoria è qui in primo piano in modo paradigmatico; ipseità dinamica vs istanza di una nosografia."
+        },
+        {
+          "axis_id": "asse_3",
+          "axis_name": "Normativo-educativo",
+          "reason": "L'autorità clinica (specialistica) si articola con l'autorità educativa: si pone la questione del rapporto tra orientamento normativo e sapere tecnico. Per le età 0-3 va qualificata come configurazione di sapere-autorità più che come trasmissione di giudizio."
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico-culturale",
+          "reason": "Le istituzioni cliniche, i sistemi di classificazione, i dispositivi di certificazione sono mediazione strutturale: la diagnosi opera dentro un dispositivo storico-tecnico."
+        },
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo-morale",
+          "reason": "L'altro interiorizzato come istanza che vede la categoria e non il soggetto: rischio di interiorizzazione di uno sguardo non riconoscente in senso strutturale."
+        }
+      ],
+      "possible_structural_nodes": [
+        "soggetto-come-processo",
+        "ipseità-dinamica",
+        "campo-intenzionale",
+        "istituzione-come-dispositivo",
+        "tecnica-come-forma-storica",
+        "mediazione-strutturale",
+        "deformazione-strutturale"
+      ],
+      "possible_bridge_concepts": [
+        "Diagnosi come strumento vs diagnosi come cornice identitaria",
+        "Sapere tecnico e riduzione del soggetto",
+        "Classificazione del funzionamento e ipseità in divenire"
+      ],
+      "definition_draft": "Configurazione strutturale in cui una classificazione clinico-diagnostica del bambino, originariamente strumento di intervento mirato, si estende a saturare il modo in cui il bambino viene incontrato, trasformandosi in cornice interpretativa globale che precede ogni sua espressione e modula l'ampiezza del campo che gli viene offerto.",
+      "definition_risks": [
+        "Anti-medicalizzazione generica: rischio di leggere il tema come critica della clinica, perdendo l'utilità della diagnosi quando ben articolata",
+        "Riduzione mono-disciplinare: leggerlo solo come problema clinico o solo come problema sociologico/politico (disability studies) senza tenere insieme i due piani",
+        "Genericità: confondere il fenomeno con qualunque uso della diagnosi, perdendo la specificità della saturazione identitaria",
+        "Operatività: scivolare in indicazioni su 'come comunicare la diagnosi' invece di tenere il piano strutturale"
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "media",
+      "human_review_notes": "Tema politicamente delicato: rischia di apparire ostile alla clinica se non formulato con cura. Verificare con il ricercatore il livello di profondità desiderato e l'opportunità di trattarlo come tema autonomo o come declinazione del tema 1 (cattura identitaria). Pilot_suitability media per la complessità della tensione fra rispetto del sapere clinico e analisi strutturale dei suoi effetti."
+    },
+    {
+      "theme_label_provisional": "Esclusione tra pari come emergente strutturale di norme di gruppo nella prima infanzia",
+      "starting_point": "Le note del ricercatore segnalano l'esclusione come forma di limitazione e invitano a considerare il ruolo del gruppo dei pari. La letteratura su peer exclusion in early childhood (Fabes, Killen; lavori recenti) mostra che già nella fascia 3-6 anni emergono dinamiche di esclusione organizzate attorno a tratti (genere, etnia, abilità, lingua, comportamento) che hanno una struttura propria, non riducibile alla semplice ripetizione di pratiche adulte.",
+      "structural_focus": "Il fuoco è la struttura per cui il gruppo dei pari, nella prima infanzia, produce attivamente confini di appartenenza attraverso pratiche di esclusione che organizzano un primo orizzonte di norme implicite. Non è importazione di stigmi adulti; è emergenza propria del gruppo, che ha però la propria mediazione storica e culturale.",
+      "what_it_is": "Configurazione collettiva in cui un gruppo di bambini, nella prima infanzia o precocemente, sviluppa pratiche ricorrenti di esclusione di uno o più membri attorno a tratti che diventano salienti per il gruppo stesso. Le pratiche includono: non-coinvolgimento nei giochi, sguardi che 'passano oltre', linguaggio che non si rivolge a, riassegnazione di ruoli marginali, derisione di gruppo. Il fenomeno opera anche senza intenzione di esclusione esplicita, attraverso micro-decisioni cumulative.",
+      "what_it_is_not": "Non è bullismo (categoria che presuppone gradi di sviluppo e intenzionalità che non sono qui necessariamente presenti). Non è semplice variabilità di preferenze sociali. Non è il rispecchiamento di norme adulte (che ha un ruolo ma non esaurisce il fenomeno). Non è limitato a contesti di alta disuguaglianza: emerge anche in contesti omogenei attorno a tratti minimi.",
+      "why_it_matters": "Le fonti recenti (review su preschool peer exclusion, lavori su social cognitive development e group norms, policy ECEC su inclusion) convergono nel mostrare che le dinamiche di gruppo dei pari precoci sono uno dei primi luoghi dove il bambino incontra una norma sociale operante, e dove il tratto può diventare vincolo del campo espressivo per via gruppo, non solo per via diadica adulto-bambino.",
+      "source_signals": [
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Killen, Mulvey, Hitti — Social exclusion in early childhood (review e lavori empirici)",
+          "signal_summary": "Documenta empiricamente l'emergenza di pratiche di esclusione organizzate già nella fascia preschool, basate su tratti diversi; ne mostra il carattere strutturalmente normativo (non solo affettivo).",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Fabes, Hanish, Martin — Same-gender peer interaction e formazione precoce di confini di gruppo",
+          "signal_summary": "Mostra come confini di gruppo (gender-based, per ora il caso più studiato) emergano precocemente e si auto-mantengano nel tempo, con effetti sul campo espressivo dei bambini collocati fuori dalle norme implicite del gruppo.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura recente su inclusion in ECEC (review europee e nordamericane)",
+          "signal_summary": "Riconosce che l'inclusione formale non previene di per sé la dinamica di esclusione tra pari; sposta l'attenzione dalla policy alla struttura del gruppo.",
+          "recency_relevance": "alta"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo-morale",
+          "reason": "Il gruppo dei pari è qui il luogo di una prima forma di altro vincolante (non singolo altro, ma 'noi'); rischio di colpa adattiva del bambino escluso che attribuisce a sé la causa."
+        },
+        {
+          "axis_id": "asse_3",
+          "axis_name": "Normativo-educativo",
+          "reason": "Le pratiche di gruppo nella prima infanzia costituiscono un primo orizzonte normativo implicito; per età 0-3 va inteso come orientamento implicito del campo, non come trasmissione di norme; per età 4-6 inizia a configurarsi come orientamento normativo proto-riflessivo."
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico-culturale",
+          "reason": "Il gruppo di pari è già una micro-istituzione mediata da modelli culturali (di mascolinità, di abilità, di partecipazione) che lo precedono e lo organizzano."
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "Il campo desiderabile sociale del bambino si organizza attorno a ciò che il gruppo rende attraente o riprovevole; il bambino escluso vede il suo campo desiderabile sociale ristretto strutturalmente."
+        }
+      ],
+      "possible_structural_nodes": [
+        "relazione-costitutiva",
+        "interiorizzazione-dell-altro",
+        "colpa-adattiva-o-persecutoria",
+        "orizzonti-di-senso",
+        "fallimento-normativo",
+        "istituzione-come-dispositivo",
+        "campo-desiderabile",
+        "mediazione-strutturale"
+      ],
+      "possible_bridge_concepts": [
+        "Gruppo dei pari come prima istituzione informale",
+        "Norma implicita di gruppo e orizzonte di senso precoce",
+        "Esclusione cumulativa per micro-decisioni"
+      ],
+      "definition_draft": "Configurazione collettiva in cui un gruppo di bambini, organizzando precocemente confini di appartenenza attorno a tratti che diventano salienti per il gruppo stesso, produce pratiche ricorrenti di esclusione che restringono il campo espressivo dei membri non riconosciuti come pienamente appartenenti. Il fenomeno opera come emergenza di gruppo, non come trasferimento di stigmi adulti.",
+      "definition_risks": [
+        "Collasso adulto-pari: leggere l'esclusione tra pari solo come riflesso di norme adulte, perdendo l'emergenza propria del gruppo",
+        "Anticipazione normativa: attribuire ai bambini 0-3 forme normative riflesse che non sono ancora pertinenti",
+        "Riduzione cognitiva: leggerlo come problema di sviluppo cognitivo (perspective-taking) perdendo la dimensione strutturalmente sociale e relazionale",
+        "Patologizzazione: vedere l'esclusione tra pari solo come bullismo precoce, perdendo la sua qualità di emergenza strutturale di norma"
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "alta",
+      "human_review_notes": "Tema strutturalmente importante perché introduce nella mappa una struttura non-diadica (gruppo dei pari come terzo termine) che le letture diadiche del rapporto adulto-bambino tendono a oscurare. Per le età 0-3 le forme dell'asse 3 vanno tenute con prudenza esplicita: l'orizzonte normativo c'è ma non è ancora normatività riflessa. Adatto come pilota per testare la capacità del modello di trattare strutture poliadiche e non solo diadiche."
+    },
+    {
+      "theme_label_provisional": "Sguardo amplificato dei media digitali e sovraesposizione del bambino come oggetto visivo",
+      "starting_point": "L'Asse 6 segnala esplicitamente la mediazione tecnica contemporanea come asse di deformazione strutturale. Le note del ricercatore non escludono questo dominio. La letteratura recente su sharenting, sui bambini esposti sui social dei genitori, sull'esposizione precoce a contesti di sguardo amplificato (foto, video, valutazione visiva continua) mostra una trasformazione specifica del rapporto bambino-sguardo nell'epoca digitale.",
+      "structural_focus": "Il fuoco è la struttura per cui il bambino, prima ancora di acquisire una capacità riflessiva sull'esposizione, si trova in un campo dove il proprio apparire è ripreso, condiviso, valutato, ricordato da un'audience indefinita. Lo sguardo che lo costituisce non è più quello degli altri presenti ma include lo sguardo amplificato e persistente del dispositivo.",
+      "what_it_is": "Configurazione storico-tecnica in cui le pratiche ordinarie di esposizione visiva del bambino (foto pubblicate, video condivisi, esposizione mediata su piattaforme) entrano nel campo della sua esperienza precoce come modalità strutturale di essere-visto, indipendentemente da una consapevolezza riflessiva del bambino. Il fenomeno opera anche quando il bambino non ha accesso ai dispositivi né alle pubblicazioni: opera attraverso l'organizzazione degli adulti attorno a lui (genitori che fotografano, condividono, valutano la riuscita di una posa, etc.).",
+      "what_it_is_not": "Non è 'uso dei device da parte del bambino' (tema diverso, già molto coperto). Non è una critica generalizzata della tecnologia. Non coincide con sharenting come categoria mediatica. Non è un fenomeno necessario in famiglie che usano social: dipende da come il dispositivo entra nell'organizzazione del campo dello sguardo.",
+      "why_it_matters": "Le fonti recenti (UNICEF Innocenti su digital childhood, AAP su media use and children, lavori su sharenting e infant exposure) convergono nel segnalare una trasformazione strutturale, non solo quantitativa, del campo dello sguardo entro cui il bambino contemporaneo si costituisce. L'Asse 6 (Stiegler, Rosa) fornisce la cornice strutturale per leggere il fenomeno oltre la sua presentazione mediatica.",
+      "source_signals": [
+        {
+          "source_type": "training_knowledge",
+          "source_title": "UNICEF Office of Research-Innocenti — pubblicazioni recenti su digital childhood",
+          "signal_summary": "Documenta sistematicamente come la mediazione digitale entri nei primi anni di vita del bambino anche prima che diventi utente attivo dei device; tema istituzionale attivo.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "AAP — Media and Children Communication Toolkit; clinical reports su media use in early childhood",
+          "signal_summary": "Posizione istituzionale aggiornata che riconosce la dimensione strutturale (non solo individuale) dell'esposizione mediatica precoce.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura su sharenting e digital footprint of children (Steinberg, Brosch, e successori)",
+          "signal_summary": "Documenta sistematicamente le pratiche di esposizione del bambino sui social da parte dei genitori e i loro effetti strutturali sull'identità precoce e sui diritti del bambino.",
+          "recency_relevance": "alta"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico-culturale",
+          "reason": "Asse strutturalmente in primo piano: la tecnica come forma storica organizza qui il campo dello sguardo, modula la temporalità (immagini persistenti) e satura il desiderio (apparire come valore)."
+        },
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico-fenomenologico",
+          "reason": "Il campo intenzionale del bambino si forma in presenza di uno sguardo amplificato e differito; la corporeità vissuta è esposta a essere oggetto visivo prima di essere soggetto."
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "Il campo desiderabile si organizza precocemente attorno all'apparire e alla riconoscibilità sui dispositivi; rischio strutturale di motivazione come sostituto del desiderio (Asse 5 cap. 6)."
+        },
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo-morale",
+          "reason": "L'altro interiorizzato include qui un altro ampio, indefinito, valutativo; rischio di formazione di un'istanza interna che non coincide con un altro riconoscente situato."
+        }
+      ],
+      "possible_structural_nodes": [
+        "corporeità-vissuta",
+        "campo-intenzionale",
+        "tecnica-come-forma-storica",
+        "prestazionalizzazione-del-valore",
+        "campo-desiderabile",
+        "motivazione-come-sostituto",
+        "deformazione-strutturale"
+      ],
+      "possible_bridge_concepts": [
+        "Sguardo amplificato come mediazione strutturale dell'apparire",
+        "Esposizione visiva continua e formazione del campo intenzionale",
+        "Audience indefinita e istanza interna deformata"
+      ],
+      "definition_draft": "Configurazione storico-tecnica in cui la mediazione digitale dello sguardo, esercitata attraverso le pratiche ordinarie di esposizione visiva del bambino, entra nel campo della sua esperienza precoce come modalità strutturale dell'essere-visto, modulando l'apparire del soggetto prima ancora che possa darsene riflessivamente conto.",
+      "definition_risks": [
+        "Moralismo digitale: scivolare in critica generalizzata dei genitori che condividono, perdendo la dimensione strutturale storico-tecnica",
+        "Riduzione tecnica della tecnica (vedi Asse 6): trattare il fenomeno come 'uso scorretto' invece che come forma di organizzazione dell'esperienza",
+        "Contemporaneizzazione: leggerlo solo come fenomeno digitale perdendo la struttura più generale dell'esposizione amplificata, che ha precedenti pre-digitali",
+        "Genericità: confondere con qualunque uso dei media, perdendo la specificità dell'effetto sul campo dello sguardo del bambino piccolo"
+      ],
+      "exploratory_priority": "media",
+      "pilot_suitability": "media",
+      "human_review_notes": "Tema con forte attualità di policy e di dibattito pubblico, ma esposto a moralismi. Vale come pilota se si riesce a tenerlo sul piano strutturale (Asse 6) senza scivolare in raccomandazioni operative. Verificare con il ricercatore se rientra nel suo interesse o se le note iniziali si concentrano deliberatamente sullo stigma faccia-a-faccia."
+    }
+  ],
+  "global_notes": {
+    "overall_assessment": "I dieci temi selezionati offrono una mappa concettuale articolata della limitazione espressiva indotta dallo sguardo sociale. La struttura emergente è la seguente: un tema-cornice (cattura identitaria) che riassume strutturalmente il fenomeno generale; un gruppo di temi affettivo-corporei (vergogna anticipata, derisione, auto-esclusione) che ne descrivono le incarnazioni nel soggetto; un gruppo di temi relazionali (iperprotezione, invisibilizzazione istituzionale, aspettative basse) che ne descrivono le modalità adulte; un tema di gruppo (esclusione tra pari) che introduce il terzo termine non-diadico; due temi storico-istituzionali (sguardo medicalizzante, sguardo digitale amplificato) che situano il fenomeno nelle mediazioni contemporanee. Tutti i temi attraversano almeno tre assi del modello e mantengono struttura poliadica dove pertinente. La fonte primaria è la training_knowledge dell'agente: la classificazione fra tipi di accesso è stata applicata con onestà per consentire al ricercatore di valutare la freschezza delle evidenze. Una nuova ricognizione con WebFetch o WebSearch su fonti recenti (2024-2026) permetterebbe di consolidare le source_signals.",
+    "needs_human_review": true,
+    "open_issues": [
+      "Tema escluso 'Inclusione' come categoria autonoma: troppo operativo e di policy, non apre questioni strutturali proprie ma diventa sfondo dei temi di esclusione/invisibilizzazione",
+      "Tema escluso 'Autostima del bambino': troppo psicologico-individualistico, riduce la struttura relazionale a stato soggettivo misurabile, ha forte rischio operativo",
+      "Tema escluso 'Empatia dell'adulto': troppo orientato a soluzione, non apre un fuoco strutturale; tende a essere ridotto a competenza professionale (mono-disciplinare)",
+      "Tema escluso 'Diritti del bambino come strumento contro lo stigma': troppo di policy, sposta il fuoco dal piano strutturale a quello giuridico-politico; resta importante come cornice di riferimento ma non come tema",
+      "Tema escluso 'Resilienza': categoria operativa applicativa, rischia di spostare il carico interpretativo sul bambino e di mascherare la struttura dello sguardo sociale che resta da analizzare",
+      "Tema escluso 'Bullismo precoce': sotto-categoria della derisione e dell'esclusione tra pari (già coperti); l'autonomia disciplinare di questo tema (educational psychology) lo rende riduttivo strutturalmente",
+      "Tema escluso 'Stigma dei genitori del bambino con disabilità': importante e attuale ma sposta il soggetto del tema (caregiver invece di bambino); merita ricognizione autonoma se il ricercatore vuole",
+      "Tema escluso 'Voice del bambino' come tema autonomo: troppo coperto da framework esistenti (CRC), rischio di importare lessico di policy senza struttura propria; è invece concetto-ponte utile in più temi",
+      "Punto aperto: la relazione strutturale tra il tema 1 (cattura identitaria) e i temi più specifici va esplicitata in F2 — alcuni temi possono essere riformulati come declinazioni del tema 1 o come dimensioni distinte",
+      "Punto aperto: la posizione dell'Asse 3 per le età 0-3 è tenuta con prudenza (orientamento implicito invece di trasmissione normativa) in tutti i temi pertinenti; va verificata in F2 con il ricercatore",
+      "Punto aperto: nessun tema affronta direttamente la dimensione del bambino come agente che apre o richiede una rilettura del proprio campo espressivo (resistenza, ricomposizione, ridefinizione) — potrebbe essere oggetto di una ricognizione complementare orientata alle condizioni di riapertura del campo",
+      "Punto aperto: nessun tema affronta la dimensione storico-comparata dello stigma infantile (configurazioni di altre epoche o culture); potrebbe essere utile come correttivo alla contemporaneizzazione"
+    ]
+  }
+}

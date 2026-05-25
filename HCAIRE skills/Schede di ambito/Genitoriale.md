@@ -2,6 +2,8 @@
 
 ## Ambito: **Genitoriale**
 
+> **Versione 2.0 — allineata al fondamento ufficiale.** Riferimenti ai nodi trasversali secondo l'enumerazione canonica N1–N7 (`Documenti fondativi/Atlante nodi trasversali.md` v2.0); quattro contesti canonici (Clinico, Pedagogico, Genitoriale, Istituzionale/servizi). Data: 2026-05-24.
+
 ---
 
 La scheda di ambito genitoriale usa implicitamente:
@@ -9,7 +11,7 @@ La scheda di ambito genitoriale usa implicitamente:
 * Carta fondativa
 * Motore di traducibilità
 * Matrice interdisciplinare
-* Atlante dei nodi (in particolare “relazione adulto–bambino”)
+* Atlante dei nodi trasversali v2.0 (in particolare N2 — Campo relazionale / Co-regolazione)
 
 ## 0. Identificazione
 
@@ -244,49 +246,29 @@ L’IA deve chiedersi:
 
 ## 8. Nodi trasversali prioritari
 
-### Relazione adulto–bambino (primario)
+Lettura dei sette nodi canonici secondo il contesto genitoriale (Matrice Nodo × Contesto, colonna G).
 
-* cuore dell’ambito
+### N2 — Campo relazionale / Co-regolazione (primario)
 
----
+Cuore dell'ambito: la relazione quotidiana adulto–bambino. Mi sento in sintonia o in lotta con il bambino?
 
-### Regolazione / co-regolazione (primario)
+### N1 — Regolazione / Integrazione dell'esperienza (primario)
 
-* centrale nella quotidianità
+Centrale nella quotidianità: il bambino riesce a calmarsi con l'adulto? Sonno, pianto, attesa, ritmi.
 
----
+### N3 — Accesso al mondo condiviso simbolico (primario)
 
-### Linguaggio e significato (primario)
+Pratica quotidiana di parola, lettura, canto: il bambino mostra e condivide il mondo.
 
-* pratica quotidiana (parola, lettura, canto)
+### N5 — Separazione / Limite reale (secondario ma critico)
 
----
+Gestione del "no" e della frustrazione: posso dire no senza rottura del legame?
 
-### Affettività e sviluppo del legame (primario)
+### N7 — Desiderio / Direzione dell'esperienza (secondario)
 
-* qualità dello scambio
-* ciclo legame / rottura / riparazione
-* distinzione tra colpa genitoriale orientativa e paralizzante
+L'iniziativa del bambino: cosa lo interessa davvero, al di là della sollecitazione esterna.
 
----
-
-### Limite reale (secondario ma critico)
-
-* gestione del “no” e della frustrazione
-
----
-
-### Desiderio (secondario)
-
-* iniziativa del bambino
-
----
-
-### Contesto storico-culturale (secondario — sfondo attivo)
-
-* pressioni culturali sulla genitorialità
-* tecnologie e ritmi familiari
-* disuguaglianze di risorse
+> Nota. L'affettività e lo sviluppo del legame e il contesto storico-culturale — che la versione precedente elencava qui come nodi — non sono nodi ma **assi** (A2, A6): restano sempre attivi come dimensioni costitutive. La lettura del ciclo legame/rottura/riparazione e della colpa genitoriale orientativa vs. paralizzante appartiene all'Asse 2 e va attivata tramite la skill di fondamento corrispondente.
 
 ---
 
@@ -460,34 +442,13 @@ Questo ambito è particolarmente delicato perché:
 
 ---
 
-# 17. Cosa hai ottenuto con questa scheda
+# 17. Collegamento con gli altri ambiti
 
-Con questa prima scheda genitoriale hai:
+I quattro contesti canonici leggono gli stessi nodi da livelli diversi:
 
-* un modello concreto di traduzione
-* un primo modulo pronto per generare contenuti
-* una base per testare:
+* **Genitoriale** → la relazione quotidiana e l'esperienza concreta della cura
+* **Pedagogico** → il contesto educativo strutturato
+* **Clinico** → l'osservazione e l'interpretazione dei segnali di sviluppo
+* **Istituzionale/servizi** → l'organizzazione delle condizioni e dei servizi
 
-  * output reali
-  * prompt strutturati
-  * agenti
-
----
-
-# Prossimo passo strategico
-
-A questo punto hai due direzioni molto forti:
-
-### 1. Costruire la scheda clinica
-
-→ ti darebbe il contrasto più interessante
-
-### 2. Fare un primo test reale
-
-→ prendere 2–3 tracce reali e generare output usando:
-
-* nodo relazione
-* scheda genitoriale
-
-👉 Se vuoi, possiamo fare subito un test concreto:
-mi dai una traccia reale e simuliamo il processo completo HCAIRE.
+Stessi nodi, ma linguaggio, obiettivi e responsabilità diversi.

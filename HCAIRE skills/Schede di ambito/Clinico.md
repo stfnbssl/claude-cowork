@@ -1,21 +1,8 @@
-Perfetto. L’ambito clinico è il banco di prova più “duro” del sistema HCAIRE.
-
-Perché?
-
-* richiede **precisione e responsabilità**
-* è esposto a **rischi legali ed etici**
-* è il luogo dove il modello rischia di:
-
-  * o diventare troppo generico
-  * o sconfinare indebitamente
-
-Quindi la scheda deve essere **più rigorosa e più prudente** rispetto alle altre.
-
----
-
 # SCHEDA DI AMBITO HCAIRE
 
 ## Ambito: **Clinico**
+
+> **Versione 2.0 — allineata al fondamento ufficiale.** Riferimenti ai nodi trasversali secondo l'enumerazione canonica N1–N7 (`Documenti fondativi/Atlante nodi trasversali.md` v2.0); quattro contesti canonici (Clinico, Pedagogico, Genitoriale, Istituzionale/servizi). Data: 2026-05-24.
 
 ---
 
@@ -308,64 +295,29 @@ L’IA deve chiedersi:
 
 ## 8. Nodi trasversali prioritari
 
-### Regolazione / co-regolazione (primario)
+Lettura dei sette nodi canonici secondo il contesto clinico (Matrice Nodo × Contesto, colonna C).
 
-* centrale nella clinica precoce
+### N1 — Regolazione / Integrazione dell'esperienza (primario)
 
----
+Centrale nella clinica precoce: l'esperienza si mantiene o collassa? La co-regolazione è disponibile? Configurazione integrata o frammentata.
 
-### Relazione adulto–bambino (primario)
+### N2 — Campo relazionale / Co-regolazione (primario)
 
-* contesto interpretativo
+Contesto interpretativo di ogni segnale: il campo relazionale bambino–caregiver sostiene, amplifica o disorganizza l'esperienza.
 
----
+### N3 — Accesso al mondo condiviso simbolico (secondario)
 
-### Integrazione / disorganizzazione (primario)
+Sviluppo comunicativo: gesto e parola aprono condivisione, o restano azione individuale.
 
-* chiave di lettura evolutiva
+### N5 — Separazione / Limite reale (secondario ma critico)
 
----
+Lutti, separazioni reali, diagnosi difficili, situazioni che resistono agli interventi usuali; il dolore come risposta adeguata al reale.
 
-### Affettività e sviluppo del legame (primario)
+### N7 — Desiderio / Direzione dell'esperienza (secondario)
 
-* segnale di qualità dell’esperienza
-* colpa/riparazione come indicatori di sviluppo morale precoce
-* distinzione conformismo/responsabilità nella lettura del comportamento
+Ritiro del desiderio vs. difficoltà di regolazione; prestazionalismo come patologia del campo desiderante; qualità dell'ambiente come fattore.
 
----
-
-### Corpo (secondario)
-
-* manifestazione concreta dei processi
-
----
-
-### Linguaggio (secondario)
-
-* sviluppo comunicativo
-
----
-
-### Limite reale / Perdita (secondario ma critico)
-
-* lutti, separazioni reali, diagnosi difficili
-* situazioni che resistono agli interventi usuali
-
----
-
-### Desiderio / orientamento al possibile (secondario ma operativamente rilevante)
-
-* ritiro del desiderio vs. difficoltà di regolazione
-* prestazionalismo come patologia del campo desiderante
-* qualità dell'ambiente come fattore che sostiene o soffoca il campo
-
----
-
-### Contesto storico-culturale (secondario — sfondo attivo)
-
-* condizioni socio-economiche come fattori di sviluppo
-* norme culturali di sviluppo non universali
-* accesso differenziato ai servizi
+> Nota. L'affettività e lo sviluppo del legame, la corporeità, il contesto storico-culturale — che la versione precedente elencava qui come nodi — non sono nodi ma **assi** (A2, A1, A6): restano sempre attivi come dimensioni costitutive (A2 e A1 sono costitutivi di N1 e N2; A6 di N3 e N7). La lettura clinica di colpa integrativa, riparazione, distinzione conformismo/responsabilità appartiene all'Asse 2 e va attivata tramite la skill di fondamento corrispondente.
 
 ---
 
@@ -537,17 +489,14 @@ Se troppo assertivo:
 
 # 17. Collegamento con gli altri ambiti
 
-Molto importante:
+I quattro contesti canonici leggono gli stessi nodi da livelli diversi:
 
-* clinico → osservazione e interpretazione
-* genitoriale → traduzione pratica
-* pedagogico → contesto educativo
+* **Clinico** → osservazione e interpretazione dei segnali di sviluppo
+* **Genitoriale** → traduzione nella relazione quotidiana
+* **Pedagogico** → contesto educativo strutturato
+* **Istituzionale/servizi** → organizzazione delle condizioni e dei servizi
 
-👉 stessi nodi, ma:
-
-* diverso livello di responsabilità
-* diverso linguaggio
-* diversi limiti
+Stessi nodi, ma diverso livello di responsabilità, diverso linguaggio, diversi limiti.
 
 ---
 

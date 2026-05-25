@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f3-sit-step-2-micro-mediazioni-schema",
+  "title": "F3-SIT Step 2 — Generazione delle micro-mediazioni",
+  "type": "object",
+  "required": ["step", "tema_id", "domain_selected", "results"],
+  "properties": {
+    "step": { "const": "f3_sit_step_2" },
+    "tema_id": { "type": "string" },
+    "domain_selected": { "enum": ["clinico", "educativo", "formazione", "politiche"] },
+    "results": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["items"],
+        "properties": {
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "sit_id",
+                "family_id",
+                "title",
+                "context",
+                "configurational_basis",
+                "micro_mediation",
+                "expected_field_effect",
+                "non_prescriptive_note",
+                "methodological_warnings"
+              ],
+              "properties": {
+                "sit_id": { "type": "string", "pattern": "^F3-SIT-[0-9]{3}$" },
+                "family_id": {
+                  "enum": ["F3-SIT-1", "F3-SIT-2", "F3-SIT-3", "F3-SIT-4", "F3-SIT-5"]
+                },
+                "title": { "type": "string", "minLength": 5 },
+                "context": {
+                  "type": "object",
+                  "required": ["setting", "actors", "situation"],
+                  "properties": {
+                    "setting": { "type": "string", "minLength": 3 },
+                    "actors": {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": { "type": "string" }
+                    },
+                    "age_window": { "type": ["string", "null"] },
+                    "situation": { "type": "string", "minLength": 30 }
+                  }
+                },
+                "configurational_basis": {
+                  "type": "object",
+                  "required": ["dominant_node", "function", "target_field", "universal_device_type"],
+                  "properties": {
+                    "source_device_id": { "type": ["string", "null"] },
+                    "dominant_node": { "type": "string", "minLength": 1 },
+                    "function": { "enum": ["stabilizzare", "ampliare", "mediare", "proteggere"] },
+                    "target_field": { "type": "string", "minLength": 1 },
+                    "universal_device_type": {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": { "enum": ["U1", "U2", "U3", "U4", "U5", "U6"] }
+                    }
+                  }
+                },
+                "micro_mediation": {
+                  "type": "object",
+                  "required": ["adult_attitude", "possible_phrase", "alternative_phrase", "gesture_or_timing", "avoid"],
+                  "properties": {
+                    "adult_attitude": { "type": "string", "minLength": 20 },
+                    "possible_phrase": { "type": ["string", "null"] },
+                    "alternative_phrase": { "type": ["string", "null"] },
+                    "gesture_or_timing": { "type": ["string", "null"] },
+                    "avoid": {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": { "type": "string", "minLength": 5 }
+                    }
+                  }
+                },
+                "expected_field_effect": { "type": "string", "minLength": 30 },
+                "non_prescriptive_note": { "type": "string", "minLength": 20 },
+                "methodological_warnings": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
