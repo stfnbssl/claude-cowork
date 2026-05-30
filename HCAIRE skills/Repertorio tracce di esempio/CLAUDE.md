@@ -2,7 +2,7 @@ Le tracce costituiscono il primo imput al processo elaborativo di Bartleby il su
 che governa la produzione degli output di HCAIRE (vedi istruzioni del progetto).
 
 Individuare buone tracce di esempio e costruire un repertorio di tracce di esempio che
-copra con lo spettro più ampio possibile gli gli ambiti operativi di HCAIRE
+copra con lo spettro più ampio possibile gli ambiti operativi di HCAIRE
 è cruciale: **la qualità delle tracce determina la credibilità dell’intero sistema**.
 Se le tracce sono deboli o artificiali, anche un buon modello sembra banale.
 Se le tracce sono ben costruite, il modello può mostrare davvero la sua differenza.

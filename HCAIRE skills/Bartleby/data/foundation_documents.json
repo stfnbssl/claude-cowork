@@ -15,44 +15,44 @@
   },
   {
     "id": "fd-002",
-    "type": "translation_engine",
-    "title": "Motore di traducibilità HCAIRE",
-    "slug": "motore-traducibilita",
-    "summary": "Documento che definisce il processo di trasformazione dei principi fondativi in operatori concreti. Articola i 5 moduli del processo HCAIRE: Modulo A (riformulazione della traccia), Modulo B (analisi multidimensionale), Modulo C (identificazione dei nodi critici), Modulo D (integrazione con il modello), Modulo E (traduzione verso l'output). Contiene le dimensioni da esplorare, i criteri di analisi, le regole di trasformazione e gli indicatori testuali.",
-    "file_path": "Documenti fondativi/Motore di traducibilità.md",
+    "type": "translation_pipeline_reference",
+    "title": "Pipeline di traducibilità (canonica) — rinvio",
+    "slug": "pipeline-traducibilita-canonica",
+    "summary": "Documento di rinvio al fondamento ufficiale (Metodo-fasi-concetti.md, Fase 2): definisce la Pipeline di traducibilità canonica a 7 operatori (Campo di lavoro, Concetto-ponte, Nodo trasversale, Domande professionali, Operatore di lettura, Famiglie di output, Output-tipo vuoto) con i 7 controlli di coerenza C0-C7. Distingue la Pipeline canonica (modello → strumento contestualizzato) dal Motore di lettura della traccia di Bartleby (traccia → output testuale).",
+    "file_path": "Documenti fondativi/Pipeline di traducibilità (canonica).md",
     "status": "approved",
     "version": "1.0",
     "created_by": "hcaire",
     "approved_by": "hcaire",
-    "created_at": "2026-04-15",
-    "updated_at": "2026-04-16"
-  },
-  {
-    "id": "fd-003",
-    "type": "interdisciplinary_matrix",
-    "title": "Matrice di traduzione interdisciplinare",
-    "slug": "matrice-traduzione-interdisciplinare",
-    "summary": "Documento che mappa le corrispondenze tra il modello HCAIRE e i linguaggi delle diverse discipline (clinica, pedagogia, scienze sociali, policy). Rende esplicite le traduzioni concettuali necessarie per attraversare gli ambiti operativi senza perdere coerenza con il modello fondativo.",
-    "file_path": "Documenti fondativi/Matrice di traduzione interdisciplinare.md",
-    "status": "approved",
-    "version": "1.0",
-    "created_by": "hcaire",
-    "approved_by": "hcaire",
-    "created_at": "2026-04-15",
-    "updated_at": "2026-04-16"
+    "created_at": "2026-05-25",
+    "updated_at": "2026-05-25"
   },
   {
     "id": "fd-004",
     "type": "transversal_nodes_atlas",
     "title": "Atlante dei nodi trasversali",
     "slug": "atlante-nodi-trasversali",
-    "summary": "Documento che identifica, definisce e rende operativi i 10 nodi concettuali trasversali del sistema HCAIRE. Ogni nodo è descritto con definizione strutturale, motivazione della trasversalità, dimensioni coinvolte, manifestazioni tipiche, lessici per ambito, domande guida, rischi di riduzione e indicatori di presenza/impoverimento. I nodi sono: relazione adulto-bambino, regolazione e co-regolazione, linguaggio e significato condiviso, affettività, corpo e esperienza incarnata, limite reale e separazione, desiderio e iniziativa, contesto storico-culturale, integrazione/disorganizzazione, apertura/chiusura al mondo.",
+    "summary": "Documento che identifica, definisce e rende operativi i 7 Nodi Trasversali canonici (N1-N7) del modello HCAIRE, in coerenza con il fondamento ufficiale (Metodo-fasi-concetti.md, Fase 2). Ogni nodo è descritto con definizione strutturale, assi coinvolti, trasformazione emergente, manifestazioni, lessici per ambito, domande guida, rischi di riduzione, indicatori di presenza/impoverimento, relazioni con altri nodi. I 7 nodi sono: N1 Regolazione/Integrazione dell'esperienza, N2 Campo relazionale/Co-regolazione, N3 Accesso al mondo condiviso simbolico, N4 Apertura/Esplorabilità del mondo, N5 Separazione/Limite reale, N6 Continuità temporale del Sé nascente, N7 Desiderio/Direzione dell'esperienza. La v2.0 distingue il livello degli Assi (6 dimensioni strutturali permanenti) dal livello dei Nodi (7 configurazioni multi-asse).",
     "file_path": "Documenti fondativi/Atlante nodi trasversali.md",
+    "status": "approved",
+    "version": "2.0",
+    "created_by": "hcaire",
+    "approved_by": "hcaire",
+    "created_at": "2026-04-15",
+    "updated_at": "2026-05-24"
+  },
+  {
+    "id": "fd-005",
+    "type": "output_typology_reference",
+    "title": "Output Bartleby — fondamenti e scelte",
+    "slug": "output-bartleby-fondamenti-scelte",
+    "summary": "Documento che codifica le basi fondative e le scelte di progetto dietro i 7 template di output canonici (output_templates.json) e le simulazioni (output_documents.json) di Bartleby. Articola: natura ontologica dell'output Bartleby (passaggio finale del Motore di lettura, subordinato al fondamento, non riducibile alla risposta standard, genealogicamente trasparente); la logica delle 7 tipologie come incrocio fra 4 destinatari canonici e 3 funzioni trasversali; la mappatura sulle famiglie di output canoniche (osservativi/formativi/accompagnamento/ricerca); la struttura canonica di un OutputDocument (identità, contenuto, genealogia obbligatoria, governance); gli 8 principi fondativi trasversali ai template; le scelte dentro structure_schema e language_constraints; lo statuto delle simulazioni come prove operative agli estremi; la relazione con altri livelli di output del progetto (Pipeline canonica e F3-SIT della pipeline Produzioni).",
+    "file_path": "Documenti fondativi/Output Bartleby — fondamenti e scelte.md",
     "status": "approved",
     "version": "1.0",
     "created_by": "hcaire",
     "approved_by": "hcaire",
-    "created_at": "2026-04-15",
-    "updated_at": "2026-04-16"
+    "created_at": "2026-05-25",
+    "updated_at": "2026-05-25"
   }
 ]

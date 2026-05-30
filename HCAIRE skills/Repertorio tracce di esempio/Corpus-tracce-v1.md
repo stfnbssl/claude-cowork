@@ -1,6 +1,8 @@
 # CORPUS DI TRACCE HCAIRE — Versione 1.0
 
-*Prima batteria dimostrativa. Tracce costruite per coprire i cinque ambiti operativi, le principali fasce d'età e i nodi trasversali prioritari. Ogni traccia è accompagnata da annotazioni interne per uso del sistema.*
+*Prima batteria dimostrativa. Tracce costruite per coprire i quattro contesti operativi, le principali fasce d'età e i nodi trasversali prioritari. Ogni traccia è accompagnata da annotazioni interne per uso del sistema.*
+
+> **Nota (2026-05-24).** Corpus re-annotato all'enumerazione canonica v2.0: le righe «Nodi attivati» di ogni traccia e gli indici usano i 7 Nodi Trasversali N1–N7; le sezioni sono i 4 contesti canonici (Genitoriale, Clinico, Pedagogico, Istituzionale/servizi). Dove la traccia attiva fortemente un asse strutturale e non un nodo, è indicato come «Assi salienti». Coerente con `Bartleby/data/input_traces.json`.
 
 ---
 
@@ -16,13 +18,13 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ---
 
-# AMBITO GENITORIALE
+# CONTESTO GENITORIALE
 
 ---
 
 ## T-G01
 **Età:** 8 mesi | **Tipo:** Regolazione + rischio colpevolizzazione
-**Nodi attivati:** Regolazione/co-regolazione, Relazione adulto-bambino, Corpo
+**Nodi attivati:** N1 Regolazione/Integrazione · N2 Campo relazionale/Co-regolazione  —  **Assi salienti:** A1 Ontologico-fenomenologico
 
 > "La sera mio figlio piange tantissimo e non riesco a calmarlo se non prendendolo sempre in braccio. Ho paura di viziarlo. Sto sbagliando qualcosa?"
 
@@ -38,7 +40,7 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ## T-G02
 **Età:** 20 mesi | **Tipo:** Linguaggio + ansia da prestazione
-**Nodi attivati:** Linguaggio e significato, Relazione adulto-bambino, Desiderio
+**Nodi attivati:** N2 Campo relazionale/Co-regolazione · N3 Accesso al mondo condiviso simbolico · N7 Desiderio/Direzione
 
 > "La mia bambina ha 20 mesi e dice pochissime parole, forse 5 o 6. Capisce tutto, risponde ai gesti, ma non parla. Le pediatra dice di aspettare ma io sono preoccupata. Devo fare qualcosa?"
 
@@ -54,7 +56,7 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ## T-G03
 **Età:** 14 mesi | **Tipo:** Relazione ambigua + rischio patologizzazione precoce
-**Nodi attivati:** Relazione adulto-bambino, Apertura/chiusura al mondo, Desiderio
+**Nodi attivati:** N2 Campo relazionale/Co-regolazione · N4 Apertura/Esplorabilità · N7 Desiderio/Direzione
 
 > "Il mio bambino a volte sembra non cercarmi. Gioca da solo anche a lungo, non si gira quando lo chiamo. Gli altri bambini della sua età sembrano più attaccati alla mamma. È normale?"
 
@@ -70,7 +72,7 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ## T-G04
 **Età:** 2 anni e mezzo | **Tipo:** Limite + gestione adulta
-**Nodi attivati:** Limite reale, Normatività, Affettività, Desiderio
+**Nodi attivati:** N5 Separazione/Limite reale · N7 Desiderio/Direzione  —  **Assi salienti:** A2 Affettivo-morale
 
 > "Quando gli dico no fa crisi fortissime, si butta per terra, urla, non riesco a gestirlo. Ho provato tutto. Mia suocera dice che lo coccolo troppo e che devo essere più ferma. Mio marito invece dice che sono troppo rigida. Non so più cosa fare."
 
@@ -86,7 +88,7 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ## T-G05
 **Età:** 18 mesi | **Tipo:** Ambigua + interpretazione inversa
-**Nodi attivati:** Relazione adulto-bambino, Apertura/chiusura, Affettività
+**Nodi attivati:** N2 Campo relazionale/Co-regolazione · N4 Apertura/Esplorabilità  —  **Assi salienti:** A2 Affettivo-morale
 
 > "La mia bambina è sempre tranquillissima. Non piange quasi mai, gioca da sola, non mi disturba. Tutti dicono che sono fortunata. Ma a volte mi chiedo se è tutto normale."
 
@@ -102,7 +104,7 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ## T-G06
 **Età:** 4 anni | **Tipo:** Separazione + ingresso a scuola
-**Nodi attivati:** Separazione, Limite, Relazione adulto-bambino, Desiderio
+**Nodi attivati:** N2 Campo relazionale/Co-regolazione · N5 Separazione/Limite reale · N7 Desiderio/Direzione
 
 > "Mia figlia ha iniziato la scuola dell'infanzia a settembre. Ogni mattina è un dramma: piange, si aggrappa a me, a volte vomita. Le maestre dicono che poi si calma, ma io torno a casa distrutta. Quando finirà?"
 
@@ -116,13 +118,13 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ---
 
-# AMBITO CLINICO
+# CONTESTO CLINICO
 
 ---
 
 ## T-C01
 **Età:** 6 mesi | **Tipo:** Osservazione precoce + lettura integrata
-**Nodi attivati:** Corpo, Regolazione, Relazione adulto-bambino
+**Nodi attivati:** N1 Regolazione/Integrazione · N2 Campo relazionale/Co-regolazione  —  **Assi salienti:** A1 Ontologico-fenomenologico
 
 > "Il bambino ha 6 mesi. La madre riferisce difficoltà nell'allattamento sin dalle prime settimane, pianto intenso e difficile da consolare, sonno molto frammentato. Il padre è spesso assente per lavoro. All'osservazione il bambino appare teso, con scarsa esplorazione visiva dell'ambiente. La madre sembra esausta e poco sintonizzata."
 
@@ -137,7 +139,7 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ## T-C02
 **Età:** 3 anni | **Tipo:** Segnale ambiguo + non-patologizzazione
-**Nodi attivati:** Relazione, Integrazione/disorganizzazione, Corpo, Apertura/chiusura
+**Nodi attivati:** N1 Regolazione/Integrazione · N3 Accesso al mondo condiviso simbolico · N4 Apertura/Esplorabilità
 
 > "Bambino di 3 anni inviato per valutazione del linguaggio. Parla poco in contesti strutturati ma i genitori riferiscono un linguaggio adeguato a casa. All'osservazione: buon contatto oculare, gioco simbolico presente, ricerca dell'adulto attiva. Qualche difficoltà nella regolazione in contesti con molti stimoli."
 
@@ -152,7 +154,7 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ## T-C03
 **Età:** 5 anni | **Tipo:** Segnale comportamentale + lettura relazionale
-**Nodi attivati:** Affettività, Normatività, Relazione, Limite
+**Nodi attivati:** N2 Campo relazionale/Co-regolazione · N5 Separazione/Limite reale  —  **Assi salienti:** A2 Affettivo-morale
 
 > "Bambino di 5 anni segnalato dalla scuola per comportamenti aggressivi verso i pari. A casa non ci sono problemi secondo i genitori. La madre è in corso di separazione dal padre, conflittuale. Il bambino è descritto dagli insegnanti come 'ingestibile' durante i momenti di transizione."
 
@@ -167,7 +169,7 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ## T-C04
 **Età:** 18 mesi | **Tipo:** Preoccupazione dei genitori vs osservazione clinica
-**Nodi attivati:** Relazione, Desiderio, Apertura/chiusura, Integrazione
+**Nodi attivati:** N2 Campo relazionale/Co-regolazione · N4 Apertura/Esplorabilità · N7 Desiderio/Direzione
 
 > "Genitori di una bambina di 18 mesi molto preoccupati perché 'non si interessa ai giocattoli, preferisce guardare le mani'. All'osservazione: buon contatto, risponde al nome, buona risposta affettiva ai genitori, esplora l'ambiente con curiosità. Nessun segnale di allarme evidente."
 
@@ -180,13 +182,13 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ---
 
-# AMBITO PEDAGOGICO
+# CONTESTO PEDAGOGICO
 
 ---
 
 ## T-P01
 **Età:** 6-7 anni | **Tipo:** Apprendimento + relazione educativa
-**Nodi attivati:** Desiderio, Normatività, Relazione adulto-bambino, Linguaggio
+**Nodi attivati:** N2 Campo relazionale/Co-regolazione · N3 Accesso al mondo condiviso simbolico · N7 Desiderio/Direzione
 
 > "Ho un bambino in classe che è brillantissimo ma rifiuta sistematicamente di fare i compiti. Non è questione di difficoltà: quando vuole lo fa in cinque minuti. Dice che i compiti sono inutili. Come lo motivo?"
 
@@ -202,7 +204,7 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ## T-P02
 **Età:** 4-5 anni | **Tipo:** Ambiente educativo + qualità dell'esperienza
-**Nodi attivati:** Campo intenzionale, Corpo, Regolazione, Mondo storico-culturale
+**Nodi attivati:** N1 Regolazione/Integrazione · N7 Desiderio/Direzione  —  **Assi salienti:** A1 Ontologico-fenomenologico, A6 Storico-culturale
 
 > "Nella mia sezione di scuola dell'infanzia ho bambini sempre agitati, non riescono a stare fermi durante il cerchio, litigano continuamente. Ho la sensazione che qualcosa non funzioni ma non capisco cosa."
 
@@ -218,7 +220,7 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ## T-P03
 **Età:** 10-11 anni | **Tipo:** Apprendimento + difficoltà relazionale
-**Nodi attivati:** Desiderio, Limite, Affettività, Normatività
+**Nodi attivati:** N5 Separazione/Limite reale · N7 Desiderio/Direzione  —  **Assi salienti:** A2 Affettivo-morale
 
 > "Ho una bambina di quinta elementare che ha sempre avuto buoni voti ma quest'anno sembra bloccata. Ha paura di sbagliare, non risponde anche quando sa la risposta, piange spesso. I genitori dicono che a casa studia moltissimo."
 
@@ -232,13 +234,13 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ---
 
-# AMBITO SOCIALE
+# CONTESTO ISTITUZIONALE / SERVIZI — condizioni sociali
 
 ---
 
 ## T-S01
 **Tipo:** Vulnerabilità familiare + lettura sistemica
-**Nodi attivati:** Mondo storico-culturale, Relazione, Regolazione, Limite reale
+**Nodi attivati:** N1 Regolazione/Integrazione · N2 Campo relazionale/Co-regolazione · N5 Separazione/Limite reale  —  **Assi salienti:** A6 Storico-culturale
 
 > "Famiglia con tre figli (2, 5 e 8 anni), madre sola, lavoro precario. Il bambino più grande ha iniziato ad avere problemi a scuola. La madre riferisce di non riuscire a seguire i compiti la sera perché è esausta quando torna dal lavoro. L'assistente sociale chiede un orientamento."
 
@@ -254,7 +256,7 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ## T-S02
 **Tipo:** Contesto migratorio + traduzione culturale
-**Nodi attivati:** Mondo storico-culturale, Linguaggio, Relazione, Normatività
+**Nodi attivati:** N2 Campo relazionale/Co-regolazione · N3 Accesso al mondo condiviso simbolico  —  **Assi salienti:** A6 Storico-culturale
 
 > "Bambino di 7 anni, famiglia immigrata da due anni. A scuola non parla, risponde solo con gesti, sembra non capire le istruzioni. A casa, secondo i genitori, parla normalmente nella lingua d'origine e interagisce bene. L'insegnante chiede se ha un disturbo del linguaggio."
 
@@ -267,13 +269,13 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ---
 
-# AMBITO POLITICO-ISTITUZIONALE
+# CONTESTO ISTITUZIONALE / SERVIZI — politiche e servizi
 
 ---
 
 ## T-PI01
 **Tipo:** Policy + sviluppo precoce
-**Nodi attivati:** Mondo storico-culturale, Regolazione, Relazione, Desiderio
+**Nodi attivati:** N1 Regolazione/Integrazione · N2 Campo relazionale/Co-regolazione · N7 Desiderio/Direzione  —  **Assi salienti:** A6 Storico-culturale
 
 > "Un Comune sta valutando se investire in un programma di sostegno alla genitorialità nei primi 1000 giorni. Il sindaco chiede: perché i primi 1000 giorni? È solo una moda o c'è una base solida?"
 
@@ -289,7 +291,7 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 ## T-PI02
 **Tipo:** Progettazione servizi + qualità educativa
-**Nodi attivati:** Normatività, Mondo storico-culturale, Relazione, Desiderio
+**Nodi attivati:** N2 Campo relazionale/Co-regolazione · N7 Desiderio/Direzione  —  **Assi salienti:** A2 Affettivo-morale, A6 Storico-culturale
 
 > "Una ASL sta riprogettando i servizi per la prima infanzia (0-3). Si discute se orientarsi verso servizi ad alta intensità di stimolazione cognitiva oppure verso servizi che privilegiano la dimensione relazionale. Viene chiesto un orientamento."
 
@@ -307,16 +309,23 @@ Le annotazioni interne (tra parentesi quadre) sono per uso del sistema, non per 
 
 | Nodo | Tracce |
 |------|--------|
-| Relazione adulto-bambino | T-G01, T-G03, T-G05, T-G06, T-C01, T-C03, T-P01, T-S01 |
-| Regolazione / co-regolazione | T-G01, T-C01, T-P02, T-S01, T-PI01 |
-| Linguaggio e significato | T-G02, T-C02, T-P01, T-S02 |
-| Affettività | T-G04, T-C03, T-P03 |
-| Corpo e esperienza incarnata | T-G01, T-C01, T-P02 |
-| Limite reale e separazione | T-G04, T-G06, T-C03, T-P03, T-S01 |
-| Desiderio e iniziativa | T-G05, T-P01, T-P03, T-PI02 |
-| Contesto storico-culturale | T-S01, T-S02, T-P02, T-PI01, T-PI02 |
-| Integrazione / disorganizzazione | T-C02, T-C03 |
-| Apertura / chiusura al mondo | T-G03, T-G05, T-C04 |
+| N1 — Regolazione / Integrazione dell'esperienza | T-G01, T-C01, T-C02, T-P02, T-S01, T-PI01 |
+| N2 — Campo relazionale / Co-regolazione | T-G01, T-G02, T-G03, T-G05, T-G06, T-C01, T-C03, T-C04, T-P01, T-S01, T-S02, T-PI01, T-PI02 |
+| N3 — Accesso al mondo condiviso simbolico | T-G02, T-C02, T-P01, T-S02 |
+| N4 — Apertura / Esplorabilità del mondo | T-G03, T-G05, T-C02, T-C04 |
+| N5 — Separazione / Limite reale | T-G04, T-G06, T-C03, T-P03, T-S01 |
+| N6 — Continuità temporale del Sé nascente | — (nessuna traccia del corpus v1; nodo da coprire in una v2 del corpus) |
+| N7 — Desiderio / Direzione dell'esperienza | T-G02, T-G03, T-G04, T-G06, T-C04, T-P01, T-P02, T-P03, T-PI01, T-PI02 |
+
+# INDICE PER ASSE SALIENTE
+
+*Assi strutturali fortemente attivati da una traccia (livello distinto dai nodi: gli assi sono dimensioni sempre compresenti, qui se ne segnala la salienza).*
+
+| Asse | Tracce |
+|------|--------|
+| A1 — Ontologico-fenomenologico | T-G01, T-C01, T-P02 |
+| A2 — Affettivo-morale | T-G04, T-G05, T-C03, T-P03, T-PI02 |
+| A6 — Storico-culturale | T-P02, T-S01, T-S02, T-PI01, T-PI02 |
 
 ---
 

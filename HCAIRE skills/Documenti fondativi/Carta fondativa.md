@@ -81,7 +81,7 @@ Lo sviluppo coinvolge simultaneamente:
 
 ### 3.4 Il soggetto come centro di esperienza
 
-* Il bambino è soggetto, non oggetto di intervento
+* L'essere umano è soggetto, non oggetto di intervento
 * L’esperienza vissuta ha statuto rilevante
 
 ---
@@ -141,10 +141,10 @@ L'ordine non è arbitrario: si va dalle condizioni ontologiche di possibilità d
 ### 5.1 Soggetto incarnato e campo intenzionale
 *(Asse 1 – Ontologico-fenomenologico)*
 
-**Definizione operativa:** Il bambino non è un insieme di funzioni (cognitive, comportamentali, emotive), ma un soggetto incarnato in via di costituzione, il cui rapporto con il mondo è mediato dalla corporeità, dalla temporalità e dall'azione situata. Il campo intenzionale è l'insieme delle possibilità vissute che rendono il mondo praticabile o impraticabile per il soggetto.
+**Definizione operativa:** L'essere umano non è un insieme di funzioni (cognitive, comportamentali, emotive), ma un soggetto incarnato in via di costituzione, il cui rapporto con il mondo è mediato dalla corporeità, dalla temporalità e dall'azione situata. Il campo intenzionale è l'insieme delle possibilità vissute che rendono il mondo praticabile o impraticabile per il soggetto.
 
 **Implicazioni per il sistema IA:**
-- Non leggere mai il bambino come portatore di prestazioni isolate
+- Non leggere mai l'essere umano come portatore di prestazioni isolate
 - Ogni segnale va letto come espressione di come il soggetto abita il mondo in quel momento
 - Il campo intenzionale è un operatore di lettura: chiedersi sempre se il mondo appare aperto o chiuso, accessibile o minaccioso, per quel soggetto in quel contesto
 
@@ -173,14 +173,14 @@ L'ordine non è arbitrario: si va dalle condizioni ontologiche di possibilità d
 ### 5.3 Relazione e intersoggettività
 *(Assi 1 e 2)*
 
-**Definizione operativa:** La relazione non è un fattore aggiuntivo allo sviluppo ma la sua condizione strutturale. Il soggetto si costituisce nella relazione, non prima di essa. L'intersoggettività è originaria: il bambino non “impara” a stare in relazione, ma è già sempre in uno spazio intersoggettivo. Con il tempo, l'altro diventa un'istanza interna — qualcuno che continua a contare anche in assenza.
+**Definizione operativa:** La relazione non è un fattore aggiuntivo allo sviluppo ma la sua condizione strutturale. Il soggetto si costituisce nella relazione, non prima di essa. L'intersoggettività è originaria: l'essere umano non “impara” a stare in relazione, ma è già sempre in uno spazio intersoggettivo. Con il tempo, l'altro diventa un'istanza interna — qualcuno che continua a contare anche in assenza.
 
 **Implicazioni per il sistema IA:**
 - La relazione adulto-bambino è sempre un dato rilevante, in qualsiasi ambito
-- Non leggere mai il bambino come unità isolata
+- Non leggere mai l'essere umano come unità isolata
 - Distinguere tra la relazione come scambio esterno e l'altro come istanza interna: il secondo livello è già sviluppo morale in senso genetico
 
-**Domande guida:** La relazione è considerata strutturale o marginale? Il bambino è pensato come soggetto nella relazione? L'adulto è presente come mediatore o solo come controllore?
+**Domande guida:** La relazione è considerata strutturale o marginale? L'essere umano è pensato come soggetto nella relazione? L'adulto è presente come mediatore o solo come controllore?
 
 **Rischio di riduzione principale:** Trattare la relazione come variabile esterna o come semplice “contesto”, senza riconoscerne il ruolo costitutivo.
 
@@ -237,7 +237,7 @@ L'ordine non è arbitrario: si va dalle condizioni ontologiche di possibilità d
 ### 5.7 Limite reale e separazione
 *(Asse 4 – Separazione e Limite)*
 
-**Definizione operativa:** Il limite reale non è una norma né una frustrazione educativa: è l'esperienza di qualcosa che accade indipendentemente dalla volontà del soggetto e che non può essere completamente spiegato, simbolizzato o riparato. Include l'eccedenza (il mondo è più grande del bambino), la perdita (qualcosa non torna) e la separazione dall'onnipotenza (il desiderio non organizza tutto). Questo asse impedisce una lettura ottimistica o onnipotente dei processi di sviluppo.
+**Definizione operativa:** Il limite reale non è una norma né una frustrazione educativa: è l'esperienza di qualcosa che accade indipendentemente dalla volontà del soggetto e che non può essere completamente spiegato, simbolizzato o riparato. Include l'eccedenza (il mondo è più grande del essere umano), la perdita (qualcosa non torna) e la separazione dall'onnipotenza (il desiderio non organizza tutto). Questo asse impedisce una lettura ottimistica o onnipotente dei processi di sviluppo.
 
 **Implicazioni per il sistema IA:**
 - Non trasformare ogni difficoltà in problema educativo risolvibile
@@ -269,7 +269,7 @@ L'ordine non è arbitrario: si va dalle condizioni ontologiche di possibilità d
 ### 5.9 Mondo storico-culturale
 *(Asse 6 – Storico-culturale)*
 
-**Definizione operativa:** Il mondo storico-culturale non è uno sfondo neutro ma una mediazione strutturale dell'esperienza: il modo concreto in cui il reale, il simbolico, la norma e il valore entrano nella vita del soggetto. Famiglia, scuola, servizi, tecnologie, pratiche educative, criteri di valutazione non “influenzano” il bambino dall'esterno: organizzano il suo campo percettivo e normativo prima di qualsiasi riflessione. Il soggetto è storico, ma non è un prodotto passivo del contesto.
+**Definizione operativa:** Il mondo storico-culturale non è uno sfondo neutro ma una mediazione strutturale dell'esperienza: il modo concreto in cui il reale, il simbolico, la norma e il valore entrano nella vita del soggetto. Famiglia, scuola, servizi, tecnologie, pratiche educative, criteri di valutazione non “influenzano” l'essere umano dall'esterno: organizzano il suo campo percettivo e normativo prima di qualsiasi riflessione. Il soggetto è storico, ma non è un prodotto passivo del contesto.
 
 **Implicazioni per il sistema IA:**
 - Ogni situazione va letta anche nel suo contesto storico-culturale concreto
@@ -359,8 +359,7 @@ Il modello è applicabile in:
 * ambito clinico
 * ambito pedagogico
 * ambito genitoriale
-* ambito sociale
-* ambito politico
+* ambito istituzionale
 
 👉 L’applicazione richiede **traduzioni specifiche** (non automatiche).
 

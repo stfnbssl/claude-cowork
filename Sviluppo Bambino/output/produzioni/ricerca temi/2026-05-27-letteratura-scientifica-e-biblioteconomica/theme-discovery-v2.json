@@ -1,0 +1,805 @@
+{
+  "research_scope": {
+    "project_goal": "Individuare e formulare temi strutturalmente significativi a partire dalla letteratura scientifica e biblioteconomica che considera le biblioteche pubbliche come luoghi di welfare culturale e di sostegno allo sviluppo infantile precoce, attraverso libri, voce e lettura condivisa, dalla gravidanza ai primi mesi di vita. I temi preparano casi pilota per la successiva modellizzazione attraverso i sei assi del progetto Sviluppo Bambino e per la costruzione di micro-matrici; non propongono strumenti, protocolli o indicazioni operative.",
+    "source_types_consulted": [
+      "Framework e policy di WHO/UNICEF/World Bank sull'early childhood development e il responsive caregiving (Nurturing Care Framework)",
+      "Policy statement e technical report dell'AAP sulla promozione della literacy e la lettura condivisa (aggiornamento 2024)",
+      "Letteratura scientifica peer-reviewed (RCT, review sistematiche e meta-analisi) su book-sharing dialogico, lettura condivisa e sviluppo, incluso l'RCT multicentrico italiano e gli studi sudafricani di Vally, Murray, Tomlinson e Cooper",
+      "Studi su udito fetale, voce materna ed esposizione prenatale al linguaggio (encoding neurofisiologico nel neonato; studi classici e recenti)",
+      "Letteratura su coinvolgimento paterno e co-genitorialità nella lettura condivisa (RCT e review sistematiche) e su attaccamento prenatale di madri e padri",
+      "Letteratura su divari socioeconomici, povertà educativa e 'book deserts' nell'accesso e nelle pratiche di lettura precoce",
+      "Letteratura biblioteconomica e di welfare culturale sui programmi di promozione della lettura nella prima infanzia (Nati per Leggere, Bookstart, Reach Out and Read)",
+      "Studi di neuroimaging sull'ambiente domestico di lettura e l'attivazione cerebrale (Hutton e coll.)",
+      "Conoscenza di addestramento su mediazione simbolica (Vygotskij), attenzione e intenzionalità condivisa (Tomasello), intersoggettività (Trevarthen, Stern), mutua regolazione (Tronick), holding e sopravvivenza dell'oggetto (Winnicott), autorità non manipolativa (Arendt)"
+    ],
+    "selection_criteria": [
+      "Densità strutturale: il tema attraversa più assi e non si esaurisce in una singola disciplina",
+      "Coerenza con il fuoco indicato dal ricercatore (biblioteche come welfare culturale; lettura, voce e relazione dalla gravidanza; coinvolgimento di madri e padri; contrasto alle disuguaglianze) senza ridurre la ricerca a una sola area",
+      "Non operatività: il tema non coincide con un programma, una tecnica o un protocollo",
+      "Riconoscimento delle strutture poliadiche (triade adulto-bambino-oggetto; pluralità delle presenze) quando costitutive del fenomeno",
+      "Carattere relazionale-non-prestazionale, in linea con il principio ribadito dalle fonti e dalle note del ricercatore",
+      "Distinzione esplicita tra ciò che emerge dalle fonti e ciò che è inferito come pertinenza strutturale rispetto al modello a sei assi",
+      "Prudenza sull'applicabilità dell'Asse 3 (normativo-educativo) alla fascia prenatale e 0-18 mesi"
+    ],
+    "notes": "Esiste una crescente letteratura scientifica e biblioteconomica che considera le biblioteche pubbliche come luoghi di welfare culturale e di sostegno allo sviluppo infantile precoce, con un ruolo attivo nell’accompagnare i genitori — madri e padri — nella costruzione della relazione con il bambino attraverso libri, voce e lettura condivisa. Il progetto di ricerca di Beatrice Pallotta Fornaroli dell’Università di Perugia si colloca in questo ambito, approfondendo il ruolo dell’attaccamento, della lettura ad alta voce e del coinvolgimento paterno nei primi mesi di vita del bambino. \n\nLe evidenze scientifiche mostrano che lo sviluppo neurologico e relazionale del bambino inizia già durante la gravidanza e che le esperienze precoci influenzano profondamente lo sviluppo del linguaggio, delle competenze cognitive, emotive e relazionali. La lettura ad alta voce precoce, inserita in una relazione affettiva stabile e responsiva, favorisce l’emergent literacy, l’attenzione condivisa, la regolazione emotiva e la qualità del legame genitore-bambino. \n\nLa letteratura sottolinea che il messaggio rivolto ai genitori non dovrebbe essere scolastico o prestazionale, ma relazionale. Leggere a un neonato non significa anticipare l’apprendimento formale della lettura, bensì costruire momenti di vicinanza, sintonizzazione emotiva e comunicazione. La voce dei genitori, già durante l’ultimo trimestre della gravidanza, rappresenta uno stimolo riconoscibile dal bambino e contribuisce alla predisposizione all’acquisizione del linguaggio. \n\nPer questo motivo, bibliotecari e operatori della prima infanzia vengono invitati a promuovere pratiche semplici e quotidiane:\n\n* parlare e cantare al bambino già in gravidanza;\n* utilizzare la lettura come momento di contatto e calma;\n* creare rituali familiari di lettura;\n* osservare i segnali del bambino e rispondere in modo coerente;\n* lasciare che il bambino esplori libri con il corpo, il tatto e lo sguardo;\n* valorizzare la lettura dialogica e responsiva, più che la semplice esposizione passiva alle parole.\n\nLa ricerca evidenzia inoltre che il coinvolgimento di entrambi i genitori produce effetti positivi sia sullo sviluppo del bambino sia sulle dinamiche familiari. Le madri mantengono spesso il ruolo principale nella cura e nella lettura, ma il coinvolgimento attivo dei padri rafforza la continuità delle pratiche di lettura in famiglia, migliora la qualità della relazione padre-bambino e sostiene processi di co-parenting più equilibrati. La presenza paterna nelle pratiche di lettura condivisa è associata a benefici sul comportamento socio-emotivo del bambino, sul senso di autoefficacia genitoriale e sulla partecipazione degli uomini alla cura. \n\nLe biblioteche pubbliche vengono quindi considerate luoghi strategici per sostenere le famiglie fin dalla gravidanza. Non solo spazi di accesso ai libri, ma ambienti capaci di contrastare povertà educativa e disuguaglianze attraverso interventi precoci. In questa prospettiva, il bibliotecario assume il ruolo di facilitatore della relazione familiare, promuovendo incontri, laboratori, momenti di lettura condivisa e orientamento ai libri per la prima infanzia. \n\nParticolare attenzione viene data alle famiglie meno sensibili al tema della lettura, con l’obiettivo di raggiungere precocemente contesti sociali più fragili e ridurre le disuguaglianze educative. Le pratiche raccomandate si fondano su un approccio accogliente, non giudicante e inclusivo, evitando di trasmettere ai genitori l’idea di una prestazione educativa obbligatoria. La lettura viene proposta come esperienza di benessere condiviso, occasione di relazione e costruzione di fiducia reciproca.\n\nLe finalità dei programmi di promozione della lettura nella fascia prenatale e 0–18 mesi possono quindi essere sintetizzate in alcuni obiettivi principali:\n\n* sostenere lo sviluppo del linguaggio e dell’emergent literacy;\n* rafforzare l’attaccamento e la qualità della relazione genitore-bambino;\n* favorire la partecipazione di madri e padri alla cura;\n* aumentare il senso di competenza e autoefficacia dei caregiver;\n* promuovere pratiche familiari di lettura continuative;\n* contrastare povertà educativa e disuguaglianze precoci;\n* valorizzare le biblioteche come presidi di welfare culturale e sviluppo infantile."
+  },
+  "candidate_themes": [
+    {
+      "theme_label_provisional": "La terzietà dell'oggetto condiviso: il libro come elemento costitutivo del campo precoce, non come supporto",
+      "starting_point": "La letteratura sul book-sharing dialogico (in particolare il protocollo dell'RCT multicentrico italiano e gli studi sudafricani di Vally, Murray, Tomlinson e Cooper) e le note del ricercatore convergono nel descrivere il libro non come contenuto da trasmettere ma come oggetto attorno a cui adulto e bambino organizzano uno spazio comune. Il protocollo italiano parla esplicitamente di uno 'spazio intersoggettivo privilegiato' creato attraverso libri illustrati senza parole, in cui l'adulto segue l'interesse del bambino e nomina insieme a lui ciò che il bambino guarda.",
+      "structural_focus": "Il fuoco non è la lettura, né il libro come supporto materiale, ma la struttura triadica in cui un terzo elemento — l'oggetto condiviso — diventa costitutivo della relazione e non semplice strumento al suo interno. La triade adulto–bambino–oggetto non è la diade più un oggetto: rimuovere il terzo elemento non impoverisce la relazione, la trasforma qualitativamente in un'altra cosa (interazione faccia a faccia, scambio vocale, contatto corporeo). È la presenza del terzo a generare un campo orientato e condivisibile, in cui sguardi e gesti possono convergere su qualcosa che non è né l'uno né l'altro.",
+      "what_it_is": "Una configurazione relazionale precoce a tre termini in cui un oggetto comune — qui il libro, ma strutturalmente qualsiasi terzo condivisibile — apre uno spazio di esperienza che adulto e bambino possono abitare insieme. L'oggetto non veicola anzitutto un sapere: organizza un orizzonte verso cui entrambi possono volgersi, rendendo possibile la convergenza dell'attenzione, la ripetibilità dell'incontro e la nascita di un riferimento comune. È un fenomeno graduale e pre-linguistico, in cui ciò che conta non è il contenuto del libro ma la sua funzione di mediatore di un mondo condiviso.",
+      "what_it_is_not": "Non è la lettura ad alta voce intesa come esposizione del bambino alle parole. Non è l'uso del libro come strumento didattico o come stimolo linguistico. Non è riducibile alla diade affettiva caregiver–bambino con un oggetto accessorio: l'oggetto è qui costitutivo, non ornamentale. Non è una tecnica di lettura dialogica, che ne è una possibile traduzione operativa e non il fenomeno.",
+      "why_it_matters": "È il punto in cui la ricerca contemporanea sul book-sharing e la letteratura biblioteconomica sul welfare culturale si incontrano: entrambe spostano l'accento dal testo alla relazione mediata da un oggetto. Permette di leggere insieme fenomeni che le diverse letterature tengono separati — attenzione condivisa, gioco con oggetti, prime forme di simbolizzazione — riconoscendo una struttura comune di terzietà. È inoltre il fenomeno paradigmatico per il progetto, perché esibisce con chiarezza una struttura poliadica irriducibile alla diade.",
+      "source_signals": [
+        {
+          "source_type": "web_fetch",
+          "source_title": "Early parent-child intervention with Dialogic Book-Sharing — study protocol for a multicentre RCT in Italy (Trials, 2024)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186156/",
+          "signal_summary": "Descrive il book-sharing dialogico come 'spazio intersoggettivo privilegiato' costruito attorno a libri illustrati senza parole; l'adulto segue l'interesse del bambino e nomina con lui ciò che il bambino guarda. Posiziona il libro come mediatore di un'attività piacevole, non come strumento didattico.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "web_search",
+          "source_title": "Vally, Murray, Tomlinson, Cooper — Dialogic book-sharing training on infant language and attention: RCT in a deprived South African community (JCPP, 2015)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4552334/",
+          "signal_summary": "RCT in comunità deprivata: l'addestramento al book-sharing dialogico migliora attenzione e linguaggio del bambino e la qualità dell'interazione adulto-bambino; l'effetto passa per la qualità dello scambio attorno al libro, non per la quantità di testo.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Vygotskij — mediazione simbolica e strumenti culturali nello sviluppo",
+          "signal_summary": "La cultura entra nella struttura dell'esperienza attraverso oggetti e segni che riconfigurano il campo; il terzo mediatore co-costituisce le funzioni psichiche, non le facilita soltanto.",
+          "recency_relevance": "bassa"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Bruner (formats) e Tomasello (joint attention / shared intentionality)",
+          "signal_summary": "Le routine condivise attorno a oggetti (formati) e la triangolazione attentiva sono descritte come matrici precoci della comunicazione referenziale a tre termini.",
+          "recency_relevance": "bassa"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico–culturale",
+          "reason": "La mediazione simbolica e l'oggetto culturale come co-costitutivo del campo dell'esperienza sono il cuore di questo asse; il libro è una forma storicamente determinata di questo terzo mediatore. (confidenza alta)"
+        },
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico–fenomenologico",
+          "reason": "La costituzione del campo intenzionale e la relazione come condizione strutturale sono direttamente interrogate: il terzo oggetto amplia l'orizzonte del possibile vissuto e sostiene la co-regolazione. (confidenza alta)"
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "L'orizzonte del desiderabile si organizza attorno a ciò che l'oggetto rende visibile e attendibile: il terzo apre direzioni cariche di valore prima di ogni scelta. (confidenza media)"
+        },
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo–morale",
+          "reason": "Possibile coinvolgimento attraverso l'interiorizzazione della presenza condivisa attorno a un oggetto comune; va verificato, perché per la fascia 0-18 mesi la dimensione affettivo-morale è solo precursoria. (confidenza bassa)"
+        }
+      ],
+      "possible_structural_nodes": [
+        "mediazione-simbolica",
+        "istituzione-come-dispositivo",
+        "campo-intenzionale",
+        "relazione-costitutiva",
+        "co-regolazione",
+        "campo-desiderabile",
+        "zona-di-sviluppo-prossimale"
+      ],
+      "possible_bridge_concepts": [
+        "Terzietà costitutiva dell'oggetto condiviso",
+        "Oggetto-libro come mediatore del campo prima del testo",
+        "Triangolazione come apertura del mondo condivisibile"
+      ],
+      "definition_draft": "Configurazione relazionale a tre termini in cui un oggetto comune non si aggiunge alla relazione tra adulto e bambino ma ne riorganizza la struttura, aprendo un campo di esperienza orientato e condivisibile che nessuno dei due possiede da solo. Il fenomeno interroga il modo in cui un terzo elemento rende possibile che l'esperienza diventi comune, ripetibile e simbolizzabile, prima e al di sotto di qualsiasi contenuto trasmesso.",
+      "definition_risks": [
+        "Collasso diadico: ridurre la triade adulto-bambino-oggetto alla diade affettiva più un accessorio, perdendo la funzione costitutiva del terzo.",
+        "Riduzione operativa: identificare il tema con la 'lettura dialogica' come tecnica o protocollo.",
+        "Riduzione mono-disciplinare: leggerlo solo come psicolinguistica dell'input o solo come teoria dell'attaccamento.",
+        "Contemporaneizzazione: assimilarlo ai programmi attuali di promozione della lettura perdendone la struttura fondativa di terzietà."
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "alta",
+      "human_review_notes": "Candidato tema-cornice della ricerca: molti altri temi (voce, attenzione condivisa, esplorazione corporea dell'oggetto) possono essere letti come specificazioni o aspetti di questa struttura triadica. È anche il caso esplicitamente citato nella metodologia (sez. 4) come paradigma di struttura poliadica. L'Asse 2 va tenuto come ipotesi a bassa confidenza per la fascia 0-18 mesi: la presenza condivisa attorno all'oggetto è precursoria, non ancora interiorizzazione morale."
+    },
+    {
+      "theme_label_provisional": "La voce del genitore come presenza che regge, prima e al di sotto del significato linguistico",
+      "starting_point": "Le note del ricercatore sottolineano che la voce dei genitori, già nell'ultimo trimestre di gravidanza, è uno stimolo riconoscibile dal bambino. La letteratura sull'udito fetale e sul riconoscimento neonatale della voce materna — dagli studi classici di DeCasper e Spence agli studi recenti sull'encoding neurofisiologico del parlato nel neonato — mostra che dal terzo trimestre il feto percepisce e memorizza caratteristiche prosodiche della voce familiare.",
+      "structural_focus": "Il fuoco non è l'esposizione precoce al linguaggio come input per l'acquisizione lessicale, ma la voce come presenza sensibile e ritmica che precede il significato: una forma di contatto che organizza la continuità dell'esperienza del bambino prima che le parole abbiano senso. Ciò che è strutturalmente rilevante non è cosa la voce dice, ma che la voce — come grana, ritmo, prosodia, ricorrenza — costituisce un primo luogo di riconoscibilità e di tenuta attraverso il corpo, prima di ogni comprensione.",
+      "what_it_is": "Una modalità originaria di presenza dell'altro in cui il suono della voce familiare opera come ancoraggio sensibile e temporale: riconoscibile prima della nascita, ricorrente, capace di calmare e di orientare. Opera a livello corporeo e ritmico, non semantico. La lettura ad alta voce, il canto e il parlare al bambino sono qui letti non come trasmissione di contenuti ma come forme di questa presenza vocale che sostiene l'esperienza.",
+      "what_it_is_not": "Non è 'stimolazione linguistica precoce' né 'input lessicale', categorie psicolinguistiche orientate all'acquisizione. Non è anticipazione dell'apprendimento della lettura. Non è la quantità di parole rivolte al bambino (il 'word gap' come misura). Non è un fenomeno puramente acustico-percettivo: la voce è qui presenza relazionale incarnata, non segnale sonoro.",
+      "why_it_matters": "Il tema tiene insieme la dimensione prenatale — centrale nelle note del ricercatore e nel progetto di Pallotta Fornaroli — e il principio relazionale-non-prestazionale: leggere a un neonato 'non significa anticipare l'apprendimento formale' ma costruire vicinanza. È un punto in cui evidenze neuroscientifiche recenti e una concezione relazionale dello sviluppo convergono, ma che la letteratura rischia di ridurre a 'precoce stimolazione del linguaggio'.",
+      "source_signals": [
+        {
+          "source_type": "web_search",
+          "source_title": "Memory Traces Formed in Utero — Newborns' Autonomic and Neuronal Responses to Prenatal Stimuli and the Maternal Voice (PMC)",
+          "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7697227/",
+          "signal_summary": "Documenta risposte autonomiche e neuronali del neonato a stimoli prenatali e alla voce materna; le tracce mnestiche si formano in utero e orientano la risposta dopo la nascita.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "web_search",
+          "source_title": "Exposure to bilingual or monolingual maternal speech during pregnancy affects neurophysiological encoding of speech sounds in neonates (Frontiers in Human Neuroscience, 2024)",
+          "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11150635/",
+          "signal_summary": "L'esposizione prenatale al parlato materno modula l'encoding neurofisiologico dei suoni del linguaggio nel neonato, mostrando che la voce in gravidanza incide sulla predisposizione percettiva.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "DeCasper & Spence (1986) — Prenatal maternal speech influences newborns' perception",
+          "signal_summary": "I neonati preferiscono e riconoscono storie e prosodie udite ripetutamente in utero nel terzo trimestre; studio fondativo del riconoscimento vocale prenatale.",
+          "recency_relevance": "bassa"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Stern (sintonizzazione affettiva) e Trevarthen (musicalità comunicativa)",
+          "signal_summary": "La sintonizzazione affettiva e la musicalità comunicativa della voce sono descritte come matrici intersoggettive precoci, indipendenti dal contenuto semantico.",
+          "recency_relevance": "bassa"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico–fenomenologico",
+          "reason": "Corporeità vissuta, temporalità e co-regolazione sono direttamente coinvolte: la voce è un luogo corporeo di senso e una forma di temporalizzazione (ritmo, ricorrenza, anticipazione). (confidenza alta)"
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico–culturale",
+          "reason": "La voce è anche forma culturalmente mediata (lingua, ninne nanne, narrazione): l'orizzonte storico-culturale entra attraverso la grana stessa del suono familiare. (confidenza media)"
+        },
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo–morale",
+          "reason": "La ricorrenza della voce può essere precursore dell'interiorizzazione di una presenza che vincola anche in assenza; da tenere come ipotesi, non come dato, per la fase prenatale-neonatale. (confidenza bassa)"
+        }
+      ],
+      "possible_structural_nodes": [
+        "corporeità-vissuta",
+        "co-regolazione",
+        "temporalità-vissuta",
+        "relazione-costitutiva",
+        "mediazione-simbolica"
+      ],
+      "possible_bridge_concepts": [
+        "Voce come presenza ritmica pre-semantica",
+        "Prosodia come prima forma di co-regolazione",
+        "Riconoscibilità vocale come ancoraggio temporale"
+      ],
+      "definition_draft": "Forma originaria di presenza dell'altro in cui la voce familiare, prima di significare, regge e orienta l'esperienza del bambino attraverso il corpo, il ritmo e la ricorrenza. Il tema interroga come una presenza sensibile possa costituire continuità e riconoscibilità prima del linguaggio, e come la lettura e il canto possano essere forme di questa presenza piuttosto che veicoli di contenuto.",
+      "definition_risks": [
+        "Riduzione mono-disciplinare: leggere la voce solo come input linguistico (psicolinguistica) o solo come segnale acustico (psicoacustica).",
+        "Riduzione operativa/prestazionale: trasformarla in 'quanto e cosa parlare al bambino' per anticipare il vocabolario.",
+        "Contemporaneizzazione: appiattirla sul dibattito su screen-time e audio-libri come sostituti della voce.",
+        "Anticipazione: attribuire alla fase prenatale-neonatale funzioni affettivo-morali (Asse 2) non ancora costituite."
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "alta",
+      "human_review_notes": "Tema con forte ancoraggio empirico recente (encoding neurofisiologico prenatale) e forte coerenza con il focus prenatale del ricercatore. La sua forza è anche il suo rischio: l'abbondante letteratura neuroscientifica può trascinarlo verso una lettura input-output del linguaggio. Mantenere il fuoco sulla voce-come-presenza. Verificare con il ricercatore il peso da dare alla dimensione prenatale rispetto al post-nascita."
+    },
+    {
+      "theme_label_provisional": "Il campo condiviso dell'attenzione: la nascita di un «noi» orientato verso qualcosa di comune",
+      "starting_point": "Le note del ricercatore indicano l'attenzione condivisa tra gli effetti della lettura precoce; il protocollo italiano di book-sharing descrive lo sviluppo della joint attention attraverso il fuoco visivo condiviso sulle illustrazioni. La letteratura sull'intersoggettività (Trevarthen) e sull'attenzione/intenzionalità condivisa (Tomasello) la colloca tra le acquisizioni strutturali del primo anno.",
+      "structural_focus": "Il fuoco non è l'attenzione come funzione cognitiva del bambino, né il guardare insieme come comportamento osservabile, ma l'emergere di un campo a cui due soggetti partecipano sapendo — pre-riflessivamente — di parteciparvi insieme. Ciò che è strutturalmente in gioco è il passaggio da due attenzioni parallele a un'attenzione condivisa in cui l'oggetto è colto come comune e l'altro è colto come co-presente al medesimo: una forma minima di riconoscimento reciproco attorno a un terzo.",
+      "what_it_is": "La configurazione in cui adulto e bambino non solo guardano la stessa cosa, ma la guardano come condivisa, e in cui ciascuno è presente all'altro nell'atto stesso di volgersi all'oggetto. È la matrice di un primo 'noi': non fusione, non semplice imitazione, ma co-orientamento riconosciuto. Si manifesta in scambi di sguardo tra l'oggetto e il volto dell'altro, nel mostrare, nell'indicare, nel condividere il piacere di ciò che appare.",
+      "what_it_is_not": "Non è l'attenzione sostenuta come capacità individuale misurabile. Non è il semplice seguire lo sguardo dell'altro come meccanismo (gaze following). Non è imitazione. Non è ancora un atto morale o normativo. Non coincide con la lettura: la lettura è una delle occasioni in cui questo campo può nascere, non la sua causa.",
+      "why_it_matters": "L'attenzione condivisa è uno dei fenomeni più studiati come predittore di linguaggio e socialità, ma viene quasi sempre trattata in chiave funzionale-predittiva. Riformularla come nascita di un 'noi' attorno a un terzo permette di farne un caso pilota per la dimensione affettivo-relazionale del modello, che la metodologia segnala come spesso sottorappresentata. È inoltre il luogo in cui la presenza condivisa attorno a un oggetto comune comincia a diventare interiore.",
+      "source_signals": [
+        {
+          "source_type": "web_fetch",
+          "source_title": "Early parent-child intervention with Dialogic Book-Sharing — study protocol for a multicentre RCT in Italy (Trials, 2024)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186156/",
+          "signal_summary": "La joint attention si sviluppa attraverso il fuoco visivo condiviso sulle illustrazioni; lo spazio intersoggettivo sostiene la sintonizzazione emotiva tra adulto e bambino.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Tomasello — shared intentionality e attenzione condivisa",
+          "signal_summary": "L'attenzione condivisa è descritta come base della cognizione e comunicazione umana: condividere stati psicologici verso un referente comune.",
+          "recency_relevance": "bassa"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Trevarthen — intersoggettività secondaria",
+          "signal_summary": "Verso i 9 mesi emerge l'intersoggettività secondaria: bambino, adulto e oggetto entrano in un triangolo referenziale condiviso.",
+          "recency_relevance": "bassa"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Stern — affect attunement",
+          "signal_summary": "La condivisione dell'esperienza affettiva attorno a un focus comune precede e accompagna l'attenzione condivisa.",
+          "recency_relevance": "bassa"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico–fenomenologico",
+          "reason": "Relazione costitutiva e campo intenzionale: il 'noi' è una forma di apertura condivisa del possibile vissuto. (confidenza alta)"
+        },
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo–morale",
+          "reason": "L'asse affettivo-morale è plausibilmente implicato nella sua forma precursoria: la presenza condivisa attorno a un oggetto comune è la matrice da cui l'altro può diventare interiormente rilevante. (confidenza media)"
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico–culturale",
+          "reason": "Ciò che diventa oggetto condivisibile e degno di attenzione è anche culturalmente mediato. (confidenza media)"
+        }
+      ],
+      "possible_structural_nodes": [
+        "relazione-costitutiva",
+        "campo-intenzionale",
+        "co-regolazione",
+        "interiorizzazione-dell-altro",
+        "zona-di-sviluppo-prossimale"
+      ],
+      "possible_bridge_concepts": [
+        "Co-orientamento riconosciuto come primo «noi»",
+        "Triangolo referenziale condiviso",
+        "Presenza condivisa attorno al terzo come precursore dell'interiorizzazione"
+      ],
+      "definition_draft": "Configurazione in cui due soggetti partecipano a un medesimo campo orientato verso un terzo, cogliendosi pre-riflessivamente come co-presenti nello stesso volgersi. Il tema interroga come nasca una condivisione che non è fusione né imitazione, e in che misura questa co-presenza riconosciuta attorno a un oggetto comune prepari la possibilità che l'altro diventi interiormente rilevante.",
+      "definition_risks": [
+        "Riduzione operativa/predittiva: trattare l'attenzione condivisa come milestone o predittore da misurare.",
+        "Riduzione mono-disciplinare: leggerla solo come meccanismo cognitivo della psicologia dello sviluppo.",
+        "Collasso diadico: perdere la terzietà dell'oggetto attorno a cui il 'noi' si forma.",
+        "Anticipazione morale: leggere il 'noi' precoce come già riconoscimento morale dell'altro (Asse 2 maturo)."
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "alta",
+      "human_review_notes": "Tema strategico per portare in primo piano l'Asse 2 nella sua forma precursoria, come raccomandato dalla metodologia. Va mantenuta esplicita la distinzione tra co-presenza riconosciuta (qui pertinente) e interiorizzazione morale dell'altro (non ancora costituita a quest'età). Forte sovrapposizione produttiva con il tema della terzietà dell'oggetto: valutare se trattarli come tema-cornice più specificazione."
+    },
+    {
+      "theme_label_provisional": "La risposta contingente ai segnali del bambino come forma originaria della regolazione condivisa",
+      "starting_point": "Le note del ricercatore raccomandano di 'osservare i segnali del bambino e rispondere in modo coerente' e di valorizzare la lettura dialogica e responsiva. Il Nurturing Care Framework di WHO/UNICEF colloca il responsive caregiving tra le cinque componenti indivisibili della cura, dalla gravidanza ai 3 anni. La letteratura sulla mutua regolazione (Tronick) e sulla sensibilità responsiva ne mostra il ruolo costitutivo.",
+      "structural_focus": "Il fuoco non è la 'sensibilità' come tratto dell'adulto né la responsività come comportamento da addestrare, ma la struttura contingente per cui il segnale del bambino trova una risposta riconoscibile e tempestiva, e il bambino fa l'esperienza che il proprio stato può essere accolto e trasformato attraverso l'altro. Ciò che è strutturalmente in gioco è la reciprocità ciclica — segnale, risposta, riallineamento dopo il disallineamento — non l'azione unilaterale dell'adulto.",
+      "what_it_is": "Una forma di scambio in cui l'adulto coglie e raccoglie i segnali del bambino restituendogli una risposta che li riconosce, e in cui il bambino sperimenta che l'attivazione e il disagio possono trovare un esito condiviso. Include il momento del disallineamento e della sua riparazione interattiva: la risonanza non è continua, ma si interrompe e si ristabilisce. Nella lettura condivisa, si manifesta come seguire l'interesse e i tempi del bambino invece di imporre il testo.",
+      "what_it_is_not": "Non è la 'sensibilità materna' come punteggio osservativo. Non è la responsività intesa come prontezza generica. Non è iper-reattività né anticipazione di ogni bisogno, che annulla lo scarto. Non è una tecnica di lettura dialogica. Non è sinonimo di affetto: si può essere affettuosi senza essere contingenti.",
+      "why_it_matters": "Il responsive caregiving è oggi un pilastro convergente di policy (Nurturing Care) e ricerca, ma rischia di essere tradotto in checklist di comportamenti dell'adulto. Riformularlo come struttura ciclica di regolazione condivisa — incluso il ciclo rottura/riparazione — gli restituisce densità e lo collega al cuore relazionale del modello. È inoltre il fenomeno che rende leggibile perché la lettura debba essere 'responsiva' e non 'espositiva'.",
+      "source_signals": [
+        {
+          "source_type": "web_fetch",
+          "source_title": "What is the Nurturing Care Framework for ECD? (WHO/UNICEF/World Bank)",
+          "source_url": "https://nurturing-care.org/about/what-is-the-nurturing-care-framework",
+          "signal_summary": "Il responsive caregiving è una delle cinque componenti inter-relate e indivisibili della cura, dalla gravidanza ai 3 anni; il framework promuove interazioni caregiver-bambino attraverso gioco e comunicazione responsivi.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "web_fetch",
+          "source_title": "Early parent-child intervention with Dialogic Book-Sharing — study protocol for a multicentre RCT in Italy (Trials, 2024)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186156/",
+          "signal_summary": "La regolazione emotiva emerge attraverso il processo di 'repair', descritto come transizione da uno stato disallineato/negativo a uno stato allineato/positivo.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Tronick — still-face e mutual regulation",
+          "signal_summary": "Le interazioni precoci sono fatte di cicli di sintonia, disallineamento e riparazione; il disallineamento normale e la sua riparazione sono costitutivi della regolazione.",
+          "recency_relevance": "bassa"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Ainsworth (sensibilità) e Fonagy (mentalizzazione / marked mirroring)",
+          "signal_summary": "La qualità della risposta contingente e marcata co-determina l'organizzazione regolativa del bambino.",
+          "recency_relevance": "bassa"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico–fenomenologico",
+          "reason": "È il cuore della co-regolazione e della regolazione come tenuta dell'esperienza: il fenomeno appartiene strutturalmente a questo asse. (confidenza alta)"
+        },
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo–morale",
+          "reason": "Il ciclo rottura/riparazione interattiva è precursore della 'sopravvivenza dell'altro' e della riparazione che l'asse affettivo-morale elabora in forma matura. (confidenza media)"
+        },
+        {
+          "axis_id": "asse_4",
+          "axis_name": "Separazione e Limite",
+          "reason": "Il disallineamento introduce una prima forma di scarto tra il desiderio del bambino e la risposta del mondo, non ferente ma decentrante; da tenere come ipotesi. (confidenza bassa)"
+        }
+      ],
+      "possible_structural_nodes": [
+        "co-regolazione",
+        "regolazione-ontologica",
+        "relazione-costitutiva",
+        "sopravvivenza-dell-oggetto",
+        "riparazione"
+      ],
+      "possible_bridge_concepts": [
+        "Contingenza come riconoscibilità dell'altro raggiungibile",
+        "Ciclo rottura-riparazione come matrice della regolazione",
+        "Responsività come reciprocità, non azione unilaterale"
+      ],
+      "definition_draft": "Struttura ciclica di scambio in cui il segnale del bambino incontra una risposta che lo riconosce, e in cui disallineamento e riallineamento si alternano rendendo l'esperienza sostenibile attraverso l'altro. Il tema interroga come la regolazione sia in origine condivisa e reciproca, e come la sua forma — inclusa la riparazione del disallineamento — preceda qualsiasi tecnica di accompagnamento.",
+      "definition_risks": [
+        "Riduzione operativa: trasformarla in checklist di 'comportamenti responsivi' o in protocollo di lettura dialogica.",
+        "Riduzione mono-disciplinare: ridurla alla 'sensibilità' come costrutto psicometrico.",
+        "Collasso unilaterale: leggerla come azione dell'adulto sul bambino, perdendo la reciprocità ciclica.",
+        "Anticipazione: leggere la riparazione interattiva precoce come già riparazione morale (Asse 2 maturo)."
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "media",
+      "human_review_notes": "Tema ad alta convergenza ricerca-policy, ma il più esposto alla traduzione in checklist comportamentali: tenerlo come struttura, non come repertorio di azioni. Il ciclo rottura/riparazione è un ponte prezioso verso l'Asse 2 ma va qualificato come precursore per la fascia 0-18 mesi. Possibile sovrapposizione con i temi della voce e del campo condiviso dell'attenzione: chiarire i confini in fase di micro-matrice."
+    },
+    {
+      "theme_label_provisional": "Il rituale ricorrente di lettura come forma che dà tenuta al tempo vissuto del bambino",
+      "starting_point": "Le note del ricercatore raccomandano di 'creare rituali familiari di lettura' e di usare la lettura come 'momento di contatto e calma'. La letteratura su routine e rituali nello sviluppo precoce, e l'enfasi dei programmi (Nati per Leggere, Reach Out and Read) sulla quotidianità ripetuta della lettura, segnalano la ricorrenza come dimensione strutturale e non accessoria.",
+      "structural_focus": "Il fuoco non è la routine come abitudine comportamentale né la lettura serale come pratica, ma la funzione strutturante della ripetizione: il modo in cui un appuntamento ricorrente e prevedibile organizza il tempo vissuto del bambino, crea attesa, scandisce passato e futuro prossimo, e offre una forma entro cui l'esperienza può mantenersi senza frammentarsi. Ciò che conta non è il contenuto ripetuto ma la forma temporale che la ripetizione istituisce.",
+      "what_it_is": "Una forma temporale condivisa in cui un appuntamento ricorrente — qui la lettura, ma strutturalmente qualsiasi rituale — diventa un punto fermo che il bambino può anticipare e riconoscere, e attorno a cui si organizzano calma, contatto e prevedibilità. Il rituale tiene insieme ripetizione e variazione: è abbastanza stabile da essere riconoscibile e abbastanza aperto da accogliere l'imprevisto. È una piccola istituzione domestica del tempo.",
+      "what_it_is_not": "Non è la 'routine' come tecnica comportamentale di gestione (igiene del sonno, regolazione degli orari). Non è la frequenza di lettura come variabile dose-risposta. Non è la rigidità di un programma. Non è il contenuto del libro. Non è un fine educativo: il rituale non serve a insegnare, dà forma al tempo.",
+      "why_it_matters": "I programmi di promozione insistono sulla quotidianità della lettura, ma la dimensione del tempo vissuto resta implicita. Riformulare il rituale come forma di tenuta temporale dell'esperienza permette di distinguere la ripetizione che struttura dalla ripetizione che irrigidisce, e collega la lettura a una funzione dello sviluppo che eccede l'acquisizione di abilità.",
+      "source_signals": [
+        {
+          "source_type": "web_search",
+          "source_title": "The Nati per Leggere Programme: Shared reading to promote early childhood development (Health Systems for ECD)",
+          "source_url": "https://www.healthforecd.com/Nati-per-leggere-programme-shared-reading-promote-early-childhood-development",
+          "signal_summary": "Programma che promuove la lettura condivisa fin dai primi mesi come pratica quotidiana e diffusa, in collaborazione tra sanità, educazione e cultura.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "web_search",
+          "source_title": "Literacy Promotion: An Essential Component of Primary Care Pediatric Practice — AAP Policy Statement (Pediatrics, 2024)",
+          "source_url": "https://publications.aap.org/pediatrics/article/154/6/e2024069090/199467/Literacy-Promotion-An-Essential-Component-of",
+          "signal_summary": "Raccomanda la lettura condivisa fin dalla nascita come attività interattiva e ricorrente che rafforza la relazione in un momento critico dello sviluppo.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Fiese e coll. — routine e rituali familiari",
+          "signal_summary": "Routine e rituali familiari sono associati a regolazione, senso di sicurezza e identità; il rituale aggiunge significato condiviso alla pura ripetizione.",
+          "recency_relevance": "bassa"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Winnicott — affidabilità e prevedibilità dell'ambiente",
+          "signal_summary": "La prevedibilità affidabile dell'ambiente sostiene la continuità dell'esperienza del bambino.",
+          "recency_relevance": "bassa"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico–fenomenologico",
+          "reason": "Temporalità vissuta e regolazione come tenuta: il rituale è una forma di temporalizzazione condivisa. (confidenza alta)"
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico–culturale",
+          "reason": "Il rituale è una micro-istituzione: forma storicamente e culturalmente determinata di organizzazione del tempo e del valore quotidiano. (confidenza media)"
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "L'attesa del rituale è una prima forma di orientamento verso un futuro carico di valore. (confidenza bassa)"
+        }
+      ],
+      "possible_structural_nodes": [
+        "temporalità-vissuta",
+        "regolazione-ontologica",
+        "co-regolazione",
+        "istituzione-come-dispositivo",
+        "lebenswelt"
+      ],
+      "possible_bridge_concepts": [
+        "Ripetizione come forma del tempo, non come abitudine",
+        "Rituale come micro-istituzione domestica del tempo",
+        "Attesa riconoscibile come tenuta dell'esperienza"
+      ],
+      "definition_draft": "Forma temporale condivisa in cui la ricorrenza di un appuntamento prevedibile dà struttura al tempo vissuto del bambino, istituendo attesa, riconoscibilità e continuità. Il tema interroga come la ripetizione possa sostenere l'esperienza senza irrigidirla, e in che misura un rituale quotidiano sia una forma del tempo prima di essere una pratica educativa.",
+      "definition_risks": [
+        "Riduzione operativa: identificarlo con tecniche di routine o con la 'frequenza' di lettura come dose.",
+        "Riduzione mono-disciplinare: leggerlo solo come comportamento abitudinario (psicologia comportamentale).",
+        "Genericità: estenderlo a qualsiasi abitudine, perdendo la specificità della forma temporale condivisa.",
+        "Contemporaneizzazione: ridurlo a 'bedtime routine' come prescrizione di benessere."
+      ],
+      "exploratory_priority": "media",
+      "pilot_suitability": "media",
+      "human_review_notes": "Tema solido ma a rischio di genericità se slegato dalla terzietà dell'oggetto e dalla co-regolazione. La sua specificità sta nella forma temporale, non nel contenuto. Valutare se trattarlo autonomamente o come dimensione temporale dei temi sulla terzietà dell'oggetto e sulla risposta contingente. Per la fascia prenatale-0/18 mesi il rituale è più 'tenuto' dall'adulto che riconosciuto dal bambino: graduare."
+    },
+    {
+      "theme_label_provisional": "La precoce trasformazione della lettura in prestazione attesa come deformazione dell'orientamento del bambino",
+      "starting_point": "Le note del ricercatore insistono ripetutamente: il messaggio ai genitori 'non dovrebbe essere scolastico o prestazionale, ma relazionale'; leggere a un neonato 'non significa anticipare l'apprendimento formale'. La letteratura biblioteconomica e pediatrica (AAP) e i programmi di promozione condividono questa preoccupazione, contrapponendo lettura dialogica/relazionale a esposizione passiva e a finalità scolastiche.",
+      "structural_focus": "Il fuoco non è il dibattito pedagogico tra approcci, ma la struttura per cui un'esperienza nata come relazione e piacere condiviso viene precocemente riorganizzata attorno a un risultato atteso e misurabile (vocabolario, prontezza scolastica), così che ciò che orienta non è più la direzione interna dell'esperienza ma la prestazione da raggiungere. È la trasformazione di un orientamento in un rendimento.",
+      "what_it_is": "Una configurazione in cui la lettura precoce, e più in generale la relazione con il bambino, vengono colonizzate da un'aspettativa di risultato: il valore dell'esperienza coincide con ciò che produce e che può essere misurato. L'adulto legge per ottenere un esito; il piacere e la direzione interna diventano secondari o strumentali. È spesso non intenzionale e culturalmente sostenuta da un orizzonte che rende invisibile ciò che non è misurabile.",
+      "what_it_is_not": "Non è il riconoscere che la lettura ha effetti positivi, cosa compatibile con un'esperienza relazionale. Non è la valutazione in sé. Non è un errore del singolo genitore. Non è il contrario dell'apprendimento: il punto non è rinunciare agli effetti, ma non lasciare che l'esito sostituisca l'orientamento. Non è un fenomeno solo scolastico: opera già nella relazione precoce.",
+      "why_it_matters": "È il nodo esplicitamente più ribadito dal ricercatore e uno dei più discussi nella letteratura attuale sull'infanzia (schoolification, academic pushdown, performatività precoce). Permette di leggere strutturalmente la differenza tra una lettura che apre un campo e una lettura che insegue un punteggio, e collega il tema della lettura alla più ampia trasformazione contemporanea del valore in misura.",
+      "source_signals": [
+        {
+          "source_type": "web_fetch",
+          "source_title": "Home-based shared book reading and developmental outcomes — systematic review with meta-analyses (Frontiers in Language Sciences, 2025)",
+          "source_url": "https://www.frontiersin.org/journals/language-sciences/articles/10.3389/flang.2025.1540562/full",
+          "signal_summary": "L'enfasi sugli esiti linguistici (il vocabolario come determinante della 'school readiness') mostra come la ricerca stessa tenda a misurare la lettura attraverso outcome prestazionali; il review segnala l'assenza quasi totale di studi sugli esiti socio-emotivi.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "web_search",
+          "source_title": "Literacy Promotion — AAP Policy Statement (Pediatrics, 2024)",
+          "source_url": "https://publications.aap.org/pediatrics/article/154/6/e2024069090/199467/Literacy-Promotion-An-Essential-Component-of",
+          "signal_summary": "Pur orientata agli esiti, la policy raccomanda che la lettura sia interattiva e relazionale e che i pediatri facciano da modello della condivisione, non della performance.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Dibattito su schoolification e academic pushdown nella prima infanzia",
+          "signal_summary": "Crescente critica alla pressione prestazionale e all'anticipazione scolastica nella prima infanzia, con la rivalutazione del gioco e della relazione.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Hart & Risley ('word gap') e le sue critiche successive",
+          "signal_summary": "La diffusione della metrica del 'gap di parole' ha alimentato letture quantitative-prestazionali dell'interazione precoce, oggi ampiamente criticate.",
+          "recency_relevance": "media"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "Distinzione cardine tra orientamento del desiderio e motivazione/prestazione: il tema è un caso paradigmatico di sostituzione dell'orientamento interno con lo stimolo esterno e la misura. (confidenza alta)"
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico–culturale",
+          "reason": "La trasformazione del valore in ciò che è misurabile e la colonizzazione del tempo da parte della prestazione sono configurazioni storiche descritte da questo asse. (confidenza alta)"
+        },
+        {
+          "axis_id": "asse_3",
+          "axis_name": "Normativo–educativo",
+          "reason": "Coinvolge il fallimento normativo per sostituzione del giudizio con la valutazione; ma per la fascia precoce il 'giudizio' in gioco è quello dell'adulto e della cultura, non del bambino — da qualificare per evitare anticipazione normativa. (confidenza media)"
+        }
+      ],
+      "possible_structural_nodes": [
+        "motivazione-come-sostituto",
+        "desiderio-come-struttura",
+        "ordo-amoris",
+        "prestazionalizzazione-del-valore",
+        "fallimento-normativo",
+        "deformazione-strutturale"
+      ],
+      "possible_bridge_concepts": [
+        "Orientamento vs rendimento nell'esperienza precoce",
+        "Misurabilità come orizzonte che rende invisibile il relazionale",
+        "Esito che sostituisce la direzione interna"
+      ],
+      "definition_draft": "Configurazione in cui un'esperienza relazionale viene precocemente riorganizzata attorno a un risultato atteso e misurabile, così che il valore dell'esperienza coincide con ciò che produce e l'orientamento interno è sostituito dalla prestazione. Il tema interroga come e quando un'esperienza che apre un campo si trasformi in un compito da assolvere, e quali condizioni storiche rendano questa trasformazione quasi inavvertita.",
+      "definition_risks": [
+        "Contemporaneizzazione: leggerlo solo come polemica attuale contro la scuola, perdendone la struttura.",
+        "Riduzione mono-disciplinare: ridurlo a questione pedagogica (metodi) o a sola critica sociologica.",
+        "Anticipazione normativa: attribuire al bambino 0-18 mesi un giudizio che si deforma; qui il giudizio deformato è quello dell'adulto e della cultura.",
+        "Moralismo inverso: trasformare la critica della prestazione in una nuova prescrizione ('vietato avere obiettivi'), riproducendo la logica che si critica."
+      ],
+      "exploratory_priority": "alta",
+      "pilot_suitability": "alta",
+      "human_review_notes": "Tema-chiave per il ricercatore e ad altissima densità multi-asse (5, 6, 3). Attenzione a non farne una bandiera ideologica: il fuoco è strutturale (orientamento vs misura), non una difesa del 'non valutare'. Per la fascia precoce l'Asse 3 va riferito al campo adulto/istituzionale, non al bambino: segnalato come incertezza da risolvere in micro-matrice."
+    },
+    {
+      "theme_label_provisional": "La pluralità delle presenze che si prendono cura e il decentramento della diade primaria",
+      "starting_point": "Le note del ricercatore dedicano ampio spazio al coinvolgimento dei padri e alla co-genitorialità: le madri mantengono spesso il ruolo principale, ma il coinvolgimento attivo dei padri rafforza la continuità delle pratiche di lettura, migliora la relazione padre-bambino e sostiene un co-parenting più equilibrato. La letteratura su father involvement e gli RCT sul coinvolgimento dei padri nella lettura condivisa lo confermano.",
+      "structural_focus": "Il fuoco non è 'i padri dovrebbero leggere di più' (indicazione operativa), né il confronto madre/padre, ma la struttura per cui il campo di sviluppo del bambino è costituito da una pluralità di presenze, e per cui l'attivazione di una seconda presenza adulta non somma una seconda diade ma riconfigura l'intero campo, relazioni tra gli adulti incluse. È una struttura poliadica: bambino, una presenza, un'altra presenza, e la relazione tra le presenze.",
+      "what_it_is": "Una configurazione in cui più adulti partecipano in modo differenziato e asimmetrico alla cura e alla relazione con il bambino, e in cui la qualità del campo dipende non solo da ciascuna relazione ma dal rapporto tra le presenze (sostegno reciproco, continuità, coerenza). Il coinvolgimento di una seconda figura non replica la prima: introduce differenza, ridondanza e una nuova trama relazionale.",
+      "what_it_is_not": "Non è la promozione del ruolo paterno come obiettivo di policy. Non è la misura del 'father involvement'. Non è l'equivalenza intercambiabile delle figure (sommare diadi identiche). Non è una questione di genere in sé: il fuoco è la pluralità e l'asimmetria delle presenze, di cui la figura paterna è il caso oggi più discusso. Non è il semplice 'più adulti uguale meglio'.",
+      "why_it_matters": "Il coinvolgimento dei padri è oggi un fronte attivo di ricerca e policy, ma rischia di essere trattato come variabile additiva. Riformularlo come struttura poliadica del campo di cura permette di non ridurre lo sviluppo alla diade madre-bambino e di leggere la co-genitorialità come configurazione, non come somma. È anche il punto in cui il modello incontra la dimensione storico-culturale della divisione della cura.",
+      "source_signals": [
+        {
+          "source_type": "web_search",
+          "source_title": "Engaging Fathers in Effective Parenting for Preschool Children Using Shared Book Reading: A RCT (PMC)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5788184/",
+          "signal_summary": "RCT su padri a basso reddito: l'intervento basato sulla lettura condivisa migliora parenting, comportamento e linguaggio del bambino, e aumenta fiducia e auto-efficacia genitoriale dei padri.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "web_search",
+          "source_title": "Father Involvement and Cognitive Development in Early and Middle Childhood: A Systematic Review (PMC)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6823210/",
+          "signal_summary": "Rassegna sistematica: il coinvolgimento paterno è associato a esiti cognitivi nel bambino, con effetti in parte distinti da quelli materni.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "web_search",
+          "source_title": "Attachment in fathers who perform Leopold maneuvers and listen to fetal heart sounds (PMC)",
+          "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11867778/",
+          "signal_summary": "Far ascoltare ai padri i battiti fetali e compiere manovre prenatali aumenta l'attaccamento prenatale dei padri e migliora la relazione di coppia.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "web_fetch",
+          "source_title": "Early parent-child intervention with Dialogic Book-Sharing — RCT protocol, Italy (Trials, 2024)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186156/",
+          "signal_summary": "I criteri di inclusione sono aperti sia a madri sia a padri; l'intervento è pensato per la diade genitore-bambino in senso ampio.",
+          "recency_relevance": "alta"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico–fenomenologico",
+          "reason": "Relazione costitutiva al plurale: il soggetto si costituisce in un campo di più relazioni, non in un'unica diade. (confidenza alta)"
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico–culturale",
+          "reason": "La configurazione storico-culturale della divisione della cura (chi accudisce, chi legge) media chi e come è presente; le istituzioni organizzano aspettative di ruolo. (confidenza media)"
+        },
+        {
+          "axis_id": "asse_2",
+          "axis_name": "Affettivo–morale",
+          "reason": "La pluralità di presenze può tradursi in una pluralità di istanze interiorizzabili; ipotesi da verificare, precursoria a quest'età. (confidenza bassa)"
+        }
+      ],
+      "possible_structural_nodes": [
+        "relazione-costitutiva",
+        "co-regolazione",
+        "istituzione-come-dispositivo",
+        "mediazione-strutturale",
+        "storicità-del-soggetto"
+      ],
+      "possible_bridge_concepts": [
+        "Campo poliadico di cura vs somma di diadi",
+        "Asimmetria differenziata delle presenze",
+        "Co-genitorialità come configurazione, non addizione"
+      ],
+      "definition_draft": "Configurazione in cui lo sviluppo del bambino si dà entro una pluralità di presenze adulte differenziate e asimmetriche, in cui l'attivazione di una seconda presenza riconfigura l'intero campo relazionale invece di aggiungere una diade. Il tema interroga come la molteplicità e il rapporto tra le presenze costituiscano il campo, e come la divisione storica della cura ne moduli le forme.",
+      "definition_risks": [
+        "Riduzione operativa: trasformarlo in 'coinvolgere i padri' come obiettivo o tecnica.",
+        "Contemporaneizzazione: appiattirlo sul dibattito attuale di genere, perdendo la struttura poliadica fondativa.",
+        "Riduzione mono-disciplinare: leggerlo solo come sociologia della paternità o solo come psicologia del father involvement.",
+        "Collasso additivo: trattare più presenze come somma di diadi identiche invece che come configurazione."
+      ],
+      "exploratory_priority": "media",
+      "pilot_suitability": "media",
+      "human_review_notes": "Tema ben ancorato alle note del ricercatore e alla letteratura, ma il più esposto a riduzione operativa e a contemporaneizzazione di genere. La forza strutturale sta nel passaggio dalla diade alla configurazione poliadica. Da verificare con il ricercatore quanto enfatizzare la specificità paterna rispetto alla pluralità delle presenze in generale (nonni, altri caregiver, servizi)."
+    },
+    {
+      "theme_label_provisional": "L'incontro corporeo con l'oggetto-libro prima e al di sotto del suo senso simbolico",
+      "starting_point": "Le note del ricercatore raccomandano di 'lasciare che il bambino esplori libri con il corpo, il tatto e lo sguardo'. La letteratura sui libri per la primissima infanzia (tattili, cartonati, da mordere) e sullo sviluppo sensomotorio riconosce che, prima di essere testo, il libro è per il bambino un oggetto da maneggiare, portare alla bocca, sfogliare, guardare.",
+      "structural_focus": "Il fuoco non è la manipolazione come tappa sensomotoria, né i materiali del libro, ma la struttura per cui il bambino incontra l'oggetto attraverso il corpo prima che attraverso il significato: il libro come cosa che resiste, che ha peso, bordi, pagine che non sempre obbediscono, e che proprio nel resistere si offre all'esplorazione. È l'incontro tra il corpo del bambino e un oggetto del mondo che non coincide del tutto con la sua intenzione.",
+      "what_it_is": "Una modalità di rapporto in cui il libro è anzitutto un oggetto fisico esplorato con mani, bocca, sguardo, e in cui il senso — le figure, poi le parole — emerge da e resta intrecciato a questo incontro corporeo. L'oggetto offre resistenze e sorprese: la pagina si gira o si strappa, l'oggetto cade, non fa ciò che il bambino si aspetta. L'esplorazione è insieme scoperta del mondo e scoperta di uno scarto tra desiderio e realtà dell'oggetto.",
+      "what_it_is_not": "Non è una tappa da superare verso la 'vera' lettura. Non è la scelta dei materiali giusti (indicazione operativa). Non è il danneggiamento del libro come problema di cura. Non è semplice stimolazione sensoriale. Non è opposto al senso: è il suolo corporeo da cui il senso emerge.",
+      "why_it_matters": "È un punto in cui la prospettiva relazionale-non-prestazionale trova un radicamento corporeo: leggere a un piccolissimo significa anche lasciarlo incontrare l'oggetto, non solo esporlo alle parole. Permette di tematizzare la corporeità come luogo originario del rapporto con gli oggetti culturali e di introdurre, in forma precoce e non drammatica, l'esperienza che il mondo eccede e resiste all'intenzione.",
+      "source_signals": [
+        {
+          "source_type": "web_fetch",
+          "source_title": "Early parent-child intervention with Dialogic Book-Sharing — RCT protocol, Italy (Trials, 2024)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186156/",
+          "signal_summary": "L'uso di libri senza parole e il seguire l'interesse del bambino valorizzano l'esplorazione e l'indicazione più della decodifica del testo.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Letteratura sui board/cloth/touch books e l'esplorazione sensomotoria nella primissima infanzia",
+          "signal_summary": "I libri per la primissima infanzia sono progettati per l'esplorazione tattile e orale; la manipolazione precede e accompagna l'uso simbolico.",
+          "recency_relevance": "bassa"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Piaget — stadio sensomotorio",
+          "signal_summary": "L'intelligenza precoce è azione sugli oggetti; la conoscenza dell'oggetto passa per la manipolazione e la coordinazione percettivo-motoria.",
+          "recency_relevance": "bassa"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Merleau-Ponty — fenomenologia del corpo",
+          "signal_summary": "Il corpo è il primo luogo dell'incontro con il mondo; gli oggetti si danno anzitutto come correlati dell'azione corporea.",
+          "recency_relevance": "bassa"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico–fenomenologico",
+          "reason": "Corporeità vissuta come luogo originario di senso: il tema ne è una manifestazione diretta nella relazione con l'oggetto. (confidenza alta)"
+        },
+        {
+          "axis_id": "asse_4",
+          "axis_name": "Separazione e Limite",
+          "reason": "L'oggetto che resiste e non obbedisce introduce una prima forma di sproporzione/eccedenza tra intenzione e mondo, non ferente ma decentrante. (confidenza media)"
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "L'esplorazione è anche apertura di un campo di possibilità desiderabili attraverso il corpo. (confidenza bassa)"
+        }
+      ],
+      "possible_structural_nodes": [
+        "corporeità-vissuta",
+        "campo-intenzionale",
+        "eccedenza",
+        "soggetto-come-processo",
+        "condizione-del-desiderio"
+      ],
+      "possible_bridge_concepts": [
+        "Oggetto come correlato dell'azione corporea prima del testo",
+        "Resistenza dell'oggetto come prima eccedenza non ferente",
+        "Suolo corporeo del senso simbolico"
+      ],
+      "definition_draft": "Modalità di rapporto in cui il bambino incontra l'oggetto-libro attraverso il corpo — tatto, bocca, sguardo, manipolazione — prima e al di sotto del suo significato, e in cui l'oggetto si offre proprio nel resistere all'intenzione. Il tema interroga come il senso simbolico emerga da un incontro corporeo con un oggetto del mondo che non coincide del tutto con il desiderio del bambino.",
+      "definition_risks": [
+        "Riduzione operativa: ridurlo alla scelta dei materiali o a 'lasciar giocare col libro'.",
+        "Riduzione mono-disciplinare: leggerlo solo come tappa sensomotoria (psicologia dello sviluppo).",
+        "Svalutazione del simbolico: contrapporre corpo e senso invece di coglierne la continuità.",
+        "Sovrainterpretazione: drammatizzare la 'resistenza dell'oggetto' come trauma; l'eccedenza qui è non ferente."
+      ],
+      "exploratory_priority": "media",
+      "pilot_suitability": "media",
+      "human_review_notes": "Tema originale che radica nel corpo la dimensione relazionale-non-prestazionale e introduce in forma lieve l'Asse 4 (eccedenza). Possibile sovrapposizione con la terzietà dell'oggetto: qui il fuoco è il corpo e l'oggetto, là la relazione triadica. L'Asse 4 va tenuto a confidenza media: la 'resistenza dell'oggetto' è una forma minima e non drammatica di eccedenza."
+    },
+    {
+      "theme_label_provisional": "L'accompagnamento non giudicante del genitore: un'asimmetria che apre senza imporre",
+      "starting_point": "Le note del ricercatore descrivono il bibliotecario e l'operatore come 'facilitatori della relazione familiare' e raccomandano un approccio 'accogliente, non giudicante e inclusivo', che eviti di trasmettere ai genitori 'l'idea di una prestazione educativa obbligatoria', proponendo la lettura come 'esperienza di benessere condiviso' e 'costruzione di fiducia reciproca'. La letteratura biblioteconomica sul welfare culturale tematizza questo ruolo di mediazione.",
+      "structural_focus": "Il fuoco non è la 'buona comunicazione' dell'operatore né una tecnica relazionale, ma la struttura di un'asimmetria che apre invece di imporre: qualcuno che, avendo familiarità con il mondo dei libri e della relazione precoce, accompagna un genitore senza sostituirsi al suo modo di stare con il bambino e senza trasformare l'incontro in una prescrizione da eseguire. È la differenza tra un'autorità che abilita e un potere che conforma — qui esercitata nel rapporto tra adulti, operatore-genitore, e non verso il bambino.",
+      "what_it_is": "Una relazione asimmetrica in cui un adulto più esperto apre a un altro adulto un accesso a possibilità (libri, gesti, rituali) lasciandolo libero di farli propri, riconoscendolo come competente della propria relazione e costruendo fiducia invece di valutazione. L'asimmetria è reale — c'è chi precede e chi accede — ma non si rovescia in giudizio o dipendenza: vale solo se riconosciuta e accolta.",
+      "what_it_is_not": "Non è una tecnica di counseling o di engagement. Non è la neutralità (l'operatore porta qualcosa). Non è la simmetria amicale. Non è educazione del genitore intesa come correzione delle sue mancanze. Non è erogazione di un servizio. Non è, soprattutto, la trasmissione di una prestazione obbligatoria mascherata da accoglienza.",
+      "why_it_matters": "È il modo in cui le note del ricercatore declinano il rapporto con le famiglie, e in particolare con quelle 'meno sensibili' alla lettura: la posta in gioco è raggiungere senza giudicare. Permette di tematizzare strutturalmente la differenza tra un'autorità educativa che apre e una che impone, e di farlo nel rapporto tra adulti, il che evita il problema dell'anticipazione normativa verso il bambino piccolo.",
+      "source_signals": [
+        {
+          "source_type": "web_fetch",
+          "source_title": "Parent–child shared book reading challenges and facilitators: a systematic review and meta synthesis (PMC, 2025)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12326312/",
+          "signal_summary": "Una meta-sintesi identifica facilitatori e ostacoli alla lettura condivisa, tra cui i vissuti di inadeguatezza dei genitori; l'approccio non giudicante e di sostegno emerge come facilitatore.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "web_search",
+          "source_title": "The Nati per Leggere Programme: Shared reading to promote ECD (Health Systems for ECD)",
+          "source_url": "https://www.healthforecd.com/Nati-per-leggere-programme-shared-reading-promote-early-childhood-development",
+          "signal_summary": "Il programma coinvolge bibliotecari, pediatri, ostetriche ed educatori come mediatori che accompagnano le famiglie, non come valutatori.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "web_search",
+          "source_title": "Early literacy programmes in public libraries: best practice (Tandfonline)",
+          "source_url": "https://www.tandfonline.com/doi/full/10.1080/00049670.2016.1121770",
+          "signal_summary": "Le buone pratiche delle biblioteche enfatizzano l'accoglienza, la relazione e l'accesso non stigmatizzante più della prestazione.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Arendt — autorità distinta da potere e violenza",
+          "signal_summary": "L'autorità si distingue dal potere e dalla violenza: vale solo se riconosciuta e apre il mondo senza costringere.",
+          "recency_relevance": "bassa"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_3",
+          "axis_name": "Normativo–educativo",
+          "reason": "Autorità educativa non manipolativa e asimmetria educativa sono il cuore di questo asse; qui applicate al rapporto operatore-genitore (adulto-adulto), il che attenua il problema dell'anticipazione normativa verso il bambino. (confidenza alta)"
+        },
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico–culturale",
+          "reason": "La biblioteca/il servizio come istituzione che media l'accesso al mondo dei libri e organizza ciò che è possibile attendersi dalle famiglie. (confidenza media)"
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "L'accompagnamento mira a riaprire l'orientamento del genitore verso una pratica desiderabile, non a indurla per obbligo. (confidenza bassa)"
+        }
+      ],
+      "possible_structural_nodes": [
+        "autorità-educativa",
+        "asimmetria-educativa",
+        "responsabilità-come-imputazione",
+        "istituzione-come-dispositivo",
+        "mediazione-strutturale"
+      ],
+      "possible_bridge_concepts": [
+        "Asimmetria che abilita vs potere che conforma",
+        "Accompagnamento adulto-adulto come apertura non prescrittiva",
+        "Fiducia al posto della valutazione"
+      ],
+      "definition_draft": "Relazione asimmetrica tra adulti in cui chi ha familiarità con un mondo — i libri, la relazione precoce — apre a un genitore l'accesso a possibilità senza sostituirsi a lui né trasformare l'incontro in prescrizione, costruendo fiducia anziché valutazione. Il tema interroga le condizioni perché un'asimmetria apra invece di imporre, e perché venga riconosciuta e accolta invece che subìta.",
+      "definition_risks": [
+        "Riduzione operativa: trasformarlo in tecniche di accoglienza, engagement o counseling.",
+        "Riduzione mono-disciplinare: leggerlo solo come biblioteconomia/servizio o solo come comunicazione.",
+        "Anticipazione normativa: trasferire al bambino piccolo un'autorità che qui riguarda il rapporto tra adulti (segnalare se la si estende alla diade adulto-bambino).",
+        "Paternalismo mascherato: l'asimmetria 'accogliente' che resta prescrizione travestita."
+      ],
+      "exploratory_priority": "media",
+      "pilot_suitability": "media",
+      "human_review_notes": "Tema che porta l'Asse 3 nel modello senza incorrere nell'anticipazione normativa, perché l'asimmetria è qui adulto-adulto (operatore-genitore). Da chiarire con il ricercatore se il fuoco resti su questo livello o si estenda al rapporto adulto-bambino, dove la prudenza 0-3 torna necessaria. Forte coerenza con la vocazione di welfare culturale delle biblioteche."
+    },
+    {
+      "theme_label_provisional": "La disuguaglianza educativa precoce come deformazione storica del campo del possibile, non come semplice carenza di risorse",
+      "starting_point": "Le note del ricercatore assegnano alle biblioteche il compito di 'contrastare povertà educativa e disuguaglianze attraverso interventi precoci' e di raggiungere precocemente i contesti più fragili. La letteratura su 'book deserts', divari socioeconomici nella lettura condivisa e ambiente domestico di lettura documenta disuguaglianze precoci e persistenti nell'accesso e nelle pratiche.",
+      "structural_focus": "Il fuoco non è la povertà come mancanza di mezzi né il divario come differenza statistica, ma la struttura per cui configurazioni storiche e sociali organizzano in modo diseguale ciò che, per un bambino, appare possibile, accessibile, desiderabile — riducendo o ampliando l'orizzonte prima di ogni scelta. La disuguaglianza non è solo meno libri: è un campo del possibile storicamente ristretto, incorporato nelle pratiche quotidiane.",
+      "what_it_is": "Una configurazione in cui l'accesso ai libri, alla voce, ai rituali di lettura e alle istituzioni che li sostengono è distribuito in modo diseguale per ragioni storiche, economiche e culturali, e in cui questa distribuzione modula l'ampiezza del campo di esperienza dei bambini. Non è un attributo dei singoli genitori 'meno sensibili', ma un esito sistemico che precede e attraversa le loro scelte.",
+      "what_it_is_not": "Non è una colpa o una carenza dei genitori. Non è la sola mancanza materiale di libri (i 'book deserts' ne sono un sintomo, non l'essenza). Non è un divario cognitivo individuale. Non è il 'word gap' come deficit da colmare con più parole. Non è risolvibile come problema puramente distributivo: riguarda la forma del campo, non solo la quantità di risorse.",
+      "why_it_matters": "È la giustificazione esplicita del ruolo di welfare culturale delle biblioteche e una preoccupazione convergente di ricerca e policy. Riformularla come deformazione storica del campo del possibile, e non come semplice carenza, evita sia la colpevolizzazione delle famiglie sia la riduzione a un problema di fornitura, e collega le disuguaglianze precoci alla struttura storico-culturale dell'esperienza.",
+      "source_signals": [
+        {
+          "source_type": "web_search",
+          "source_title": "Early Shared Reading, Socioeconomic Status, and Children's Cognitive and School Competencies (PMC)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8186290/",
+          "signal_summary": "Evidenza longitudinale: la lettura condivisa precoce è associata a competenze cognitive e scolastiche oltre il SES; i divari sono precoci e persistenti.",
+          "recency_relevance": "media"
+        },
+        {
+          "source_type": "web_search",
+          "source_title": "Parent–child shared book reading challenges and facilitators: meta synthesis (PMC, 2025)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12326312/",
+          "signal_summary": "Disponibilità limitata di libri (costo, assenza di biblioteche) associata a minore lettura condivisa; richiama il concetto di 'book deserts' (in alcune aree un libro adeguato ogni 300 bambini).",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "web_search",
+          "source_title": "Influence of socioeconomic status on children's reading abilities: mediating role of home learning environment (BMC Psychology, 2025)",
+          "source_url": "https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-025-03203-z",
+          "signal_summary": "Il SES influenza le abilità di lettura attraverso l'ambiente domestico di apprendimento come mediatore.",
+          "recency_relevance": "alta"
+        },
+        {
+          "source_type": "training_knowledge",
+          "source_title": "Neuman & Celano / Neuman & Moland ('book deserts'); Hart & Risley e le sue critiche",
+          "signal_summary": "L'accesso diseguale ai materiali e le metriche di 'gap' hanno alimentato sia interventi sia letture deficitarie da maneggiare con cautela.",
+          "recency_relevance": "media"
+        }
+      ],
+      "possible_axes_involved": [
+        {
+          "axis_id": "asse_6",
+          "axis_name": "Storico–culturale",
+          "reason": "Deformazione strutturale, mediazione e istituzione: il tema è una manifestazione diretta della funzione di questo asse (configurazioni storiche che organizzano il possibile). (confidenza alta)"
+        },
+        {
+          "axis_id": "asse_1",
+          "axis_name": "Ontologico–fenomenologico",
+          "reason": "L'ampiezza del campo intenzionale del bambino è modulata da ciò che l'ambiente rende sostenibile e accessibile. (confidenza media)"
+        },
+        {
+          "axis_id": "asse_5",
+          "axis_name": "Desiderio",
+          "reason": "L'orizzonte del desiderabile è storicamente ristretto o ampliato dalle condizioni di accesso. (confidenza media)"
+        }
+      ],
+      "possible_structural_nodes": [
+        "deformazione-strutturale",
+        "mediazione-strutturale",
+        "istituzione-come-dispositivo",
+        "orizzonte-di-senso",
+        "campo-intenzionale",
+        "campo-desiderabile"
+      ],
+      "possible_bridge_concepts": [
+        "Disuguaglianza come forma ristretta del possibile, non come quantità",
+        "Book desert come sintomo di una deformazione del campo",
+        "Povertà educativa come esito sistemico, non come colpa familiare"
+      ],
+      "definition_draft": "Configurazione in cui condizioni storiche, economiche e culturali distribuiscono in modo diseguale ciò che appare possibile, accessibile e desiderabile per i bambini, modulando l'ampiezza del loro campo di esperienza prima di ogni scelta. Il tema interroga come la disuguaglianza precoce sia una forma del campo del possibile storicamente prodotta, irriducibile sia alla colpa dei genitori sia alla semplice scarsità di risorse.",
+      "definition_risks": [
+        "Sociologizzazione: ridurre lo sviluppo a prodotto delle condizioni sociali, perdendo la consistenza strutturale del soggetto.",
+        "Riduzione operativa/distributiva: trattarlo come problema di fornitura di libri.",
+        "Colpevolizzazione inversa: spostare la colpa dai genitori 'al sistema' in modo altrettanto generico.",
+        "Lettura deficitaria: riprodurre la logica del 'gap' che misura le famiglie fragili rispetto a una norma."
+      ],
+      "exploratory_priority": "media",
+      "pilot_suitability": "bassa",
+      "human_review_notes": "Tema importante per la missione di welfare culturale, ma il più esposto a sociologizzazione e a riduzione a problema distributivo; per questo pilot_suitability bassa (meno adatto come primo caso pilota per micro-matrice, più adatto come sfondo strutturale). Sovrapposizione con i temi della prestazionalizzazione e dell'accompagnamento non giudicante: chiarire che qui il fuoco è macro-strutturale (forma del campo prodotta storicamente), non il singolo incontro relazionale."
+    }
+  ],
+  "global_notes": {
+    "overall_assessment": "La letteratura scientifica e biblioteconomica recente converge attorno a un nucleo strutturale forte: la lettura condivisa precoce è significativa non come esposizione al testo o anticipazione dell'apprendimento, ma come forma di relazione mediata da un oggetto, dalla voce e dal tempo condiviso, a partire dalla gravidanza. I dieci temi selezionati sono tutti leggibili attraverso più assi e nessuno coincide con uno strumento o un programma. Tre temi emergono come candidati pilota più solidi e ad alta densità multi-asse: la terzietà dell'oggetto condiviso (caso paradigmatico di struttura poliadica, esplicitamente citato nella metodologia), la voce come presenza pre-semantica (forte ancoraggio prenatale, coerente con il focus del ricercatore) e la prestazionalizzazione precoce della lettura (il nodo più ribadito nelle note, ad altissima densità sugli assi 5-6-3). I temi sulla terzietà dell'oggetto, l'attenzione condivisa, la risposta contingente, il rituale e l'esplorazione corporea condividono una matrice triadica precoce comune: vanno disambiguati in fase di micro-matrice per evitare ridondanza. Coerentemente con la metodologia, l'Asse 2 (affettivo-morale) è stato incluso in forma precursoria dove pertinente (attenzione condivisa, risposta contingente) senza forzature, e l'Asse 3 (normativo) è stato qualificato con prudenza per la fascia 0-18 mesi, riferendolo al campo adulto/istituzionale piuttosto che al bambino.",
+    "needs_human_review": true,
+    "open_issues": [
+      "Technoference (interruzione tecnica della presenza responsiva): strutturalmente denso (Asse 6 — tecnica come forma storica; Asse 1 — co-regolazione interrotta) e attuale, ma escluso come scheda perché esterno al fuoco esplicito del ricercatore (lettura, biblioteche, prenatale, padri, disuguaglianza) e a rischio di lettura mono-disciplinare contemporanea; segnalato per un'eventuale ricerca dedicata.",
+      "'Promozione della lettura' come programma/intervento (Nati per Leggere, Reach Out and Read, Bookstart): escluso come tema perché operativo — è un dispositivo/strumento, non un fuoco strutturale; le fonti sui programmi sono usate come segnali, non come temi.",
+      "Alfabetizzazione emergente (emergent literacy): escluso come tema autonomo perché, isolato, scivola nella psicolinguistica dello sviluppo e nell'orizzonte prestazionale; resta come sfondo, non come fuoco strutturale.",
+      "Sviluppo del linguaggio precoce: troppo generico e mono-disciplinare se preso da solo; è trasversale a più temi (voce, terzietà dell'oggetto, attenzione condivisa) e non costituisce un fuoco proprio.",
+      "Autoefficacia genitoriale (parental self-efficacy): costrutto psicologico misurabile, possibile esito ma non fuoco strutturale; escluso come scheda.",
+      "Salute mentale del caregiver (es. depressione perinatale): rilevante come condizione di sfondo che incide sulla responsività, ma in questo fuoco e isolata è a rischio di riduzione clinica mono-disciplinare; non sviluppata come scheda.",
+      "Tensione trasversale da risolvere a valle: diversi temi (terzietà dell'oggetto, attenzione condivisa, esplorazione corporea, rituale, risposta contingente) possono essere letti come specificazioni di un'unica struttura triadica precoce; decidere con il ricercatore quali promuovere come tema-cornice e quali come aspetti.",
+      "Fascia d'età e Asse 3: il focus prenatale-0/18 mesi impone prudenza sull'Asse 3 verso il bambino; dove l'Asse 3 compare (prestazionalizzazione, accompagnamento non giudicante) è riferito al campo adulto/istituzionale o al rapporto operatore-genitore, non al giudizio del bambino — da confermare in micro-matrice.",
+      "Asse 4: compare solo in forma minima e non drammatica (resistenza dell'oggetto, disallineamento nella risposta contingente); verificare se la fascia d'età precoce ne giustifichi un peso maggiore o se vada tenuto marginale.",
+      "Accesso alle fonti: alcune fonti centrali sono state lette direttamente (web_fetch: Nurturing Care Framework, protocollo RCT italiano DBS, meta-analisi Frontiers 2025, meta-sintesi challenges/facilitators); altre sono state individuate ma non lette integralmente (web_search: policy AAP 2024, RCT sudafricano, studi su voce prenatale, RCT padri, divari SES). Le attribuzioni teoriche classiche (Vygotskij, Tomasello, Trevarthen, Tronick, Winnicott, Arendt, Merleau-Ponty, Piaget) sono da conoscenza di addestramento e hanno bassa rilevanza temporale ma alta stabilità concettuale."
+    ]
+  }
+}

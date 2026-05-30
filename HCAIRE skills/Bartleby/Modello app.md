@@ -1,3 +1,5 @@
+> **Nota di allineamento (2026-05-24).** Gli esempi di ConceptNode e DomainArea in questo documento sono aggiornati ai 7 Nodi Trasversali canonici N1–N7 e ai 4 contesti canonici. Il modello delle entità resta valido; per la ridefinizione complessiva di Bartleby vedi `Ipotesi di ridefinizione.md`.
+
 # 1. Principio architetturale di base
 
 Io distinguerei subito tre grandi famiglie di dati:
@@ -67,9 +69,8 @@ Rappresenta un documento fondativo HCAIRE.
 Esempi:
 
 * Carta fondativa
-* Motore di traducibilità
-* Matrice interdisciplinare
-* Atlante dei nodi trasversali
+* Pipeline di traducibilità (canonica) — rinvio
+* Atlante dei nodi trasversali (v2.0)
 
 ### Campi principali
 
@@ -98,9 +99,9 @@ Rappresenta un concetto o nodo strutturale del modello.
 
 Esempi:
 
-* relazione adulto-bambino
-* regolazione/co-regolazione
-* linguaggio e significato condiviso
+* N1 — Regolazione / Integrazione dell'esperienza
+* N2 — Campo relazionale / Co-regolazione
+* N3 — Accesso al mondo condiviso simbolico
 
 ### Campi
 
@@ -132,10 +133,9 @@ Rappresenta un ambito.
 Esempi:
 
 * genitoriale
-* pedagogico
 * clinico
-* sociale
-* politico
+* pedagogico
+* istituzionale/servizi
 
 ### Campi
 
@@ -502,7 +502,7 @@ Con collegamenti cliccabili.
 
 Esempio naturale di navigazione:
 
-* clicco su “Relazione adulto-bambino”
+* clicco su “N2 — Campo relazionale / Co-regolazione”
 * vedo definizione
 * vedo in quali ambiti entra
 * vedo quali skill usa

@@ -275,7 +275,7 @@
     "raw_text": "Famiglia con tre figli (2, 5 e 8 anni), madre sola, lavoro precario. Il bambino più grande ha iniziato ad avere problemi a scuola. La madre riferisce di non riuscire a seguire i compiti la sera perché è esausta quando torna dal lavoro. L'assistente sociale chiede un orientamento.",
     "context_notes": "Traccia sociologica/sociale. Voce dell'operatore sociale. Non attribuire ai soggetti ciò che appartiene alle condizioni strutturali. Intervento su più livelli.",
     "target_output_type": "analisi-di-caso",
-    "requested_area_id": "da-005",
+    "requested_area_id": "da-004",
     "trace_type": "sistemica",
     "age_range": "0-11 anni",
     "activated_nodes": [
@@ -297,7 +297,7 @@
     "raw_text": "Bambino di 7 anni, famiglia immigrata da due anni. A scuola non parla, risponde solo con gesti, sembra non capire le istruzioni. A casa, secondo i genitori, parla normalmente nella lingua d'origine e interagisce bene. L'insegnante chiede se ha un disturbo del linguaggio.",
     "context_notes": "Traccia sociologica. Il silenzio è risposta adattativa tipica in contesto di immersione linguistica. La competenza nella L1 è dato essenziale. Rischio di diagnosi basata su performance in L2.",
     "target_output_type": "analisi-di-caso",
-    "requested_area_id": "da-005",
+    "requested_area_id": "da-004",
     "trace_type": "sistemica",
     "age_range": "6-11 anni",
     "activated_nodes": [

@@ -1,128 +1,134 @@
 [
   {
     "area_sheet_id": "as-001",
-    "concept_node_id": "N2",
-    "priority_in_area": "primario",
-    "notes": "Tessuto quotidiano della cura; qualità dello scambio, risposta ai segnali del bambino."
-  },
-  {
-    "area_sheet_id": "as-001",
-    "concept_node_id": "N3",
-    "priority_in_area": "primario",
-    "notes": "Pratiche quotidiane di parola, canto, lettura; accesso al mondo condiviso."
-  },
-  {
-    "area_sheet_id": "as-001",
-    "concept_node_id": "N7",
-    "priority_in_area": "secondario",
-    "notes": "Iniziativa del bambino, autonomia esplorativa, campo desiderante aperto/contratto."
-  },
-  {
-    "area_sheet_id": "as-001",
-    "concept_node_id": "N1",
-    "priority_in_area": "secondario",
-    "notes": "Sonno, alimentazione, ritmi; co-regolazione precoce diadica."
-  },
-  {
-    "area_sheet_id": "as-001",
-    "concept_node_id": "N5",
-    "priority_in_area": "secondario",
-    "notes": "Frustrazione, crisi, autonomia progressiva; incontro con il limite reale."
-  },
-  {
-    "area_sheet_id": "as-002",
     "concept_node_id": "N1",
     "priority_in_area": "primario",
-    "notes": "Co-regolazione diadica; disponibilità dell'adulto; contingenza della risposta. / Coerenza tra dimensioni; segnali di frammentazione comportamentale o affettiva."
+    "notes": "Calmarsi con l'adulto; sonno, pianto, ritmi"
+  },
+  {
+    "area_sheet_id": "as-001",
+    "concept_node_id": "N2",
+    "priority_in_area": "primario",
+    "notes": "Relazione quotidiana adulto-bambino; sintonia o lotta"
+  },
+  {
+    "area_sheet_id": "as-001",
+    "concept_node_id": "N3",
+    "priority_in_area": "primario",
+    "notes": "Parola, lettura, canto; il bambino mostra e condivide"
+  },
+  {
+    "area_sheet_id": "as-001",
+    "concept_node_id": "N5",
+    "priority_in_area": "secondario",
+    "notes": "Gestione del 'no' e della frustrazione"
+  },
+  {
+    "area_sheet_id": "as-001",
+    "concept_node_id": "N7",
+    "priority_in_area": "secondario",
+    "notes": "Iniziativa e interesse proprio del bambino"
+  },
+  {
+    "area_sheet_id": "as-002",
+    "concept_node_id": "N1",
+    "priority_in_area": "primario",
+    "notes": "Co-regolazione, stabilita dei ritmi; configurazione integrata o frammentata"
   },
   {
     "area_sheet_id": "as-002",
     "concept_node_id": "N2",
     "priority_in_area": "primario",
-    "notes": "Qualità dello scambio, sintonizzazione, co-regolazione diadica."
+    "notes": "Campo relazionale bambino-caregiver come contesto interpretativo"
   },
   {
     "area_sheet_id": "as-002",
     "concept_node_id": "N3",
     "priority_in_area": "secondario",
-    "notes": "Sviluppo comunicativo, significato condiviso, discrepanza casa/contesto valutativo."
+    "notes": "Sviluppo comunicativo; condivisione vs. azione individuale"
   },
   {
     "area_sheet_id": "as-002",
     "concept_node_id": "N5",
     "priority_in_area": "secondario",
-    "notes": "Situazioni che resistono, lutti, diagnosi difficili; dolore come risposta adeguata."
+    "notes": "Lutti, separazioni, diagnosi difficili; il dolore come risposta al reale"
   },
   {
     "area_sheet_id": "as-002",
     "concept_node_id": "N7",
     "priority_in_area": "secondario",
-    "notes": "Ritiro vs. difficoltà di regolazione; prestazionalismo; qualità dell'ambiente."
+    "notes": "Ritiro del desiderio vs. difficolta di regolazione; prestazionalismo"
   },
   {
     "area_sheet_id": "as-003",
     "concept_node_id": "N2",
     "priority_in_area": "primario",
-    "notes": "Relazione educativa come spazio in cui si costruisce l'apprendimento; qualità dello scambio adulto-bambino."
+    "notes": "Mediazione educativa; relazione responsiva o direttiva"
   },
   {
     "area_sheet_id": "as-003",
     "concept_node_id": "N3",
     "priority_in_area": "primario",
-    "notes": "Costruzione di significati condivisi; accesso al mondo simbolico."
+    "notes": "Apprendimento come partecipazione o esecuzione"
   },
   {
     "area_sheet_id": "as-003",
     "concept_node_id": "N7",
     "priority_in_area": "primario",
-    "notes": "Motivazione interna, curiosità, partecipazione attiva; desiderio non orientato come segnale."
+    "notes": "Motivazione intrinseca o prestazione; curiosita e iniziativa"
+  },
+  {
+    "area_sheet_id": "as-003",
+    "concept_node_id": "N1",
+    "priority_in_area": "secondario",
+    "notes": "Attenzione, partecipazione, stabilita nelle transizioni"
   },
   {
     "area_sheet_id": "as-003",
     "concept_node_id": "N5",
     "priority_in_area": "secondario",
-    "notes": "Frustrazione davanti al non-riuscire; fallimenti reali; transizioni difficili."
+    "notes": "Fallimenti, frustrazioni, transizioni difficili"
   },
   {
     "area_sheet_id": "as-004",
-    "concept_node_id": "N5",
-    "priority_in_area": "secondario",
-    "notes": "Limiti strutturali degli interventi; aspettative irrealistiche; onnipotenza politica da evitare."
-  },
-  {
-    "area_sheet_id": "as-004",
-    "concept_node_id": "N7",
-    "priority_in_area": "secondario",
-    "notes": "Creazione di condizioni perché il desiderio e l'apertura al possibile abbiano spazio nei bambini."
+    "concept_node_id": "N1",
+    "priority_in_area": "primario",
+    "notes": "Continuita dei percorsi; i servizi frammentano o tengono insieme"
   },
   {
     "area_sheet_id": "as-004",
     "concept_node_id": "N2",
-    "priority_in_area": "secondario",
-    "notes": "La relazione adulto-bambino come oggetto di tutela politica attraverso i servizi."
+    "priority_in_area": "primario",
+    "notes": "I sistemi sostengono la relazione o la sostituiscono; collaborazione tra operatori"
   },
   {
-    "area_sheet_id": "as-005",
-    "concept_node_id": "N5",
-    "priority_in_area": "secondario",
-    "notes": "Vulnerabilità persistenti; perdite sociali; limiti strutturali degli interventi."
+    "area_sheet_id": "as-004",
+    "concept_node_id": "N6",
+    "priority_in_area": "primario",
+    "notes": "Longitudinalita dei percorsi; presa in carico continuativa nel tempo"
   },
   {
-    "area_sheet_id": "as-005",
-    "concept_node_id": "N7",
+    "area_sheet_id": "as-004",
+    "concept_node_id": "N3",
     "priority_in_area": "secondario",
-    "notes": "Accesso a esperienze; condizioni che ampliano o restringono il campo del possibile per i bambini."
+    "notes": "I servizi creano partecipazione o prestazione"
   },
   {
-    "area_sheet_id": "as-005",
+    "area_sheet_id": "as-004",
     "concept_node_id": "N4",
     "priority_in_area": "secondario",
-    "notes": "Apertura/chiusura al mondo in funzione delle condizioni strutturali; inclusione vs. esclusione."
+    "notes": "I sistemi permettono sperimentazione; accessibilita e inclusione"
   },
   {
-    "area_sheet_id": "as-005",
-    "concept_node_id": "N2",
+    "area_sheet_id": "as-004",
+    "concept_node_id": "N5",
     "priority_in_area": "secondario",
-    "notes": "La relazione adulto-bambino come mediata dalle condizioni strutturali e dalla vulnerabilità familiare."
+    "notes": "Il sistema contiene senza rigidita; riconosce i propri limiti"
+  },
+  {
+    "area_sheet_id": "as-004",
+    "concept_node_id": "N7",
+    "priority_in_area": "secondario",
+    "notes": "Il sistema alimenta agency o conformita"
   }
 ]

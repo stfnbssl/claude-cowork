@@ -34,11 +34,31 @@
         "Sull'integrazione: Le diverse dimensioni (corpo, affettività, relazione, comportamento) sono coerenti tra loro o frammentate?"
       ],
       "reduction_risks": [
-        {"risk": "Oggettivazione del bambino", "form": "Lettura esclusivamente comportamentale", "correction": "Recuperare la prospettiva del soggetto"},
-        {"risk": "Mente senza corpo", "form": "Cognitivismo disincarnato", "correction": "Il corpo è sempre mediatore primo dell'esperienza"},
-        {"risk": "Sintomo senza contesto", "form": "Lettura di segnali isolati", "correction": "Leggere configurazioni nel sistema"},
-        {"risk": "Relazione come sfondo", "form": "Focus solo sul bambino senza l'adulto", "correction": "La relazione è condizione strutturale, non contesto"},
-        {"risk": "Etichettare la disorganizzazione", "form": "Diagnosi implicita dalla frammentazione", "correction": "Leggere come segnale da contestualizzare"}
+        {
+          "risk": "Oggettivazione del bambino",
+          "form": "Lettura esclusivamente comportamentale",
+          "correction": "Recuperare la prospettiva del soggetto"
+        },
+        {
+          "risk": "Mente senza corpo",
+          "form": "Cognitivismo disincarnato",
+          "correction": "Il corpo è sempre mediatore primo dell'esperienza"
+        },
+        {
+          "risk": "Sintomo senza contesto",
+          "form": "Lettura di segnali isolati",
+          "correction": "Leggere configurazioni nel sistema"
+        },
+        {
+          "risk": "Relazione come sfondo",
+          "form": "Focus solo sul bambino senza l'adulto",
+          "correction": "La relazione è condizione strutturale, non contesto"
+        },
+        {
+          "risk": "Etichettare la disorganizzazione",
+          "form": "Diagnosi implicita dalla frammentazione",
+          "correction": "Leggere come segnale da contestualizzare"
+        }
       ],
       "connections_to_axes": {
         "A2": "La relazione costitutiva (A1) è il terreno in cui si costruisce il legame affettivo (A2)",
@@ -85,10 +105,26 @@
         "Sull'adulto: L'adulto sostiene la possibilità di riparazione o la blocca?"
       ],
       "reduction_risks": [
-        {"risk": "Moralismo", "form": "Giudizio sull'adulto o sul bambino", "correction": "Leggere processi, non giudicare persone"},
-        {"risk": "Behaviorismo morale", "form": "Comportamento corretto = sviluppo morale", "correction": "Il comportamento esterno non dice nulla sull'interiorizzazione"},
-        {"risk": "Eliminazione della colpa", "form": "'Il bambino non deve sentirsi in colpa'", "correction": "La colpa integrativa è segnale di sviluppo — non va eliminata"},
-        {"risk": "Confusione conformismo/responsabilità", "form": "Il bambino obbediente è letto come moralmente sviluppato", "correction": "Distinguere la fonte del comportamento: paura o legame?"}
+        {
+          "risk": "Moralismo",
+          "form": "Giudizio sull'adulto o sul bambino",
+          "correction": "Leggere processi, non giudicare persone"
+        },
+        {
+          "risk": "Behaviorismo morale",
+          "form": "Comportamento corretto = sviluppo morale",
+          "correction": "Il comportamento esterno non dice nulla sull'interiorizzazione"
+        },
+        {
+          "risk": "Eliminazione della colpa",
+          "form": "'Il bambino non deve sentirsi in colpa'",
+          "correction": "La colpa integrativa è segnale di sviluppo — non va eliminata"
+        },
+        {
+          "risk": "Confusione conformismo/responsabilità",
+          "form": "Il bambino obbediente è letto come moralmente sviluppato",
+          "correction": "Distinguere la fonte del comportamento: paura o legame?"
+        }
       ],
       "connections_to_axes": {
         "A1": "Il legame affettivo si costruisce nel campo relazionale (A1)",
@@ -133,10 +169,26 @@
         "Sul contesto: Le norme dell'ambiente sono coerenti e orientative o contraddittorie e arbitrarie?"
       ],
       "reduction_risks": [
-        {"risk": "Autoritarismo", "form": "Obbedienza come obiettivo", "correction": "L'obiettivo è il giudizio, non la conformità"},
-        {"risk": "Permissivismo", "form": "Assenza di struttura normativa", "correction": "Il desiderio ha bisogno del limite per diventare consistente"},
-        {"risk": "Confusione norma/giudizio", "form": "Chi segue le regole ha sviluppato la normatività", "correction": "La normatività autentica richiede interiorizzazione, non solo obbedienza"},
-        {"risk": "Moralizzazione", "form": "Giudizio sull'adulto che non riesce a tenere la norma", "correction": "Leggere le difficoltà normative come configurazione, non come colpa"}
+        {
+          "risk": "Autoritarismo",
+          "form": "Obbedienza come obiettivo",
+          "correction": "L'obiettivo è il giudizio, non la conformità"
+        },
+        {
+          "risk": "Permissivismo",
+          "form": "Assenza di struttura normativa",
+          "correction": "Il desiderio ha bisogno del limite per diventare consistente"
+        },
+        {
+          "risk": "Confusione norma/giudizio",
+          "form": "Chi segue le regole ha sviluppato la normatività",
+          "correction": "La normatività autentica richiede interiorizzazione, non solo obbedienza"
+        },
+        {
+          "risk": "Moralizzazione",
+          "form": "Giudizio sull'adulto che non riesce a tenere la norma",
+          "correction": "Leggere le difficoltà normative come configurazione, non come colpa"
+        }
       ],
       "connections_to_axes": {
         "A2": "Norma senza legame (A2) produce conformismo; legame senza norma produce dipendenza",
@@ -182,10 +234,26 @@
         "Sull'onnipotenza: C'è una promessa implicita di onnipotenza che non potrà essere mantenuta?"
       ],
       "reduction_risks": [
-        {"risk": "Onnipotenza dell'adulto/del sistema", "form": "Promettersi soluzioni a tutto", "correction": "Distinguere problemi trattabili da limiti reali"},
-        {"risk": "Patologizzare il dolore", "form": "'Se stai male c'è qualcosa che non va'", "correction": "Il dolore davanti alla perdita è risposta adeguata — non sintomo"},
-        {"risk": "Eliminare il limite", "form": "Proteggere il bambino da ogni frustrazione", "correction": "Il desiderio si ricostituisce solo dopo l'incontro col limite"},
-        {"risk": "Colpevolizzare l'adulto", "form": "Se non risolve, ha sbagliato qualcosa", "correction": "Alcune situazioni non hanno soluzione — riconoscerlo è onestà, non sconfitta"}
+        {
+          "risk": "Onnipotenza dell'adulto/del sistema",
+          "form": "Promettersi soluzioni a tutto",
+          "correction": "Distinguere problemi trattabili da limiti reali"
+        },
+        {
+          "risk": "Patologizzare il dolore",
+          "form": "'Se stai male c'è qualcosa che non va'",
+          "correction": "Il dolore davanti alla perdita è risposta adeguata — non sintomo"
+        },
+        {
+          "risk": "Eliminare il limite",
+          "form": "Proteggere il bambino da ogni frustrazione",
+          "correction": "Il desiderio si ricostituisce solo dopo l'incontro col limite"
+        },
+        {
+          "risk": "Colpevolizzare l'adulto",
+          "form": "Se non risolve, ha sbagliato qualcosa",
+          "correction": "Alcune situazioni non hanno soluzione — riconoscerlo è onestà, non sconfitta"
+        }
       ],
       "connections_to_axes": {
         "A2": "Il limite reale mette alla prova la solidità del legame (A2) — la riparazione è possibile anche dopo la perdita",
@@ -235,12 +303,36 @@
         "Sulla creatività: Il bambino crea, esplora, trasforma? L'atto creativo è abitato o ridotto a prestazione valutabile?"
       ],
       "reduction_risks": [
-        {"risk": "Confusione desiderio/bisogno", "form": "Soddisfare ogni richiesta come risposta al desiderio", "correction": "Il desiderio non si spegne con la soddisfazione"},
-        {"risk": "Confusione desiderio/motivazione", "form": "Usare premi per 'motivare'", "correction": "La motivazione esterna non alimenta il desiderio strutturale"},
-        {"risk": "Etichettatura precoce", "form": "Forzare il bambino a dichiarare preferenze e interessi", "correction": "Il processo di appropriazione del desiderio è graduale"},
-        {"risk": "Ambienti intrusivi", "form": "Sovrastimolare, riempire ogni spazio", "correction": "Il desiderio ha bisogno di spazio e imprevedibilità limitata"},
-        {"risk": "Prestazionismo", "form": "Ridurre l'orientamento a obiettivi misurabili", "correction": "La dimensione del valore non è riducibile alla performance"},
-        {"risk": "Riduzione creatività a talento", "form": "Interpretare l'inibizione creativa come mancanza di capacità", "correction": "La creatività è manifestazione del campo desiderante — prima si legge il campo, poi il gesto"}
+        {
+          "risk": "Confusione desiderio/bisogno",
+          "form": "Soddisfare ogni richiesta come risposta al desiderio",
+          "correction": "Il desiderio non si spegne con la soddisfazione"
+        },
+        {
+          "risk": "Confusione desiderio/motivazione",
+          "form": "Usare premi per 'motivare'",
+          "correction": "La motivazione esterna non alimenta il desiderio strutturale"
+        },
+        {
+          "risk": "Etichettatura precoce",
+          "form": "Forzare il bambino a dichiarare preferenze e interessi",
+          "correction": "Il processo di appropriazione del desiderio è graduale"
+        },
+        {
+          "risk": "Ambienti intrusivi",
+          "form": "Sovrastimolare, riempire ogni spazio",
+          "correction": "Il desiderio ha bisogno di spazio e imprevedibilità limitata"
+        },
+        {
+          "risk": "Prestazionismo",
+          "form": "Ridurre l'orientamento a obiettivi misurabili",
+          "correction": "La dimensione del valore non è riducibile alla performance"
+        },
+        {
+          "risk": "Riduzione creatività a talento",
+          "form": "Interpretare l'inibizione creativa come mancanza di capacità",
+          "correction": "La creatività è manifestazione del campo desiderante — prima si legge il campo, poi il gesto"
+        }
       ],
       "connections_to_axes": {
         "A1": "Il campo intenzionale aperto (A1) è condizione perché il desiderio emerga (A5)",
@@ -291,11 +383,31 @@
         "Sul linguaggio: Il contesto linguistico concreto è considerato? Ci sono scarti lingua di casa/scuola?"
       ],
       "reduction_risks": [
-        {"risk": "Psicologizzazione del sociale", "form": "'Questo bambino ha problemi' quando il contesto è disorganizzante", "correction": "Distinguere fattori individuali da strutturali"},
-        {"risk": "Universalismo astratto", "form": "Applicare lo stesso modello senza considerare il contesto", "correction": "Lo sviluppo prende forme diverse in contesti diversi"},
-        {"risk": "Determinismo sociologico", "form": "'Tutto dipende dal contesto' — il soggetto scompare", "correction": "Il soggetto è storico ma non è puro prodotto del contesto"},
-        {"risk": "Neutralità tecnologica", "form": "Le tecnologie sono strumenti neutri", "correction": "I dispositivi ridefiniscono strutturalmente il campo di esperienza"},
-        {"risk": "Universalismo linguistico", "form": "Valutare il linguaggio su norme monoculturali", "correction": "Il contesto linguistico è variabile strutturale dello sviluppo"}
+        {
+          "risk": "Psicologizzazione del sociale",
+          "form": "'Questo bambino ha problemi' quando il contesto è disorganizzante",
+          "correction": "Distinguere fattori individuali da strutturali"
+        },
+        {
+          "risk": "Universalismo astratto",
+          "form": "Applicare lo stesso modello senza considerare il contesto",
+          "correction": "Lo sviluppo prende forme diverse in contesti diversi"
+        },
+        {
+          "risk": "Determinismo sociologico",
+          "form": "'Tutto dipende dal contesto' — il soggetto scompare",
+          "correction": "Il soggetto è storico ma non è puro prodotto del contesto"
+        },
+        {
+          "risk": "Neutralità tecnologica",
+          "form": "Le tecnologie sono strumenti neutri",
+          "correction": "I dispositivi ridefiniscono strutturalmente il campo di esperienza"
+        },
+        {
+          "risk": "Universalismo linguistico",
+          "form": "Valutare il linguaggio su norme monoculturali",
+          "correction": "Il contesto linguistico è variabile strutturale dello sviluppo"
+        }
       ],
       "connections_to_axes": {
         "A1": "Il mondo storico entra nel corpo prima che nella riflessione (A6→A1)",
@@ -327,7 +439,13 @@
         "Segnalare quando è opportuno un approfondimento professionale senza allarmismo"
       ],
       "tone": "accessibile, caldo, rispettoso dell'intelligenza del genitore",
-      "forbidden_patterns": ["tecnicismi clinici", "diagnosi implicite", "confronti normativi non contestualizzati", "prescrizioni rigide", "rassicurazioni vuote"]
+      "forbidden_patterns": [
+        "tecnicismi clinici",
+        "diagnosi implicite",
+        "confronti normativi non contestualizzati",
+        "prescrizioni rigide",
+        "rassicurazioni vuote"
+      ]
     },
     "file_path": "Schede di ambito/Genitoriale.md",
     "status": "approved",
@@ -352,7 +470,13 @@
         "Considerare sempre il contesto relazionale e familiare"
       ],
       "tone": "preciso, sobrio, prudente, non assertivo oltre il giustificato",
-      "forbidden_patterns": ["diagnosi esplicite o implicite", "affermazioni assolute", "linguaggio allarmistico", "causalità lineare", "promesse di soluzione"]
+      "forbidden_patterns": [
+        "diagnosi esplicite o implicite",
+        "affermazioni assolute",
+        "linguaggio allarmistico",
+        "causalità lineare",
+        "promesse di soluzione"
+      ]
     },
     "file_path": "Schede di ambito/Clinico.md",
     "status": "approved",
@@ -376,7 +500,12 @@
         "Non ridurre l'educazione a tecniche e metodi"
       ],
       "tone": "chiaro, concettualmente rigoroso, applicativo, con esempi concreti",
-      "forbidden_patterns": ["riduzione a metodo", "prestazionalismo come obiettivo", "assenza di relazione", "prescrizioni universali"]
+      "forbidden_patterns": [
+        "riduzione a metodo",
+        "prestazionalismo come obiettivo",
+        "assenza di relazione",
+        "prescrizioni universali"
+      ]
     },
     "file_path": "Schede di ambito/Pedagogico.md",
     "status": "approved",
@@ -386,49 +515,32 @@
   },
   {
     "id": "sk-010",
-    "name": "Skill di ambito — Politico",
-    "slug": "skill-ambito-politico",
+    "name": "Skill di ambito — Istituzionale/servizi",
+    "slug": "skill-ambito-istituzionale-servizi",
     "skill_type": "di_ambito",
-    "description": "Skill operativa per la produzione di output nell'ambito politico-istituzionale. Orienta verso argomenti fondativi, di equità ed economici — evitando over-promise e neuroriduzionismo.",
+    "description": "Skill operativa per la produzione di output nell'ambito istituzionale e dei servizi. Orienta a leggere politiche, sistemi e condizioni strutturali; combina argomento fondativo, di equita ed economico; mantiene il soggetto visibile evitando over-promise, neuroriduzionismo e determinismo.",
     "instruction_payload": {
       "area_sheet_id": "as-004",
       "key_directives": [
-        "Usare sempre la triade: argomento fondativo + argomento economico + argomento di equità",
-        "Essere onesti sui limiti strutturali degli interventi",
-        "Non fare promesse che il programma non può mantenere",
-        "Rendere ogni passaggio difendibile istituzionalmente",
-        "Tradurre il framework HCAIRE in linguaggio istituzionale senza banalizzarlo"
+        "Combinare argomento fondativo, argomento di equita e argomento economico, senza ridurre il bambino a investimento",
+        "Distinguere sempre i livelli: individuale, relazionale, strutturale",
+        "Mantenere il soggetto visibile anche nell'analisi sistemica",
+        "Essere onesti sui limiti strutturali degli interventi; non promettere cio che il sistema non puo garantire",
+        "Non psicologizzare cio che e strutturalmente sociale, ne determinare il soggetto con il contesto",
+        "Rendere ogni passaggio difendibile e traducibile istituzionalmente"
       ],
-      "tone": "autorevole, diretto, strutturato, difendibile",
-      "forbidden_patterns": ["neuroriduzionismo come unico argomento", "over-promise", "riduzione del bambino a investimento", "vaghezza non traducibile"]
+      "tone": "sobrio, autorevole, analitico, non deterministico, attento alle strutture e al soggetto",
+      "forbidden_patterns": [
+        "neuroriduzionismo come unico argomento",
+        "over-promise / onnipotenza dell'intervento",
+        "riduzione del bambino a investimento o a capitale umano",
+        "determinismo sociologico e psicologizzazione del sociale",
+        "vaghezza non traducibile"
+      ]
     },
-    "file_path": "Schede di ambito/Politico.md",
+    "file_path": "Schede di ambito/Istituzionale.md",
     "status": "approved",
-    "version": "1.0",
-    "owner_type": "hcaire",
-    "owner_id": "user-001"
-  },
-  {
-    "id": "sk-011",
-    "name": "Skill di ambito — Sociologico",
-    "slug": "skill-ambito-sociologico",
-    "skill_type": "di_ambito",
-    "description": "Skill operativa per la produzione di output nell'ambito sociologico. Orienta verso la lettura dei determinanti strutturali mantenendo il soggetto visibile.",
-    "instruction_payload": {
-      "area_sheet_id": "as-005",
-      "key_directives": [
-        "Distinguere sempre fattori individuali da fattori strutturali",
-        "Mantenere il soggetto visibile anche nell'analisi strutturale",
-        "Non psicologizzare ciò che è strutturalmente sociale",
-        "Non determinare il soggetto con il contesto",
-        "Riconoscere i limiti strutturali reali senza rassegnazione"
-      ],
-      "tone": "analitico, non deterministico, attento alle strutture e al soggetto",
-      "forbidden_patterns": ["determinismo sociologico", "psicologizzazione del sociale", "perdita del soggetto", "universalismo non contestualizzato"]
-    },
-    "file_path": "Schede di ambito/Sociologico.md",
-    "status": "approved",
-    "version": "1.0",
+    "version": "2.0",
     "owner_type": "hcaire",
     "owner_id": "user-001"
   }

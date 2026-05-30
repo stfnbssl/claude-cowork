@@ -2,6 +2,8 @@
 ## Versione 2.0 — dopo gli interventi delle Priorità 1–5
 *Prodotta: 16 aprile 2026*
 
+> **Nota (2026-05-24).** Verifica precedente alla migrazione v2.0 (5 ambiti, enumerazione dei nodi precedente). **Superata da `Verifica-coerenza-schede-ambito-v3.md`**, condotta sul nuovo apparato — 7 Nodi Trasversali canonici N1–N7, 4 contesti canonici. Conservata come archivio.
+
 ---
 
 ## 1. Mappa di copertura aggiornata

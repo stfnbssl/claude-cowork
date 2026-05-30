@@ -34,24 +34,13 @@
   },
   {
     "id": "da-004",
-    "name": "Politico",
-    "slug": "politico",
-    "description": "Ambito che supporta decisori istituzionali e policy maker nella comprensione e progettazione di politiche per l'infanzia e lo sviluppo.",
-    "purpose": "Tradurre il framework HCAIRE in linguaggio istituzionale senza banalizzarlo. Orientare investimenti e politiche verso le fondamenta dello sviluppo, non solo verso i sintomi visibili.",
-    "language_style": "Autorevole, diretto, strutturato. Adatto a brief istituzionali, note orientative, documenti di policy. Evitare vaghezza e accademia non traducibile. Rendere ogni passaggio difendibile.",
-    "risk_profile": "Riduzione a indicatori misurabili, perdita del soggetto, onnipotenza politica, over-promise, neuroriduzionismo, economicismo.",
+    "name": "Istituzionale/servizi",
+    "slug": "istituzionale-servizi",
+    "description": "Ambito che supporta chi opera al livello dei sistemi che sostengono lo sviluppo del bambino — decisori pubblici, dirigenti di servizi, progettisti di interventi, reti territoriali — tenendo insieme il livello delle politiche e quello delle condizioni sociali strutturali.",
+    "purpose": "Rendere visibili le condizioni strutturali dello sviluppo (sociali, materiali, organizzative); orientare politiche, organizzazione dei servizi e priorita di intervento verso le fondamenta dello sviluppo; evitare letture individualizzanti di problemi strutturali; sostenere l'integrazione tra settori e una visione di lungo periodo.",
+    "language_style": "Sobrio, sintetico, analitico, argomentativo, istituzionale. Adatto a policy brief, note di indirizzo, report di contesto, documenti di progettazione. Distinguere i livelli (individuale, relazionale, strutturale); rendere ogni passaggio difendibile; evitare retorica e accademia non traducibile.",
+    "risk_profile": "Psicologizzazione del sociale, determinismo sociologico, tecnocratizzazione, riduzione a indicatori, neuroriduzionismo, economicismo, onnipotenza dell'intervento (over-promise), separazione tra livelli.",
     "status": "approved",
-    "version": "1.0"
-  },
-  {
-    "id": "da-005",
-    "name": "Sociologico",
-    "slug": "sociologico",
-    "description": "Ambito che supporta la comprensione dei determinanti strutturali dello sviluppo infantile e l'analisi delle condizioni sociali che favoriscono o ostacolano il benessere.",
-    "purpose": "Rendere visibili i fattori strutturali (povertà, disuguaglianza, isolamento, contesti migratori) che impattano sullo sviluppo. Evitare la psicologizzazione del sociale.",
-    "language_style": "Analitico, attento alle strutture, non deterministico. Distinguere fattori individuali da fattori strutturali. Mantenere il soggetto visibile anche nell'analisi sistemica.",
-    "risk_profile": "Determinismo sociologico, psicologizzazione del sociale, perdita del soggetto nell'analisi strutturale, universalismo astratto.",
-    "status": "approved",
-    "version": "1.0"
+    "version": "2.0"
   }
 ]

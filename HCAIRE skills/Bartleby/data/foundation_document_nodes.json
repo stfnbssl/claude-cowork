@@ -75,66 +75,42 @@
     "foundation_document_id": "fd-002",
     "concept_node_id": "N1",
     "relation_type": "attivazione",
-    "notes": "Il Motore di traducibilita definisce gli operatori di lettura per il nodo Regolazione / Integrazione dell'esperienza."
+    "notes": "La Pipeline di traducibilita canonica (rinvio) operativizza il nodo Regolazione / Integrazione dell'esperienza come uno dei suoi 7 operatori (Fase 2)."
   },
   {
     "foundation_document_id": "fd-002",
     "concept_node_id": "N2",
     "relation_type": "attivazione",
-    "notes": "Il Motore di traducibilita definisce gli operatori di lettura per il nodo Campo relazionale / Co-regolazione."
+    "notes": "La Pipeline di traducibilita canonica (rinvio) operativizza il nodo Campo relazionale / Co-regolazione come uno dei suoi 7 operatori (Fase 2)."
   },
   {
     "foundation_document_id": "fd-002",
     "concept_node_id": "N3",
     "relation_type": "attivazione",
-    "notes": "Il Motore di traducibilita definisce gli operatori di lettura per il nodo Accesso al mondo condiviso simbolico."
+    "notes": "La Pipeline di traducibilita canonica (rinvio) operativizza il nodo Accesso al mondo condiviso simbolico come uno dei suoi 7 operatori (Fase 2)."
   },
   {
     "foundation_document_id": "fd-002",
     "concept_node_id": "N4",
     "relation_type": "attivazione",
-    "notes": "Il Motore di traducibilita definisce gli operatori di lettura per il nodo Apertura / Esplorabilità del mondo."
+    "notes": "La Pipeline di traducibilita canonica (rinvio) operativizza il nodo Apertura / Esplorabilità del mondo come uno dei suoi 7 operatori (Fase 2)."
   },
   {
     "foundation_document_id": "fd-002",
     "concept_node_id": "N5",
     "relation_type": "attivazione",
-    "notes": "Il Motore di traducibilita definisce gli operatori di lettura per il nodo Separazione / Limite reale."
+    "notes": "La Pipeline di traducibilita canonica (rinvio) operativizza il nodo Separazione / Limite reale come uno dei suoi 7 operatori (Fase 2)."
   },
   {
     "foundation_document_id": "fd-002",
     "concept_node_id": "N7",
     "relation_type": "attivazione",
-    "notes": "Il Motore di traducibilita definisce gli operatori di lettura per il nodo Desiderio / Direzione dell'esperienza."
+    "notes": "La Pipeline di traducibilita canonica (rinvio) operativizza il nodo Desiderio / Direzione dell'esperienza come uno dei suoi 7 operatori (Fase 2)."
   },
   {
-    "foundation_document_id": "fd-003",
-    "concept_node_id": "N1",
-    "relation_type": "traduzione-interdisciplinare",
-    "notes": "La Matrice mappa le traduzioni del nodo Regolazione / Integrazione dell'esperienza nei linguaggi dei diversi ambiti."
-  },
-  {
-    "foundation_document_id": "fd-003",
-    "concept_node_id": "N2",
-    "relation_type": "traduzione-interdisciplinare",
-    "notes": "La Matrice mappa le traduzioni del nodo Campo relazionale / Co-regolazione nei linguaggi dei diversi ambiti."
-  },
-  {
-    "foundation_document_id": "fd-003",
-    "concept_node_id": "N3",
-    "relation_type": "traduzione-interdisciplinare",
-    "notes": "La Matrice mappa le traduzioni del nodo Accesso al mondo condiviso simbolico nei linguaggi dei diversi ambiti."
-  },
-  {
-    "foundation_document_id": "fd-003",
-    "concept_node_id": "N5",
-    "relation_type": "traduzione-interdisciplinare",
-    "notes": "La Matrice mappa le traduzioni del nodo Separazione / Limite reale nei linguaggi dei diversi ambiti."
-  },
-  {
-    "foundation_document_id": "fd-003",
-    "concept_node_id": "N7",
-    "relation_type": "traduzione-interdisciplinare",
-    "notes": "La Matrice mappa le traduzioni del nodo Desiderio / Direzione dell'esperienza nei linguaggi dei diversi ambiti."
+    "foundation_document_id": "fd-002",
+    "concept_node_id": "N6",
+    "relation_type": "attivazione",
+    "notes": "La Pipeline di traducibilita canonica (rinvio) operativizza il nodo Continuità temporale del Sé nascente come uno dei suoi 7 operatori (Fase 2)."
   }
 ]

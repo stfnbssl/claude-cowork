@@ -1,5 +1,7 @@
 # Modello dati di Bartleby - Entità e relazioni
 
+> **Nota di allineamento (2026-05-24).** Gli esempi di ConceptNode e DomainArea in questo documento sono aggiornati ai 7 Nodi Trasversali canonici N1–N7 e ai 4 contesti canonici. Il modello delle entità resta valido; per la ridefinizione complessiva di Bartleby vedi `Bartleby/Ipotesi di ridefinizione.md`.
+
 Ogni entità è organizzata così:
 
 * **Tipo di dato**
@@ -45,9 +47,8 @@ Documento fondativo prodotto da HCAIRE. Rappresenta un testo-madre che definisce
 **Esempi**
 
 * Carta fondativa
-* Motore di traducibilità
-* Matrice interdisciplinare
-* Atlante dei nodi trasversali
+* Pipeline di traducibilità (canonica) — rinvio
+* Atlante dei nodi trasversali (v2.0)
 
 | Dato elementare | Descrizione                                          |
 | --------------- | ---------------------------------------------------- |
@@ -89,9 +90,9 @@ Nodo concettuale trasversale del modello.
 
 **Esempi**
 
-* relazione adulto-bambino
-* linguaggio e significato condiviso
-* regolazione/co-regolazione
+* N1 — Regolazione / Integrazione dell'esperienza
+* N2 — Campo relazionale / Co-regolazione
+* N3 — Accesso al mondo condiviso simbolico
 
 | Dato elementare      | Descrizione                                      |
 | -------------------- | ------------------------------------------------ |
@@ -132,10 +133,9 @@ Ambito generale di applicazione del modello.
 **Esempi**
 
 * genitoriale
-* pedagogico
 * clinico
-* sociologico
-* politico
+* pedagogico
+* istituzionale/servizi
 
 | Dato elementare  | Descrizione                                           |
 | ---------------- | ----------------------------------------------------- |

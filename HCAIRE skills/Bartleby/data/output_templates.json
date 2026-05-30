@@ -31,7 +31,9 @@
         "confronti normativi decontestualizzati"
       ]
     },
-    "applicable_areas": ["da-001"],
+    "applicable_areas": [
+      "da-001"
+    ],
     "status": "approved",
     "version": "1.0"
   },
@@ -68,7 +70,9 @@
         "separazione del bambino dal suo contesto"
       ]
     },
-    "applicable_areas": ["da-002"],
+    "applicable_areas": [
+      "da-002"
+    ],
     "status": "approved",
     "version": "1.0"
   },
@@ -104,7 +108,9 @@
         "prescrizioni rigide o ricette universali"
       ]
     },
-    "applicable_areas": ["da-003"],
+    "applicable_areas": [
+      "da-003"
+    ],
     "status": "approved",
     "version": "1.0"
   },
@@ -139,7 +145,10 @@
         "fusione tra dato osservato e diagnosi"
       ]
     },
-    "applicable_areas": ["da-002", "da-003"],
+    "applicable_areas": [
+      "da-002",
+      "da-003"
+    ],
     "status": "approved",
     "version": "1.0"
   },
@@ -175,7 +184,10 @@
         "perdita del soggetto nell'analisi sistemica"
       ]
     },
-    "applicable_areas": ["da-002", "da-005"],
+    "applicable_areas": [
+      "da-002",
+      "da-004"
+    ],
     "status": "approved",
     "version": "1.0"
   },
@@ -213,7 +225,9 @@
         "vaghezza non traducibile in orientamenti"
       ]
     },
-    "applicable_areas": ["da-004"],
+    "applicable_areas": [
+      "da-004"
+    ],
     "status": "approved",
     "version": "1.0"
   },
@@ -250,7 +264,12 @@
         "chiusure premature"
       ]
     },
-    "applicable_areas": ["da-001", "da-002", "da-003", "da-004", "da-005"],
+    "applicable_areas": [
+      "da-001",
+      "da-002",
+      "da-003",
+      "da-004"
+    ],
     "status": "approved",
     "version": "1.0"
   }

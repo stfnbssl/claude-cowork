@@ -1,6 +1,8 @@
 # VERIFICA DI COERENZA — Schede di Ambito ↔ Skill di Fondamento
 *Prodotta: 16 aprile 2026 | Versione: 1.0*
 
+> **Nota (2026-05-24).** Documento di archivio, precedente alla migrazione v2.0 (7 nodi canonici N1–N7, 4 contesti). Conservato come storico.
+
 ---
 
 ## Premessa metodologica

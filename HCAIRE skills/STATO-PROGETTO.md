@@ -80,55 +80,57 @@ Aggiunto: scuola come istituzione che organizza il campo di esperienza; tecnolog
 HCAIRE skills/
 ├── CLAUDE.md
 ├── STATO-PROGETTO.md                         ← questo file
-├── Verifica-coerenza-schede-ambito.md        ← v1.0 (archivio)
-├── Verifica-coerenza-schede-ambito-v2.md     ← ✅ aggiornata oggi
-├── Mappa-corrispondenza-terminologica.md     ← ✅ creata oggi
+├── Migrazione-nodi-trasversali.md            ← ✅ mappa migrazione 10→N1-N7 (v2.0)
+├── Verifica-coerenza-schede-ambito.md        ← v1.0 (archivio, pre-v2.0)
+├── Verifica-coerenza-schede-ambito-v2.md     ← v2.0 (archivio, pre-migrazione)
+├── Verifica-coerenza-schede-ambito-v3.md     ← ✅ v3.0 — sul nuovo apparato (7 nodi, 4 contesti)
+├── Mappa-corrispondenza-terminologica.md     ← ✅ v2.0 (4 contesti, 7 nodi)
 ├── Documenti fondativi/
 │   ├── Carta fondativa.md
-│   ├── Motore di traducibilità.md
-│   ├── Matrice di traduzione interdisciplinare.md
-│   ├── Atlante nodi trasversali.md
+│   ├── Pipeline di traducibilità (canonica).md   ← ✅ rinvio canonico (v2.0)
+│   ├── Atlante nodi trasversali.md               ← ✅ v2.0 — 7 nodi canonici N1-N7
+│   ├── Output Bartleby — fondamenti e scelte.md  ← ✅ basi fondative degli output Bartleby (v1.0)
 │   └── Scheda di ambito HCAIRE.md
 ├── Skill di fondamento/
-│   ├── Skill-Asse1-Ontologico-fenomenologico.md  ← v1.1 (aggiornata oggi)
+│   ├── Skill-Asse1-Ontologico-fenomenologico.md
 │   ├── Skill-Asse2-Affettivo-morale.md
 │   ├── Skill-Asse3-Normativo-educativo.md
 │   ├── Skill-Asse4-Separazione-e-Limite.md
 │   ├── Skill-Asse5-Desiderio.md
 │   └── Skill-Asse6-Storico-culturale.md
-├── Schede di ambito/
-│   ├── Genitoriale.md     ← aggiornata oggi (A2, A4 già presente, A6)
-│   ├── Clinico.md         ← aggiornata oggi (A2, A4, A5, A6)
-│   ├── Pedagogico.md      ← aggiornata oggi (A2, A4, A6)
-│   ├── Politico.md        ← aggiornata oggi (A2, A4)
-│   └── Sociologico.md     ← aggiornata oggi (A2, A4)
-├── Schede nodo trasversale/
-│   └── Relazione adulto-bambino
+├── Schede di ambito/                         ← ✅ 4 contesti canonici
+│   ├── Genitoriale.md
+│   ├── Clinico.md
+│   ├── Pedagogico.md
+│   └── Istituzionale.md                      ← ✅ v2.0 — fonde Politico + Sociologico
 ├── Repertorio tracce di esempio/
 │   ├── CLAUDE.md
 │   └── Corpus-tracce-v1.md
 ├── Simulazioni/
 │   ├── README.md
 │   ├── Simulazione-01-T-G03.md
-│   └── Simulazione-02-T-PI01.md    ← ✅ aggiunta nella seconda sessione
+│   └── Simulazione-02-T-PI01.md
 └── Bartleby/
     ├── CLAUDE.md
+    ├── CLAUDE_webapp.md
     ├── Modello app.md
     ├── Modello dati.md
-    └── data/                        ← ✅ Batch 1 completato nella terza sessione
+    ├── Motore di lettura della traccia.md    ← ✅ v2.0 — motore operativo Bartleby
+    ├── Ipotesi di ridefinizione.md           ← ✅ ipotesi di ridefinizione (verso v2)
+    └── data/                                 ← ✅ migrato alla v2.0
         ├── foundation_documents.json   (4)
-        ├── concept_nodes.json          (10)
-        ├── domain_areas.json           (5)
-        ├── area_sheets.json            (5)
-        ├── skills.json                 (11)
+        ├── concept_nodes.json          (7)
+        ├── domain_areas.json           (4)
+        ├── area_sheets.json            (4)
+        ├── skills.json                 (10)
         ├── output_templates.json       (7)
         ├── input_traces.json           (17)
         ├── output_documents.json       (2)
         ├── users.json                  (2)
-        ├── foundation_document_nodes.json (36)
-        ├── area_sheet_nodes.json       (34)
-        ├── skill_nodes.json            (54)
-        └── skill_areas.json            (35)
+        ├── foundation_document_nodes.json (23)
+        ├── area_sheet_nodes.json       (22)
+        ├── skill_nodes.json            (44)
+        └── skill_areas.json            (28)
 ```
 
 ---
@@ -248,10 +250,28 @@ Prodotti tutti i file JSON seed per avviare la programmazione di Bartleby (Claud
 #### Batch 2 — deferred
 
 Da produrre in fase successiva:
-- `translation_rules.json` — richiede lettura completa del Motore di traducibilità
+- `translation_rules.json` — richiede lettura completa della Pipeline di traducibilità (rinvio canonico) e del Motore di lettura della traccia (Bartleby)
 - `user_customization_profiles.json` — quando ci sono utenti reali
 - `governance_decisions.json` — quando il comitato HCAIRE approva formalmente
 - `source_documents.json` — fonti bibliografiche esterne (Heckman, ricerche citate)
+
+---
+
+## Sessione 2026-05-24 — Migrazione v2.0: 7 nodi canonici e 4 contesti
+
+Allineamento dell'intero progetto al fondamento ufficiale (`04 Memorie di contesto fondamentali/Metodo-fasi-concetti.md`): adozione dei **7 Nodi Trasversali canonici N1–N7** (al posto dei 10 nodi della v1) e dei **4 contesti canonici** (al posto dei 5 ambiti — Politico e Sociologico fusi in Istituzionale/servizi).
+
+**Livello fondativo.** `Documenti fondativi/Atlante nodi trasversali.md` riscritto alla v2.0 sui 7 nodi. Creato `Migrazione-nodi-trasversali.md` con la mappa di migrazione 10→N1-N7.
+
+**Dati seed Bartleby** (`Bartleby/data/`). `concept_nodes.json` 10→7 record (N1-N7); `domain_areas.json` e `area_sheets.json` 5→4; `skills.json` 11→10 (skill di ambito Politico+Sociologico fuse in Istituzionale/servizi). Tabelle ponte rimappate: `foundation_document_nodes` 36→23, `area_sheet_nodes` 34→22, `skill_nodes` 54→44, `skill_areas` 35→28. `input_traces.json`: `activated_nodes` rimappati + nuovo campo `activated_axes`. Tutti i riferimenti incrociati validati. Totale: 13 file, 174 record.
+
+**Contenuto del modello.** Schede di ambito 5→4 (creata `Istituzionale.md`; eliminate `Politico.md` e `Sociologico.md`); §8 di ogni scheda riscritto sui 7 nodi. `Skill-Asse1` e `Mappa-corrispondenza-terminologica.md` (v2.0) aggiornate.
+
+**Documenti di sistema e di tracciamento.** `Bartleby/CLAUDE_webapp.md`, `CLAUDE.md` di root, `Bartleby/Modello dati.md`, `Bartleby/Modello app.md` aggiornati ai 7 nodi e 4 contesti; verifiche di coerenza e corpus tracce annotati per l'allineamento.
+
+**Completamento (2026-05-24).** Re-annotazione del corpus tracce ai 7 nodi canonici (`Repertorio tracce di esempio/Corpus-tracce-v1.md`) e ri-verifica di coerenza schede↔skill sul nuovo apparato (`Verifica-coerenza-schede-ambito-v3.md`) eseguite.
+
+**Pendenze residue.** Chiusura dei gap rilevati dalla v3 (A3 in Genitoriale e Clinico, A5 in Genitoriale, nodi N4 e N6 poco coperti); evoluzione dei documenti di sistema e del prototipo verso Bartleby v2 (vedi `Bartleby/Ipotesi di ridefinizione.md`).
 
 ---
 

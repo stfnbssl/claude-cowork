@@ -133,6 +133,12 @@
   },
   {
     "skill_id": "sk-007",
+    "concept_node_id": "N1",
+    "relation_type": "operativo",
+    "notes": "Skill di ambito Genitoriale: nodo di priorita primaria nell'ambito."
+  },
+  {
+    "skill_id": "sk-007",
     "concept_node_id": "N2",
     "relation_type": "operativo",
     "notes": "Skill di ambito Genitoriale: nodo di priorita primaria nell'ambito."
@@ -145,19 +151,13 @@
   },
   {
     "skill_id": "sk-007",
-    "concept_node_id": "N7",
-    "relation_type": "operativo",
-    "notes": "Skill di ambito Genitoriale: nodo di priorita secondaria nell'ambito."
-  },
-  {
-    "skill_id": "sk-007",
-    "concept_node_id": "N1",
-    "relation_type": "operativo",
-    "notes": "Skill di ambito Genitoriale: nodo di priorita secondaria nell'ambito."
-  },
-  {
-    "skill_id": "sk-007",
     "concept_node_id": "N5",
+    "relation_type": "operativo",
+    "notes": "Skill di ambito Genitoriale: nodo di priorita secondaria nell'ambito."
+  },
+  {
+    "skill_id": "sk-007",
+    "concept_node_id": "N7",
     "relation_type": "operativo",
     "notes": "Skill di ambito Genitoriale: nodo di priorita secondaria nell'ambito."
   },
@@ -208,6 +208,12 @@
     "concept_node_id": "N7",
     "relation_type": "operativo",
     "notes": "Skill di ambito Pedagogico: nodo di priorita primaria nell'ambito."
+  },
+  {
+    "skill_id": "sk-009",
+    "concept_node_id": "N1",
+    "relation_type": "operativo",
+    "notes": "Skill di ambito Pedagogico: nodo di priorita secondaria nell'ambito."
   },
   {
     "skill_id": "sk-009",
@@ -217,44 +223,44 @@
   },
   {
     "skill_id": "sk-010",
-    "concept_node_id": "N5",
+    "concept_node_id": "N1",
     "relation_type": "operativo",
-    "notes": "Skill di ambito Politico: nodo di priorita secondaria nell'ambito."
-  },
-  {
-    "skill_id": "sk-010",
-    "concept_node_id": "N7",
-    "relation_type": "operativo",
-    "notes": "Skill di ambito Politico: nodo di priorita secondaria nell'ambito."
+    "notes": "Skill di ambito Istituzionale/servizi: nodo di priorita primaria nell'ambito."
   },
   {
     "skill_id": "sk-010",
     "concept_node_id": "N2",
     "relation_type": "operativo",
-    "notes": "Skill di ambito Politico: nodo di priorita secondaria nell'ambito."
+    "notes": "Skill di ambito Istituzionale/servizi: nodo di priorita primaria nell'ambito."
   },
   {
-    "skill_id": "sk-011",
-    "concept_node_id": "N5",
+    "skill_id": "sk-010",
+    "concept_node_id": "N6",
     "relation_type": "operativo",
-    "notes": "Skill di ambito Sociologico: nodo di priorita secondaria nell'ambito."
+    "notes": "Skill di ambito Istituzionale/servizi: nodo di priorita primaria nell'ambito."
   },
   {
-    "skill_id": "sk-011",
-    "concept_node_id": "N7",
+    "skill_id": "sk-010",
+    "concept_node_id": "N3",
     "relation_type": "operativo",
-    "notes": "Skill di ambito Sociologico: nodo di priorita secondaria nell'ambito."
+    "notes": "Skill di ambito Istituzionale/servizi: nodo di priorita secondaria nell'ambito."
   },
   {
-    "skill_id": "sk-011",
+    "skill_id": "sk-010",
     "concept_node_id": "N4",
     "relation_type": "operativo",
-    "notes": "Skill di ambito Sociologico: nodo di priorita secondaria nell'ambito."
+    "notes": "Skill di ambito Istituzionale/servizi: nodo di priorita secondaria nell'ambito."
   },
   {
-    "skill_id": "sk-011",
-    "concept_node_id": "N2",
+    "skill_id": "sk-010",
+    "concept_node_id": "N5",
     "relation_type": "operativo",
-    "notes": "Skill di ambito Sociologico: nodo di priorita secondaria nell'ambito."
+    "notes": "Skill di ambito Istituzionale/servizi: nodo di priorita secondaria nell'ambito."
+  },
+  {
+    "skill_id": "sk-010",
+    "concept_node_id": "N7",
+    "relation_type": "operativo",
+    "notes": "Skill di ambito Istituzionale/servizi: nodo di priorita secondaria nell'ambito."
   }
 ]

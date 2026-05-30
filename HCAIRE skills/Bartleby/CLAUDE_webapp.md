@@ -24,20 +24,22 @@ Per la specifica completa di ogni entità (campi, tipi, relazioni M:M) consultar
 
 **Famiglia A — Fondativi**
 
+> **Allineamento v2.0 (2026-05-24).** I dati seed sono allineati al fondamento ufficiale: 7 Nodi Trasversali canonici N1–N7 (al posto dei 10 nodi precedenti) e 4 contesti canonici (al posto dei 5 ambiti). Vedi `Migrazione-nodi-trasversali.md` e `Documenti fondativi/Atlante nodi trasversali.md` v2.0.
+
 | File | Record | Contenuto |
 |------|--------|-----------|
 | `foundation_documents.json` | 4 | Documenti fondativi HCAIRE. Campi principali: id, type, title, summary, file_path. Nessun campo body (testi originali su Google Drive). |
-| `concept_nodes.json` | 10 | Nodi concettuali trasversali. Payload completo: definition, why_transversal, typical_manifestations, area_lexicons, guiding_questions, presence_indicators, impoverishment_indicators. |
-| `domain_areas.json` | 5 | Ambiti operativi (Genitoriale, Clinico, Pedagogico, Politico, Sociologico). Campi: name, purpose, language_style, risk_profile. |
-| `area_sheets.json` | 5 | Schede di ambito operative, una per dominio. Campi: scope, priority_dimensions, typical_configurations, reduction_risks, guiding_questions, allowed_output_types, language_rules, quality_indicators. |
-| `skills.json` | 11 | 6 skill fondative (Asse 1–6) + 5 skill di ambito (una per dominio). Ogni skill ha instruction_payload strutturato. `owner_type: "hcaire"` per tutte le skill di questo batch. |
+| `concept_nodes.json` | 7 | I 7 Nodi Trasversali canonici N1–N7 (Atlante v2.0). Payload completo: definition, why_transversal, axes_involved, typical_manifestations, area_lexicons, guiding_questions, reduction_risks, presence_indicators, impoverishment_indicators, related_nodes. |
+| `domain_areas.json` | 4 | I 4 contesti canonici (Genitoriale, Clinico, Pedagogico, Istituzionale/servizi). Campi: name, purpose, language_style, risk_profile. |
+| `area_sheets.json` | 4 | Schede di ambito operative, una per contesto. Campi: scope, priority_dimensions, typical_configurations, reduction_risks, guiding_questions, allowed_output_types, language_rules, quality_indicators. |
+| `skills.json` | 10 | 6 skill fondative (Asse 1–6) + 4 skill di ambito (una per contesto). Ogni skill ha instruction_payload strutturato. `owner_type: "hcaire"` per tutte le skill di questo batch. |
 | `output_templates.json` | 7 | Template di output: guida-genitoriale, nota-clinico-riflessiva, guida-educativa, griglia-osservazionale, analisi-di-caso, policy-brief, articolo-riflessione. Campi: structure_schema, audience_type, language_constraints, applicable_areas. |
 
 **Famiglia B — Dati di esempio e test**
 
 | File | Record | Contenuto |
 |------|--------|-----------|
-| `input_traces.json` | 17 | Corpus di tracce di riferimento HCAIRE (T-G01..06, T-C01..04, T-P01..03, T-S01..02, T-PI01..02). Campi: corpus_id, raw_text, context_notes, target_output_type, requested_area_id, activated_nodes, trace_type. |
+| `input_traces.json` | 17 | Corpus di tracce di riferimento HCAIRE (T-G01..06, T-C01..04, T-P01..03, T-S01..02, T-PI01..02). Campi: corpus_id, raw_text, context_notes, target_output_type, requested_area_id, activated_nodes (N1–N7), activated_axes (A1–A6), trace_type. |
 | `output_documents.json` | 2 | Simulazioni già prodotte (T-G03, T-PI01). Il body completo è nei file .md indicati in file_path. |
 
 **Famiglia C — Utenti stub**
@@ -50,10 +52,10 @@ Per la specifica completa di ogni entità (campi, tipi, relazioni M:M) consultar
 
 | File | Record | Relazione |
 |------|--------|-----------|
-| `foundation_document_nodes.json` | 36 | FoundationDocument ↔ ConceptNode (relation_type: origine / supporto / attivazione / traduzione-interdisciplinare) |
-| `area_sheet_nodes.json` | 34 | AreaSheet ↔ ConceptNode (con priority_in_area: primario / secondario) |
-| `skill_nodes.json` | 54 | Skill ↔ ConceptNode (relation_type: fondamento-diretto / fondamento-indiretto / operativo) |
-| `skill_areas.json` | 35 | Skill ↔ DomainArea (relation_type: fondamento / fondamento-principale / principale) |
+| `foundation_document_nodes.json` | 23 | FoundationDocument ↔ ConceptNode (relation_type: origine / supporto / attivazione / traduzione-interdisciplinare) |
+| `area_sheet_nodes.json` | 22 | AreaSheet ↔ ConceptNode (con priority_in_area: primario / secondario) |
+| `skill_nodes.json` | 44 | Skill ↔ ConceptNode (relation_type: fondamento-diretto / operativo) |
+| `skill_areas.json` | 28 | Skill ↔ DomainArea (relation_type: fondamento / fondamento-principale / principale) |
 
 ---
 
@@ -72,7 +74,7 @@ Server locale (desktop)
   → riceve il job
   → legge dal DB: traccia + skill HCAIRE rilevanti + skill utente
   → avvia child process Claude Cowork con questo contesto
-  → Claude Cowork elabora (Moduli A–F del Motore di traducibilità)
+  → Claude Cowork elabora (Motore di lettura della traccia — Bartleby, v2.0)
   → salva in MongoDB: TraceInterpretation + GenerationPlan + OutputDocument
 
 Webapp
@@ -116,7 +118,7 @@ La navigazione deve essere bidirezionale: da un nodo si arriva alle skill, da un
 Form per l'inserimento di una nuova traccia con:
 - Testo libero (raw_text) — obbligatorio
 - Note di contesto (context_notes) — opzionale
-- Ambito richiesto (requested_area_id) — opzionale, select dai 5 DomainArea
+- Ambito richiesto (requested_area_id) — opzionale, select dai 4 DomainArea
 - Tipo di output desiderato (target_output_type) — select dai 7 OutputTemplate
 - Profilo di personalizzazione (se l'utente ne ha uno) — opzionale
 
@@ -165,10 +167,10 @@ Questa sezione di trasparenza è il tratto distintivo del sistema HCAIRE. Non è
 
 ## Stato del seed data
 
-Il Batch 1 è completo e validato (13 file JSON, 302 record). Tutti i file sono JSON valido.
+Il Batch 1 è completo e validato (13 file JSON, 174 record), allineato alla v2.0 (7 nodi canonici, 4 contesti). Tutti i file sono JSON valido.
 
 Entità del Batch 2, non ancora prodotte (deferred):
-- `translation_rules.json` — regole di traducibilità dal Motore di traducibilità
+- `translation_rules.json` — regole di traducibilità dalla Pipeline di traducibilità canonica (rinvio) e dal Motore di lettura (Bartleby)
 - `user_customization_profiles.json` — profili utente (quando ci sono utenti reali)
 - `governance_decisions.json` — decisioni formali del comitato HCAIRE
 - `source_documents.json` — fonti bibliografiche esterne citate negli output

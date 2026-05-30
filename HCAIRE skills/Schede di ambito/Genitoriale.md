@@ -9,8 +9,7 @@
 La scheda di ambito genitoriale usa implicitamente:
 
 * Carta fondativa
-* Motore di traducibilità
-* Matrice interdisciplinare
+* Pipeline di traducibilità (canonica) — rinvio, e Motore di lettura della traccia (Bartleby)
 * Atlante dei nodi trasversali v2.0 (in particolare N2 — Campo relazionale / Co-regolazione)
 
 ## 0. Identificazione

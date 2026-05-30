@@ -113,7 +113,7 @@ La separazione in fasi rafforza il tratto più forte di Bartleby — l'esposizio
 
 La ridefinizione lascia aperte alcune decisioni, che vanno prese prima di qualunque sviluppo.
 
-La prima riguarda l'**enumerazione canonica dei nodi trasversali**: i dieci dell'Atlante, l'insieme della pipeline, o un terzo insieme riconciliato. È una decisione di fondamento e va presa per prima, perché tutto il resto vi si appoggia.
+La prima riguardava l'**enumerazione canonica dei nodi trasversali**: i dieci dell'Atlante, l'insieme della pipeline, o un terzo insieme riconciliato. **Risolta (2026-05-24)**: il progetto ha adottato i 7 Nodi Trasversali canonici N1–N7 del fondamento ufficiale; l'Atlante è stato riscritto (v2.0) e i dati seed e i testi derivati migrati. Vedi `Migrazione-nodi-trasversali.md`.
 
 La seconda riguarda il **rapporto tra prototipo e webapp**. Oggi coesistono un prototipo a trigger (`input_bartleby.md`) e un progetto di webapp (il modello dati, il seed). Vanno chiariti i ruoli: il prototipo come ambiente di sviluppo e collaudo del motore, la webapp come destinazione — oppure un'altra ipotesi. Finché i due convivono senza gerarchia, le incoerenze come quella tra le liste di output (§2.3) si moltiplicheranno.
 

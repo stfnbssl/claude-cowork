@@ -1,7 +1,7 @@
 # CARTELLA SIMULAZIONI HCAIRE
 
 Questa cartella raccoglie le simulazioni del processo HCAIRE completo:
-dalla traccia all'output finale, passando per tutti i moduli del Motore di traducibilità.
+dalla traccia all'output finale, passando per il Motore di lettura della traccia (Bartleby).
 
 ---
 

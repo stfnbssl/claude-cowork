@@ -261,7 +261,7 @@ Inserire un esempio molto breve:
 
 Questa scheda diventa:
 
-* input per il Motore di traducibilità
+* input per il Motore di lettura della traccia (Bartleby)
 * filtro per la generazione
 * riferimento per la revisione
 
