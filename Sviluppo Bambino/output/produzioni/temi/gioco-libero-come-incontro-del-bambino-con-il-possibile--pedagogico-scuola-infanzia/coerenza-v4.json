@@ -1,0 +1,80 @@
+{
+  "step": "f3_step_4",
+  "tema_id": "gioco-libero-come-incontro-del-bambino-con-il-possibile",
+  "domain_selected": "educativo",
+  "results": [
+    {
+      "checks": [
+        {
+          "id": "C1",
+          "label": "Non etichetta il bambino",
+          "outcome": "passa",
+          "motivation": "Il dispositivo è costruito esplicitamente come lettura del campo, non del soggetto. Nelle non_permitted_transformations è dichiarato come non consentito l'uso del dispositivo come strumento di lettura individuale del bambino (per leggere se il suo desiderio è ritratto, ipertrofico, sostituito). Le dimensioni leggono stati del campo, funzioni della co-regolazione e strutture relazionali; nessuna categoria classifica o etichetta il bambino. Lo stesso interpretive_warning 'comportamentismo' nomina esplicitamente il rischio di ridurre la lettura strutturale a caratterizzazione del soggetto e lo respinge. In tutto il dispositivo il bambino è nominato come posizione che si soggettiva nel campo, mai come tipo o categoria diagnostica."
+        },
+        {
+          "id": "C2",
+          "label": "Non richiede diagnosi",
+          "outcome": "passa",
+          "motivation": "Il dispositivo non presuppone informazione diagnostica per essere applicato né produce categorizzazioni cliniche. Gli access_points (tempi non scanditi, incontro col limite, ritorno ricorsivo, riunioni di team) sono situazioni educative quotidiane, non scenari clinici. Le forme di manifestazione (presente / assente / distorta / oscillante / ambigua) descrivono stati strutturali del campo, non condizioni del soggetto. Il dispositivo è esplicitamente situato nel dominio pedagogico dei servizi 0-6 e della scuola dell'infanzia, e nessuna parte rinvia a 'casi di sospetto X' o a procedure di screening."
+        },
+        {
+          "id": "C3",
+          "label": "Modifica interazioni osservabili",
+          "outcome": "passa",
+          "motivation": "Le strutture operative del dispositivo (structural_questions, access_points, articolazione in stati funzionali della co-regolazione, triangolazione obbligatoria) modificano in modo osservabile cosa il professionista guarda, come compone le posture nel team e come restituisce alle famiglie. L'effetto sul campo è descritto in termini di interazione (chi apre il campo, se e come l'altro vi entra, durata della co-presenza, composizione plurale della funzione adulta nel servizio) e non in termini di stato interno del bambino. Il passaggio dalla forma binaria presente/assente agli stati strutturali e funzionali è esso stesso una modifica osservabile dell'interazione di lettura tra professionisti e tra professionisti e famiglie."
+        },
+        {
+          "id": "C4",
+          "label": "Produce nuova leggibilità",
+          "outcome": "passa",
+          "motivation": "Il dispositivo nomina esplicitamente il cieco del dominio educativo (vedere le proposte e non vedere il campo) e costruisce le operazioni che lo rendono leggibile: stati del campo che superano la logica presente/assente, funzioni strutturali della co-regolazione che distinguono registrativa/partecipativa/trasformativa/chiudente, scala temporale a tre livelli (episodio/sequenza/struttura relazionale) che rende leggibile la frammentazione per registri co-presenti, triangolazione dei proxy che disambigua co-produzione vs script. La forma 'ambigua' come informazione strutturale e non come fallimento è essa stessa nuova leggibilità che il dominio educativo non possiede spontaneamente. La distorsione raffinata operante nello stesso lessico critico-pedagogico, prima invisibile per costruzione, diventa nominabile."
+        },
+        {
+          "id": "C5",
+          "label": "Permette rivalutazione della CE",
+          "outcome": "passa",
+          "motivation": "La lettura su tre livelli di scala temporale, la triangolazione dei proxy, la dichiarazione esplicita delle zone di sovrapposizione e l'esito 'ambigua' restituiscono al ricercatore informazione strutturalmente rilevante per rivedere la CE. La dimensione 5 nomina esplicitamente che, quando la triangolazione non è completabile entro il setting, la lettura va rinviata al livello struttura relazionale (biografia in altri contesti, trasferibilità del ritorno): questo rinvio è precisamente un'apertura dell'osservazione verso il livello configurazionale. Il dispositivo non chiude in verdetto ma riapre la lettura, e l'ambiguità dichiarata diventa input per riconsiderare la configurazione."
+        },
+        {
+          "id": "C6",
+          "label": "Mantiene apertura futura",
+          "outcome": "passa",
+          "motivation": "Il dispositivo dichiara esplicitamente la fragilità strutturale (A±) della configurazione come informazione diagnostica essenziale e si rifiuta di trattarla come tecnica replicabile. Non irreversibilizza il campo: gli stati del campo possono cambiare per fasce e nel tempo (forma oscillante), il bambino non viene fissato in identità o traiettoria, le posture eterogenee della co-regolazione non vengono ordinate in gerarchia di adeguatezza. Il warning 'normatività' respinge esplicitamente la conversione delle tensioni strutturali in scala valutativa che chiuderebbe possibilità evolutive."
+        },
+        {
+          "id": "C7",
+          "label": "Non sostituisce il bambino",
+          "outcome": "passa",
+          "motivation": "La funzione del dispositivo è leggere la struttura del campo che sostiene (o erode) la soggettivazione dell'orientamento del bambino come direzione interna. Le funzioni della co-regolazione (in particolare partecipativa e trasformativa) sono descritte come sostegno alla posizione del bambino senza sostituirla; la postura chiudente, che converte il gesto in script, è esplicitamente nominata come funzione di chiusura. La distinzione strutturale tra orientamento autonomo e copione interiorizzato è il cuore del dispositivo, e i proxy del passaggio aperto (asimmetria che non si simmetrizza, residui non assorbiti dal lessico professionale) sono costruiti per nominare proprio la non-sostituzione."
+        },
+        {
+          "id": "C8",
+          "label": "Non aumenta dipendenza",
+          "outcome": "passa",
+          "motivation": "Il dispositivo non costruisce procedure replicabili dipendenti dall'operatore. Le non_permitted_transformations dichiarano esplicitamente come fuori uso la trasformazione del dispositivo in checklist, in indicatori di documentazione pedagogica o in grammatica di autoconvalida del setting. Il campo che il dispositivo apre è autonomo dal dispositivo stesso: la qualità del passaggio trasformativo è leggibile attraverso proxy strutturali, non riprodotta dal dispositivo. Il warning 'tecnicismo' nomina esplicitamente il rischio di trasformare la fragilità strutturale in tecnica e lo respinge."
+        },
+        {
+          "id": "C9",
+          "label": "Genera nuova osservabilità",
+          "outcome": "passa",
+          "motivation": "Quando il dispositivo è in atto diventa osservabile ciò che il dominio non rendeva strutturalmente leggibile: la composizione plurale della funzione adulta nel servizio (sequenza), la frammentazione del campo per registri co-presenti, la differenza strutturale tra postura registrativa e trasformativa (entrambe formalmente non-interventiste), la prestazionalizzazione raffinata operante dentro il lessico critico-pedagogico, la zona di ambiguità irriducibile della configurazione apparente. Il dispositivo non aumenta la quantità di osservazione ma ne riorganizza la direzione strutturale, secondo i tre livelli di scala temporale che non si aggregano quantitativamente."
+        },
+        {
+          "id": "C10",
+          "label": "Si auto-limita",
+          "outcome": "passa_con_riserve",
+          "motivation": "L'auto-limitazione è presente in forma strutturalmente robusta ma distribuita: la dimensione 5 obbliga alla triangolazione e impone la classificazione 'ambigua' quando la triangolazione non è completabile; la dimensione 2 esige che, in assenza di condizioni contestuali identificabili, la lettura rimanga al livello episodico con dichiarazione esplicita dell'autolimitazione; le non_permitted_transformations producono esiti bloccanti (applicazione a singola fascia, uso come autoconvalida, uso come griglia diagnostica individuale). La forma 'ambigua' funge da esito esplicito equivalente a 'non_classificabile/sospendere' e copre il caso 'dato osservativo minimo assente'. Riserva: il dispositivo non raccoglie queste condizioni in un campo dedicato 'non_applicability', ma le distribuisce nelle dimensioni e nelle non_permitted_transformations; la condizione minima 'dato osservativo assente' è coperta solo indirettamente attraverso il vincolo di triangolazione e il rinvio al livello struttura relazionale, non come blocco preliminare di applicabilità."
+        }
+      ],
+      "final_verdict": {
+        "total_checks": 10,
+        "passed": 9,
+        "passed_with_reserves": 1,
+        "failed": 0,
+        "verdict": "valido",
+        "critical_failures": [],
+        "recommended_restart_step": null
+      }
+    }
+  ]
+}

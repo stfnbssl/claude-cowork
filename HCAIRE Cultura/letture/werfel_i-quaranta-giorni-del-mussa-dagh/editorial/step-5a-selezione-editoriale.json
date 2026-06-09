@@ -3,301 +3,382 @@
     "titolo": "I quaranta giorni del Mussa Dagh",
     "autore": "Franz Werfel"
   },
-
   "tesi_editoriale": {
-    "formulazione_accessibile": "I quaranta giorni del Mussa Dagh racconta cosa accade quando una catastrofe storica — il genocidio armeno del 1915 — trasforma un uomo in qualcuno che non ha più un posto dove tornare. Il protagonista Gabriel Bagradian, armeno cresciuto a Parigi, diventa quasi suo malgrado il comandante della resistenza di cinquemila armeni sul monte Mussa Dagh: e questa trasformazione è così profonda e irreversibile che, quando le navi francesi arrivano a salvare i superstiti, Gabriel non riesce a imbarcarsi. Non è un atto eroico né una sconfitta: è l'impossibilità di esistere altrove da dove ci si è diventati se stessi nel modo più pieno.",
-    "relazione_con_tesi_step4": "Riformulazione fedele della tesi dello Step 4, con la terminologia tecnica ('campo intenzionale', 'resto non simbolizzabile') sostituita da formulazioni narrative che rendono immediatamente comprensibile la posta in gioco. Il contenuto interpretativo è invariato: la morte finale come impossibilità strutturale, non come scelta deliberata."
+    "formulazione_accessibile": "I quaranta giorni del Mussa Dagh non è il racconto di una resistenza che cerca di sopravvivere a uno sterminio: è il racconto di una comunità che, sapendosi destinata alla cancellazione, costruisce per quaranta giorni — contro il vuoto preparato per essa — una forma piena di esistenza collettiva. La qualità di quei giorni non si misura sulla salvezza dei sopravvissuti, ma sulla fedeltà a ciò che, alla fine, resta sulla montagna abbandonata e non potrà essere reimbarcato. La morte solitaria di Gabriel Bagradian dopo la salvezza degli altri è il sigillo, non il fallimento, di questa fedeltà.",
+    "relazione_con_tesi_step4": "Riformulazione fedele della tesi del saggio critico, semplificata sintatticamente e alleggerita dal vocabolario fenomenologico tecnico (resto non simbolizzabile, separazione dall'onnipotenza, costituzione del soggetto collettivo). Il contenuto è invariato: la lettura della resistenza come atto fondativo di senso e non come strategia di sopravvivenza; il riconoscimento della morte di Gabriel come fedeltà strutturale e non come lutto privato. L'enfasi editoriale è leggermente spostata sull'immagine concreta della montagna abbandonata, per ancorare subito il lettore a una scena anziché a un concetto."
   },
-
   "elementi_da_includere": {
     "step_1": [
       {
-        "elemento": "Gabriel Bagradian: armeno di nascita, parigino per scelta, marito di Juliette (francese), intellettuale formatosi alla Sorbona",
-        "funzione_editoriale": "Stabilisce immediatamente la divisione identitaria del protagonista: senza questo, il lettore non capisce la posta in gioco della trasformazione"
+        "elemento": "Cornice storica essenziale: il genocidio armeno del 1915, l'ordine di deportazione dei Giovani Turchi, la regione del Musa Dagh nel Sangiaccato di Alessandretta.",
+        "funzione_editoriale": "Senza questa cornice, un lettore che non conosce l'opera non può capire la posta in gioco. Va dosata in poche righe: il fatto storico, non la sua trattazione storiografica."
       },
       {
-        "elemento": "Contesto storico: il genocidio armeno del 1915, gli ordini di deportazione ottomani, la resistenza di cinquemila armeni sul monte Mussa Dagh",
-        "funzione_editoriale": "Orienta il lettore sul contesto senza il quale la vicenda non ha senso. Va presentato come struttura storica sistemica, non come sfondo pittoresco"
+        "elemento": "La struttura tripartita del romanzo e in particolare il titolo del Libro terzo: 'Untergang — Rettung — Untergang' (Catastrofe — Salvezza — Catastrofe).",
+        "funzione_editoriale": "È la chiave strutturale dell'opera. Va citata come tassello formale che il romanzo stesso offre al lettore: la salvezza è incorniciata da due catastrofi, e questo organizza il senso del finale."
       },
       {
-        "elemento": "La struttura del romanzo: tre libri con il titolo palindromico del terzo — 'Untergang Rettung Untergang' (Caduta, Salvezza, Caduta)",
-        "funzione_editoriale": "Il palindromo è la chiave formale dell'intera lettura: va introdotto per tempo, in modo che il lettore possa ritornarci nella sezione interpretativa"
+        "elemento": "I personaggi essenziali: Gabriel Bagradian (armeno-parigino, ex ufficiale ottomano, guida della resistenza), suo figlio Stephan, Ter Haigasun (sacerdote-monaco, autorità religiosa), Sarkis Kilikian (figura dissidente e cupa), Johannes Lepsius (pastore tedesco, figura storica).",
+        "funzione_editoriale": "Il lettore deve riconoscere i nomi mano a mano che compaiono nel testo. Vanno presentati nel momento in cui entrano in scena, non in un elenco iniziale."
       },
       {
-        "elemento": "La scelta autoriale del numero quaranta: condensazione di 53 giorni storici in 40 simbolici (diluvio, Sinai, deserto evangelico)",
-        "funzione_editoriale": "Mostra che Werfel lavora consapevolmente sulla dimensione simbolica, non solo su quella storica. Utile nella sezione 'percorso di lettura' per mostrare che l'opera invita l'interpretazione"
+        "elemento": "La discrepanza tra durata storica della resistenza (circa cinquantatré giorni) e durata simbolica del titolo (quaranta giorni), con risonanze bibliche (diluvio, Sinai, Quaresima).",
+        "funzione_editoriale": "Dato editorialmente fortissimo: rivela in una sola informazione che il romanzo non vuole essere cronaca ma figura. Va valorizzato come pietra angolare della lettura."
       },
       {
-        "elemento": "Origine del romanzo: l'incontro di Werfel nel 1929 a Damasco con orfani armeni sopravvissuti al genocidio",
-        "funzione_editoriale": "Ancora il romanzo a un'esperienza concreta dell'autore, dà al lettore un punto di accesso emotivo prima che cominci la lettura critica"
+        "elemento": "Il contesto di scrittura: 1933, Vienna, ascesa del nazionalsocialismo, Werfel ebreo praghese di lingua tedesca.",
+        "funzione_editoriale": "Permette di dare al romanzo la sua statura novecentesca senza appesantirlo: la circolazione del libro nei ghetti durante la Shoah (in particolare la testimonianza su Białystok) può essere accennata con sobrietà."
       },
       {
-        "elemento": "Contesto della pubblicazione: novembre 1933, Werfel ebreo austriaco, il libro immediatamente messo al bando in Germania; ricezione nel ghetto di Varsavia come simbolo di resistenza",
-        "funzione_editoriale": "Mostra la rilevanza politica immediata del romanzo: scritto mentre la stessa macchina che aveva colpito gli armeni si rimetteva in moto. Questo è indispensabile per il lettore contemporaneo"
-      },
-      {
-        "elemento": "La morte di Stephan Bagradian: il figlio adolescente scende dal monte da solo di notte, viene catturato e ucciso",
-        "funzione_editoriale": "La perdita più concreta e narrativamente chiara del romanzo. Accessibile a qualunque lettore senza bisogno di spiegazioni."
-      },
-      {
-        "elemento": "I fuochi di segnalazione sulla scogliera e l'arrivo delle navi francesi",
-        "funzione_editoriale": "Scena visivamente potente e narrativamente risolutiva: mette in forma la tensione tra visibile e invisibile in modo immediatamente comprensibile"
+        "elemento": "L'esistenza concreta sull'altipiano: trincee, depositi viveri, ospedale da campo del dottor Altouni, scuola, consiglio dei capi, milizia, funzioni religiose.",
+        "funzione_editoriale": "Sono gli elementi materiali che permettono di mostrare — non solo affermare — che la comunità costruisce una piccola polis e non un bivacco di rifugiati. Devono comparire come dettagli concreti, non come elenco."
       }
     ],
     "step_2": [
       {
-        "elemento": "La tensione centrale: identità costruita per scelta (il Gabriel parigino) vs. identità forgiata dalla catastrofe (il Gabriel armeno, comandante)",
-        "funzione_editoriale": "È il nucleo tematico più accessibile del romanzo per un lettore non specialista. Va esplicitato nella sezione 'nuclei emersi'"
+        "elemento": "Il nucleo tematico formulato come domanda: che cosa significa restare un popolo quando una potenza statale ha deciso che si debba sparire.",
+        "funzione_editoriale": "Apre il testo editoriale a una posta in gioco umana riconoscibile da chi non conosce l'opera. Va usata come domanda implicita che il libro pone, non come tesi astratta."
       },
       {
-        "elemento": "La domanda critica centrale: chi diventa un uomo quando la storia lo costringe a farsi custode della sopravvivenza del proprio popolo, e cosa rimane di lui dopo?",
-        "funzione_editoriale": "Formula editorialmente forte. Va usata nell'apertura o nella sezione interpretativa"
+        "elemento": "La tensione fra tempo della cronaca e tempo del senso, tra durata storica e durata simbolica.",
+        "funzione_editoriale": "Strumento argomentativo per spiegare la scelta del numero quaranta. Resa accessibile senza richiamare la grammatica biblica come categoria tecnica."
       },
       {
-        "elemento": "La tensione tra logica della sopravvivenza e logica del senso: ciò che conta di più sul monte non è trasportabile sulle navi",
-        "funzione_editoriale": "Introduce la posta in gioco del finale in modo comprensibile senza anticiparlo meccanicamente"
+        "elemento": "La tensione fra destino del singolo (Gabriel che muore) e destino del popolo (i sopravvissuti che si imbarcano).",
+        "funzione_editoriale": "Fornisce la cerniera concettuale per leggere il finale: la salvezza collettiva e la morte solitaria non sono contraddittorie ma rivelano due piani diversi del senso dell'opera."
+      },
+      {
+        "elemento": "La tensione fra resistenza come autoaffermazione armena e salvezza come dono esterno (la flotta franco-britannica).",
+        "funzione_editoriale": "Permette di evitare sia la lettura epica sia quella cinicamente disillusa: il romanzo lavora su entrambe le polarità senza scioglierle."
       }
     ],
     "step_3": {
-      "assi": ["asse_1", "asse_2", "asse_4", "asse_6"],
+      "assi": ["asse_1", "asse_4", "asse_6"],
       "nodi": [
         "campo-intenzionale",
-        "ipseità-dinamica",
-        "colpa-affettiva",
+        "temporalità-vissuta",
+        "co-regolazione",
         "limite-reale",
         "perdita",
+        "separazione-dall-onnipotenza",
         "resto-non-simbolizzabile",
-        "mediazione-strutturale",
-        "deformazione-strutturale"
+        "istituzione-come-dispositivo",
+        "tecnica-come-forma-storica",
+        "giudizio-situato"
       ],
       "evidenze": [
-        "Il titolo palindromico 'Untergang Rettung Untergang' come struttura formale che anticipa l'impossibilità del ritorno",
-        "L'apertura e il finale del romanzo sulla stessa scogliera: il campo intenzionale che si è trasformato in modo irreversibile",
-        "La morte di Stephan come perdita irriducibile senza evento di riparazione",
-        "Il salvataggio che arriva dall'esterno (le navi francesi) e non dall'interno: la separazione dall'onnipotenza di Gabriel"
+        "Assemblea dei capi e decisione di salire sul Musa Dagh",
+        "Organizzazione dell'altipiano (trincee, ospedale, scuola, consiglio, riti)",
+        "Capitoli di Lepsius a Costantinopoli e a Berlino",
+        "Morte di Stephan",
+        "Arrivo della flotta franco-britannica",
+        "Morte solitaria di Gabriel sulla montagna abbandonata",
+        "Discrepanza tra durata storica (cinquantatré giorni) e durata simbolica (quaranta)",
+        "Struttura tripartita del Libro terzo: Untergang — Rettung — Untergang"
       ],
       "configurazione_dominante": true
     },
     "step_4": [
       {
-        "elemento": "La tesi interpretativa centrale: la morte di Gabriel come impossibilità strutturale, non scelta eroica né sconfitta",
-        "funzione_editoriale": "Il cuore della proposta di lettura. Va presentata nella sezione interpretativa con il linguaggio accessibile della tesi editoriale"
+        "elemento": "La lettura della scena di apertura editoriale come 'apertura di un campo che prima non c'era': la decisione collettiva di salire sul Musa Dagh come atto che istituisce una possibilità anziché applicarne una preesistente.",
+        "funzione_editoriale": "Apertura forte dell'articolo: invece di un riassunto storico, una scena che mostra subito la posta in gioco. È la mossa retorica che il saggio ha già messo a punto."
       },
       {
-        "elemento": "L'assenza del nodo 'riparazione' come dato critico: il romanzo afferma che alcune perdite non si integrano",
-        "funzione_editoriale": "Il contributo più originale della lettura fenomenologica. Va presentato in modo accessibile come osservazione critica precisa, non come risultato di una procedura tecnica"
+        "elemento": "La distinzione tra sopravvivere riducendosi al biologico e tenersi insieme come configurazione storica.",
+        "funzione_editoriale": "È il fulcro argomentativo della lettura, espresso in forma comprensibile a chi non ha categorie tecniche. Va ripreso quasi letteralmente."
       },
       {
-        "elemento": "La contro-lettura: il romanzo come epopea corale in cui Gabriel è funzione narrativa e la comunità è il vero protagonista",
-        "funzione_editoriale": "Dà onestà intellettuale all'articolo. Va presentata come prospettiva alternativa legittima, non come confutazione"
+        "elemento": "La triplicazione delle figure di autorità (Ter Haigasun, Gabriel, Kilikian) come tre risposte legittime e non risolte alla minaccia di annientamento: rito, strategia, furia.",
+        "funzione_editoriale": "Permette di mostrare la maturità del romanzo nel rifiutare l'agiografia. Va usato per fare argine alla lettura consolatoria."
       },
       {
-        "elemento": "L'analisi del palindromo 'Untergang Rettung Untergang': forma necessaria di una trasformazione che produce contestualmente salvezza e irrecuperabilità",
-        "funzione_editoriale": "Permette di usare un elemento formale del romanzo come chiave di lettura. Molto efficace editorialmente"
+        "elemento": "La contro-lettura: la resistenza come inefficacia tragica, la salvezza come dono casuale, il bilancio storico complessivo come sconfitta.",
+        "funzione_editoriale": "Va inclusa in forma sintetica come obiezione presa sul serio. Onestà critica: dare voce all'alternativa più rigorosa prima di sostenere la propria lettura."
+      },
+      {
+        "elemento": "La lettura del finale (la morte di Gabriel) come fedeltà a un resto irriducibile, distinta dal lutto paterno e dal martirio eroico.",
+        "funzione_editoriale": "È l'esito interpretativo del saggio. Va presentato con cura per non scivolare nel patetico né nel concettuale."
+      },
+      {
+        "elemento": "La descrizione dei capitoli di Lepsius come parte strutturale dell'opera, non digressione: violenza moderna come dispositivo amministrativo (telegrammi, decreti, registri).",
+        "funzione_editoriale": "Permette di legare la vicenda della montagna alla macchina che l'ha generata. Editorialmente è anche la chiave per la statura novecentesca del libro."
       }
     ]
   },
-
   "elementi_da_escludere": [
     {
-      "elemento": "Descrizione dettagliata dei sei assi strutturali con nomenclatura tecnica",
-      "provenienza": "step_3",
-      "motivo_esclusione": "troppo_tecnico"
-    },
-    {
-      "elemento": "Nodi strutturali minori: co-regolazione, ordo-amoris, soggettivazione-del-desiderio",
-      "provenienza": "step_3",
-      "motivo_esclusione": "non_supporta_la_tesi"
-    },
-    {
-      "elemento": "La dettagliata lista dei rischi di forzatura dell'analisi strutturata (Step 3)",
-      "provenienza": "step_3",
+      "elemento": "Dettaglio dei nomi dei tre Libri in tedesco originale (Das Nahende; Die Kämpfe der Schwachen; Untergang — Rettung — Untergang) usati come riferimenti filologici.",
+      "provenienza": "step_1",
       "motivo_esclusione": "appesantisce_senza_aggiungere"
     },
     {
-      "elemento": "La relazione tra Step 2 e Step 3 nella costruzione dell'ipotesi critica (aspetti metodologici interni della pipeline)",
-      "provenienza": "step_4",
+      "elemento": "Schedatura completa dei personaggi minori (Aram Tomasian, Sato, dottor Altouni come scheda autonoma, Hovsanna, Haik).",
+      "provenienza": "step_1",
+      "motivo_esclusione": "appesantisce_senza_aggiungere"
+    },
+    {
+      "elemento": "Il triangolo affettivo Gabriel-Juliette-Iskuhi con il contrappunto Juliette-Gonzague Maris come piano narrativo autonomo.",
+      "provenienza": "step_1",
+      "motivo_esclusione": "non_supporta_la_tesi"
+    },
+    {
+      "elemento": "Dettagli paratestuali sulla ricezione (progetto cinematografico MGM sospeso, divieto nazista con date precise).",
+      "provenienza": "step_1",
+      "motivo_esclusione": "appesantisce_senza_aggiungere"
+    },
+    {
+      "elemento": "Elenco completo delle sette tensioni emergenti dello Step 2, con le polarità formalizzate (polo_a / polo_b).",
+      "provenienza": "step_2",
       "motivo_esclusione": "troppo_tecnico"
     },
     {
-      "elemento": "La discussione dettagliata sull'asse_5 (Desiderio) e la figura di Iskuhi Tomasian",
+      "elemento": "Riferimento esplicito agli 'assi strutturali' e ai 'nodi' come vocabolario di griglia.",
+      "provenienza": "step_3",
+      "motivo_esclusione": "troppo_tecnico"
+    },
+    {
+      "elemento": "Assi 2 e 5 con i loro nodi specifici (interiorizzazione dell'altro, sopravvivenza dell'oggetto come categoria psicoanalitica, ordo amoris, campo desiderabile).",
+      "provenienza": "step_3",
+      "motivo_esclusione": "troppo_tecnico"
+    },
+    {
+      "elemento": "Tabella dei nodi assenti con motivazione (moralità adattiva, riparazione, verità educativa, motivazione come sostituto, prestazionalizzazione del valore).",
+      "provenienza": "step_3",
+      "motivo_esclusione": "troppo_tecnico"
+    },
+    {
+      "elemento": "Analisi della 'dinamica dell'opera' articolata in fasi (trasformazione, resistenza, restringimento, sospensione) come categoria espositiva.",
       "provenienza": "step_3",
       "motivo_esclusione": "ridondante"
     },
     {
-      "elemento": "I dati bibliografici e le fonti usate per il dossier (schede EBSCO, Wikipedia, ecc.)",
-      "provenienza": "step_1",
+      "elemento": "Sezione 'Valore aggiunto del modello' del saggio: confronto esplicito con le letture tradizionali e elenco di aspetti resi visibili dalla griglia.",
+      "provenienza": "step_4",
       "motivo_esclusione": "non_supporta_la_tesi"
     },
     {
-      "elemento": "Le avvertenze anti-confabulazione come sezione esplicita nell'articolo",
-      "provenienza": "step_1",
+      "elemento": "Sezione 'Limiti di questa lettura' nella sua forma estesa (sei limiti articolati, anticipo della 'nota metodologica' interna al saggio).",
+      "provenienza": "step_4",
       "motivo_esclusione": "appesantisce_senza_aggiungere"
+    },
+    {
+      "elemento": "Uso esteso del lessico fenomenologico ('soggettività collettiva che si dà come processo', 'ipseità', 'ritenzione e protensione') in forma sistematica.",
+      "provenienza": "step_4",
+      "motivo_esclusione": "rischio_di_forzatura"
     }
   ],
-
   "scene_momenti_da_valorizzare": [
     {
-      "titolo_sintetico": "L'apertura e il finale: Gabriel alla stessa scogliera",
-      "localizzazione": "Inizio del Libro I e finale del Libro III",
-      "motivo_della_scelta": "La simmetria tra la scena d'apertura (Gabriel alla scogliera, meditativo sulle proprie origini) e il finale (Gabriel alla stessa scogliera, incapace di imbarcarsi) è la struttura narrativa che rende visibile nel modo più immediato la trasformazione irreversibile. È anche la scena che il lettore può visualizzare senza conoscere il resto del romanzo.",
-      "come_raccontarla": "Aprire l'articolo con la scena finale, che è anche la più potente e misteriosa. Poi tornare al principio per spiegare come ci si è arrivati. Questo crea subito la domanda: perché quest'uomo non si imbarca?"
+      "titolo_sintetico": "L'assemblea dei capi e la decisione di salire sul Musa Dagh",
+      "localizzazione": "Libro primo, fase conclusiva",
+      "motivo_della_scelta": "È la scena fondativa dell'intero romanzo, e quella che permette al lettore di vedere immediatamente la natura della resistenza: non l'applicazione di una strategia preesistente, ma l'apertura di un campo nuovo di esistenza. È anche la scena più adatta ad aprire l'articolo perché non richiede conoscenze militari, non spettacolarizza la violenza e introduce in un solo gesto i tre nomi indispensabili: i sette villaggi, Ter Haigasun, Gabriel Bagradian.",
+      "come_raccontarla": "Aprire con il gesto della deliberazione collettiva, presentando in poche righe l'ordine di deportazione che la motiva. Sottolineare che nessuna norma o procedura disponibile prevedeva quella possibilità: la decisione apre un campo, non sceglie tra opzioni. Evitare il riassunto a freddo dei capitoli iniziali; entrare con la scena."
     },
     {
-      "titolo_sintetico": "La morte di Stephan",
-      "localizzazione": "Libro II / inizio Libro III",
-      "motivo_della_scelta": "La perdita più concreta e narrativamente accessibile del romanzo. Funziona come perno emotivo: il lettore capisce immediatamente cosa ha perso Gabriel prima che l'analisi spieghi perché quella perdita non si integra.",
-      "come_raccontarla": "Raccontarla in due o tre frasi, con il massimo di concretezza: un adolescente che scende solo di notte dal monte cercando di aiutare i propri, viene catturato e ucciso. Non c'è bisogno di più."
+      "titolo_sintetico": "La piccola polis sull'altipiano: ospedale, scuola, consiglio, riti",
+      "localizzazione": "Snodo tra Libro primo e Libro secondo, sviluppo nel Libro secondo",
+      "motivo_della_scelta": "È il pilastro che sostiene tutta la tesi editoriale. Senza questa scena (o meglio, questa serie di immagini) il lettore non vede ciò che l'articolo sostiene: che la comunità non sta solo combattendo, sta costruendo una forma di vita umana. È anche la sezione che, raccontata bene, ha la maggiore forza evocativa: l'ospedale del dottor Altouni, la scuola sotto assedio, il consiglio che delibera, le funzioni liturgiche.",
+      "come_raccontarla": "Non come elenco esaustivo, ma come serie di dettagli concreti che mostrano una piccola polis. Insistere sul fatto che Werfel dedica al ritratto dell'organizzazione civile uno spazio che eccede di gran lunga le esigenze documentarie: questa eccedenza descrittiva è essa stessa interpretazione."
     },
     {
-      "titolo_sintetico": "I fuochi di segnalazione sulla scogliera",
-      "localizzazione": "Libro III",
-      "motivo_della_scelta": "Scena visivamente forte che mette in forma la tensione tra visibile e invisibile in modo narrativo e non concettuale. Il gesto di chiedere di essere visti da un mondo che potrebbe non guardare è immediatamente comprensibile e ha una potenza simbolica che il lettore può cogliere anche senza l'apparato critico.",
-      "come_raccontarla": "Presentarla come l'ultima scommessa della resistenza: accendere fuochi abbastanza grandi da essere visti dal mare. Funziona sia come fatto narrativo sia come metafora dell'intera operazione letteraria di Werfel."
+      "titolo_sintetico": "La morte solitaria di Gabriel sulla montagna abbandonata",
+      "localizzazione": "Capitolo finale",
+      "motivo_della_scelta": "È il sigillo della tesi e il momento più delicato da raccontare. Permette di chiudere l'articolo con un'immagine forte e di dare al lettore la chiave non patetica del finale: chi ha fatto esistere quel tempo non può reimbarcarsi nella storia ordinaria come se nulla fosse stato. È anche la scena che impedisce all'articolo di scivolare nella celebrazione consolatoria.",
+      "come_raccontarla": "Va presentata dopo (e non prima) l'arrivo della flotta e la salvezza dei sopravvissuti, per far percepire la successione che il romanzo costruisce. Lasciare lo spazio per dire che si può leggerla come lutto paterno, ma che la collocazione narrativa e la qualità del gesto (non si suicida disperato, sceglie di non imbarcarsi) suggeriscono qualcosa di più. Evitare la parola 'martirio'."
     }
   ],
-
   "assi_nodi_selezionati": [
+    {
+      "id": "asse_1",
+      "tipo": "asse",
+      "nome": "Ontologico-fenomenologico (costituzione del soggetto collettivo)",
+      "funzione_editoriale": "Permette di leggere l'organizzazione dell'altipiano non come somma di funzioni ma come forma piena di esistenza umana che la comunità si dà nel tempo. Sostiene il cuore della tesi.",
+      "formula_linguistica_suggerita": "Senza mai nominarlo come asse: parlare di 'una comunità che si costituisce come configurazione', di 'una piccola polis che ordina il proprio mondo', di 'una forma di esistenza collettiva che si tiene insieme per quaranta giorni'."
+    },
     {
       "id": "asse_4",
       "tipo": "asse",
       "nome": "Separazione e Limite",
-      "funzione_editoriale": "Permette di descrivere il genocidio come condizione strutturale che ridefinisce il campo del possibile prima di qualsiasi scelta individuale, e di nominare ciò che rimane sul monte come qualcosa di irriducibile a ricordo, dovere o scelta.",
-      "formula_linguistica_suggerita": "la lente del limite e della perdita permette di cogliere... / ciò che il romanzo chiama 'il resto che rimane' — ciò che non ha forma trasportabile..."
-    },
-    {
-      "id": "resto-non-simbolizzabile",
-      "tipo": "nodo",
-      "nome": "Resto non simbolizzabile",
-      "funzione_editoriale": "Nomina in modo preciso ciò che Gabriel non riesce a portare via sulle navi: non il ricordo di Stephan, non un dovere verso i morti, ma qualcosa che il romanzo lascia volutamente senza nome.",
-      "formula_linguistica_suggerita": "quello che il romanzo lascia senza nome — un resto dell'esperienza che non si lascia simbolizzare..."
-    },
-    {
-      "id": "asse_1",
-      "tipo": "asse",
-      "nome": "Ontologico–fenomenologico",
-      "funzione_editoriale": "Permette di descrivere la trasformazione di Gabriel non come recupero di un sé autentico né come perdita di sé, ma come processo di costituzione di qualcuno di nuovo attraverso i quaranta giorni.",
-      "formula_linguistica_suggerita": "la lettura strutturale mostra che Gabriel non 'torna' a essere armeno: diventa qualcosa che non era mai stato / come quaranta giorni possono cambiare un uomo in modo irreversibile..."
+      "funzione_editoriale": "Permette di leggere il finale (morte di Stephan, morte di Gabriel) senza ridurlo a tragedia psicologica. Sostiene la lettura del resto irriducibile come categoria strutturale, non come metafora.",
+      "formula_linguistica_suggerita": "Parlare di 'ciò che la salvezza non riassorbe', di 'un resto che permane sulla montagna abbandonata', di 'una perdita che non ha equivalente sostitutivo'. Evitare 'resto non simbolizzabile' come formula tecnica."
     },
     {
       "id": "asse_6",
       "tipo": "asse",
-      "nome": "Storico–culturale",
-      "funzione_editoriale": "Permette di descrivere il genocidio come mediazione strutturale, non come sfondo: la distinzione illumina la scelta tecnica della polifocalizzazione e il modo in cui il romanzo si rifiuta di ridurre la catastrofe alla malvagità individuale.",
-      "formula_linguistica_suggerita": "il genocidio non è lo sfondo del romanzo — è la condizione che ridefinisce interamente cosa è possibile, chi può sopravvivere, quale futuro è accessibile..."
+      "nome": "Storico-culturale (violenza dello Stato moderno come dispositivo)",
+      "funzione_editoriale": "Permette di leggere i capitoli di Lepsius come parte strutturale dell'opera e di dare al romanzo la sua statura novecentesca: la violenza descritta da Werfel non è furore ma macchina amministrativa.",
+      "formula_linguistica_suggerita": "Parlare di 'lo sterminio come dispositivo amministrativo', di 'telegrammi, decreti, registri di deportazione', di 'la macchina dello Stato moderno che ha telefoni, archivi, ferrovie'. Senza nominare nessun teorico."
     },
     {
-      "id": "riparazione",
+      "id": "campo-intenzionale",
       "tipo": "nodo",
-      "nome": "Riparazione (assente)",
-      "funzione_editoriale": "L'assenza del nodo 'riparazione' è il contributo critico più originale della lettura fenomenologica: il romanzo non costruisce la riparazione, e questa scelta strutturale dice qualcosa di preciso sulla natura di alcune perdite. Va presentata come osservazione, non come mancanza.",
-      "formula_linguistica_suggerita": "il romanzo non offre a Gabriel alcun momento di integrazione della perdita — nessun gesto simbolico che consenta di tenere la frattura e accompagnarla verso un senso. Alcune perdite, Werfel sembra dire, non si integrano."
+      "nome": "Apertura del campo di possibilità",
+      "funzione_editoriale": "Strumento per descrivere la scena dell'assemblea senza vocabolario tecnico: la decisione apre un campo che prima non c'era.",
+      "formula_linguistica_suggerita": "'La decisione apre un campo che prima non c'era': è una formula sobria, già usata nel saggio, che il lettore comune comprende intuitivamente."
+    },
+    {
+      "id": "temporalità-vissuta",
+      "tipo": "nodo",
+      "nome": "Tempo del senso vs tempo della cronaca",
+      "funzione_editoriale": "Permette di spiegare la scelta del numero quaranta contro i cinquantatré giorni storici: la durata vissuta è figura, non cifra.",
+      "formula_linguistica_suggerita": "'I quaranta giorni del titolo non sono una cifra cronachistica ma una grammatica figurale': formulazione editoriale già presente nel saggio."
+    },
+    {
+      "id": "giudizio-situato",
+      "tipo": "nodo",
+      "nome": "Decisione che non applica norme ma le apre",
+      "funzione_editoriale": "Permette di leggere l'assemblea dei capi come modello esemplare di deliberazione sotto pressione massima, irriducibile a procedura.",
+      "formula_linguistica_suggerita": "'La decisione non applica una regola: apre un campo'. Frase di sintesi già messa a punto nel saggio, accessibile e potente."
+    },
+    {
+      "id": "separazione-dall-onnipotenza",
+      "tipo": "nodo",
+      "nome": "Il sapere non basta a salvare i propri",
+      "funzione_editoriale": "Chiave per leggere la morte di Stephan come passaggio interno di Gabriel: la competenza militare e la lucidità non riassorbono il reale.",
+      "formula_linguistica_suggerita": "'Il desiderio non organizza il reale'; 'la potenza organizzativa, la competenza, la lucidità del comando non bastano'. Formule già introdotte dal saggio."
+    },
+    {
+      "id": "resto-non-simbolizzabile",
+      "tipo": "nodo",
+      "nome": "Ciò che la salvezza non riassorbe",
+      "funzione_editoriale": "Chiave per leggere il finale di Gabriel come fedeltà strutturale e non come lutto privato.",
+      "formula_linguistica_suggerita": "'Ciò che resta sulla montagna abbandonata e che la flotta non può imbarcare': preferire l'immagine al termine tecnico."
+    },
+    {
+      "id": "istituzione-come-dispositivo",
+      "tipo": "nodo",
+      "nome": "L'apparato amministrativo dello sterminio",
+      "funzione_editoriale": "Chiave per leggere i capitoli di Lepsius e la violenza come configurazione di pratiche e procedure.",
+      "formula_linguistica_suggerita": "'Lo sterminio passa attraverso una macchina che ha telefoni, archivi, ferrovie, ministeri': immagine concreta, non termine."
     }
   ],
-
   "rischi_di_forzatura_residui": [
     {
-      "descrizione": "Il testo editoriale potrebbe enfatizzare l'arco individuale di Gabriel fino a perdere la dimensione corale del romanzo, che è altrettanto centrale e che costituisce la contro-lettura principale",
-      "come_presidiarlo": "La sezione 'che cosa resta aperto' deve presentare la contro-lettura corale con onestà e peso adeguato. Gabriel non deve apparire come l'unico soggetto del romanzo."
+      "descrizione": "Trasformare l'articolo in dimostrazione del metodo. Nel passaggio da analisi a testo editoriale, la tentazione di celebrare ciò che la lente ha permesso di vedere si amplifica perché il vocabolario fenomenologico cade e il rischio è di sostituirlo con frasi del tipo 'la lettura ha permesso di vedere…'.",
+      "come_presidiarlo": "Le tesi critiche si reggono sui propri argomenti. Il metodo non compare nel corpo del testo: una nota sobria a fine articolo lo descrive in poche righe. Verificare ogni paragrafo: deve parlare dell'opera, non dell'approccio."
     },
     {
-      "descrizione": "Il linguaggio editoriale semplificato rischia di trasformare 'impossibilità strutturale' in 'scelta emotiva' — rendendo il finale di Gabriel più psicologico e meno strutturale di quanto il romanzo voglia",
-      "come_presidiarlo": "Evitare espressioni come 'non se la sentiva di partire', 'era troppo addolorato per andarsene', 'sentiva di non meritare la salvezza'. Usare formulazioni che mantengano l'accento sull'impossibilità, non sulla scelta."
+      "descrizione": "Trasformare la morte di Gabriel in martirio significativo o in compimento eroico. Il saggio ha già presidiato questo rischio, ma in forma editoriale la sobrietà concettuale si perde e la scena rischia di diventare patetica o solenne.",
+      "come_presidiarlo": "Tenere il vocabolario disarmato: 'restare accanto', 'non reimbarcarsi', 'fedeltà' senza maiuscole. Evitare 'sacrificio', 'martirio', 'eroismo', 'testimone luminoso'. La scena va raccontata con il tono di un fatto che il lettore può guardare, non interpretato per lui."
     },
     {
-      "descrizione": "Il riferimento al simbolismo dei quaranta giorni può indurre a una lettura religiosa del finale (il martirio, il sacrificio sacro) che il romanzo supporta solo in parte",
-      "come_presidiarlo": "Il simbolismo dei quaranta giorni va introdotto come scelta autoriale consapevole (il numero storico era 53, non 40), non come chiave di lettura del finale. La morte di Gabriel non è un martirio volontario."
+      "descrizione": "Letture agiografiche della resistenza armena. Il romanzo è uno strumento delicato: nel registro divulgativo, l'eroismo dei pochi contro i molti può scivolare in epica consolatoria, perdendo la maturità con cui Werfel mostra fame, defezioni, processo a Kilikian.",
+      "come_presidiarlo": "Includere esplicitamente la triplicazione delle figure (Ter Haigasun, Gabriel, Kilikian) e mantenere la contro-lettura come momento di onestà. La presenza di Kilikian è l'antidoto strutturale all'epica."
+    },
+    {
+      "descrizione": "Riduzione del romanzo a parabola del nazismo imminente. La datazione 1933 e la circolazione del libro nei ghetti durante la Shoah possono essere maneggiate male, fino a perdere la specificità del riferimento armeno.",
+      "come_presidiarlo": "Nominare con precisione l'evento del 1915 e i nomi storici (Comitato Unione e Progresso, Enver Pasha, Talat Pasha). La preveggenza europea del libro va detta come effetto della struttura della violenza che esso descrive, non come allegoria intenzionale."
+    },
+    {
+      "descrizione": "Sovraccarico del contesto storico. Tentazione di dedicare troppe righe alla spiegazione del genocidio armeno, all'Impero ottomano, alla geografia: il lettore comune ha bisogno di una cornice minima, non di un saggio storico.",
+      "come_presidiarlo": "La cornice storica va dosata: poche righe nel paragrafo di apertura, integrazioni puntuali quando una scena lo richiede. L'articolo è una lettura del romanzo, non un manuale storico."
+    },
+    {
+      "descrizione": "Centralità eccessiva di Gabriel a scapito della dimensione corale. Lo Step 2 e lo Step 4 hanno entrambi segnalato questo rischio. In forma editoriale, dove serve un protagonista per ancorare il lettore, la tentazione si amplifica.",
+      "come_presidiarlo": "Nelle scene chiave, mantenere visibile la comunità: l'assemblea dei capi, la polis sull'altipiano. La traiettoria di Gabriel va presentata come funzione della configurazione collettiva, non come parabola autonoma."
     }
   ],
-
   "proposta_titolo": {
-    "titolo_principale": "Quello che le navi non portano",
-    "sottotitolo": "Franz Werfel e la trasformazione irreversibile: una lettura dei Quaranta giorni del Mussa Dagh attraverso le strutture dell'esperienza umana",
+    "titolo_principale": "Quaranta giorni di mondo umano",
+    "sottotitolo": "Sulla resistenza del Musa Dagh nel romanzo di Franz Werfel",
     "titoli_alternativi": [
-      "Il monte non restituisce — lettura di Franz Werfel",
-      "Gabriel non si imbarca. I Quaranta giorni del Mussa Dagh come romanzo della trasformazione irreversibile"
+      "La montagna come soglia. Una lettura de I quaranta giorni del Mussa Dagh",
+      "Ciò che la salvezza non porta via. Werfel e la resistenza del Musa Dagh",
+      "Quaranta giorni contro la cancellazione. Note su Franz Werfel"
     ],
-    "motivazione_scelta": "'Quello che le navi non portano' cattura immediatamente la posta in gioco del finale senza svelarlo, invita il lettore a chiedersi di cosa si tratti, ed è abbastanza enigmatico da funzionare come titolo editoriale per una rivista culturale. Evita la terminologia tecnica e non presuppone la conoscenza del romanzo."
+    "motivazione_scelta": "Il titolo principale riprende la formula che il saggio critico ha messo a punto come immagine di sintesi della tesi. È evocativo (non burocratico), tiene insieme la dimensione del tempo (quaranta giorni) e quella della forma di esistenza (mondo umano), e non anticipa l'esito della vicenda. Il sottotitolo orienta il lettore senza scivolare nel tecnico: cita il romanzo e l'autore, e qualifica il testo come 'lettura' anziché come 'analisi' o 'studio'. Le alternative restano valide: 'La montagna come soglia' è più poetica e meno didascalica ma esige al lettore un passo in più; 'Ciò che la salvezza non porta via' è la più aderente al finale ma rischia di anticipare troppo presto la chiave interpretativa; 'Quaranta giorni contro la cancellazione' è la più diretta ma cede al registro polemico."
   },
-
   "struttura_proposta": [
     {
       "numero": 1,
-      "titolo_sezione": "Apertura: un uomo alla scogliera",
-      "funzione": "Catturare il lettore con la scena più forte del romanzo (Gabriel che non si imbarca) senza ancora spiegarla. Aprire la domanda che tutto il testo cercherà di rispondere.",
-      "materiali_di_riferimento": ["step_1: scena finale del Libro III", "step_4: analisi del finale"],
-      "lunghezza_indicativa": "100-130 parole"
+      "titolo_sezione": "Una montagna come soglia",
+      "funzione": "Aprire l'articolo con la scena dell'assemblea che decide di salire sul Musa Dagh. Introdurre, dentro la scena, la cornice storica minima (genocidio armeno del 1915, ordine di deportazione, sette villaggi della regione). Anticipare la tesi senza enunciarla in forma tecnica: la resistenza che sta per cominciare non è strategia di sopravvivenza ma costituzione di un mondo umano.",
+      "materiali_di_riferimento": [
+        "Step 1 — assemblea dei capi e cornice storica",
+        "Step 4 — paragrafo di apertura del saggio (\"Una montagna come soglia\")",
+        "Step 3 — evidenza 'Assemblea dei capi e decisione di salire sul Musa Dagh'"
+      ],
+      "lunghezza_indicativa": "200-250 parole"
     },
     {
       "numero": 2,
-      "titolo_sezione": "L'opera in breve: trama, contesto, figure",
-      "funzione": "Orientare il lettore che non conosce il romanzo: chi è Gabriel, cosa succede sul monte, chi sono i personaggi principali. Senza questa sezione, il resto non è seguibile.",
-      "materiali_di_riferimento": ["step_1: sintesi contenutistica, personaggi, contesto storico"],
-      "lunghezza_indicativa": "250-300 parole"
+      "titolo_sezione": "Costruire un mondo sotto assedio",
+      "funzione": "Mostrare l'organizzazione dell'altipiano come pilastro centrale della lettura. Descrivere con dettagli concreti la piccola polis: ospedale, scuola, consiglio, riti, milizia. Far percepire al lettore che Werfel dedica a questo ritratto uno spazio che eccede le esigenze documentarie. Introdurre la distinzione tra sopravvivere riducendosi al biologico e tenersi insieme come configurazione storica.",
+      "materiali_di_riferimento": [
+        "Step 1 — sintesi contenutistica e descrizione dell'organizzazione",
+        "Step 4 — paragrafo 'La costituzione di un mondo'",
+        "Step 3 — evidenze sull'organizzazione dell'altipiano"
+      ],
+      "lunghezza_indicativa": "300-350 parole (sezione centrale)"
     },
     {
       "numero": 3,
-      "titolo_sezione": "Il 1933, gli armeni, Werfel ebreo",
-      "funzione": "Collocare il romanzo nel suo contesto di produzione: scritto da un autore ebreo austriaco nell'anno dell'ascesa al potere di Hitler, subito messo al bando. Questa contestualizzazione è indispensabile per capire perché il romanzo conta.",
-      "materiali_di_riferimento": ["step_1: contesto storico-culturale, ricezione critica"],
+      "titolo_sezione": "Quaranta giorni, non cinquantatré",
+      "funzione": "Esplicitare la scelta del numero del titolo come atto interpretativo: la discrepanza con la durata storica colloca l'evento in una temporalità di senso. Cenno sobrio alla grammatica biblica (diluvio, Mosè, Quaresima) senza farne categoria tecnica. Sezione breve, di transizione, che prepara il terzo movimento del libro.",
+      "materiali_di_riferimento": [
+        "Step 1 — scelte formali rilevanti",
+        "Step 2 — tensione tra tempo della cronaca e tempo del senso",
+        "Step 4 — chiusura del paragrafo 'La costituzione di un mondo'"
+      ],
       "lunghezza_indicativa": "150-180 parole"
     },
     {
       "numero": 4,
-      "titolo_sezione": "Come si legge questo romanzo: il percorso di analisi",
-      "funzione": "Spiegare brevemente il metodo seguito, senza appesantire. Deve sembrare un percorso di lettura naturale, non una procedura tecnica.",
-      "materiali_di_riferimento": ["pipeline-0: descrizione generale del metodo"],
-      "lunghezza_indicativa": "100-130 parole"
+      "titolo_sezione": "Tre figure, tre risposte",
+      "funzione": "Descrivere la triplicazione delle autorità (Ter Haigasun, Gabriel, Kilikian) come scelta strutturale che impedisce all'opera di farsi epica. Spiegare il processo a Kilikian come momento rivelatore: la comunità sanziona senza espellere. Argine alla lettura agiografica.",
+      "materiali_di_riferimento": [
+        "Step 1 — schede personaggi (Ter Haigasun, Gabriel, Kilikian)",
+        "Step 4 — paragrafo 'Tre figure, tre risposte'",
+        "Step 3 — evidenza 'Processo a Sarkis Kilikian'"
+      ],
+      "lunghezza_indicativa": "200-250 parole"
     },
     {
       "numero": 5,
-      "titolo_sezione": "Il genocidio come condizione, non come sfondo",
-      "funzione": "Presentare la prima intuizione critica fondamentale: il genocidio non è lo sfondo del romanzo, è la condizione che ridefinisce tutto. Questo illumina la tecnica narrativa della polifocalizzazione e prepara la lettura del protagonista.",
-      "materiali_di_riferimento": ["step_3: asse_6, mediazione-strutturale, deformazione-strutturale", "step_4: sezione 'La catastrofe come mediazione'"],
-      "lunghezza_indicativa": "200-250 parole"
+      "titolo_sezione": "La burocrazia dello sterminio",
+      "funzione": "Introdurre i capitoli di Lepsius come parte strutturale e non come digressione. Mostrare che la violenza dello Stato moderno è dispositivo amministrativo (telegrammi, decreti, ferrovie). Legare il piano della montagna a quello delle cancellerie europee, e nominare con sobrietà la datazione 1933 e la successiva circolazione del libro nei ghetti.",
+      "materiali_di_riferimento": [
+        "Step 1 — contesto storico-culturale e ricezione",
+        "Step 4 — paragrafo 'La burocrazia dello sterminio e la complicità del silenzio'",
+        "Step 3 — evidenza 'Capitoli paralleli sulle iniziative di Lepsius'"
+      ],
+      "lunghezza_indicativa": "250-300 parole"
     },
     {
       "numero": 6,
-      "titolo_sezione": "Chi diventa Gabriel: la trasformazione irreversibile",
-      "funzione": "Cuore interpretativo dell'articolo. Presentare come i quaranta giorni trasformano il protagonista in qualcuno di nuovo, non come recupero di un'identità autentica ma come costituzione di un soggetto diverso. Includere la scena di Stephan come perno affettivo.",
-      "materiali_di_riferimento": ["step_4: sezioni 'L'uomo che diventa qualcosa di nuovo' e 'La morte di Stephan e la colpa che non si ripara'", "step_3: ipseità-dinamica, colpa-affettiva, perdita"],
-      "lunghezza_indicativa": "350-400 parole"
-    },
-    {
-      "numero": 7,
-      "titolo_sezione": "Il palindromo: Untergang Rettung Untergang",
-      "funzione": "Usare il titolo del terzo libro come chiave formale dell'intera lettura. La struttura palindromica dice che la salvezza è reale ma non definitiva, e che il secondo 'Untergang' era atteso dalla stessa struttura che ha reso possibile la 'Rettung'.",
-      "materiali_di_riferimento": ["step_4: sezione 'Il palindromo e la forma del finale'", "step_1: struttura formale"],
+      "titolo_sezione": "Una contro-lettura: la resistenza come fallimento",
+      "funzione": "Dare voce, in forma sintetica e onesta, alla contro-lettura: la salvezza è contingente, Stephan e Gabriel muoiono, i sette villaggi sono cancellati, il genocidio prosegue. Mostrare che la contro-lettura coglie qualcosa di reale ma misura sulla scala dell'esito strategico, mentre il romanzo lavora sulla scala della costituzione del mondo umano. Sezione che protegge la tesi dalla lettura consolatoria.",
+      "materiali_di_riferimento": [
+        "Step 4 — sezione 'Contro-lettura: l'inefficacia della resistenza' e oggetto contro_lettura del documento"
+      ],
       "lunghezza_indicativa": "200-250 parole"
     },
     {
+      "numero": 7,
+      "titolo_sezione": "Ciò che la salvezza non porta via",
+      "funzione": "Chiusura dell'articolo sulla morte solitaria di Gabriel. Presentare la scena dopo l'arrivo della flotta e l'imbarco dei sopravvissuti. Dare la chiave non patetica: chi ha fatto esistere quel tempo non può reimbarcarsi nella storia ordinaria come se i quaranta giorni fossero un episodio chiuso. Fedeltà al resto, non martirio.",
+      "materiali_di_riferimento": [
+        "Step 1 — scene chiave finali (arrivo della flotta, morte di Gabriel)",
+        "Step 4 — paragrafo 'Il limite, la perdita, il resto' e analisi del finale",
+        "Step 3 — configurazione strutturale dominante"
+      ],
+      "lunghezza_indicativa": "250-300 parole"
+    },
+    {
       "numero": 8,
-      "titolo_sezione": "Quello che questa lettura vede — e quello che lascia aperto",
-      "funzione": "Sezione di onestà intellettuale: presentare sia il contributo specifico della lettura fenomenologica (l'assenza di riparazione come dato critico, la natura strutturale del finale) sia i limiti e la contro-lettura corale. Non come appendice ma come parte integrante dell'articolo.",
-      "materiali_di_riferimento": ["step_4: contro_lettura, limiti_della_lettura, valore_aggiunto_del_modello"],
-      "lunghezza_indicativa": "220-260 parole"
-    },
-    {
-      "numero": 9,
-      "titolo_sezione": "Conclusione",
-      "funzione": "Chiusura forte ma non dogmatica. Tornare alla scena dell'apertura (Gabriel che non si imbarca) e offrire la risposta alla domanda iniziale, con la formula conclusiva del modello: questa lettura apre una prospettiva, non spiega il romanzo.",
-      "materiali_di_riferimento": ["step_4: valore_aggiunto_del_modello, formulazione_conclusiva"],
-      "lunghezza_indicativa": "100-130 parole"
-    },
-    {
-      "numero": 10,
       "titolo_sezione": "Nota sul metodo",
-      "funzione": "Spiegare in 8-10 righe sobrie il processo di analisi e il ruolo degli assi come lente, non come schema dimostrativo.",
-      "materiali_di_riferimento": ["pipeline-0: descrizione generale"],
-      "lunghezza_indicativa": "120-150 parole"
+      "funzione": "Breve nota descrittiva (poche frasi) sulla lettura condotta. Niente celebrazione del metodo. Citazione di HCAIRE come progetto di provenienza, con dicitura 'di orientamento fenomenologico', senza nomi di filosofi.",
+      "materiali_di_riferimento": [
+        "Linee guida editoriali — sezione 'Presenza del metodo per tipo di testo'",
+        "Linee guida editoriali — sezione 'Come citare il progetto'"
+      ],
+      "lunghezza_indicativa": "80-120 parole"
     }
   ],
-
-  "nota_editoriale": "La scena d'apertura (Gabriel che non si imbarca) va usata come incipit: è la più forte e crea subito la domanda che tutto l'articolo cercherà di rispondere. La terminologia tecnica degli assi va quasi completamente evitata nel corpo del testo: 'campo intenzionale' può diventare 'orizzonte del possibile vissuto', 'asse_4' non va mai nominato, 'resto-non-simbolizzabile' va reso come 'qualcosa che il romanzo lascia volutamente senza nome'. Il rischio principale è lo stesso identificato nell'analisi: enfatizzare troppo l'individuale a scapito del corale. La contro-lettura va presentata con lo stesso peso della lettura principale.",
-
+  "nota_editoriale": "L'articolo si reggerà sulla qualità con cui si raccontano tre scene (assemblea, polis sull'altipiano, morte di Gabriel) e sulla sobrietà del vocabolario nelle tre sezioni concettualmente più dense (quaranta giorni come figura; tre risposte; ciò che la salvezza non porta via). Una difficoltà specifica è il dosaggio della cornice storica: bisogna che il lettore senza conoscenze pregresse capisca subito di cosa si sta parlando, ma senza che l'articolo diventi un saggio sul genocidio armeno. La soluzione proposta nella struttura è di disseminare la cornice nei paragrafi, ancorandola alle scene, anziché concentrarla in apertura. Punto critico: il paragrafo finale. Va riletto due volte per verificare che la parola 'fedeltà' non scivoli verso 'sacrificio' e che non compaia mai 'martirio'. Punto delicato di equilibrio: la contro-lettura (sezione 6) va tenuta breve ma non liquidata; la sua funzione è impedire all'articolo di diventare consolatorio, e quindi deve essere argomentata, non solo nominata. Lunghezza complessiva indicativa dell'articolo: 1700-2100 parole, esclusa la nota sul metodo.",
   "metadata": {
-    "data_compilazione": "2026-04-28",
-    "compilato_da": "Claude (Cowork – pipeline editoriale HCAIRE Cultura, Step 5A)",
+    "data_compilazione": "2026-06-09",
+    "compilato_da": "Cowork / pipeline HCAIRE Cultura — Step 5A",
     "versione": "1.0"
   }
 }

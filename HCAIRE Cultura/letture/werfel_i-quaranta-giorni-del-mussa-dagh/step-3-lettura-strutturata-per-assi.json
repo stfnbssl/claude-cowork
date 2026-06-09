@@ -3,32 +3,34 @@
     "titolo": "I quaranta giorni del Mussa Dagh",
     "autore": "Franz Werfel"
   },
-
   "assi_implicati": [
     {
       "axis_id": "asse_1",
       "axis_name": "Ontologico–fenomenologico",
       "grado_implicazione": "alto",
-      "motivazione": "Il romanzo mette in forma con precisione la struttura del soggetto come processo di costituzione: Gabriel non è un'identità stabile che si confronta con una crisi, ma un soggetto che si costituisce diversamente nel corso dei quaranta giorni. La temporalità vissuta del monte — densa, irreversibile, accumulante perdite — è la condizione strutturale dell'intera vicenda. Il campo intenzionale di Gabriel si trasforma radicalmente: da quello ampio del cosmopolita europeo a quello intensamente focalizzato del comandante in situazione di estrema emergenza, fino all'impossibilità finale di riaprirsi verso il futuro parigino. La corporeità vissuta è presente nel rapporto fisico con il monte (salita, trincee, battaglie, fatica), che trasforma il corpo da corpo-borghese a corpo-militare-armeno. Il concetto di ipseità dinamica è cruciale: Gabriel è riconoscibile come 'lo stesso' Gabriel attraverso una trasformazione radicale, senza che ci sia né un'identità sostanziale recuperata né una dissoluzione del soggetto.",
+      "motivazione": "L'opera è in larga misura il racconto della costituzione di un soggetto collettivo che si dà una forma piena di esistenza nel tempo, nel corpo e nella relazione. Sulla montagna la comunità non si limita a sopravvivere: ordina il proprio campo intenzionale (consiglio dei capi, trincee, ospedale da campo, scuola, funzioni religiose), si temporalizza per quaranta giorni in un presente denso di ritenzione (le tradizioni, la memoria armena) e protensione (l'attesa del soccorso, l'anticipazione dell'attacco), si regola attraverso co-regolazione (assemblee, riti, milizia) prima ancora che attraverso qualsiasi normatività esplicita. Parallelamente, la parabola di Gabriel Bagradian incarna l'ipseità dinamica: lo stesso soggetto resta sé attraverso una trasformazione profonda — non malgrado, ma attraverso il ritorno catastrofico al villaggio natale. La vulnerabilità strutturale degli assediati (esposizione, fame, dipendenza dall'altro per sopravvivere) non è descritta come deficit da superare ma come la condizione stessa in cui può darsi una soggettività comunitaria.",
       "nodi_attivati_in_questo_asse": [
         "soggetto-come-processo",
         "temporalità-vissuta",
         "corporeità-vissuta",
+        "co-regolazione",
+        "relazione-costitutiva",
         "campo-intenzionale",
-        "ipseità-dinamica",
-        "vulnerabilità-strutturale"
+        "vulnerabilità-strutturale",
+        "ipseità-dinamica"
       ]
     },
     {
       "axis_id": "asse_2",
       "axis_name": "Affettivo–morale",
-      "grado_implicazione": "alto",
-      "motivazione": "La traiettoria di Gabriel è strutturata da una responsabilità affettiva pre-normativa che nasce non da una scelta deliberata ma dall'interiorizzazione progressiva della comunità come istanza interna vincolante. Non c'è una norma che imponga a Gabriel di restare sul monte: è l'alterità interiorizzata — i cinquemila, i morti, Stephan — che lo vincola dall'interno. La morte di Stephan è il nucleo di una colpa affettiva che il romanzo non risolve attraverso la riparazione (nodo assente): non c'è un evento trasformativo che integri la frattura. L'impossibilità di imbarcarsi sulle navi francesi è leggibile come esito di questa colpa non integrata — non persecutoria nel senso clinico, ma costitutivamente irrisolvibile. La responsabilità di Gabriel è 'per qualcuno' (la comunità, i morti) e non 'secondo una legge': è la forma pre-normativa della responsabilità descritta dall'Asse 2.",
+      "grado_implicazione": "medio",
+      "motivazione": "L'asse è presente ma non dominante. La comunità del Musa Dagh funziona come istanza interna per i suoi membri: anche in assenza di sorveglianza visibile, il vincolo affettivo verso l'altro (i compagni, i morti, i bambini, i vecchi) opera come riferimento che vincola dall'interno. Si dà una forma di responsabilità affettiva pre-normativa: Gabriel risponde alla comunità non in forza di una legge universale ma di un legame che è diventato interiormente vincolante. Il processo a Sarkis Kilikian mostra la sopravvivenza dell'altro/comunità all'aggressività interna senza ritirare il legame. La morte di Stephan apre per Gabriel un'esperienza di colpa che oscilla tra forma integrativa (orientata a una sorta di riparazione impossibile, simbolizzata dalla veglia sulla tomba) e forma persecutoria (resto irrimediabile, condensato nella scelta finale di non imbarcarsi). L'asse, però, non occupa il cuore dell'opera: la trasformazione affettiva non è esplorata come genesi, ma assunta come già operante.",
       "nodi_attivati_in_questo_asse": [
-        "istanza-interna",
-        "responsabilità-pre-normativa",
-        "colpa-affettiva",
         "interiorizzazione-dell-altro",
+        "istanza-interna",
+        "colpa-affettiva",
+        "sopravvivenza-dell-oggetto",
+        "responsabilità-pre-normativa",
         "aggressività-come-condizione"
       ]
     },
@@ -36,25 +38,29 @@
       "axis_id": "asse_3",
       "axis_name": "Normativo–educativo",
       "grado_implicazione": "medio",
-      "motivazione": "L'Asse 3 è presente nell'opera ma in modo subordinato agli assi 2 e 4. Il giudizio situato di Gabriel — le decisioni militari prese senza garanzia, l'esercizio di un'autorità non tradizionale — corrisponde al nodo del giudizio-situato: atti incarnati e fallibili nel mondo, non applicazioni di regole. L'autorità di Gabriel sulla comunità è una forma peculiare di autorità educativa: asimmetria funzionale (ha competenze militari che gli altri non hanno) ma non legittimità tradizionale. Il limite del giudizio è radicalmente presente: Gabriel scopre che anche le sue migliori decisioni non possono controllare gli esiti (Stephan muore, la situazione si deteriora, la salvezza viene dall'esterno). Tuttavia il romanzo non costruisce il suo centro di gravità attorno alla questione normativa: la dimensione del giudizio è parte dell'opera ma non ne è il nucleo.",
+      "motivazione": "L'opera mette in scena un esperimento di normatività in condizioni di assedio. Il consiglio dei capi è il luogo del giudizio situato, irriducibile a procedura: davanti all'ordine di deportazione la comunità deve decidere, e nessuna regola precedente basta. Ter Haigasun e Gabriel incarnano due forme di autorità (spirituale-comunitaria e organizzativa) che non coincidono con dominio o violenza ma valgono solo nella misura in cui vengono riconosciute. Sarkis Kilikian opera come contro-campo radicale: la sua presenza impedisce la riduzione della normatività a moralismo. I capitoli di Lepsius proiettano la questione su scala internazionale: il fallimento normativo delle cancellerie europee, descritto attraverso telegrammi e dispacci, è un caso esemplare di collasso della normatività in pura procedura amministrativa. Il limite del giudizio è ovunque: di fronte al genocidio nessuna norma è sufficiente.",
       "nodi_attivati_in_questo_asse": [
+        "distinzione-norma-normativita",
         "giudizio-situato",
+        "autorità-educativa",
+        "asimmetria-educativa",
         "responsabilità-come-imputazione",
-        "limite-del-giudizio",
-        "autorità-educativa"
+        "fallimento-normativo",
+        "limite-del-giudizio"
       ]
     },
     {
       "axis_id": "asse_4",
       "axis_name": "Separazione e Limite",
       "grado_implicazione": "alto",
-      "motivazione": "L'Asse 4 è probabilmente l'asse più centrale per questa opera. Il genocidio armeno è il limite-reale per eccellenza: accade senza essere posto da nessuna intenzione individuale, non orienta né argomenta, non può essere trasgredito senza conseguenze. Ha la forma del 'non è possibile sopravvivere qui in pianura' — non di un dovere ma di un'impossibilità. Il monte è il luogo dove questa impossibilità si trasforma in condizione di resistenza. L'eccedenza è presente nel rapporto fisico e simbolico tra i rifugiati e il monte: il mondo supera costantemente ciò che i soggetti possono contenere o governare. La perdita di Stephan è la perdita irriducibile, irreversibile, senza sostituto equivalente: il romanzo la tratta come tale, non la recupera in un significato consolatorio. La separazione dall'onnipotenza di Gabriel — dall'illusione che la competenza e la pianificazione possano controllare gli esiti — è il processo strutturale che attraversa i tre libri e si compie nel finale. Il resto non simbolizzabile che rimane sul monte è ciò che Gabriel non riesce a portare via: non è un oggetto, non è un ricordo, non è nemmeno una scelta — è una struttura dell'esperienza che non si lascia evacuare.",
+      "motivazione": "L'opera è strutturata sull'incontro con il reale in tutte le sue forme — eccedenza, perdita, separazione. Il genocidio non è frustrazione regolabile né fallimento educativo: è limite reale nella forma estrema del 'non è possibile' imposto dallo Stato. L'eccedenza è quella della sproporzione fra una piccola comunità e l'apparato di sterminio dell'Impero. La perdita è ovunque, in forma irreversibile: la morte di Stephan, la fine prevedibile del mondo armeno della regione, il 'resto non simbolizzabile' che la veglia di Gabriel sulla tomba tenta di tenere senza neutralizzarlo. La separazione dall'onnipotenza è il tema implicito della parabola di Gabriel: l'intellettuale parigino che credeva di poter organizzare la sopravvivenza dei suoi, scopre — attraverso la morte del figlio e l'esaurimento delle scorte — che il desiderio non organizza il reale. La scelta finale di non imbarcarsi non è disperazione ma fedeltà a un reale che non può essere ricondotto a una nuova vita 'altrove'. La struttura tripartita del Libro terzo (Untergang – Rettung – Untergang) iscrive narrativamente proprio la coesistenza di salvezza e catastrofe.",
       "nodi_attivati_in_questo_asse": [
         "limite-reale",
         "eccedenza",
         "perdita",
         "irreversibilità",
         "separazione-dall-onnipotenza",
+        "onnipotenza",
         "lavoro-del-lutto",
         "resto-non-simbolizzabile",
         "condizione-del-desiderio"
@@ -64,246 +70,346 @@
       "axis_id": "asse_5",
       "axis_name": "Desiderio",
       "grado_implicazione": "medio",
-      "motivazione": "L'Asse 5 è presente nell'opera come struttura di sfondo piuttosto che come tema esplicito. La reorientazione pre-riflessiva di Gabriel verso la comunità e verso la missione della resistenza corrisponde al desiderio come orientamento strutturale: non è una scelta deliberata né una motivazione esterna, ma un progressivo riconoscimento di una direzione che si impone prima di qualsiasi riflessione. Il campo desiderabile di Gabriel si trasforma radicalmente durante i quaranta giorni: le direzioni che valevano nella vita parigina (carriera, vita familiare borghese, relazione con Juliette) perdono peso pre-riflessivo a favore della missione della resistenza. La mancanza strutturale è leggibile nell'insoddisfazione implicita della vita parigina di Gabriel: il monte gli offre una pienezza che quella vita non garantiva, a un costo che quella vita non aveva mai chiesto. La figura di Juliette mostra la struttura del desiderio ritratto: sul monte, il suo campo desiderabile non trova direzione nell'Armenia e si contrae verso ciò che è familiare (Gonzague, l'Europa).",
+      "motivazione": "Il desiderio è presente come forma di orientamento collettivo che si dà nell'esperienza prima di qualsiasi deliberazione: la decisione di salire sul Musa Dagh non è il prodotto di una scelta razionale fra alternative equivalenti, ma il riconoscimento di una direzione del campo già carica di valore (continuare a esistere come popolo, non subire la deportazione). Il triangolo Gabriel-Juliette-Iskuhi articola il desiderio individuale come riorganizzazione del campo intenzionale dopo la perdita dell'identità parigina di Gabriel: il legame con Iskuhi non è compensazione del legame coniugale ma direzione che il campo assume nel mondo armeno ritrovato. Si dà inoltre un ordo amoris implicito: la comunità ordina ciò che vale (la dignità collettiva, la cura dei morti, la fede) rispetto a ciò che vale meno (la sopravvivenza individuale a ogni costo). L'asse, però, non è autonomamente protagonista: il desiderio è leggibile soprattutto nella relazione con il limite (Asse 4) e con la mediazione storica (Asse 6).",
       "nodi_attivati_in_questo_asse": [
         "desiderio-come-struttura",
         "mancanza-strutturale",
-        "soggettivazione-del-desiderio",
         "campo-desiderabile",
-        "desiderio-ritratto"
+        "ordo-amoris",
+        "direzione-valutativa"
       ]
     },
     {
       "axis_id": "asse_6",
       "axis_name": "Storico–culturale",
       "grado_implicazione": "alto",
-      "motivazione": "L'Asse 6 è constitutivo del romanzo in modo esplicito e non derogabile. Il genocidio armeno non è lo sfondo dell'opera: è la mediazione strutturale che ridefinisce interamente il campo del possibile per tutti i personaggi prima di qualsiasi loro scelta individuale. Lo stato ottomano come 'istituzione come dispositivo di esperienza' organizza cosa è possibile, chi può sopravvivere, quale futuro è accessibile. La storicità del soggetto è visibile nell'impossibilità di separare Gabriel dal suo doppio posizionamento storico: armeno del Levante e intellettuale parigino del primo Novecento. Il 'Lebenswelt' del romanzo è doppio: il mondo della vita armena tradizionale (villaggio, chiesa, comunità) e quello della modernità europea (Parigi, la Sorbona, il matrimonio borghese), e il monte diventa il luogo in cui questi due mondi si scontrano in condizioni estreme. La deformazione strutturale del genocidio — un processo sistematico che entra nella struttura stessa dell'esperienza possibile — è esattamente ciò che l'Asse 6 chiama deformazione strutturale: non un errore individuale, non una patologia, ma una configurazione storica che produce effetti sistemici sull'esistenza dei soggetti. La dimensione meta-testuale del 1933 (Werfel ebreo austriaco, ascesa del nazismo) aggiunge un secondo strato di mediazione storica: il romanzo è scritto dentro la consapevolezza che il genocidio armeno è un modello, non un'eccezione.",
+      "motivazione": "L'asse è co-strutturante con l'Asse 4 nella configurazione complessiva dell'opera. Il romanzo descrive il genocidio armeno non come crimine episodico ma come dispositivo storico: ordini, telegrammi, decreti di sottoprefetti, comunicazioni dello stato maggiore costituiscono la mediazione attraverso cui la violenza di Stato entra nell'esperienza quotidiana dei villaggi. L'istituzione-come-dispositivo (qui: l'apparato del Comitato Unione e Progresso) organizza ciò che è possibile, visibile, pensabile per la popolazione armena, fino al punto di renderne possibile la cancellazione amministrativa. La storicità del soggetto è doppia: dei personaggi (Gabriel, parigino-armeno; Juliette, francese; Iskuhi, armena anatolica) e dell'opera stessa (Werfel, ebreo praghese, Vienna 1933, ascesa del nazionalsocialismo). I capitoli di Lepsius proiettano la questione sulla mediazione internazionale: cancellerie tedesche e ottomane, diplomazia, opinione pubblica europea. La deformazione strutturale è esplicita: lo Stato moderno come configurazione che produce sistematicamente la disumanizzazione di una popolazione attraverso burocrazia, tecnica e prestazione organizzativa. La 'tecnica come forma storica' assume qui il volto della macchina amministrativa dello sterminio, prefigurazione di quanto sarebbe accaduto in Europa dopo il 1933.",
       "nodi_attivati_in_questo_asse": [
         "mediazione-strutturale",
+        "orizzonte-di-senso",
         "storicità-del-soggetto",
+        "mediazione-simbolica",
         "istituzione-come-dispositivo",
         "lebenswelt",
-        "deformazione-strutturale",
-        "orizzonte-di-senso"
+        "tecnica-come-forma-storica",
+        "deformazione-strutturale"
       ]
     }
   ],
-
   "nodi_trasversali_attivati": [
-    {
-      "nodo": "ipseità-dinamica",
-      "asse_di_appartenenza": "asse_1",
-      "definizione_breve": "Continuità del soggetto non sostanziale ma dinamica: identità che si mantiene attraverso, non nonostante, il cambiamento.",
-      "evidenza_nell_opera": "Gabriel è riconoscibilmente 'lo stesso' dall'apertura del romanzo (alla scogliera, meditativo) fino al finale (alla scogliera, incapace di partire), eppure è diventato qualcuno di radicalmente diverso: comandante militare, uomo del suo popolo, padre in lutto. Il romanzo non tratta questa trasformazione come perdita di sé né come recupero di un sé autentico: è il processo stesso del diventare."
-    },
     {
       "nodo": "campo-intenzionale",
       "asse_di_appartenenza": "asse_1",
       "definizione_breve": "Struttura globale pre-riflessiva dell'esperienza; sintesi fenomenologica dell'organizzazione complessiva della soggettività.",
-      "evidenza_nell_opera": "Il campo intenzionale di Gabriel si trasforma visibilmente nel corso dei tre libri: da quello aperto e disperso del cosmopolita europeo (possibilità multiple, nessuna pienamente vissuta) a quello intensamente focalizzato del comandante sul monte, fino all'incapacità finale di riaprirsi verso Parigi. Il campo si è ristretto e approfondito al punto da non consentire più il ritorno alla larghezza precedente."
+      "evidenza_nell_opera": "L'organizzazione dell'altipiano del Musa Dagh — trincee, depositi viveri, ospedale, assemblea, scuola — non è elenco di funzioni ma riorganizzazione complessiva dell'orizzonte del possibile per cinquemila persone. La comunità, decidendo di salire, riconfigura il proprio campo: ciò che era ovvio (il villaggio, la quotidianità) diventa impossibile; ciò che era impensabile (l'autogoverno armato) diventa l'orizzonte effettivo. Lepsius nei suoi capitoli, viceversa, sperimenta il restringimento del campo intenzionale delle cancellerie europee, che escludono dal possibile l'azione efficace."
     },
     {
       "nodo": "temporalità-vissuta",
       "asse_di_appartenenza": "asse_1",
       "definizione_breve": "Il soggetto è temporalizzazione, non un essere che scorre nel tempo: il presente ha spessore, il passato pesa come stile incarnato.",
-      "evidenza_nell_opera": "I quaranta giorni come unità temporale chiusa e densa: il romanzo li tratta come un 'presente spesso' che porta in sé la storia armena (il passato che pesa come origine) e la catastrofe ottomana (il futuro imminente che stringe). La scelta autoriale di condensare 53 giorni storici in 40 simbolici è una scelta di temporalità vissuta: i 40 giorni sono un'unità di esperienza, non una misura cronologica."
+      "evidenza_nell_opera": "I 'quaranta giorni' del titolo, scelti contro i circa cinquantatré giorni storici, sono atto interpretativo: la durata non è cronaca ma figura. Il tempo dell'assedio ha spessore — ritiene il passato come tradizione armena, protende verso il soccorso o la morte — e rifiuta la temporalità lineare dell'accumulo. La struttura tripartita del romanzo scandisce un movimento di temporalizzazione, non una sequenza cronologica."
     },
     {
-      "nodo": "istanza-interna",
-      "asse_di_appartenenza": "asse_2",
-      "definizione_breve": "Presenza persistente dell'altro come riferimento affettivo che vincola il soggetto indipendentemente dalla presenza reale.",
-      "evidenza_nell_opera": "La comunità dei cinquemila e i morti della resistenza diventano per Gabriel un'istanza interna che vincola dall'interno: la sua incapacità di imbarcarsi non è una decisione razionale né un gesto eroico, ma la manifestazione di un vincolo affettivo che la partenza non può sciogliere. I morti — incluso Stephan — continuano a 'valere' sul monte anche quando il pericolo fisico è cessato."
+      "nodo": "ipseità-dinamica",
+      "asse_di_appartenenza": "asse_1",
+      "definizione_breve": "Continuità del soggetto non sostanziale ma dinamica: identità che si mantiene attraverso, non nonostante, il cambiamento.",
+      "evidenza_nell_opera": "Gabriel Bagradian resta lo stesso soggetto attraverso la trasformazione da intellettuale parigino a comandante della resistenza armena: non malgrado il cambiamento, ma attraverso di esso. Stephan, nato in Europa, scopre l'identità armena durante la vicenda: la sua morte iscrive nel romanzo l'idea che l'ipseità si compie nella riorganizzazione catastrofica dell'esperienza, non nella conservazione di un nucleo preformato."
+    },
+    {
+      "nodo": "co-regolazione",
+      "asse_di_appartenenza": "asse_1",
+      "definizione_breve": "Forma originaria e intersoggettiva della regolazione; condizione ontologica prima di essere tecnica relazionale.",
+      "evidenza_nell_opera": "L'assemblea comunitaria, le funzioni liturgiche, le processioni del Libro terzo non sono solo dispositivi religiosi o politici: sono la forma in cui l'esperienza collettiva si mantiene nel tempo senza frammentarsi. Quando la regolazione comunitaria comincia a logorarsi (fame, defezioni, episodio Kilikian) il campo intenzionale dell'accampamento si restringe."
     },
     {
       "nodo": "responsabilità-pre-normativa",
       "asse_di_appartenenza": "asse_2",
       "definizione_breve": "Capacità di riconoscersi causa di effetti sull'altro e rispondervi, prima di qualsiasi criterio universale.",
-      "evidenza_nell_opera": "Gabriel non ha una norma che lo obblighi a diventare il comandante della resistenza: non è un militare di professione, non è un leader tradizionale della comunità. La sua responsabilità verso i cinquemila emerge affettivamente, prima di qualsiasi mandato formale, e si approfondisce nel corso dei quaranta giorni fino a diventare costitutiva della sua identità."
+      "evidenza_nell_opera": "Gabriel risponde della comunità non perché una norma glielo imponga, ma perché il legame con quei volti è diventato interiormente vincolante. Anche dopo l'imbarco della comunità, resta presso la tomba del figlio: la sua responsabilità non è 'secondo una legge' ma 'per qualcuno' — per Stephan, per la montagna stessa come luogo dove un mondo umano è stato tenuto in piedi per quaranta giorni."
     },
     {
-      "nodo": "colpa-affettiva",
+      "nodo": "sopravvivenza-dell-oggetto",
       "asse_di_appartenenza": "asse_2",
-      "definizione_breve": "Esperienza affettiva pre-giudiziale che segnala che l'altro è diventato interiormente rilevante; precede norma e giudizio.",
-      "evidenza_nell_opera": "La morte di Stephan genera una colpa affettiva che il romanzo non conduce verso la riparazione: Gabriel non può 'riparare' la morte del figlio, non può scioglierne il peso attraverso un atto simbolico. La colpa rimane come struttura affettiva aperta — e contribuisce all'impossibilità del ritorno."
+      "definizione_breve": "L'altro mantiene il legame dopo l'aggressività senza ritrarsi; condizione strutturale della riparazione.",
+      "evidenza_nell_opera": "Nel processo a Sarkis Kilikian la comunità sopravvive all'insubordinazione e ai conflitti interni senza dissolversi: continua a riconoscerlo come parte di sé pur sanzionandolo. Il legame non si ritira; questo permette che la frattura interna venga sostenuta senza distruggere la forma collettiva."
+    },
+    {
+      "nodo": "giudizio-situato",
+      "asse_di_appartenenza": "asse_3",
+      "definizione_breve": "Atto incarnato e fallibile del soggetto nel mondo; non delegabile né automatizzabile; luogo della responsabilità.",
+      "evidenza_nell_opera": "L'assemblea dei capi che decide di salire sul Musa Dagh è il modello esemplare del giudizio situato: nessuna procedura esistente prevedeva l'evento, nessuna norma codificata bastava, e tuttavia la deliberazione collettiva assume una direzione senza poter essere sostituita da regole o protocolli. Allo stesso modo, ogni decisione tattica di Gabriel durante l'assedio."
+    },
+    {
+      "nodo": "limite-del-giudizio",
+      "asse_di_appartenenza": "asse_3",
+      "definizione_breve": "Il reale eccede la normatività: il giudizio è esposto, non sovrano; esistono situazioni in cui nessuna norma è sufficiente.",
+      "evidenza_nell_opera": "La sequenza Lepsius mostra la sproporzione tra la normatività disponibile (diritto internazionale, etica diplomatica, missione protestante) e la realtà del genocidio. Nessuna norma esistente è all'altezza; nessun giudizio dei capi della comunità sulla montagna è sufficiente a chiudere il senso di ciò che accade. La scena finale di Gabriel solo sulla tomba di Stephan è figura di un giudizio che resta esposto a un resto irriducibile."
     },
     {
       "nodo": "limite-reale",
       "asse_di_appartenenza": "asse_4",
       "definizione_breve": "Ciò che accade senza essere posto; non norma né frustrazione; ha la forma del 'non è possibile'.",
-      "evidenza_nell_opera": "Il genocidio armeno come limite-reale: gli ordini di deportazione ottomani non orientano né argomentano, non possono essere trasgrediti senza conseguenze letali, non ammettono negoziazione. Il romanzo mostra il funzionamento della macchina genocidaria anche dal punto di vista degli esecutori ottomani — precisamente per mostrare che si tratta di un meccanismo storico-strutturale, non di una cattiveria individuale."
+      "evidenza_nell_opera": "L'ordine di deportazione e la macchina dello sterminio non sono ostacoli rinegoziabili: hanno la forma del 'non è possibile' rivolto all'esistenza stessa della popolazione armena. Le perdite umane crescenti durante l'assedio, l'esaurirsi delle scorte, l'irreversibilità della morte di Stephan: tutto questo non è frustrazione regolabile ma reale che eccede la normatività e impone se stesso."
     },
     {
       "nodo": "perdita",
       "asse_di_appartenenza": "asse_4",
       "definizione_breve": "Irreversibilità strutturale: ciò che non torna e non ha sostituto equivalente.",
-      "evidenza_nell_opera": "La morte di Stephan è la perdita centrale e irriducibile del romanzo. Ma ci sono anche altre perdite strutturate: la perdita di Juliette (dal punto di vista di Gabriel, il matrimonio è già finito prima che lei si imbarchi sulle navi), la perdita dei combattenti morti in battaglia, la perdita del vilaggio e della vita pre-catastrofe. Il romanzo non sublima nessuna di queste perdite in un significato consolatorio."
+      "evidenza_nell_opera": "La morte di Stephan è il caso emblematico di perdita non sostituibile: non è frustrazione di un'aspettativa, è chiusura di una possibilità. La fine del mondo armeno della regione (sette villaggi cancellati) è perdita strutturale che neppure la salvezza dei sopravvissuti riscatta. Il libro tematizza esplicitamente l'irrecuperabilità: il finale non è ricominciare 'altrove' ma riconoscere ciò che è andato perduto."
     },
     {
       "nodo": "separazione-dall-onnipotenza",
       "asse_di_appartenenza": "asse_4",
       "definizione_breve": "Caduta dell'illusione che il desiderio organizzi il reale; introduce distanza stabile da sé.",
-      "evidenza_nell_opera": "Gabriel arriva sul monte con la convinzione implicita che la sua competenza militare e intellettuale possa garantire la sopravvivenza della comunità. Il Libro II e il Libro III mostrano la progressiva erosione di questa illusione: Stephan muore nonostante tutto, la situazione si deteriora nonostante i piani, la salvezza arriva da fuori (le navi francesi) e non dalla sua capacità organizzativa. La separazione dall'onnipotenza si compie nel finale: Gabriel non è il salvatore della sua gente, è il testimone e il residuo."
+      "evidenza_nell_opera": "La traiettoria di Gabriel è la caduta dell'illusione che organizzare la resistenza basti a salvare i suoi: pur essendo militarmente abile, non può evitare la fame, le defezioni, la morte del figlio. La sua scelta di non imbarcarsi non è disperazione passiva ma riconoscimento di una distanza stabile da sé — l'uomo che ha tenuto in piedi il mondo collettivo non può semplicemente reimbarcarsi nella storia ordinaria come se nulla fosse stato."
     },
     {
       "nodo": "resto-non-simbolizzabile",
       "asse_di_appartenenza": "asse_4",
       "definizione_breve": "Ciò che in ogni perdita non può essere integralmente ricondotto a senso; condizione del desiderio strutturale.",
-      "evidenza_nell_opera": "Ciò che Gabriel non riesce a portare via non è definibile: non è il ricordo di Stephan (che potrebbe portarlo con sé sulle navi), non è un dovere verso i morti (che un atto simbolico potrebbe compiere), non è nemmeno una scelta. È un 'resto' dell'esperienza del monte che non si lascia simbolizzare e che il romanzo lascia aperto attraverso la struttura palindromica Untergang Rettung Untergang."
+      "evidenza_nell_opera": "La tomba di Stephan sulla montagna abbandonata, presso cui Gabriel resta a vegliare, opera come immagine del resto irriducibile: ciò che permane oltre la salvezza collettiva, ciò che nessuna narrazione di sopravvivenza può chiudere. La triade Untergang – Rettung – Untergang del Libro terzo iscrive strutturalmente la presenza di questo resto."
+    },
+    {
+      "nodo": "lavoro-del-lutto",
+      "asse_di_appartenenza": "asse_4",
+      "definizione_breve": "Processo che la perdita richiede e che non può essere saltato; non patologico ma necessario.",
+      "evidenza_nell_opera": "L'incendio rituale, le processioni, le croci accese del Libro terzo non sono mero ornamento religioso: sono il dispositivo collettivo attraverso cui la comunità tenta di tenere — nel senso del 'tenere' che precede il dire — la perdita imminente. Gabriel, restando presso la tomba, non salta il lavoro del lutto: lo abita senza ricondurlo a senso compiuto."
     },
     {
       "nodo": "mediazione-strutturale",
       "asse_di_appartenenza": "asse_6",
       "definizione_breve": "Il mondo storico-culturale entra nella struttura dell'esperienza, non come sfondo ma come campo già organizzato.",
-      "evidenza_nell_opera": "Il genocidio ottomano non è lo sfondo del romanzo: è la mediazione strutturale che ridefinisce il campo del possibile per ogni personaggio. Gabriel non 'sceglie' di diventare il capo della resistenza in un contesto neutro: è il dispositivo storico-politico ottomano (deportazioni, massacri, distruzione dei villaggi) a rendere quella scelta l'unica non-suicida disponibile."
+      "evidenza_nell_opera": "L'esperienza dei villaggi del Musa Dagh non è leggibile fuori dalle mediazioni storiche concrete: l'Impero ottomano in disfacimento, la guerra mondiale, le alleanze internazionali, l'amministrazione dei Giovani Turchi. Gli stessi affetti privati (Gabriel europeo che ritrova un'identità armena; Juliette francese spaesata) sono interamente mediati dal mondo storico. La cornice 1933 in cui Werfel scrive ridefinisce poi a sua volta l'orizzonte di senso in cui il libro viene ricevuto."
     },
     {
-      "nodo": "storicità-del-soggetto",
+      "nodo": "istituzione-come-dispositivo",
       "asse_di_appartenenza": "asse_6",
-      "definizione_breve": "Forma concreta in cui le strutture fondative del soggetto prendono corpo; non relativismo né determinismo.",
-      "evidenza_nell_opera": "Gabriel è costitutivamente un prodotto di due storiche mediazioni che coesistono in lui in tensione: la storia armena del Levante (famiglia, villaggio, appartenenza etnica e religiosa) e la modernità europea (Parigi, la Sorbona, il matrimonio borghese con una francese). Il romanzo mostra che queste due storicità non si integrano pacificamente ma entrano in conflitto sotto la pressione della catastrofe."
+      "definizione_breve": "Forma stabile di esperienza che organizza ciò che conta e ciò che vale; l'Altro impersonale e durevole.",
+      "evidenza_nell_opera": "Il Comitato Unione e Progresso, con Enver e Talat Pasha, è descritto nel romanzo come istituzione-dispositivo: non come somma di individui, ma come configurazione di pratiche, comandi, telegrammi, ordini che organizzano ciò che è possibile attendersi nei villaggi armeni. Allo stesso modo, la chiesa apostolica armena, con Ter Haigasun, opera come istituzione che tiene insieme orizzonti di senso e pratiche."
+    },
+    {
+      "nodo": "tecnica-come-forma-storica",
+      "asse_di_appartenenza": "asse_6",
+      "definizione_breve": "La tecnica non è strumento neutro ma forma storica di organizzazione dell'esperienza che incide su tempo e desiderio.",
+      "evidenza_nell_opera": "Telegrammi, decreti, treni, registri di deportazione, comunicazioni di stato maggiore: il romanzo riproduce o riferisce questa testura tecnica per mostrare come la violenza moderna non sia anzitutto pulsione ma dispositivo organizzativo che ridefinisce il tempo e il possibile delle vittime. La modernità burocratica entra nella struttura dell'esperienza armena prima ancora dell'attacco fisico."
     },
     {
       "nodo": "deformazione-strutturale",
       "asse_di_appartenenza": "asse_6",
       "definizione_breve": "Configurazione sbilanciata prodotta dall'incontro tra strutture fondative del soggetto e forme storiche del mondo.",
-      "evidenza_nell_opera": "Il genocidio è il caso limite della deformazione strutturale: una forma storica del mondo (il nazionalismo etnico ottomano nella sua versione genocidaria) che produce effetti sistematici e irreversibili sull'esistenza di interi popoli. Il romanzo non patologizza gli individui: mostra il genocidio come una configurazione storica sistemica, non come la malvagità di singoli."
+      "evidenza_nell_opera": "Il genocidio è la deformazione strutturale estrema della mediazione storica: una configurazione sistemica in cui un'intera popolazione viene amministrativamente cancellata. I capitoli di Lepsius mostrano la deformazione complementare delle cancellerie europee, dove la normatività diplomatica diventa procedura che neutralizza l'urgenza del reale."
+    },
+    {
+      "nodo": "storicità-del-soggetto",
+      "asse_di_appartenenza": "asse_6",
+      "definizione_breve": "Forma concreta in cui le strutture fondative del soggetto prendono corpo; non relativismo né determinismo.",
+      "evidenza_nell_opera": "Gabriel è armeno-parigino e ufficiale ex-ottomano: queste storicità non sono accessori biografici ma le forme concrete in cui le strutture fondative del soggetto (corporeità, giudizio, desiderio) prendono corpo. Il romanzo, narrato in tedesco da un ebreo praghese, è esso stesso un atto di storicità: il Musa Dagh viene 'visto' attraverso una mediazione europea che è insieme atto di solidarietà e prospettiva determinata."
     }
   ],
-
   "nodi_assenti": [
     {
-      "nodo": "co-regolazione",
-      "asse_di_appartenenza": "asse_1",
-      "motivazione_assenza": "Il romanzo non costruisce relazioni di co-regolazione nel senso fenomenologico: i rapporti sul monte sono strutturati attorno al comando, alla dipendenza collettiva, alla gerarchia funzionale. Manca la dimensione di una reciproca regolazione dell'esperienza che caratterizza la co-regolazione dell'Asse 1. Le relazioni di Gabriel sono di tipo unidirezionale (lui regola gli altri, non viceversa) o di tipo affettivo-privato (Iskuhi, Juliette), non di co-regolazione nel senso strutturale."
+      "nodo": "moralità-adattiva",
+      "asse_di_appartenenza": "asse_2",
+      "motivazione_assenza": "Il romanzo non tematizza la moralità adattiva (comportamento corretto fondato su paura o rinforzo): le scelte dei personaggi non hanno la struttura del conformismo o dell'obbedienza per evitare conseguenze. La comunità sceglie la resistenza contro l'ordine statale, gesto opposto all'adattamento."
     },
     {
       "nodo": "riparazione",
       "asse_di_appartenenza": "asse_2",
-      "motivazione_assenza": "Il romanzo non offre a Gabriel alcun evento trasformativo di riparazione in senso proprio. La morte di Stephan non viene integrata attraverso un atto che ristabilisca il legame: non c'è una scena in cui la frattura venga tenuta e accompagnata verso l'integrazione. L'assenza della riparazione è un dato critico di grande peso: la colpa di Gabriel rimane strutturalmente aperta e contribuisce — insieme al resto non simbolizzabile dell'Asse 4 — a rendere impossibile la partenza. Il romanzo sembra dire che alcune perdite non si riparano."
+      "motivazione_assenza": "L'asse 2 prevede la riparazione come evento affettivo trasformativo, ma nel romanzo la struttura della perdita esclude la riparazione in senso proprio: la morte di Stephan, il genocidio, la fine del mondo armeno della regione non sono fratture che possano essere ristabilite. È piuttosto il lavoro del lutto (Asse 4) che opera, non la riparazione. Questa assenza non è lacuna ma è precisamente ciò che distingue strutturalmente la configurazione dell'opera dalla traiettoria 'normale' dell'Asse 2."
     },
     {
-      "nodo": "ordo-amoris",
+      "nodo": "verità-educativa",
+      "asse_di_appartenenza": "asse_3",
+      "motivazione_assenza": "Il romanzo non sviluppa esplicitamente una pedagogia della verità come riconoscimento interiore: la sua normatività è interamente situata in giudizi pratici sotto pressione, non in una trasmissione educativa. L'asse 3 è implicato ma su questo nodo specifico l'opera non offre evidenza."
+    },
+    {
+      "nodo": "motivazione-come-sostituto",
       "asse_di_appartenenza": "asse_5",
-      "motivazione_assenza": "Il romanzo mostra una riorganizzazione dell'ordine dei legami di Gabriel, ma non come processo consapevole o riconoscibile da parte del soggetto stesso. L'ordo amoris presuppone una certa capacità di riconoscere la propria gerarchia di orientamenti: Gabriel non sembra avere questa consapevolezza — la sua reorientazione verso la missione del monte avviene a livello pre-riflessivo e non viene mai tematizzata come tale nel testo."
+      "motivazione_assenza": "L'opera è ambientata in un contesto storico (1915, e per la scrittura 1933) precedente al pieno dispiegamento dei dispositivi contemporanei di stimolazione esterna: la motivazione come sostituto del desiderio non è un nodo attivato. Le forme di deformazione del desiderio nel romanzo sono piuttosto la ritrazione (di alcuni personaggi sotto la pressione della fame e della disperazione) e la dispersione (defezioni)."
+    },
+    {
+      "nodo": "prestazionalizzazione-del-valore",
+      "asse_di_appartenenza": "asse_6",
+      "motivazione_assenza": "L'orizzonte storico del romanzo precede la prestazionalizzazione contemporanea descritta dall'Asse 6 (Stiegler, Rosa). Le deformazioni storiche in gioco qui sono altre (burocrazia di Stato, violenza amministrativa, complicità diplomatica). Applicare questo nodo all'opera sarebbe forzatura anacronistica."
     }
   ],
-
   "evidenze": [
     {
+      "tipo": "scena",
+      "descrizione": "Ritorno di Gabriel Bagradian a Yoghonoluk con la moglie francese Juliette e il figlio Stephan, dopo molti anni a Parigi: la quotidianità apparentemente intatta dei villaggi armeni è già incrinata da segnali della crescente ostilità delle autorità ottomane.",
+      "localizzazione": "Libro primo, capitoli iniziali",
+      "assi_connessi": ["asse_1", "asse_6"],
+      "interpretazione_sintetica": "Iscrive la storicità del soggetto (Gabriel come armeno-parigino) e attiva l'ipseità dinamica: il personaggio è chiamato a divenire sé attraverso un cambiamento profondo. Lo sguardo del rimpatriato fa apparire come fragile e mediato dal mondo storico ciò che ai villaggi sembrava ovvio."
+    },
+    {
+      "tipo": "scena",
+      "descrizione": "Assemblea dei rappresentanti dei sette villaggi convocata da Ter Haigasun e Gabriel: davanti all'ordine di deportazione la comunità decide collettivamente di rifugiarsi sulla montagna.",
+      "localizzazione": "Libro primo, fase conclusiva",
+      "assi_connessi": ["asse_3", "asse_1", "asse_4"],
+      "interpretazione_sintetica": "Modello di giudizio situato: nessuna norma preesistente bastava, la deliberazione apre una direzione che non era nel campo prima. Insieme, è atto fondativo del campo intenzionale collettivo (Asse 1) e prima risposta al limite reale dell'ordine statale (Asse 4)."
+    },
+    {
       "tipo": "struttura_narrativa",
-      "descrizione": "Il titolo palindromico del Libro III: 'Untergang Rettung Untergang' (Caduta, Salvezza, Caduta). La struttura formale inscrive la salvezza collettiva dentro due cadute — quella della resistenza e quella finale di Gabriel.",
-      "localizzazione": "Titolo del Libro III",
-      "assi_connessi": ["asse_1", "asse_4", "asse_5"],
-      "interpretazione_sintetica": "Il palindromo formale segnala che la salvezza non chiude il senso del romanzo: il secondo 'Untergang' è quello di Gabriel, irriducibile alla 'Rettung' dei cinquemila. Attiva i nodi 'resto-non-simbolizzabile' (Asse 4) e 'campo-intenzionale' (Asse 1)."
+      "descrizione": "Organizzazione dell'accampamento sull'altipiano: trincee, depositi viveri, ospedale da campo, scuola, consiglio dei capi, milizia armata, funzioni religiose.",
+      "localizzazione": "Snodo Libro primo / Libro secondo e Libro secondo",
+      "assi_connessi": ["asse_1", "asse_3"],
+      "interpretazione_sintetica": "Costituzione del campo intenzionale di una comunità sotto assedio: l'organizzazione non è strumento di sopravvivenza ma forma piena di esistenza umana costruita contro il vuoto preparato dall'esterno. La co-regolazione comunitaria precede e rende possibile ogni normatività esplicita."
     },
     {
       "tipo": "scena",
-      "descrizione": "L'apertura del romanzo: Gabriel alla scogliera del Mussa Dagh, meditativo sulle proprie origini.",
-      "localizzazione": "Inizio del Libro I",
-      "assi_connessi": ["asse_1", "asse_5", "asse_6"],
-      "interpretazione_sintetica": "La scena d'apertura stabilisce il campo intenzionale di Gabriel come un orizzonte aperto ma non pienamente abitabile: né Parigi né Yoghonoluk. Il soggetto-come-processo è già in movimento prima che la catastrofe lo costringa."
+      "descrizione": "Primo grande attacco delle truppe turche regolari respinto dagli assediati grazie alla preparazione militare di Gabriel.",
+      "localizzazione": "Libro secondo",
+      "assi_connessi": ["asse_1", "asse_5"],
+      "interpretazione_sintetica": "L'episodio consolida la fiducia interna alla comunità e mostra la direzione del campo desiderabile collettivo: non sopravvivere a ogni costo, ma esistere come popolo capace di resistere."
+    },
+    {
+      "tipo": "struttura_narrativa",
+      "descrizione": "Capitoli paralleli sulle iniziative del pastore tedesco Johannes Lepsius: visita a Costantinopoli, incontro con Enver Pasha, tentativi presso le autorità berlinesi di sensibilizzare la diplomazia tedesca.",
+      "localizzazione": "Libro secondo, sequenza parallela",
+      "assi_connessi": ["asse_6", "asse_3"],
+      "interpretazione_sintetica": "Attiva l'asse storico-culturale nella forma del fallimento istituzionale internazionale: le cancellerie come dispositivi che organizzano un orizzonte di possibilità da cui l'azione efficace è esclusa. Sul piano dell'Asse 3, è il caso esemplare del limite del giudizio: la normatività disponibile non è all'altezza del reale."
     },
     {
       "tipo": "scena",
-      "descrizione": "Il consiglio dei capi villaggio: il dibattito tra resa e resistenza, con la decisione finale di salire sul monte.",
-      "localizzazione": "Parte avanzata del Libro I",
-      "assi_connessi": ["asse_3", "asse_4", "asse_6"],
-      "interpretazione_sintetica": "Il giudizio situato collettivo di fronte al limite-reale: nessuna norma prescrive la resistenza, ma la resa equivale alla morte. La decisione di resistere è un esempio di giudizio-situato (Asse 3) davanti a un limite-reale (Asse 4) prodotto da una deformazione-strutturale storica (Asse 6)."
+      "descrizione": "Il prolungarsi dell'assedio produce penuria di viveri e divisioni; un episodio di insubordinazione attorno a Sarkis Kilikian conduce a un processo interno e a misure punitive.",
+      "localizzazione": "Libro terzo, fase centrale",
+      "assi_connessi": ["asse_2", "asse_3"],
+      "interpretazione_sintetica": "Attiva il nodo della sopravvivenza dell'oggetto (Asse 2): la comunità sopravvive all'aggressività interna senza ritirare il legame. Su Asse 3, mostra il giudizio situato come processo che assume la responsabilità senza ricondurre a procedura preordinata."
     },
     {
       "tipo": "scena",
-      "descrizione": "La morte di Stephan: il figlio adolescente scende dal monte da solo di notte, viene catturato e ucciso.",
-      "localizzazione": "Libro II / inizio Libro III",
-      "assi_connessi": ["asse_2", "asse_4"],
-      "interpretazione_sintetica": "La perdita irriducibile (Asse 4): Stephan non torna, non ha sostituto, chiude una possibilità definitivamente. Genera la colpa-affettiva (Asse 2) più intensa di Gabriel, che non troverà riparazione. L'assenza del nodo 'riparazione' si manifesta qui con tutta la sua forza critica."
+      "descrizione": "Morte di Stephan: il figlio di Gabriel, allontanatosi dall'accampamento con l'amico Haik, viene catturato e ucciso dai soldati turchi.",
+      "localizzazione": "Libro terzo",
+      "assi_connessi": ["asse_4", "asse_2"],
+      "interpretazione_sintetica": "Evento di perdita nel senso forte dell'Asse 4: irreversibile, senza equivalente sostitutivo, non riducibile a frustrazione. Attiva la traiettoria interiore del protagonista verso la separazione dall'onnipotenza. Sul versante Asse 2, apre l'esperienza di colpa di Gabriel come istanza interna che vincolerà la sua scelta finale."
     },
     {
       "tipo": "scena",
-      "descrizione": "I fuochi di segnalazione accesi sulla scogliera: appello visivo al mondo che potrebbe non guardare.",
-      "localizzazione": "Libro III",
-      "assi_connessi": ["asse_4", "asse_6"],
-      "interpretazione_sintetica": "I fuochi mettono in forma la tensione tra visibile e invisibile già identificata nello Step 2: il monte chiede di essere visto da un mondo che non sa della sua esistenza. La salvezza che ne consegue arriva dall'esterno della mediazione strutturale ottomana — dalla marina francese, altro dispositivo storico-istituzionale."
+      "descrizione": "Riti religiosi, croci accese sulla montagna, processioni segnano insieme la disperazione e la dimensione liturgica dell'esperienza collettiva.",
+      "localizzazione": "Libro terzo, fase tarda",
+      "assi_connessi": ["asse_4", "asse_1"],
+      "interpretazione_sintetica": "Modalità collettiva del lavoro del lutto e del 'tenere' che precede il dire: la comunità sostiene la perdita imminente senza neutralizzarla in spiegazione. La temporalità vissuta (Asse 1) si addensa nell'orizzonte liturgico dei 'quaranta giorni'."
     },
     {
       "tipo": "scena",
-      "descrizione": "Gabriel non si imbarca: il ritorno verso il monte e la morte solitaria.",
-      "localizzazione": "Finale del Libro III",
-      "assi_connessi": ["asse_1", "asse_2", "asse_4", "asse_5"],
-      "interpretazione_sintetica": "La scena finale attiva simultaneamente: la separazione-dall-onnipotenza (Gabriel non è il salvatore), il resto-non-simbolizzabile (non c'è un nome per ciò che lo trattiene), la colpa-affettiva irrisolta (Stephan, i morti), il campo-intenzionale che non può riaprirsi verso Parigi. Non è suicidio, non è martirio, non è codardia: è l'impossibilità strutturale di esistere fuori dal luogo in cui ci si è costituiti nel modo più pieno."
+      "descrizione": "Arrivo della flotta franco-britannica, allertata dai segnali, e imbarco dei sopravvissuti che vengono poi trasferiti a Port Said.",
+      "localizzazione": "Libro terzo, scioglimento",
+      "assi_connessi": ["asse_6", "asse_4"],
+      "interpretazione_sintetica": "Sul piano storico-culturale, mostra la doppia faccia dell'Europa: silenziosa per mesi nelle cancellerie (Asse 3-6) e poi tardiva soccorritrice via mare. Su Asse 4, la salvezza collettiva non chiude il senso della perdita: 'Rettung' è schiacciata tra due 'Untergang' nel titolo stesso del Libro terzo."
+    },
+    {
+      "tipo": "scena",
+      "descrizione": "Gabriel, rimasto presso la tomba del figlio, non si imbarca; un colpo di pistola pone fine alla sua vita sulla montagna ormai abbandonata.",
+      "localizzazione": "Capitolo finale",
+      "assi_connessi": ["asse_4", "asse_2", "asse_3"],
+      "interpretazione_sintetica": "Compimento della separazione dall'onnipotenza (Asse 4): Gabriel non si imbarca perché chi ha fatto esistere quel tempo non può semplicemente reimbarcarsi nella storia ordinaria. Iscrizione del resto non simbolizzabile: la tomba sulla montagna abbandonata permane come segno. Sul piano Asse 2-3, è atto di responsabilità pre-normativa che eccede ogni norma e ogni colpa: fedeltà a un legame e a un mondo, prima di ogni criterio."
     },
     {
       "tipo": "elemento_formale",
-      "descrizione": "La scelta di condensare 53 giorni storici in 40 giorni simbolici (biblici).",
-      "localizzazione": "Scelta strutturale del romanzo, dichiarata in fonti biografiche",
-      "assi_connessi": ["asse_1", "asse_6"],
-      "interpretazione_sintetica": "La temporalità vissuta (Asse 1) prevale sulla cronologia: i 40 giorni non sono una misura ma un'unità di esperienza. La mediazione simbolica (Asse 6) inscrive la resistenza armena nella serie biblica dei grandi 40 giorni di prova e trasformazione — costruendo una memoria culturale per un evento che il mondo stava dimenticando."
+      "descrizione": "Discrepanza esplicita tra la durata storica della resistenza (circa cinquantatré giorni, luglio-settembre 1915) e la durata simbolica del titolo (quaranta giorni), che richiama il diluvio, il Sinai, la Quaresima, le tentazioni nel deserto.",
+      "localizzazione": "Strutturale, a partire dal titolo",
+      "assi_connessi": ["asse_1", "asse_4"],
+      "interpretazione_sintetica": "Atto interpretativo che colloca la vicenda in una temporalità di senso e non di cronaca. Innesta l'evento storico in una grammatica figurale che dà spessore al presente vissuto e ne fa il tempo della prova del limite."
+    },
+    {
+      "tipo": "elemento_formale",
+      "descrizione": "Struttura tripartita del Libro terzo: 'Untergang – Rettung – Untergang' (Catastrofe – Salvezza – Catastrofe).",
+      "localizzazione": "Architettura del Libro terzo",
+      "assi_connessi": ["asse_4"],
+      "interpretazione_sintetica": "Incornicia la salvezza tra due catastrofi: la salvezza biologica dei sopravvissuti non riassorbe la perdita; il resto non simbolizzabile permane e organizza il senso complessivo dell'esito."
     },
     {
       "tipo": "struttura_narrativa",
-      "descrizione": "La polifocalizzazione narrativa: il narratore si sposta da Gabriel agli ufficiali ottomani, dai rifugiati al monte a Juliette, costruendo un affresco corale senza centro fisso.",
-      "localizzazione": "Tecnica narrativa dell'intero romanzo",
-      "assi_connessi": ["asse_6"],
-      "interpretazione_sintetica": "La polifocalizzazione produce l'effetto di una mediazione strutturale resa visibile: il genocidio non è narrato da un unico punto di vista ma come sistema di relazioni tra attori storicamente posizionati. La tecnica è coerente con la funzione dell'Asse 6: il mondo storico non è sfondo neutro ma campo di forze che struttura ogni singola esperienza."
+      "descrizione": "Triangolo Gabriel–Juliette–Iskuhi, intrecciato al contrappunto Juliette–Gonzague Maris.",
+      "localizzazione": "Libro secondo e prima parte del Libro terzo",
+      "assi_connessi": ["asse_5", "asse_1"],
+      "interpretazione_sintetica": "Riorganizzazione del campo desiderabile di Gabriel attraverso l'incontro con Iskuhi, parallela alla riorganizzazione del campo intenzionale di tutta la comunità: il desiderio individuale segue la stessa logica di ricomposizione dell'orizzonte che agisce sul piano collettivo."
+    },
+    {
+      "tipo": "elemento_formale",
+      "descrizione": "Inclusione nel testo di ordini, telegrammi, decreti, comunicazioni di sottoprefetti e ufficiali del Comitato Unione e Progresso.",
+      "localizzazione": "Trasversale all'opera, anche nei capitoli di Lepsius",
+      "assi_connessi": ["asse_6", "asse_3"],
+      "interpretazione_sintetica": "Mette in scena la mediazione tecnica e burocratica della violenza statale: lo sterminio è anzitutto un dispositivo amministrativo che riorganizza il possibile della popolazione armena. Il romanzo, prima di descrivere battaglie, descrive procedure."
     }
   ],
-
   "configurazione_strutturale_dominante": {
-    "descrizione": "La configurazione strutturale dominante del romanzo è quella di un soggetto storicamente situato, scisso tra due Lebenswelten in tensione (l'armeno e l'europeo), che la catastrofe storica riconsegna a un'appartenenza che non aveva scelto deliberatamente — e che in questa riconsegna si costituisce diversamente da ciò che era, in modo irreversibile. La struttura non è quella dell'eroe che sceglie il martirio né quella del perseguitato che subisce passivamente: è quella di un soggetto che, nell'incontro con il limite-reale assoluto (il genocidio), scopre che la sua precedente identità era storicamente condizionata e non universalmente portabile. Il monte non è solo un rifugio: è lo spazio in cui si realizza una trasformazione che non consente il ritorno. La salvezza degli altri è la condizione di possibilità di questa trasformazione compiuta — non il suo contrario. Gabriel non resta perché gli altri si salvano nonostante lui: resta perché lui si è trasformato in qualcuno che non esiste fuori da quel monte.",
-    "relazione_con_ipotesi_step2": "La configurazione strutturale conferma e precisa l'ipotesi dello Step 2: il 'ritorno' di Gabriel all'identità armena non è il recupero di un sé autentico pre-esistente (ipseità statica) ma la costituzione di un soggetto nuovo attraverso il processo dei quaranta giorni (ipseità dinamica). L'ipotesi provvisoria era corretta nell'identificare l'impossibilità del ritorno come strutturale e non come scelta deliberata. La precisazione che emerge dall'analisi per assi è che questa impossibilità è prodotta dalla combinazione di tre fattori: la trasformazione del campo intenzionale (Asse 1), la colpa irrisolta e il vincolo dell'istanza interna (Asse 2), e il resto non simbolizzabile che rimane sul monte (Asse 4)."
+    "descrizione": "La configurazione dominante dell'opera è quella di un soggetto collettivo che, sotto la pressione di una deformazione storica estrema (Asse 6: il dispositivo amministrativo del genocidio), si costituisce come forma piena di esistenza umana (Asse 1) nell'incontro frontale con il limite reale in tutte le sue forme — eccedenza della sproporzione, perdita irreversibile, separazione dall'onnipotenza (Asse 4). La normatività interna (Asse 3) non discende da regole preesistenti ma si dà come giudizio situato in condizioni di assedio; il legame affettivo (Asse 2) opera come istanza interna che vincola anche oltre la sopravvivenza biologica; l'orientamento desiderante (Asse 5) si manifesta come ordo amoris collettivo che mette al primo posto l'esistenza come popolo e non la conservazione individuale. La specificità della configurazione è la coesistenza, nel medesimo tempo dei quaranta giorni, di una costituzione piena del soggetto collettivo e dell'esperienza del proprio possibile annientamento: il romanzo non risolve questa coesistenza in una direzione, ma la mantiene fino al finale, che incornicia la salvezza tra due catastrofi e iscrive la morte solitaria di Gabriel come sigillo di una fedeltà che eccede la salvezza biologica.",
+    "relazione_con_ipotesi_step2": "L'analisi per assi conferma in larga misura l'ipotesi critica provvisoria dello Step 2 — la resistenza come gesto fondativo di senso, e i quaranta giorni come tempo di costituzione di un mondo umano contro il vuoto preparato — ma la precisa e la complica. La conferma sta nell'attivazione congiunta degli Assi 1 e 4: la costituzione del campo intenzionale collettivo e l'incontro con il limite reale procedono insieme, e questo giustifica strutturalmente l'idea che 'fondare un tempo umano' e 'incontrare la propria possibile cancellazione' non siano fasi separate. La precisazione riguarda il ruolo dell'Asse 6: la fondazione del senso non è leggibile fuori dalla deformazione storica precisa (Stato moderno, burocrazia, complicità diplomatica) contro cui si compie, e l'Asse 6 mostra che il valore della resistenza è strutturalmente legato a una configurazione storica determinata, non a una situazione universale di minaccia. La complicazione riguarda il finale: l'ipotesi dello Step 2 — la morte di Gabriel come 'sigillo di coerenza' — trova nei nodi 'separazione-dall-onnipotenza' e 'resto-non-simbolizzabile' (Asse 4) una formulazione più rigorosa e meno consolatoria. Gabriel non muore perché 'ha completato la missione', ma perché ciò che è stato perduto eccede ogni reintegrazione, e la fedeltà a quel resto coincide con il non-reimbarco. La cautela dello Step 2 sulla centralità eccessiva di Gabriel rispetto al carattere corale dell'opera viene anch'essa precisata: l'analisi mostra che la traiettoria di Gabriel non è autonoma, ma è funzione della configurazione collettiva."
   },
-
   "dinamica_opera": {
-    "forma_prevalente": ["resistenza", "trasformazione", "restringimento"],
-    "descrizione": "Il romanzo combina tre dinamiche in sequenza che si sovrappongono parzialmente: la resistenza collettiva (il corpo dei cinquemila che regge sotto la pressione ottomana) è il livello narrativo più visibile; la trasformazione individuale di Gabriel (che diventa progressivamente qualcuno di irriconoscibile rispetto al punto di partenza) è il livello interpretativo più profondo; il restringimento progressivo del campo del possibile (le risorse che si esauriscono, le perdite che si accumulano, il campo intenzionale che si focalizza fino all'impossibilità del ritorno) connette i due livelli. Non si tratta di un collasso — la resistenza tiene e la comunità si salva — né di una sospensione — la dinamica si compie nel finale con la morte di Gabriel. La forma d'insieme è quella di una trasformazione irreversibile che produce contestualmente salvezza collettiva e morte individuale.",
+    "forma_prevalente": ["resistenza", "trasformazione", "sospensione"],
+    "descrizione": "La dinamica complessiva dell'opera è di resistenza in senso strutturale: una configurazione collettiva che mantiene una forma piena di esistenza umana sotto la pressione di una pressione storica destinata a cancellarla. Questa resistenza, però, non è statica: si articola in trasformazione (sia del singolo Gabriel — da intellettuale parigino a soggetto fedele a una montagna abbandonata — sia della comunità, che si riorganizza come polis liturgico-militare sull'altipiano) e culmina in sospensione (il finale non risolve il rapporto tra salvezza collettiva e morte solitaria, e il titolo del Libro terzo iscrive proprio l'irrisolvibilità della tensione tra Untergang e Rettung). Non c'è espansione (il campo del possibile si chiude nei fatti) né collasso pieno (la comunità si salva biologicamente, anche se non integralmente); c'è invece una resistenza che si trasforma e resta aperta su un resto.",
     "articolazione_in_fasi": [
       {
-        "fase": "Libro I – L'imminente",
-        "forma": "resistenza",
-        "descrizione": "La comunità armena resiste alla pressione degli ordini di deportazione attraverso la decisione collettiva di salire sul monte. Il soggetto principale è ancora il gruppo, non Gabriel singolarmente."
-      },
-      {
-        "fase": "Libro II – Le battaglie dei deboli",
+        "fase": "Libro primo: dalla quotidianità alla decisione",
         "forma": "trasformazione",
-        "descrizione": "La resistenza militare è in corso, ma il livello narrativo più importante è la trasformazione di Gabriel: diventa comandante, padre in lutto (Stephan), marito separato (Juliette). Il campo intenzionale si riorganizza."
+        "descrizione": "Il campo intenzionale dei villaggi armeni passa da quotidianità apparentemente intatta a riconoscimento della minaccia e a decisione comunitaria. La trasformazione è insieme storica (riorganizzazione del possibile collettivo sotto pressione esterna) e personale (Gabriel scopre la propria appartenenza armena come configurazione effettiva, non astratta)."
       },
       {
-        "fase": "Libro III – Caduta, Salvezza, Caduta",
+        "fase": "Libro secondo: fondazione e tenuta del mondo sull'altipiano",
+        "forma": "resistenza",
+        "descrizione": "La comunità organizza e mantiene una forma piena di esistenza umana sulla montagna: consiglio, milizia, ospedale, scuola, riti. La resistenza è insieme militare (attacchi respinti) e ontologica (tenere il campo intenzionale). I capitoli paralleli di Lepsius mostrano la resistenza fallita su scala diplomatica."
+      },
+      {
+        "fase": "Libro terzo, prima parte: logoramento e incontro col limite",
         "forma": "restringimento",
-        "descrizione": "Le possibilità si restringono: risorse esaurite, perdite accumulate, la salvezza arriva dall'esterno e non dall'interno. Il restringimento del campo del possibile collettivo si risolve nella 'Rettung'; il restringimento del campo di Gabriel si compie nella morte."
+        "descrizione": "Fame, defezioni, processo a Kilikian, morte di Stephan: il campo del possibile si restringe e la perdita irreversibile entra nell'esperienza. La resistenza continua, ma sotto la pressione di un reale che non può essere riassorbito."
+      },
+      {
+        "fase": "Libro terzo, finale: salvezza, catastrofe, sospensione",
+        "forma": "sospensione",
+        "descrizione": "Arrivo della flotta e imbarco dei sopravvissuti; permanenza di Gabriel sulla montagna e sua morte. L'opera non chiude il senso: la salvezza collettiva non riassorbe la perdita; la morte di Gabriel non è fallimento ma fedeltà; il resto non simbolizzabile permane. La dinamica resta aperta, secondo l'architettura Untergang – Rettung – Untergang del Libro terzo."
       }
     ]
   },
-
   "rischi_di_forzatura": [
     {
       "asse_coinvolto": "asse_2",
-      "tipo_di_rischio": "Psicologizzazione della colpa e moralizzazione del finale",
-      "descrizione": "Il rischio principale di questo asse è di leggere il rifiuto di Gabriel di imbarcarsi come un atto morale deliberato — una scelta di martirio o di autopunizione — che avrebbe una struttura narrativa pulita (il peccato che esige espiazione, la colpa che produce il sacrificio). Ma l'Asse 2 avverte contro la psicologizzazione della colpa: la colpa-affettiva è pre-giudiziale, non è un calcolo. L'impossibilità di partire potrebbe non essere riducibile a colpa in senso stretto.",
-      "cautela_adottata": "Si è mantenuta la descrizione di Gabriel come soggetto strutturalmente impossibilitato a partire (combinazione di Asse 1, 2 e 4) invece di diagnosticare una colpa-persecutoria o un desiderio di autopunizione."
+      "tipo_di_rischio": "Psicologizzazione della colpa",
+      "descrizione": "C'è il rischio di leggere la scelta finale di Gabriel come colpa paterna psicologicamente trattabile — il padre che non sopravvive alla morte del figlio — riducendo a dinamica intima un gesto che ha valenza strutturale (fedeltà al resto non simbolizzabile, separazione dall'onnipotenza). L'analisi attraverso il solo Asse 2 produrrebbe questa riduzione.",
+      "cautela_adottata": "L'evidenza relativa al finale è stata letta in prevalenza attraverso l'Asse 4 (limite, perdita, separazione dall'onnipotenza) e solo secondariamente attraverso l'Asse 2. Il nodo 'responsabilità-pre-normativa' è stato usato per articolare la dimensione affettiva senza chiuderla in chiave intimistica."
     },
     {
-      "asse_coinvolto": "asse_1",
-      "tipo_di_rischio": "Individuazione eccessiva: il campo intenzionale di Gabriel come unico soggetto rilevante",
-      "descrizione": "L'analisi per assi rischia di sovraccaricare l'arco individuale di Gabriel — la trasformazione del suo campo intenzionale, la sua ipseità dinamica — oscurando la dimensione corale del romanzo: i cinquemila, le dinamiche interne della comunità, i personaggi secondari. Il romanzo è un'epopea corale, e la riduzione al solo protagonista è una forzatura.",
-      "cautela_adottata": "L'Asse 6 è stato mantenuto ad alto grado proprio per tenere aperta la dimensione collettiva e storica. La configurazione strutturale dominante include esplicitamente entrambi i livelli (individuale e collettivo)."
+      "asse_coinvolto": "asse_3",
+      "tipo_di_rischio": "Anticipazione normativa / lettura agiografica della resistenza",
+      "descrizione": "Esiste il rischio di trasformare la resistenza del Musa Dagh in esempio morale, deducendo dall'opera prescrizioni etiche o politiche universali. Ciò ridurrebbe il giudizio situato dell'assemblea a 'esempio di buona deliberazione', perdendo il suo carattere di esposizione e fallibilità.",
+      "cautela_adottata": "Si è mantenuta la lettura del giudizio come atto situato e fallibile (nodo 'giudizio-situato'), evitando di trasformare le decisioni della comunità in modelli prescrittivi. La figura di Sarkis Kilikian è stata mantenuta come contro-campo che impedisce la lettura agiografica."
+    },
+    {
+      "asse_coinvolto": "asse_4",
+      "tipo_di_rischio": "Patologizzazione della perdita / Neutralizzazione simbolica prematura",
+      "descrizione": "Il rischio è duplice. Da un lato, leggere il genocidio e la morte di Stephan come 'traumi' da inquadrare in categorie cliniche, perdendo la natura strutturale e storica della perdita. Dall'altro, neutralizzare simbolicamente troppo presto: ricondurre i quaranta giorni a 'esperienza formativa' o 'martirio significativo' che chiude il senso dell'evento.",
+      "cautela_adottata": "Si è mantenuta la distinzione fra perdita strutturale e trauma clinico; si è insistito sul nodo 'resto-non-simbolizzabile' per impedire la chiusura del senso nel finale. Il 'tenere' liturgico è stato letto come modalità che precede il dire, non come spiegazione consolatoria."
     },
     {
       "asse_coinvolto": "asse_5",
-      "tipo_di_rischio": "Concezione compensatoria del desiderio: il monte come sostituto della vita parigina insoddisfacente",
-      "descrizione": "L'Asse 5 avverte esplicitamente contro la lettura del desiderio come compensazione della perdita. Il rischio è di leggere l'immersione di Gabriel nella resistenza come compensazione di una vita parigina percepita come vuota — una soddisfazione sostitutiva del desiderio frustrato. Questa lettura ridurrebbe la resistenza a uno sfogo psicologico invece che a una risposta a un limite-reale storico.",
-      "cautela_adottata": "Il desiderio è stato posizionato come struttura di orientamento pre-riflessivo (non come compensazione) e il suo peso interpretativo è stato mantenuto subordinato all'Asse 4 (il limite-reale del genocidio come condizione primaria) e all'Asse 6 (la mediazione storica)."
+      "tipo_di_rischio": "Concezione compensatoria del desiderio",
+      "descrizione": "C'è il rischio di leggere il legame con Iskuhi come compensazione del legame coniugale con Juliette, o come compensazione affettiva della perdita dell'identità parigina di Gabriel. Questo ridurrebbe il desiderio a reazione, perdendone la natura di riorganizzazione strutturale del campo.",
+      "cautela_adottata": "Il triangolo è stato letto come riorganizzazione del campo desiderabile (parallela a quella del campo intenzionale collettivo), non come sostituzione di oggetti. Il nodo 'campo-desiderabile' e 'direzione-valutativa' sono stati preferiti a una lettura in chiave di mancanza/sostituto."
     },
     {
       "asse_coinvolto": "asse_6",
-      "tipo_di_rischio": "Sociologizzazione: ridurre Gabriel a prodotto delle sue condizioni storiche",
-      "descrizione": "Il rischio opposto alla psicologizzazione: leggere tutto in chiave di determinismo storico-culturale — Gabriel come puro prodotto della doppia storicità armena/europea — annullando la consistenza della sua soggettività individuale. L'Asse 6 avverte contro la sociologizzazione: il mondo storico media le strutture fondative, ma non le produce interamente.",
-      "cautela_adottata": "Gli assi 1 e 4 sono stati mantenuti ad alto grado per preservare la dimensione ontologico-fenomenologica (il soggetto come processo di costituzione) e la dimensione della perdita irriducibile (che non si riduce a una categoria storico-culturale)."
+      "tipo_di_rischio": "Sociologizzazione dello sviluppo / Riduzione storicistica",
+      "descrizione": "L'opera si presta a essere ridotta a documento storico-politico sul genocidio armeno e sul contesto del 1933, dissolvendo la configurazione del soggetto collettivo (Asse 1) nelle determinazioni storiche. Allo stesso modo, è possibile leggere il romanzo come allegoria del nazismo imminente, perdendone la specificità del riferimento armeno.",
+      "cautela_adottata": "Si è mantenuto il primato analitico degli Assi 1 e 4 nella configurazione dominante, leggendo l'Asse 6 come asse di traduzione e verifica, non di origine. Il riferimento all'orizzonte 1933 è stato registrato come mediazione che modella la scrittura, non come chiave allegorica unica."
+    },
+    {
+      "asse_coinvolto": "asse_6",
+      "tipo_di_rischio": "Anacronismo (applicazione dei nodi del presente storico contemporaneo a un'opera del 1933 su eventi del 1915)",
+      "descrizione": "Il rischio è applicare nodi come 'prestazionalizzazione del valore' o 'saturazione del desiderio' — pensati per la deformazione strutturale contemporanea (Stiegler, Rosa) — a un contesto in cui la deformazione storica ha altre forme (burocrazia di Stato, violenza amministrativa moderna, complicità diplomatica).",
+      "cautela_adottata": "Questi nodi sono stati esplicitamente registrati come 'nodi assenti' (vedi sezione dedicata). La mediazione tecnica è stata letta come dispositivo amministrativo dello sterminio moderno, non come forma contemporanea della prestazione."
+    },
+    {
+      "asse_coinvolto": "asse_1",
+      "tipo_di_rischio": "Individualismo metodologico / centralità eccessiva di Gabriel",
+      "descrizione": "C'è il rischio di trattare Gabriel come soggetto-tipo dello sviluppo dell'opera, leggendo l'intera configurazione attraverso la sua parabola e perdendo il carattere strutturalmente corale della costituzione del soggetto. Il dossier dello Step 2 segnalava già questa possibilità.",
+      "cautela_adottata": "Si è insistito sul fatto che il soggetto principale dell'opera è collettivo (la comunità dei sette villaggi sull'altipiano) e che la traiettoria di Gabriel è funzione della configurazione comunitaria. Le evidenze relative a consiglio dei capi, riti, processo a Kilikian sono state lette come centrali quanto quelle relative al protagonista."
     }
   ],
-
   "metadata": {
-    "data_compilazione": "2026-04-28",
-    "compilato_da": "Claude (Cowork – pipeline HCAIRE Cultura, Step 3)",
+    "data_compilazione": "2026-06-08",
+    "compilato_da": "Cowork / pipeline HCAIRE Cultura — Step 3",
     "versione": "1.0"
   }
 }

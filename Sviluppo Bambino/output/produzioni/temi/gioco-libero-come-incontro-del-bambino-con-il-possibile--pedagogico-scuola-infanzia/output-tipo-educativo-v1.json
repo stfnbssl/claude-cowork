@@ -1,0 +1,101 @@
+{
+  "step": "f3_step_5",
+  "tema_id": "gioco-libero-come-incontro-del-bambino-con-il-possibile",
+  "domain_selected": "educativo",
+  "context_label": "servizi 0-6 e scuola dell'infanzia",
+  "results": [
+    {
+      "sections": [
+        {
+          "section_id": "A",
+          "section_label": "Campo condiviso",
+          "domain_examples": [
+            "In un nido 24-36 mesi, nella fascia centrale della mattinata, l'angolo dei materiali destrutturati resta accessibile per oltre un'ora senza che le educatrici introducano una consegna, riorganizzino i materiali o sollecitino un esito; una bambina può tornare per più giorni consecutivi verso la stessa cesta di tappi senza che il suo investimento venga interrotto, ricondotto a un'attività o convertito in 'lavoro in corso' da documentare.",
+            "Nella fascia di accoglienza della scuola dell'infanzia, le insegnanti restano disponibili allo sguardo dei bambini senza riempire il tempo con 'giochi di attesa' a consegna implicita, e accettano che un bambino inizi un'azione che non si conclude in quel momento e che potrà essere ripresa più tardi senza essere annunciata o rendicontata.",
+            "In una riunione di team educativo, gli educatori riconoscono che una certa porzione della giornata non si lascia raccontare alle famiglie come attività con esito riconoscibile, e decidono di non convertirla in narrazione di sviluppo per renderla restituibile: la qualità non finalizzata di quella porzione viene tenuta anche nel discorso professionale, non solo nello spazio della sezione.",
+            "Una porzione della giornata formalmente protetta come 'tempo di gioco libero' viene riletta dal team come 'tentata in attesa', perché una sola educatrice tiene il campo aperto mentre le altre lo riempiono di sollecitazioni: il riconoscimento che il campo è intenzionato da una sola posizione (e non condiviso) viene assunto come informazione strutturale sul servizio, non come giudizio sulle colleghe."
+          ],
+          "linguistic_frame": "In questa sezione si guarda alla qualità del tempo e dello spazio condivisi nella giornata educativa: ci sono tratti della giornata in cui il bambino può semplicemente essere in qualcosa, senza che ciò che fa sia leggibile come compito assegnato o come passo verso un esito riconoscibile dall'esterno? Esiste un orizzonte non riempito che le proposte e i materiali abitano ma non saturano, e quanto questo orizzonte regge attraverso le diverse fasce della giornata e i diversi adulti che vi operano?",
+          "decisional_nodes": [
+            "Il collegio docenti decide se mantenere protetti i tempi non scanditi della giornata anche quando la pressione organizzativa (visite di valutazione, restituzioni alle famiglie, eventi del servizio) tende a riempirli con proposte orientate a un esito.",
+            "Il coordinamento pedagogico valuta in che modo nominare alle famiglie le porzioni di giornata in cui non vi sono proposte finalizzate, senza convertirle in narrazione di sviluppo né farle scomparire come 'tempi morti'.",
+            "Il team riconosce, in sede di progettazione della giornata, che la composizione plurale degli adulti del servizio può tenere o frammentare il campo, e assume questa composizione come questione pedagogica strutturale e non come somma di stili individuali."
+          ]
+        },
+        {
+          "section_id": "B",
+          "section_label": "Posizione soggettiva",
+          "domain_examples": [
+            "Un bambino di 4 anni torna ogni mattina verso lo stesso cesto di rametti, costruisce composizioni che disfa e ricompone nel corso di settimane; gli adulti riconoscono la continuità del suo investimento senza chiedergli di spiegare cosa sta facendo, senza convertire il suo lavoro in materiale di documentazione e senza restituire alla famiglia un prodotto finito.",
+            "Una bambina di 5 anni esegue con efficacia tutte le consegne ma non manifesta in nessuna fascia della giornata un ritorno autonomo verso qualcosa di suo; il team legge questo dato come segnalazione sulla qualità del campo che le sta intorno (saturazione del setting, pressione prestazionale, lessico professionale che non riconosce ciò che non è leggibile come traguardo), e non come tratto del suo carattere.",
+            "In un colloquio con i genitori, l'insegnante non riferisce 'cosa ha imparato' il bambino nella settimana, ma descrive in che cosa sta tornando; accetta che alla domanda dei genitori 'a cosa gli serve?' non vi sia, in questa fase, una risposta che non tradisca il fenomeno.",
+            "Una bambina che nella sezione manifesta tutti i marker positivi del gioco libero (ritorno, insistenza, investimento mantenuto) viene osservata anche nella sua biografia attraverso i contesti diversi (passaggi di gruppo, momenti con i genitori, transizioni): il team accetta che il livello del singolo episodio non disambigui tra orientamento autonomo e copione interiorizzato, e rinvia esplicitamente la lettura al livello biografico-relazionale."
+          ],
+          "linguistic_frame": "In questa sezione si guarda al modo in cui il bambino si orienta da sé verso qualcosa nel corso della giornata e dei giorni: torna, insiste, mantiene un investimento — anche quando ciò che fa non produce un esito riconoscibile dall'esterno e non si lascia raccontare come traguardo. Il bambino che 'funziona bene' nelle consegne e il bambino che sta cercando una direzione propria non si distinguono sul comportamento isolato, e questa è una distinzione che riguarda la qualità del campo prima che la qualità del soggetto.",
+          "decisional_nodes": [
+            "L'insegnante valuta come restituire ai genitori il ritorno ricorsivo del bambino senza convertirlo in indicatore di sviluppo né farlo coincidere con la grammatica narrativa del servizio.",
+            "Il team decide se e quando assumere come informazione, nei colloqui con le famiglie e nelle riunioni di progettazione, il fatto che un bambino non manifesta orientamento autonomo in nessuna fascia della giornata, evitando di ricondurre questo dato a una caratteristica individuale.",
+            "Il coordinamento pedagogico riconosce in quali condizioni la lettura va rinviata al livello biografico (passaggi di setting, trasferibilità del ritorno, comportamento in contesti dove il copione non è riconosciuto) e accetta che, nel solo qui-e-ora della sezione, l'ambiguità sia esplicitamente dichiarata e non risolta come falso positivo della genuinità."
+          ]
+        },
+        {
+          "section_id": "C",
+          "section_label": "Rapporto con il limite",
+          "domain_examples": [
+            "Un bambino di 3 anni rompe accidentalmente la propria costruzione e l'educatrice resta presente senza spiegare ('non è successo niente, lo aggiustiamo'), senza anticipare ('attento che cade'), senza convertire l'evento in regola ('lo sai che non si fa così'): l'incontro col fatto che qualcosa non torna indietro accade come evento corporeo-materiale, e la presenza adulta lo tiene senza chiuderlo.",
+            "Durante un'uscita in giardino, una bambina misura la sproporzione del proprio corpo rispetto a un dislivello che non riesce a superare; le insegnanti, presenti, non riducono la sproporzione con un sostegno preventivo né la convertono in compito di sviluppo motorio, e la bambina può abitare l'incontro col proprio limite senza che venga riparato come problema da risolvere.",
+            "In una riunione, il team riconosce che la cura nella scelta dei materiali di qualità (legno, terracotta, oggetti che si rompono) non va intesa come protezione del bambino dall'incontro con la resistenza, ma come condizione di un incontro che possa accadere senza essere immediatamente riparato dal lessico professionale o dal gesto adulto.",
+            "Dopo un evento in cui qualcosa è andato perso o si è rotto, gli adulti del servizio si interrogano su cosa sia accaduto nel minuto successivo: la propria postura ha funzionato come tenuta che resta (partecipativa o trasformativa), come riconoscimento che non entra nel campo (registrativa), come conversione dell'evento in regola o spiegazione (chiudente)? La distinzione è funzionale, non valutativa."
+          ],
+          "linguistic_frame": "In questa sezione si guarda a ciò che accade quando il bambino incontra qualcosa che resiste — il peso del proprio corpo, l'irreversibilità di un gesto, un materiale che non cede: l'adulto può stare nell'evento senza spiegarlo prima, senza ripararlo subito, senza convertirlo in regola? La differenza tra 'stare senza intervenire' come funzione che tiene la scena e 'stare senza intervenire' come osservazione che registra senza entrarvi non è un grado di qualità: è una distinzione strutturale che ha ricadute diverse sul campo del bambino.",
+          "decisional_nodes": [
+            "L'educatore decide, nel momento dell'incontro col limite reale, quale funzione svolge la propria presenza nella scena, e accetta che questa decisione appartenga alla responsabilità professionale e non possa essere ricondotta a un protocollo applicativo.",
+            "Il coordinamento pedagogico valuta come restituire alle famiglie la qualità dell'incontro col limite reale senza tradurla in 'apprendimento dell'autonomia' né in indicatore di competenza, e come sostenere il gruppo educativo nella tensione tra cultura organizzativa del rischio e tenuta dell'evento.",
+            "Il collegio docenti riconosce che la postura non interventista codificata come tecnica relazionale può convertirsi in funzione registrativa che lascia il bambino solo dentro la propria grammatica, e decide come prevenire questo scivolamento senza ricadere nell'anticipazione spiegativa."
+          ]
+        },
+        {
+          "section_id": "D",
+          "section_label": "Configurazione complessiva",
+          "domain_examples": [
+            "In un servizio che ha protetto per anni le ore centrali della mattinata come tempo non scandito, il team osserva che diversi bambini hanno traiettorie proprie e che la sezione regge come campo condiviso; al tempo stesso riconosce che la configurazione tiene grazie a condizioni non garantite (stabilità del gruppo educativo, qualità del rapporto con le famiglie, assenza di pressioni organizzative esterne) e che la sua fragilità strutturale è informazione, non difetto.",
+            "In una sezione formalmente di alto profilo sul gioco libero, gli educatori si interrogano se il fatto che tutti i marker positivi siano attivati significhi che il campo è realmente abitato o che il setting premia precisamente quella forma osservabile; il team assume l'ambiguità come informazione strutturale e rinuncia a usare la presenza dei marker come autoconvalida della genuinità della configurazione.",
+            "Una giornata in cui le ore protette reggono come campo condiviso ma le fasce di restituzione alle famiglie convertono il bambino in interfaccia di racconto viene letta come configurazione oscillante: il filo del lavoro dei giorni precedenti si interrompe e non si riprende, e questa frammentazione è informazione sul campo composto da registri co-presenti, non sulla singola bambina.",
+            "Il team riconosce che la composizione plurale della funzione adulta nel servizio (più educatori con posture funzionalmente eterogenee) è leggibile al livello sequenza della giornata e al livello struttura del servizio, non come somma di stili individuali, e che ordinare le posture su una gerarchia di adeguatezza produrrebbe gerarchie tra colleghi anziché lettura strutturale del campo."
+          ],
+          "linguistic_frame": "In questa sezione si guarda alla qualità complessiva del campo educativo nel suo insieme: tiene come orizzonte non finalizzato attraverso le diverse fasce della giornata e i diversi adulti che vi operano, o si frammenta per registri co-presenti che non si compongono? La fragilità della configurazione, quando tiene, è informazione strutturale essenziale, non un suo difetto; e quando la forma osservabile coincide pienamente con la configurazione genuina, l'ambiguità che ne resta è anch'essa informazione e non fallimento della lettura.",
+          "decisional_nodes": [
+            "Il coordinamento pedagogico decide a quale livello di scala temporale leggere la configurazione (l'episodio, la sequenza della giornata, la struttura relazionale del servizio) e si impegna a non aggregare i livelli quantitativamente.",
+            "Il team riconosce le zone in cui la configurazione apparente coincide nella forma osservabile con la configurazione genuina, e decide se rinviare la disambiguazione al livello biografico-relazionale del bambino o dichiarare esplicitamente la lettura ambigua come informazione.",
+            "Il collegio docenti valuta come tematizzare la composizione plurale della funzione adulta come questione strutturale del servizio, evitando che la distinzione funzionale tra posture (registrativa, partecipativa, trasformativa, chiudente) si converta in gerarchia di adeguatezza tra colleghi."
+          ]
+        },
+        {
+          "section_id": "E",
+          "section_label": "Ipotesi di sostegno configurativo",
+          "domain_examples": [
+            "Per sostenere il campo come orizzonte non finalizzato, il servizio tutela porzioni di giornata in cui non si introducono proposte sempre orientate a un esito riconoscibile, e protegge il lessico delle riunioni dalla colonizzazione narrativa del 'progresso del bambino' anche quando la forma narrativa appare critica della prestazione.",
+            "Per sostenere l'emergenza dell'orientamento del bambino, il team accetta di non sostituire il ritorno ricorsivo con motivazione esterna anche quando questa produrrebbe esiti più rapidamente leggibili, e valuta come restituire alle famiglie un'attività che non si lascia raccontare come traguardo né tradurre in indicatore di sviluppo.",
+            "Per preservare l'incontro non mediato col limite reale, l'organizzazione del servizio rinuncia all'anticipazione spiegativa, alla riparazione forzata e alla regolazione preventiva come strategie ordinarie di gestione del rischio, e accetta che la nominazione del limite emerga solo dopo l'evento, dentro la continuità di una relazione che ha tenuto la scena senza guidarla.",
+            "Le tre direzioni di sostegno (rafforzare il campo, sostenere l'emergenza di posizione, preservare l'incontro col limite) non si applicano come prescrizioni e non si compongono in protocollo: si abitano come tensioni che il servizio si impegna a tenere aperte come questioni pedagogiche strutturali."
+          ],
+          "linguistic_frame": "In questa sezione si guarda alle direzioni di sostegno che la lettura del campo apre: rafforzare l'orizzonte non finalizzato (il campo condiviso), riconoscere e sostenere l'orientamento del bambino come direzione interna (la sua posizione), preservare l'incontro non mediato con il limite reale (il limite come condizione del desiderio). Sono direzioni, non prescrizioni: si abitano nella tensione, non si applicano come tecniche replicabili.",
+          "decisional_nodes": [
+            "Il collegio docenti decide come tradurre la direzione 'rafforzare il campo condiviso' nelle scelte concrete del proprio servizio — tempi della giornata, organizzazione plurale degli adulti, rapporto con le famiglie — sapendo che la traduzione appartiene alla responsabilità pedagogica e non al metodo.",
+            "Il coordinamento pedagogico valuta come sostenere l'emergenza dell'orientamento del bambino senza convertirlo per costruzione in indicatore di sviluppo o in produzione narrabile, e come tenere la tensione tra restituzione alle famiglie e protezione della qualità non finalizzata dell'esperienza.",
+            "Il team riconosce che la direzione 'preservare l'incontro col limite reale' può entrare in tensione con la cultura organizzativa del rischio e con le attese delle famiglie; la tensione non si risolve come tecnica e va abitata come questione pedagogica strutturale del servizio."
+          ]
+        }
+      ],
+      "narrative_synthesis": "Nel campo educativo dei servizi 0-6 e della scuola dell'infanzia, la qualità di un gioco libero abitabile non sta nelle proposte e nei materiali offerti, ma in un orizzonte di tempo e spazio che non si lascia riempire per costruzione, dentro cui il bambino può tornare ricorsivamente verso ciò che lo chiama senza che il suo investimento debba produrre un esito leggibile dall'esterno. La presenza degli adulti regge la scena quando l'incontro del bambino con la resistenza dei materiali, con la sproporzione del proprio corpo o con l'irreversibilità di un evento non viene anticipato, spiegato o riparato prima che possa accadere — ma resta tenuto da una relazione che non si ritrae. Questa configurazione è strutturalmente fragile: dipende da condizioni del servizio non garantite (stabilità del gruppo educativo, qualità del rapporto con le famiglie, lessico professionale che non converte il non-finalizzato in narrazione di sviluppo) e può collassare per fasce e registri co-presenti della stessa giornata. Quando tutti i marker positivi sono presenti sul piano osservabile, la differenza tra il campo realmente abitato e la riproduzione fedele di un copione condiviso non è leggibile sul singolo episodio: l'ambiguità è informazione strutturale, non un fallimento della lettura, e la sua disambiguazione richiede di guardare alla biografia del bambino attraverso contesti diversi e alla forma persistente del servizio.",
+      "orientative_direction": "Il dispositivo, in questo contesto, può rendere più abitabile la qualità non finalizzata del campo educativo: aiutare i professionisti a vedere l'orizzonte che le proposte abitano senza saturarlo, e a riconoscere come informazione la fragilità della configurazione, anziché convertirla in tecnica replicabile o in indicatore di valutazione.",
+      "dispositivo_ref": {
+        "device_synthesis": "Lettura configurazionale del campo educativo come orizzonte non finalizzato dentro cui il desiderio del bambino può esercitarsi come orientamento autonomo o esserne eroso, attraverso tre livelli di scala temporale (episodio, sequenza, struttura relazionale) che non si aggregano quantitativamente, con triangolazione obbligatoria dei proxy del passaggio trasformativo e dichiarazione esplicita delle zone di ambiguità irriducibile come informazione strutturale.",
+        "function_type": "ampliare",
+        "real_time": "La lettura si esercita sui tempi della giornata educativa (fasce protette, transizioni, momenti di restituzione alle famiglie, riunioni di team) e attraversa tre livelli di scala temporale (episodio, sequenza della giornata, struttura relazionale del servizio e biografia del bambino), senza aggregazione quantitativa tra i livelli e con l'obbligo di dichiarare l'autolimitazione quando le condizioni del livello superiore non sono identificabili.",
+        "resonance_indicator": "Il professionista riconosce la differenza strutturale tra le proposte di gioco libero e l'orizzonte non finalizzato che le contiene, distingue la propria postura come funzione del campo (registrativa, partecipativa, trasformativa, chiudente) e non come grado di qualità, e nomina come informazione strutturale le zone di ambiguità irriducibile della configurazione apparente, anziché evitarle come fallimento della lettura o come autoconvalida del setting."
+      },
+      "operator_note": null
+    }
+  ]
+}
